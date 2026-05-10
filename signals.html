@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signals feed · Inference Stack</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="min-h-screen">
+  <div id="header"></div>
+
+  <main class="max-w-7xl mx-auto px-6 py-10">
+    <header class="mb-8 max-w-3xl">
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Live signals</div>
+      <h1 class="font-display text-4xl text-white leading-tight">Bottleneck commentary, in chronological order</h1>
+      <p class="mt-2 text-[color:var(--text-dim)]">Earnings calls, IR pages, SEC filings, and curated industry sources. Each entry is tagged to the layer it most affects.</p>
+    </header>
+
+    <section class="grid grid-cols-1 lg:grid-cols-[260px_1fr] gap-8">
+      <aside class="space-y-6">
+        <div>
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Search</div>
+          <input class="search" id="search" placeholder="Headline or quote…">
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Source type</div>
+          <div class="flex flex-wrap gap-1.5" id="type-filters"></div>
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Layer</div>
+          <div class="flex flex-col gap-1" id="layer-filters"></div>
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Window</div>
+          <div class="flex gap-1.5">
+            <button class="btn-ghost active" data-window="all">all</button>
+            <button class="btn-ghost" data-window="30">30d</button>
+            <button class="btn-ghost" data-window="90">90d</button>
+            <button class="btn-ghost" data-window="365">1y</button>
+          </div>
+        </div>
+        <div>
+          <button id="show-saved" class="btn-ghost w-full">Show saved only</button>
+        </div>
+      </aside>
+
+      <div>
+        <div class="flex items-center justify-between mb-4">
+          <div id="result-count" class="text-sm text-[color:var(--text-dim)]"></div>
+          <div class="text-xs text-[color:var(--text-faint)]">click ⭐ to bookmark — saved locally</div>
+        </div>
+        <div id="signals" class="grid gap-3"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script src="assets/components.js"></script>
+  <script>
+    (async () => {
+      await loadAll();
+      document.getElementById("header").innerHTML = shellHeader("signals");
+
+      const allSigs = (DATA.signals || []).slice();
+      const types = ["earnings", "filing", "industry", "news", "analyst"];
+      const typeFilters = new Set();
+      const layerFilters = new Set();
+      let windowDays = "all";
+      let query = "";
+      let savedOnly = false;
+
+      const SAVED_KEY = "inference-dashboard-saved";
+      const savedIds = new Set(JSON.parse(localStorage.getItem(SAVED_KEY) || "[]"));
+
+      // Build type filter buttons
+      const typeHost = document.getElementById("type-filters");
+      typeHost.innerHTML = types.map((t) => `<button class="btn-ghost" data-type="${t}">${t}</button>`).join("");
+
+      // Build layer filter buttons (sorted by stack order)
+      const layerHost = document.getElementById("layer-filters");
+      layerHost.innerHTML = DATA.layers.slice().sort((a, b) => a.order - b.order).map((l) =>
+        `<button class="btn-ghost text-left" data-layer="${l.id}">${l.order.toString().padStart(2, "0")} ${l.name}</button>`
+      ).join("");
+
+      function render() {
+        const q = query.trim().toLowerCase();
+        const cutoff = windowDays === "all" ? null : new Date(Date.now() - parseInt(windowDays) * 86400000);
+        const filtered = allSigs.filter((s) => {
+          if (typeFilters.size && !typeFilters.has(s.source_type)) return false;
+          if (layerFilters.size && !(s.layer_ids || []).some((id) => layerFilters.has(id))) return false;
+          if (cutoff && new Date(s.date) < cutoff) return false;
+          if (savedOnly && !savedIds.has(s.id)) return false;
+          if (q) {
+            const hay = (s.headline + " " + s.quote + " " + (s.tickers || []).join(" ") + " " + s.source).toLowerCase();
+            if (!hay.includes(q)) return false;
+          }
+          return true;
+        });
+        document.getElementById("result-count").textContent = `${filtered.length} signal${filtered.length === 1 ? "" : "s"}`;
+        const host = document.getElementById("signals");
+        host.innerHTML = filtered.slice(0, 200).map((s) => {
+          const card = renderSignalCard(s);
+          const saved = savedIds.has(s.id);
+          // Inject save star (post-hoc, since renderSignalCard is shared)
+          return card.replace(/<\/article>/, `
+            <button class="mt-2 text-xs text-[color:var(--text-faint)] hover:text-[color:var(--amber)]" data-save="${s.id}">${saved ? "★ saved" : "☆ save"}</button>
+          </article>`);
+        }).join("");
+        if (filtered.length === 0) {
+          host.innerHTML = `<div class="text-center py-16 text-[color:var(--text-faint)]">No signals match.</div>`;
+        }
+        host.querySelectorAll("[data-save]").forEach((btn) => {
+          btn.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const id = btn.getAttribute("data-save");
+            if (savedIds.has(id)) savedIds.delete(id);
+            else savedIds.add(id);
+            localStorage.setItem(SAVED_KEY, JSON.stringify([...savedIds]));
+            render();
+          });
+        });
+      }
+
+      typeHost.querySelectorAll("[data-type]").forEach((b) => {
+        b.addEventListener("click", () => {
+          const t = b.getAttribute("data-type");
+          if (typeFilters.has(t)) { typeFilters.delete(t); b.classList.remove("active"); }
+          else { typeFilters.add(t); b.classList.add("active"); }
+          render();
+        });
+      });
+      layerHost.querySelectorAll("[data-layer]").forEach((b) => {
+        b.addEventListener("click", () => {
+          const id = b.getAttribute("data-layer");
+          if (layerFilters.has(id)) { layerFilters.delete(id); b.classList.remove("active"); }
+          else { layerFilters.add(id); b.classList.add("active"); }
+          render();
+        });
+      });
+      document.querySelectorAll("[data-window]").forEach((b) => {
+        b.addEventListener("click", () => {
+          document.querySelectorAll("[data-window]").forEach((x) => x.classList.remove("active"));
+          b.classList.add("active");
+          windowDays = b.getAttribute("data-window");
+          render();
+        });
+      });
+      document.getElementById("search").addEventListener("input", (e) => { query = e.target.value; render(); });
+      document.getElementById("show-saved").addEventListener("click", (e) => {
+        savedOnly = !savedOnly;
+        e.target.classList.toggle("active", savedOnly);
+        e.target.textContent = savedOnly ? "Showing saved only ✓" : "Show saved only";
+        render();
+      });
+
+      // Pre-select layer from URL
+      const layerParam = qs("layer");
+      if (layerParam) {
+        layerFilters.add(layerParam);
+        const btn = layerHost.querySelector(`[data-layer="${layerParam}"]`);
+        if (btn) btn.classList.add("active");
+      }
+
+      render();
+    })();
+  </script>
+</body>
+</html>

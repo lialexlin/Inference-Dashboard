@@ -1,0 +1,46 @@
+# Daily refresh + commit for cloud deploy.
+#
+# To enable:
+#   1. Push the repo to GitHub
+#   2. Settings → Pages → "Deploy from branch" → main / root
+#   3. Settings → Actions → enable workflows
+#   4. Rename this file to remove the leading "_" if you've disabled it,
+#      or just commit as-is — the schedule activates automatically.
+#
+# The workflow regenerates data/*.json every morning and commits the diff
+# back to main. GitHub Pages then serves the static site at:
+#   https://<your-username>.github.io/Inference-Dashboard
+
+name: refresh-data
+on:
+  schedule:
+    - cron: "0 12 * * *"  # 12:00 UTC ≈ 7am ET / 5am PT
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+      - name: Install
+        run: pip install -e .
+      - name: Refresh data
+        run: python -m jobs.refresh
+      - name: Commit changes
+        run: |
+          git config user.name  "inference-dashboard-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ || true
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Daily data refresh ($(date -u +%Y-%m-%d))"
+            git push
+          fi

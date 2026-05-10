@@ -1,0 +1,558 @@
+[
+  {
+    "ticker": "000660.KS",
+    "name": "SK Hynix",
+    "exchange": "KRX",
+    "country": "KR",
+    "layer_id": "hbm",
+    "secondary_layers": [],
+    "role": "~62% HBM share Q2 2025; anchor supplier to NVDA/OpenAI; 2026 capacity pre-booked."
+  },
+  {
+    "ticker": "005930.KS",
+    "name": "Samsung Electronics",
+    "exchange": "KRX",
+    "country": "KR",
+    "layer_id": "hbm",
+    "secondary_layers": [
+      "foundry"
+    ],
+    "role": "NVDA-qualified on 12-Hi HBM3E; first to claim HBM4 mass production (Feb 2026)."
+  },
+  {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "hbm",
+    "secondary_layers": [],
+    "role": "15–20% HBM share; HBM sold out through CY26; power-per-watt leader."
+  },
+  {
+    "ticker": "TSM",
+    "name": "Taiwan Semiconductor",
+    "exchange": "NYSE",
+    "country": "TW",
+    "layer_id": "foundry",
+    "secondary_layers": [
+      "packaging"
+    ],
+    "role": "Effective monopoly on N3/N2 for AI silicon; controls CoWoS-S/L packaging."
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "foundry",
+    "secondary_layers": [
+      "packaging"
+    ],
+    "role": "18A risk-on; foundry remains a show-me. EMIB/Foveros qualifying with hyperscalers."
+  },
+  {
+    "ticker": "GFS",
+    "name": "GlobalFoundries",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "foundry",
+    "secondary_layers": [],
+    "role": "Mature-node foundry; not on AI leading edge but structural beneficiary of trailing-node demand."
+  },
+  {
+    "ticker": "ASX",
+    "name": "ASE Technology",
+    "exchange": "NYSE",
+    "country": "TW",
+    "layer_id": "packaging",
+    "secondary_layers": [],
+    "role": "Top OSAT; ramping CoWoP and FOPLP for CoWoS spillover."
+  },
+  {
+    "ticker": "AMKR",
+    "name": "Amkor Technology",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "packaging",
+    "secondary_layers": [],
+    "role": "US packaging buildout (Arizona); secondary CoWoS-class capacity."
+  },
+  {
+    "ticker": "2449.TW",
+    "name": "King Yuan Electronics (KYEC)",
+    "exchange": "TWSE",
+    "country": "TW",
+    "layer_id": "packaging",
+    "secondary_layers": [],
+    "role": "Testing bottleneck partner for AI packaging."
+  },
+  {
+    "ticker": "ASML",
+    "name": "ASML",
+    "exchange": "NASDAQ",
+    "country": "NL",
+    "layer_id": "wfe",
+    "secondary_layers": [],
+    "role": "EUV monopoly; 2026 guide €36–40B; €38.8B backlog. High-NA at SKH and Samsung."
+  },
+  {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "wfe",
+    "secondary_layers": [],
+    "role": "Deposition/etch breadth; HBM TSV exposure."
+  },
+  {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "wfe",
+    "secondary_layers": [],
+    "role": "Etch + memory tooling; direct HBM levered. Underappreciated for HBM TSV ramp."
+  },
+  {
+    "ticker": "KLAC",
+    "name": "KLA Corporation",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "wfe",
+    "secondary_layers": [],
+    "role": "Process control; irreplaceable at 2nm."
+  },
+  {
+    "ticker": "8035.T",
+    "name": "Tokyo Electron",
+    "exchange": "TYO",
+    "country": "JP",
+    "layer_id": "wfe",
+    "secondary_layers": [],
+    "role": "Etch/coat; strong HBM exposure."
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "gpu",
+    "secondary_layers": [
+      "networking"
+    ],
+    "role": "~85%+ of merchant AI training silicon. Blackwell sold out mid-2026."
+  },
+  {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "gpu",
+    "secondary_layers": [],
+    "role": "MI300/MI350 ramping at OpenAI, Meta inference."
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "gpu",
+    "secondary_layers": [
+      "networking"
+    ],
+    "role": "Custom-AI ASIC kingmaker (Google TPU, Meta MTIA); ~70% custom-AI share."
+  },
+  {
+    "ticker": "MRVL",
+    "name": "Marvell Technology",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "gpu",
+    "secondary_layers": [
+      "networking",
+      "optics"
+    ],
+    "role": "Trainium (AWS), Maia (MSFT), Meta DPU; underappreciated on ASIC mix shift."
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet (TPU)",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "hyperscalers",
+    "secondary_layers": [
+      "gpu"
+    ],
+    "role": "TPU is the only fully integrated hyperscaler stack (TPU + DeepMind + YT ads)."
+  },
+  {
+    "ticker": "LITE",
+    "name": "Lumentum",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "optics",
+    "secondary_layers": [],
+    "role": "Only volume supplier of 200G/lane EMLs (the 1.6T enabler). Demand 25–30% above supply."
+  },
+  {
+    "ticker": "COHR",
+    "name": "Coherent",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "optics",
+    "secondary_layers": [],
+    "role": "InP lasers sold out through 2027; 4x book-to-bill in DC."
+  },
+  {
+    "ticker": "FN",
+    "name": "Fabrinet",
+    "exchange": "NYSE",
+    "country": "TH",
+    "layer_id": "optics",
+    "secondary_layers": [],
+    "role": "Contract optical manufacturer; first $1B quarter; +36% YoY."
+  },
+  {
+    "ticker": "300308.SZ",
+    "name": "InnoLight Technology",
+    "exchange": "SZSE",
+    "country": "CN",
+    "layer_id": "optics",
+    "secondary_layers": [],
+    "role": "~50%+ of NVDA's 800G transceiver modules."
+  },
+  {
+    "ticker": "300502.SZ",
+    "name": "Eoptolink",
+    "exchange": "SZSE",
+    "country": "CN",
+    "layer_id": "optics",
+    "secondary_layers": [],
+    "role": "33% net margins, +179% revenue. High-quality optics business."
+  },
+  {
+    "ticker": "MXL",
+    "name": "MaxLinear",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "optics",
+    "secondary_layers": [],
+    "role": "Optical DSPs."
+  },
+  {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "switches",
+    "secondary_layers": [
+      "networking"
+    ],
+    "role": "Took DC switch crown from Cisco. 2026 guide ~+20%; AI/campus growth ~60%."
+  },
+  {
+    "ticker": "CSCO",
+    "name": "Cisco Systems",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "switches",
+    "secondary_layers": [
+      "networking"
+    ],
+    "role": "Raised AI infra revenue to $3B; HPE/Juniper combined now competitive."
+  },
+  {
+    "ticker": "HPE",
+    "name": "Hewlett Packard Enterprise",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "switches",
+    "secondary_layers": [],
+    "role": "Post-Juniper, full networking suite."
+  },
+  {
+    "ticker": "CLS",
+    "name": "Celestica",
+    "exchange": "NYSE",
+    "country": "CA",
+    "layer_id": "switches",
+    "secondary_layers": [],
+    "role": "White-box ODM gaining hyperscaler networking share. Sleeper."
+  },
+  {
+    "ticker": "2345.TW",
+    "name": "Accton Technology",
+    "exchange": "TWSE",
+    "country": "TW",
+    "layer_id": "switches",
+    "secondary_layers": [],
+    "role": "Taiwan white-box ODM; hyperscaler switch supplier."
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "Transformers + gas turbines; backlog $163B; 2026 DC orders $2.4B already exceed all 2025."
+  },
+  {
+    "ticker": "ETN",
+    "name": "Eaton",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "Switchgear, distribution, PDUs. DC orders +30%+ for 4 quarters."
+  },
+  {
+    "ticker": "VRT",
+    "name": "Vertiv",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "cooling",
+    "secondary_layers": [
+      "power"
+    ],
+    "role": "Power + cooling integrated; $15B backlog (+109% YoY); NVDA partner."
+  },
+  {
+    "ticker": "GNRC",
+    "name": "Generac",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "Gensets, 50–60 wk lead time vs. 70–107 wk for Cat/Cummins. Stargate slot."
+  },
+  {
+    "ticker": "CMI",
+    "name": "Cummins",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "High-HP gensets; 18-mo lead times even after $150M Fridley expansion."
+  },
+  {
+    "ticker": "HUBB",
+    "name": "Hubbell",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "Utility T&D — every grid-buildout dollar."
+  },
+  {
+    "ticker": "PWR",
+    "name": "Quanta Services",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "Substation/transmission EPC."
+  },
+  {
+    "ticker": "CAT",
+    "name": "Caterpillar",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "Gensets, prime power."
+  },
+  {
+    "ticker": "NVT",
+    "name": "nVent Electric",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "cooling",
+    "secondary_layers": [
+      "power"
+    ],
+    "role": "~30% DC exposure, growing NVDA depth."
+  },
+  {
+    "ticker": "MOD",
+    "name": "Modine Manufacturing",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "cooling",
+    "secondary_layers": [],
+    "role": "DC sales +31% sequential Q3 FY26; mgmt guides 50–70% DC growth."
+  },
+  {
+    "ticker": "SU.PA",
+    "name": "Schneider Electric",
+    "exchange": "EPA",
+    "country": "FR",
+    "layer_id": "cooling",
+    "secondary_layers": [
+      "power"
+    ],
+    "role": "Broadest DC power+cooling portfolio."
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "hyperscalers",
+    "secondary_layers": [],
+    "role": "CY26 capex $190B; CFO attributed $25B of increase to memory/component costs."
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "hyperscalers",
+    "secondary_layers": [],
+    "role": "FY26 raised $10B to >$145B; –90% FCF projected."
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "hyperscalers",
+    "secondary_layers": [],
+    "role": "~$200B FY26 capex; –$17B projected FCF."
+  },
+  {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "hyperscalers",
+    "secondary_layers": [],
+    "role": "~$50B capex; capex/sales ~86% — most stretched."
+  },
+  {
+    "ticker": "CRWV",
+    "name": "CoreWeave",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "neoclouds",
+    "secondary_layers": [],
+    "role": "~$59B mkt cap, 2026E rev ~$12.5B (+143%); 2027 ~$23.5B."
+  },
+  {
+    "ticker": "NBIS",
+    "name": "Nebius Group",
+    "exchange": "NASDAQ",
+    "country": "NL",
+    "layer_id": "neoclouds",
+    "secondary_layers": [],
+    "role": "2026E +206% rev; EV ~½ of CRWV."
+  },
+  {
+    "ticker": "CRM",
+    "name": "Salesforce",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "software",
+    "secondary_layers": [],
+    "role": "Agentforce — enterprise AI agents."
+  },
+  {
+    "ticker": "NOW",
+    "name": "ServiceNow",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "software",
+    "secondary_layers": [],
+    "role": "Now Assist; workflow AI."
+  },
+  {
+    "ticker": "SNOW",
+    "name": "Snowflake",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "software",
+    "secondary_layers": [],
+    "role": "Cortex AI on data warehouse."
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Palantir",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "software",
+    "secondary_layers": [],
+    "role": "AIP; richly priced."
+  },
+  {
+    "ticker": "CDNS",
+    "name": "Cadence Design Systems",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "eda",
+    "secondary_layers": [],
+    "role": "2026 guide raised $6.13–6.23B; TSMC alliance."
+  },
+  {
+    "ticker": "SNPS",
+    "name": "Synopsys",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "eda",
+    "secondary_layers": [],
+    "role": "~31% global EDA share; merging closes Ansys."
+  },
+  {
+    "ticker": "SIEGY",
+    "name": "Siemens (EDA)",
+    "exchange": "OTC",
+    "country": "DE",
+    "layer_id": "eda",
+    "secondary_layers": [],
+    "role": "13% EDA share."
+  },
+  {
+    "ticker": "4062.T",
+    "name": "Ibiden",
+    "exchange": "TYO",
+    "country": "JP",
+    "layer_id": "substrates",
+    "secondary_layers": [],
+    "role": "Premium FC-BGA; NVDA supplier. Quality compounder mispriced as cyclical."
+  },
+  {
+    "ticker": "3037.TW",
+    "name": "Unimicron Technology",
+    "exchange": "TWSE",
+    "country": "TW",
+    "layer_id": "substrates",
+    "secondary_layers": [],
+    "role": "Top 5 FC-BGA; expanding."
+  },
+  {
+    "ticker": "6967.T",
+    "name": "Shinko Electric",
+    "exchange": "TYO",
+    "country": "JP",
+    "layer_id": "substrates",
+    "secondary_layers": [],
+    "role": "Premium high-end (being taken private by JIC consortium)."
+  },
+  {
+    "ticker": "ATS.VI",
+    "name": "AT&S",
+    "exchange": "WBO",
+    "country": "AT",
+    "layer_id": "substrates",
+    "secondary_layers": [],
+    "role": "Austrian; Intel-aligned."
+  },
+  {
+    "ticker": "8046.TW",
+    "name": "Nan Ya PCB",
+    "exchange": "TWSE",
+    "country": "TW",
+    "layer_id": "substrates",
+    "secondary_layers": [],
+    "role": "Capacity expansion."
+  }
+]

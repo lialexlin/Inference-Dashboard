@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+jobs/cache.db
+jobs/cache.db-journal
+data/*.json.tmp
+.DS_Store
+.python-version
+uv.lock

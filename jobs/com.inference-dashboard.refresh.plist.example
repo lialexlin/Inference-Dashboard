@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Example launchd config for daily 7am local refresh on macOS.
+
+  Install:
+    1. Copy this file to ~/Library/LaunchAgents/com.inference-dashboard.refresh.plist
+    2. Edit WorkingDirectory and ProgramArguments paths to match your setup
+    3. launchctl load ~/Library/LaunchAgents/com.inference-dashboard.refresh.plist
+
+  Disable:
+    launchctl unload ~/Library/LaunchAgents/com.inference-dashboard.refresh.plist
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.inference-dashboard.refresh</string>
+  <key>WorkingDirectory</key>
+  <string>/Users/alex/alexthegreat/Inference-Dashboard</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/env</string>
+    <string>python3</string>
+    <string>-m</string>
+    <string>jobs.refresh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key><integer>7</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+  <key>RunAtLoad</key><false/>
+  <key>StandardOutPath</key>
+  <string>/Users/alex/alexthegreat/Inference-Dashboard/refresh.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/alex/alexthegreat/Inference-Dashboard/refresh.err</string>
+</dict>
+</plist>

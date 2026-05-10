@@ -1,0 +1,22 @@
+[project]
+name = "inference-dashboard"
+version = "0.1.0"
+description = "AI inference scaling stack — investing dashboard"
+requires-python = ">=3.11"
+dependencies = [
+    "yfinance>=0.2.50",
+    "feedparser>=6.0.11",
+    "requests>=2.32.0",
+    "beautifulsoup4>=4.12.3",
+    "python-dateutil>=2.9.0",
+]
+
+[tool.uv]
+dev-dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["jobs"]

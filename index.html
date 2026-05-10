@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inference Stack — bottleneck dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="min-h-screen">
+  <div id="header"></div>
+
+  <main class="max-w-7xl mx-auto px-6 py-10 relative">
+    <div class="grid-bg"></div>
+
+    <section class="relative z-10 mb-10 max-w-3xl">
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-3">15 layers · live signals · curated thesis</div>
+      <h1 class="font-display text-5xl leading-tight text-white mb-4">Where is the next bottleneck in AI inference?</h1>
+      <p class="text-[color:var(--text-dim)] text-base leading-relaxed">
+        Memory has run. The interesting question is which layer of the inference stack — packaging, optics, power, substrates — is next to re-rate. Each card maps a layer of the stack, the global key players, and a status read on whether the trade is priced in or under-appreciated.
+      </p>
+    </section>
+
+    <section class="relative z-10 mb-6 flex items-center gap-3 flex-wrap">
+      <span class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mr-2">Filter</span>
+      <button class="btn-ghost active" data-status="all">All <span id="count-all" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-status="underappreciated">Underappreciated <span id="count-underappreciated" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-status="mixed">Mixed <span id="count-mixed" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-status="priced-in">Priced-in <span id="count-priced-in" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-status="fairly-priced">Fairly priced <span id="count-fairly-priced" class="text-[color:var(--text-faint)]"></span></button>
+      <div class="ml-auto w-72"><input class="search" id="search" placeholder="Search ticker or company…"></div>
+    </section>
+
+    <section id="layers" class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-4"></section>
+
+    <div id="empty" class="text-center text-[color:var(--text-faint)] py-16 hidden">No layers match.</div>
+  </main>
+
+  <footer class="border-t border-[color:var(--border-soft)] mt-12">
+    <div class="max-w-7xl mx-auto px-6 py-6 text-xs text-[color:var(--text-faint)] flex justify-between flex-wrap gap-3">
+      <span>Personal research dashboard. Not investment advice.</span>
+      <span>Data: yfinance · SEC EDGAR · TrendForce · DigiTimes · Reuters · etc.</span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+  <script src="assets/components.js"></script>
+  <script>
+    (async () => {
+      await loadAll();
+      document.getElementById("header").innerHTML = shellHeader("overview");
+
+      const grid = document.getElementById("layers");
+      const empty = document.getElementById("empty");
+      let activeStatus = "all";
+      let query = "";
+
+      const counts = { all: DATA.layers.length };
+      for (const l of DATA.layers) counts[l.status] = (counts[l.status] || 0) + 1;
+      for (const k of Object.keys(counts)) {
+        const el = document.getElementById("count-" + k);
+        if (el) el.textContent = ` (${counts[k]})`;
+      }
+
+      function render() {
+        const q = query.trim().toLowerCase();
+        const filtered = DATA.layers
+          .slice()
+          .sort((a, b) => a.order - b.order)
+          .filter((l) => activeStatus === "all" || l.status === activeStatus)
+          .filter((l) => {
+            if (!q) return true;
+            if (l.name.toLowerCase().includes(q)) return true;
+            if (l.short_role.toLowerCase().includes(q)) return true;
+            const players = playersForLayer(l.id);
+            return players.some((p) => p.ticker.toLowerCase().includes(q) || p.name.toLowerCase().includes(q));
+          });
+        grid.innerHTML = filtered.map(renderLayerCard).join("");
+        empty.classList.toggle("hidden", filtered.length > 0);
+      }
+
+      document.querySelectorAll("[data-status]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll("[data-status]").forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          activeStatus = btn.getAttribute("data-status");
+          render();
+        });
+      });
+      document.getElementById("search").addEventListener("input", (e) => {
+        query = e.target.value;
+        render();
+      });
+      render();
+    })();
+  </script>
+</body>
+</html>

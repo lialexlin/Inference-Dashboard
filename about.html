@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sources & refresh status · Inference Stack</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="min-h-screen">
+  <div id="header"></div>
+
+  <main class="max-w-5xl mx-auto px-6 py-10">
+    <header class="mb-8">
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">About</div>
+      <h1 class="font-display text-4xl text-white leading-tight">Sources & refresh status</h1>
+      <p class="mt-2 text-[color:var(--text-dim)] max-w-2xl">All free-tier sources. Daily refresh writes JSON snapshots that the static frontend reads. Spot a feed that's been silent — that's the value of this page.</p>
+    </header>
+
+    <section class="layer-card mb-6">
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-3">Last refresh</div>
+      <div id="meta-summary" class="font-mono text-sm text-white"></div>
+    </section>
+
+    <section class="mb-10">
+      <div class="section-divider">Source health</div>
+      <table class="players">
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>Type</th>
+            <th class="text-right">Entries</th>
+            <th>Status</th>
+            <th>Last error</th>
+          </tr>
+        </thead>
+        <tbody id="health-body"></tbody>
+      </table>
+    </section>
+
+    <section class="mb-10">
+      <div class="section-divider">Coverage stats</div>
+      <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-3"></div>
+    </section>
+
+    <section class="layer-card">
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-3">Manual refresh</div>
+      <pre class="text-xs text-[color:var(--text-dim)] bg-[color:var(--bg-elev)] p-3 rounded">python -m jobs.refresh                 # full refresh
+python -m jobs.refresh --skip-rss      # prices + EDGAR only
+python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
+    </section>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script src="assets/components.js"></script>
+  <script>
+    (async () => {
+      await loadAll();
+      document.getElementById("header").innerHTML = shellHeader("about");
+
+      const meta = DATA.meta || {};
+      const sources = meta.sources || {};
+      const refreshAt = meta.last_refresh_at ? new Date(meta.last_refresh_at).toISOString().replace("T", " ").slice(0, 19) + " UTC" : "—";
+      document.getElementById("meta-summary").innerHTML = `
+        <div>Last refresh: <span class="text-[color:var(--green)]">${refreshAt}</span></div>
+        <div class="mt-1">Dashboard version: ${meta.version || "—"}</div>
+      `;
+
+      // Health rows
+      const rows = [];
+      const pricesSrc = sources.prices || {};
+      rows.push({
+        name: "yfinance (prices + fundamentals)",
+        type: "prices",
+        entries: pricesSrc.ok || 0,
+        ok: (pricesSrc.ok || 0) > 0,
+        err: Object.entries(pricesSrc.errors || {}).map(([k, v]) => `${k}: ${v}`).join("; ") || "",
+      });
+      const edgarSrc = sources.edgar || {};
+      rows.push({
+        name: "SEC EDGAR (8-K / 10-Q / 10-K)",
+        type: "filings",
+        entries: edgarSrc.entries || 0,
+        ok: (edgarSrc.entries || 0) > 0,
+        err: Object.entries(edgarSrc.errors || {}).map(([k, v]) => `${k}: ${v}`).join("; ") || "",
+      });
+      const rssSrc = sources.rss || {};
+      const perSrc = rssSrc.per_source_counts || {};
+      const errs = rssSrc.errors || {};
+      Object.keys(perSrc).forEach((name) => {
+        rows.push({
+          name,
+          type: "rss",
+          entries: perSrc[name],
+          ok: perSrc[name] > 0,
+          err: errs[name] || "",
+        });
+      });
+
+      document.getElementById("health-body").innerHTML = rows.map((r) => `
+        <tr>
+          <td class="text-white">${escapeHtml(r.name)}</td>
+          <td><span class="tag tag--${r.type === "filings" ? "filing" : r.type === "rss" ? "industry" : "news"}">${r.type}</span></td>
+          <td class="num text-right">${r.entries}</td>
+          <td>${r.ok ? '<span class="text-[color:var(--green)] text-xs">● ok</span>' : '<span class="text-[color:var(--rose)] text-xs">● error</span>'}</td>
+          <td class="text-xs text-[color:var(--text-faint)]">${escapeHtml(r.err)}</td>
+        </tr>
+      `).join("");
+
+      // Coverage stats
+      const tickerCount = DATA.players.length;
+      const priceCount = Object.keys(DATA.prices || {}).length;
+      const sigStats = meta.signals || {};
+      const stats = [
+        { label: "Layers tracked", value: DATA.layers.length },
+        { label: "Tickers tracked", value: tickerCount },
+        { label: "Price coverage", value: `${priceCount} / ${tickerCount}` },
+        { label: "Signals indexed", value: sigStats.total || (DATA.signals || []).length },
+      ];
+      document.getElementById("stats").innerHTML = stats.map((s) => `
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)]">${s.label}</div>
+          <div class="font-mono text-2xl text-white mt-2 tabular-nums">${s.value}</div>
+        </div>
+      `).join("");
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Layer detail · Inference Stack</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="min-h-screen">
+  <div id="header"></div>
+
+  <main class="max-w-7xl mx-auto px-6 py-10">
+    <div id="content"></div>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script src="assets/components.js"></script>
+  <script>
+    (async () => {
+      await loadAll();
+      document.getElementById("header").innerHTML = shellHeader("overview");
+
+      const id = qs("id");
+      const layer = layerById(id);
+      const root = document.getElementById("content");
+      if (!layer) {
+        root.innerHTML = `<div class="text-center py-24 text-[color:var(--text-faint)]">Layer not found. <a class="underline" href="index.html">Back to overview</a>.</div>`;
+        return;
+      }
+
+      const players = playersForLayer(id);
+      const recentSignals = (DATA.signals || [])
+        .filter((s) => (s.layer_ids || []).includes(id))
+        .slice(0, 12);
+
+      const sources = (layer.key_sources || []).map((s) =>
+        `<a href="${s.url}" target="_blank" rel="noopener" class="block text-sm text-[color:var(--sky)] hover:underline mb-1">${escapeHtml(s.name)} <span class="text-[color:var(--text-faint)]">↗</span></a>`
+      ).join("");
+
+      // Markdown content fetch
+      const mdPath = `content/layers/${String(layer.order).padStart(2, "0")}-${layer.id}.md`;
+      let mdBody = "";
+      try {
+        const r = await fetch(mdPath);
+        if (r.ok) mdBody = await r.text();
+      } catch (e) {}
+
+      root.innerHTML = `
+        <a href="index.html" class="text-xs text-[color:var(--text-faint)] hover:text-[color:var(--text-dim)]">← back to stack overview</a>
+
+        <header class="mt-4 mb-8 flex items-start justify-between gap-6 flex-wrap">
+          <div>
+            <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-3">Layer ${layer.order} of 15</div>
+            <h1 class="font-display text-5xl text-white leading-tight max-w-3xl">${layer.name}</h1>
+            <p class="mt-3 text-[color:var(--text-dim)] max-w-2xl">${layer.short_role}</p>
+          </div>
+          <span class="badge badge--${layer.status}">${statusLabel(layer.status)}</span>
+        </header>
+
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-10">
+          <div class="lg:col-span-2 layer-card">
+            <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Bottleneck status</div>
+            <p class="text-[15px] text-[color:var(--text)] leading-relaxed">${escapeHtml(layer.bottleneck_summary)}</p>
+            <p class="mt-3 text-sm text-[color:var(--text-dim)] italic">${escapeHtml(layer.status_note)}</p>
+          </div>
+          <div class="layer-card">
+            <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Primary sources</div>
+            <div>${sources || '<div class="text-sm text-[color:var(--text-faint)]">—</div>'}</div>
+          </div>
+        </section>
+
+        <div class="section-divider">What it does</div>
+        <section class="markdown max-w-3xl"></section>
+
+        <div class="section-divider">Players (${players.length})</div>
+        <section>
+          <table class="players">
+            <thead>
+              <tr>
+                <th>Ticker</th><th>Company</th><th class="hidden md:table-cell">Role</th>
+                <th class="text-right">Last</th>
+                <th class="text-right">1m</th>
+                <th class="text-right">6m</th>
+                <th class="text-right">YTD</th>
+                <th class="text-right hidden md:table-cell">Mkt cap</th>
+                <th class="text-right hidden md:table-cell">P/E fwd</th>
+              </tr>
+            </thead>
+            <tbody id="players-body"></tbody>
+          </table>
+        </section>
+
+        <div id="chart-host" class="hidden mt-6 layer-card">
+          <div class="flex items-center justify-between mb-3">
+            <div>
+              <span class="text-xs uppercase tracking-widest text-[color:var(--text-faint)]">Selected</span>
+              <span id="chart-ticker" class="ml-2 font-mono text-white"></span>
+            </div>
+            <button id="chart-close" class="btn-ghost">close</button>
+          </div>
+          <div id="chart" style="height: 280px;"></div>
+        </div>
+
+        <div class="section-divider">Recent signals (last ${recentSignals.length})</div>
+        <section id="signals" class="grid gap-3"></section>
+        ${recentSignals.length === 0 ? '<div class="text-sm text-[color:var(--text-faint)] py-4">No tagged signals yet for this layer — check back after the next refresh.</div>' : ''}
+      `;
+
+      // Render markdown
+      if (mdBody) {
+        document.querySelector("section.markdown").innerHTML = marked.parse(mdBody);
+      } else {
+        document.querySelector("section.markdown").innerHTML = '<p class="text-sm text-[color:var(--text-faint)]">Long-form content pending.</p>';
+      }
+
+      // Players table
+      const tbody = document.getElementById("players-body");
+      tbody.innerHTML = players.map((p) => {
+        const px = DATA.prices[p.ticker] || {};
+        const f = DATA.fundamentals[p.ticker] || {};
+        const c1 = px.change_1m, c6 = px.change_6m, cy = px.change_ytd;
+        return `
+          <tr data-ticker="${p.ticker}" class="cursor-pointer">
+            <td><span class="ticker text-white">${p.ticker}</span></td>
+            <td><div class="text-white">${escapeHtml(p.name)}</div><div class="text-xs text-[color:var(--text-faint)]">${escapeHtml(p.exchange)} · ${escapeHtml(p.country)}</div></td>
+            <td class="text-sm text-[color:var(--text-dim)] hidden md:table-cell max-w-md">${escapeHtml(p.role)}</td>
+            <td class="num text-right">${fmtPrice(px.last_close, px.currency)}</td>
+            <td class="num text-right ${changeClass(c1) === 'up' ? 'text-[color:var(--green)]' : changeClass(c1) === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]'}">${fmtPct(c1)}</td>
+            <td class="num text-right ${changeClass(c6) === 'up' ? 'text-[color:var(--green)]' : changeClass(c6) === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]'}">${fmtPct(c6)}</td>
+            <td class="num text-right ${changeClass(cy) === 'up' ? 'text-[color:var(--green)]' : changeClass(cy) === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]'}">${fmtPct(cy)}</td>
+            <td class="num text-right text-[color:var(--text-dim)] hidden md:table-cell">${fmtMcap(f.market_cap)}</td>
+            <td class="num text-right text-[color:var(--text-dim)] hidden md:table-cell">${fmtPE(f.pe_forward)}</td>
+          </tr>`;
+      }).join("");
+
+      // Signals
+      document.getElementById("signals").innerHTML = recentSignals.map(renderSignalCard).join("");
+
+      // Chart
+      const chartHost = document.getElementById("chart-host");
+      const chartEl = document.getElementById("chart");
+      const chart = echarts.init(chartEl, null, { renderer: "canvas" });
+      const renderChart = (ticker) => {
+        const px = DATA.prices[ticker];
+        if (!px || !px.history) return;
+        document.getElementById("chart-ticker").textContent = `${ticker} · ${px.currency} · 1y daily close`;
+        chart.setOption({
+          grid: { left: 50, right: 20, top: 20, bottom: 30 },
+          xAxis: { type: "category", data: px.history.map((h) => h.date), axisLabel: { color: "#9a9aa6", fontSize: 11 }, axisLine: { lineStyle: { color: "#232331" } } },
+          yAxis: { type: "value", scale: true, axisLabel: { color: "#9a9aa6", fontSize: 11 }, splitLine: { lineStyle: { color: "#1a1a23" } } },
+          tooltip: { trigger: "axis", backgroundColor: "#15151c", borderColor: "#232331", textStyle: { color: "#e8e8ec" } },
+          series: [{
+            type: "line", smooth: true, symbol: "none",
+            data: px.history.map((h) => h.close),
+            lineStyle: { width: 1.5, color: "#a78bfa" },
+            areaStyle: { color: { type: "linear", x: 0, y: 0, x2: 0, y2: 1, colorStops: [{ offset: 0, color: "rgba(167,139,250,0.25)" }, { offset: 1, color: "rgba(167,139,250,0)" }] } },
+          }],
+          backgroundColor: "transparent",
+        });
+        chartHost.classList.remove("hidden");
+        chart.resize();
+        chartEl.scrollIntoView({ behavior: "smooth", block: "center" });
+      };
+      tbody.querySelectorAll("tr[data-ticker]").forEach((tr) => {
+        tr.addEventListener("click", () => renderChart(tr.getAttribute("data-ticker")));
+      });
+      document.getElementById("chart-close").addEventListener("click", () => chartHost.classList.add("hidden"));
+
+      // Auto-open chart if URL has #TICKER hash
+      const hashTicker = decodeURIComponent((location.hash || "").replace("#", ""));
+      if (hashTicker && DATA.prices[hashTicker]) renderChart(hashTicker);
+
+      window.addEventListener("resize", () => chart.resize());
+    })();
+  </script>
+</body>
+</html>

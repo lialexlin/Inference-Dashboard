@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-05-10T04:37:26.407381+00:00",
+  "last_refresh_at": "2026-05-10T12:48:25.029068+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-05-10T04:37:48.156984+00:00"
+      "ts": "2026-05-10T12:48:47.395107+00:00"
     },
     "rss": {
       "ok": 7,
@@ -26,20 +26,20 @@
       },
       "errors": {
         "The Register": "bozo: <unknown>:116:22: not well-formed (invalid token)",
-        "Mule Capital": "bozo: <unknown>:30:133: not well-formed (invalid token)",
+        "Mule Capital": "bozo: <unknown>:2:1326: not well-formed (invalid token)",
         "AnandTech (Wayback)": "bozo: <unknown>:113:62: not well-formed (invalid token)"
       },
-      "ts": "2026-05-10T04:37:55.578254+00:00"
+      "ts": "2026-05-10T12:48:52.267444+00:00"
     },
     "edgar": {
       "entries": 103,
       "errors": {},
-      "ts": "2026-05-10T04:38:15.570873+00:00"
+      "ts": "2026-05-10T12:49:02.416897+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 148,
-    "total": 174
+    "discovered_kept": 145,
+    "total": 171
   }
 }

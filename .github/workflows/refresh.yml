@@ -1,15 +1,16 @@
 # Daily refresh + commit for cloud deploy.
 #
-# To enable:
-#   1. Push the repo to GitHub
-#   2. Settings → Pages → "Deploy from branch" → main / root
-#   3. Settings → Actions → enable workflows
-#   4. Rename this file to remove the leading "_" if you've disabled it,
-#      or just commit as-is — the schedule activates automatically.
+# Regenerates data/*.json every morning and commits the diff back to main.
+# GitHub Pages then serves the static site at:
+#   https://lialexlin.github.io/Inference-Dashboard
 #
-# The workflow regenerates data/*.json every morning and commits the diff
-# back to main. GitHub Pages then serves the static site at:
-#   https://<your-username>.github.io/Inference-Dashboard
+# Stages: CIQ → prices → RSS → EDGAR (see jobs/refresh.py).
+# CIQ stage needs SF_ACCOUNT/SF_USER/SF_PASS as repo secrets
+# (Settings → Secrets and variables → Actions). Without them the stage
+# logs a connect error and preserves prior ciq.* blocks; other stages
+# still run.
+#
+# Manual run: Actions → refresh-data → Run workflow.
 
 name: refresh-data
 on:

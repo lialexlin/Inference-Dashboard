@@ -35,7 +35,7 @@ This was a deliberate choice: portable to GitHub Pages without changes, no toolc
 | `jobs/sources/edgar.py` | SEC submissions API. `CIK_MAP` dict — add new US tickers here. | Adding US tickers |
 | `jobs/transform.py` | `LAYER_KEYWORDS` for keyword→layer routing; aliases for ticker matching | Tagging precision |
 | `launch.command` / `refresh.command` | Double-clickable macOS launchers | — |
-| `.github/workflows/refresh.yml` | Daily refresh + commit for cloud deploy. Disabled until pushed to GitHub. | Cloud migration |
+| `.github/workflows/refresh.yml` | Daily refresh + commit, runs on GitHub-hosted Ubuntu. Active — cron `0 12 * * *` (12:00 UTC). Bot commits as `inference-dashboard-bot`. | Schedule / stage / secret changes |
 | `jobs/com.inference-dashboard.refresh.plist.example` | launchd template for macOS daily refresh | Local automation |
 
 ## How to run
@@ -50,6 +50,14 @@ uv add <pkg>                            # add a dep (updates pyproject + lockfil
 ```
 
 Or **double-click `launch.command`** for one-click open. **`refresh.command`** for one-click data update. Both wrap `uv run`.
+
+## Cloud refresh (GitHub Actions)
+
+`.github/workflows/refresh.yml` runs daily at **12:00 UTC** on a GitHub-hosted Ubuntu runner and on manual `workflow_dispatch`. Same `python -m jobs.refresh` as local — runs all four stages (CIQ → prices → RSS → EDGAR), atomic writes, then `git add data/ && git commit && git push` as `inference-dashboard-bot`. GitHub Pages auto-redeploys on the push, so the live site refreshes ~2 min after the cron fires.
+
+CIQ stage needs Snowflake creds. Set as GitHub Actions repo secrets (Settings → Secrets and variables → Actions): `SF_ACCOUNT`, `SF_USER`, `SF_PASS`. Without them the CIQ stage logs `CIQ connect failed`, preserves prior `ciq.*` blocks, and continues with the other stages.
+
+**Race-with-bot gotcha:** if you push from your laptop after the bot has pushed the same day, `git push` rejects. `git pull --rebase` will conflict on `data/meta.json` / `data/prices.json`. Resolve with `git checkout --theirs data/meta.json data/prices.json` (your local data is normally the superset, especially if you ran CIQ locally), then `git rebase --continue`.
 
 ## Refresh model
 

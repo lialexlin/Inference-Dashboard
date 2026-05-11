@@ -32,6 +32,10 @@ jobs:
       - name: Install
         run: pip install -e .
       - name: Refresh data
+        env:
+          SF_ACCOUNT: ${{ secrets.SF_ACCOUNT }}
+          SF_USER: ${{ secrets.SF_USER }}
+          SF_PASS: ${{ secrets.SF_PASS }}
         run: python -m jobs.refresh
       - name: Commit changes
         run: |

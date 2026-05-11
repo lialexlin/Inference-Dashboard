@@ -7,6 +7,7 @@ Usage:
     python -m jobs.refresh                # full refresh
     python -m jobs.refresh --skip-rss     # for fast local iteration
     python -m jobs.refresh --skip-edgar
+    python -m jobs.refresh --skip-ciq     # skip Capital IQ (e.g. when warehouse paused)
     python -m jobs.refresh --tickers AAPL,MSFT  # subset (debug)
 """
 from __future__ import annotations
@@ -24,6 +25,7 @@ from jobs import transform
 from jobs.sources import prices as prices_src
 from jobs.sources import rss as rss_src
 from jobs.sources import edgar as edgar_src
+from jobs.sources import capital_iq as ciq_src
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -47,13 +49,15 @@ def main() -> int:
     p.add_argument("--skip-prices", action="store_true")
     p.add_argument("--skip-rss", action="store_true")
     p.add_argument("--skip-edgar", action="store_true")
-    p.add_argument("--tickers", help="comma-separated ticker subset for prices/edgar (debug)")
+    p.add_argument("--skip-ciq", action="store_true")
+    p.add_argument("--tickers", help="comma-separated ticker subset for prices/edgar/ciq (debug)")
     p.add_argument("-v", "--verbose", action="store_true")
     args = p.parse_args()
 
     logging.basicConfig(
         level=logging.DEBUG if args.verbose else logging.INFO,
         format="%(asctime)s %(levelname)s %(name)s %(message)s",
+        force=True,  # otherwise pyenv blake2 root-handler shadows our config
     )
     log = logging.getLogger("refresh")
 
@@ -82,12 +86,65 @@ def main() -> int:
         "sources": dict(prev_meta.get("sources", {})),
     }
 
+    # Capital IQ ----------------------------------------------------------
+    # Run before yfinance: the heavy fundamentals + multiples come from CIQ
+    # when available; yfinance fills the forward-data gap (forwardPE, target
+    # prices) that CIQ's Xpressfeed subscription doesn't include.
+    prev_fund = _load_json(DATA / "fundamentals.json", {})
+    ciq_blocks: dict[str, dict] = {}
+    ciq_history: dict[str, dict] = _load_json(DATA / "multiples_history.json", {})
+
+    if not args.skip_ciq:
+        ciq_mapping = _load_json(DATA / "ciq_mapping.json", {})
+        if not ciq_mapping:
+            log.warning("data/ciq_mapping.json missing — run `python -m jobs.seed --refresh-ciq-mapping` to enable CIQ stage. Skipping.")
+        else:
+            country = {p["ticker"]: p.get("country", "US") for p in players}
+            cid_map = {t: v["company_id"] for t, v in ciq_mapping.items()
+                       if t in tickers and v.get("company_id") is not None}
+            currency_map = {t: ciq_src.COUNTRY_TO_CURRENCY.get(country.get(t, "US"), "USD")
+                            for t in cid_map}
+            log.info("Fetching CIQ for %d tickers (%d resolved) ...", len(tickers), len(cid_map))
+            try:
+                cr = ciq_src.fetch(list(cid_map.keys()), cid_map, currency_map)
+                ciq_blocks = cr.snapshot
+                # Merge new history into prior history (preserve unrefreshed tickers)
+                ciq_history.update(cr.history)
+                _write_json(DATA / "multiples_history.json", ciq_history)
+                meta["sources"]["ciq"] = {
+                    "ok": len(cr.snapshot),
+                    "history_tickers": len(cr.history),
+                    "errors": cr.errors,
+                    "unmapped": [t for t in tickers if cid_map.get(t) is None],
+                    "ts": datetime.now(timezone.utc).isoformat(),
+                }
+                log.info("CIQ: %d snapshots, %d histories, %d errors",
+                         len(cr.snapshot), len(cr.history), len(cr.errors))
+            except Exception as e:
+                log.error("CIQ stage failed: %s — preserving prior fundamentals.json ciq blocks", e)
+                meta["sources"]["ciq"] = {
+                    "ok": 0, "history_tickers": 0,
+                    "errors": {"__stage__": str(e)},
+                    "ts": datetime.now(timezone.utc).isoformat(),
+                }
+                # Re-use prior CIQ blocks so the frontend doesn't lose data.
+                ciq_blocks = {t: prev_fund[t]["ciq"] for t in prev_fund
+                              if isinstance(prev_fund[t], dict) and prev_fund[t].get("ciq")}
+    else:
+        log.info("Skipping CIQ.")
+        ciq_blocks = {t: prev_fund[t]["ciq"] for t in prev_fund
+                      if isinstance(prev_fund[t], dict) and prev_fund[t].get("ciq")}
+
     # Prices + fundamentals -----------------------------------------------
     if not args.skip_prices:
         log.info("Fetching prices for %d tickers ...", len(tickers))
         pr = prices_src.fetch(tickers)
         _write_json(DATA / "prices.json", pr.prices)
-        _write_json(DATA / "fundamentals.json", pr.fundamentals)
+        # Merge yfinance fundamentals with CIQ blocks under a `ciq` sub-key.
+        merged_fund = dict(pr.fundamentals)
+        for t, block in ciq_blocks.items():
+            merged_fund.setdefault(t, {})["ciq"] = block
+        _write_json(DATA / "fundamentals.json", merged_fund)
         meta["sources"]["prices"] = {
             "ok": len(pr.prices),
             "errors": pr.errors,
@@ -96,6 +153,11 @@ def main() -> int:
         log.info("Prices: %d ok, %d errors", len(pr.prices), len(pr.errors))
     else:
         log.info("Skipping prices.")
+        # Even when prices skipped, refresh the ciq-merged fundamentals if CIQ ran.
+        if ciq_blocks:
+            for t, block in ciq_blocks.items():
+                prev_fund.setdefault(t, {})["ciq"] = block
+            _write_json(DATA / "fundamentals.json", prev_fund)
 
     # RSS feeds ----------------------------------------------------------
     discovered: list[dict] = []
@@ -158,7 +220,7 @@ def main() -> int:
     }
     _write_json(DATA / "meta.json", meta)
 
-    log.info("Refresh done. Signals: %d (%d curated + %d discovered).", len(merged), len(curated_only), len(relevant))
+    log.info("Refresh done. Signals: %d (%d curated + %d discovered).", len(merged), len(curated_only), kept_count)
     return 0
 
 

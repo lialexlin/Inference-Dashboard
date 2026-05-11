@@ -20,4 +20,4 @@ echo "  └───────────────────────
 echo ""
 
 (sleep 1 && open "$URL") &
-exec python3 -m http.server "$PORT"
+exec uv run python -m http.server "$PORT"

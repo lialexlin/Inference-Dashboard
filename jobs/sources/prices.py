@@ -56,10 +56,38 @@ def _ytd_change(history: list[dict]) -> float | None:
     return round((today_close - first_of_year["close"]) / first_of_year["close"] * 100, 2)
 
 
+def _fx_to_usd(currency: str, cache: dict[str, float | None]) -> float | None:
+    """Rate such that `usd_amount = local_amount / rate`. yfinance pair `USDxxx=X`
+    quotes 1 USD in local currency. Returns None on failure (caller falls back)."""
+    if not currency or currency == "USD":
+        return 1.0
+    if currency in cache:
+        return cache[currency]
+    import yfinance as yf
+
+    try:
+        h = yf.Ticker(f"USD{currency}=X").history(period="5d", auto_adjust=False)
+        if h is None or h.empty:
+            cache[currency] = None
+            return None
+        rate = float(h["Close"].iloc[-1])
+        if math.isnan(rate) or rate <= 0:
+            cache[currency] = None
+            return None
+        cache[currency] = rate
+        log.info("FX USD/%s = %s", currency, rate)
+        return rate
+    except Exception as e:
+        log.warning("FX fetch failed for USD/%s: %s", currency, e)
+        cache[currency] = None
+        return None
+
+
 def fetch(tickers: list[str]) -> PriceResult:
     import yfinance as yf
 
     result = PriceResult()
+    fx_cache: dict[str, float | None] = {}
     for ticker in tickers:
         try:
             yt = yf.Ticker(ticker)
@@ -94,8 +122,12 @@ def fetch(tickers: list[str]) -> PriceResult:
                 "change_ytd": _ytd_change(history),
                 "history": history,
             }
+            mcap_native = _safe_float(info.get("marketCap"))
+            fx = _fx_to_usd(currency, fx_cache)
+            mcap_usd = mcap_native / fx if (mcap_native is not None and fx) else None
             result.fundamentals[ticker] = {
-                "market_cap": _safe_float(info.get("marketCap")),
+                "market_cap": mcap_native,
+                "market_cap_usd": mcap_usd,
                 "pe_trailing": _safe_float(info.get("trailingPE")),
                 "pe_forward": _safe_float(info.get("forwardPE")),
                 "revenue_growth": _safe_float(info.get("revenueGrowth")),

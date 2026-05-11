@@ -87,7 +87,11 @@
                 <th class="text-right">6m</th>
                 <th class="text-right">YTD</th>
                 <th class="text-right hidden md:table-cell">Mkt cap</th>
-                <th class="text-right hidden md:table-cell">P/E fwd</th>
+                <th class="text-right hidden md:table-cell" title="Forward P/E from yfinance (consensus EPS)">P/E fwd</th>
+                <th class="text-right hidden lg:table-cell" title="Trailing EV/EBITDA — S&P Capital IQ">EV/EBITDA</th>
+                <th class="text-right hidden lg:table-cell" title="Price/Sales — S&P Capital IQ">P/S</th>
+                <th class="text-right hidden lg:table-cell" title="EBITDA margin (latest fiscal year) — S&P Capital IQ">EBITDA mgn</th>
+                <th class="text-right hidden lg:table-cell" title="Revenue YoY (latest fiscal year) — S&P Capital IQ">Rev YoY</th>
               </tr>
             </thead>
             <tbody id="players-body"></tbody>
@@ -122,7 +126,10 @@
       tbody.innerHTML = players.map((p) => {
         const px = DATA.prices[p.ticker] || {};
         const f = DATA.fundamentals[p.ticker] || {};
+        const ciq = f.ciq || {};
         const c1 = px.change_1m, c6 = px.change_6m, cy = px.change_ytd;
+        // Prefer CIQ market cap (currency-aware via reporting currency) over yfinance's.
+        const mcap = ciq.market_cap_usd ?? f.market_cap_usd ?? (f.currency === "USD" ? f.market_cap : null);
         return `
           <tr data-ticker="${p.ticker}" class="cursor-pointer">
             <td><span class="ticker text-white">${p.ticker}</span></td>
@@ -132,8 +139,12 @@
             <td class="num text-right ${changeClass(c1) === 'up' ? 'text-[color:var(--green)]' : changeClass(c1) === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]'}">${fmtPct(c1)}</td>
             <td class="num text-right ${changeClass(c6) === 'up' ? 'text-[color:var(--green)]' : changeClass(c6) === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]'}">${fmtPct(c6)}</td>
             <td class="num text-right ${changeClass(cy) === 'up' ? 'text-[color:var(--green)]' : changeClass(cy) === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]'}">${fmtPct(cy)}</td>
-            <td class="num text-right text-[color:var(--text-dim)] hidden md:table-cell">${fmtMcap(f.market_cap)}</td>
+            <td class="num text-right text-[color:var(--text-dim)] hidden md:table-cell">${fmtMcap(mcap)}</td>
             <td class="num text-right text-[color:var(--text-dim)] hidden md:table-cell">${fmtPE(f.pe_forward)}</td>
+            <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${fmtMultiple(ciq.ev_ebitda)}</td>
+            <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${fmtMultiple(ciq.p_s)}</td>
+            <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${fmtPct(ciq.ebitda_margin != null ? ciq.ebitda_margin * 100 : null)}</td>
+            <td class="num text-right ${changeClass(ciq.revenue_yoy != null ? ciq.revenue_yoy * 100 : null) === 'up' ? 'text-[color:var(--green)]' : changeClass(ciq.revenue_yoy != null ? ciq.revenue_yoy * 100 : null) === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]'} hidden lg:table-cell">${fmtPct(ciq.revenue_yoy != null ? ciq.revenue_yoy * 100 : null)}</td>
           </tr>`;
       }).join("");
 

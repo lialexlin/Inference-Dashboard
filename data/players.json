@@ -69,6 +69,15 @@
     "role": "Top OSAT; ramping CoWoP and FOPLP for CoWoS spillover."
   },
   {
+    "ticker": "3711.TW",
+    "name": "ASE Technology Holding",
+    "exchange": "TWSE",
+    "country": "TW",
+    "layer_id": "packaging",
+    "secondary_layers": [],
+    "role": "TWSE parent of ASX; primary listing for the CoWoP/FOPLP capacity story; carries Taiwan-side daily price discovery."
+  },
+  {
     "ticker": "AMKR",
     "name": "Amkor Technology",
     "exchange": "NASDAQ",
@@ -363,6 +372,33 @@
     "role": "Gensets, prime power."
   },
   {
+    "ticker": "CEG",
+    "name": "Constellation Energy",
+    "exchange": "NASDAQ",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "Largest US nuclear operator; MSFT PPA to restart Three Mile Island Unit 1 for AI baseload."
+  },
+  {
+    "ticker": "OKLO",
+    "name": "Oklo Inc.",
+    "exchange": "NYSE",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "SMR developer (Aurora powerhouse); Sam Altman-backed; pure-play on AI-driven SMR demand."
+  },
+  {
+    "ticker": "LEU",
+    "name": "Centrus Energy",
+    "exchange": "NYSE-AM",
+    "country": "US",
+    "layer_id": "power",
+    "secondary_layers": [],
+    "role": "Sole US producer of HALEU; fuel bottleneck for advanced reactors and SMRs."
+  },
+  {
     "ticker": "NVT",
     "name": "nVent Electric",
     "exchange": "NYSE",
@@ -392,6 +428,33 @@
       "power"
     ],
     "role": "Broadest DC power+cooling portfolio."
+  },
+  {
+    "ticker": "3017.TW",
+    "name": "Asia Vital Components (AVC)",
+    "exchange": "TWSE",
+    "country": "TW",
+    "layer_id": "cooling",
+    "secondary_layers": [],
+    "role": "Taiwan thermal leader; liquid cooling + vapor chambers for AI servers; key supplier into NVDA OEMs."
+  },
+  {
+    "ticker": "3653.TW",
+    "name": "Jentech Precision Industrial",
+    "exchange": "TWSE",
+    "country": "TW",
+    "layer_id": "cooling",
+    "secondary_layers": [],
+    "role": "Heat-spreader / vapor-chamber specialist for AI-server thermal solutions."
+  },
+  {
+    "ticker": "3324.TWO",
+    "name": "Auras Technology",
+    "exchange": "TPEx",
+    "country": "TW",
+    "layer_id": "cooling",
+    "secondary_layers": [],
+    "role": "Liquid cooling / cold-plate supplier on TPEx; pure-play AI thermal beneficiary."
   },
   {
     "ticker": "MSFT",

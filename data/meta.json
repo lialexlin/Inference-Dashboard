@@ -1,22 +1,21 @@
 {
-  "last_refresh_at": "2026-05-10T12:48:25.029068+00:00",
+  "last_refresh_at": "2026-05-10T11:04:57.751591+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
-      "ok": 58,
+      "ok": 65,
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-05-10T12:48:47.395107+00:00"
+      "ts": "2026-05-10T11:05:43.039194+00:00"
     },
     "rss": {
-      "ok": 7,
-      "total_entries": 121,
+      "ok": 6,
+      "total_entries": 96,
       "per_source_counts": {
         "TrendForce": 20,
         "Reuters Tech": 25,
         "DigiTimes": 25,
-        "Tom's Hardware": 25,
         "ServeTheHome": 6,
         "The Register": 0,
         "SemiAnalysis": 10,
@@ -26,20 +25,29 @@
       },
       "errors": {
         "The Register": "bozo: <unknown>:116:22: not well-formed (invalid token)",
-        "Mule Capital": "bozo: <unknown>:2:1326: not well-formed (invalid token)",
+        "Mule Capital": "bozo: <unknown>:30:133: not well-formed (invalid token)",
         "AnandTech (Wayback)": "bozo: <unknown>:113:62: not well-formed (invalid token)"
       },
-      "ts": "2026-05-10T12:48:52.267444+00:00"
+      "ts": "2026-05-10T11:05:49.645782+00:00"
     },
     "edgar": {
-      "entries": 103,
+      "entries": 124,
       "errors": {},
-      "ts": "2026-05-10T12:49:02.416897+00:00"
+      "ts": "2026-05-10T11:06:09.011261+00:00"
+    },
+    "ciq": {
+      "ok": 65,
+      "history_tickers": 64,
+      "errors": {},
+      "unmapped": [
+        "6967.T"
+      ],
+      "ts": "2026-05-10T11:05:20.573676+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 145,
-    "total": 171
+    "discovered_kept": 163,
+    "total": 189
   }
 }

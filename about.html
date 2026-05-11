@@ -71,11 +71,24 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
       const rows = [];
       const pricesSrc = sources.prices || {};
       rows.push({
-        name: "yfinance (prices + fundamentals)",
+        name: "yfinance (prices + forward P/E)",
         type: "prices",
         entries: pricesSrc.ok || 0,
         ok: (pricesSrc.ok || 0) > 0,
         err: Object.entries(pricesSrc.errors || {}).map(([k, v]) => `${k}: ${v}`).join("; ") || "",
+      });
+      const ciqSrc = sources.ciq || {};
+      const ciqStageErr = (ciqSrc.errors || {}).__stage__;
+      rows.push({
+        name: "S&P Capital IQ (multiples + fundamentals + 8y history)",
+        type: "prices",
+        entries: ciqSrc.ok || 0,
+        ok: !ciqStageErr && (ciqSrc.ok || 0) > 0,
+        err: ciqStageErr
+          ? `stage failed: ${ciqStageErr}`
+          : (ciqSrc.unmapped || []).length
+            ? `unmapped: ${(ciqSrc.unmapped || []).join(", ")}`
+            : "",
       });
       const edgarSrc = sources.edgar || {};
       rows.push({

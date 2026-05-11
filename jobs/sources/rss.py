@@ -19,7 +19,6 @@ FEEDS: list[tuple[str, str, str]] = [
     ("TrendForce", "https://www.trendforce.com/news/feed/", "industry"),
     ("Reuters Tech", "https://news.google.com/rss/search?q=site:reuters.com+(semiconductor+OR+HBM+OR+AI+chip)&hl=en-US&gl=US&ceid=US:en", "news"),
     ("DigiTimes", "https://news.google.com/rss/search?q=site:digitimes.com+(semiconductor+OR+TSMC+OR+CoWoS)&hl=en-US&gl=US&ceid=US:en", "industry"),
-    ("Tom's Hardware", "https://www.tomshardware.com/feeds/all", "news"),
     ("ServeTheHome", "https://www.servethehome.com/feed/", "news"),
     ("The Register", "https://www.theregister.com/data_centre/headlines.atom", "news"),
     ("SemiAnalysis", "https://semianalysis.com/feed/", "analyst"),

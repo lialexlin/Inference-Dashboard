@@ -26,32 +26,6 @@
     "tickers": []
   },
   {
-    "id": "rss-7f88c8c21b9f8497",
-    "date": "2026-05-09",
-    "source": "Tom's Hardware",
-    "source_type": "news",
-    "headline": "Save $290 on this Ryzen 7 9800X3D, 32GB DDR5, Samsung 9100 Pro 1TB combo from Newegg —  $949.99 bundle includes free 750W power supply and one-year VPN subscription",
-    "quote": "Newegg’s latest AM5 combo pairs the Ryzen 7 9800X3D with 32GB DDR5 memory, a Samsung Gen 5 SSD, a free Corsair PSU, and a NordVPN subscription.",
-    "url": "https://www.tomshardware.com/pc-components/save-usd290-on-this-ryzen-7-9800x3d-32gb-ddr5-samsung-9100-pro-1tb-combo-from-newegg-usd949-99-bundle-includes-free-750w-power-supply-and-one-year-vpn-subscription",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": []
-  },
-  {
-    "id": "rss-7ad0fee3ebba66bc",
-    "date": "2026-05-09",
-    "source": "Tom's Hardware",
-    "source_type": "news",
-    "headline": "Chinese grey market sells Claude API access at 90% off by using stolen credentials, model substitution, and harvesting users' prompts and outputs for resale as AI training data — 'transfer stations' operate through proxy networks that harvest user data",
-    "quote": "A grey-market economy of API proxy services in China is reselling access to Anthropic's Claude models at as little as 10% of the official price.",
-    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-grey-market-sells-claude-api-access-at-90-percent-off-through-proxy-networks-that-harvest-user-data",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": []
-  },
-  {
     "id": "rss-4be442d9b3523fb0",
     "date": "2026-05-08",
     "source": "DigiTimes",
@@ -136,19 +110,6 @@
     "tickers": [
       "000660.KS"
     ]
-  },
-  {
-    "id": "rss-37f3658ebdf67b84",
-    "date": "2026-05-07",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC eyes bigger US investment; Arizona chip expansion accelerates - digitimes",
-    "quote": "TSMC eyes bigger US investment; Arizona chip expansion accelerates digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeF9ZeUl2S2JqOFE5RUxFQmg2UnN5YlVYWFJpeXdFRmUxQUY0SDhSekVLZ3Eybko0QlB5aTVEcGQ5TGpQcFhMbXloenZZN1NSaVFUaFlDeE55UFE2aHozSkVsek9GeHlDU3lSeTRVcVBudGo4c2pYZFJreFg1cmJUd1RkWVZoWUlsUDBDTg?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": []
   },
   {
     "id": "rss-266aca08e19483a0",
@@ -371,6 +332,34 @@
     ]
   },
   {
+    "id": "edgar-LEU-0001628280-26-030891",
+    "date": "2026-05-06",
+    "source": "SEC EDGAR (LEU)",
+    "source_type": "filing",
+    "headline": "LEU files 10-Q: 10-Q",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026030891/leu-20260331.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "LEU"
+    ]
+  },
+  {
+    "id": "rss-0ddfc35ebd0da1aa",
+    "date": "2026-05-05",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Commentary: Intel names TSMC as key partner; insider drives its comeback - digitimes",
+    "quote": "Commentary: Intel names TSMC as key partner; insider drives its comeback digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTmd3a3lhenowckpoTnlnYVZXU19VdzR1clhGVGJ5X3M4djBuZ0h3SS1tckZyTEpSb0JzQ0Z6YVlfdkVTNHA1bG5uZU9CN0d0Uk5mNUNHR0F3LTFNMXhiVHdBSVNOaTlicmY0S1o3Vy1xYTdBWlhSSU1LQU9sRkx1ZFM5Z2F5MlNETXNB?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": []
+  },
+  {
     "id": "edgar-AMKR-0001047127-26-000029",
     "date": "2026-05-05",
     "source": "SEC EDGAR (AMKR)",
@@ -447,6 +436,36 @@
     ]
   },
   {
+    "id": "edgar-ETN-0001551182-26-000013",
+    "date": "2026-05-05",
+    "source": "SEC EDGAR (ETN)",
+    "source_type": "filing",
+    "headline": "ETN files 10-Q: 10-Q",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000013/etn-20260331.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "ETN"
+    ]
+  },
+  {
+    "id": "edgar-ETN-0001551182-26-000010",
+    "date": "2026-05-05",
+    "source": "SEC EDGAR (ETN)",
+    "source_type": "filing",
+    "headline": "ETN files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "ETN"
+    ]
+  },
+  {
     "id": "edgar-GNRC-0001437749-26-014882",
     "date": "2026-05-05",
     "source": "SEC EDGAR (GNRC)",
@@ -489,6 +508,21 @@
     ],
     "tickers": [
       "CMI"
+    ]
+  },
+  {
+    "id": "edgar-LEU-0001628280-26-030674",
+    "date": "2026-05-05",
+    "source": "SEC EDGAR (LEU)",
+    "source_type": "filing",
+    "headline": "LEU files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026030674/leu-20260505.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "LEU"
     ]
   },
   {
@@ -666,6 +700,53 @@
     ],
     "tickers": [
       "HUBB"
+    ]
+  },
+  {
+    "id": "edgar-CEG-0001868275-26-000050",
+    "date": "2026-05-01",
+    "source": "SEC EDGAR (CEG)",
+    "source_type": "filing",
+    "headline": "CEG files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000050/ceg-20260428.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CEG"
+    ]
+  },
+  {
+    "id": "edgar-NVT-0001628280-26-029370",
+    "date": "2026-05-01",
+    "source": "SEC EDGAR (NVT)",
+    "source_type": "filing",
+    "headline": "NVT files 10-Q: 10-Q",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026029370/nvt-20260331.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "NVT"
+    ]
+  },
+  {
+    "id": "edgar-NVT-0001628280-26-029098",
+    "date": "2026-05-01",
+    "source": "SEC EDGAR (NVT)",
+    "source_type": "filing",
+    "headline": "NVT files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026029098/nvt-20260501.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "NVT"
     ]
   },
   {
@@ -1077,6 +1158,21 @@
     ]
   },
   {
+    "id": "edgar-CLS-0001104659-26-049818",
+    "date": "2026-04-28",
+    "source": "SEC EDGAR (CLS)",
+    "source_type": "filing",
+    "headline": "CLS files 8-K: FORM 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000110465926049818/tm2612871d1_8k.htm",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [
+      "CLS"
+    ]
+  },
+  {
     "id": "rss-c321d6cb12156b2f",
     "date": "2026-04-27",
     "source": "DigiTimes",
@@ -1122,6 +1218,36 @@
     ],
     "tickers": [
       "NVDA"
+    ]
+  },
+  {
+    "id": "edgar-CLS-0001030894-26-000032",
+    "date": "2026-04-27",
+    "source": "SEC EDGAR (CLS)",
+    "source_type": "filing",
+    "headline": "CLS files 10-Q: 10-Q",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000032/cls-20260331.htm",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [
+      "CLS"
+    ]
+  },
+  {
+    "id": "edgar-CLS-0001030894-26-000030",
+    "date": "2026-04-27",
+    "source": "SEC EDGAR (CLS)",
+    "source_type": "filing",
+    "headline": "CLS files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000030/cls-20260427.htm",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [
+      "CLS"
     ]
   },
   {
@@ -1264,6 +1390,21 @@
     ]
   },
   {
+    "id": "edgar-ETN-0001140361-26-016399",
+    "date": "2026-04-23",
+    "source": "SEC EDGAR (ETN)",
+    "source_type": "filing",
+    "headline": "ETN files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000114036126016399/ef20071273_8k.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "ETN"
+    ]
+  },
+  {
     "id": "edgar-NOW-0001373715-26-000056",
     "date": "2026-04-23",
     "source": "SEC EDGAR (NOW)",
@@ -1306,6 +1447,36 @@
     ],
     "tickers": [
       "LRCX"
+    ]
+  },
+  {
+    "id": "edgar-GEV-0001996810-26-000064",
+    "date": "2026-04-22",
+    "source": "SEC EDGAR (GEV)",
+    "source_type": "filing",
+    "headline": "GEV files 10-Q: 10-Q",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000064/gev-20260331.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "GEV"
+    ]
+  },
+  {
+    "id": "edgar-GEV-0001996810-26-000063",
+    "date": "2026-04-22",
+    "source": "SEC EDGAR (GEV)",
+    "source_type": "filing",
+    "headline": "GEV files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000063/gev-20260422.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "GEV"
     ]
   },
   {
@@ -1384,6 +1555,21 @@
     ],
     "tickers": [
       "CRWV"
+    ]
+  },
+  {
+    "id": "edgar-LEU-0001628280-26-025916",
+    "date": "2026-04-20",
+    "source": "SEC EDGAR (LEU)",
+    "source_type": "filing",
+    "headline": "LEU files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026025916/leu-20260416.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "LEU"
     ]
   },
   {
@@ -1677,6 +1863,21 @@
     ],
     "tickers": [
       "005930.KS"
+    ]
+  },
+  {
+    "id": "edgar-OKLO-0001849056-26-000006",
+    "date": "2026-04-14",
+    "source": "SEC EDGAR (OKLO)",
+    "source_type": "filing",
+    "headline": "OKLO files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1849056/000184905626000006/oklo-20260410.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "OKLO"
     ]
   },
   {
@@ -1989,6 +2190,21 @@
     ]
   },
   {
+    "id": "edgar-CEG-0001868275-26-000045",
+    "date": "2026-03-31",
+    "source": "SEC EDGAR (CEG)",
+    "source_type": "filing",
+    "headline": "CEG files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000045/ceg-20260331.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CEG"
+    ]
+  },
+  {
     "id": "edgar-SNOW-0001640147-26-000013",
     "date": "2026-03-31",
     "source": "SEC EDGAR (SNOW)",
@@ -2001,6 +2217,21 @@
     ],
     "tickers": [
       "SNOW"
+    ]
+  },
+  {
+    "id": "edgar-CEG-0001868275-26-000041",
+    "date": "2026-03-26",
+    "source": "SEC EDGAR (CEG)",
+    "source_type": "filing",
+    "headline": "CEG files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000041/ceg-20260323.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CEG"
     ]
   },
   {
@@ -2034,6 +2265,21 @@
     ]
   },
   {
+    "id": "edgar-CLS-0001104659-26-033887",
+    "date": "2026-03-24",
+    "source": "SEC EDGAR (CLS)",
+    "source_type": "filing",
+    "headline": "CLS files 8-K: FORM 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000110465926033887/tm269620d1_8k.htm",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [
+      "CLS"
+    ]
+  },
+  {
     "id": "edgar-HPE-0001140361-26-010765",
     "date": "2026-03-23",
     "source": "SEC EDGAR (HPE)",
@@ -2046,6 +2292,21 @@
     ],
     "tickers": [
       "HPE"
+    ]
+  },
+  {
+    "id": "edgar-CEG-0001868275-26-000037",
+    "date": "2026-03-20",
+    "source": "SEC EDGAR (CEG)",
+    "source_type": "filing",
+    "headline": "CEG files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000037/ceg-20260320.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CEG"
     ]
   },
   {
@@ -2138,6 +2399,36 @@
     ],
     "tickers": [
       "HPE"
+    ]
+  },
+  {
+    "id": "edgar-OKLO-0001628280-26-018698",
+    "date": "2026-03-17",
+    "source": "SEC EDGAR (OKLO)",
+    "source_type": "filing",
+    "headline": "OKLO files 10-K: 10-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026018698/oklo-20251231.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "OKLO"
+    ]
+  },
+  {
+    "id": "edgar-LEU-0001628280-26-017957",
+    "date": "2026-03-16",
+    "source": "SEC EDGAR (LEU)",
+    "source_type": "filing",
+    "headline": "LEU files 8-K: 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026017957/leu-20260310.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "LEU"
     ]
   },
   {

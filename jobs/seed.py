@@ -4,16 +4,24 @@ curated initial signals, and per-layer markdown copy.
 Run once (or after you edit the curated data here):
     python -m jobs.seed
 
-Refresh.py merges live data into the structures this file produces.
+Add `--refresh-ciq-mapping` to (re)resolve `ticker → companyId` against
+S&P Capital IQ — required when adding new players. Refresh.py merges live
+data into the structures this file produces.
 """
 from __future__ import annotations
 
+import argparse
 import json
+import logging
+import re
+from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CONTENT = ROOT / "content" / "layers"
+
+log = logging.getLogger(__name__)
 
 
 # ---------------------------------------------------------------------------
@@ -245,6 +253,7 @@ PLAYERS = [
 
     # Packaging (OSATs)
     {"ticker": "ASX", "name": "ASE Technology", "exchange": "NYSE", "country": "TW", "layer_id": "packaging", "secondary_layers": [], "role": "Top OSAT; ramping CoWoP and FOPLP for CoWoS spillover."},
+    {"ticker": "3711.TW", "name": "ASE Technology Holding", "exchange": "TWSE", "country": "TW", "layer_id": "packaging", "secondary_layers": [], "role": "TWSE parent of ASX; primary listing for the CoWoP/FOPLP capacity story; carries Taiwan-side daily price discovery."},
     {"ticker": "AMKR", "name": "Amkor Technology", "exchange": "NASDAQ", "country": "US", "layer_id": "packaging", "secondary_layers": [], "role": "US packaging buildout (Arizona); secondary CoWoS-class capacity."},
     {"ticker": "2449.TW", "name": "King Yuan Electronics (KYEC)", "exchange": "TWSE", "country": "TW", "layer_id": "packaging", "secondary_layers": [], "role": "Testing bottleneck partner for AI packaging."},
 
@@ -288,11 +297,17 @@ PLAYERS = [
     {"ticker": "HUBB", "name": "Hubbell", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Utility T&D — every grid-buildout dollar."},
     {"ticker": "PWR", "name": "Quanta Services", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Substation/transmission EPC."},
     {"ticker": "CAT", "name": "Caterpillar", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Gensets, prime power."},
+    {"ticker": "CEG", "name": "Constellation Energy", "exchange": "NASDAQ", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Largest US nuclear operator; MSFT PPA to restart Three Mile Island Unit 1 for AI baseload."},
+    {"ticker": "OKLO", "name": "Oklo Inc.", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "SMR developer (Aurora powerhouse); Sam Altman-backed; pure-play on AI-driven SMR demand."},
+    {"ticker": "LEU", "name": "Centrus Energy", "exchange": "NYSE-AM", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Sole US producer of HALEU; fuel bottleneck for advanced reactors and SMRs."},
 
     # Cooling (VRT primary in cooling)
     {"ticker": "NVT", "name": "nVent Electric", "exchange": "NYSE", "country": "US", "layer_id": "cooling", "secondary_layers": ["power"], "role": "~30% DC exposure, growing NVDA depth."},
     {"ticker": "MOD", "name": "Modine Manufacturing", "exchange": "NYSE", "country": "US", "layer_id": "cooling", "secondary_layers": [], "role": "DC sales +31% sequential Q3 FY26; mgmt guides 50–70% DC growth."},
     {"ticker": "SU.PA", "name": "Schneider Electric", "exchange": "EPA", "country": "FR", "layer_id": "cooling", "secondary_layers": ["power"], "role": "Broadest DC power+cooling portfolio."},
+    {"ticker": "3017.TW", "name": "Asia Vital Components (AVC)", "exchange": "TWSE", "country": "TW", "layer_id": "cooling", "secondary_layers": [], "role": "Taiwan thermal leader; liquid cooling + vapor chambers for AI servers; key supplier into NVDA OEMs."},
+    {"ticker": "3653.TW", "name": "Jentech Precision Industrial", "exchange": "TWSE", "country": "TW", "layer_id": "cooling", "secondary_layers": [], "role": "Heat-spreader / vapor-chamber specialist for AI-server thermal solutions."},
+    {"ticker": "3324.TWO", "name": "Auras Technology", "exchange": "TPEx", "country": "TW", "layer_id": "cooling", "secondary_layers": [], "role": "Liquid cooling / cold-plate supplier on TPEx; pure-play AI thermal beneficiary."},
 
     # Hyperscalers
     {"ticker": "MSFT", "name": "Microsoft", "exchange": "NASDAQ", "country": "US", "layer_id": "hyperscalers", "secondary_layers": [], "role": "CY26 capex $190B; CFO attributed $25B of increase to memory/component costs."},
@@ -754,8 +769,16 @@ This is increasingly the binding constraint, not silicon. Lead times have stretc
 - **Generac**: only gas-genset slot in Stargate permitting docs because Cat/Cummins lead times are 70–107 weeks vs Generac's 50–60.
 - **Cummins**: 18-month lead times even after $150M Fridley expansion.
 
+## Clean baseload (nuclear / SMR)
+Hyperscalers are now buying nuclear capacity directly — MSFT–CEG to restart Three Mile Island Unit 1, AMZN–Talen at Susquehanna. Two distinct sub-bets sit underneath:
+
+- **Existing nuclear fleet operators** monetizing PPAs at premium pricing — **CEG** is the largest US nuclear operator and the cleanest expression.
+- **The SMR build-out**, which needs both reactor designers (**OKLO** — Sam Altman-backed Aurora powerhouse) and a fuel supply chain that today bottlenecks on HALEU enrichment (**LEU** is the sole US producer).
+
+Lead times: 5–15 years for a new reactor vs. 50–70 weeks for a genset. Different asset class, same demand driver — and the AI-power thesis only fully closes when this leg is included.
+
 ## Priced-in vs underappreciated
-**Mixed. GEV/ETN/VRT richly priced.** Underappreciated: **GNRC, HUBB, PWR.** Generac has the only gas-genset slot in Stargate permits because everyone else is sold out. PWR/HUBB get every grid-buildout dollar regardless of which hyperscaler wins. The further you go from "DC-pure-play" toward "structural grid build", the cheaper the multiple — and the demand is equally durable.
+**Mixed. GEV/ETN/VRT richly priced.** Underappreciated: **GNRC, HUBB, PWR.** Generac has the only gas-genset slot in Stargate permits because everyone else is sold out. PWR/HUBB get every grid-buildout dollar regardless of which hyperscaler wins. The further you go from "DC-pure-play" toward "structural grid build", the cheaper the multiple — and the demand is equally durable. **CEG** the cleanest large-cap nuclear expression; **OKLO/LEU** more speculative but capture the SMR/HALEU bottleneck not yet reflected in the gensets-and-transformers framing.
 """,
     "cooling": """## What it does
 The thermal stack: cold plates, coolant distribution units (CDUs), liquid-to-air heat exchangers, immersion cooling fluids and tanks. Mandatory above ~700W TDP, which Blackwell crossed and Rubin/MI400 vastly exceed.
@@ -846,6 +869,118 @@ Every CoWoS package needs an FC-BGA substrate, and every AI server needs FC-BGA 
 
 
 # ---------------------------------------------------------------------------
+# CIQ ticker → companyId resolution
+# ---------------------------------------------------------------------------
+
+# Manual overrides for tickers that don't resolve cleanly via name search.
+# Set to None to explicitly skip a ticker (e.g. delisted, wrong-name overlap).
+# Add an integer companyId to override the resolver. Look up via the skill at
+# ../Exponential-Growth/.claude/skills/s&p/SKILL.md (find_company helper).
+CIQ_OVERRIDES: dict[str, int | None] = {
+    "6967.T": None,     # Shinko Electric — being taken private by JIC; CIQ data stale anyway
+    "ATS.VI": 2444485,  # AT&S Austria Technologie & Systemtechnik AG (special char in name foils resolver)
+}
+
+
+def _bare_ticker(ticker: str) -> str:
+    """Strip exchange suffix. '000660.KS' -> '000660'. 'NVDA' -> 'NVDA'."""
+    return ticker.split(".")[0]
+
+
+def _resolve_one(cur, ticker: str, name: str) -> tuple[int | None, str | None, str]:
+    """Return (companyId, companyName, resolved_via). Tries ticker then name."""
+    bare = _bare_ticker(ticker)
+
+    # 1. Ticker-based: most-securities wins among primaryFlag=1 hits.
+    cur.execute("""
+        SELECT s.companyId, c.companyName, COUNT(DISTINCT s2.securityId) AS sec_count
+        FROM CIQTRADINGITEM ti
+        JOIN CIQSECURITY s ON ti.securityId = s.securityId
+        JOIN CIQCOMPANY c ON s.companyId = c.companyId
+        LEFT JOIN CIQSECURITY s2 ON s2.companyId = c.companyId
+        WHERE ti.tickerSymbol = %s AND ti.primaryFlag = 1
+        GROUP BY s.companyId, c.companyName
+        ORDER BY sec_count DESC
+        LIMIT 5
+    """, (bare,))
+    rows = cur.fetchall()
+
+    # Cross-check: ticker hit must share a name keyword. Avoids "000660"
+    # collision where SZSE Guangzhou Datong shares the bare ticker with
+    # SK Hynix on KOSPI (different exchange, same number). No ticker-only
+    # fallback — too prone to picking unrelated companies on numeric tickers.
+    name_keywords = [w for w in re.split(r"\s+", name.lower()) if len(w) > 2][:2]
+    for cid, cname, _ in rows:
+        if any(kw in cname.lower() for kw in name_keywords):
+            return int(cid), cname, "ticker+name-cross-check"
+
+    # 2. Name-based: highest-sec-count match wins (proxy for listed parent).
+    cur.execute("""
+        SELECT c.companyId, c.companyName, COUNT(DISTINCT s.securityId) AS sec_count
+        FROM CIQCOMPANY c LEFT JOIN CIQSECURITY s ON s.companyId = c.companyId
+        WHERE LOWER(c.companyName) LIKE %s
+        GROUP BY c.companyId, c.companyName
+        ORDER BY sec_count DESC LIMIT 5
+    """, (f"%{name.lower()}%",))
+    rows = cur.fetchall()
+    if rows and rows[0][2] >= 3:  # at least 3 securities = real listed parent
+        return int(rows[0][0]), rows[0][1], "name"
+
+    return None, None, "unresolved"
+
+
+def resolve_ciq_mapping(verbose: bool = True) -> dict:
+    """Resolve every PLAYERS ticker → companyId via Snowflake. Persists to
+    data/ciq_mapping.json. Idempotent — overrides take precedence; everything
+    else is re-resolved on each call."""
+    from jobs.sources.capital_iq import get_connection
+
+    if verbose:
+        print(f"Resolving CIQ mapping for {len(PLAYERS)} tickers...")
+    conn = get_connection()
+    cur = conn.cursor()
+    try:
+        mapping = {}
+        unresolved = []
+        for p in PLAYERS:
+            ticker, name = p["ticker"], p["name"]
+            if ticker in CIQ_OVERRIDES:
+                cid = CIQ_OVERRIDES[ticker]
+                mapping[ticker] = {
+                    "company_id": cid,
+                    "company_name": None,
+                    "resolved_via": "override",
+                    "resolved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                }
+                if verbose:
+                    print(f"  {ticker:<14} OVERRIDE → {cid}")
+                if cid is None:
+                    unresolved.append(ticker)
+                continue
+            cid, cname, via = _resolve_one(cur, ticker, name)
+            mapping[ticker] = {
+                "company_id": cid,
+                "company_name": cname,
+                "resolved_via": via,
+                "resolved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            }
+            if verbose:
+                status = f"{cid:<12} ({via})" if cid else f"UNRESOLVED ({via})"
+                print(f"  {ticker:<14} {p['name']:<32} → {status}")
+            if cid is None:
+                unresolved.append(ticker)
+    finally:
+        cur.close()
+        conn.close()
+
+    _write_json(DATA / "ciq_mapping.json", mapping)
+    if verbose:
+        ok = sum(1 for v in mapping.values() if v["company_id"] is not None)
+        print(f"\nResolved {ok}/{len(PLAYERS)}. Unresolved: {unresolved}")
+    return mapping
+
+
+# ---------------------------------------------------------------------------
 # Writers
 # ---------------------------------------------------------------------------
 
@@ -857,6 +992,11 @@ def _write_json(path: Path, data) -> None:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Seed dashboard static content.")
+    parser.add_argument("--refresh-ciq-mapping", action="store_true",
+                        help="Re-resolve PLAYERS tickers against S&P Capital IQ.")
+    args = parser.parse_args()
+
     DATA.mkdir(parents=True, exist_ok=True)
     CONTENT.mkdir(parents=True, exist_ok=True)
 
@@ -870,6 +1010,9 @@ def main() -> None:
 
     print(f"Wrote {len(LAYERS)} layers, {len(PLAYERS)} players, {len(SIGNALS)} signals")
     print(f"Layer markdown → {CONTENT}")
+
+    if args.refresh_ciq_mapping or not (DATA / "ciq_mapping.json").exists():
+        resolve_ciq_mapping()
 
 
 if __name__ == "__main__":

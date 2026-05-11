@@ -16,7 +16,7 @@ window.renderPlayerChip = function (player) {
 };
 
 window.renderLayerCard = function (layer) {
-  const players = playersForLayer(layer.id).slice(0, 7);
+  const players = playersForLayer(layer.id).slice(0, 13);
   const chips = players.map(renderPlayerChip).join("");
   return `
     <a href="layer.html?id=${layer.id}" class="layer-card block">
@@ -42,12 +42,22 @@ window.renderSignalCard = function (sig, opts) {
   }).join(" ");
   const tickers = (sig.tickers || []).slice(0, 6).map((t) => `<span class="font-mono text-[11px] text-[color:var(--text-dim)]">${t}</span>`).join("<span class='text-[color:var(--text-faint)]'>·</span>");
   const quote = sig.quote ? `<div class="signal__quote">${escapeHtml(sig.quote)}</div>` : "";
+  const sourceName = sig.url
+    ? `<a href="${sig.url}" target="_blank" rel="noopener" class="text-sm text-[color:var(--text-dim)] hover:text-[color:var(--sky)] underline decoration-dotted underline-offset-2">${escapeHtml(sig.source)}</a>`
+    : `<span class="text-sm text-[color:var(--text-dim)]">${escapeHtml(sig.source)}</span>`;
+  let host = "";
+  try { host = sig.url ? new URL(sig.url).hostname.replace(/^www\./, "") : ""; } catch (e) { host = ""; }
+  const sourceFooter = sig.url
+    ? `<div class="mt-3 text-[11px] text-[color:var(--text-faint)]">
+         source: <a href="${sig.url}" target="_blank" rel="noopener" class="hover:text-[color:var(--sky)]">${escapeHtml(host || sig.url)} ↗</a>
+       </div>`
+    : "";
   return `
     <article class="signal" id="${sig.id}">
       <div class="flex items-center justify-between gap-3 flex-wrap">
         <div class="flex items-center gap-2 flex-wrap">
           <span class="tag tag--${sig.source_type}">${sig.source_type}</span>
-          <span class="text-sm text-[color:var(--text-dim)]">${escapeHtml(sig.source)}</span>
+          ${sourceName}
           <span class="text-[color:var(--text-faint)]">·</span>
           <span class="signal__date">${fmtDate(sig.date)} <span class="text-[color:var(--text-faint)]">(${relDate(sig.date)})</span></span>
         </div>
@@ -58,6 +68,7 @@ window.renderSignalCard = function (sig, opts) {
       </h4>
       ${quote}
       ${tickers ? `<div class="mt-3 flex items-center gap-2 flex-wrap">${tickers}</div>` : ""}
+      ${sourceFooter}
     </article>`;
 };
 

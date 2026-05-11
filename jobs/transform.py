@@ -24,7 +24,7 @@ LAYER_KEYWORDS: dict[str, list[str]] = {
     "networking": ["tomahawk", "jericho", "switch silicon", "connectx", "spectrum-x", "infiniband", "ultra ethernet", "dpu", "smartnic"],
     "optics": ["transceiver", "1.6t", "800g", "200g/lane", "eml", "indium phosphide", "inp laser", "optical module", "lumentum", "coherent", "fabrinet", "innolight", "eoptolink", "co-packaged optics", "cpo", "silicon photonics"],
     "switches": ["arista", "cisco", "juniper", "white-box", "white box", "celestica", "accton", "data center switch"],
-    "power": ["transformer", "switchgear", "genset", "gas turbine", "substation", "grid capacity", "data center power", "stargate", "vernova", "eaton", "generac", "cummins"],
+    "power": ["transformer", "switchgear", "genset", "gas turbine", "substation", "grid capacity", "data center power", "stargate", "vernova", "eaton", "generac", "cummins", "nuclear", "smr", "small modular reactor", "uranium", "haleu", "advanced reactor", "three mile island", "constellation energy", "oklo", "centrus"],
     "cooling": ["liquid cooling", "direct-to-chip", "immersion cooling", "cdu", "cold plate", "rear-door heat exchanger", "vertiv", "modine", "nvent"],
     "hyperscalers": ["hyperscaler", "capex", "data center investment", "azure", "google cloud", "aws", "microsoft cloud"],
     "neoclouds": ["coreweave", "nebius", "neocloud", "lambda labs", "crusoe"],

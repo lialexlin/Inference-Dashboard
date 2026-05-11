@@ -51,6 +51,14 @@ window.fmtPE = function (v) {
   return v.toFixed(1);
 };
 
+// Generic ratio (EV/EBITDA, P/S, P/B, etc.) — same shape as fmtPE but stays as a separate helper
+// in case we want to differentiate styling later.
+window.fmtMultiple = function (v) {
+  if (v == null || isNaN(v)) return "—";
+  if (v < 0) return "—";
+  return v.toFixed(1);
+};
+
 window.fmtDate = function (iso) {
   if (!iso) return "—";
   try {

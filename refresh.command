@@ -9,7 +9,7 @@ echo ""
 echo "  Refreshing data — this takes ~30 seconds..."
 echo ""
 
-python3 -m jobs.refresh
+uv run python -m jobs.refresh
 
 echo ""
 echo "  Done. You can close this window."

@@ -253,7 +253,6 @@ PLAYERS = [
 
     # Packaging (OSATs)
     {"ticker": "ASX", "name": "ASE Technology", "exchange": "NYSE", "country": "TW", "layer_id": "packaging", "secondary_layers": [], "role": "Top OSAT; ramping CoWoP and FOPLP for CoWoS spillover."},
-    {"ticker": "3711.TW", "name": "ASE Technology Holding", "exchange": "TWSE", "country": "TW", "layer_id": "packaging", "secondary_layers": [], "role": "TWSE parent of ASX; primary listing for the CoWoP/FOPLP capacity story; carries Taiwan-side daily price discovery."},
     {"ticker": "AMKR", "name": "Amkor Technology", "exchange": "NASDAQ", "country": "US", "layer_id": "packaging", "secondary_layers": [], "role": "US packaging buildout (Arizona); secondary CoWoS-class capacity."},
     {"ticker": "2449.TW", "name": "King Yuan Electronics (KYEC)", "exchange": "TWSE", "country": "TW", "layer_id": "packaging", "secondary_layers": [], "role": "Testing bottleneck partner for AI packaging."},
 

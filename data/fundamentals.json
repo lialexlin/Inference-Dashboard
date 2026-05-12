@@ -1,9 +1,9 @@
 {
   "000660.KS": {
-    "market_cap": 1334527272157184.0,
-    "market_cap_usd": 907977551440.5415,
+    "market_cap": 1196815319826432.0,
+    "market_cap_usd": 818906407080.9712,
     "pe_trailing": null,
-    "pe_forward": 5.087359,
+    "pe_forward": 4.562387,
     "revenue_growth": 1.981,
     "profit_margin": 0.56901,
     "free_cashflow": null,
@@ -14,10 +14,10 @@
     "ciq": {
       "company_id": 883357,
       "company_name": "SK hynix Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "KRW",
-      "fx_rate_used": 1121.93,
+      "fx_rate_used": 1333.22,
       "pe_trailing": 27.924177,
       "ev_ebitda": 19.362397,
       "ev_revenue": 12.072701,
@@ -41,20 +41,36 @@
       "net_income_ltm_local": 42919287000000.0,
       "net_income_to_co_ltm_local": 42947902000000.0,
       "net_income_normalized_local": 31553253125000.0,
-      "revenue_ltm_usd": 86588891463.8168,
-      "ebitda_ltm_usd": 54492213417.949425,
-      "net_income_ltm_usd": 38254870624.72703,
+      "revenue_ltm_usd": 72866199876.98955,
+      "ebitda_ltm_usd": 45856234529.93504,
+      "net_income_ltm_usd": 32192201587.134907,
       "market_cap_local": 1183051902720000.0,
-      "market_cap_usd": 1054479248010.1255,
+      "market_cap_usd": 887364353010.0059,
       "tev_local": 1172822811720000.0,
-      "tev_usd": 1045361842289.6259
+      "tev_usd": 879691882600.021
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.505,
+      "valuation": -0.022,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.646,
+        "biz_accel_z": -0.987,
+        "biz_margin_z": 1.137,
+        "biz_signal_density_z": 1.225,
+        "val_vs_own_pe_z": -0.693,
+        "val_vs_peer_pe_z": 0.626,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 2
     }
   },
   "005930.KS": {
-    "market_cap": 1874753895792640.0,
-    "market_cap_usd": 1275533657025.8745,
+    "market_cap": 1763122192842752.0,
+    "market_cap_usd": 1206395035447.0503,
     "pe_trailing": null,
-    "pe_forward": 5.606735,
+    "pe_forward": 5.3020573,
     "revenue_growth": 0.693,
     "profit_margin": 0.21462,
     "free_cashflow": 16767439077376.0,
@@ -65,10 +81,10 @@
     "ciq": {
       "company_id": 91868,
       "company_name": "Samsung Electronics Co., Ltd.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "KRW",
-      "fx_rate_used": 1121.93,
+      "fx_rate_used": 1333.22,
       "pe_trailing": 40.66088,
       "ev_ebitda": 17.847072,
       "ev_revenue": 4.879522,
@@ -92,20 +108,36 @@
       "net_income_ltm_local": 44260956000000.0,
       "net_income_to_co_ltm_local": 45206805000000.0,
       "net_income_normalized_local": 29943485375000.0,
-      "revenue_ltm_usd": 297350046794.3632,
-      "ebitda_ltm_usd": 79558688153.44986,
-      "net_income_ltm_usd": 39450728655.085434,
+      "revenue_ltm_usd": 250225722686.42834,
+      "ebitda_ltm_usd": 66950150012.75108,
+      "net_income_ltm_usd": 33198538875.804443,
       "market_cap_local": 1716319025036100.0,
-      "market_cap_usd": 1529791542285.2583,
+      "market_cap_usd": 1287348693416.0151,
       "tev_local": 1627837599036100.0,
-      "tev_usd": 1450926171005.4102
+      "tev_usd": 1220981982745.6084
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -1.079,
+      "valuation": -0.835,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -1.413,
+        "biz_accel_z": -0.383,
+        "biz_margin_z": -1.297,
+        "biz_signal_density_z": -1.225,
+        "val_vs_own_pe_z": -2.663,
+        "val_vs_peer_pe_z": -0.0,
+        "val_vs_peer_ev_z": 0.157
+      },
+      "signal_density_90d": 0
     }
   },
   "MU": {
-    "market_cap": 882361630720.0,
-    "market_cap_usd": 882361630720.0,
-    "pe_trailing": 36.889202,
-    "pe_forward": 7.6872063,
+    "market_cap": 842203070464.0,
+    "market_cap_usd": 842203070464.0,
+    "pe_trailing": 35.21028,
+    "pe_forward": 7.3373413,
     "revenue_growth": 1.963,
     "profit_margin": 0.41486,
     "free_cashflow": 2893499904.0,
@@ -116,7 +148,7 @@
     "ciq": {
       "company_id": 289030,
       "company_name": "Micron Technology, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -150,13 +182,29 @@
       "market_cap_usd": 842203066627.0,
       "tev_local": 845619066627.0,
       "tev_usd": 845619066627.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.574,
+      "valuation": -2.875,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 0.766,
+        "biz_accel_z": 1.371,
+        "biz_margin_z": 0.159,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -2.84,
+        "val_vs_peer_ev_z": -2.786
+      },
+      "signal_density_90d": 1
     }
   },
   "TSM": {
-    "market_cap": 2088070676480.0,
-    "market_cap_usd": 2088070676480.0,
-    "pe_trailing": 34.44012,
-    "pe_forward": 20.86882,
+    "market_cap": 2135137189888.0,
+    "market_cap_usd": 2135137189888.0,
+    "pe_trailing": 35.216423,
+    "pe_forward": 21.339216,
     "revenue_growth": 0.351,
     "profit_margin": 0.46505,
     "free_cashflow": 721560469504.0,
@@ -167,10 +215,10 @@
     "ciq": {
       "company_id": 380075,
       "company_name": "Taiwan Semiconductor Manufacturing Company Limited",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
+      "fx_rate_used": 31.921,
       "pe_trailing": 34.977852,
       "ev_ebitda": 21.885037,
       "ev_revenue": 15.076336,
@@ -194,20 +242,36 @@
       "net_income_ltm_local": 1697604000000.0,
       "net_income_to_co_ltm_local": 1695124900000.0,
       "net_income_normalized_local": 1279229725000.0,
-      "revenue_ltm_usd": 134809920368.07645,
-      "ebitda_ltm_usd": 92523949743.40826,
-      "net_income_ltm_usd": 60081543089.718636,
+      "revenue_ltm_usd": 119327536731.3054,
+      "ebitda_ltm_usd": 81897941793.80347,
+      "net_income_ltm_usd": 53181416622.28627,
       "market_cap_local": 59385481153090.0,
-      "market_cap_usd": 2101768931271.9875,
+      "market_cap_usd": 1860389121678.2056,
       "tev_local": 57426583553090.0,
-      "tev_usd": 2032439693968.855
+      "tev_usd": 1799022071773.754
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 1.135,
+      "valuation": -0.2,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 1.414,
+        "biz_accel_z": 1.018,
+        "biz_margin_z": 1.402,
+        "biz_signal_density_z": 0.707,
+        "val_vs_own_pe_z": -0.885,
+        "val_vs_peer_pe_z": 0.285,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 1
     }
   },
   "INTC": {
-    "market_cap": 646971850752.0,
-    "market_cap_usd": 646971850752.0,
+    "market_cap": 627847921664.0,
+    "market_cap_usd": 627847921664.0,
     "pe_trailing": null,
-    "pe_forward": 84.09222,
+    "pe_forward": 81.60652,
     "revenue_growth": 0.072,
     "profit_margin": -0.05904,
     "free_cashflow": -8301250048.0,
@@ -218,7 +282,7 @@
     "ciq": {
       "company_id": 21127,
       "company_name": "Intel Corporation",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -252,13 +316,29 @@
       "market_cap_usd": 627847920000.0,
       "tev_local": 649135920000.0,
       "tev_usd": 649135920000.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.138,
+      "valuation": 1.127,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.743,
+        "biz_accel_z": 0.341,
+        "biz_margin_z": -0.859,
+        "biz_signal_density_z": 0.707,
+        "val_vs_own_pe_z": 3.0,
+        "val_vs_peer_pe_z": 3.0,
+        "val_vs_peer_ev_z": -2.618
+      },
+      "signal_density_90d": 1
     }
   },
   "GFS": {
-    "market_cap": 41010581504.0,
-    "market_cap_usd": 41010581504.0,
-    "pe_trailing": 53.79856,
-    "pe_forward": 30.205599,
+    "market_cap": 40648630272.0,
+    "market_cap_usd": 40648630272.0,
+    "pe_trailing": 53.323742,
+    "pe_forward": 29.939009,
     "revenue_growth": 0.031,
     "profit_margin": 0.11374,
     "free_cashflow": 1192999936.0,
@@ -269,7 +349,7 @@
     "ciq": {
       "company_id": 237245858,
       "company_name": "GLOBALFOUNDRIES Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -303,13 +383,29 @@
       "market_cap_usd": 40648626532.0,
       "tev_local": 38421626532.0,
       "tev_usd": 38421626532.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.997,
+      "valuation": -0.3,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -0.671,
+        "biz_accel_z": -1.359,
+        "biz_margin_z": -0.543,
+        "biz_signal_density_z": -1.414,
+        "val_vs_own_pe_z": -0.942,
+        "val_vs_peer_pe_z": -0.285,
+        "val_vs_peer_ev_z": 0.326
+      },
+      "signal_density_90d": 0
     }
   },
   "ASX": {
-    "market_cap": 75888369664.0,
-    "market_cap_usd": 75888369664.0,
-    "pe_trailing": 53.215233,
-    "pe_forward": 21.808008,
+    "market_cap": 75098767360.0,
+    "market_cap_usd": 75098767360.0,
+    "pe_trailing": 52.66154,
+    "pe_forward": 21.5811,
     "revenue_growth": 0.172,
     "profit_margin": 0.07043,
     "free_cashflow": -97319165952.0,
@@ -320,10 +416,10 @@
     "ciq": {
       "company_id": 528312,
       "company_name": "ASE Technology Holding Co., Ltd.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
+      "fx_rate_used": 31.921,
       "pe_trailing": 58.026739,
       "ev_ebitda": 20.720431,
       "ev_revenue": 3.792179,
@@ -347,71 +443,36 @@
       "net_income_ltm_local": 40658196000.0,
       "net_income_to_co_ltm_local": 41840536000.0,
       "net_income_normalized_local": 30743628750.0,
-      "revenue_ltm_usd": 22841539904.441692,
-      "ebitda_ltm_usd": 4082737993.2755265,
-      "net_income_ltm_usd": 1438973491.4174485,
+      "revenue_ltm_usd": 20218279815.795242,
+      "ebitda_ltm_usd": 3613851759.0301056,
+      "net_income_ltm_usd": 1273713104.2260582,
       "market_cap_local": 2257518576000.0,
-      "market_cap_usd": 79898020739.6921,
+      "market_cap_usd": 70722050562.32573,
       "tev_local": 2447425734000.0,
-      "tev_usd": 86619208423.28793
-    }
-  },
-  "3711.TW": {
-    "market_cap": 2356297859072.0,
-    "market_cap_usd": 75170605774.37164,
-    "pe_trailing": 52.80236,
-    "pe_forward": 23.066772,
-    "revenue_growth": 0.172,
-    "profit_margin": 0.07043,
-    "free_cashflow": -97319165952.0,
-    "sector": "Technology",
-    "industry": "Semiconductors",
-    "long_name": "ASE Technology Holding Co., Ltd.",
-    "currency": "TWD",
-    "ciq": {
-      "company_id": 528312,
-      "company_name": "ASE Technology Holding Co., Ltd.",
-      "as_of": "2026-05-11",
-      "fiscal_year": 2025,
-      "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
-      "pe_trailing": 58.026739,
-      "ev_ebitda": 20.720431,
-      "ev_revenue": 3.792179,
-      "p_s": 3.497926,
-      "p_b": 6.507694,
-      "ebitda_margin": 0.17874099999999998,
-      "gross_margin": 0.176936,
-      "ebit_margin": 0.078643,
-      "net_margin": 0.062998,
-      "fcf_margin": -0.101158,
-      "revenue_yoy": 0.083939,
-      "ebitda_yoy": 0.19729600000000003,
-      "eps_yoy": 0.230678,
-      "revenue_cagr_3y": -0.054104,
-      "revenue_cagr_5y": 0.079261,
-      "roe": 0.11635999999999999,
-      "roa": 0.038922,
-      "roic": 0.079101,
-      "revenue_ltm_local": 645387710000.0,
-      "ebitda_ltm_local": 115357762000.0,
-      "net_income_ltm_local": 40658196000.0,
-      "net_income_to_co_ltm_local": 41840536000.0,
-      "net_income_normalized_local": 30743628750.0,
-      "revenue_ltm_usd": 22841539904.441692,
-      "ebitda_ltm_usd": 4082737993.2755265,
-      "net_income_ltm_usd": 1438973491.4174485,
-      "market_cap_local": 2257518576000.0,
-      "market_cap_usd": 79898020739.6921,
-      "tev_local": 2447425734000.0,
-      "tev_usd": 86619208423.28793
+      "tev_usd": 76671336549.60684
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.543,
+      "valuation": -1.091,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -0.602,
+        "biz_accel_z": -0.913,
+        "biz_margin_z": -0.658,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.272,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "AMKR": {
-    "market_cap": 19237386240.0,
-    "market_cap_usd": 19237386240.0,
-    "pe_trailing": 44.603447,
-    "pe_forward": 31.678068,
+    "market_cap": 18989512704.0,
+    "market_cap_usd": 18989512704.0,
+    "pe_trailing": 44.028736,
+    "pe_forward": 31.2699,
     "revenue_growth": 0.275,
     "profit_margin": 0.061680004,
     "free_cashflow": -47146500.0,
@@ -422,7 +483,7 @@
     "ciq": {
       "company_id": 124219,
       "company_name": "Amkor Technology, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -456,13 +517,29 @@
       "market_cap_usd": 18989513603.0,
       "tev_local": 18699290603.0,
       "tev_usd": 18699290603.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.51,
+      "valuation": -0.854,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -0.807,
+        "biz_accel_z": -0.478,
+        "biz_margin_z": -0.755,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.0,
+        "val_vs_peer_ev_z": 0.437
+      },
+      "signal_density_90d": 0
     }
   },
   "2449.TW": {
-    "market_cap": 366212120576.0,
-    "market_cap_usd": 11682897745.55789,
-    "pe_trailing": 46.076923,
-    "pe_forward": 19.793682,
+    "market_cap": 380273688576.0,
+    "market_cap_usd": 12149319419.974285,
+    "pe_trailing": 47.846153,
+    "pe_forward": 20.553707,
     "revenue_growth": 0.366,
     "profit_margin": 0.31533,
     "free_cashflow": 2015755520.0,
@@ -473,10 +550,10 @@
     "ciq": {
       "company_id": 8225864,
       "company_name": "King Yuan Electronics Co., Ltd.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
+      "fx_rate_used": 31.921,
       "pe_trailing": 47.956424,
       "ev_ebitda": 23.891375,
       "ev_revenue": 11.320254,
@@ -500,20 +577,36 @@
       "net_income_ltm_local": 11015595000.0,
       "net_income_to_co_ltm_local": 11057794000.0,
       "net_income_normalized_local": 6308401000.0,
-      "revenue_ltm_usd": 1236366873.119802,
-      "ebitda_ltm_usd": 574790444.1691736,
-      "net_income_ltm_usd": 389863563.9709786,
+      "revenue_ltm_usd": 1094375050.9069266,
+      "ebitda_ltm_usd": 508778045.8005702,
+      "net_income_ltm_usd": 345089282.9172018,
       "market_cap_local": 380273715215.0,
-      "market_cap_usd": 13458634408.600248,
+      "market_cap_usd": 11912963729.676388,
       "tev_local": 395456617215.0,
-      "tev_usd": 13995987160.325605
+      "tev_usd": 12388603653.23768
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 1.054,
+      "valuation": -1.061,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 1.409,
+        "biz_accel_z": 1.392,
+        "biz_margin_z": 1.413,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": 0.122,
+        "val_vs_peer_ev_z": -0.306
+      },
+      "signal_density_90d": 0
     }
   },
   "ASML": {
-    "market_cap": 593597169664.0,
-    "market_cap_usd": 593597169664.0,
-    "pe_trailing": 50.64584,
-    "pe_forward": 31.977755,
+    "market_cap": 613592662016.0,
+    "market_cap_usd": 613592662016.0,
+    "pe_trailing": 52.35186,
+    "pe_forward": 33.05493,
     "revenue_growth": 0.132,
     "profit_margin": 0.29713,
     "free_cashflow": 8243274752.0,
@@ -524,10 +617,10 @@
     "ciq": {
       "company_id": 388904,
       "company_name": "ASML Holding N.V.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "EUR",
-      "fx_rate_used": 0.8397,
+      "fx_rate_used": 0.9027,
       "pe_trailing": 53.39716,
       "ev_ebitda": 39.756071,
       "ev_revenue": 15.277596,
@@ -551,20 +644,36 @@
       "net_income_ltm_local": 9609400000.0,
       "net_income_to_co_ltm_local": 9609400000.0,
       "net_income_normalized_local": 7264250000.0,
-      "revenue_ltm_usd": 38903536977.49196,
-      "ebitda_ltm_usd": 14608074312.254375,
-      "net_income_ltm_usd": 11443848993.688221,
+      "revenue_ltm_usd": 36188434695.91226,
+      "ebitda_ltm_usd": 13588567630.442009,
+      "net_income_ltm_usd": 10645175584.358038,
       "market_cap_local": 507709537351.0,
-      "market_cap_usd": 604632055914.0168,
+      "market_cap_usd": 562434404952.9191,
       "tev_local": 499077837351.0,
-      "tev_usd": 594352551329.046
+      "tev_usd": 552872313449.6511
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.041,
+      "valuation": -0.164,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.204,
+        "biz_accel_z": -0.78,
+        "biz_margin_z": 0.413,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -0.491,
+        "val_vs_peer_pe_z": -0.0,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "AMAT": {
-    "market_cap": 352870694912.0,
-    "market_cap_usd": 352870694912.0,
-    "pe_trailing": 45.604103,
-    "pe_forward": 30.890156,
+    "market_cap": 345569492992.0,
+    "market_cap_usd": 345569492992.0,
+    "pe_trailing": 44.660515,
+    "pe_forward": 30.25101,
     "revenue_growth": -0.021,
     "profit_margin": 0.27784002,
     "free_cashflow": 4341749760.0,
@@ -575,7 +684,7 @@
     "ciq": {
       "company_id": 251230,
       "company_name": "Applied Materials, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -609,13 +718,29 @@
       "market_cap_usd": 345569480486.0,
       "tev_local": 344046480486.0,
       "tev_usd": 344046480486.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.574,
+      "valuation": -0.939,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -0.953,
+        "biz_accel_z": -0.644,
+        "biz_margin_z": -0.7,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": 0.117,
+        "val_vs_peer_ev_z": 0.065
+      },
+      "signal_density_90d": 0
     }
   },
   "LRCX": {
-    "market_cap": 371594690560.0,
-    "market_cap_usd": 371594690560.0,
-    "pe_trailing": 56.170135,
-    "pe_forward": 37.55115,
+    "market_cap": 367730393088.0,
+    "market_cap_usd": 367730393088.0,
+    "pe_trailing": 55.58601,
+    "pe_forward": 37.16065,
     "revenue_growth": 0.238,
     "profit_margin": 0.30938998,
     "free_cashflow": 4352341504.0,
@@ -626,7 +751,7 @@
     "ciq": {
       "company_id": 30655,
       "company_name": "Lam Research Corporation",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -660,13 +785,29 @@
       "market_cap_usd": 367730402550.0,
       "tev_local": 366096298550.0,
       "tev_usd": 366096298550.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.571,
+      "valuation": -1.501,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 1.041,
+        "biz_accel_z": 1.466,
+        "biz_margin_z": -0.224,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.654,
+        "val_vs_peer_ev_z": -0.849
+      },
+      "signal_density_90d": 0
     }
   },
   "KLAC": {
-    "market_cap": 246330851328.0,
-    "market_cap_usd": 246330851328.0,
-    "pe_trailing": 53.375317,
-    "pe_forward": 38.01385,
+    "market_cap": 244167639040.0,
+    "market_cap_usd": 244167639040.0,
+    "pe_trailing": 52.90659,
+    "pe_forward": 37.680027,
     "revenue_growth": 0.115,
     "profit_margin": 0.35661998,
     "free_cashflow": 2890187008.0,
@@ -677,7 +818,7 @@
     "ciq": {
       "company_id": 282225,
       "company_name": "KLA Corporation",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -711,13 +852,29 @@
       "market_cap_usd": 244167655977.0,
       "tev_local": 245761314977.0,
       "tev_usd": 245761314977.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.924,
+      "valuation": -1.19,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 1.062,
+        "biz_accel_z": 0.935,
+        "biz_margin_z": 1.697,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.305,
+        "val_vs_peer_ev_z": -0.264
+      },
+      "signal_density_90d": 0
     }
   },
   "8035.T": {
-    "market_cap": 23791038103552.0,
-    "market_cap_usd": 151526585715.59753,
-    "pe_trailing": 41.720406,
-    "pe_forward": 40.681145,
+    "market_cap": 23960062263296.0,
+    "market_cap_usd": 152981157872.5443,
+    "pe_trailing": 42.016804,
+    "pe_forward": 40.97016,
     "revenue_growth": 0.086,
     "profit_margin": 0.23509,
     "free_cashflow": 229109252096.0,
@@ -728,10 +885,10 @@
     "ciq": {
       "company_id": 874944,
       "company_name": "Tokyo Electron Limited",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2026,
       "reporting_currency": "JPY",
-      "fx_rate_used": 108.881,
+      "fx_rate_used": 144.92,
       "pe_trailing": 41.93048,
       "ev_ebitda": 32.669458,
       "ev_revenue": 9.478814,
@@ -755,20 +912,36 @@
       "net_income_ltm_local": 574454000000.0,
       "net_income_to_co_ltm_local": 574454000000.0,
       "net_income_normalized_local": 393961250000.0,
-      "revenue_ltm_usd": 22442235100.706276,
-      "ebitda_ltm_usd": 6486742406.847843,
-      "net_income_ltm_usd": 5275980198.565407,
+      "revenue_ltm_usd": 16861254485.233232,
+      "ebitda_ltm_usd": 4873606127.518631,
+      "net_income_ltm_usd": 3963938724.8136907,
       "market_cap_local": 23668046345400.0,
-      "market_cap_usd": 217375357917.35934,
+      "market_cap_usd": 163318012319.90063,
       "tev_local": 23161796345400.0,
-      "tev_usd": 212725786366.7674
+      "tev_usd": 159824705667.95474
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.88,
+      "valuation": -0.464,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -1.355,
+        "biz_accel_z": -0.977,
+        "biz_margin_z": -1.187,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -2.179,
+        "val_vs_peer_pe_z": 0.429,
+        "val_vs_peer_ev_z": 0.357
+      },
+      "signal_density_90d": 0
     }
   },
   "NVDA": {
-    "market_cap": 5325684998144.0,
-    "market_cap_usd": 5325684998144.0,
-    "pe_trailing": 44.627068,
-    "pe_forward": 19.415245,
+    "market_cap": 5230436024320.0,
+    "market_cap_usd": 5230436024320.0,
+    "pe_trailing": 43.828922,
+    "pe_forward": 19.068007,
     "revenue_growth": 0.732,
     "profit_margin": 0.55603004,
     "free_cashflow": 58128998400.0,
@@ -779,7 +952,7 @@
     "ciq": {
       "company_id": 32307,
       "company_name": "NVIDIA Corporation",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2026,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -813,13 +986,29 @@
       "market_cap_usd": 5228499200000.0,
       "tev_local": 5177355200000.0,
       "tev_usd": 5177355200000.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.281,
+      "valuation": 0.595,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 1.57,
+        "biz_accel_z": -1.604,
+        "biz_margin_z": 1.157,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": 0.337,
+        "val_vs_peer_pe_z": 0.793,
+        "val_vs_peer_ev_z": 0.655
+      },
+      "signal_density_90d": 0
     }
   },
   "AMD": {
-    "market_cap": 754038603776.0,
-    "market_cap_usd": 754038603776.0,
-    "pe_trailing": 154.14333,
-    "pe_forward": 35.840534,
+    "market_cap": 742233079808.0,
+    "market_cap_usd": 742233079808.0,
+    "pe_trailing": 151.73,
+    "pe_forward": 35.279404,
     "revenue_growth": 0.378,
     "profit_margin": 0.13374,
     "free_cashflow": 7173374976.0,
@@ -830,7 +1019,7 @@
     "ciq": {
       "company_id": 168864,
       "company_name": "Advanced Micro Devices, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -864,13 +1053,29 @@
       "market_cap_usd": 742233104866.0,
       "tev_local": 735687104866.0,
       "tev_usd": 735687104866.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.286,
+      "valuation": -1.752,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.464,
+        "biz_accel_z": 0.646,
+        "biz_margin_z": -1.325,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -0.849,
+        "val_vs_peer_pe_z": -2.792,
+        "val_vs_peer_ev_z": -1.616
+      },
+      "signal_density_90d": 0
     }
   },
   "AVGO": {
-    "market_cap": 2024260108288.0,
-    "market_cap_usd": 2024260108288.0,
-    "pe_trailing": 83.50391,
-    "pe_forward": 23.597591,
+    "market_cap": 2035907428352.0,
+    "market_cap_usd": 2035907428352.0,
+    "pe_trailing": 83.984375,
+    "pe_forward": 23.733368,
     "revenue_growth": 0.295,
     "profit_margin": 0.36571997,
     "free_cashflow": 25503750144.0,
@@ -881,7 +1086,7 @@
     "ciq": {
       "company_id": 25016048,
       "company_name": "Broadcom Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -915,13 +1120,29 @@
       "market_cap_usd": 2035907319120.0,
       "tev_local": 2086190319120.0,
       "tev_usd": 2086190319120.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.11,
+      "valuation": -0.785,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -1.148,
+        "biz_accel_z": -0.045,
+        "biz_margin_z": 0.751,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -1.819,
+        "val_vs_peer_pe_z": -0.477,
+        "val_vs_peer_ev_z": -0.06
+      },
+      "signal_density_90d": 0
     }
   },
   "MRVL": {
-    "market_cap": 147175686144.0,
-    "market_cap_usd": 147175686144.0,
-    "pe_trailing": 55.001633,
-    "pe_forward": 30.96728,
+    "market_cap": 148771586048.0,
+    "market_cap_usd": 148771586048.0,
+    "pe_trailing": 55.59804,
+    "pe_forward": 31.303072,
     "revenue_growth": 0.221,
     "profit_margin": 0.32584,
     "free_cashflow": 1442787456.0,
@@ -932,7 +1153,7 @@
     "ciq": {
       "company_id": 31158,
       "company_name": "Marvell Technology, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2026,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -966,13 +1187,29 @@
       "market_cap_usd": 148771581221.0,
       "tev_local": 150923081221.0,
       "tev_usd": 150923081221.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.116,
+      "valuation": -0.278,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.042,
+        "biz_accel_z": 1.004,
+        "biz_margin_z": -0.583,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -1.37,
+        "val_vs_peer_pe_z": 0.477,
+        "val_vs_peer_ev_z": 0.06
+      },
+      "signal_density_90d": 0
     }
   },
   "GOOGL": {
-    "market_cap": 4781905018880.0,
-    "market_cap_usd": 4781905018880.0,
-    "pe_trailing": 30.10641,
-    "pe_forward": 27.286982,
+    "market_cap": 4855869472768.0,
+    "market_cap_usd": 4855869472768.0,
+    "pe_trailing": 30.572083,
+    "pe_forward": 27.709045,
     "revenue_growth": 0.218,
     "profit_margin": 0.37919,
     "free_cashflow": 27472750592.0,
@@ -983,7 +1220,7 @@
     "ciq": {
       "company_id": 29096,
       "company_name": "Alphabet Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1017,13 +1254,29 @@
       "market_cap_usd": 4835543640130.0,
       "tev_local": 4775696640130.0,
       "tev_usd": 4775696640130.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.053,
+      "valuation": -0.694,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.111,
+        "biz_accel_z": -0.134,
+        "biz_margin_z": -0.267,
+        "biz_signal_density_z": 0.5,
+        "val_vs_own_pe_z": -0.874,
+        "val_vs_peer_pe_z": -0.0,
+        "val_vs_peer_ev_z": -1.209
+      },
+      "signal_density_90d": 1
     }
   },
   "LITE": {
-    "market_cap": 77207166976.0,
-    "market_cap_usd": 77207166976.0,
-    "pe_trailing": 174.40773,
-    "pe_forward": 55.132072,
+    "market_cap": 70315638784.0,
+    "market_cap_usd": 70315638784.0,
+    "pe_trailing": 158.84007,
+    "pe_forward": 50.21097,
     "revenue_growth": 0.901,
     "profit_margin": 0.17678,
     "free_cashflow": 93350000.0,
@@ -1034,7 +1287,7 @@
     "ciq": {
       "company_id": 272054403,
       "company_name": "Lumentum Holdings Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1068,13 +1321,29 @@
       "market_cap_usd": 64802460000.0,
       "tev_local": 66533560000.0,
       "tev_usd": 66533560000.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.234,
+      "valuation": -3.0,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.594,
+        "biz_accel_z": 0.346,
+        "biz_margin_z": -0.687,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -3.0,
+        "val_vs_peer_ev_z": -3.0
+      },
+      "signal_density_90d": 0
     }
   },
   "COHR": {
-    "market_cap": 69783822336.0,
-    "market_cap_usd": 69783822336.0,
-    "pe_trailing": 169.05038,
-    "pe_forward": 44.500816,
+    "market_cap": 65590042624.0,
+    "market_cap_usd": 65590042624.0,
+    "pe_trailing": 158.891,
+    "pe_forward": 41.848495,
     "revenue_growth": 0.205,
     "profit_margin": 0.07102,
     "free_cashflow": -197631744.0,
@@ -1085,7 +1354,7 @@
     "ciq": {
       "company_id": 309779,
       "company_name": "Coherent Corp.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1119,13 +1388,29 @@
       "market_cap_usd": 65590038757.99999,
       "tev_local": 71427399758.0,
       "tev_usd": 71427399758.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.264,
+      "valuation": 2.0,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.555,
+        "biz_accel_z": -0.602,
+        "biz_margin_z": 0.101,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": 3.0,
+        "val_vs_peer_pe_z": 3.0,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "FN": {
-    "market_cap": 23092983808.0,
-    "market_cap_usd": 23092983808.0,
-    "pe_trailing": 55.46644,
-    "pe_forward": 37.3249,
+    "market_cap": 22260301824.0,
+    "market_cap_usd": 22260301824.0,
+    "pe_trailing": 53.466442,
+    "pe_forward": 35.979046,
     "revenue_growth": 0.393,
     "profit_margin": 0.0994,
     "free_cashflow": -79178376.0,
@@ -1136,7 +1421,7 @@
     "ciq": {
       "company_id": 3352516,
       "company_name": "Fabrinet",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1170,13 +1455,29 @@
       "market_cap_usd": 22260300867.0,
       "tev_local": 21331527867.0,
       "tev_usd": 21331527867.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.398,
+      "valuation": -0.844,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -0.635,
+        "biz_accel_z": -0.644,
+        "biz_margin_z": -0.314,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": 0.296,
+        "val_vs_peer_ev_z": 0.172
+      },
+      "signal_density_90d": 0
     }
   },
   "300308.SZ": {
-    "market_cap": 1046929276928.0,
-    "market_cap_usd": 154080276461.8307,
-    "pe_trailing": 70.263824,
-    "pe_forward": 24.901796,
+    "market_cap": 986650050560.0,
+    "market_cap_usd": 145095591600.7665,
+    "pe_trailing": 66.21824,
+    "pe_forward": 23.468021,
     "revenue_growth": 1.921,
     "profit_margin": 0.29275998,
     "free_cashflow": 4162228480.0,
@@ -1187,10 +1488,10 @@
     "ciq": {
       "company_id": 182305869,
       "company_name": "Zhongji Innolight Co., Ltd.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "CNY",
-      "fx_rate_used": 6.5059,
+      "fx_rate_used": 7.0972,
       "pe_trailing": 91.246138,
       "ev_ebitda": 68.762847,
       "ev_revenue": 25.604404,
@@ -1214,20 +1515,36 @@
       "net_income_ltm_local": 10797254308.0,
       "net_income_to_co_ltm_local": 11579754115.0,
       "net_income_normalized_local": 7723480806.0,
-      "revenue_ltm_usd": 5877731849.551946,
-      "ebitda_ltm_usd": 2184990594.8446794,
-      "net_income_ltm_usd": 1659609632.4874346,
+      "revenue_ltm_usd": 5388031285.577411,
+      "ebitda_ltm_usd": 2002949094.1498055,
+      "net_income_ltm_usd": 1521340008.4540381,
       "market_cap_local": 986650073124.0,
-      "market_cap_usd": 151654663170.9679,
+      "market_cap_usd": 139019623671.8706,
       "tev_local": 979110768911.0,
-      "tev_usd": 150495822086.26016
+      "tev_usd": 137957330906.6956
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.094,
+      "valuation": -1.029,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.059,
+        "biz_accel_z": -1.483,
+        "biz_margin_z": 1.048,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -2.55,
+        "val_vs_peer_pe_z": -0.296,
+        "val_vs_peer_ev_z": -0.243
+      },
+      "signal_density_90d": 0
     }
   },
   "300502.SZ": {
-    "market_cap": 560323100672.0,
-    "market_cap_usd": 82464728193.31558,
-    "pe_trailing": 55.53695,
-    "pe_forward": 15.5778475,
+    "market_cap": 548365107200.0,
+    "market_cap_usd": 80641925267.46667,
+    "pe_trailing": 54.351723,
+    "pe_forward": 15.245398,
     "revenue_growth": 1.058,
     "profit_margin": 0.36870998,
     "free_cashflow": 3253608192.0,
@@ -1238,10 +1555,10 @@
     "ciq": {
       "company_id": 146106778,
       "company_name": "Eoptolink Technology Inc., Ltd.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "CNY",
-      "fx_rate_used": 6.5059,
+      "fx_rate_used": 7.0972,
       "pe_trailing": 57.645768,
       "ev_ebitda": 49.634859,
       "ev_revenue": 21.752231,
@@ -1265,20 +1582,36 @@
       "net_income_ltm_local": 9531922736.0,
       "net_income_to_co_ltm_local": 9553276222.0,
       "net_income_normalized_local": 6752309812.0,
-      "revenue_ltm_usd": 3818357927.2660203,
-      "ebitda_ltm_usd": 1672837817.6731892,
-      "net_income_ltm_usd": 1465119773.7438326,
+      "revenue_ltm_usd": 3500233167.869019,
+      "ebitda_ltm_usd": 1533466093.3889422,
+      "net_income_ltm_usd": 1343053984.1064084,
       "market_cap_local": 548365117150.99994,
-      "market_cap_usd": 84287357191.31865,
+      "market_cap_usd": 77264994244.34987,
       "tev_local": 540365776643.99994,
-      "tev_usd": 83057805475.64519
+      "tev_usd": 76137882072.36658
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 1.235,
+      "valuation": 0.036,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 2.175,
+        "biz_accel_z": 1.371,
+        "biz_margin_z": 1.394,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -0.822,
+        "val_vs_peer_pe_z": 0.55,
+        "val_vs_peer_ev_z": 0.381
+      },
+      "signal_density_90d": 0
     }
   },
   "MXL": {
-    "market_cap": 8890123264.0,
-    "market_cap_usd": 8890123264.0,
+    "market_cap": 8939373568.0,
+    "market_cap_usd": 8939373568.0,
     "pe_trailing": null,
-    "pe_forward": 53.142914,
+    "pe_forward": 53.43732,
     "revenue_growth": 0.43,
     "profit_margin": -0.25959,
     "free_cashflow": 22663750.0,
@@ -1289,7 +1622,7 @@
     "ciq": {
       "company_id": 23374622,
       "company_name": "MaxLinear, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1323,13 +1656,29 @@
       "market_cap_usd": 8939373086.0,
       "tev_local": 9011594086.0,
       "tev_usd": 9011594086.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.245,
+      "valuation": 3.0,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.45,
+        "biz_accel_z": 1.012,
+        "biz_margin_z": -1.542,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": 3.0,
+        "val_vs_peer_pe_z": 3.0,
+        "val_vs_peer_ev_z": 3.0
+      },
+      "signal_density_90d": 0
     }
   },
   "ANET": {
-    "market_cap": 177744363520.0,
-    "market_cap_usd": 177744363520.0,
-    "pe_trailing": 48.50859,
-    "pe_forward": 31.833231,
+    "market_cap": 178512445440.0,
+    "market_cap_usd": 178512445440.0,
+    "pe_trailing": 48.718212,
+    "pe_forward": 31.970793,
     "revenue_growth": 0.351,
     "profit_margin": 0.38317,
     "free_cashflow": 4362237440.0,
@@ -1340,7 +1689,7 @@
     "ciq": {
       "company_id": 33348547,
       "company_name": "Arista Networks, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1374,13 +1723,29 @@
       "market_cap_usd": 178517151609.0,
       "tev_local": 167864651609.0,
       "tev_usd": 167864651609.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.232,
+      "valuation": -0.461,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.269,
+        "biz_accel_z": -0.569,
+        "biz_margin_z": 1.764,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -0.839,
+        "val_vs_peer_pe_z": -0.016,
+        "val_vs_peer_ev_z": -0.529
+      },
+      "signal_density_90d": 0
     }
   },
   "CSCO": {
-    "market_cap": 382942117888.0,
-    "market_cap_usd": 382942117888.0,
-    "pe_trailing": 34.8741,
-    "pe_forward": 21.489145,
+    "market_cap": 381441179648.0,
+    "market_cap_usd": 381441179648.0,
+    "pe_trailing": 34.73741,
+    "pe_forward": 21.404253,
     "revenue_growth": 0.097,
     "profit_margin": 0.18756,
     "free_cashflow": 10129500160.0,
@@ -1391,7 +1756,7 @@
     "ciq": {
       "company_id": 19691,
       "company_name": "Cisco Systems, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1425,13 +1790,29 @@
       "market_cap_usd": 381441171065.0,
       "tev_local": 394411171065.0,
       "tev_usd": 394411171065.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.221,
+      "valuation": -0.312,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.807,
+        "biz_accel_z": -0.527,
+        "biz_margin_z": 0.452,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -2.01,
+        "val_vs_peer_pe_z": 0.519,
+        "val_vs_peer_ev_z": 0.554
+      },
+      "signal_density_90d": 0
     }
   },
   "HPE": {
-    "market_cap": 41716293632.0,
-    "market_cap_usd": 41716293632.0,
+    "market_cap": 41596878848.0,
+    "market_cap_usd": 41596878848.0,
     "pe_trailing": null,
-    "pe_forward": 11.563373,
+    "pe_forward": 11.530272,
     "revenue_growth": 0.184,
     "profit_margin": -0.0033000002,
     "free_cashflow": 2551500032.0,
@@ -1442,7 +1823,7 @@
     "ciq": {
       "company_id": 273983758,
       "company_name": "Hewlett Packard Enterprise Company",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1476,13 +1857,29 @@
       "market_cap_usd": 41596875690.0,
       "tev_local": 60693875690.0,
       "tev_usd": 60693875690.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.376,
+      "valuation": 2.421,
+      "quadrant": "value-trap",
+      "components": {
+        "biz_revenue_yoy_z": -0.61,
+        "biz_accel_z": -0.227,
+        "biz_margin_z": -0.667,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": 3.0,
+        "val_vs_peer_pe_z": 3.0,
+        "val_vs_peer_ev_z": 1.264
+      },
+      "signal_density_90d": 0
     }
   },
   "CLS": {
-    "market_cap": 44008255488.0,
-    "market_cap_usd": 44008255488.0,
-    "pe_trailing": 46.34019,
-    "pe_forward": 25.486126,
+    "market_cap": 43178147840.0,
+    "market_cap_usd": 43178147840.0,
+    "pe_trailing": 45.4661,
+    "pe_forward": 25.005392,
     "revenue_growth": 0.528,
     "profit_margin": 0.069520004,
     "free_cashflow": 646862528.0,
@@ -1493,10 +1890,10 @@
     "ciq": {
       "company_id": 26238,
       "company_name": "Celestica Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "CAD",
-      "fx_rate_used": 1.25184,
+      "fx_rate_used": 1.34852,
       "pe_trailing": 52.44929,
       "ev_ebitda": 33.786055,
       "ev_revenue": 3.510604,
@@ -1520,20 +1917,36 @@
       "net_income_ltm_local": 832500000.0,
       "net_income_to_co_ltm_local": 832500000.0,
       "net_income_normalized_local": 631125000.0,
-      "revenue_ltm_usd": 9898149923.312883,
-      "ebitda_ltm_usd": 992778629.8568506,
-      "net_income_ltm_usd": 665021088.9570552,
+      "revenue_ltm_usd": 9188517782.457806,
+      "ebitda_ltm_usd": 921602942.4850948,
+      "net_income_ltm_usd": 617343458.0132294,
       "market_cap_local": 43176646430.0,
-      "market_cap_usd": 34490547058.72955,
+      "market_cap_usd": 32017802057.069973,
       "tev_local": 43499546430.0,
-      "tev_usd": 34748487370.59049
+      "tev_usd": 32257249747.871746
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.46,
+      "valuation": -1.017,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -0.272,
+        "biz_accel_z": -0.656,
+        "biz_margin_z": -0.911,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.051,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "2345.TW": {
-    "market_cap": 1447571750912.0,
-    "market_cap_usd": 46180428759.876015,
-    "pe_trailing": 55.353706,
-    "pe_forward": 25.261604,
+    "market_cap": 1327406514176.0,
+    "market_cap_usd": 42409154841.26573,
+    "pe_trailing": 50.75871,
+    "pe_forward": 26.065542,
     "revenue_growth": 0.64,
     "profit_margin": 0.107209995,
     "free_cashflow": 18687186944.0,
@@ -1544,10 +1957,10 @@
     "ciq": {
       "company_id": 966091,
       "company_name": "Accton Technology Corporation",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
+      "fx_rate_used": 31.921,
       "pe_trailing": 50.758709,
       "ev_ebitda": 37.795294,
       "ev_revenue": 5.151758,
@@ -1571,20 +1984,36 @@
       "net_income_ltm_local": 26341712000.0,
       "net_income_to_co_ltm_local": 26305944000.0,
       "net_income_normalized_local": 20562146125.0,
-      "revenue_ltm_usd": 8788522491.59441,
-      "ebitda_ltm_usd": 1181068625.02212,
-      "net_income_ltm_usd": 932284976.110423,
+      "revenue_ltm_usd": 7779195607.907021,
+      "ebitda_ltm_usd": 1045427586.8550483,
+      "net_income_ltm_usd": 825215751.3862348,
       "market_cap_local": 1327406571250.0,
-      "market_cap_usd": 46979528269.33286,
+      "market_cap_usd": 41584116138.27888,
       "tev_local": 1279283224250.0,
-      "tev_usd": 45276348407.361534
+      "tev_usd": 40076539715.23449
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.824,
+      "valuation": -0.491,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 1.957,
+        "biz_accel_z": 1.979,
+        "biz_margin_z": -0.639,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -1.252,
+        "val_vs_peer_pe_z": 0.016,
+        "val_vs_peer_ev_z": -0.237
+      },
+      "signal_density_90d": 0
     }
   },
   "GEV": {
-    "market_cap": 286122311680.0,
-    "market_cap_usd": 286122311680.0,
-    "pe_trailing": 31.115137,
-    "pe_forward": 43.4824,
+    "market_cap": 279509106688.0,
+    "market_cap_usd": 279509106688.0,
+    "pe_trailing": 30.395967,
+    "pe_forward": 42.477383,
     "revenue_growth": 0.163,
     "profit_margin": 0.23809999,
     "free_cashflow": 9315624960.0,
@@ -1595,7 +2024,7 @@
     "ciq": {
       "company_id": 1818848396,
       "company_name": "GE Vernova Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1629,13 +2058,29 @@
       "market_cap_usd": 279509102799.0,
       "tev_local": 272888102799.0,
       "tev_usd": 272888102799.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.22,
+      "valuation": -1.11,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.602,
+        "biz_accel_z": -2.098,
+        "biz_margin_z": -1.242,
+        "biz_signal_density_z": 1.861,
+        "val_vs_own_pe_z": 0.003,
+        "val_vs_peer_pe_z": -0.332,
+        "val_vs_peer_ev_z": -3.0
+      },
+      "signal_density_90d": 2
     }
   },
   "ETN": {
-    "market_cap": 156570320896.0,
-    "market_cap_usd": 156570320896.0,
-    "pe_trailing": 39.376953,
-    "pe_forward": 25.753502,
+    "market_cap": 155906342912.0,
+    "market_cap_usd": 155906342912.0,
+    "pe_trailing": 39.20996,
+    "pe_forward": 25.644285,
     "revenue_growth": 0.168,
     "profit_margin": 0.13986,
     "free_cashflow": 2646500096.0,
@@ -1646,7 +2091,7 @@
     "ciq": {
       "company_id": 175265,
       "company_name": "Eaton Corporation plc",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1680,13 +2125,29 @@
       "market_cap_usd": 155906333000.0,
       "tev_local": 165831333000.0,
       "tev_usd": 165831333000.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 1.014,
+      "valuation": 0.138,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.792,
+        "biz_accel_z": 0.025,
+        "biz_margin_z": 1.378,
+        "biz_signal_density_z": 1.861,
+        "val_vs_own_pe_z": -0.375,
+        "val_vs_peer_pe_z": 0.476,
+        "val_vs_peer_ev_z": 0.311
+      },
+      "signal_density_90d": 2
     }
   },
   "VRT": {
-    "market_cap": 137787506688.0,
-    "market_cap_usd": 137787506688.0,
-    "pe_trailing": 90.13065,
-    "pe_forward": 41.632526,
+    "market_cap": 130585468928.0,
+    "market_cap_usd": 130585468928.0,
+    "pe_trailing": 85.4196,
+    "pe_forward": 39.45643,
     "revenue_growth": 0.301,
     "profit_margin": 0.14372,
     "free_cashflow": 1964749952.0,
@@ -1697,7 +2158,7 @@
     "ciq": {
       "company_id": 579312452,
       "company_name": "Vertiv Holdings Co",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1731,13 +2192,29 @@
       "market_cap_usd": 130585474175.0,
       "tev_local": 131962074174.99998,
       "tev_usd": 131962074174.99998
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.371,
+      "valuation": -0.96,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": -0.306,
+        "biz_accel_z": -0.663,
+        "biz_margin_z": 0.004,
+        "biz_signal_density_z": 2.449,
+        "val_vs_own_pe_z": -0.425,
+        "val_vs_peer_pe_z": -1.05,
+        "val_vs_peer_ev_z": -1.404
+      },
+      "signal_density_90d": 1
     }
   },
   "GNRC": {
-    "market_cap": 15823017984.0,
-    "market_cap_usd": 15823017984.0,
-    "pe_trailing": 83.73364,
-    "pe_forward": 24.349026,
+    "market_cap": 15859811328.0,
+    "market_cap_usd": 15859811328.0,
+    "pe_trailing": 83.92835,
+    "pe_forward": 24.405643,
     "revenue_growth": 0.124,
     "profit_margin": 0.04368,
     "free_cashflow": 115297624.0,
@@ -1748,7 +2225,7 @@
     "ciq": {
       "company_id": 78749412,
       "company_name": "Generac Holdings Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1782,13 +2259,29 @@
       "market_cap_usd": 15859811348.0,
       "tev_local": 16909969347.999998,
       "tev_usd": 16909969347.999998
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.523,
+      "valuation": -1.73,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -0.932,
+        "biz_accel_z": 0.073,
+        "biz_margin_z": -0.613,
+        "biz_signal_density_z": -0.62,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -1.971,
+        "val_vs_peer_ev_z": -0.22
+      },
+      "signal_density_90d": 0
     }
   },
   "CMI": {
-    "market_cap": 95355961344.0,
-    "market_cap_usd": 95355961344.0,
-    "pe_trailing": 35.935516,
-    "pe_forward": 20.842733,
+    "market_cap": 93770473472.0,
+    "market_cap_usd": 93770473472.0,
+    "pe_trailing": 35.338013,
+    "pe_forward": 20.566778,
     "revenue_growth": 0.027,
     "profit_margin": 0.07886,
     "free_cashflow": 1688625024.0,
@@ -1799,7 +2292,7 @@
     "ciq": {
       "company_id": 265253,
       "company_name": "Cummins Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1833,13 +2326,29 @@
       "market_cap_usd": 93770470479.0,
       "tev_local": 99334470479.0,
       "tev_usd": 99334470479.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.548,
+      "valuation": -0.203,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.827,
+        "biz_accel_z": -0.81,
+        "biz_margin_z": 0.065,
+        "biz_signal_density_z": -0.62,
+        "val_vs_own_pe_z": -2.159,
+        "val_vs_peer_pe_z": 0.686,
+        "val_vs_peer_ev_z": 0.866
+      },
+      "signal_density_90d": 0
     }
   },
   "HUBB": {
-    "market_cap": 25997756416.0,
-    "market_cap_usd": 25997756416.0,
-    "pe_trailing": 29.111982,
-    "pe_forward": 22.642248,
+    "market_cap": 26028802048.0,
+    "market_cap_usd": 26028802048.0,
+    "pe_trailing": 29.146746,
+    "pe_forward": 22.669285,
     "revenue_growth": 0.111,
     "profit_margin": 0.15105,
     "free_cashflow": 541449984.0,
@@ -1850,7 +2359,7 @@
     "ciq": {
       "company_id": 279750,
       "company_name": "Hubbell Incorporated",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1884,13 +2393,29 @@
       "market_cap_usd": 26028802514.0,
       "tev_local": 28028202514.0,
       "tev_usd": 28028202514.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.392,
+      "valuation": 0.41,
+      "quadrant": "underappreciated",
+      "components": {
+        "biz_revenue_yoy_z": -0.114,
+        "biz_accel_z": -0.516,
+        "biz_margin_z": 1.58,
+        "biz_signal_density_z": 0.62,
+        "val_vs_own_pe_z": -0.294,
+        "val_vs_peer_pe_z": 0.819,
+        "val_vs_peer_ev_z": 0.705
+      },
+      "signal_density_90d": 1
     }
   },
   "PWR": {
-    "market_cap": 113273643008.0,
-    "market_cap_usd": 113273643008.0,
-    "pe_trailing": 103.40479,
-    "pe_forward": 46.01352,
+    "market_cap": 111794806784.0,
+    "market_cap_usd": 111794806784.0,
+    "pe_trailing": 102.054794,
+    "pe_forward": 45.412792,
     "revenue_growth": 0.263,
     "profit_margin": 0.036679998,
     "free_cashflow": 1037176768.0,
@@ -1901,7 +2426,7 @@
     "ciq": {
       "company_id": 33509,
       "company_name": "Quanta Services, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1935,13 +2460,29 @@
       "market_cap_usd": 111794811005.0,
       "tev_local": 117863882005.0,
       "tev_usd": 117863882005.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.323,
+      "valuation": -1.747,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 2.184,
+        "biz_accel_z": 0.814,
+        "biz_margin_z": -1.086,
+        "biz_signal_density_z": -0.62,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -2.344,
+        "val_vs_peer_ev_z": 0.104
+      },
+      "signal_density_90d": 0
     }
   },
   "CAT": {
-    "market_cap": 414396907520.0,
-    "market_cap_usd": 414396907520.0,
-    "pe_trailing": 44.761444,
-    "pe_forward": 30.70081,
+    "market_cap": 413358260224.0,
+    "market_cap_usd": 413358260224.0,
+    "pe_trailing": 44.649254,
+    "pe_forward": 30.623861,
     "revenue_growth": 0.222,
     "profit_margin": 0.13328,
     "free_cashflow": 3776624896.0,
@@ -1952,7 +2493,7 @@
     "ciq": {
       "company_id": 259378,
       "company_name": "Caterpillar Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -1986,13 +2527,29 @@
       "market_cap_usd": 413358275143.0,
       "tev_local": 448083275143.0,
       "tev_usd": 448083275143.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.112,
+      "valuation": -0.999,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.051,
+        "biz_accel_z": 0.146,
+        "biz_margin_z": 0.973,
+        "biz_signal_density_z": -0.62,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": 0.108,
+        "val_vs_peer_ev_z": -0.104
+      },
+      "signal_density_90d": 0
     }
   },
   "CEG": {
-    "market_cap": 108807946240.0,
-    "market_cap_usd": 108807946240.0,
-    "pe_trailing": 40.530365,
-    "pe_forward": 22.105127,
+    "market_cap": 110003527680.0,
+    "market_cap_usd": 110003527680.0,
+    "pe_trailing": 40.97571,
+    "pe_forward": 22.348019,
     "revenue_growth": 0.129,
     "profit_margin": 0.09082,
     "free_cashflow": 1258000000.0,
@@ -2003,7 +2560,7 @@
     "ciq": {
       "company_id": 253730,
       "company_name": "Constellation Energy Group, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2011,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2037,13 +2594,27 @@
       "market_cap_usd": 7515955170.0,
       "tev_local": null,
       "tev_usd": null
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.214,
+      "valuation": 2.868,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -1.216,
+        "biz_accel_z": 1.487,
+        "biz_margin_z": -0.508,
+        "biz_signal_density_z": -0.62,
+        "val_vs_peer_pe_z": 2.868
+      },
+      "signal_density_90d": 0
     }
   },
   "OKLO": {
-    "market_cap": 13296171008.0,
-    "market_cap_usd": 13296171008.0,
+    "market_cap": 12610927616.0,
+    "market_cap_usd": 12610927616.0,
     "pe_trailing": null,
-    "pe_forward": -84.33721,
+    "pe_forward": -79.99074,
     "revenue_growth": null,
     "profit_margin": 0.0,
     "free_cashflow": -79832752.0,
@@ -2054,7 +2625,7 @@
     "ciq": {
       "company_id": 544611249,
       "company_name": "Oklo Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2088,13 +2659,25 @@
       "market_cap_usd": 12610927453.0,
       "tev_local": 11384406453.0,
       "tev_usd": 11384406453.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.62,
+      "valuation": 3.0,
+      "quadrant": "value-trap",
+      "components": {
+        "biz_signal_density_z": -0.62,
+        "val_vs_peer_pe_z": 3.0,
+        "val_vs_peer_ev_z": 3.0
+      },
+      "signal_density_90d": 0
     }
   },
   "LEU": {
-    "market_cap": 4093711616.0,
-    "market_cap_usd": 4093711616.0,
-    "pe_trailing": 75.39493,
-    "pe_forward": 50.202652,
+    "market_cap": 4078760448.0,
+    "market_cap_usd": 4078760448.0,
+    "pe_trailing": 75.11957,
+    "pe_forward": 50.019302,
     "revenue_growth": 0.049,
     "profit_margin": 0.13397999,
     "free_cashflow": -10875000.0,
@@ -2105,7 +2688,7 @@
     "ciq": {
       "company_id": 36096,
       "company_name": "Centrus Energy Corp.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2139,13 +2722,29 @@
       "market_cap_usd": 4078760380.0,
       "tev_local": 3337760380.0,
       "tev_usd": 3337760380.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.182,
+      "valuation": -1.753,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.438,
+        "biz_accel_z": 0.879,
+        "biz_margin_z": -0.547,
+        "biz_signal_density_z": -0.62,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.108,
+        "val_vs_peer_ev_z": -2.152
+      },
+      "signal_density_90d": 0
     }
   },
   "NVT": {
-    "market_cap": 27657431040.0,
-    "market_cap_usd": 27657431040.0,
-    "pe_trailing": 58.170067,
-    "pe_forward": 30.708126,
+    "market_cap": 27484389376.0,
+    "market_cap_usd": 27484389376.0,
+    "pe_trailing": 57.80612,
+    "pe_forward": 30.515997,
     "revenue_growth": 0.535,
     "profit_margin": 0.11371,
     "free_cashflow": 209875008.0,
@@ -2156,7 +2755,7 @@
     "ciq": {
       "company_id": 542155250,
       "company_name": "nVent Electric plc",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2190,13 +2789,29 @@
       "market_cap_usd": 27484390817.0,
       "tev_local": 28959790817.0,
       "tev_usd": 28959790817.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.164,
+      "valuation": -1.0,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.241,
+        "biz_accel_z": -0.013,
+        "biz_margin_z": 0.006,
+        "biz_signal_density_z": -0.408,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.0,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "MOD": {
-    "market_cap": 14656641024.0,
-    "market_cap_usd": 14656641024.0,
-    "pe_trailing": 151.8853,
-    "pe_forward": 37.68018,
+    "market_cap": 14395616256.0,
+    "market_cap_usd": 14395616256.0,
+    "pe_trailing": 149.18033,
+    "pe_forward": 37.00912,
     "revenue_growth": 0.305,
     "profit_margin": 0.03403,
     "free_cashflow": -109575000.0,
@@ -2207,7 +2822,7 @@
     "ciq": {
       "company_id": 288838,
       "company_name": "Modine Manufacturing Company",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2241,13 +2856,29 @@
       "market_cap_usd": 14395616781.0,
       "tev_local": 14781416781.0,
       "tev_usd": 14781416781.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -1.011,
+      "valuation": -1.189,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -1.035,
+        "biz_accel_z": -1.507,
+        "biz_margin_z": -1.094,
+        "biz_signal_density_z": -0.408,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.442,
+        "val_vs_peer_ev_z": -0.125
+      },
+      "signal_density_90d": 0
     }
   },
   "SU.PA": {
-    "market_cap": 151892377600.0,
-    "market_cap_usd": 179076129981.182,
-    "pe_trailing": 33.842304,
-    "pe_forward": 23.513288,
+    "market_cap": 153128189952.0,
+    "market_cap_usd": 180533112200.27594,
+    "pe_trailing": 34.11765,
+    "pe_forward": 23.704596,
     "revenue_growth": 0.042,
     "profit_margin": 0.10368,
     "free_cashflow": 3984000000.0,
@@ -2258,10 +2889,10 @@
     "ciq": {
       "company_id": 682078,
       "company_name": "Schneider Electric S.E.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "EUR",
-      "fx_rate_used": 0.8397,
+      "fx_rate_used": 0.9027,
       "pe_trailing": 37.189631,
       "ev_ebitda": 20.294141,
       "ev_revenue": 4.202169,
@@ -2285,20 +2916,37 @@
       "net_income_ltm_local": 4163000000.0,
       "net_income_to_co_ltm_local": 4351000000.0,
       "net_income_normalized_local": 3893875000.0,
-      "revenue_ltm_usd": 47817077527.68846,
-      "ebitda_ltm_usd": 9440276289.150887,
-      "net_income_ltm_usd": 4957722996.308206,
+      "revenue_ltm_usd": 44479893652.37621,
+      "ebitda_ltm_usd": 8781433477.345741,
+      "net_income_ltm_usd": 4611720394.372439,
       "market_cap_local": 153194494857.0,
-      "market_cap_usd": 182439555623.43695,
+      "market_cap_usd": 169706984443.33667,
       "tev_local": 168725494857.0,
-      "tev_usd": 200935447013.21902
+      "tev_usd": 186912035955.46698
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.584,
+      "valuation": 0.299,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -1.109,
+        "biz_accel_z": -0.52,
+        "biz_margin_z": -0.301,
+        "biz_signal_density_z": -0.408,
+        "val_vs_own_pe_z": -0.445,
+        "val_vs_peer_pe_z": 0.862,
+        "val_vs_peer_ev_z": 0.778,
+        "val_price_run_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "3017.TW": {
-    "market_cap": 1002016866304.0,
-    "market_cap_usd": 31966338443.25352,
-    "pe_trailing": 53.041313,
-    "pe_forward": 19.272554,
+    "market_cap": 958877204480.0,
+    "market_cap_usd": 30635055202.961414,
+    "pe_trailing": 50.757736,
+    "pe_forward": 18.442816,
     "revenue_growth": 1.285,
     "profit_margin": 0.1374,
     "free_cashflow": 27411412992.0,
@@ -2309,10 +2957,10 @@
     "ciq": {
       "company_id": 9857962,
       "company_name": "Asia Vital Components Co., Ltd.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
+      "fx_rate_used": 31.921,
       "pe_trailing": 50.684079,
       "ev_ebitda": 30.283559,
       "ev_revenue": 6.647141,
@@ -2336,20 +2984,36 @@
       "net_income_ltm_local": 19186495000.0,
       "net_income_to_co_ltm_local": 20950520000.0,
       "net_income_normalized_local": 16529372500.000002,
-      "revenue_ltm_usd": 4942111555.476907,
-      "ebitda_ltm_usd": 1070488515.3070252,
-      "net_income_ltm_usd": 679047779.1541319,
+      "revenue_ltm_usd": 4374529682.654053,
+      "ebitda_ltm_usd": 947547163.3094201,
+      "net_income_ltm_usd": 601061840.1679145,
       "market_cap_local": 955290840000.0,
-      "market_cap_usd": 33809620952.043884,
+      "market_cap_usd": 29926720340.841454,
       "tev_local": 928202570000.0,
-      "tev_usd": 32850913820.562733
+      "tev_usd": 29078116913.630524
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.905,
+      "valuation": -0.791,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 2.084,
+        "biz_accel_z": 1.925,
+        "biz_margin_z": 0.018,
+        "biz_signal_density_z": -0.408,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": 0.449,
+        "val_vs_peer_ev_z": 0.177
+      },
+      "signal_density_90d": 0
     }
   },
   "3653.TW": {
-    "market_cap": 589132201984.0,
-    "market_cap_usd": 18794493376.048836,
-    "pe_trailing": 111.09574,
-    "pe_forward": 30.009996,
+    "market_cap": 535574708224.0,
+    "market_cap_usd": 17111013459.38234,
+    "pe_trailing": 100.996124,
+    "pe_forward": 27.281815,
     "revenue_growth": 0.193,
     "profit_margin": 0.26027,
     "free_cashflow": 2475161344.0,
@@ -2360,10 +3024,10 @@
     "ciq": {
       "company_id": 50259850,
       "company_name": "Jentech Precision Industrial Co., Ltd",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
+      "fx_rate_used": 31.921,
       "pe_trailing": 100.99486,
       "ev_ebitda": 72.720933,
       "ev_revenue": 25.636665,
@@ -2387,23 +3051,39 @@
       "net_income_ltm_local": 5277165000.0,
       "net_income_to_co_ltm_local": 5310342000.0,
       "net_income_normalized_local": 4060533000.0,
-      "revenue_ltm_usd": 717592532.295169,
-      "ebitda_ltm_usd": 250966908.51176783,
-      "net_income_ltm_usd": 186769244.3815254,
+      "revenue_ltm_usd": 635179881.5826572,
+      "ebitda_ltm_usd": 222144356.37981266,
+      "net_income_ltm_usd": 165319538.8615645,
       "market_cap_local": 528775500000.0,
-      "market_cap_usd": 18714404530.17165,
+      "market_cap_usd": 16565129538.548292,
       "tev_local": 519798177000.0,
-      "tev_usd": 18396679419.57176
+      "tev_usd": 16283893894.301558
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.619,
+      "valuation": -2.042,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 0.205,
+        "biz_accel_z": 0.45,
+        "biz_margin_z": 2.229,
+        "biz_signal_density_z": -0.408,
+        "val_vs_own_pe_z": -2.657,
+        "val_vs_peer_pe_z": -1.09,
+        "val_vs_peer_ev_z": -2.377
+      },
+      "signal_density_90d": 0
     }
   },
   "3324.TWO": {
-    "market_cap": 97516224512.0,
-    "market_cap_usd": 3110962241.540907,
-    "pe_trailing": 38.79623,
-    "pe_forward": 14.411885,
-    "revenue_growth": 0.937,
-    "profit_margin": 0.11765,
-    "free_cashflow": -4060464384.0,
+    "market_cap": 97060536320.0,
+    "market_cap_usd": 3100975676.864431,
+    "pe_trailing": 38.614937,
+    "pe_forward": 14.530107,
+    "revenue_growth": 0.842,
+    "profit_margin": 0.1105,
+    "free_cashflow": -3530482944.0,
     "sector": "Technology",
     "industry": "Computer Hardware",
     "long_name": "Auras Technology Co., Ltd.",
@@ -2411,10 +3091,10 @@
     "ciq": {
       "company_id": 20392917,
       "company_name": "Auras Technology Co., Ltd.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
+      "fx_rate_used": 31.921,
       "pe_trailing": 38.590275,
       "ev_ebitda": 26.252453,
       "ev_revenue": 4.369872,
@@ -2438,20 +3118,36 @@
       "net_income_ltm_local": 2572128000.0,
       "net_income_to_co_ltm_local": 2697755000.0,
       "net_income_normalized_local": 1976702375.0,
-      "revenue_ltm_usd": 823795576.0042471,
-      "ebitda_ltm_usd": 134803362.23677227,
-      "net_income_ltm_usd": 91032666.7846399,
+      "revenue_ltm_usd": 729185927.7591554,
+      "ebitda_ltm_usd": 119321731.77532034,
+      "net_income_ltm_usd": 80577926.75668056,
       "market_cap_local": 97993776840.0,
-      "market_cap_usd": 3468192420.456557,
+      "market_cap_usd": 3069884303.123336,
       "tev_local": 101714657840.0,
-      "tev_usd": 3599881714.386834
+      "tev_usd": 3186449604.9622507
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.135,
+      "valuation": -0.253,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.402,
+        "biz_accel_z": 0.328,
+        "biz_margin_z": -0.862,
+        "biz_signal_density_z": -0.408,
+        "val_vs_own_pe_z": -1.997,
+        "val_vs_peer_pe_z": 0.819,
+        "val_vs_peer_ev_z": 0.42
+      },
+      "signal_density_90d": 0
     }
   },
   "MSFT": {
-    "market_cap": 3046698385408.0,
-    "market_cap_usd": 3046698385408.0,
-    "pe_trailing": 24.456768,
-    "pe_forward": 21.190895,
+    "market_cap": 3083691884544.0,
+    "market_cap_usd": 3083691884544.0,
+    "pe_trailing": 24.753725,
+    "pe_forward": 21.448198,
     "revenue_growth": 0.183,
     "profit_margin": 0.39341998,
     "free_cashflow": 37011251200.0,
@@ -2462,7 +3158,7 @@
     "ciq": {
       "company_id": 21835,
       "company_name": "Microsoft Corporation",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2496,13 +3192,29 @@
       "market_cap_usd": 3083691814324.0,
       "tev_local": 3101310814324.0,
       "tev_usd": 3101310814324.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.668,
+      "valuation": 0.184,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.076,
+        "biz_accel_z": 0.872,
+        "biz_margin_z": 1.225,
+        "biz_signal_density_z": 0.5,
+        "val_vs_own_pe_z": 0.191,
+        "val_vs_peer_pe_z": 0.36,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 1
     }
   },
   "META": {
-    "market_cap": 1531964817408.0,
-    "market_cap_usd": 1531964817408.0,
-    "pe_trailing": 21.953815,
-    "pe_forward": 16.678026,
+    "market_cap": 1547498946560.0,
+    "market_cap_usd": 1547498946560.0,
+    "pe_trailing": 22.176428,
+    "pe_forward": 16.847143,
     "revenue_growth": 0.331,
     "profit_margin": 0.32837,
     "free_cashflow": 25558249472.0,
@@ -2513,7 +3225,7 @@
     "ciq": {
       "company_id": 20765463,
       "company_name": "Meta Platforms, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2547,13 +3259,29 @@
       "market_cap_usd": 1547498998817.0,
       "tev_local": 1550987998817.0,
       "tev_usd": 1550987998817.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.853,
+      "valuation": 0.318,
+      "quadrant": "underappreciated",
+      "components": {
+        "biz_revenue_yoy_z": 1.684,
+        "biz_accel_z": 0.4,
+        "biz_margin_z": 0.829,
+        "biz_signal_density_z": 0.5,
+        "val_vs_own_pe_z": -0.115,
+        "val_vs_peer_pe_z": 0.601,
+        "val_vs_peer_ev_z": 0.469
+      },
+      "signal_density_90d": 1
     }
   },
   "AMZN": {
-    "market_cap": 2926848245760.0,
-    "market_cap_usd": 2926848245760.0,
-    "pe_trailing": 32.507168,
-    "pe_forward": 27.564829,
+    "market_cap": 2933248491520.0,
+    "market_cap_usd": 2933248491520.0,
+    "pe_trailing": 32.578255,
+    "pe_forward": 27.625109,
     "revenue_growth": 0.166,
     "profit_margin": 0.12224,
     "free_cashflow": 9806624768.0,
@@ -2564,7 +3292,7 @@
     "ciq": {
       "company_id": 18749,
       "company_name": "Amazon.com, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2598,13 +3326,29 @@
       "market_cap_usd": 2933248601008.0,
       "tev_local": 2988766601008.0,
       "tev_usd": 2988766601008.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.879,
+      "valuation": 0.182,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.491,
+        "biz_accel_z": -1.876,
+        "biz_margin_z": -1.65,
+        "biz_signal_density_z": 0.5,
+        "val_vs_own_pe_z": 0.525,
+        "val_vs_peer_pe_z": -0.05,
+        "val_vs_peer_ev_z": 0.07
+      },
+      "signal_density_90d": 1
     }
   },
   "ORCL": {
-    "market_cap": 556759384064.0,
-    "market_cap_usd": 556759384064.0,
-    "pe_trailing": 34.817448,
-    "pe_forward": 24.10019,
+    "market_cap": 563561234432.0,
+    "market_cap_usd": 563561234432.0,
+    "pe_trailing": 35.242805,
+    "pe_forward": 24.394617,
     "revenue_growth": 0.217,
     "profit_margin": 0.25298,
     "free_cashflow": -22298499072.0,
@@ -2615,7 +3359,7 @@
     "ciq": {
       "company_id": 22247,
       "company_name": "Oracle Corporation",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2649,13 +3393,29 @@
       "market_cap_usd": 563561213700.0,
       "tev_local": 661828213700.0,
       "tev_usd": 661828213700.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.695,
+      "valuation": -0.779,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -1.38,
+        "biz_accel_z": 0.738,
+        "biz_margin_z": -0.137,
+        "biz_signal_density_z": -2.0,
+        "val_vs_own_pe_z": -1.026,
+        "val_vs_peer_pe_z": -0.433,
+        "val_vs_peer_ev_z": -0.879
+      },
+      "signal_density_90d": 0
     }
   },
   "CRWV": {
-    "market_cap": 62739660800.0,
-    "market_cap_usd": 62739660800.0,
+    "market_cap": 60294041600.0,
+    "market_cap_usd": 60294041600.0,
     "pe_trailing": null,
-    "pe_forward": -131.1386,
+    "pe_forward": -126.026764,
     "revenue_growth": 1.116,
     "profit_margin": -0.25566,
     "free_cashflow": -8560327168.0,
@@ -2666,14 +3426,14 @@
     "ciq": {
       "company_id": 605989324,
       "company_name": "CoreWeave, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
       "pe_trailing": -40.694534,
-      "ev_ebitda": 25.309861,
-      "ev_revenue": 17.333629,
-      "p_s": 12.137371,
+      "ev_ebitda": 25.225295,
+      "ev_revenue": 17.275714,
+      "p_s": 12.079456,
       "p_b": 17.182399,
       "ebitda_margin": 0.47495600000000004,
       "gross_margin": 0.716819,
@@ -2696,17 +3456,32 @@
       "revenue_ltm_usd": 5131000000.0,
       "ebitda_ltm_usd": 2437000000.0,
       "net_income_ltm_usd": -1167000000.0,
-      "market_cap_local": 62276854995.0,
-      "market_cap_usd": 62276854995.0,
-      "tev_local": 88938854995.0,
-      "tev_usd": 88938854995.0
+      "market_cap_local": 61979688985.0,
+      "market_cap_usd": 61979688985.0,
+      "tev_local": 88641688985.0,
+      "tev_usd": 88641688985.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.25,
+      "valuation": 1.009,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -1.0,
+        "biz_accel_z": -1.0,
+        "biz_margin_z": 1.0,
+        "biz_signal_density_z": 0.0,
+        "val_vs_peer_pe_z": 2.018,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "NBIS": {
-    "market_cap": 49728499712.0,
-    "market_cap_usd": 49728499712.0,
-    "pe_trailing": 4896.5,
-    "pe_forward": -192.73953,
+    "market_cap": 44952674304.0,
+    "market_cap_usd": 44952674304.0,
+    "pe_trailing": 4426.25,
+    "pe_forward": -174.22922,
     "revenue_growth": 5.469,
     "profit_margin": 0.15572,
     "free_cashflow": -3599950080.0,
@@ -2717,10 +3492,10 @@
     "ciq": {
       "company_id": 52034495,
       "company_name": "Nebius Group N.V.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "EUR",
-      "fx_rate_used": 0.8397,
+      "fx_rate_used": 0.9027,
       "pe_trailing": 4426.25,
       "ev_ebitda": -213.44688,
       "ev_revenue": 87.868562,
@@ -2744,20 +3519,36 @@
       "net_income_ltm_local": 82500000.0,
       "net_income_to_co_ltm_local": 82500000.0,
       "net_income_normalized_local": -400187500.0,
-      "revenue_ltm_usd": 630939621.293319,
-      "ebitda_ltm_usd": -230796713.11182564,
-      "net_income_ltm_usd": 98249374.77670597,
+      "revenue_ltm_usd": 586905948.820206,
+      "ebitda_ltm_usd": -214689265.5367232,
+      "net_income_ltm_usd": 91392489.19906946,
       "market_cap_local": 45332764594.0,
-      "market_cap_usd": 53986857918.30416,
+      "market_cap_usd": 50219081194.1952,
       "tev_local": 46552764594.0,
-      "tev_usd": 55439757763.48696
+      "tev_usd": 51570582246.59356
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.25,
+      "valuation": 0.0,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 1.0,
+        "biz_accel_z": 1.0,
+        "biz_margin_z": -1.0,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.0,
+        "val_vs_peer_ev_z": 3.0
+      },
+      "signal_density_90d": 0
     }
   },
   "CRM": {
-    "market_cap": 147454197760.0,
-    "market_cap_usd": 147454197760.0,
-    "pe_trailing": 23.108974,
-    "pe_forward": 12.06512,
+    "market_cap": 148738539520.0,
+    "market_cap_usd": 148738539520.0,
+    "pe_trailing": 23.310257,
+    "pe_forward": 12.170209,
     "revenue_growth": 0.121,
     "profit_margin": 0.17958,
     "free_cashflow": 16366999552.0,
@@ -2768,7 +3559,7 @@
     "ciq": {
       "company_id": 122917,
       "company_name": "Salesforce, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2026,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2802,13 +3593,29 @@
       "market_cap_usd": 148738531734.0,
       "tev_local": 156884531734.0,
       "tev_usd": 156884531734.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.259,
+      "valuation": 1.271,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -1.127,
+        "biz_accel_z": -0.58,
+        "biz_margin_z": 0.673,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": 1.462,
+        "val_vs_peer_pe_z": 1.146,
+        "val_vs_peer_ev_z": 1.204
+      },
+      "signal_density_90d": 0
     }
   },
   "NOW": {
-    "market_cap": 95571419136.0,
-    "market_cap_usd": 95571419136.0,
-    "pe_trailing": 55.160774,
-    "pe_forward": 18.492115,
+    "market_cap": 94034665472.0,
+    "market_cap_usd": 94034665472.0,
+    "pe_trailing": 54.27381,
+    "pe_forward": 18.19477,
     "revenue_growth": 0.221,
     "profit_margin": 0.12586,
     "free_cashflow": 5108125184.0,
@@ -2819,7 +3626,7 @@
     "ciq": {
       "company_id": 22967487,
       "company_name": "ServiceNow, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2853,13 +3660,29 @@
       "market_cap_usd": 94034663440.0,
       "tev_local": 86382663440.0,
       "tev_usd": 86382663440.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.162,
+      "valuation": 0.431,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.469,
+        "biz_accel_z": -0.456,
+        "biz_margin_z": 0.277,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": 1.294,
+        "val_vs_peer_pe_z": -0.0,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "SNOW": {
-    "market_cap": 52397752320.0,
-    "market_cap_usd": 52397752320.0,
+    "market_cap": 52701962240.0,
+    "market_cap_usd": 52701962240.0,
     "pe_trailing": null,
-    "pe_forward": 62.30987,
+    "pe_forward": 62.671635,
     "revenue_growth": 0.301,
     "profit_margin": -0.28429002,
     "free_cashflow": 1587485568.0,
@@ -2870,7 +3693,7 @@
     "ciq": {
       "company_id": 275004592,
       "company_name": "Snowflake Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2026,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2904,13 +3727,28 @@
       "market_cap_usd": 52641137450.0,
       "tev_local": 50597552450.0,
       "tev_usd": 50597552450.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.595,
+      "valuation": 3.0,
+      "quadrant": "value-trap",
+      "components": {
+        "biz_revenue_yoy_z": 0.012,
+        "biz_accel_z": -0.69,
+        "biz_margin_z": -1.704,
+        "biz_signal_density_z": 0.0,
+        "val_vs_peer_pe_z": 3.0,
+        "val_vs_peer_ev_z": 3.0
+      },
+      "signal_density_90d": 0
     }
   },
   "PLTR": {
-    "market_cap": 324787830784.0,
-    "market_cap_usd": 324787830784.0,
-    "pe_trailing": 150.53333,
-    "pe_forward": 65.80532,
+    "market_cap": 330349608960.0,
+    "market_cap_usd": 330349608960.0,
+    "pe_trailing": 153.11111,
+    "pe_forward": 66.9322,
     "revenue_growth": 0.847,
     "profit_margin": 0.43673,
     "free_cashflow": 1752997120.0,
@@ -2921,7 +3759,7 @@
     "ciq": {
       "company_id": 43580005,
       "company_name": "Palantir Technologies Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -2955,13 +3793,29 @@
       "market_cap_usd": 330349590430.0,
       "tev_local": 323502628430.0,
       "tev_usd": 323502628430.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 1.016,
+      "valuation": -2.0,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 1.584,
+        "biz_accel_z": 1.726,
+        "biz_margin_z": 0.754,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -0.0,
+        "val_vs_peer_pe_z": -3.0,
+        "val_vs_peer_ev_z": -3.0
+      },
+      "signal_density_90d": 0
     }
   },
   "CDNS": {
-    "market_cap": 99838500864.0,
-    "market_cap_usd": 99838500864.0,
-    "pe_trailing": 84.57359,
-    "pe_forward": 38.587288,
+    "market_cap": 100038467584.0,
+    "market_cap_usd": 100038467584.0,
+    "pe_trailing": 84.74299,
+    "pe_forward": 38.664574,
     "revenue_growth": 0.187,
     "profit_margin": 0.21180001,
     "free_cashflow": 1499152256.0,
@@ -2972,7 +3826,7 @@
     "ciq": {
       "company_id": 25941,
       "company_name": "Cadence Design Systems, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -3006,13 +3860,29 @@
       "market_cap_usd": 100038463200.0,
       "tev_local": 99549261200.0,
       "tev_usd": 99549261200.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.796,
+      "valuation": -0.463,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 0.606,
+        "biz_accel_z": 1.19,
+        "biz_margin_z": 1.389,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -0.596,
+        "val_vs_peer_pe_z": -0.792,
+        "val_vs_peer_ev_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "SNPS": {
-    "market_cap": 98740649984.0,
-    "market_cap_usd": 98740649984.0,
-    "pe_trailing": 79.178185,
-    "pe_forward": 30.23261,
+    "market_cap": 98937954304.0,
+    "market_cap_usd": 98937954304.0,
+    "pe_trailing": 79.3364,
+    "pe_forward": 30.29302,
     "revenue_growth": 0.655,
     "profit_margin": 0.13756,
     "free_cashflow": 3096222464.0,
@@ -3023,7 +3893,7 @@
     "ciq": {
       "company_id": 35028,
       "company_name": "Synopsys, Inc.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "USD",
       "fx_rate_used": 1.0,
@@ -3057,13 +3927,29 @@
       "market_cap_usd": 98937955704.0,
       "tev_local": 110269827704.0,
       "tev_usd": 110269827704.0
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.102,
+      "valuation": -0.424,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.804,
+        "biz_accel_z": 0.067,
+        "biz_margin_z": -0.464,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -0.305,
+        "val_vs_peer_pe_z": -0.0,
+        "val_vs_peer_ev_z": -0.966
+      },
+      "signal_density_90d": 0
     }
   },
   "SIEGY": {
-    "market_cap": 242123440128.0,
-    "market_cap_usd": 242123440128.0,
-    "pe_trailing": 26.677965,
-    "pe_forward": 21.3782,
+    "market_cap": 241508139008.0,
+    "market_cap_usd": 241508139008.0,
+    "pe_trailing": 26.610168,
+    "pe_forward": 21.323874,
     "revenue_growth": 0.043,
     "profit_margin": 0.09969,
     "free_cashflow": 7742624768.0,
@@ -3074,10 +3960,10 @@
     "ciq": {
       "company_id": 394038,
       "company_name": "Siemens Aktiengesellschaft",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "EUR",
-      "fx_rate_used": 0.8397,
+      "fx_rate_used": 0.9027,
       "pe_trailing": 27.841182,
       "ev_ebitda": 19.750272,
       "ev_revenue": 3.177502,
@@ -3101,20 +3987,36 @@
       "net_income_ltm_local": 9620000000.0,
       "net_income_to_co_ltm_local": 10387000000.0,
       "net_income_normalized_local": 5687375000.0,
-      "revenue_ltm_usd": 93978801953.07848,
-      "ebitda_ltm_usd": 13666785756.817911,
-      "net_income_ltm_usd": 11456472549.720139,
+      "revenue_ltm_usd": 87419962335.21658,
+      "ebitda_ltm_usd": 12712972194.527529,
+      "net_income_ltm_usd": 10656918134.485434,
       "market_cap_local": 204126462599.0,
-      "market_cap_usd": 243094513039.18066,
+      "market_cap_usd": 226128794282.70746,
       "tev_local": 250749462599.0,
-      "tev_usd": 298617914253.90015
+      "tev_usd": 277777182451.5343
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.898,
+      "valuation": 0.602,
+      "quadrant": "value-trap",
+      "components": {
+        "biz_revenue_yoy_z": -1.41,
+        "biz_accel_z": -1.257,
+        "biz_margin_z": -0.925,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -0.539,
+        "val_vs_peer_pe_z": 1.13,
+        "val_vs_peer_ev_z": 1.215
+      },
+      "signal_density_90d": 0
     }
   },
   "4062.T": {
-    "market_cap": 4371593822208.0,
-    "market_cap_usd": 27842950069.32375,
-    "pe_trailing": 132.77075,
-    "pe_forward": 50.66999,
+    "market_cap": 4332499501056.0,
+    "market_cap_usd": 27662315016.980778,
+    "pe_trailing": 131.5834,
+    "pe_forward": 50.216858,
     "revenue_growth": null,
     "profit_margin": 0.10033,
     "free_cashflow": null,
@@ -3125,10 +4027,10 @@
     "ciq": {
       "company_id": 880425,
       "company_name": "Ibiden Co.,Ltd.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "JPY",
-      "fx_rate_used": 108.881,
+      "fx_rate_used": 144.92,
       "pe_trailing": 137.184529,
       "ev_ebitda": 42.943071,
       "ev_revenue": 11.633718,
@@ -3152,20 +4054,36 @@
       "net_income_ltm_local": 33704000000.0,
       "net_income_to_co_ltm_local": 34050000000.0,
       "net_income_normalized_local": 29584625000.0,
-      "revenue_ltm_usd": 3393025413.0656404,
-      "ebitda_ltm_usd": 919205371.0013684,
-      "net_income_ltm_usd": 309548957.11832184,
+      "revenue_ltm_usd": 2549240960.5299478,
+      "ebitda_ltm_usd": 690615512.0066243,
+      "net_income_ltm_usd": 232569693.62406847,
       "market_cap_local": 4332499331720.0,
-      "market_cap_usd": 39791141996.491585,
+      "market_cap_usd": 29895799970.46647,
       "tev_local": 4297914331720.0,
-      "tev_usd": 39473501636.83287
+      "tev_usd": 29657151060.72316
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.53,
+      "valuation": -0.83,
+      "quadrant": "avoid",
+      "components": {
+        "biz_revenue_yoy_z": -1.063,
+        "biz_accel_z": -1.128,
+        "biz_margin_z": 0.07,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": 0.315,
+        "val_vs_peer_ev_z": 0.196
+      },
+      "signal_density_90d": 0
     }
   },
   "3037.TW": {
-    "market_cap": 1355661049856.0,
-    "market_cap_usd": 43248293907.34607,
-    "pe_trailing": 198.38708,
-    "pe_forward": 30.710394,
+    "market_cap": 1287956725760.0,
+    "market_cap_usd": 41148778183.83471,
+    "pe_trailing": 188.47926,
+    "pe_forward": 29.176659,
     "revenue_growth": 0.245,
     "profit_margin": 0.07793,
     "free_cashflow": -336875136.0,
@@ -3176,10 +4094,10 @@
     "ciq": {
       "company_id": 9870522,
       "company_name": "Unimicron Technology Corp.",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
+      "fx_rate_used": 31.921,
       "pe_trailing": 188.479262,
       "ev_ebitda": 52.262166,
       "ev_revenue": 9.989954,
@@ -3203,20 +4121,36 @@
       "net_income_ltm_local": 6673144000.0,
       "net_income_to_co_ltm_local": 7550490000.0,
       "net_income_normalized_local": 4105132125.0,
-      "revenue_ltm_usd": 4644872836.666077,
-      "ebitda_ltm_usd": 873599823.04017,
-      "net_income_ltm_usd": 236175685.71934173,
+      "revenue_ltm_usd": 4111427649.5097275,
+      "ebitda_ltm_usd": 773270354.9387549,
+      "net_income_ltm_usd": 209051846.74665582,
       "market_cap_local": 1299265818178.0,
-      "market_cap_usd": 45983571692.72695,
+      "market_cap_usd": 40702541216.69121,
       "tev_local": 1311090406178.0,
-      "tev_usd": 46402067109.467354
+      "tev_usd": 41072974097.86661
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": -0.067,
+      "valuation": -1.17,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": 0.371,
+        "biz_accel_z": 0.362,
+        "biz_margin_z": -1.003,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -0.315,
+        "val_vs_peer_ev_z": -0.196
+      },
+      "signal_density_90d": 0
     }
   },
   "ATS.VI": {
-    "market_cap": 3916080128.0,
-    "market_cap_usd": 4616929994.112172,
-    "pe_trailing": 30.545456,
-    "pe_forward": 23.773586,
+    "market_cap": 3908310016.0,
+    "market_cap_usd": 4607769286.982123,
+    "pe_trailing": 30.484848,
+    "pe_forward": 23.726416,
     "revenue_growth": 0.179,
     "profit_margin": 0.085360005,
     "free_cashflow": 359546112.0,
@@ -3227,10 +4161,10 @@
     "ciq": {
       "company_id": 2444485,
       "company_name": "AT & S Austria Technologie & Systemtechnik Aktiengesellschaft",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "EUR",
-      "fx_rate_used": 0.8397,
+      "fx_rate_used": 0.9027,
       "pe_trailing": 54.135471,
       "ev_ebitda": 8.743643,
       "ev_revenue": 3.399162,
@@ -3254,20 +4188,37 @@
       "net_income_ltm_local": 89695000.0,
       "net_income_to_co_ltm_local": 89695000.0,
       "net_income_normalized_local": 134965625.0,
-      "revenue_ltm_usd": 1893088007.6217697,
-      "ebitda_ltm_usd": 735953316.6607121,
-      "net_income_ltm_usd": 106817911.15874717,
+      "revenue_ltm_usd": 1760968206.4916363,
+      "ebitda_ltm_usd": 684590672.427163,
+      "net_income_ltm_usd": 99363022.04497617,
       "market_cap_local": 3908310000.0,
-      "market_cap_usd": 4654412290.103608,
+      "market_cap_usd": 4329577932.868063,
       "tev_local": 5403397000.0,
-      "tev_usd": 6434913659.6403475
+      "tev_usd": 5985816993.464053
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.034,
+      "valuation": 0.191,
+      "quadrant": "fair",
+      "components": {
+        "biz_revenue_yoy_z": -0.771,
+        "biz_accel_z": -0.69,
+        "biz_margin_z": 1.597,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -2.206,
+        "val_vs_peer_pe_z": 1.335,
+        "val_vs_peer_ev_z": 1.633,
+        "val_price_run_z": -0.0
+      },
+      "signal_density_90d": 0
     }
   },
   "8046.TW": {
-    "market_cap": 586718248960.0,
-    "market_cap_usd": 18717483455.41154,
-    "pe_trailing": 303.67892,
-    "pe_forward": 34.660072,
+    "market_cap": 551825309696.0,
+    "market_cap_usd": 17630202017.468903,
+    "pe_trailing": 285.6187,
+    "pe_forward": 32.598793,
     "revenue_growth": 0.419,
     "profit_margin": 0.048460003,
     "free_cashflow": 2809034240.0,
@@ -3278,10 +4229,10 @@
     "ciq": {
       "company_id": 26340271,
       "company_name": "Nan Ya Printed Circuit Board Corporation",
-      "as_of": "2026-05-11",
+      "as_of": "2026-05-10",
       "fiscal_year": 2025,
       "reporting_currency": "TWD",
-      "fx_rate_used": 28.255,
+      "fx_rate_used": 31.921,
       "pe_trailing": 283.72093,
       "ev_ebitda": 61.20046,
       "ev_revenue": 13.550239,
@@ -3305,13 +4256,41 @@
       "net_income_ltm_local": 1946775000.0,
       "net_income_to_co_ltm_local": 1946775000.0,
       "net_income_normalized_local": 1475143125.0,
-      "revenue_ltm_usd": 1421801097.1509469,
-      "ebitda_ltm_usd": 304619500.97327906,
-      "net_income_ltm_usd": 68900194.65581314,
+      "revenue_ltm_usd": 1258512891.2001503,
+      "ebitda_ltm_usd": 269635161.8057078,
+      "net_income_ltm_usd": 60987281.100216165,
       "market_cap_local": 551825337000.0,
-      "market_cap_usd": 19530183578.127766,
+      "market_cap_usd": 17287219604.64898,
       "tev_local": 544353620000.0,
-      "tev_usd": 19265744823.92497
+      "tev_usd": 17053150590.520348
+    },
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.564,
+      "valuation": -1.685,
+      "quadrant": "priced-in",
+      "components": {
+        "biz_revenue_yoy_z": 1.462,
+        "biz_accel_z": 1.456,
+        "biz_margin_z": -0.664,
+        "biz_signal_density_z": 0.0,
+        "val_vs_own_pe_z": -3.0,
+        "val_vs_peer_pe_z": -1.485,
+        "val_vs_peer_ev_z": -0.571
+      },
+      "signal_density_90d": 0
+    }
+  },
+  "6967.T": {
+    "score": {
+      "as_of": "2026-05-12T01:58:50.111859+00:00",
+      "business": 0.0,
+      "valuation": null,
+      "quadrant": "unscored",
+      "components": {
+        "biz_signal_density_z": 0.0
+      },
+      "signal_density_90d": 0
     }
   }
 }

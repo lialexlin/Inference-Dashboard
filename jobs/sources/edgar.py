@@ -1,7 +1,17 @@
-"""Pull recent SEC filings (8-K / 10-Q / 10-K) for US-listed tickers via the
-SEC EDGAR public submissions API. No key required.
+"""Pull recent SEC filings (10-K / 10-Q + paired earnings 8-K) for US-listed
+tickers via the SEC EDGAR public submissions API. No key required.
 
-We surface filings as signals — title + form + date + accession-number URL.
+Scope is intentionally narrow:
+  - 10-K (annual) and 10-Q (quarterly) reports
+  - 8-K filings ONLY when their items list contains "2.02" (Results of
+    Operations and Financial Condition — i.e., the earnings press release)
+    AND they're filed within ±1 day of a 10-Q/10-K we already kept.
+  - All other 8-Ks (5.02 exec changes, 8.01 other, etc.) are dropped.
+
+The paired-8-K rule exists because forward guidance lives in the earnings
+press release exhibit (ex-99.1) attached to the 8-K, not in the 10-Q/10-K
+itself.
+
 EDGAR enforces a 10 req/sec global cap and requires a User-Agent with contact.
 """
 from __future__ import annotations
@@ -67,7 +77,8 @@ CIK_MAP = {
     "LEU":  "0001065059",
 }
 
-INTERESTING_FORMS = {"8-K", "10-Q", "10-K"}
+REPORT_FORMS = {"10-K", "10-Q"}
+EARNINGS_8K_ITEM = "2.02"  # SEC item code for "Results of Operations and Financial Condition"
 
 
 @dataclass
@@ -81,7 +92,27 @@ def _filing_url(cik: str, accession: str, primary_doc: str) -> str:
     return f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{acc_nodash}/{primary_doc}"
 
 
-def fetch(tickers: list[str], days_back: int = 60, max_per_ticker: int = 5) -> EdgarResult:
+def _make_entry(ticker: str, cik: str, form: str, fdate, accession: str,
+                primary_doc: str, desc: str) -> dict:
+    return {
+        "id": f"edgar-{ticker}-{accession}",
+        "accession": accession,
+        "form": form,
+        "date": fdate.isoformat(),
+        "source": f"SEC EDGAR ({ticker})",
+        "source_type": "filing",
+        "headline": f"{ticker} files {form}: {desc or 'periodic report'}",
+        "quote": "",
+        "url": _filing_url(cik, accession, primary_doc),
+        "layer_ids": [],
+        "tickers": [ticker],
+    }
+
+
+def fetch(tickers: list[str], days_back: int = 365, max_reports_per_ticker: int = 2) -> EdgarResult:
+    """Fetch the last `max_reports_per_ticker` 10-K/10-Q per ticker, plus any
+    8-K with Item 2.02 (earnings release) filed within ±1 day of one of those
+    reports. days_back of 365 comfortably catches 4 quarterly reports."""
     import requests
 
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
@@ -103,12 +134,13 @@ def fetch(tickers: list[str], days_back: int = 60, max_per_ticker: int = 5) -> E
             accessions = recent.get("accessionNumber", [])
             primary_docs = recent.get("primaryDocument", [])
             descriptions = recent.get("primaryDocDescription", [])
+            items_list = recent.get("items", [])
 
-            count = 0
+            # Pass 1: collect the most recent 10-K/10-Q reports.
+            reports: list[dict] = []
+            report_dates: list = []
             for i, form in enumerate(forms):
-                if count >= max_per_ticker:
-                    break
-                if form not in INTERESTING_FORMS:
+                if form not in REPORT_FORMS:
                     continue
                 try:
                     fdate = datetime.fromisoformat(dates[i]).date()
@@ -116,21 +148,33 @@ def fetch(tickers: list[str], days_back: int = 60, max_per_ticker: int = 5) -> E
                     continue
                 if fdate < cutoff:
                     continue
+                if len(reports) >= max_reports_per_ticker:
+                    break
                 desc = descriptions[i] if i < len(descriptions) else ""
-                url_doc = _filing_url(cik, accessions[i], primary_docs[i])
-                result.entries.append({
-                    "id": f"edgar-{ticker}-{accessions[i]}",
-                    "date": fdate.isoformat(),
-                    "source": f"SEC EDGAR ({ticker})",
-                    "source_type": "filing",
-                    "headline": f"{ticker} files {form}: {desc or 'periodic report'}",
-                    "quote": "",
-                    "url": url_doc,
-                    "layer_ids": [],
-                    "tickers": [ticker],
-                })
-                count += 1
-            log.info("OK EDGAR %s: %d filings", ticker, count)
+                reports.append(_make_entry(ticker, cik, form, fdate, accessions[i], primary_docs[i], desc))
+                report_dates.append(fdate)
+
+            # Pass 2: collect 8-Ks with item 2.02 filed within ±1 day of a kept report.
+            earnings_8ks: list[dict] = []
+            for i, form in enumerate(forms):
+                if form != "8-K":
+                    continue
+                items = items_list[i] if i < len(items_list) else ""
+                if EARNINGS_8K_ITEM not in (items or ""):
+                    continue
+                try:
+                    fdate = datetime.fromisoformat(dates[i]).date()
+                except Exception:
+                    continue
+                if not any(abs((fdate - rd).days) <= 1 for rd in report_dates):
+                    continue
+                desc = descriptions[i] if i < len(descriptions) else ""
+                earnings_8ks.append(_make_entry(ticker, cik, form, fdate, accessions[i], primary_docs[i], desc or "Earnings release"))
+
+            result.entries.extend(reports)
+            result.entries.extend(earnings_8ks)
+            log.info("OK EDGAR %s: %d reports + %d earnings 8-Ks",
+                     ticker, len(reports), len(earnings_8ks))
             time.sleep(0.12)  # respect 10 req/sec cap
         except Exception as e:
             log.warning("FAIL EDGAR %s: %s", ticker, e)

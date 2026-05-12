@@ -24,15 +24,18 @@
       </p>
     </section>
 
-    <section class="relative z-10 mb-6 flex items-center gap-3 flex-wrap">
+    <section class="relative z-10 mb-4 flex items-center gap-3 flex-wrap">
       <span class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mr-2">Filter</span>
       <button class="btn-ghost active" data-status="all">All <span id="count-all" class="text-[color:var(--text-faint)]"></span></button>
-      <button class="btn-ghost" data-status="underappreciated">Underappreciated <span id="count-underappreciated" class="text-[color:var(--text-faint)]"></span></button>
-      <button class="btn-ghost" data-status="mixed">Mixed <span id="count-mixed" class="text-[color:var(--text-faint)]"></span></button>
-      <button class="btn-ghost" data-status="priced-in">Priced-in <span id="count-priced-in" class="text-[color:var(--text-faint)]"></span></button>
-      <button class="btn-ghost" data-status="fairly-priced">Fairly priced <span id="count-fairly-priced" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-status="underappreciated" title="≥30% of the layer's tickers are in the underappreciated quadrant — top-idea zone.">Underappreciated <span id="count-underappreciated" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-status="priced-in" title="≥50% of the layer's tickers are strong but already expensive — consensus trade.">Priced-in <span id="count-priced-in" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-status="value-trap" title="≥50% of the layer's tickers are cheap but weak — optical bargains, no growth.">Value trap <span id="count-value-trap" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-status="avoid" title="≥50% of the layer's tickers are weak AND expensive — no edge.">Avoid <span id="count-avoid" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-status="fair" title="Default — no quadrant dominates; the layer is balanced overall.">Fair <span id="count-fair" class="text-[color:var(--text-faint)]"></span></button>
       <div class="ml-auto w-72"><input class="search" id="search" placeholder="Search ticker or company…"></div>
     </section>
+
+    <section id="status-legend" class="relative z-10 mb-6"></section>
 
     <section id="layers" class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-4"></section>
 
@@ -52,6 +55,7 @@
     (async () => {
       await loadAll();
       document.getElementById("header").innerHTML = shellHeader("overview");
+      document.getElementById("status-legend").innerHTML = renderStatusLegend();
 
       const grid = document.getElementById("layers");
       const empty = document.getElementById("empty");

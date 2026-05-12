@@ -22,6 +22,7 @@ from pathlib import Path
 
 from jobs import seed
 from jobs import transform
+from jobs import scoring
 from jobs.sources import prices as prices_src
 from jobs.sources import rss as rss_src
 from jobs.sources import edgar as edgar_src
@@ -50,6 +51,7 @@ def main() -> int:
     p.add_argument("--skip-rss", action="store_true")
     p.add_argument("--skip-edgar", action="store_true")
     p.add_argument("--skip-ciq", action="store_true")
+    p.add_argument("--skip-scoring", action="store_true")
     p.add_argument("--tickers", help="comma-separated ticker subset for prices/edgar/ciq (debug)")
     p.add_argument("-v", "--verbose", action="store_true")
     args = p.parse_args()
@@ -179,14 +181,42 @@ def main() -> int:
     # EDGAR --------------------------------------------------------------
     if not args.skip_edgar:
         log.info("Fetching EDGAR filings ...")
-        er = edgar_src.fetch(tickers, days_back=60, max_per_ticker=4)
+        er = edgar_src.fetch(tickers, days_back=365, max_reports_per_ticker=2)
+
+        # Attach summaries from data/filing_summaries.json (written by the
+        # claude.ai daily routine). Missing summaries are fine — frontend
+        # falls back to the bare card.
+        summaries = _load_json(DATA / "filing_summaries.json", {})
+        summarized = 0
+        for entry in er.entries:
+            summary = summaries.get(entry.get("accession"))
+            if not summary:
+                continue
+            entry["summary"] = {
+                "tldr": summary.get("tldr"),
+                "takeaways": summary.get("takeaways", []),
+                "guidance": summary.get("guidance"),
+                "quote": summary.get("quote"),
+                "quote_section": summary.get("quote_section"),
+            }
+            # LLM layer_tags override the keyword tagger for filings.
+            llm_tags = summary.get("layer_tags") or []
+            if llm_tags:
+                entry["layer_ids"] = llm_tags
+            # Surface the quote on the bare card too (legacy `quote` field).
+            if summary.get("quote") and not entry.get("quote"):
+                entry["quote"] = summary["quote"]
+            summarized += 1
+
         discovered.extend(er.entries)
         meta["sources"]["edgar"] = {
             "entries": len(er.entries),
+            "summarized": summarized,
             "errors": er.errors,
             "ts": datetime.now(timezone.utc).isoformat(),
         }
-        log.info("EDGAR: %d filings, %d ticker errors", len(er.entries), len(er.errors))
+        log.info("EDGAR: %d filings (%d with summaries), %d ticker errors",
+                 len(er.entries), summarized, len(er.errors))
     else:
         log.info("Skipping EDGAR.")
 
@@ -218,6 +248,60 @@ def main() -> int:
         "discovered_kept": kept_count,
         "total": len(merged),
     }
+
+    # Scoring ------------------------------------------------------------
+    # Final stage: per-ticker business x valuation z-scores + per-layer auto status.
+    # Reads everything written above. Idempotent and cheap (<1s for 66 tickers).
+    if not args.skip_scoring:
+        log.info("Computing per-ticker scores ...")
+        try:
+            manual = _load_json(DATA / "manual_estimates.json", {})
+            fundamentals_now = _load_json(DATA / "fundamentals.json", {})
+            prices_now = _load_json(DATA / "prices.json", {})
+            history_now = _load_json(DATA / "multiples_history.json", {})
+            scores, status_auto = scoring.compute(
+                layers=layers,
+                players=players,
+                fundamentals=fundamentals_now,
+                prices=prices_now,
+                history=history_now,
+                signals=merged,
+                manual=manual,
+            )
+            scoring.write_outputs(
+                scores=scores,
+                layer_status_auto=status_auto,
+                fund_path=DATA / "fundamentals.json",
+                layers_path=DATA / "layers.json",
+                scores_path=DATA / "scores.json",
+                layers_data=layers,
+                write_json=_write_json,
+            )
+            # Track coverage metrics for about page.
+            manual_covered = sum(1 for t in [pp["ticker"] for pp in players]
+                                 if t in manual and manual[t].get("fwd_eps_curr") is not None)
+            quadrant_counts: dict[str, int] = {}
+            for s in scores.values():
+                quadrant_counts[s["quadrant"]] = quadrant_counts.get(s["quadrant"], 0) + 1
+            meta["sources"]["scoring"] = {
+                "ok": len(scores),
+                "quadrant_counts": quadrant_counts,
+                "manual_estimates_coverage": manual_covered,
+                "manual_estimates_total": len(players),
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+            log.info("Scoring: %d tickers, quadrants=%s, manual=%d/%d",
+                     len(scores), quadrant_counts, manual_covered, len(players))
+        except Exception as e:
+            log.error("Scoring stage failed: %s", e)
+            meta["sources"]["scoring"] = {
+                "ok": 0,
+                "errors": {"__stage__": str(e)},
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+    else:
+        log.info("Skipping scoring.")
+
     _write_json(DATA / "meta.json", meta)
 
     log.info("Refresh done. Signals: %d (%d curated + %d discovered).", len(merged), len(curated_only), kept_count)

@@ -58,7 +58,10 @@
             <h1 class="font-display text-5xl text-white leading-tight max-w-3xl">${layer.name}</h1>
             <p class="mt-3 text-[color:var(--text-dim)] max-w-2xl">${layer.short_role}</p>
           </div>
-          <span class="badge badge--${layer.status}">${statusLabel(layer.status)}</span>
+          <div class="flex items-center gap-2">
+            <span class="badge badge--${layer.status}" title="${escapeHtml(statusDefinition(layer.status))}">${statusLabel(layer.status)}</span>
+            ${layer.status_override ? `<span class="badge-hint">manual</span>` : `<span class="badge-hint">auto</span>`}
+          </div>
         </header>
 
         <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 mb-10">
@@ -66,6 +69,7 @@
             <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Bottleneck status</div>
             <p class="text-[15px] text-[color:var(--text)] leading-relaxed">${escapeHtml(layer.bottleneck_summary)}</p>
             <p class="mt-3 text-sm text-[color:var(--text-dim)] italic">${escapeHtml(layer.status_note)}</p>
+            <div id="quadrant-distribution" class="mt-4 pt-4 border-t border-[color:var(--border-soft)]"></div>
           </div>
           <div class="layer-card">
             <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Primary sources</div>
@@ -92,6 +96,8 @@
                 <th class="text-right hidden lg:table-cell" title="Price/Sales — S&P Capital IQ">P/S</th>
                 <th class="text-right hidden lg:table-cell" title="EBITDA margin (latest fiscal year) — S&P Capital IQ">EBITDA mgn</th>
                 <th class="text-right hidden lg:table-cell" title="Revenue YoY (latest fiscal year) — S&P Capital IQ">Rev YoY</th>
+                <th class="text-right hidden xl:table-cell" title="Business score — composite of growth, acceleration, margin, signal density, and EPS revisions (if manual estimates provided). Z-scored within this layer's peer set.">Biz</th>
+                <th class="text-right hidden xl:table-cell" title="Valuation score — composite of multiple vs own history, vs peers, and price run. Z-scored. Positive = cheap.">Val</th>
               </tr>
             </thead>
             <tbody id="players-body"></tbody>
@@ -127,12 +133,15 @@
         const px = DATA.prices[p.ticker] || {};
         const f = DATA.fundamentals[p.ticker] || {};
         const ciq = f.ciq || {};
+        const score = f.score || null;
+        const q = (score && score.quadrant) || "unscored";
         const c1 = px.change_1m, c6 = px.change_6m, cy = px.change_ytd;
         // Prefer CIQ market cap (currency-aware via reporting currency) over yfinance's.
         const mcap = ciq.market_cap_usd ?? f.market_cap_usd ?? (f.currency === "USD" ? f.market_cap : null);
+        const qpill = `<span class="qpill qpill--${q}" title="${escapeHtml(quadrantLabel(q) + ' — ' + quadrantDefinition(q))}">${escapeHtml(quadrantLabel(q))}</span>`;
         return `
           <tr data-ticker="${p.ticker}" class="cursor-pointer">
-            <td><span class="ticker text-white">${p.ticker}</span></td>
+            <td><div class="flex items-center gap-2 flex-wrap"><a class="ticker text-white hover:text-[color:var(--sky)] hover:underline underline-offset-2" href="stock.html?ticker=${encodeURIComponent(p.ticker)}" data-stock-link>${p.ticker}</a>${qpill}</div></td>
             <td><div class="text-white">${escapeHtml(p.name)}</div><div class="text-xs text-[color:var(--text-faint)]">${escapeHtml(p.exchange)} · ${escapeHtml(p.country)}</div></td>
             <td class="text-sm text-[color:var(--text-dim)] hidden md:table-cell max-w-md">${escapeHtml(p.role)}</td>
             <td class="num text-right">${fmtPrice(px.last_close, px.currency)}</td>
@@ -145,8 +154,33 @@
             <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${fmtMultiple(ciq.p_s)}</td>
             <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${fmtPct(ciq.ebitda_margin != null ? ciq.ebitda_margin * 100 : null)}</td>
             <td class="num text-right ${changeClass(ciq.revenue_yoy != null ? ciq.revenue_yoy * 100 : null) === 'up' ? 'text-[color:var(--green)]' : changeClass(ciq.revenue_yoy != null ? ciq.revenue_yoy * 100 : null) === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]'} hidden lg:table-cell">${fmtPct(ciq.revenue_yoy != null ? ciq.revenue_yoy * 100 : null)}</td>
+            <td class="text-right hidden xl:table-cell whitespace-nowrap">${renderScoreBar(score ? score.business : null)}</td>
+            <td class="text-right hidden xl:table-cell whitespace-nowrap">${renderScoreBar(score ? score.valuation : null)}</td>
           </tr>`;
       }).join("");
+
+      // Quadrant distribution panel below Bottleneck status
+      const qcounts = { underappreciated: 0, "priced-in": 0, "value-trap": 0, avoid: 0, fair: 0, unscored: 0 };
+      players.forEach((p) => {
+        const s = (DATA.fundamentals[p.ticker] || {}).score;
+        const q = (s && s.quadrant) || "unscored";
+        qcounts[q] = (qcounts[q] || 0) + 1;
+      });
+      const distEl = document.getElementById("quadrant-distribution");
+      if (distEl) {
+        const parts = Object.entries(qcounts)
+          .filter(([_, n]) => n > 0)
+          .map(([q, n]) => `<span class="inline-flex items-center gap-1.5" title="${escapeHtml(quadrantLabel(q) + ' — ' + quadrantDefinition(q))}"><span class="qdot qdot--${q}"></span><span class="text-sm text-[color:var(--text)]">${n}</span> <span class="text-xs text-[color:var(--text-dim)]">${quadrantLabel(q)}</span></span>`)
+          .join(`<span class="text-[color:var(--text-faint)] mx-2">·</span>`);
+        distEl.innerHTML = `<div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Players by quadrant</div><div class="flex flex-wrap items-center gap-y-2">${parts}</div>`;
+      }
+
+      // Quadrant legend strip lives just above the Players table — full page width.
+      const sectionDividers = document.querySelectorAll(".section-divider");
+      const playersDivider = Array.from(sectionDividers).find((el) => el.textContent.startsWith("Players ("));
+      if (playersDivider) {
+        playersDivider.insertAdjacentHTML("afterend", renderQuadrantLegend());
+      }
 
       // Signals
       document.getElementById("signals").innerHTML = recentSignals.map(renderSignalCard).join("");
@@ -177,7 +211,11 @@
         chartEl.scrollIntoView({ behavior: "smooth", block: "center" });
       };
       tbody.querySelectorAll("tr[data-ticker]").forEach((tr) => {
-        tr.addEventListener("click", () => renderChart(tr.getAttribute("data-ticker")));
+        tr.addEventListener("click", (e) => {
+          // Ticker text is an <a> to stock.html — let normal navigation happen.
+          if (e.target.closest("[data-stock-link]")) return;
+          renderChart(tr.getAttribute("data-ticker"));
+        });
       });
       document.getElementById("chart-close").addEventListener("click", () => chartHost.classList.add("hidden"));
 

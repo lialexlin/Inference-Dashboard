@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stock detail · Inference Stack</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="min-h-screen">
+  <div id="header"></div>
+
+  <main class="max-w-7xl mx-auto px-6 py-10">
+    <div id="content"></div>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script src="assets/components.js"></script>
+  <script>
+    (async () => {
+      await loadAll();
+      document.getElementById("header").innerHTML = shellHeader("overview");
+
+      const ticker = qs("ticker");
+      const root = document.getElementById("content");
+      if (!ticker) {
+        root.innerHTML = `<div class="text-center py-24 text-[color:var(--text-faint)]">No ticker specified. <a class="underline" href="index.html">Back to overview</a>.</div>`;
+        return;
+      }
+      const player = playerByTicker(ticker);
+      if (!player) {
+        root.innerHTML = `<div class="text-center py-24 text-[color:var(--text-faint)]">Ticker <span class="font-mono text-[color:var(--text-dim)]">${escapeHtml(ticker)}</span> not found. <a class="underline" href="index.html">Back to overview</a>.</div>`;
+        return;
+      }
+
+      const f = (DATA.fundamentals || {})[ticker] || {};
+      const ciq = f.ciq || {};
+      const px = (DATA.prices || {})[ticker] || {};
+      const score = f.score || null;
+      const q = (score && score.quadrant) || "unscored";
+      const primaryLayer = layerById(player.layer_id);
+      const secondary = (player.secondary_layers || []).map((id) => layerById(id)).filter(Boolean);
+      const tickerSignals = (DATA.signals || []).filter((s) => (s.tickers || []).includes(ticker));
+      const mh = (DATA.multiples_history || {})[ticker];
+
+      // ---------- Header ----------
+      const headerHtml = `
+        <a href="layer.html?id=${player.layer_id}" class="text-xs text-[color:var(--text-faint)] hover:text-[color:var(--text-dim)]">← ${escapeHtml(primaryLayer ? primaryLayer.name : "back")}</a>
+        <div class="stock-header mt-4">
+          <div class="stock-header__ident">
+            <div class="flex items-baseline gap-3 flex-wrap">
+              <div class="stock-header__ticker">${escapeHtml(ticker)}</div>
+              <span class="qpill qpill--${q}" title="${escapeHtml(quadrantLabel(q) + ' — ' + quadrantDefinition(q))}">${escapeHtml(quadrantLabel(q))}</span>
+            </div>
+            <div class="stock-header__name">${escapeHtml(f.long_name || player.name)}</div>
+            <div class="stock-header__meta">
+              <span>${escapeHtml(player.exchange)} · ${escapeHtml(player.country)}</span>
+              <span>${escapeHtml(f.sector || "—")} · ${escapeHtml(f.industry || "—")}</span>
+              <a class="layer-pill" href="layer.html?id=${player.layer_id}">${escapeHtml(primaryLayer ? primaryLayer.name : player.layer_id)}</a>
+              ${secondary.map((l) => `<a class="layer-pill" href="layer.html?id=${l.id}">${escapeHtml(l.name)}</a>`).join("")}
+            </div>
+            <p class="mt-3 text-sm text-[color:var(--text-dim)] max-w-2xl">${escapeHtml(player.role || "")}</p>
+          </div>
+          <div class="stock-header__scores">
+            <div class="stock-header__score-row">
+              <span class="stock-header__score-label">Business</span>${renderScoreBar(score ? score.business : null)}
+            </div>
+            <div class="stock-header__score-row">
+              <span class="stock-header__score-label">Valuation</span>${renderScoreBar(score ? score.valuation : null)}
+            </div>
+            <div class="text-[11px] text-[color:var(--text-faint)] max-w-[260px] text-right">${escapeHtml(quadrantDefinition(q))}</div>
+          </div>
+        </div>
+      `;
+
+      // ---------- Breakdown ----------
+      const breakdownHtml = score
+        ? renderQuadrantBreakdown(player, f)
+        : `<div class="text-sm text-[color:var(--text-faint)]">No score yet for ${escapeHtml(ticker)} — usually means CIQ data is missing.</div>`;
+
+      // ---------- Key metrics ----------
+      const me = (DATA.manual_estimates || {})[ticker];
+      const oneYrReturn = px.history && px.history.length > 20
+        ? ((px.history[px.history.length - 1].close / px.history[0].close - 1) * 100)
+        : null;
+      const last = px.last_close;
+      const kmHtml = `
+        <div class="kmgrid">
+          <div class="kmgroup">
+            <div class="kmgroup__title">Price</div>
+            <div class="kmrow"><span class="kmrow__label">Last close</span><span class="kmrow__val">${fmtPrice(last, px.currency)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">1m</span><span class="kmrow__val ${changeClass(px.change_1m) === 'up' ? 'text-[color:var(--green)]' : changeClass(px.change_1m) === 'dn' ? 'text-[color:var(--rose)]' : ''}">${fmtPct(px.change_1m)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">6m</span><span class="kmrow__val ${changeClass(px.change_6m) === 'up' ? 'text-[color:var(--green)]' : changeClass(px.change_6m) === 'dn' ? 'text-[color:var(--rose)]' : ''}">${fmtPct(px.change_6m)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">YTD</span><span class="kmrow__val ${changeClass(px.change_ytd) === 'up' ? 'text-[color:var(--green)]' : changeClass(px.change_ytd) === 'dn' ? 'text-[color:var(--rose)]' : ''}">${fmtPct(px.change_ytd)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">1y</span><span class="kmrow__val ${changeClass(oneYrReturn) === 'up' ? 'text-[color:var(--green)]' : changeClass(oneYrReturn) === 'dn' ? 'text-[color:var(--rose)]' : ''}">${fmtPct(oneYrReturn)}</span></div>
+          </div>
+          <div class="kmgroup">
+            <div class="kmgroup__title">Growth</div>
+            <div class="kmrow"><span class="kmrow__label">Revenue YoY</span><span class="kmrow__val">${fmtPct(ciq.revenue_yoy != null ? ciq.revenue_yoy * 100 : null)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">3y CAGR</span><span class="kmrow__val">${fmtPct(ciq.revenue_cagr_3y != null ? ciq.revenue_cagr_3y * 100 : null)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">5y CAGR</span><span class="kmrow__val">${fmtPct(ciq.revenue_cagr_5y != null ? ciq.revenue_cagr_5y * 100 : null)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">EBITDA YoY</span><span class="kmrow__val">${fmtPct(ciq.ebitda_yoy != null ? ciq.ebitda_yoy * 100 : null)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">EPS YoY</span><span class="kmrow__val">${fmtPct(ciq.eps_yoy != null ? ciq.eps_yoy * 100 : null)}</span></div>
+          </div>
+          <div class="kmgroup">
+            <div class="kmgroup__title">Margins</div>
+            <div class="kmrow"><span class="kmrow__label">Gross</span><span class="kmrow__val">${fmtPct(ciq.gross_margin != null ? ciq.gross_margin * 100 : null, false)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">EBITDA</span><span class="kmrow__val">${fmtPct(ciq.ebitda_margin != null ? ciq.ebitda_margin * 100 : null, false)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">EBIT</span><span class="kmrow__val">${fmtPct(ciq.ebit_margin != null ? ciq.ebit_margin * 100 : null, false)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">Net</span><span class="kmrow__val">${fmtPct(ciq.net_margin != null ? ciq.net_margin * 100 : null, false)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">FCF</span><span class="kmrow__val">${fmtPct(ciq.fcf_margin != null ? ciq.fcf_margin * 100 : null, false)}</span></div>
+          </div>
+          <div class="kmgroup">
+            <div class="kmgroup__title">Returns</div>
+            <div class="kmrow"><span class="kmrow__label">ROE</span><span class="kmrow__val">${fmtPct(ciq.roe != null ? ciq.roe * 100 : null, false)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">ROA</span><span class="kmrow__val">${fmtPct(ciq.roa != null ? ciq.roa * 100 : null, false)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">ROIC</span><span class="kmrow__val">${fmtPct(ciq.roic != null ? ciq.roic * 100 : null, false)}</span></div>
+          </div>
+          <div class="kmgroup">
+            <div class="kmgroup__title">Valuation</div>
+            <div class="kmrow"><span class="kmrow__label">P/E trailing</span><span class="kmrow__val">${fmtPE(ciq.pe_trailing)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">P/E forward</span><span class="kmrow__val">${fmtPE(f.pe_forward)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">EV/EBITDA</span><span class="kmrow__val">${fmtMultiple(ciq.ev_ebitda)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">P/S</span><span class="kmrow__val">${fmtMultiple(ciq.p_s)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">P/B</span><span class="kmrow__val">${fmtMultiple(ciq.p_b)}</span></div>
+          </div>
+          <div class="kmgroup">
+            <div class="kmgroup__title">Scale</div>
+            <div class="kmrow"><span class="kmrow__label">Market cap</span><span class="kmrow__val">${fmtMcap(ciq.market_cap_usd || f.market_cap_usd)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">Revenue LTM</span><span class="kmrow__val">${fmtMcap(ciq.revenue_ltm_usd)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">EBITDA LTM</span><span class="kmrow__val">${fmtMcap(ciq.ebitda_ltm_usd)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">Net income LTM</span><span class="kmrow__val">${fmtMcap(ciq.net_income_ltm_usd)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">Reporting ccy</span><span class="kmrow__val">${escapeHtml(ciq.reporting_currency || "—")}</span></div>
+          </div>
+          ${me ? `
+          <div class="kmgroup">
+            <div class="kmgroup__title">Manual estimates</div>
+            <div class="kmrow"><span class="kmrow__label">Fwd EPS (current)</span><span class="kmrow__val">${me.fwd_eps_curr != null ? me.fwd_eps_curr.toFixed(2) : "—"}</span></div>
+            <div class="kmrow"><span class="kmrow__label">Fwd P/E 5y median</span><span class="kmrow__val">${fmtPE(me.fwd_pe_5y_median)}</span></div>
+            <div class="kmrow"><span class="kmrow__label">As of</span><span class="kmrow__val">${escapeHtml(me.as_of || "—")}</span></div>
+            ${me.guidance_note ? `<div class="kmrow"><span class="kmrow__label">Note</span><span class="kmrow__val text-right text-xs">${escapeHtml(me.guidance_note)}</span></div>` : ""}
+          </div>` : ""}
+        </div>
+      `;
+
+      // ---------- Multiples history chart ----------
+      const hasMH = mh && ((mh.pe || []).length || (mh.ev_ebitda || []).length || (mh.p_s || []).length);
+      const chartHtml = hasMH
+        ? `<div class="layer-card"><div id="mh-chart" style="height: 320px;"></div></div>`
+        : `<div class="text-sm text-[color:var(--text-faint)] py-4">No multiples history available for ${escapeHtml(ticker)}.</div>`;
+
+      // ---------- Signals ----------
+      const signalsHtml = tickerSignals.length
+        ? `<section class="grid gap-3">${tickerSignals.map(renderSignalCard).join("")}</section>`
+        : `<div class="text-sm text-[color:var(--text-faint)] py-4">No signals tagged with ${escapeHtml(ticker)} yet.</div>`;
+
+      // ---------- Assemble ----------
+      root.innerHTML = `
+        ${headerHtml}
+
+        <div class="section-divider">Why ${escapeHtml(quadrantLabel(q))}</div>
+        <section>${breakdownHtml}</section>
+
+        <div class="section-divider">Key metrics</div>
+        <section>${kmHtml}</section>
+
+        <div class="section-divider">Multiples history (8y)</div>
+        <section>${chartHtml}</section>
+
+        <div class="section-divider">Signals (${tickerSignals.length})</div>
+        ${signalsHtml}
+      `;
+
+      // ---------- Render multiples chart ----------
+      if (hasMH) {
+        const chartEl = document.getElementById("mh-chart");
+        const chart = echarts.init(chartEl, null, { renderer: "canvas" });
+        const allYears = new Set();
+        ["pe", "ev_ebitda", "p_s"].forEach((k) => (mh[k] || []).forEach((x) => allYears.add(x.year)));
+        const years = [...allYears].sort();
+        const seriesFor = (k, color) => ({
+          name: k,
+          type: "line",
+          smooth: true,
+          symbol: "circle",
+          symbolSize: 4,
+          data: years.map((y) => {
+            const hit = (mh[k] || []).find((x) => x.year === y);
+            return hit ? hit.value : null;
+          }),
+          connectNulls: true,
+          lineStyle: { width: 1.5, color },
+          itemStyle: { color },
+        });
+        chart.setOption({
+          grid: { left: 50, right: 30, top: 30, bottom: 30 },
+          legend: {
+            data: [
+              { name: "P/E", icon: "circle" },
+              { name: "EV/EBITDA", icon: "circle" },
+              { name: "P/S", icon: "circle" },
+            ],
+            top: 0,
+            textStyle: { color: "#9a9aa6", fontSize: 11 },
+          },
+          xAxis: {
+            type: "category",
+            data: years,
+            axisLabel: { color: "#9a9aa6", fontSize: 11 },
+            axisLine: { lineStyle: { color: "#232331" } },
+          },
+          yAxis: {
+            type: "value",
+            scale: true,
+            axisLabel: { color: "#9a9aa6", fontSize: 11 },
+            splitLine: { lineStyle: { color: "#1a1a23" } },
+          },
+          tooltip: {
+            trigger: "axis",
+            backgroundColor: "#15151c",
+            borderColor: "#232331",
+            textStyle: { color: "#e8e8ec" },
+          },
+          series: [
+            { ...seriesFor("pe", "#a78bfa"), name: "P/E" },
+            { ...seriesFor("ev_ebitda", "#38bdf8"), name: "EV/EBITDA" },
+            { ...seriesFor("p_s", "#34d399"), name: "P/S" },
+          ],
+          backgroundColor: "transparent",
+        });
+        chart.resize();
+        window.addEventListener("resize", () => chart.resize());
+      }
+
+      document.title = `${ticker} · Inference Stack`;
+    })();
+  </script>
+</body>
+</html>

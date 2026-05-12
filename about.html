@@ -110,6 +110,21 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
           err: errs[name] || "",
         });
       });
+      const scoringSrc = sources.scoring || {};
+      const scoringStageErr = (scoringSrc.errors || {}).__stage__;
+      const manualCovered = scoringSrc.manual_estimates_coverage ?? 0;
+      const manualTotal = scoringSrc.manual_estimates_total ?? DATA.players.length;
+      rows.push({
+        name: "Manual forward-EPS estimates (Capital IQ / Bloomberg)",
+        type: "prices",
+        entries: manualCovered,
+        ok: !scoringStageErr,
+        err: scoringStageErr
+          ? `scoring stage failed: ${scoringStageErr}`
+          : manualCovered === 0
+            ? `0 / ${manualTotal} tickers — add entries to data/manual_estimates.json to power EPS revision scoring`
+            : `${manualCovered} / ${manualTotal} tickers with manual estimates`,
+      });
 
       document.getElementById("health-body").innerHTML = rows.map((r) => `
         <tr>

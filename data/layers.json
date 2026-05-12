@@ -56,7 +56,7 @@
     "order": 3,
     "name": "Advanced Packaging (CoWoS / SoIC / CoPoS)",
     "short_role": "Stacks die + HBM on a silicon interposer. The single tightest node in the AI stack.",
-    "status": "avoid",
+    "status": "fair",
     "status_note": "TSMC priced in, but ASE/Amkor get the spillover at much lower multiples — that's the de-bottlenecking trade.",
     "bottleneck_summary": "TSMC CoWoS oversubscribed through mid-2026; NVDA holds >60% of 2026 allocation, forcing Google to cut 2026 TPU build ~25%.",
     "key_sources": [
@@ -77,7 +77,7 @@
         "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-gains-ground-in-ai-packaging-as-cowos-capacity-remains-stretched"
       }
     ],
-    "status_auto": "avoid"
+    "status_auto": "fair"
   },
   {
     "id": "wfe",
@@ -284,7 +284,7 @@
     "order": 13,
     "name": "Inference Software / Platforms",
     "short_role": "Model labs (private), serving runtimes (vLLM, TRT-LLM), enterprise AI (CRM, NOW).",
-    "status": "fair",
+    "status": "value-trap",
     "status_note": "Most crowded layer ex-NVDA. PLTR especially. Hard to find under-priced names here.",
     "bottleneck_summary": "Not a hardware bottleneck — software margins compress as inference becomes a commodity. Differentiation moves to data + workflow.",
     "key_sources": [
@@ -293,7 +293,7 @@
         "url": "https://github.com/vllm-project/vllm"
       }
     ],
-    "status_auto": "fair"
+    "status_auto": "value-trap"
   },
   {
     "id": "eda",

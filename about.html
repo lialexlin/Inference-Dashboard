@@ -44,6 +44,83 @@
       <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-3"></div>
     </section>
 
+    <section class="mb-10">
+      <div class="section-divider">How scoring works</div>
+      <p class="text-[color:var(--text-dim)] max-w-2xl mb-5">Every ticker gets a <strong class="text-white">Business</strong> score and a <strong class="text-white">Valuation</strong> score. Each is the equal-weighted average of up to 5 components, z-scored against the ticker's layer peers so the comparison is apples-to-apples. Sign convention: positive is good (strong growth or cheap). Missing components are skipped, not penalized; all are clamped to ±3. The two scores plot the ticker on a 2×2 quadrant.</p>
+
+      <div class="grid md:grid-cols-2 gap-4 mb-6">
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--green)] mb-2">Business — is the company growing?</div>
+          <ol class="text-sm text-[color:var(--text)] space-y-1.5 list-decimal list-inside marker:text-[color:var(--text-faint)]">
+            <li>Revenue YoY growth <span class="text-[color:var(--text-faint)]">(CIQ)</span></li>
+            <li>Acceleration: YoY − 3y CAGR <span class="text-[color:var(--text-faint)]">(CIQ)</span></li>
+            <li>EBITDA margin <span class="text-[color:var(--text-faint)]">(CIQ)</span></li>
+            <li>Forward-EPS revision since last snapshot <span class="text-[color:var(--text-faint)]">(manual)</span></li>
+            <li>Signal density: capex / lead-time / backlog / shortage mentions, last 90d <span class="text-[color:var(--text-faint)]">(signals feed)</span></li>
+          </ol>
+        </div>
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--sky)] mb-2">Valuation — is it cheap?</div>
+          <ol class="text-sm text-[color:var(--text)] space-y-1.5 list-decimal list-inside marker:text-[color:var(--text-faint)]">
+            <li>Trailing P/E vs ticker's own 8y median <span class="text-[color:var(--text-faint)]">(CIQ history)</span></li>
+            <li>Forward P/E vs user-supplied 5y median <span class="text-[color:var(--text-faint)]">(manual)</span></li>
+            <li>Trailing P/E vs layer-peer median <span class="text-[color:var(--text-faint)]">(CIQ)</span></li>
+            <li>EV/EBITDA vs layer-peer median <span class="text-[color:var(--text-faint)]">(CIQ)</span></li>
+            <li>1y price return vs layer-peer median <span class="text-[color:var(--text-faint)]">(yfinance)</span></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-3">Quadrants (threshold ±0.3 on each axis)</div>
+      <table class="players mb-6">
+        <thead>
+          <tr>
+            <th>Label</th>
+            <th>Business</th>
+            <th>Valuation</th>
+            <th>Meaning</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="qpill qpill--underappreciated">Underappreciated</span></td>
+            <td class="num">&gt; +0.3</td>
+            <td class="num">&gt; +0.3</td>
+            <td class="text-[color:var(--text-dim)]">Strong fundamentals AND cheap vs. peers — top-idea zone.</td>
+          </tr>
+          <tr>
+            <td><span class="qpill qpill--priced-in">Priced in</span></td>
+            <td class="num">&gt; +0.3</td>
+            <td class="num">&lt; −0.3</td>
+            <td class="text-[color:var(--text-dim)]">Strong fundamentals but already expensive — consensus trade.</td>
+          </tr>
+          <tr>
+            <td><span class="qpill qpill--value-trap">Value trap</span></td>
+            <td class="num">&lt; −0.3</td>
+            <td class="num">&gt; +0.3</td>
+            <td class="text-[color:var(--text-dim)]">Cheap on paper but weak fundamentals — optical bargain.</td>
+          </tr>
+          <tr>
+            <td><span class="qpill qpill--avoid">Avoid</span></td>
+            <td class="num">&lt; −0.3</td>
+            <td class="num">&lt; −0.3</td>
+            <td class="text-[color:var(--text-dim)]">Weak fundamentals AND expensive — no edge either way.</td>
+          </tr>
+          <tr>
+            <td><span class="qpill qpill--fair">Fair</span></td>
+            <td class="num text-[color:var(--text-faint)]">else</td>
+            <td class="num text-[color:var(--text-faint)]">else</td>
+            <td class="text-[color:var(--text-dim)]">Middle ground — fundamentals and price roughly in balance.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-3">Layer roll-up</div>
+      <p class="text-sm text-[color:var(--text-dim)] max-w-2xl">A layer takes its players' quadrants and labels the layer using the same vocabulary: <span class="qpill qpill--underappreciated">Underappreciated</span> if ≥30% of scored players land there (lowest bar — actionable zone); otherwise <span class="qpill qpill--priced-in">Priced-in</span>, <span class="qpill qpill--value-trap">Value trap</span>, or <span class="qpill qpill--avoid">Avoid</span> if ≥50% cluster in that quadrant; otherwise <span class="qpill qpill--fair">Fair</span>. A seed-level <code class="text-[color:var(--text)] bg-[color:var(--bg-elev)] px-1 rounded">status_override</code> pins the label when set.</p>
+
+      <p class="mt-4 text-xs text-[color:var(--text-faint)]">Source of truth: <code class="text-[color:var(--text-dim)]">jobs/scoring.py</code> (constants <code class="text-[color:var(--text-dim)]">THRESH</code>, <code class="text-[color:var(--text-dim)]">ROLL_UNDER_FRACTION</code>, <code class="text-[color:var(--text-dim)]">ROLL_PRICED_FRACTION</code>).</p>
+    </section>
+
     <section class="layer-card">
       <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-3">Manual refresh</div>
       <pre class="text-xs text-[color:var(--text-dim)] bg-[color:var(--bg-elev)] p-3 rounded">python -m jobs.refresh                 # full refresh

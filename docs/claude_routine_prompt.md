@@ -107,11 +107,120 @@ summaries of every recent **10-K**, **10-Q**, and **paired earnings 8-K** for th
    `summaries[accession] = {…}` for each new filing, write it back with 2-space
    indentation and a trailing newline. Sort keys naturally is fine.
 
-8. **Commit and push.** Use a commit message like:
+8. **Refresh `data/cross_quarter.json` for every ticker that got a new filing in this run.**
+
+   For each affected ticker (and only those), pull its 2–4 most recent entries
+   from `filing_summaries.json` sorted by `filed_date` descending. Read each
+   entry's `tldr`, `takeaways`, `guidance`, and `quote`, then compose a synthesis
+   object that answers "what has *shifted* across these quarters?" and write
+   it to `cross_quarter[ticker]` (load existing, replace the key, write back
+   with 2-space indent and trailing newline).
+
+   The synthesis is the whole point of this step: NOT a list of the filings, but
+   a horizontal trend reading across them. Example outputs you should produce:
+   "China revenue walked down 3 quarters in a row", "GM expanded for the 4th
+   straight quarter", "guidance trimmed once after the prior raise",
+   "Blackwell supply commentary still tight — no easing language added",
+   "top-customer share tightened from 19% to 22%".
+
+   **Schema (exact, this is what the frontend reads):**
+
+   ```json
+   {
+     "NVDA": {
+       "as_of": "2026-05-12",
+       "based_on_accessions": [
+         "0001045810-26-000021",
+         "0001045810-25-000345",
+         "0001045810-25-000091"
+       ],
+       "covers": "Q1 FY26 → FY26 10-K → Q3 FY26",
+       "headline": "DC growth re-accelerated; customer concentration tightening; supply still gating.",
+       "shifts": [
+         {
+           "area": "growth",
+           "direction": "accelerating",
+           "trend": "DC YoY: +66% → +68% across the last two reports",
+           "note": "Re-acceleration after two prior quarters of decel"
+         },
+         {
+           "area": "concentration",
+           "direction": "tightening",
+           "trend": "Top-4 customers 19/13/12/11% → 22/15/13/11%",
+           "note": "Hyperscalers more dominant — new risk vs prior quarter"
+         },
+         {
+           "area": "margins",
+           "direction": "stable",
+           "trend": "GM non-GAAP 73.5% → 74% → 73.5%",
+           "note": "Holding within company target range"
+         },
+         {
+           "area": "guidance",
+           "direction": "raised",
+           "trend": "Next-Q revenue guide raised at each of the last two prints",
+           "note": ""
+         },
+         {
+           "area": "supply",
+           "direction": "tight",
+           "trend": "Blackwell capacity still cited as gating; no easing language added",
+           "note": ""
+         },
+         {
+           "area": "china",
+           "direction": "improving",
+           "trend": "H20 inventory cleared; export-control charge step-down",
+           "note": ""
+         }
+       ],
+       "verdict": "Story intact. Only new risk surfaced is customer concentration tightening — worth watching but does not unlock or kill the thesis."
+     }
+   }
+   ```
+
+   **Field meanings:**
+
+   - `as_of` — ISO date the synthesis was written (today).
+   - `based_on_accessions` — the 2–4 accessions used. Lets the frontend show a
+     "based on N filings" pill and detect staleness when a new filing arrives.
+   - `covers` — short human-readable window (e.g. `"Q1 FY26 → FY26 10-K → Q3 FY26"`).
+   - `headline` — one-line plain-English summary of the *net change* across the
+     window. NOT a description of the latest filing.
+   - `shifts[]` — 4–7 entries, each one bottleneck-relevant axis. Skip any axis
+     not evidenced by the available filings — 4 strong shifts beats 7 weak ones.
+     - `area` — controlled vocab, lowercase. Pick from:
+       `growth`, `margins`, `concentration`, `supply`, `capex`, `guidance`,
+       `china`, `segments`, `leverage`, `capital_returns`, `regulation`.
+     - `direction` — controlled vocab, lowercase. Pick from:
+       `accelerating`, `decelerating`, `stable`, `raised`, `lowered`,
+       `tightening`, `easing`, `improving`, `deteriorating`, `tight`, `flat`,
+       `expanding`, `contracting`, `unchanged`. Frontend colors green / red /
+       amber from this string — keep it inside the list.
+     - `trend` — the literal numeric or qualitative progression across the
+       window. Should reference at least two filings (that's the whole point).
+       Prefer numbers: `"73.5% → 74% → 73.5%"` beats `"margins stable"`.
+     - `note` — optional plain-English interpretation. Empty string is fine.
+   - `verdict` — one-line "does this change the investing case?" closer. Must
+     say something the `headline` doesn't already say (do not just rephrase).
+
+   **Quality bar:**
+
+   - Each shift's `trend` must reference at least two filings. If you can only
+     evidence one, drop that shift.
+   - Numeric progressions > adjectives. If the filings give you the numbers,
+     use them: `"$8.5B → $7.1B → $6.2B"` is the goal.
+   - `verdict` should answer "does this unlock, kill, or leave the thesis
+     intact?" — that's the differentiated value, not a recap.
+   - Tickers with only one filing in `filing_summaries.json` are skipped
+     entirely (no `cross_quarter[ticker]` entry written).
+
+9. **Commit and push.** Use a commit message like:
    ```
    Add summaries for N new filings (YYYY-MM-DD)
    ```
-   with the list of `TICKER form (accession)` in the body.
+   with the list of `TICKER form (accession)` in the body. Include
+   `data/cross_quarter.json` in the same commit as the new filing summaries.
 
 ### Quality bar
 

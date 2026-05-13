@@ -77,8 +77,18 @@
           </div>
         </section>
 
+        <div class="section-divider">Business × Valuation map</div>
+        <section class="layer-card mb-10">
+          <div class="flex items-baseline justify-between mb-3 flex-wrap gap-2">
+            <div class="text-xs text-[color:var(--text-dim)]">Each dot is a player in this layer. Right = stronger business (growth, margins). Up = cheaper (multiples vs own history & peers). Top-right is the underappreciated zone.</div>
+            <div class="text-[10px] uppercase tracking-widest text-[color:var(--text-faint)]">z-scored within layer</div>
+          </div>
+          <div id="quadrant-chart" style="height: 380px;"></div>
+          <div id="quadrant-chart-empty" class="hidden text-sm text-[color:var(--text-faint)] py-4">Not enough scored players in this layer to plot.</div>
+        </section>
+
         <div class="section-divider">What it does</div>
-        <section class="markdown max-w-3xl"></section>
+        <section class="markdown"></section>
 
         <div class="section-divider">Players (${players.length})</div>
         <section>
@@ -184,6 +194,99 @@
 
       // Signals
       document.getElementById("signals").innerHTML = recentSignals.map(renderSignalCard).join("");
+
+      // Quadrant scatter — Business (x) × Valuation (y). Render before the price
+      // chart so the click handler below can reference renderChart.
+      const QUAD_COLORS = {
+        underappreciated: "#34d399",
+        "priced-in": "#38bdf8",
+        "value-trap": "#fbbf24",
+        avoid: "#fb7185",
+        fair: "#9a9aa6",
+      };
+      const quadPoints = players.map((p) => {
+        const s = (DATA.fundamentals[p.ticker] || {}).score;
+        if (!s || s.business == null || s.valuation == null) return null;
+        return {
+          name: p.ticker,
+          value: [s.business, s.valuation],
+          itemStyle: { color: QUAD_COLORS[s.quadrant] || QUAD_COLORS.fair, borderColor: "rgba(0,0,0,0.5)", borderWidth: 1 },
+          extra: { company: p.name, quadrant: s.quadrant },
+        };
+      }).filter(Boolean);
+
+      const qEmpty = document.getElementById("quadrant-chart-empty");
+      const qEl = document.getElementById("quadrant-chart");
+      if (quadPoints.length < 2) {
+        qEl.classList.add("hidden");
+        qEmpty.classList.remove("hidden");
+      } else {
+        const absMax = Math.max(2, ...quadPoints.flatMap((p) => p.value.map((v) => Math.abs(v))));
+        const axisMax = Math.ceil(absMax * 10) / 10 + 0.2;
+        const qChart = echarts.init(qEl, null, { renderer: "canvas" });
+        qChart.setOption({
+          backgroundColor: "transparent",
+          grid: { left: 60, right: 30, top: 30, bottom: 50 },
+          xAxis: {
+            name: "Business →", nameLocation: "middle", nameGap: 30,
+            nameTextStyle: { color: "#9a9aa6", fontSize: 12 },
+            min: -axisMax, max: axisMax,
+            axisLine: { lineStyle: { color: "#232331" } },
+            splitLine: { show: false },
+            axisLabel: { color: "#5d5d6a", fontSize: 11 },
+          },
+          yAxis: {
+            name: "Valuation (cheaper →)", nameLocation: "middle", nameGap: 40, nameRotate: 90,
+            nameTextStyle: { color: "#9a9aa6", fontSize: 12 },
+            min: -axisMax, max: axisMax,
+            axisLine: { lineStyle: { color: "#232331" } },
+            splitLine: { show: false },
+            axisLabel: { color: "#5d5d6a", fontSize: 11 },
+          },
+          tooltip: {
+            backgroundColor: "#15151c", borderColor: "#232331",
+            textStyle: { color: "#e8e8ec" },
+            formatter: (p) => {
+              const d = p.data;
+              return `<div style="font-family: ui-monospace, monospace; font-weight: 600;">${escapeHtml(d.name)}</div>
+                      <div style="font-size: 11px; color: #9a9aa6; margin-bottom: 4px;">${escapeHtml(d.extra.company)}</div>
+                      <div>Biz <strong>${d.value[0] >= 0 ? "+" : ""}${d.value[0].toFixed(2)}</strong></div>
+                      <div>Val <strong>${d.value[1] >= 0 ? "+" : ""}${d.value[1].toFixed(2)}</strong></div>
+                      <div style="margin-top: 4px; color: ${QUAD_COLORS[d.extra.quadrant] || "#9a9aa6"};">${escapeHtml(quadrantLabel(d.extra.quadrant))}</div>`;
+            },
+          },
+          series: [{
+            type: "scatter",
+            symbolSize: 14,
+            data: quadPoints,
+            label: {
+              show: true, position: "right", offset: [6, 0],
+              color: "#e8e8ec", fontSize: 11,
+              fontFamily: "ui-monospace, monospace",
+              formatter: (p) => p.data.name,
+            },
+            markLine: {
+              symbol: "none", silent: true,
+              lineStyle: { color: "#5d5d6a", type: "dashed", opacity: 0.5 },
+              label: { show: false },
+              data: [{ xAxis: 0 }, { yAxis: 0 }],
+            },
+            markArea: {
+              silent: true,
+              data: [
+                [{ name: "Underappreciated", xAxis: 0.3, yAxis: 0.3, itemStyle: { color: "rgba(52,211,153,0.05)" }, label: { color: "rgba(52,211,153,0.5)", position: "insideTopRight", fontSize: 10, fontWeight: 600, distance: 6 } }, { xAxis: "max", yAxis: "max" }],
+                [{ name: "Priced-in", xAxis: 0.3, yAxis: -0.3, itemStyle: { color: "rgba(56,189,248,0.05)" }, label: { color: "rgba(56,189,248,0.5)", position: "insideBottomRight", fontSize: 10, fontWeight: 600, distance: 6 } }, { xAxis: "max", yAxis: "min" }],
+                [{ name: "Value trap", xAxis: -0.3, yAxis: 0.3, itemStyle: { color: "rgba(251,191,36,0.05)" }, label: { color: "rgba(251,191,36,0.5)", position: "insideTopLeft", fontSize: 10, fontWeight: 600, distance: 6 } }, { xAxis: "min", yAxis: "max" }],
+                [{ name: "Avoid", xAxis: -0.3, yAxis: -0.3, itemStyle: { color: "rgba(251,113,133,0.05)" }, label: { color: "rgba(251,113,133,0.5)", position: "insideBottomLeft", fontSize: 10, fontWeight: 600, distance: 6 } }, { xAxis: "min", yAxis: "min" }],
+              ],
+            },
+          }],
+        });
+        qChart.on("click", (params) => {
+          if (params.data && params.data.name) renderChart(params.data.name);
+        });
+        window.addEventListener("resize", () => qChart.resize());
+      }
 
       // Chart
       const chartHost = document.getElementById("chart-host");

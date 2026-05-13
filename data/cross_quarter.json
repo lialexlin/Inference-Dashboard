@@ -1,0 +1,50 @@
+{
+  "NVDA": {
+    "as_of": "2026-05-12",
+    "based_on_accessions": [
+      "0001045810-26-000021",
+      "0001045810-25-000230"
+    ],
+    "covers": "Q3 FY26 10-Q (Nov 2025) → FY26 10-K (Feb 2026)",
+    "headline": "DC growth holding ~+66–68% YoY; customer concentration formally disclosed at 4-way >10%; China is now effectively zero, but supply/energy commentary unchanged.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "trend": "DC YoY +66% (Q3 FY26) → +68% (FY26 full year); Networking +162% on GB200/GB300 NVLink ramp",
+        "note": "Slight re-acceleration on a full-year basis after Blackwell ramp"
+      },
+      {
+        "area": "concentration",
+        "direction": "tightening",
+        "trend": "Q3 disclosed 4 direct customers each >10% of revenue (22/15/13/11%); 10-K did not previously break this out",
+        "note": "Hyperscaler dependence newly visible — diligence risk-additive"
+      },
+      {
+        "area": "china",
+        "direction": "deteriorating",
+        "trend": "Q3 China $3.0B vs $8.1B prior-year Q3; H20 effectively zero by FY26 after $4.5B Q1 inventory charge; Feb 2026 H200 license carries 25% US import tariff",
+        "note": "China optionality fully impaired across both filings"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "trend": "Non-GAAP GM 73.4% (Q3) → 73.5% guide (Q1 FY27); compressed YoY on Blackwell full-system mix but holding within target",
+        "note": ""
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "trend": "Both filings cite data-center / energy / capital availability as the gating constraint on customer deployments — no easing language added",
+        "note": "Quote nearly identical across the two filings"
+      },
+      {
+        "area": "capex",
+        "direction": "expanding",
+        "trend": "FY26 10-K disclosed $17.5B in private/infra investments plus $3.5B land/power/shell guarantees to early-stage AI customers; Q3 added $7.5B new DC lease obligations FY26 Q4–FY30",
+        "note": "Vendor-financing footprint growing — watch FCF translation"
+      }
+    ],
+    "verdict": "Story still about supply-constrained AI capex. The new disclosures (4-way customer concentration, vendor-financing footprint) are risk-additive but don't break the thesis; China optionality is now fully impaired and should be modeled at zero."
+  }
+}

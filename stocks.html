@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tracked stocks · Inference Stack</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="min-h-screen">
+  <div id="header"></div>
+
+  <main class="max-w-7xl mx-auto px-6 py-10">
+    <header class="mb-8 max-w-3xl">
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Tracked stocks</div>
+      <h1 class="font-display text-4xl text-white leading-tight">All tickers, grouped by quadrant</h1>
+      <p class="mt-2 text-[color:var(--text-dim)]">Every player in the stack, bucketed by its Business × Valuation quadrant. Sort within a group by clicking a column header. Click a ticker for the full stock page.</p>
+    </header>
+
+    <section class="mb-4 flex items-center gap-3 flex-wrap">
+      <span class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mr-2">Filter</span>
+      <button class="btn-ghost active" data-q="all">All <span id="count-all" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-q="underappreciated" title="Strong fundamentals AND cheap vs peers — top-idea zone.">Underappreciated <span id="count-underappreciated" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-q="priced-in" title="Strong fundamentals but already expensive — consensus trade.">Priced in <span id="count-priced-in" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-q="value-trap" title="Cheap on paper but weak fundamentals — optical bargain.">Value trap <span id="count-value-trap" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-q="avoid" title="Weak fundamentals AND expensive — no edge.">Avoid <span id="count-avoid" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-q="fair" title="Middle ground — fundamentals and price roughly in balance.">Fair <span id="count-fair" class="text-[color:var(--text-faint)]"></span></button>
+      <button class="btn-ghost" data-q="unscored" title="Not yet scored — usually missing fundamentals or price data.">Unscored <span id="count-unscored" class="text-[color:var(--text-faint)]"></span></button>
+      <div class="ml-auto w-72"><input class="search" id="search" placeholder="Search ticker, company, or layer…"></div>
+    </section>
+
+    <section id="quadrant-legend" class="mb-6"></section>
+
+    <div id="groups"></div>
+
+    <div id="empty" class="text-center text-[color:var(--text-faint)] py-16 hidden">No tickers match.</div>
+  </main>
+
+  <script src="assets/app.js"></script>
+  <script src="assets/components.js"></script>
+  <script>
+    (async () => {
+      await loadAll();
+      document.getElementById("header").innerHTML = shellHeader("stocks");
+      document.getElementById("quadrant-legend").innerHTML = renderQuadrantLegend();
+
+      // Build per-ticker rows with everything needed for sort + render.
+      const rows = DATA.players.map((p) => {
+        const px = DATA.prices[p.ticker] || {};
+        const f = DATA.fundamentals[p.ticker] || {};
+        const ciq = f.ciq || {};
+        const score = f.score || null;
+        const q = (score && score.quadrant) || "unscored";
+        const layer = layerById(p.layer_id);
+        const mcap = ciq.market_cap_usd ?? f.market_cap_usd ?? (f.currency === "USD" ? f.market_cap : null);
+        return {
+          player: p,
+          layer,
+          quadrant: q,
+          last: px.last_close,
+          currency: px.currency,
+          c1: px.change_1m,
+          c6: px.change_6m,
+          cy: px.change_ytd,
+          mcap,
+          pe_fwd: f.pe_forward,
+          ev_ebitda: ciq.ev_ebitda,
+          p_s: ciq.p_s,
+          ebitda_mgn: ciq.ebitda_margin,
+          rev_yoy: ciq.revenue_yoy,
+          biz: score ? score.business : null,
+          val: score ? score.valuation : null,
+        };
+      });
+
+      // Counts for filter chips.
+      const counts = { all: rows.length, underappreciated: 0, "priced-in": 0, "value-trap": 0, avoid: 0, fair: 0, unscored: 0 };
+      rows.forEach((r) => { counts[r.quadrant] = (counts[r.quadrant] || 0) + 1; });
+      for (const k of Object.keys(counts)) {
+        const el = document.getElementById("count-" + k);
+        if (el) el.textContent = ` (${counts[k]})`;
+      }
+
+      // Default sort: by business score desc, nulls last. Each group keeps its own
+      // sort state (key + direction) so clicks on one group don't reshuffle others.
+      const QUAD_ORDER = ["underappreciated", "priced-in", "value-trap", "avoid", "fair", "unscored"];
+      const groupSort = {}; // {quadrant: {key, dir}}
+      QUAD_ORDER.forEach((q) => { groupSort[q] = { key: "biz", dir: "desc" }; });
+
+      const numCmp = (a, b, dir) => {
+        const aNull = a == null || isNaN(a);
+        const bNull = b == null || isNaN(b);
+        if (aNull && bNull) return 0;
+        if (aNull) return 1;  // nulls last regardless of direction
+        if (bNull) return -1;
+        return dir === "desc" ? b - a : a - b;
+      };
+      const strCmp = (a, b, dir) => {
+        a = (a || "").toLowerCase();
+        b = (b || "").toLowerCase();
+        if (a < b) return dir === "desc" ? 1 : -1;
+        if (a > b) return dir === "desc" ? -1 : 1;
+        return 0;
+      };
+
+      const SORT_KEYS = {
+        ticker: { type: "str", get: (r) => r.player.ticker },
+        company: { type: "str", get: (r) => r.player.name },
+        layer: { type: "str", get: (r) => r.layer ? r.layer.name : "" },
+        last: { type: "num", get: (r) => r.last },
+        c1: { type: "num", get: (r) => r.c1 },
+        c6: { type: "num", get: (r) => r.c6 },
+        cy: { type: "num", get: (r) => r.cy },
+        mcap: { type: "num", get: (r) => r.mcap },
+        pe_fwd: { type: "num", get: (r) => r.pe_fwd },
+        ev_ebitda: { type: "num", get: (r) => r.ev_ebitda },
+        rev_yoy: { type: "num", get: (r) => r.rev_yoy },
+        biz: { type: "num", get: (r) => r.biz },
+        val: { type: "num", get: (r) => r.val },
+      };
+
+      function sortRows(rs, key, dir) {
+        const meta = SORT_KEYS[key];
+        if (!meta) return rs;
+        return rs.slice().sort((a, b) => meta.type === "num"
+          ? numCmp(meta.get(a), meta.get(b), dir)
+          : strCmp(meta.get(a), meta.get(b), dir));
+      }
+
+      function rowHtml(r) {
+        const p = r.player;
+        const q = r.quadrant;
+        const qpill = `<span class="qpill qpill--${q}" title="${escapeHtml(quadrantLabel(q) + ' — ' + quadrantDefinition(q))}">${escapeHtml(quadrantLabel(q))}</span>`;
+        const layerCell = r.layer
+          ? `<a href="layer.html?id=${r.layer.id}" class="text-[color:var(--text-dim)] hover:text-[color:var(--sky)] hover:underline underline-offset-2">${escapeHtml(r.layer.name)}</a>`
+          : `<span class="text-[color:var(--text-faint)]">—</span>`;
+        const c1cls = changeClass(r.c1);
+        const c6cls = changeClass(r.c6);
+        const cycls = changeClass(r.cy);
+        const yoyPct = r.rev_yoy != null ? r.rev_yoy * 100 : null;
+        const yoyCls = changeClass(yoyPct);
+        const colorFor = (cls) => cls === 'up' ? 'text-[color:var(--green)]' : cls === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]';
+        return `
+          <tr>
+            <td><a class="ticker text-white hover:text-[color:var(--sky)] hover:underline underline-offset-2" href="stock.html?ticker=${encodeURIComponent(p.ticker)}">${p.ticker}</a></td>
+            <td><div class="text-white">${escapeHtml(p.name)}</div><div class="text-xs text-[color:var(--text-faint)]">${escapeHtml(p.exchange)} · ${escapeHtml(p.country)}</div></td>
+            <td class="text-sm">${layerCell}</td>
+            <td class="num text-right">${fmtPrice(r.last, r.currency)}</td>
+            <td class="num text-right ${colorFor(c1cls)}">${fmtPct(r.c1)}</td>
+            <td class="num text-right hidden md:table-cell ${colorFor(c6cls)}">${fmtPct(r.c6)}</td>
+            <td class="num text-right hidden md:table-cell ${colorFor(cycls)}">${fmtPct(r.cy)}</td>
+            <td class="num text-right text-[color:var(--text-dim)] hidden md:table-cell">${fmtMcap(r.mcap)}</td>
+            <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${fmtPE(r.pe_fwd)}</td>
+            <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${fmtMultiple(r.ev_ebitda)}</td>
+            <td class="num text-right hidden lg:table-cell ${colorFor(yoyCls)}">${fmtPct(yoyPct)}</td>
+            <td class="text-right hidden xl:table-cell whitespace-nowrap">${renderScoreBar(r.biz)}</td>
+            <td class="text-right hidden xl:table-cell whitespace-nowrap">${renderScoreBar(r.val)}</td>
+          </tr>`;
+      }
+
+      function headerCell(label, key, sort, opts) {
+        opts = opts || {};
+        const align = opts.align === "right" ? "text-right" : "";
+        const hidden = opts.hidden || "";
+        const active = sort.key === key;
+        const arrow = active ? (sort.dir === "desc" ? " ↓" : " ↑") : "";
+        const title = opts.title ? ` title="${escapeHtml(opts.title)}"` : "";
+        return `<th class="${align} ${hidden} cursor-pointer select-none ${active ? 'text-[color:var(--text)]' : ''}" data-sort-key="${key}"${title}>${escapeHtml(label)}<span class="text-[color:var(--text-faint)]">${arrow}</span></th>`;
+      }
+
+      function groupHtml(quadrant, rs) {
+        const sort = groupSort[quadrant];
+        const sorted = sortRows(rs, sort.key, sort.dir);
+        const def = quadrantDefinition(quadrant);
+        return `
+          <section class="mb-10" data-group="${quadrant}">
+            <div class="flex items-baseline justify-between flex-wrap gap-2 mb-3">
+              <div class="flex items-center gap-3 flex-wrap">
+                <span class="qpill qpill--${quadrant}">${escapeHtml(quadrantLabel(quadrant))}</span>
+                <span class="text-sm text-[color:var(--text-dim)]">${rs.length} ticker${rs.length === 1 ? "" : "s"}</span>
+                <span class="text-xs text-[color:var(--text-faint)] hidden md:inline">${escapeHtml(def)}</span>
+              </div>
+            </div>
+            <table class="players">
+              <thead>
+                <tr>
+                  ${headerCell("Ticker", "ticker", sort)}
+                  ${headerCell("Company", "company", sort)}
+                  ${headerCell("Layer", "layer", sort)}
+                  ${headerCell("Last", "last", sort, { align: "right" })}
+                  ${headerCell("1m", "c1", sort, { align: "right" })}
+                  ${headerCell("6m", "c6", sort, { align: "right", hidden: "hidden md:table-cell" })}
+                  ${headerCell("YTD", "cy", sort, { align: "right", hidden: "hidden md:table-cell" })}
+                  ${headerCell("Mkt cap", "mcap", sort, { align: "right", hidden: "hidden md:table-cell" })}
+                  ${headerCell("P/E fwd", "pe_fwd", sort, { align: "right", hidden: "hidden lg:table-cell", title: "Forward P/E from yfinance" })}
+                  ${headerCell("EV/EBITDA", "ev_ebitda", sort, { align: "right", hidden: "hidden lg:table-cell", title: "Trailing EV/EBITDA — S&P Capital IQ" })}
+                  ${headerCell("Rev YoY", "rev_yoy", sort, { align: "right", hidden: "hidden lg:table-cell", title: "Revenue YoY (latest fiscal year) — S&P Capital IQ" })}
+                  ${headerCell("Biz", "biz", sort, { align: "right", hidden: "hidden xl:table-cell", title: "Business score (z-scored within layer). Positive = strong." })}
+                  ${headerCell("Val", "val", sort, { align: "right", hidden: "hidden xl:table-cell", title: "Valuation score (z-scored within layer). Positive = cheap." })}
+                </tr>
+              </thead>
+              <tbody>${sorted.map(rowHtml).join("")}</tbody>
+            </table>
+          </section>`;
+      }
+
+      let activeQ = "all";
+      let query = "";
+
+      function render() {
+        const q = query.trim().toLowerCase();
+        const filtered = rows.filter((r) => {
+          if (activeQ !== "all" && r.quadrant !== activeQ) return false;
+          if (!q) return true;
+          if (r.player.ticker.toLowerCase().includes(q)) return true;
+          if (r.player.name.toLowerCase().includes(q)) return true;
+          if (r.layer && r.layer.name.toLowerCase().includes(q)) return true;
+          if (r.layer && r.layer.id.toLowerCase().includes(q)) return true;
+          return false;
+        });
+
+        const byQ = {};
+        QUAD_ORDER.forEach((q) => { byQ[q] = []; });
+        filtered.forEach((r) => { byQ[r.quadrant].push(r); });
+
+        const host = document.getElementById("groups");
+        const html = QUAD_ORDER
+          .filter((q) => byQ[q].length > 0)
+          .map((q) => groupHtml(q, byQ[q]))
+          .join("");
+        host.innerHTML = html;
+
+        document.getElementById("empty").classList.toggle("hidden", filtered.length > 0);
+
+        // Wire header sort clicks per group.
+        host.querySelectorAll("section[data-group]").forEach((section) => {
+          const quadrant = section.getAttribute("data-group");
+          section.querySelectorAll("th[data-sort-key]").forEach((th) => {
+            th.addEventListener("click", () => {
+              const key = th.getAttribute("data-sort-key");
+              const cur = groupSort[quadrant];
+              if (cur.key === key) {
+                cur.dir = cur.dir === "desc" ? "asc" : "desc";
+              } else {
+                cur.key = key;
+                cur.dir = SORT_KEYS[key].type === "num" ? "desc" : "asc";
+              }
+              render();
+            });
+          });
+        });
+      }
+
+      document.querySelectorAll("[data-q]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll("[data-q]").forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          activeQ = btn.getAttribute("data-q");
+          render();
+        });
+      });
+      document.getElementById("search").addEventListener("input", (e) => {
+        query = e.target.value;
+        render();
+      });
+
+      // Pre-select quadrant from URL (?q=underappreciated etc.)
+      const qParam = qs("q");
+      if (qParam && document.querySelector(`[data-q="${qParam}"]`)) {
+        document.querySelectorAll("[data-q]").forEach((b) => b.classList.remove("active"));
+        const btn = document.querySelector(`[data-q="${qParam}"]`);
+        btn.classList.add("active");
+        activeQ = qParam;
+      }
+
+      render();
+    })();
+  </script>
+</body>
+</html>

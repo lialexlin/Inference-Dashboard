@@ -73,8 +73,7 @@ window.renderLayerCard = function (layer) {
   const chips = players.map(renderPlayerChip).join("");
   return `
     <a href="layer.html?id=${layer.id}" class="layer-card block">
-      <div class="layer-card__order">${String(layer.order).padStart(2, "0")}</div>
-      <div class="flex items-start justify-between gap-4 pr-12">
+      <div class="flex items-start justify-between gap-4">
         <div>
           <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Layer ${layer.order}</div>
           <h3 class="font-display text-2xl text-white leading-tight mb-1">${layer.name}</h3>
@@ -165,6 +164,55 @@ window.renderSignalCard = function (sig, opts) {
       ${quote}
       ${tickers ? `<div class="mt-3 flex items-center gap-2 flex-wrap">${tickers}</div>` : ""}
       ${sourceFooter}
+    </article>`;
+};
+
+// Cross-quarter shifts — a single synthesized "what's changed over the last
+// 2-4 filings" card per stock. Data lives in data/cross_quarter.json,
+// populated by the Claude.ai daily routine (see docs/claude_routine_prompt.md).
+// Schema: { headline, covers, as_of, based_on_accessions, shifts: [{area,
+// direction, trend, note}], verdict }.
+const CQ_DIR_UP = new Set(["accelerating", "improving", "raised", "easing", "expanding"]);
+const CQ_DIR_DOWN = new Set(["decelerating", "deteriorating", "lowered", "tightening", "tight", "contracting"]);
+const CQ_DIR_FLAT = new Set(["stable", "flat", "unchanged"]);
+
+window.renderCrossQuarter = function (ticker, cq) {
+  if (!cq || !cq.shifts || !cq.shifts.length) {
+    return `<div class="text-sm text-[color:var(--text-faint)] py-2">No cross-quarter synthesis for ${escapeHtml(ticker)} yet — needs at least 2 prior filings, refreshed by the daily routine.</div>`;
+  }
+  const accCount = (cq.based_on_accessions || []).length;
+  const accTip = (cq.based_on_accessions || []).join("\n");
+  const meta = [
+    cq.covers ? `<span class="cq-meta__covers">${escapeHtml(cq.covers)}</span>` : "",
+    cq.as_of ? `<span class="cq-meta__date">${escapeHtml(cq.as_of)} <span class="text-[color:var(--text-faint)]">(${relDate(cq.as_of)})</span></span>` : "",
+    accCount ? `<span class="cq-meta__pill" title="${escapeHtml(accTip)}">based on ${accCount} filing${accCount === 1 ? "" : "s"}</span>` : "",
+  ].filter(Boolean).join("");
+
+  const shiftsHtml = cq.shifts.map((s) => {
+    const dir = (s.direction || "").toLowerCase();
+    const tone = CQ_DIR_UP.has(dir) ? "up"
+              : CQ_DIR_DOWN.has(dir) ? "down"
+              : CQ_DIR_FLAT.has(dir) ? "flat"
+              : "neutral";
+    const arrow = tone === "up" ? "↑" : tone === "down" ? "↓" : tone === "flat" ? "→" : "·";
+    return `
+      <div class="cq-shift cq-shift--${tone}">
+        <span class="cq-shift__area">${escapeHtml(s.area || "")}</span>
+        <span class="cq-shift__dir">${arrow} ${escapeHtml(s.direction || "")}</span>
+        <span class="cq-shift__trend">${escapeHtml(s.trend || "")}</span>
+        ${s.note ? `<span class="cq-shift__note">${escapeHtml(s.note)}</span>` : ""}
+      </div>`;
+  }).join("");
+
+  const verdict = cq.verdict ? `<div class="cq-verdict">${escapeHtml(cq.verdict)}</div>` : "";
+  const headline = cq.headline ? `<div class="signal__tldr cq-headline">${escapeHtml(cq.headline)}</div>` : "";
+
+  return `
+    <article class="cq-card">
+      <header class="cq-meta">${meta}</header>
+      ${headline}
+      <div class="cq-shifts">${shiftsHtml}</div>
+      ${verdict}
     </article>`;
 };
 
@@ -284,6 +332,7 @@ window.renderQuadrantBreakdown = function (player, fundamentals) {
 window.shellHeader = function (active) {
   const items = [
     { id: "overview", label: "Stack overview", href: "index.html" },
+    { id: "stocks", label: "Stocks", href: "stocks.html" },
     { id: "signals", label: "Signals feed", href: "signals.html" },
     { id: "about", label: "Sources", href: "about.html" },
   ];

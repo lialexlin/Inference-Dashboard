@@ -6,7 +6,7 @@
   <title>Signals feed · Inference Stack</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=2">
 </head>
 <body class="min-h-screen">
   <div id="header"></div>
@@ -27,6 +27,12 @@
         <div>
           <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Source type</div>
           <div class="flex flex-wrap gap-1.5" id="type-filters"></div>
+        </div>
+        <div>
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Category</div>
+          <button class="btn-ghost w-full text-left" id="arch-risk-filter" title="Algorithmic shifts (Mamba/MoE/linear attention/KV-cache compression) that could collapse inference FLOPs/token economics — the thesis-killer category.">
+            <span class="inline-block w-2 h-2 rounded-full bg-[color:var(--rose)] mr-2 align-middle"></span>Architectural risk only
+          </button>
         </div>
         <div>
           <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Layer</div>
@@ -56,8 +62,8 @@
     </section>
   </main>
 
-  <script src="assets/app.js"></script>
-  <script src="assets/components.js"></script>
+  <script src="assets/app.js?v=2"></script>
+  <script src="assets/components.js?v=2"></script>
   <script>
     (async () => {
       await loadAll();
@@ -70,6 +76,7 @@
       let windowDays = "all";
       let query = "";
       let savedOnly = false;
+      let archRiskOnly = false;
 
       const SAVED_KEY = "inference-dashboard-saved";
       const savedIds = new Set(JSON.parse(localStorage.getItem(SAVED_KEY) || "[]"));
@@ -92,6 +99,7 @@
           if (layerFilters.size && !(s.layer_ids || []).some((id) => layerFilters.has(id))) return false;
           if (cutoff && new Date(s.date) < cutoff) return false;
           if (savedOnly && !savedIds.has(s.id)) return false;
+          if (archRiskOnly && !s.arch_risk) return false;
           if (q) {
             const hay = (s.headline + " " + s.quote + " " + (s.tickers || []).join(" ") + " " + s.source).toLowerCase();
             if (!hay.includes(q)) return false;
@@ -152,6 +160,11 @@
         savedOnly = !savedOnly;
         e.target.classList.toggle("active", savedOnly);
         e.target.textContent = savedOnly ? "Showing saved only ✓" : "Show saved only";
+        render();
+      });
+      document.getElementById("arch-risk-filter").addEventListener("click", (e) => {
+        archRiskOnly = !archRiskOnly;
+        e.currentTarget.classList.toggle("active", archRiskOnly);
         render();
       });
 

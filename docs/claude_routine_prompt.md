@@ -35,13 +35,31 @@ summaries of every recent **10-K**, **10-Q**, and **paired earnings 8-K** for th
 
    From `data.filings.recent`, identify:
    - The **2 most recent 10-K or 10-Q** filings (filed within last 365 days).
-   - Any **8-K filings where `items` contains "2.02"** filed within ±1 day of
-     one of those reports (these are the earnings-press-release 8-Ks; we
-     skip all other 8-Ks).
+   - Every **paired earnings 8-K**. EDGAR returns the `items` field as a
+     comma-separated string like `"2.02,9.01"` (not a list, not just `"2.02"`).
+     Match with a **substring / split-and-membership** check — `"2.02" in items.split(",")` or
+     `"2.02" in items`. Equality (`items == "2.02"`) will miss most of them
+     and is the reason historical runs captured zero 8-Ks.
+   - Pairing window: an 8-K counts as paired if it's filed within
+     **[−21 days, +1 day]** of one of the 10-K/10-Q file dates. Companies
+     almost always release the earnings 8-K *before* the matching periodic
+     report — 1 day before for 10-Qs, often 1–3 weeks before for 10-Ks
+     (fiscal-year-end results land first, the 10-K weeks later). A symmetric
+     ±1 day window misses every fiscal-year-end pairing.
+   - All other 8-Ks (5.02 exec changes, 8.01 other, 5.03/5.07 governance, etc.)
+     are skipped.
 
 4. **Skip any accession already present** in `filing_summaries.json`. Only
    process new accessions. Be respectful: pause ~150ms between EDGAR requests
    (cap is 10 req/sec global).
+
+   **Backfill check (important):** Before starting the EDGAR loop, scan
+   `filing_summaries.json` for tickers whose 10-K/10-Q entries don't have
+   their corresponding 2.02 8-K alongside (apply the same pairing rule above
+   against EDGAR's full submissions list). For every gap found, queue the
+   missing 8-K accession for processing in this run even though the periodic
+   report has already been summarized. This is how you recover from earlier
+   runs that captured 10-Ks/10-Qs but skipped the press-release 8-Ks.
 
 5. **For each new filing**, fetch the document at:
    ```
@@ -55,12 +73,23 @@ summaries of every recent **10-K**, **10-Q**, and **paired earnings 8-K** for th
    and Results of Operations" (Item 7 in 10-K, Item 2 in 10-Q). Capture the
    "Recent Developments" / segment narrative / outlook paragraphs.
 
-   **For paired 8-K:** Fetch the filing index page first
-   (`https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type=8-K`)
-   or use the JSON submissions data to locate the exhibit filename matching
-   `ex99*.htm` or `ex-99*.htm`. Fetch that exhibit. Extract the **Outlook**
-   section (forward guidance — revenue, GM, opex, tax-rate projections for the
-   next quarter / full year).
+   **For paired 8-K:** The 8-K cover page itself only references the press
+   release as an exhibit. The actual content lives in **Exhibit 99.1** —
+   typically a file like `ex991-pressrelease.htm`, `a{year}q{n}ex991-pressrelease.htm`,
+   or `ex-99.1.htm`. To find it, list the archive directory at
+   `https://www.sec.gov/Archives/edgar/data/{cik_int}/{accession_no_no_dashes}/`
+   and grab the file whose name contains `ex99` / `ex-99` / `99.1`. Fetch that
+   exhibit (strip HTML), then extract:
+   - The **Business Outlook / Guidance** table (revenue, GM, opex, EPS
+     projections for the upcoming quarter — populate the `guidance` field).
+   - Reported quarter highlights (revenue, EPS, segment mix, margins).
+   - The CEO quote that captures the demand-environment / supply view.
+
+   When extracting guidance, pull numbers verbatim from the outlook table.
+   Format: `"$18.70B ± $400M"`, `"68.0% ± 1.0%"`, `"$1.38B"`, `"$8.42 ± $0.20"`.
+   Both GAAP and non-GAAP appear in most outlook tables — prefer non-GAAP for
+   gross margin / opex / EPS (that's what consensus tracks), but capture GAAP
+   revenue (it's the same number).
 
 6. **Generate a structured summary** matching this exact JSON schema:
 
@@ -107,10 +136,19 @@ summaries of every recent **10-K**, **10-Q**, and **paired earnings 8-K** for th
    `summaries[accession] = {…}` for each new filing, write it back with 2-space
    indentation and a trailing newline. Sort keys naturally is fine.
 
-8. **Refresh `data/cross_quarter.json` for every ticker that got a new filing in this run.**
+8. **Refresh `data/cross_quarter.json` for every ticker that needs synthesis.**
 
-   For each affected ticker (and only those), pull its 2–4 most recent entries
-   from `filing_summaries.json` sorted by `filed_date` descending. Read each
+   A ticker needs synthesis if EITHER:
+   - (a) it got a new filing in this run, OR
+   - (b) it has ≥2 entries in `filing_summaries.json` but no entry in
+     `cross_quarter.json` yet (backfill case — e.g. tickers that already had
+     summaries before this synthesis step existed), OR
+   - (c) it has an entry in `cross_quarter.json` whose `based_on_accessions`
+     no longer matches the 2–4 most-recent accessions in `filing_summaries.json`
+     (the synthesis is stale because a newer filing exists).
+
+   For each affected ticker, pull its 2–4 most recent entries from
+   `filing_summaries.json` sorted by `filed_date` descending. Read each
    entry's `tldr`, `takeaways`, `guidance`, and `quote`, then compose a synthesis
    object that answers "what has *shifted* across these quarters?" and write
    it to `cross_quarter[ticker]` (load existing, replace the key, write back

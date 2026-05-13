@@ -71,6 +71,8 @@ window.renderQuadrantLegend = function () {
 window.renderLayerCard = function (layer) {
   const players = playersForLayer(layer.id).slice(0, 13);
   const chips = players.map(renderPlayerChip).join("");
+  const bn = (DATA.bottleneck || {})[layer.id];
+  const heat = bn ? renderHeatMeter(bn.tightness_score, bn.evidence, { count: bn.signal_count_90d }) : "";
   return `
     <a href="layer.html?id=${layer.id}" class="layer-card block">
       <div class="flex items-start justify-between gap-4">
@@ -79,9 +81,12 @@ window.renderLayerCard = function (layer) {
           <h3 class="font-display text-2xl text-white leading-tight mb-1">${layer.name}</h3>
           <p class="text-sm text-[color:var(--text-dim)] max-w-2xl">${layer.short_role}</p>
         </div>
-        <div class="flex items-center gap-2 shrink-0">
-          <span class="badge badge--${layer.status}" title="${escapeHtml(statusDefinition(layer.status))}">${statusLabel(layer.status)}</span>
-          ${layer.status_override ? `<span class="badge-hint">manual</span>` : ""}
+        <div class="flex flex-col items-end gap-2 shrink-0">
+          <div class="flex items-center gap-2">
+            <span class="badge badge--${layer.status}" title="${escapeHtml(statusDefinition(layer.status))}">${statusLabel(layer.status)}</span>
+            ${layer.status_override ? `<span class="badge-hint">manual</span>` : ""}
+          </div>
+          ${heat}
         </div>
       </div>
       <p class="mt-4 text-[13px] text-[color:var(--text-faint)] max-w-3xl italic">${layer.bottleneck_summary}</p>
@@ -89,18 +94,72 @@ window.renderLayerCard = function (layer) {
     </a>`;
 };
 
+// Renders a 0-100 tightness "heat meter". Rose at high tightness (binding
+// bottleneck), amber at mid, faint at low. Tooltip carries up to 3 evidence
+// quotes — the supply-language hits that pushed the score up.
+window.renderHeatMeter = function (score, evidence, opts) {
+  opts = opts || {};
+  if (score == null || isNaN(score)) return "";
+  const clamped = Math.max(0, Math.min(100, score));
+  const tone = clamped >= 60 ? "hot" : clamped >= 30 ? "warm" : "cool";
+  const ev = (evidence || []).slice(0, 3);
+  const tipParts = [
+    `Bottleneck tightness ${clamped}/100`,
+    opts.count != null ? `${opts.count} signals in last 90d` : null,
+    ev.length ? "\nEvidence:\n• " + ev.join("\n• ") : null,
+  ].filter(Boolean);
+  const tip = tipParts.join(" — ").replace(" — \n", "\n");
+  return `
+    <div class="heat-meter heat-meter--${tone}" title="${escapeHtml(tip)}">
+      <span class="heat-meter__label">tightness</span>
+      <span class="heat-meter__track"><span class="heat-meter__fill" style="width:${clamped}%"></span></span>
+      <span class="heat-meter__val">${clamped}</span>
+    </div>`;
+};
+
+// Full-width "Bottleneck status" callout for layer.html — same data as the
+// homepage heat-meter but with evidence rendered inline.
+window.renderBottleneckCallout = function (layerId) {
+  const bn = (DATA.bottleneck || {})[layerId];
+  if (!bn) return "";
+  const score = bn.tightness_score;
+  const tone = score >= 60 ? "hot" : score >= 30 ? "warm" : "cool";
+  const ev = (bn.evidence || []).map((q) => `<li>${escapeHtml(q)}</li>`).join("");
+  const evBlock = ev
+    ? `<ul class="bottleneck-callout__evidence">${ev}</ul>`
+    : `<div class="text-xs text-[color:var(--text-faint)] mt-2">No supply-tightness language in the last 90 days of signals for this layer.</div>`;
+  return `
+    <div class="bottleneck-callout bottleneck-callout--${tone}">
+      <div class="bottleneck-callout__head">
+        <div>
+          <div class="text-[10px] uppercase tracking-widest text-[color:var(--text-faint)] mb-1">Bottleneck tightness (90d)</div>
+          <div class="bottleneck-callout__score">${score}<span class="bottleneck-callout__score-suffix">/100</span></div>
+        </div>
+        <div class="bottleneck-callout__meta">
+          <div>${bn.signal_count_90d} signals tagged · ${bn.tightness_language_hits_per_signal} tightness-terms/signal</div>
+          ${bn.cross_quarter_supply_tight ? `<div class="text-[color:var(--rose)] mt-1">✓ cross-quarter supply-tight signal</div>` : ""}
+        </div>
+      </div>
+      <div class="bottleneck-callout__track"><span class="bottleneck-callout__fill" style="width:${score}%"></span></div>
+      ${evBlock}
+    </div>`;
+};
+
 window.renderSignalCard = function (sig, opts) {
   opts = opts || {};
+  const compact = !!opts.compact;
   const tags = (sig.layer_ids || []).map((id) => {
     const l = layerById(id);
     return l ? `<a class="layer-pill" href="layer.html?id=${id}">${l.name}</a>` : "";
   }).join(" ");
+  const archTag = sig.arch_risk ? `<span class="layer-pill layer-pill--arch" title="Architectural-risk signal: mentions an algorithmic shift (Mamba, MoE, linear attention, KV-cache compression, etc.) that could change inference FLOPs/token economics.">arch risk</span>` : "";
   const tickers = (sig.tickers || []).slice(0, 6).map((t) => `<a href="stock.html?ticker=${encodeURIComponent(t)}" class="font-mono text-[11px] text-[color:var(--text-dim)] hover:text-[color:var(--sky)] hover:underline underline-offset-2">${t}</a>`).join("<span class='text-[color:var(--text-faint)]'>·</span>");
 
   // Filing summary block (10-K / 10-Q / paired earnings 8-K with summary from
   // data/filing_summaries.json). Falls back to bare card if no summary.
+  // Compact mode (homepage arch-risk strip) hides this block entirely.
   let summaryBlock = "";
-  if (sig.source_type === "filing" && sig.summary) {
+  if (!compact && sig.source_type === "filing" && sig.summary) {
     const s = sig.summary;
     const tldr = s.tldr ? `<div class="signal__tldr">${escapeHtml(s.tldr)}</div>` : "";
     let guidanceLine = "";
@@ -134,20 +193,21 @@ window.renderSignalCard = function (sig, opts) {
     summaryBlock = `${tldr}${guidanceLine}${takeaways}${pullQuote}`;
   }
 
-  const quote = !summaryBlock && sig.quote ? `<div class="signal__quote">${escapeHtml(sig.quote)}</div>` : "";
+  const quote = !compact && !summaryBlock && sig.quote ? `<div class="signal__quote">${escapeHtml(sig.quote)}</div>` : "";
   const sourceName = sig.url
     ? `<a href="${sig.url}" target="_blank" rel="noopener" class="text-sm text-[color:var(--text-dim)] hover:text-[color:var(--sky)] underline decoration-dotted underline-offset-2">${escapeHtml(sig.source)}</a>`
     : `<span class="text-sm text-[color:var(--text-dim)]">${escapeHtml(sig.source)}</span>`;
   let host = "";
   try { host = sig.url ? new URL(sig.url).hostname.replace(/^www\./, "") : ""; } catch (e) { host = ""; }
-  const sourceFooter = sig.url
+  const sourceFooter = !compact && sig.url
     ? `<div class="mt-3 text-[11px] text-[color:var(--text-faint)]">
          ${summaryBlock ? `<a href="${sig.url}" target="_blank" rel="noopener" class="hover:text-[color:var(--sky)]">Read full filing →</a>`
                         : `source: <a href="${sig.url}" target="_blank" rel="noopener" class="hover:text-[color:var(--sky)]">${escapeHtml(host || sig.url)} ↗</a>`}
        </div>`
     : "";
+  const tickersBlock = !compact && tickers ? `<div class="mt-3 flex items-center gap-2 flex-wrap">${tickers}</div>` : "";
   return `
-    <article class="signal" id="${sig.id}">
+    <article class="signal${compact ? ' signal--compact' : ''}" id="${sig.id}">
       <div class="flex items-center justify-between gap-3 flex-wrap">
         <div class="flex items-center gap-2 flex-wrap">
           <span class="tag tag--${sig.source_type}">${sig.source_type}</span>
@@ -155,14 +215,14 @@ window.renderSignalCard = function (sig, opts) {
           <span class="text-[color:var(--text-faint)]">·</span>
           <span class="signal__date">${fmtDate(sig.date)} <span class="text-[color:var(--text-faint)]">(${relDate(sig.date)})</span></span>
         </div>
-        <div class="flex items-center gap-2 flex-wrap">${tags}</div>
+        <div class="flex items-center gap-2 flex-wrap">${archTag}${tags}</div>
       </div>
       <h4 class="mt-2 text-[15px] text-white font-medium leading-snug">
         <a href="${sig.url}" target="_blank" rel="noopener" class="hover:text-[color:var(--sky)]">${escapeHtml(sig.headline)}</a>
       </h4>
       ${summaryBlock}
       ${quote}
-      ${tickers ? `<div class="mt-3 flex items-center gap-2 flex-wrap">${tickers}</div>` : ""}
+      ${tickersBlock}
       ${sourceFooter}
     </article>`;
 };
@@ -213,6 +273,180 @@ window.renderCrossQuarter = function (ticker, cq) {
       ${headline}
       <div class="cq-shifts">${shiftsHtml}</div>
       ${verdict}
+    </article>`;
+};
+
+// Exit-trigger status panel — 4 tiles showing thesis-break trigger states.
+// Lives at the top of index.html so the user sees thesis health at a glance,
+// even during emotional drawdowns.
+const EXIT_TRIGGER_META = {
+  token_growth:      { label: "Token-growth",      desc: "Frontier inference token throughput (WoW)." },
+  hyperscaler_capex: { label: "Hyperscaler capex", desc: "MSFT/GOOGL/META/AMZN capex-cut language in last 90d filings." },
+  arch_risk:         { label: "Arch-risk",         desc: "Algorithmic shift collapsing FLOPs/token (Mamba/MoE/etc., last 30d)." },
+  taiwan:            { label: "Taiwan",            desc: "Geopolitical break — manually flagged." },
+};
+const EXIT_STATE_TO_BADGE = { green: "underappreciated", amber: "priced-in", red: "avoid" };
+
+window.renderExitTriggers = function () {
+  const data = DATA.exit_triggers || null;
+  if (!data || !data.triggers) return "";
+  const tiles = ["token_growth", "hyperscaler_capex", "arch_risk", "taiwan"].map((key) => {
+    const t = data.triggers[key];
+    if (!t) return "";
+    const badge = EXIT_STATE_TO_BADGE[t.state] || "fair";
+    const meta = EXIT_TRIGGER_META[key];
+    const evidence = (t.evidence || []).map((e) => `<li>${escapeHtml(e)}</li>`).join("");
+    const rule = t.rule ? `<div class="exit-tile__rule">${escapeHtml(t.rule)}</div>` : "";
+    const evHtml = evidence
+      ? `<details class="exit-tile__details"><summary>evidence</summary><ul class="exit-tile__evidence">${evidence}</ul>${rule}</details>`
+      : rule;
+    return `
+      <div class="exit-tile exit-tile--${t.state}" data-trigger="${key}">
+        <div class="exit-tile__head">
+          <span class="exit-tile__label">${escapeHtml(meta.label)}</span>
+          <span class="badge badge--${badge} exit-tile__state">${t.state}</span>
+        </div>
+        <div class="exit-tile__desc">${escapeHtml(meta.desc)}</div>
+        ${evHtml}
+      </div>`;
+  }).join("");
+  const overallBadge = EXIT_STATE_TO_BADGE[data.overall] || "fair";
+  return `
+    <div class="exit-panel">
+      <div class="exit-panel__head">
+        <div>
+          <div class="exit-panel__title">Exit triggers</div>
+          <div class="exit-panel__sub">Codified thesis-break conditions. Overall = worst of all four.</div>
+        </div>
+        <div class="exit-panel__overall">
+          <span class="text-xs text-[color:var(--text-faint)] uppercase tracking-widest mr-2">overall</span>
+          <span class="badge badge--${overallBadge}">${escapeHtml(data.overall)}</span>
+        </div>
+      </div>
+      <div class="exit-panel__tiles">${tiles}</div>
+    </div>`;
+};
+
+// Demand telemetry strip — homepage. Shows latest OpenRouter snapshot of
+// frontier inference token throughput, WoW change, and top model movers.
+// This is the variant-perception signal that *leads* hyperscaler capex.
+window.renderDemandStrip = function () {
+  const demand = DATA.demand_signals || null;
+  if (!demand || !demand.daily || !demand.daily.length) return "";
+  const latest = demand.daily[demand.daily.length - 1];
+  const summary = demand.summary || {};
+  const fmtPctSigned = (v) => v == null ? "—" : (v >= 0 ? "+" : "") + (v * 100).toFixed(1) + "%";
+  const wowCls = summary.wow_pct == null ? "" : (summary.wow_pct >= 0 ? "text-[color:var(--green)]" : "text-[color:var(--rose)]");
+  const wowLabel = summary.wow_pct != null
+    ? `<span class="${wowCls}">${fmtPctSigned(summary.wow_pct)}</span> WoW`
+    : `<span class="text-[color:var(--text-faint)]">awaiting history</span>`;
+
+  // Top 5 models for at-a-glance dominance view
+  const topRows = (latest.top_models || []).slice(0, 5).map((m) => {
+    const short = m.model.split("/").slice(-1)[0].replace(/-\d{8}$/, "");
+    return `
+      <div class="demand-strip__model">
+        <span class="demand-strip__model-name font-mono">${escapeHtml(short)}</span>
+        <span class="demand-strip__model-share">${(m.share * 100).toFixed(1)}%</span>
+      </div>`;
+  }).join("");
+
+  // Movers (share-delta vs 7d prior, if we have history)
+  let moversHtml = "";
+  if (summary.top_movers_wow && summary.top_movers_wow.length) {
+    const movers = summary.top_movers_wow.slice(0, 3).map((m) => {
+      const short = m.model.split("/").slice(-1)[0].replace(/-\d{8}$/, "");
+      const d = m.share_delta;
+      const cls = d >= 0 ? "text-[color:var(--green)]" : "text-[color:var(--rose)]";
+      return `<span><span class="font-mono">${escapeHtml(short)}</span> <span class="${cls}">${(d * 100 >= 0 ? "+" : "") + (d * 100).toFixed(1)}pp</span></span>`;
+    }).join(' <span class="text-[color:var(--text-faint)]">·</span> ');
+    moversHtml = `<div class="demand-strip__movers"><span class="demand-strip__movers-label">WoW movers:</span> ${movers}</div>`;
+  }
+
+  return `
+    <div class="demand-strip">
+      <div class="demand-strip__head">
+        <div class="demand-strip__title">
+          <span class="demand-strip__dot"></span>
+          <span>Frontier inference demand</span>
+          <span class="demand-strip__sub">OpenRouter token throughput · ${escapeHtml(latest.date)}</span>
+        </div>
+        <div class="demand-strip__totals">
+          <div class="demand-strip__big">${latest.total_tokens_b.toFixed(0)}<span class="demand-strip__big-suffix">B tokens/week</span></div>
+          <div class="demand-strip__wow">${wowLabel} · ${(latest.total_requests / 1e6).toFixed(0)}M requests</div>
+        </div>
+      </div>
+      <div class="demand-strip__body">
+        <div class="demand-strip__models">${topRows}</div>
+        ${moversHtml}
+      </div>
+    </div>`;
+};
+
+// Reverse-DCF "What's priced in" card — surfaces the gap between the 5y EPS
+// CAGR implied by the current multiple and the company's most-recent trailing
+// revenue YoY. Negative delta = market expects deceleration = variant-perception
+// zone if you believe recent growth is durable.
+window.renderImpliedCAGRCard = function (ticker, fundamentals) {
+  const score = fundamentals && fundamentals.score;
+  const ciq = (fundamentals && fundamentals.ciq) || {};
+  if (!score || score.implied_5y_cagr == null) {
+    return `<div class="text-sm text-[color:var(--text-faint)] py-3">No reverse-DCF available for ${escapeHtml(ticker)} (needs a positive trailing P/E from S&P Capital IQ).</div>`;
+  }
+  const impl = score.implied_5y_cagr;          // decimal CAGR (e.g. 0.265 = 26.5%)
+  const delta = score.implied_vs_recent_growth; // decimal delta
+  const revYoy = ciq.revenue_yoy;
+  const peT = ciq.pe_trailing;
+  const a = score.rdcf_assumptions || {};
+  const fmtP = (x) => x == null ? "—" : (x >= 0 ? "+" : "") + (x * 100).toFixed(1) + "%";
+
+  // Verdict logic. Big-negative delta = variant-perception buy if you trust the demand thesis.
+  // Big-positive delta = priced for growth that hasn't shown up yet.
+  let verdict = "";
+  let tone = "neutral";
+  if (delta != null) {
+    if (delta < -0.30) {
+      tone = "variant";
+      verdict = `Market is implying steep deceleration. At a trailing P/E of <strong>${peT == null ? "—" : peT.toFixed(1)}</strong>, the multiple only requires <strong>${fmtP(impl)}</strong> EPS CAGR over five years — yet revenue just grew <strong>${fmtP(revYoy)}</strong> in the last fiscal year. If you believe the recent demand pace is durable, this is the variant-perception zone.`;
+    } else if (delta < -0.10) {
+      tone = "variant-mild";
+      verdict = `Market is modestly pricing in deceleration. The implied 5y EPS CAGR is <strong>${fmtP(impl)}</strong> vs trailing revenue YoY of <strong>${fmtP(revYoy)}</strong>.`;
+    } else if (delta < 0.10) {
+      tone = "neutral";
+      verdict = `Implied CAGR (<strong>${fmtP(impl)}</strong>) roughly matches the most-recent revenue YoY (<strong>${fmtP(revYoy)}</strong>) — the market is largely extrapolating recent trends forward.`;
+    } else if (delta < 0.30) {
+      tone = "expensive-mild";
+      verdict = `Market is pricing for an <em>acceleration</em>. The multiple requires <strong>${fmtP(impl)}</strong> EPS CAGR, but the company is currently growing revenue at <strong>${fmtP(revYoy)}</strong>. Needs a re-acceleration to justify the price.`;
+    } else {
+      tone = "expensive";
+      verdict = `Market is pricing for steep <em>acceleration</em>. The multiple demands <strong>${fmtP(impl)}</strong> EPS CAGR while revenue just grew <strong>${fmtP(revYoy)}</strong>. Either growth re-accelerates dramatically or the multiple compresses.`;
+    }
+  } else {
+    verdict = `Implied 5y EPS CAGR: <strong>${fmtP(impl)}</strong>. (No recent revenue YoY available to compare.)`;
+  }
+
+  return `
+    <article class="rdcf-card rdcf-card--${tone}">
+      <header class="rdcf-card__head">
+        <div class="rdcf-card__numbers">
+          <div class="rdcf-card__metric">
+            <div class="rdcf-card__metric-label">Implied 5y EPS CAGR</div>
+            <div class="rdcf-card__metric-val">${fmtP(impl)}</div>
+          </div>
+          <div class="rdcf-card__metric">
+            <div class="rdcf-card__metric-label">Recent revenue YoY</div>
+            <div class="rdcf-card__metric-val">${fmtP(revYoy)}</div>
+          </div>
+          <div class="rdcf-card__metric">
+            <div class="rdcf-card__metric-label">Delta</div>
+            <div class="rdcf-card__metric-val ${delta == null ? "" : (delta < 0 ? "text-[color:var(--rose)]" : "text-[color:var(--green)]")}">${fmtP(delta)}</div>
+          </div>
+        </div>
+        <div class="rdcf-card__assumptions" title="Assumptions used in the reverse-DCF solve.">
+          P/E<sub>trail</sub> ${peT == null ? "—" : peT.toFixed(1)} · r=${(a.discount_rate || 0.10) * 100}% · exit P/E=${a.terminal_pe || 18} · ${a.horizon_years || 5}y horizon
+        </div>
+      </header>
+      <p class="rdcf-card__verdict">${verdict}</p>
     </article>`;
 };
 

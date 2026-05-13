@@ -5,7 +5,9 @@ Scope is intentionally narrow:
   - 10-K (annual) and 10-Q (quarterly) reports
   - 8-K filings ONLY when their items list contains "2.02" (Results of
     Operations and Financial Condition — i.e., the earnings press release)
-    AND they're filed within ±1 day of a 10-Q/10-K we already kept.
+    AND they're filed within [-21, +1] days of a 10-Q/10-K we already kept.
+    The asymmetric window covers fiscal-year-end pairs where the earnings
+    8-K is released 1-3 weeks before the matching 10-K.
   - All other 8-Ks (5.02 exec changes, 8.01 other, etc.) are dropped.
 
 The paired-8-K rule exists because forward guidance lives in the earnings
@@ -94,6 +96,13 @@ def _filing_url(cik: str, accession: str, primary_doc: str) -> str:
 
 def _make_entry(ticker: str, cik: str, form: str, fdate, accession: str,
                 primary_doc: str, desc: str) -> dict:
+    # EDGAR sometimes returns the form name as the description (e.g. "8-K"),
+    # which would produce headlines like "MU files 8-K: 8-K". Treat that as
+    # empty so the form-specific fallback takes over.
+    if desc and desc.strip().upper() == form.upper():
+        desc = ""
+    if not desc:
+        desc = "Earnings release" if form == "8-K" else "periodic report"
     return {
         "id": f"edgar-{ticker}-{accession}",
         "accession": accession,
@@ -101,7 +110,7 @@ def _make_entry(ticker: str, cik: str, form: str, fdate, accession: str,
         "date": fdate.isoformat(),
         "source": f"SEC EDGAR ({ticker})",
         "source_type": "filing",
-        "headline": f"{ticker} files {form}: {desc or 'periodic report'}",
+        "headline": f"{ticker} files {form}: {desc}",
         "quote": "",
         "url": _filing_url(cik, accession, primary_doc),
         "layer_ids": [],
@@ -111,8 +120,9 @@ def _make_entry(ticker: str, cik: str, form: str, fdate, accession: str,
 
 def fetch(tickers: list[str], days_back: int = 365, max_reports_per_ticker: int = 2) -> EdgarResult:
     """Fetch the last `max_reports_per_ticker` 10-K/10-Q per ticker, plus any
-    8-K with Item 2.02 (earnings release) filed within ±1 day of one of those
-    reports. days_back of 365 comfortably catches 4 quarterly reports."""
+    8-K with Item 2.02 (earnings release) filed within [-21, +1] days of one
+    of those reports. days_back of 365 comfortably catches 4 quarterly
+    reports."""
     import requests
 
     headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
@@ -166,7 +176,10 @@ def fetch(tickers: list[str], days_back: int = 365, max_reports_per_ticker: int 
                     fdate = datetime.fromisoformat(dates[i]).date()
                 except Exception:
                     continue
-                if not any(abs((fdate - rd).days) <= 1 for rd in report_dates):
+                # Earnings 8-K is released BEFORE the matching periodic report
+                # (1 day before for 10-Qs, often 1-3 weeks before for 10-Ks).
+                # A symmetric ±1 day window misses every fiscal-year-end pair.
+                if not any(-21 <= (fdate - rd).days <= 1 for rd in report_dates):
                     continue
                 desc = descriptions[i] if i < len(descriptions) else ""
                 earnings_8ks.append(_make_entry(ticker, cik, form, fdate, accessions[i], primary_docs[i], desc or "Earnings release"))

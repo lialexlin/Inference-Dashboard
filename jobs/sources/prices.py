@@ -56,6 +56,68 @@ def _ytd_change(history: list[dict]) -> float | None:
     return round((today_close - first_of_year["close"]) / first_of_year["close"] * 100, 2)
 
 
+def _next_earnings(yt) -> dict[str, Any] | None:
+    """Earliest upcoming earnings date from yfinance, with a `confirmed` flag.
+
+    Reliability varies: solid for US large caps, spotty for ADRs and Asian
+    listings — callers must render gracefully when None.
+    """
+    today = date.today()
+
+    def _coerce(x) -> date | None:
+        if x is None:
+            return None
+        if isinstance(x, date) and not isinstance(x, datetime):
+            return x
+        if isinstance(x, datetime):
+            return x.date()
+        try:
+            return datetime.fromisoformat(str(x)[:10]).date()
+        except (TypeError, ValueError):
+            return None
+
+    cal = None
+    try:
+        cal = yt.calendar
+    except Exception:
+        cal = None
+    cal_dates: list[date] = []
+    if isinstance(cal, dict):
+        raw = cal.get("Earnings Date")
+        if raw is not None:
+            if isinstance(raw, (list, tuple)):
+                cal_dates = [d for d in (_coerce(x) for x in raw) if d]
+            else:
+                d = _coerce(raw)
+                if d:
+                    cal_dates = [d]
+
+    future_cal = sorted(d for d in cal_dates if d >= today)
+    if future_cal:
+        return {
+            "date": future_cal[0].isoformat(),
+            "range_end": future_cal[-1].isoformat() if len(future_cal) > 1 else None,
+            "confirmed": len(cal_dates) == 1,
+        }
+
+    # Fallback: earnings_dates DataFrame includes both past and future.
+    try:
+        df = yt.earnings_dates
+    except Exception:
+        df = None
+    if df is None or getattr(df, "empty", True):
+        return None
+    future: list[date] = []
+    for idx in df.index:
+        d = _coerce(idx)
+        if d and d >= today:
+            future.append(d)
+    if not future:
+        return None
+    future.sort()
+    return {"date": future[0].isoformat(), "range_end": None, "confirmed": False}
+
+
 def _fx_to_usd(currency: str, cache: dict[str, float | None]) -> float | None:
     """Rate such that `usd_amount = local_amount / rate`. yfinance pair `USDxxx=X`
     quotes 1 USD in local currency. Returns None on failure (caller falls back)."""
@@ -125,6 +187,11 @@ def fetch(tickers: list[str]) -> PriceResult:
             mcap_native = _safe_float(info.get("marketCap"))
             fx = _fx_to_usd(currency, fx_cache)
             mcap_usd = mcap_native / fx if (mcap_native is not None and fx) else None
+            try:
+                ne = _next_earnings(yt)
+            except Exception as e:
+                log.debug("next_earnings fetch failed for %s: %s", ticker, e)
+                ne = None
             result.fundamentals[ticker] = {
                 "market_cap": mcap_native,
                 "market_cap_usd": mcap_usd,
@@ -137,6 +204,7 @@ def fetch(tickers: list[str]) -> PriceResult:
                 "industry": info.get("industry"),
                 "long_name": info.get("longName") or info.get("shortName"),
                 "currency": currency,
+                "next_earnings": ne,
             }
             log.info("OK %s last=%s 1m=%s YTD=%s", ticker, last_close, result.prices[ticker]["change_1m"], result.prices[ticker]["change_ytd"])
         except Exception as e:

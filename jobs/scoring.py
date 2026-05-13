@@ -72,6 +72,57 @@ def _clamp(v: float, lo: float = -3.0, hi: float = 3.0) -> float:
     return max(lo, min(hi, v))
 
 
+# Reverse-DCF assumptions. Documented as constants so the user sees the levers
+# rather than guessing what's baked in.
+RDCF_DISCOUNT_RATE = 0.10        # Cost of equity / hurdle rate (constant across tickers)
+RDCF_TERMINAL_PE = 18.0          # Exit multiple at year 5 (S&P long-run average ballpark)
+RDCF_HORIZON_YEARS = 5
+RDCF_G_LOW = -0.50               # Bisection lower bound for implied CAGR
+RDCF_G_HIGH = 1.50               # Bisection upper bound (150% CAGR — sane ceiling)
+
+
+def _rdcf_pe(g: float) -> float:
+    """Forward P/E implied by an EPS CAGR g, under the constant assumptions above.
+
+    P_0 / EPS_0 = sum_{t=1..N} (1+g)^t / (1+r)^t  +  (1+g)^N * pe_terminal / (1+r)^N
+    """
+    r = RDCF_DISCOUNT_RATE
+    n = RDCF_HORIZON_YEARS
+    pv_earnings = sum(((1 + g) ** t) / ((1 + r) ** t) for t in range(1, n + 1))
+    pv_terminal = ((1 + g) ** n) * RDCF_TERMINAL_PE / ((1 + r) ** n)
+    return pv_earnings + pv_terminal
+
+
+def _implied_cagr(pe_trailing: float | None) -> float | None:
+    """Bisection-solve for the 5y EPS CAGR g that would justify the given P/E
+    under fixed (r=10%, terminal P/E=18) assumptions. Returns the CAGR as a
+    decimal (e.g. 0.12 = 12%) or None if pe_trailing is missing/invalid.
+
+    Out-of-range P/Es clamp to the bound that produced them — useful for
+    showing "anything below ~14× ≈ no growth required" vs "anything above 100×
+    ≈ implausible growth required".
+    """
+    if pe_trailing is None or pe_trailing <= 0:
+        return None
+    target = pe_trailing
+    lo, hi = RDCF_G_LOW, RDCF_G_HIGH
+    pe_lo = _rdcf_pe(lo)
+    pe_hi = _rdcf_pe(hi)
+    if target <= pe_lo:
+        return lo
+    if target >= pe_hi:
+        return hi
+    for _ in range(60):
+        mid = (lo + hi) / 2
+        if _rdcf_pe(mid) < target:
+            lo = mid
+        else:
+            hi = mid
+        if hi - lo < 1e-5:
+            break
+    return (lo + hi) / 2
+
+
 def _components_business(
     ticker: str,
     fund: dict,
@@ -380,6 +431,18 @@ def compute(
         q = _quadrant(business, valuation)
         quadrants_by_layer[lid].append(q)
 
+        # Reverse-DCF: solve current trailing P/E for an implied 5y EPS CAGR.
+        # Compare against most recent trailing revenue YoY as a "what the market
+        # is pricing vs what the company just printed" gauge. Decimal form
+        # (0.12 = 12%); frontend formats as %.
+        ciq = (fundamentals.get(t, {}) or {}).get("ciq", {}) or {}
+        pe_t = ciq.get("pe_trailing")
+        implied = _implied_cagr(pe_t)
+        rev_yoy = ciq.get("revenue_yoy")
+        implied_vs_recent = (
+            None if implied is None or rev_yoy is None else implied - rev_yoy
+        )
+
         scores[t] = {
             "as_of": now.isoformat(),
             "business": None if business is None else round(business, 3),
@@ -388,6 +451,13 @@ def compute(
             "components": {**{k: round(v, 3) for k, v in biz_comps.items()},
                            **{k: round(v, 3) for k, v in val_comps.items()}},
             "signal_density_90d": signal_density_by_ticker.get(t, 0),
+            "implied_5y_cagr": None if implied is None else round(implied, 4),
+            "implied_vs_recent_growth": None if implied_vs_recent is None else round(implied_vs_recent, 4),
+            "rdcf_assumptions": {
+                "discount_rate": RDCF_DISCOUNT_RATE,
+                "terminal_pe": RDCF_TERMINAL_PE,
+                "horizon_years": RDCF_HORIZON_YEARS,
+            },
         }
 
     # Layer auto-status
@@ -420,6 +490,8 @@ def write_outputs(
             "valuation": s["valuation"],
             "quadrant": s["quadrant"],
             "signal_density_90d": s["signal_density_90d"],
+            "implied_5y_cagr": s.get("implied_5y_cagr"),
+            "implied_vs_recent_growth": s.get("implied_vs_recent_growth"),
         }
         for t, s in scores.items()
     }

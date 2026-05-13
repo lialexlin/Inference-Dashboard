@@ -40,6 +40,46 @@ _KEYWORD_INDEX: list[tuple[str, str]] = sorted(
 )
 
 
+# Architectural-risk keywords — algorithmic shifts that could collapse FLOPs/token
+# and break the inference-capex thesis (Mamba/SSMs, linear attention, MoE
+# efficiency, speculative decoding, KV-cache compression, distillation, BitNet).
+# A signal is flagged arch_risk=True if any term hits headline+quote.
+ARCH_RISK_KEYWORDS: list[str] = [
+    "mamba",
+    "state space model",
+    "state-space model",
+    "linear attention",
+    "flash attention",
+    "flashattention",
+    "mixture of experts",
+    "mixture-of-experts",
+    " moe ",
+    "speculative decoding",
+    "kv cache",
+    "kv-cache",
+    "paged attention",
+    "pagedattention",
+    "distillation",
+    "quantization",
+    "bitnet",
+    "1-bit",
+    "ternary llm",
+    "sparsity",
+    "pruning",
+    "medusa",
+    "lookahead decoding",
+    "tree attention",
+    "ring attention",
+    "grouped query attention",
+    "grouped-query attention",
+    " gqa ",
+    "multi-query attention",
+    "multi-query-attention",
+    "test-time compute",
+    "inference-time scaling",
+]
+
+
 def _norm(text: str) -> str:
     return re.sub(r"\s+", " ", (text or "").lower())
 
@@ -69,15 +109,27 @@ def _ticker_set(players: list[dict]) -> dict[str, dict]:
     return by_alias
 
 
+def _has_arch_risk(text: str) -> bool:
+    """True if any architectural-risk keyword hits in the normalized text.
+
+    Pads with spaces so short tokens like ' moe ' and ' gqa ' match word-isolated.
+    """
+    padded = f" {text} "
+    return any(kw in padded for kw in ARCH_RISK_KEYWORDS)
+
+
 def tag(signals: list[dict], players: list[dict]) -> list[dict]:
-    """Mutate-and-return: fill layer_ids and tickers on each signal."""
+    """Mutate-and-return: fill layer_ids, tickers, and arch_risk on each signal."""
     aliases = _ticker_set(players)
 
     for sig in signals:
-        if sig.get("layer_ids") and sig.get("tickers"):
-            continue  # already curated
+        text_for_arch = _norm(f"{sig.get('headline', '')} {sig.get('quote', '')}")
+        sig["arch_risk"] = _has_arch_risk(text_for_arch)
 
-        text = _norm(f"{sig.get('headline', '')} {sig.get('quote', '')}")
+        if sig.get("layer_ids") and sig.get("tickers"):
+            continue  # already curated (arch_risk still set above)
+
+        text = text_for_arch
 
         # Tickers: word-boundary match on each alias
         found_tickers: list[str] = []

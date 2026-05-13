@@ -1,0 +1,83 @@
+{
+  "as_of": "2026-05-13T04:37:05.090640+00:00",
+  "source": "openrouter.ai/rankings",
+  "daily": [
+    {
+      "date": "2026-05-12",
+      "total_tokens_b": 24431.066,
+      "total_prompt_tokens_b": 23409.739,
+      "total_completion_tokens_b": 1021.327,
+      "total_reasoning_tokens_b": 0.0,
+      "total_requests": 2687415158,
+      "top_models": [
+        {
+          "model": "tencent/hy3-preview-20260421",
+          "tokens_b": 1692.19,
+          "share": 0.0693,
+          "requests": 29623889
+        },
+        {
+          "model": "anthropic/claude-4.6-sonnet-20260217",
+          "tokens_b": 1508.685,
+          "share": 0.0618,
+          "requests": 38364616
+        },
+        {
+          "model": "anthropic/claude-4.7-opus-20260416",
+          "tokens_b": 1462.224,
+          "share": 0.0599,
+          "requests": 27112294
+        },
+        {
+          "model": "moonshotai/kimi-k2.6-20260420",
+          "tokens_b": 1430.939,
+          "share": 0.0586,
+          "requests": 24509910
+        },
+        {
+          "model": "deepseek/deepseek-v4-flash-20260423",
+          "tokens_b": 1266.985,
+          "share": 0.0519,
+          "requests": 83907281
+        },
+        {
+          "model": "google/gemini-3-flash-preview-20251217",
+          "tokens_b": 1124.528,
+          "share": 0.046,
+          "requests": 139189133
+        },
+        {
+          "model": "deepseek/deepseek-v3.2-20251201",
+          "tokens_b": 905.517,
+          "share": 0.0371,
+          "requests": 107424703
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro-20260423",
+          "tokens_b": 857.215,
+          "share": 0.0351,
+          "requests": 22301522
+        },
+        {
+          "model": "minimax/minimax-m2.7-20260318",
+          "tokens_b": 758.445,
+          "share": 0.031,
+          "requests": 25447051
+        },
+        {
+          "model": "google/gemini-2.5-flash-lite",
+          "tokens_b": 618.114,
+          "share": 0.0253,
+          "requests": 221108768
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "latest_date": "2026-05-12",
+    "latest_total_tokens_b": 24431.066,
+    "latest_total_requests": 2687415158,
+    "dod_pct": null,
+    "wow_pct": null
+  }
+}

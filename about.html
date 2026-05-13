@@ -6,7 +6,7 @@
   <title>Sources & refresh status · Inference Stack</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=2">
 </head>
 <body class="min-h-screen">
   <div id="header"></div>
@@ -129,8 +129,8 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
     </section>
   </main>
 
-  <script src="assets/app.js"></script>
-  <script src="assets/components.js"></script>
+  <script src="assets/app.js?v=2"></script>
+  <script src="assets/components.js?v=2"></script>
   <script>
     (async () => {
       await loadAll();
@@ -187,6 +187,45 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
           err: errs[name] || "",
         });
       });
+      const orSrc = sources.openrouter || {};
+      const orStageErr = (orSrc.errors || {}).__stage__;
+      rows.push({
+        name: "OpenRouter (frontier inference demand telemetry)",
+        type: "rss",
+        entries: orSrc.daily_rows || 0,
+        ok: !orStageErr && (orSrc.ok || 0) > 0,
+        err: orStageErr
+          ? `stage failed: ${orStageErr}`
+          : orSrc.latest_date
+            ? `latest snapshot ${orSrc.latest_date} · ${(orSrc.latest_total_tokens_b || 0).toFixed(0)}B weekly tokens`
+            : "no snapshot yet",
+      });
+      const bnSrc = sources.bottleneck || {};
+      const bnStageErr = (bnSrc.errors || {}).__stage__;
+      rows.push({
+        name: "Bottleneck heat-map (per-layer tightness score)",
+        type: "rss",
+        entries: bnSrc.ok || 0,
+        ok: !bnStageErr && (bnSrc.ok || 0) > 0,
+        err: bnStageErr
+          ? `stage failed: ${bnStageErr}`
+          : (bnSrc.top_layers || []).length
+            ? `top layers: ${(bnSrc.top_layers || []).map((l) => `${l.layer_id}=${l.tightness_score}`).join(", ")}`
+            : "",
+      });
+      const exitSrc = sources.exit_triggers || {};
+      const exitStageErr = (exitSrc.errors || {}).__stage__;
+      rows.push({
+        name: "Exit-trigger panel (4 thesis-break conditions)",
+        type: "rss",
+        entries: exitSrc.ok || 0,
+        ok: !exitStageErr && (exitSrc.ok || 0) > 0,
+        err: exitStageErr
+          ? `stage failed: ${exitStageErr}`
+          : exitSrc.states
+            ? `overall=${exitSrc.overall} · ${Object.entries(exitSrc.states).map(([k, v]) => `${k}=${v}`).join(", ")}`
+            : "",
+      });
       const scoringSrc = sources.scoring || {};
       const scoringStageErr = (scoringSrc.errors || {}).__stage__;
       const manualCovered = scoringSrc.manual_estimates_coverage ?? 0;
@@ -217,10 +256,15 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
       const tickerCount = DATA.players.length;
       const priceCount = Object.keys(DATA.prices || {}).length;
       const sigStats = meta.signals || {};
+      const earningsCount = DATA.players.reduce((n, p) => {
+        const ne = (DATA.fundamentals[p.ticker] || {}).next_earnings;
+        return n + (ne && ne.date ? 1 : 0);
+      }, 0);
       const stats = [
         { label: "Layers tracked", value: DATA.layers.length },
         { label: "Tickers tracked", value: tickerCount },
         { label: "Price coverage", value: `${priceCount} / ${tickerCount}` },
+        { label: "Earnings dates", value: `${earningsCount} / ${tickerCount}` },
         { label: "Signals indexed", value: sigStats.total || (DATA.signals || []).length },
       ];
       document.getElementById("stats").innerHTML = stats.map((s) => `

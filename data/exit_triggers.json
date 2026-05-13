@@ -1,0 +1,35 @@
+{
+  "as_of": "2026-05-13T04:37:05.132361+00:00",
+  "triggers": {
+    "token_growth": {
+      "state": "amber",
+      "evidence": [
+        "Awaiting WoW history (latest snapshot 2026-05-12, need 7d+ to compute)."
+      ],
+      "rule": "Frontier inference WoW token growth: GREEN ≥+5% / AMBER 0–5% / RED negative or history insufficient."
+    },
+    "hyperscaler_capex": {
+      "state": "green",
+      "evidence": [
+        "No capex-cut language in MSFT/GOOGL/META/AMZN filings (last 90d)."
+      ],
+      "rule": "Hyperscaler capex guide cuts (MSFT/GOOGL/META/AMZN) in last 90d: GREEN 0 / AMBER 1 / RED 2+."
+    },
+    "arch_risk": {
+      "state": "green",
+      "evidence": [
+        "0 arch-risk signals in last 30d — none claim a frontier-scale efficiency breakthrough."
+      ],
+      "rule": "Arch-risk signals (last 30d): GREEN none / AMBER mild 2–5× efficiency claim / RED ≥10× claim."
+    },
+    "taiwan": {
+      "state": "green",
+      "evidence": [
+        "No active escalation. Toggle to amber on China-PLA exercise news, red on actual shipping/strait disruption."
+      ],
+      "rule": "Taiwan geopolitical break — manually toggled. Set in data/exit_triggers_manual.json.",
+      "manual": true
+    }
+  },
+  "overall": "amber"
+}

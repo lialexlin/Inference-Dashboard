@@ -1,392 +1,522 @@
 {
   "000660.KS": {
-    "business": 0.466,
-    "valuation": -0.148,
+    "business": 0.376,
+    "valuation": -0.022,
     "quadrant": "fair",
-    "signal_density_90d": 3
+    "signal_density_90d": 3,
+    "implied_5y_cagr": 0.1475,
+    "implied_vs_recent_growth": -0.3201
   },
   "005930.KS": {
-    "business": -1.107,
-    "valuation": -0.907,
+    "business": -1.127,
+    "valuation": -0.835,
     "quadrant": "avoid",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.2441,
+    "implied_vs_recent_growth": 0.1353
   },
   "MU": {
-    "business": 0.641,
-    "valuation": -2.804,
+    "business": 0.751,
+    "valuation": -2.875,
     "quadrant": "priced-in",
-    "signal_density_90d": 2
+    "signal_density_90d": 3,
+    "implied_5y_cagr": 0.4987,
+    "implied_vs_recent_growth": 0.0102
   },
   "TSM": {
     "business": 0.958,
-    "valuation": -0.165,
+    "valuation": -0.2,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.2047,
+    "implied_vs_recent_growth": -0.1114
   },
   "INTC": {
     "business": -0.009,
-    "valuation": 1.033,
+    "valuation": 1.127,
     "quadrant": "fair",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": null,
+    "implied_vs_recent_growth": null
   },
   "GFS": {
     "business": -0.949,
-    "valuation": -0.345,
+    "valuation": -0.3,
     "quadrant": "avoid",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.2809,
+    "implied_vs_recent_growth": 0.2748
   },
   "ASX": {
     "business": -0.72,
-    "valuation": -1.121,
+    "valuation": -1.091,
     "quadrant": "avoid",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.3417,
+    "implied_vs_recent_growth": 0.2577
   },
   "AMKR": {
     "business": -0.157,
-    "valuation": -0.836,
+    "valuation": -0.854,
     "quadrant": "fair",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": 0.306,
+    "implied_vs_recent_growth": 0.2442
   },
   "2449.TW": {
     "business": 0.877,
-    "valuation": -0.983,
+    "valuation": -1.061,
     "quadrant": "priced-in",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.2886,
+    "implied_vs_recent_growth": -0.0121
   },
   "ASML": {
     "business": 0.164,
-    "valuation": -0.155,
+    "valuation": -0.164,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.3183,
+    "implied_vs_recent_growth": 0.1625
   },
   "AMAT": {
     "business": -0.37,
-    "valuation": -0.977,
+    "valuation": -0.939,
     "quadrant": "avoid",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.3016,
+    "implied_vs_recent_growth": 0.2578
   },
   "LRCX": {
     "business": 0.265,
-    "valuation": -1.533,
+    "valuation": -1.501,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.3993,
+    "implied_vs_recent_growth": 0.1624
   },
   "KLAC": {
     "business": 1.128,
-    "valuation": -1.186,
+    "valuation": -1.19,
     "quadrant": "priced-in",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.3585,
+    "implied_vs_recent_growth": 0.1196
   },
   "8035.T": {
     "business": -1.186,
-    "valuation": -0.458,
+    "valuation": -0.464,
     "quadrant": "avoid",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.2523,
+    "implied_vs_recent_growth": 0.2474
   },
   "NVDA": {
     "business": 0.714,
-    "valuation": 0.567,
+    "valuation": 0.595,
     "quadrant": "underappreciated",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.2648,
+    "implied_vs_recent_growth": -0.39
   },
   "AMD": {
     "business": -0.43,
-    "valuation": -1.783,
+    "valuation": -1.752,
     "quadrant": "avoid",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.6874,
+    "implied_vs_recent_growth": 0.344
   },
   "AVGO": {
     "business": -0.255,
-    "valuation": -0.776,
+    "valuation": -0.785,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.4716,
+    "implied_vs_recent_growth": 0.2329
   },
   "MRVL": {
     "business": -0.029,
-    "valuation": -0.284,
+    "valuation": -0.278,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.3287,
+    "implied_vs_recent_growth": -0.0922
   },
   "GOOGL": {
     "business": 0.053,
-    "valuation": -0.641,
+    "valuation": -0.694,
     "quadrant": "fair",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": 0.2201,
+    "implied_vs_recent_growth": 0.0692
   },
   "LITE": {
     "business": -0.346,
     "valuation": -3.0,
     "quadrant": "avoid",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 1.5,
+    "implied_vs_recent_growth": 1.2897
   },
   "COHR": {
     "business": -0.376,
     "valuation": 2.0,
     "quadrant": "value-trap",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": null,
+    "implied_vs_recent_growth": null
   },
   "FN": {
     "business": 0.161,
-    "valuation": -0.799,
+    "valuation": -0.844,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.3862,
+    "implied_vs_recent_growth": 0.2001
   },
   "300308.SZ": {
     "business": -0.206,
-    "valuation": -1.087,
+    "valuation": -1.029,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.4753,
+    "implied_vs_recent_growth": -0.1272
   },
   "300502.SZ": {
     "business": 1.123,
-    "valuation": 0.079,
+    "valuation": 0.036,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.3398,
+    "implied_vs_recent_growth": -1.5331
   },
   "MXL": {
     "business": -0.357,
     "valuation": 3.0,
     "quadrant": "value-trap",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": null,
+    "implied_vs_recent_growth": null
   },
   "ANET": {
     "business": 0.299,
-    "valuation": -0.349,
+    "valuation": -0.461,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.3085,
+    "implied_vs_recent_growth": 0.0226
   },
   "CSCO": {
     "business": -0.488,
-    "valuation": -0.352,
+    "valuation": -0.312,
     "quadrant": "avoid",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.2254,
+    "implied_vs_recent_growth": 0.1724
   },
   "HPE": {
     "business": -0.309,
-    "valuation": 2.428,
+    "valuation": 2.421,
     "quadrant": "value-trap",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": null,
+    "implied_vs_recent_growth": null
   },
   "CLS": {
     "business": -0.059,
-    "valuation": -1.024,
+    "valuation": -1.017,
     "quadrant": "fair",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": 0.3133,
+    "implied_vs_recent_growth": 0.0288
   },
   "2345.TW": {
     "business": 0.557,
-    "valuation": -0.701,
+    "valuation": -0.491,
     "quadrant": "priced-in",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.3042,
+    "implied_vs_recent_growth": -0.9445
   },
   "GEV": {
     "business": -0.37,
-    "valuation": -1.121,
+    "valuation": -1.11,
     "quadrant": "avoid",
-    "signal_density_90d": 3
+    "signal_density_90d": 3,
+    "implied_5y_cagr": 0.3454,
+    "implied_vs_recent_growth": 0.2558
   },
   "ETN": {
     "business": 1.088,
-    "valuation": 0.095,
+    "valuation": 0.138,
     "quadrant": "fair",
-    "signal_density_90d": 4
+    "signal_density_90d": 4,
+    "implied_5y_cagr": 0.2292,
+    "implied_vs_recent_growth": 0.1259
   },
   "VRT": {
     "business": 0.337,
-    "valuation": -1.158,
+    "valuation": -0.96,
     "quadrant": "priced-in",
-    "signal_density_90d": 3
+    "signal_density_90d": 3,
+    "implied_5y_cagr": 0.5028,
+    "implied_vs_recent_growth": 0.226
   },
   "GNRC": {
     "business": -0.503,
-    "valuation": -1.679,
+    "valuation": -1.73,
     "quadrant": "avoid",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.5042,
+    "implied_vs_recent_growth": 0.5244
   },
   "CMI": {
     "business": -0.752,
-    "valuation": -0.249,
+    "valuation": -0.203,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.1908,
+    "implied_vs_recent_growth": 0.2035
   },
   "HUBB": {
     "business": 0.103,
-    "valuation": 0.445,
+    "valuation": 0.41,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.1636,
+    "implied_vs_recent_growth": 0.1252
   },
   "PWR": {
     "business": 0.568,
-    "valuation": -1.778,
+    "valuation": -1.747,
     "quadrant": "priced-in",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": 0.5326,
+    "implied_vs_recent_growth": 0.3295
   },
   "CAT": {
     "business": 0.357,
-    "valuation": -0.995,
+    "valuation": -0.999,
     "quadrant": "priced-in",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": 0.2872,
+    "implied_vs_recent_growth": 0.2443
   },
   "CEG": {
     "business": -0.194,
-    "valuation": 2.842,
+    "valuation": 2.868,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": null,
+    "implied_vs_recent_growth": null
   },
   "OKLO": {
     "business": -0.539,
     "valuation": 3.0,
     "quadrant": "value-trap",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": null,
+    "implied_vs_recent_growth": null
   },
   "LEU": {
     "business": -0.161,
-    "valuation": -1.748,
+    "valuation": -1.753,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.3171,
+    "implied_vs_recent_growth": 0.3019
   },
   "NVT": {
     "business": 0.04,
     "valuation": -1.0,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.3758,
+    "implied_vs_recent_growth": 0.0807
   },
   "MOD": {
     "business": -1.045,
-    "valuation": -1.223,
+    "valuation": -1.189,
     "quadrant": "avoid",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.4347,
+    "implied_vs_recent_growth": 0.3617
   },
   "SU.PA": {
     "business": -0.619,
-    "valuation": 0.302,
-    "quadrant": "value-trap",
-    "signal_density_90d": 0
+    "valuation": 0.299,
+    "quadrant": "fair",
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.2206,
+    "implied_vs_recent_growth": 0.1682
   },
   "3017.TW": {
     "business": 0.871,
-    "valuation": -0.82,
+    "valuation": -0.791,
     "quadrant": "priced-in",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.3038,
+    "implied_vs_recent_growth": -0.642
   },
   "3653.TW": {
     "business": 0.585,
-    "valuation": -2.354,
+    "valuation": -2.042,
     "quadrant": "priced-in",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.5069,
+    "implied_vs_recent_growth": 0.0868
   },
   "3324.TWO": {
     "business": -0.169,
-    "valuation": -0.245,
+    "valuation": -0.253,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.2303,
+    "implied_vs_recent_growth": -0.2448
   },
   "MSFT": {
     "business": 0.668,
-    "valuation": 0.173,
+    "valuation": 0.184,
     "quadrant": "fair",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": 0.1691,
+    "implied_vs_recent_growth": 0.0198
   },
   "META": {
     "business": 0.853,
-    "valuation": 0.331,
+    "valuation": 0.318,
     "quadrant": "underappreciated",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": 0.1294,
+    "implied_vs_recent_growth": -0.0923
   },
   "AMZN": {
     "business": -0.879,
     "valuation": 0.182,
     "quadrant": "fair",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": 0.2265,
+    "implied_vs_recent_growth": 0.1027
   },
   "ORCL": {
     "business": -0.695,
-    "valuation": -0.782,
+    "valuation": -0.779,
     "quadrant": "avoid",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.2722,
+    "implied_vs_recent_growth": 0.1884
   },
   "CRWV": {
     "business": 0.0,
     "valuation": 1.009,
     "quadrant": "fair",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": null,
+    "implied_vs_recent_growth": null
   },
   "NBIS": {
     "business": -0.0,
     "valuation": 0.0,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 1.5,
+    "implied_vs_recent_growth": -3.2902
   },
   "CRM": {
     "business": -0.403,
-    "valuation": 1.289,
+    "valuation": 1.271,
     "quadrant": "value-trap",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.1032,
+    "implied_vs_recent_growth": 0.0074
   },
   "NOW": {
     "business": 0.271,
     "valuation": 0.431,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.3245,
+    "implied_vs_recent_growth": 0.1157
   },
   "SNOW": {
     "business": -0.74,
     "valuation": 3.0,
     "quadrant": "value-trap",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": null,
+    "implied_vs_recent_growth": null
   },
   "PLTR": {
     "business": 0.872,
     "valuation": -2.0,
     "quadrant": "priced-in",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.7679,
+    "implied_vs_recent_growth": 0.206
   },
   "CDNS": {
     "business": 1.102,
-    "valuation": -0.471,
+    "valuation": -0.463,
     "quadrant": "priced-in",
-    "signal_density_90d": 2
+    "signal_density_90d": 2,
+    "implied_5y_cagr": 0.4688,
+    "implied_vs_recent_growth": 0.3276
   },
   "SNPS": {
     "business": 0.102,
-    "valuation": -0.419,
+    "valuation": -0.424,
     "quadrant": "fair",
-    "signal_density_90d": 1
+    "signal_density_90d": 1,
+    "implied_5y_cagr": 0.3697,
+    "implied_vs_recent_growth": 0.2184
   },
   "SIEGY": {
     "business": -1.204,
-    "valuation": 0.584,
+    "valuation": 0.602,
     "quadrant": "value-trap",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.1468,
+    "implied_vs_recent_growth": 0.1075
   },
   "4062.T": {
-    "business": 0.082,
-    "valuation": -0.538,
-    "quadrant": "fair",
-    "signal_density_90d": 0
+    "business": -0.53,
+    "valuation": -0.83,
+    "quadrant": "avoid",
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.6057,
+    "implied_vs_recent_growth": 0.6086
   },
   "3037.TW": {
-    "business": -0.26,
-    "valuation": -1.462,
+    "business": -0.067,
+    "valuation": -1.17,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.7146,
+    "implied_vs_recent_growth": 0.577
   },
   "6967.T": {
     "business": 0.0,
     "valuation": null,
     "quadrant": "unscored",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": null,
+    "implied_vs_recent_growth": null
   },
   "ATS.VI": {
-    "business": -0.283,
-    "valuation": 0.122,
+    "business": 0.034,
+    "valuation": 0.191,
     "quadrant": "fair",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.3222,
+    "implied_vs_recent_growth": 0.2964
   },
   "8046.TW": {
-    "business": 0.481,
-    "valuation": -2.121,
+    "business": 0.564,
+    "valuation": -1.685,
     "quadrant": "priced-in",
-    "signal_density_90d": 0
+    "signal_density_90d": 0,
+    "implied_5y_cagr": 0.8648,
+    "implied_vs_recent_growth": 0.6204
   }
 }

@@ -13,7 +13,8 @@
     ],
     "tickers": [
       "000660.KS"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-OKLO-0001628280-26-034095",
@@ -22,7 +23,7 @@
     "date": "2026-05-12",
     "source": "SEC EDGAR (OKLO)",
     "source_type": "filing",
-    "headline": "OKLO files 10-Q: 10-Q",
+    "headline": "OKLO files 10-Q: periodic report",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026034095/oklo-20260331.htm",
     "layer_ids": [
@@ -30,7 +31,8 @@
     ],
     "tickers": [
       "OKLO"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-ed86f7687114d288",
@@ -46,7 +48,8 @@
     ],
     "tickers": [
       "AMD"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-49ffc54f4121dc08",
@@ -59,7 +62,8 @@
     "layer_ids": [
       "switches"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "edgar-CEG-0001868275-26-000067",
@@ -68,7 +72,7 @@
     "date": "2026-05-11",
     "source": "SEC EDGAR (CEG)",
     "source_type": "filing",
-    "headline": "CEG files 10-Q: 10-Q",
+    "headline": "CEG files 10-Q: periodic report",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000067/ceg-20260331.htm",
     "layer_ids": [
@@ -76,7 +80,8 @@
     ],
     "tickers": [
       "CEG"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-CEG-0001868275-26-000063",
@@ -85,7 +90,7 @@
     "date": "2026-05-11",
     "source": "SEC EDGAR (CEG)",
     "source_type": "filing",
-    "headline": "CEG files 8-K: 8-K",
+    "headline": "CEG files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000063/ceg-20260511.htm",
     "layer_ids": [
@@ -93,7 +98,8 @@
     ],
     "tickers": [
       "CEG"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-7fa83035d39ef058",
@@ -106,7 +112,8 @@
     "layer_ids": [
       "optics"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-5cce313902f5bbfc",
@@ -119,7 +126,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-71ecefec841740e5",
@@ -132,7 +140,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-e3a5a7e1a1063cf7",
@@ -145,7 +154,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-7cb191d14de84da3",
@@ -161,7 +171,8 @@
     ],
     "tickers": [
       "000660.KS"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-4be442d9b3523fb0",
@@ -175,7 +186,8 @@
       "packaging",
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "edgar-CRWV-0001769628-26-000222",
@@ -184,7 +196,7 @@
     "date": "2026-05-08",
     "source": "SEC EDGAR (CRWV)",
     "source_type": "filing",
-    "headline": "CRWV files 10-Q: 10-Q",
+    "headline": "CRWV files 10-Q: periodic report",
     "quote": "As of March 31, 2026, the Company had $98.8 billion of unsatisfied RPO, of which 36% is expected to be recognized over the initial 24 months ending March 31, 2028, 39% between months 25 and 48, and the remaining balance recognized between months 49 and 84.",
     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000222/crwv-20260331.htm",
     "layer_ids": [
@@ -205,15 +217,16 @@
         "Committed up to $1.2B for two new data center JV equity stakes during Q1"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "10-Q includes no explicit guidance; substantial capex commitments and continued debt/equity issuance expected",
         "opex": null,
-        "notes": "10-Q includes no explicit guidance; substantial capex commitments and continued debt/equity issuance expected"
+        "period": null,
+        "revenue": null
       },
       "quote": "As of March 31, 2026, the Company had $98.8 billion of unsatisfied RPO, of which 36% is expected to be recognized over the initial 24 months ending March 31, 2028, 39% between months 25 and 48, and the remaining balance recognized between months 49 and 84.",
       "quote_section": "Note 2 Revenue - Remaining Performance Obligations"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "rss-4fb1f5b6ee17a4dd",
@@ -228,7 +241,8 @@
     ],
     "tickers": [
       "000660.KS"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-37f3658ebdf67b84",
@@ -241,7 +255,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-266aca08e19483a0",
@@ -254,7 +269,8 @@
     "layer_ids": [
       "hyperscalers"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-2b7b3f3c0687c3d1",
@@ -269,7 +285,8 @@
     ],
     "tickers": [
       "AMD"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-CRWV-0001769628-26-000220",
@@ -278,7 +295,7 @@
     "date": "2026-05-07",
     "source": "SEC EDGAR (CRWV)",
     "source_type": "filing",
-    "headline": "CRWV files 8-K: 8-K",
+    "headline": "CRWV files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000220/crwv-20260507.htm",
     "layer_ids": [
@@ -286,7 +303,8 @@
     ],
     "tickers": [
       "CRWV"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-dd298b1456f4cb68",
@@ -299,7 +317,8 @@
     "layer_ids": [
       "gpu"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-2a5090c24884583f",
@@ -312,7 +331,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "edgar-AMD-0000002488-26-000076",
@@ -321,7 +341,7 @@
     "date": "2026-05-06",
     "source": "SEC EDGAR (AMD)",
     "source_type": "filing",
-    "headline": "AMD files 10-Q: 10-Q",
+    "headline": "AMD files 10-Q: periodic report",
     "quote": "In February 2026, the U.S. government granted us some export licenses authorizing us to ship our AMD Instinct MI325 products to certain China-based customers... any MI325 shipped under the licenses will be subject to a 25% tariff upon importation into the United States for the inspection.",
     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000076/amd-20260328.htm",
     "layer_ids": [
@@ -341,15 +361,16 @@
         "International sales jumped to 74% of revenue (vs 66% prior year), reflecting hyperscaler GPU shipping locations"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "In February 2026, the U.S. government granted us some export licenses authorizing us to ship our AMD Instinct MI325 products to certain China-based customers... any MI325 shipped under the licenses will be subject to a 25% tariff upon importation into the United States for the inspection.",
       "quote_section": "Part II Item 1A Risk Factors - Government actions and regulations"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-LITE-0001628280-26-030777",
@@ -358,7 +379,7 @@
     "date": "2026-05-06",
     "source": "SEC EDGAR (LITE)",
     "source_type": "filing",
-    "headline": "LITE files 10-Q: 10-Q",
+    "headline": "LITE files 10-Q: periodic report",
     "quote": "The increase in our Systems products was primarily driven by our cloud transceiver product lines which increased by more than $137.0 million due to higher shipment volume, partially offset by lower average selling prices. We also continued the initial phase of optical circuit switch shipments, which contributed more than $25.0 million in revenue during the three months ended March 28, 2026.",
     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030777/lite-20260328.htm",
     "layer_ids": [
@@ -378,15 +399,16 @@
         "Mgmt language hardened: 'demand is outpacing current supply which has required us to make decisions on supply allocation' (vs 'has led to' previous Q)"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "The increase in our Systems products was primarily driven by our cloud transceiver product lines which increased by more than $137.0 million due to higher shipment volume, partially offset by lower average selling prices. We also continued the initial phase of optical circuit switch shipments, which contributed more than $25.0 million in revenue during the three months ended March 28, 2026.",
       "quote_section": "Item 2 MD&A — Net Revenue"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-COHR-0000820318-26-000013",
@@ -395,7 +417,7 @@
     "date": "2026-05-06",
     "source": "SEC EDGAR (COHR)",
     "source_type": "filing",
-    "headline": "COHR files 10-Q: 10-Q",
+    "headline": "COHR files 10-Q: periodic report",
     "quote": "Revenue growth in our Datacenter business was fueled by continued strong AI datacenter demand, while our Communications business benefited from increased demand in data center interconnect, scale across and traditional telecom applications.",
     "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000013/iivi-20260331.htm",
     "layer_ids": [
@@ -415,15 +437,16 @@
         "Lower interest expense (-$13M Q3, -$39M YTD) on term-loan paydown plus $14M Q3 equity-investment gain boosted EPS"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "Revenue growth in our Datacenter business was fueled by continued strong AI datacenter demand, while our Communications business benefited from increased demand in data center interconnect, scale across and traditional telecom applications.",
       "quote_section": "Item 2 MD&A — Datacenter & Communications Segment"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-COHR-0001193125-26-208972",
@@ -432,7 +455,7 @@
     "date": "2026-05-06",
     "source": "SEC EDGAR (COHR)",
     "source_type": "filing",
-    "headline": "COHR files 8-K: 8-K",
+    "headline": "COHR files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526208972/d57080d8k.htm",
     "layer_ids": [
@@ -440,7 +463,8 @@
     ],
     "tickers": [
       "COHR"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-ANET-0001596532-26-000078",
@@ -449,7 +473,7 @@
     "date": "2026-05-06",
     "source": "SEC EDGAR (ANET)",
     "source_type": "filing",
-    "headline": "ANET files 10-Q: 10-Q",
+    "headline": "ANET files 10-Q: periodic report",
     "quote": "Given the timing and prioritization of customer orders and shipment patterns, as well as the timing and outcome of customer trials and contracts with acceptance periods, near term revenue trends may not be reflective of current demand levels and may benefit from demand/deployment plans that have been previously committed.",
     "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000078/anet-20260331.htm",
     "layer_ids": [
@@ -470,15 +494,16 @@
         "$413M committed inventory and capacity build-out for Santa Clara new building flagged as capex"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "No point guidance in 10-Q; mgmt warns near-term revenue may not reflect underlying demand because shipments run against previously committed deployment plans",
         "opex": null,
-        "notes": "No point guidance in 10-Q; mgmt warns near-term revenue may not reflect underlying demand because shipments run against previously committed deployment plans"
+        "period": null,
+        "revenue": null
       },
       "quote": "Given the timing and prioritization of customer orders and shipment patterns, as well as the timing and outcome of customer trials and contracts with acceptance periods, near term revenue trends may not be reflective of current demand levels and may benefit from demand/deployment plans that have been previously committed.",
       "quote_section": "Item 2 MD&A — Macroeconomic Update"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CAT-0000018230-26-000021",
@@ -487,7 +512,7 @@
     "date": "2026-05-06",
     "source": "SEC EDGAR (CAT)",
     "source_type": "filing",
-    "headline": "CAT files 10-Q: 10-Q",
+    "headline": "CAT files 10-Q: periodic report",
     "quote": "In Power & Energy, the 2026 outlook remains positive as robust backlog growth was driven by continued momentum in both Power Generation and Oil & Gas... We continue to see demand for prime power trend higher as data center customers look for alternative power solutions to keep pace with their growth.",
     "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000021/cat-20260331.htm",
     "layer_ids": [
@@ -507,15 +532,16 @@
         "Continues to see prime power demand from data center customers seeking alternative power solutions"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": "low double digit growth vs 2025",
         "gross_margin": null,
+        "notes": "Q2 2026: strong sales growth all three segments; tariff costs ~$700M Q2 and $2.2-2.4B FY26; restructuring $300-350M; capex ~$3.5B; tax rate ~23%",
         "opex": null,
-        "notes": "Q2 2026: strong sales growth all three segments; tariff costs ~$700M Q2 and $2.2-2.4B FY26; restructuring $300-350M; capex ~$3.5B; tax rate ~23%"
+        "period": "FY26",
+        "revenue": "low double digit growth vs 2025"
       },
       "quote": "In Power & Energy, the 2026 outlook remains positive as robust backlog growth was driven by continued momentum in both Power Generation and Oil & Gas... We continue to see demand for prime power trend higher as data center customers look for alternative power solutions to keep pace with their growth.",
       "quote_section": "Item 2 MD&A — Outlook for Key End Markets"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-LEU-0001628280-26-030891",
@@ -524,7 +550,7 @@
     "date": "2026-05-06",
     "source": "SEC EDGAR (LEU)",
     "source_type": "filing",
-    "headline": "LEU files 10-Q: 10-Q",
+    "headline": "LEU files 10-Q: periodic report",
     "quote": "In March 2026, Centrus announced that the Company is exploring a joint venture with Oklo Inc. focused on deconversion services for HALEU – which currently does not exist commercially. Activities under this contemplated joint venture would occur at Centrus' site in Piketon, Ohio, to be co-located with Centrus' enrichment operations and adjacent to Oklo's planned 1.2 GW power campus.",
     "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026030891/leu-20260331.htm",
     "layer_ids": [
@@ -545,15 +571,16 @@
         "Aug 2025 issued $805M 0% convertibles due 2032; redeemed all $74.3M of 8.25% notes March 2025"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "FY27 DOE budget proposal does not include funding for HALEU Operation Contract cascade; future operations depend on additional appropriations",
         "opex": null,
-        "notes": "FY27 DOE budget proposal does not include funding for HALEU Operation Contract cascade; future operations depend on additional appropriations"
+        "period": null,
+        "revenue": null
       },
       "quote": "In March 2026, Centrus announced that the Company is exploring a joint venture with Oklo Inc. focused on deconversion services for HALEU – which currently does not exist commercially. Activities under this contemplated joint venture would occur at Centrus' site in Piketon, Ohio, to be co-located with Centrus' enrichment operations and adjacent to Oklo's planned 1.2 GW power campus.",
       "quote_section": "Item 2 MD&A — Overview"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-AMD-0000002488-26-000072",
@@ -562,7 +589,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (AMD)",
     "source_type": "filing",
-    "headline": "AMD files 8-K: 8-K",
+    "headline": "AMD files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/amd-20260505.htm",
     "layer_ids": [
@@ -570,7 +597,8 @@
     ],
     "tickers": [
       "AMD"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-LITE-0001628280-26-030530",
@@ -579,7 +607,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (LITE)",
     "source_type": "filing",
-    "headline": "LITE files 8-K: 8-K",
+    "headline": "LITE files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite-20260505.htm",
     "layer_ids": [
@@ -587,7 +615,8 @@
     ],
     "tickers": [
       "LITE"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-FN-0001408710-26-000016",
@@ -596,7 +625,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (FN)",
     "source_type": "filing",
-    "headline": "FN files 10-Q: 10-Q",
+    "headline": "FN files 10-Q: periodic report",
     "quote": "The increase in Components products was primarily driven by the ramp of laser chip and laser assembly product shipments to support strong, broad-based demand across intra-data center, data center interconnect, and long-haul applications.",
     "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000016/fn-20260327.htm",
     "layer_ids": [
@@ -616,15 +645,16 @@
         "Operating cash flow $148.8M 6M FY26 (vs $199M prior) on inventory build for higher demand; capex up for Chonburi expansion + customer-specific assets"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "The increase in Components products was primarily driven by the ramp of laser chip and laser assembly product shipments to support strong, broad-based demand across intra-data center, data center interconnect, and long-haul applications.",
       "quote_section": "Item 2 MD&A — Revenues"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-ANET-0001596532-26-000074",
@@ -633,7 +663,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (ANET)",
     "source_type": "filing",
-    "headline": "ANET files 8-K: 8-K",
+    "headline": "ANET files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000074/anet-20260505.htm",
     "layer_ids": [
@@ -642,7 +672,8 @@
     ],
     "tickers": [
       "ANET"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-ETN-0001551182-26-000013",
@@ -651,7 +682,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (ETN)",
     "source_type": "filing",
-    "headline": "ETN files 10-Q: 10-Q",
+    "headline": "ETN files 10-Q: periodic report",
     "quote": "The increase in organic sales in the first quarter of 2026 was due to strength in data center, commercial & institutional, and machine OEM end-markets, partially offset by weakness in utility and industrial end-markets.",
     "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000013/etn-20260331.htm",
     "layer_ids": [
@@ -672,15 +703,16 @@
         "Data center remains primary demand driver across both electrical segments and added to Electrical Global commentary as machine OEM/residential growth"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "The increase in organic sales in the first quarter of 2026 was due to strength in data center, commercial & institutional, and machine OEM end-markets, partially offset by weakness in utility and industrial end-markets.",
       "quote_section": "Item 2 MD&A — Electrical Americas Segment"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-ETN-0001551182-26-000010",
@@ -689,7 +721,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (ETN)",
     "source_type": "filing",
-    "headline": "ETN files 8-K: 8-K",
+    "headline": "ETN files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm",
     "layer_ids": [
@@ -697,7 +729,8 @@
     ],
     "tickers": [
       "ETN"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-GNRC-0001437749-26-014882",
@@ -727,15 +760,16 @@
         "Gross margin 38.7% (vs 39.5%) — unfavorable mix offset by price realization beating cost inflation"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "Commercial & Industrial segment total sales increased approximately 28% to $510 million from $399 million in the prior year quarter... The core total sales growth for the segment was primarily driven by revenue from products sold to global data center customers, increased shipments to our domestic industrial distributor and rental channels, and higher sales of our controls solutions to the global power generation market.",
       "quote_section": "Item 2 MD&A — Segment Results"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CMI-0000026172-26-000016",
@@ -744,7 +778,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (CMI)",
     "source_type": "filing",
-    "headline": "CMI files 10-Q: 10-Q",
+    "headline": "CMI files 10-Q: periodic report",
     "quote": "Power Systems segment sales for the three months ended March 31, 2026, increased $307 million versus the comparable period in 2025, primarily due to increased power generation sales of $282 million resulting from higher demand in China and North America.",
     "url": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000016/cmi-20260331.htm",
     "layer_ids": [
@@ -763,15 +797,16 @@
         "Q1 EBITDA gain driven by higher volumes, operational leverage, lower net tariff costs, favorable pricing"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Maintains Power Systems strong demand outlook including power generation and industrial; medium/heavy duty truck demand expected weak in H1",
         "opex": null,
-        "notes": "Maintains Power Systems strong demand outlook including power generation and industrial; medium/heavy duty truck demand expected weak in H1"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "Power Systems segment sales for the three months ended March 31, 2026, increased $307 million versus the comparable period in 2025, primarily due to increased power generation sales of $282 million resulting from higher demand in China and North America.",
       "quote_section": "Item 2 MD&A — Power Systems Segment Results"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CMI-0000026172-26-000013",
@@ -780,7 +815,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (CMI)",
     "source_type": "filing",
-    "headline": "CMI files 8-K: 8-K",
+    "headline": "CMI files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000013/cmi-20260505.htm",
     "layer_ids": [
@@ -788,7 +823,8 @@
     ],
     "tickers": [
       "CMI"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-LEU-0001628280-26-030674",
@@ -797,7 +833,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (LEU)",
     "source_type": "filing",
-    "headline": "LEU files 8-K: 8-K",
+    "headline": "LEU files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026030674/leu-20260505.htm",
     "layer_ids": [
@@ -805,7 +841,8 @@
     ],
     "tickers": [
       "LEU"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-PLTR-0001321655-26-000028",
@@ -814,7 +851,7 @@
     "date": "2026-05-05",
     "source": "SEC EDGAR (PLTR)",
     "source_type": "filing",
-    "headline": "PLTR files 10-Q: 10-Q",
+    "headline": "PLTR files 10-Q: periodic report",
     "quote": "For the three months ended March 31, 2026, we generated $1.6 billion in revenue, reflecting a 85% growth rate from the three months ended March 31, 2025, when we generated $0.9 billion in revenue.",
     "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000028/pltr-20260331.htm",
     "layer_ids": [
@@ -835,15 +872,16 @@
         "No customer >10% of revenue Q1 26 or Q1 25 - improved diversification"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "No explicit guidance in 10-Q",
         "opex": null,
-        "notes": "No explicit guidance in 10-Q"
+        "period": null,
+        "revenue": null
       },
       "quote": "For the three months ended March 31, 2026, we generated $1.6 billion in revenue, reflecting a 85% growth rate from the three months ended March 31, 2025, when we generated $0.9 billion in revenue.",
       "quote_section": "Item 2 MD&A - Overview"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-FN-0001408710-26-000014",
@@ -852,7 +890,7 @@
     "date": "2026-05-04",
     "source": "SEC EDGAR (FN)",
     "source_type": "filing",
-    "headline": "FN files 8-K: 8-K",
+    "headline": "FN files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000014/fn-20260504.htm",
     "layer_ids": [
@@ -860,7 +898,8 @@
     ],
     "tickers": [
       "FN"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-PLTR-0001321655-26-000026",
@@ -869,7 +908,7 @@
     "date": "2026-05-04",
     "source": "SEC EDGAR (PLTR)",
     "source_type": "filing",
-    "headline": "PLTR files 8-K: 8-K",
+    "headline": "PLTR files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/pltr-20260504.htm",
     "layer_ids": [
@@ -877,7 +916,8 @@
     ],
     "tickers": [
       "PLTR"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-HUBB-0001628280-26-029110",
@@ -886,7 +926,7 @@
     "date": "2026-05-01",
     "source": "SEC EDGAR (HUBB)",
     "source_type": "filing",
-    "headline": "HUBB files 10-Q: 10-Q",
+    "headline": "HUBB files 10-Q: periodic report",
     "quote": "Net sales in the Electrical Solutions segment in the first quarter of 2026 were $567.8 million and increased by $59.7 million, or 11.8%, as compared to the first quarter of 2025... Volume growth in the first quarter of 2026 was driven primarily by strength in the datacenter and light industrial markets, partially offset by softness in the heavy industrial markets.",
     "url": "https://www.sec.gov/Archives/edgar/data/48898/000162828026029110/hubb-20260331.htm",
     "layer_ids": [
@@ -905,15 +945,16 @@
         "Overall adjusted operating margin +110bps in Q1"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "Net sales in the Electrical Solutions segment in the first quarter of 2026 were $567.8 million and increased by $59.7 million, or 11.8%, as compared to the first quarter of 2025... Volume growth in the first quarter of 2026 was driven primarily by strength in the datacenter and light industrial markets, partially offset by softness in the heavy industrial markets.",
       "quote_section": "Item 2 MD&A — Electrical Solutions Segment Results"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-NVT-0001628280-26-029370",
@@ -922,7 +963,7 @@
     "date": "2026-05-01",
     "source": "SEC EDGAR (NVT)",
     "source_type": "filing",
-    "headline": "NVT files 10-Q: 10-Q",
+    "headline": "NVT files 10-Q: periodic report",
     "quote": "The 76.1 percent increase in Systems Protection net sales in the first quarter of 2026 from 2025 was primarily the result of: organic sales growth contribution of approximately 46.0% from our infrastructure business... which includes selective increases in selling prices and growth in the data centers business.",
     "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026029370/nvt-20260331.htm",
     "layer_ids": [
@@ -943,15 +984,16 @@
         "Returned capital: Q1 buybacks per program plus dividend increase to $0.21/share announced Feb 16, 2026"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Expect data-center-driven megatrends to continue driving sales growth throughout 2026 and beyond",
         "opex": null,
-        "notes": "Expect data-center-driven megatrends to continue driving sales growth throughout 2026 and beyond"
+        "period": null,
+        "revenue": null
       },
       "quote": "The 76.1 percent increase in Systems Protection net sales in the first quarter of 2026 from 2025 was primarily the result of: organic sales growth contribution of approximately 46.0% from our infrastructure business... which includes selective increases in selling prices and growth in the data centers business.",
       "quote_section": "Item 2 MD&A - Segment Results"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-NVT-0001628280-26-029098",
@@ -960,7 +1002,7 @@
     "date": "2026-05-01",
     "source": "SEC EDGAR (NVT)",
     "source_type": "filing",
-    "headline": "NVT files 8-K: 8-K",
+    "headline": "NVT files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026029098/nvt-20260501.htm",
     "layer_ids": [
@@ -969,7 +1011,8 @@
     ],
     "tickers": [
       "NVT"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-CDNS-0000813672-26-000047",
@@ -978,7 +1021,7 @@
     "date": "2026-05-01",
     "source": "SEC EDGAR (CDNS)",
     "source_type": "filing",
-    "headline": "CDNS files 10-Q: 10-Q",
+    "headline": "CDNS files 10-Q: periodic report",
     "quote": "Contracted but unsatisfied performance obligations were $8.0 billion as of March 31, 2026, which included $0.7 billion of non-cancelable commitments from customers where actual product selection and quantities of specific products or services are to be determined by customers at a later date.",
     "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000047/cdns-20260331.htm",
     "layer_ids": [
@@ -998,15 +1041,16 @@
         "Geographic growth broad: Other Americas +87%, Japan +36%, Other Asia +23%, EMEA +23%, US only +6%"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "Contracted but unsatisfied performance obligations were $8.0 billion as of March 31, 2026, which included $0.7 billion of non-cancelable commitments from customers where actual product selection and quantities of specific products or services are to be determined by customers at a later date.",
       "quote_section": "Note 3 Revenue - Remaining Performance Obligations"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "eaton-q1-2026",
@@ -1021,7 +1065,8 @@
     ],
     "tickers": [
       "ETN"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "amazon-capex-200b",
@@ -1036,7 +1081,8 @@
     ],
     "tickers": [
       "AMZN"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-b83178c2062076d7",
@@ -1049,7 +1095,8 @@
     "layer_ids": [
       "gpu"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "edgar-KLAC-0000319201-26-000016",
@@ -1058,7 +1105,7 @@
     "date": "2026-04-30",
     "source": "SEC EDGAR (KLAC)",
     "source_type": "filing",
-    "headline": "KLAC files 10-Q: 10-Q",
+    "headline": "KLAC files 10-Q: periodic report",
     "quote": "Total revenues increased 11% in the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily due to the increase in product revenues, and is attributable to higher investments from our memory customers, particularly in DRAM, led by high-bandwidth memory, and steady growth in foundry/logic.",
     "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/klac-20260331.htm",
     "layer_ids": [
@@ -1079,15 +1126,16 @@
         "Q3 FY26 capital returns: $626M repurchases + $249M dividends; $7B add to repurchase authorization ($10.31B remaining); 17th consecutive annual dividend increase to $2.30/share/qtr"
       ],
       "guidance": {
-        "period": "CY2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Continued revenue growth expected in CY2026 but escalating DRAM chip costs for image computers will continue to negatively impact gross margin, though expected to be transitory",
         "opex": null,
-        "notes": "Continued revenue growth expected in CY2026 but escalating DRAM chip costs for image computers will continue to negatively impact gross margin, though expected to be transitory"
+        "period": "CY2026",
+        "revenue": null
       },
       "quote": "Total revenues increased 11% in the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily due to the increase in product revenues, and is attributable to higher investments from our memory customers, particularly in DRAM, led by high-bandwidth memory, and steady growth in foundry/logic.",
       "quote_section": "Item 2 MD&A — Revenues and Gross Margin"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-GOOGL-0001652044-26-000048",
@@ -1096,7 +1144,7 @@
     "date": "2026-04-30",
     "source": "SEC EDGAR (GOOGL)",
     "source_type": "filing",
-    "headline": "GOOGL files 10-Q: 10-Q",
+    "headline": "GOOGL files 10-Q: periodic report",
     "quote": "Google Cloud has entered into a limited number of agreements to supply multiple gigawatts of TPU hardware to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. Revenues for these transactions are included in our backlog as of March 31, 2026.",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm",
     "layer_ids": [
@@ -1118,15 +1166,16 @@
         "Issued $31.1B senior unsecured notes Q1; $16B funded into Waymo Feb 2026"
       ],
       "guidance": {
-        "period": "FY 2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "No explicit quarterly revenue guidance; reiterated capex 'significantly increase' from $91.4B in 2025",
         "opex": null,
-        "notes": "No explicit quarterly revenue guidance; reiterated capex 'significantly increase' from $91.4B in 2025"
+        "period": "FY 2026",
+        "revenue": null
       },
       "quote": "Google Cloud has entered into a limited number of agreements to supply multiple gigawatts of TPU hardware to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. Revenues for these transactions are included in our backlog as of March 31, 2026.",
       "quote_section": "Item 2 MD&A - Other Information"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-HUBB-0001628280-26-028600",
@@ -1135,7 +1184,7 @@
     "date": "2026-04-30",
     "source": "SEC EDGAR (HUBB)",
     "source_type": "filing",
-    "headline": "HUBB files 8-K: 8-K",
+    "headline": "HUBB files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/48898/000162828026028600/hubb-20260430.htm",
     "layer_ids": [
@@ -1143,7 +1192,8 @@
     ],
     "tickers": [
       "HUBB"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-PWR-0001050915-26-000016",
@@ -1152,7 +1202,7 @@
     "date": "2026-04-30",
     "source": "SEC EDGAR (PWR)",
     "source_type": "filing",
-    "headline": "PWR files 10-Q: 10-Q",
+    "headline": "PWR files 10-Q: periodic report",
     "quote": "We expect the strong demand for our services will continue. Our remaining performance obligations and backlog were $26.24 billion and $48.47 billion as of March 31, 2026, representing increases of 10.4% and 10.2% relative to December 31, 2025.",
     "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000016/pwr-20260331.htm",
     "layer_ids": [
@@ -1172,15 +1222,16 @@
         "Q1 SG&A +$127M driven by $62M compensation and $51M from recent acquisitions"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "We expect the strong demand for our services will continue. Our remaining performance obligations and backlog were $26.24 billion and $48.47 billion as of March 31, 2026, representing increases of 10.4% and 10.2% relative to December 31, 2025.",
       "quote_section": "Item 2 MD&A — Overview"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-PWR-0001193125-26-193918",
@@ -1189,7 +1240,7 @@
     "date": "2026-04-30",
     "source": "SEC EDGAR (PWR)",
     "source_type": "filing",
-    "headline": "PWR files 8-K: 8-K",
+    "headline": "PWR files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526193918/d107542d8k.htm",
     "layer_ids": [
@@ -1197,7 +1248,26 @@
     ],
     "tickers": [
       "PWR"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CAT-0000018230-26-000017",
+    "accession": "0000018230-26-000017",
+    "form": "8-K",
+    "date": "2026-04-30",
+    "source": "SEC EDGAR (CAT)",
+    "source_type": "filing",
+    "headline": "CAT files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000017/cat-20260430.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CAT"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-META-0001628280-26-028526",
@@ -1206,7 +1276,7 @@
     "date": "2026-04-30",
     "source": "SEC EDGAR (META)",
     "source_type": "filing",
-    "headline": "META files 10-Q: 10-Q",
+    "headline": "META files 10-Q: periodic report",
     "quote": "We anticipate making capital expenditures of approximately $125 billion to $145 billion in 2026 to support our AI efforts and core business.",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028526/meta-20260331.htm",
     "layer_ids": [
@@ -1227,15 +1297,16 @@
         "Operating cash flow $32.2B for Q1"
       ],
       "guidance": {
-        "period": "FY 2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "FY26 capex raised to $125-145B (prev $115-135B); FY26 RL operating losses similar to 2025's $19.2B",
         "opex": null,
-        "notes": "FY26 capex raised to $125-145B (prev $115-135B); FY26 RL operating losses similar to 2025's $19.2B"
+        "period": "FY 2026",
+        "revenue": null
       },
       "quote": "We anticipate making capital expenditures of approximately $125 billion to $145 billion in 2026 to support our AI efforts and core business.",
       "quote_section": "Item 2 MD&A - Liquidity and Capital Resources"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-AMZN-0001018724-26-000014",
@@ -1244,7 +1315,7 @@
     "date": "2026-04-30",
     "source": "SEC EDGAR (AMZN)",
     "source_type": "filing",
-    "headline": "AMZN files 10-Q: 10-Q",
+    "headline": "AMZN files 10-Q: periodic report",
     "quote": "In Q1 2026, AWS and OpenAI Group PBC (\"OpenAI\") announced an expansion of the existing $38.0 billion multi-year commitment and commercial arrangement with OpenAI by $100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips.",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
     "layer_ids": [
@@ -1264,15 +1335,16 @@
         "Subsequent to Q1: $5B more in Anthropic preferred + $20B financing facility for Anthropic compute draws"
       ],
       "guidance": {
-        "period": "FY 2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Capex expected to increase in 2026 for AWS infrastructure and fulfillment",
         "opex": null,
-        "notes": "Capex expected to increase in 2026 for AWS infrastructure and fulfillment"
+        "period": "FY 2026",
+        "revenue": null
       },
       "quote": "In Q1 2026, AWS and OpenAI Group PBC (\"OpenAI\") announced an expansion of the existing $38.0 billion multi-year commitment and commercial arrangement with OpenAI by $100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips.",
       "quote_section": "Notes to Consolidated Financial Statements - Revenue"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "vertiv-q1-2026",
@@ -1288,7 +1360,8 @@
     ],
     "tickers": [
       "VRT"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "meta-capex-145b",
@@ -1303,7 +1376,8 @@
     ],
     "tickers": [
       "META"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-KLAC-0000319201-26-000014",
@@ -1312,7 +1386,7 @@
     "date": "2026-04-29",
     "source": "SEC EDGAR (KLAC)",
     "source_type": "filing",
-    "headline": "KLAC files 8-K: 8-K",
+    "headline": "KLAC files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000014/klac-20260429.htm",
     "layer_ids": [
@@ -1320,7 +1394,8 @@
     ],
     "tickers": [
       "KLAC"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-GOOGL-0001652044-26-000043",
@@ -1329,7 +1404,7 @@
     "date": "2026-04-29",
     "source": "SEC EDGAR (GOOGL)",
     "source_type": "filing",
-    "headline": "GOOGL files 8-K: 8-K",
+    "headline": "GOOGL files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/goog-20260429.htm",
     "layer_ids": [
@@ -1338,7 +1413,26 @@
     ],
     "tickers": [
       "GOOGL"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-GNRC-0001437749-26-013726",
+    "accession": "0001437749-26-013726",
+    "form": "8-K",
+    "date": "2026-04-29",
+    "source": "SEC EDGAR (GNRC)",
+    "source_type": "filing",
+    "headline": "GNRC files 8-K: FORM 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926013726/gnrc20260428_8k.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "GNRC"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-MSFT-0001193125-26-191507",
@@ -1347,7 +1441,7 @@
     "date": "2026-04-29",
     "source": "SEC EDGAR (MSFT)",
     "source_type": "filing",
-    "headline": "MSFT files 10-Q: 10-Q",
+    "headline": "MSFT files 10-Q: periodic report",
     "quote": "Microsoft Cloud revenue increased 29% to $54.5 billion... Commercial remaining performance obligation increased 99% to $627 billion... Azure and other cloud services revenue increased 40%.",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
     "layer_ids": [
@@ -1368,15 +1462,16 @@
         "M365 Consumer cloud +33%, Dynamics 365 +22%, LinkedIn +12%"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Capital expenditures will continue to support cloud and AI growth",
         "opex": null,
-        "notes": "Capital expenditures will continue to support cloud and AI growth"
+        "period": null,
+        "revenue": null
       },
       "quote": "Microsoft Cloud revenue increased 29% to $54.5 billion... Commercial remaining performance obligation increased 99% to $627 billion... Azure and other cloud services revenue increased 40%.",
       "quote_section": "Item 2 MD&A - Highlights"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MSFT-0001193125-26-191457",
@@ -1385,7 +1480,7 @@
     "date": "2026-04-29",
     "source": "SEC EDGAR (MSFT)",
     "source_type": "filing",
-    "headline": "MSFT files 8-K: 8-K",
+    "headline": "MSFT files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm",
     "layer_ids": [
@@ -1393,7 +1488,8 @@
     ],
     "tickers": [
       "MSFT"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-META-0001628280-26-028364",
@@ -1402,7 +1498,7 @@
     "date": "2026-04-29",
     "source": "SEC EDGAR (META)",
     "source_type": "filing",
-    "headline": "META files 8-K: 8-K",
+    "headline": "META files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-20260429.htm",
     "layer_ids": [
@@ -1410,7 +1506,8 @@
     ],
     "tickers": [
       "META"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-AMZN-0001018724-26-000012",
@@ -1419,7 +1516,7 @@
     "date": "2026-04-29",
     "source": "SEC EDGAR (AMZN)",
     "source_type": "filing",
-    "headline": "AMZN files 8-K: 8-K",
+    "headline": "AMZN files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260429.htm",
     "layer_ids": [
@@ -1427,7 +1524,8 @@
     ],
     "tickers": [
       "AMZN"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "msft-capex-memory",
@@ -1445,7 +1543,8 @@
       "MSFT",
       "MU",
       "000660.KS"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-AMKR-0001047127-26-000020",
@@ -1454,7 +1553,7 @@
     "date": "2026-04-28",
     "source": "SEC EDGAR (AMKR)",
     "source_type": "filing",
-    "headline": "AMKR files 10-Q: 10-Q",
+    "headline": "AMKR files 10-Q: periodic report",
     "quote": "The communications and automotive and industrial end markets grew 42% and 28%, respectively, for the three months ended March 31, 2026 compared to 2025... The computing and consumer end markets grew 19% and 4%, respectively, primarily driven by strength in datacenter and traditional consumer products.",
     "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000020/amkr-20260331.htm",
     "layer_ids": [
@@ -1474,15 +1573,16 @@
         "Computing end-market growth attributed to datacenter strength (read: HBM/2.5D/HPC packaging)"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "2026 capex guidance $2.5B-$3.0B reaffirmed, up from $904.6M in 2025, primarily for Arizona Facility construction",
         "opex": null,
-        "notes": "2026 capex guidance $2.5B-$3.0B reaffirmed, up from $904.6M in 2025, primarily for Arizona Facility construction"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "The communications and automotive and industrial end markets grew 42% and 28%, respectively, for the three months ended March 31, 2026 compared to 2025... The computing and consumer end markets grew 19% and 4%, respectively, primarily driven by strength in datacenter and traditional consumer products.",
       "quote_section": "Item 2 MD&A — Net Sales"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-AMKR-0001047127-26-000017",
@@ -1491,7 +1591,7 @@
     "date": "2026-04-27",
     "source": "SEC EDGAR (AMKR)",
     "source_type": "filing",
-    "headline": "AMKR files 8-K: 8-K",
+    "headline": "AMKR files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000017/amkr-20260427.htm",
     "layer_ids": [
@@ -1499,7 +1599,8 @@
     ],
     "tickers": [
       "AMKR"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-CLS-0001030894-26-000032",
@@ -1508,7 +1609,7 @@
     "date": "2026-04-27",
     "source": "SEC EDGAR (CLS)",
     "source_type": "filing",
-    "headline": "CLS files 10-Q: 10-Q",
+    "headline": "CLS files 10-Q: periodic report",
     "quote": "HPS revenue for Q1 2026 increased 63% to approximately $1.7 billion compared to Q1 2025, and accounted for 42% of our total Q1 2026 revenue ... driven by strong demand of our networking switch programs with hyperscaler customers.",
     "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000032/cls-20260331.htm",
     "layer_ids": [
@@ -1529,15 +1630,16 @@
         "Capex in CCS for AI/ML and HPS programs (Thailand, US, Mexico, Japan expansions); 5.5M shares remain in NCIB"
       ],
       "guidance": {
-        "period": "Q1 FY26 (actual vs prior guide)",
-        "revenue": "$4.047B actual vs $3.85-4.15B guided",
         "gross_margin": null,
+        "notes": "Annual 2026 outlook updated in 4/27/26 earnings release (referenced but not incorporated into 10-Q); adjusted operating margin 8.0% vs 7.8% guide mid-point",
         "opex": null,
-        "notes": "Annual 2026 outlook updated in 4/27/26 earnings release (referenced but not incorporated into 10-Q); adjusted operating margin 8.0% vs 7.8% guide mid-point"
+        "period": "Q1 FY26 (actual vs prior guide)",
+        "revenue": "$4.047B actual vs $3.85-4.15B guided"
       },
       "quote": "HPS revenue for Q1 2026 increased 63% to approximately $1.7 billion compared to Q1 2025, and accounted for 42% of our total Q1 2026 revenue ... driven by strong demand of our networking switch programs with hyperscaler customers.",
       "quote_section": "Item 2 MD&A — Operating Results"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CLS-0001030894-26-000030",
@@ -1546,7 +1648,7 @@
     "date": "2026-04-27",
     "source": "SEC EDGAR (CLS)",
     "source_type": "filing",
-    "headline": "CLS files 8-K: 8-K",
+    "headline": "CLS files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000030/cls-20260427.htm",
     "layer_ids": [
@@ -1554,7 +1656,26 @@
     ],
     "tickers": [
       "CLS"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CDNS-0000813672-26-000044",
+    "accession": "0000813672-26-000044",
+    "form": "8-K",
+    "date": "2026-04-27",
+    "source": "SEC EDGAR (CDNS)",
+    "source_type": "filing",
+    "headline": "CDNS files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000044/cdns-20260427.htm",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [
+      "CDNS"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-INTC-0000050863-26-000079",
@@ -1563,7 +1684,7 @@
     "date": "2026-04-24",
     "source": "SEC EDGAR (INTC)",
     "source_type": "filing",
-    "headline": "INTC files 10-Q: 10-Q",
+    "headline": "INTC files 10-Q: periodic report",
     "quote": "Market demand exceeded our available product supply in Q1 2026 due to internal and external supply constraints, limiting our ability to fully meet customer demand. We expect these supply constraints to persist at least through the first half of 2026.",
     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/intc-20260328.htm",
     "layer_ids": [
@@ -1584,15 +1705,16 @@
         "Apollo Ireland SCIP equity buyout completes Q2 2026; supply constraints (substrates, memory, other components) expected to persist throughout 2026"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Supply constraints expected to persist throughout 2026 with most severe in H1 2026; industry-wide shortages of substrates and memory may further limit Intel's ability to meet demand",
         "opex": null,
-        "notes": "Supply constraints expected to persist throughout 2026 with most severe in H1 2026; industry-wide shortages of substrates and memory may further limit Intel's ability to meet demand"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "Market demand exceeded our available product supply in Q1 2026 due to internal and external supply constraints, limiting our ability to fully meet customer demand. We expect these supply constraints to persist at least through the first half of 2026.",
       "quote_section": "Item 2 MD&A — Operating Segment Revenue Summary"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "google-capex-q1",
@@ -1607,7 +1729,8 @@
     ],
     "tickers": [
       "GOOGL"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-INTC-0000050863-26-000077",
@@ -1616,7 +1739,7 @@
     "date": "2026-04-23",
     "source": "SEC EDGAR (INTC)",
     "source_type": "filing",
-    "headline": "INTC files 8-K: 8-K",
+    "headline": "INTC files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/intc-20260423.htm",
     "layer_ids": [
@@ -1625,7 +1748,8 @@
     ],
     "tickers": [
       "INTC"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-LRCX-0000707549-26-000022",
@@ -1634,7 +1758,7 @@
     "date": "2026-04-23",
     "source": "SEC EDGAR (LRCX)",
     "source_type": "filing",
-    "headline": "LRCX files 10-Q: 10-Q",
+    "headline": "LRCX files 10-Q: periodic report",
     "quote": "In the March 2026 quarter, revenue increased 9% compared to the three months ended December 28, 2025... driven by an increase in systems revenue primarily resulting from increased customer investments in the DRAM market segment as well as an increase in customer support-related revenue mainly tied to our expanding installed base.",
     "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/lrcx-20260329.htm",
     "layer_ids": [
@@ -1654,15 +1778,16 @@
         "Capital returns Q3: $1.16B repurchases + $326M dividends + $751M debt paydown; cash dropped to $4.77B from $6.20B"
       ],
       "guidance": {
-        "period": "CY2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Mgmt expects continued WFE growth in CY2026 with AI driving higher semi industry spending across both memory and non-memory; trade restrictions/tariffs continue as near-term negative factor",
         "opex": null,
-        "notes": "Mgmt expects continued WFE growth in CY2026 with AI driving higher semi industry spending across both memory and non-memory; trade restrictions/tariffs continue as near-term negative factor"
+        "period": "CY2026",
+        "revenue": null
       },
       "quote": "In the March 2026 quarter, revenue increased 9% compared to the three months ended December 28, 2025... driven by an increase in systems revenue primarily resulting from increased customer investments in the DRAM market segment as well as an increase in customer support-related revenue mainly tied to our expanding installed base.",
       "quote_section": "Item 2 MD&A — Executive Summary"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MXL-0001288469-26-000029",
@@ -1671,7 +1796,7 @@
     "date": "2026-04-23",
     "source": "SEC EDGAR (MXL)",
     "source_type": "filing",
-    "headline": "MXL files 10-Q: 10-Q",
+    "headline": "MXL files 10-Q: periodic report",
     "quote": "The increase in infrastructure net revenue of $36.3 million was driven by increases in the volume of shipments of high-performance analog products, optical and wireless backhaul and access products.",
     "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000029/mxl-20260331.htm",
     "layer_ids": [
@@ -1692,15 +1817,16 @@
         "Mgmt frames AI/ML and 1.6T-cycle optical DSPs as next-leg infrastructure opportunity but does not break out hyperscale optical DSP revenue separately"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "The increase in infrastructure net revenue of $36.3 million was driven by increases in the volume of shipments of high-performance analog products, optical and wireless backhaul and access products.",
       "quote_section": "Item 2 MD&A — Net Revenue"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MXL-0001288469-26-000027",
@@ -1709,7 +1835,7 @@
     "date": "2026-04-23",
     "source": "SEC EDGAR (MXL)",
     "source_type": "filing",
-    "headline": "MXL files 8-K: 8-K",
+    "headline": "MXL files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000027/mxl-20260422.htm",
     "layer_ids": [
@@ -1717,7 +1843,8 @@
     ],
     "tickers": [
       "MXL"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-NOW-0001373715-26-000056",
@@ -1726,7 +1853,7 @@
     "date": "2026-04-23",
     "source": "SEC EDGAR (NOW)",
     "source_type": "filing",
-    "headline": "NOW files 10-Q: 10-Q",
+    "headline": "NOW files 10-Q: periodic report",
     "quote": "As of March 31, 2026, our RPO was $27.7 billion, of which 46% represented cRPO. RPO and cRPO increased by 25% and 23%, respectively, compared to March 31, 2025.",
     "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000056/now-20260331.htm",
     "layer_ids": [
@@ -1746,15 +1873,16 @@
         "Mgmt reiterates FY26 expectation of subscription revenue increasing in absolute dollars; FX assumption based on Mar 31 2026 rates"
       ],
       "guidance": {
-        "period": "FY 2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "FY26 subscription revenue to increase in absolute dollars; remain ~flat as % of total revenue",
         "opex": null,
-        "notes": "FY26 subscription revenue to increase in absolute dollars; remain ~flat as % of total revenue"
+        "period": "FY 2026",
+        "revenue": null
       },
       "quote": "As of March 31, 2026, our RPO was $27.7 billion, of which 46% represented cRPO. RPO and cRPO increased by 25% and 23%, respectively, compared to March 31, 2025.",
       "quote_section": "Item 2 MD&A - Key Business Metrics"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "skhynix-q1-2026",
@@ -1769,7 +1897,8 @@
     ],
     "tickers": [
       "000660.KS"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-LRCX-0000707549-26-000020",
@@ -1778,7 +1907,7 @@
     "date": "2026-04-22",
     "source": "SEC EDGAR (LRCX)",
     "source_type": "filing",
-    "headline": "LRCX files 8-K: 8-K",
+    "headline": "LRCX files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000020/lrcx-20260422.htm",
     "layer_ids": [
@@ -1786,7 +1915,8 @@
     ],
     "tickers": [
       "LRCX"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-GEV-0001996810-26-000064",
@@ -1795,7 +1925,7 @@
     "date": "2026-04-22",
     "source": "SEC EDGAR (GEV)",
     "source_type": "filing",
-    "headline": "GEV files 10-Q: 10-Q",
+    "headline": "GEV files 10-Q: periodic report",
     "quote": "RPO increased $39.8 billion (32%) from March 31, 2025, primarily at Power, due to increases at Gas Power equipment and services, and increases at Nuclear Power services and equipment; at Electrification, due to the acquisition of Prolec GE and demand for switchgear and transformers at Power Transmission...",
     "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000064/gev-20260331.htm",
     "layer_ids": [
@@ -1815,15 +1945,16 @@
         "Gas Power Q1 revenue $4.07B (+13%); HA-Turbines sales 5 units (flat YoY), heavy-duty 15 vs 12"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "RPO increased $39.8 billion (32%) from March 31, 2025, primarily at Power, due to increases at Gas Power equipment and services, and increases at Nuclear Power services and equipment; at Electrification, due to the acquisition of Prolec GE and demand for switchgear and transformers at Power Transmission...",
       "quote_section": "Item 2 MD&A — Results of Operations"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-GEV-0001996810-26-000063",
@@ -1832,7 +1963,7 @@
     "date": "2026-04-22",
     "source": "SEC EDGAR (GEV)",
     "source_type": "filing",
-    "headline": "GEV files 8-K: 8-K",
+    "headline": "GEV files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000063/gev-20260422.htm",
     "layer_ids": [
@@ -1840,7 +1971,8 @@
     ],
     "tickers": [
       "GEV"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-VRT-0001628280-26-026556",
@@ -1849,7 +1981,7 @@
     "date": "2026-04-22",
     "source": "SEC EDGAR (VRT)",
     "source_type": "filing",
-    "headline": "VRT files 10-Q: 10-Q",
+    "headline": "VRT files 10-Q: periodic report",
     "quote": "We continue to see very robust growth in demand for data centers supporting artificial intelligence (\"AI\") and high-performance compute applications and have strategically invested in expanding our global capacity in response to current and anticipated customer demand across key infrastructure segments.",
     "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026556/vrt-20260331.htm",
     "layer_ids": [
@@ -1870,15 +2002,16 @@
         "Net income $390.1M (+137%); mgmt cites 'very robust' AI/HPC demand and hybrid air-and-liquid + HVDC architectures as drivers"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "FY26 capital expenditures (incl. capitalized software) reaffirmed at $425-525M to support capacity expansion; FY26 lease payment obligations ~$93M",
         "opex": null,
-        "notes": "FY26 capital expenditures (incl. capitalized software) reaffirmed at $425-525M to support capacity expansion; FY26 lease payment obligations ~$93M"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "We continue to see very robust growth in demand for data centers supporting artificial intelligence (\"AI\") and high-performance compute applications and have strategically invested in expanding our global capacity in response to current and anticipated customer demand across key infrastructure segments.",
       "quote_section": "Item 2 MD&A - Outlook and Trends"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-VRT-0001628280-26-026379",
@@ -1887,7 +2020,7 @@
     "date": "2026-04-22",
     "source": "SEC EDGAR (VRT)",
     "source_type": "filing",
-    "headline": "VRT files 8-K: 8-K",
+    "headline": "VRT files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026379/vrt-20260422.htm",
     "layer_ids": [
@@ -1896,7 +2029,8 @@
     ],
     "tickers": [
       "VRT"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-NOW-0001373715-26-000054",
@@ -1905,7 +2039,7 @@
     "date": "2026-04-22",
     "source": "SEC EDGAR (NOW)",
     "source_type": "filing",
-    "headline": "NOW files 8-K: 8-K",
+    "headline": "NOW files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000054/now-20260417.htm",
     "layer_ids": [
@@ -1913,7 +2047,8 @@
     ],
     "tickers": [
       "NOW"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "gev-turbines-2028",
@@ -1928,7 +2063,8 @@
     ],
     "tickers": [
       "GEV"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "tsmc-q1-2026",
@@ -1944,7 +2080,8 @@
     ],
     "tickers": [
       "TSM"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-e388dfe4357d67d4",
@@ -1957,7 +2094,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-8656316dfbd9640a",
@@ -1970,7 +2108,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-069250540364161e",
@@ -1984,7 +2123,8 @@
       "hyperscalers",
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-fb167ebe246eb3d0",
@@ -1997,7 +2137,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-aec286bbf8c7ce62",
@@ -2015,7 +2156,8 @@
       "000660.KS",
       "005930.KS",
       "NOW"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-6faaff0b22243e19",
@@ -2031,7 +2173,8 @@
     ],
     "tickers": [
       "META"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-a14f0a8b1e7ca8a8",
@@ -2044,7 +2187,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-5e4b3181b325880a",
@@ -2061,7 +2205,8 @@
     "tickers": [
       "ASML",
       "NOW"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-e3b34006daff61dd",
@@ -2074,7 +2219,8 @@
     "layer_ids": [
       "hbm"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-78f174f9a77f36fb",
@@ -2087,7 +2233,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-8e202bfa0e39366d",
@@ -2103,7 +2250,8 @@
     ],
     "tickers": [
       "000660.KS"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-348f75562d61ce88",
@@ -2116,7 +2264,8 @@
     "layer_ids": [
       "optics"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-27fe70dc935bfb82",
@@ -2129,7 +2278,8 @@
     "layer_ids": [
       "foundry"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-d63337b2b9ddcf47",
@@ -2145,7 +2295,8 @@
     ],
     "tickers": [
       "005930.KS"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "tsmc-copos-pilot",
@@ -2160,7 +2311,8 @@
     ],
     "tickers": [
       "TSM"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "skhynix-hbm4-shift",
@@ -2177,7 +2329,8 @@
     "tickers": [
       "000660.KS",
       "NVDA"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rubin-slip",
@@ -2192,7 +2345,8 @@
     ],
     "tickers": [
       "NVDA"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-SNOW-0001640147-26-000008",
@@ -2201,7 +2355,7 @@
     "date": "2026-03-20",
     "source": "SEC EDGAR (SNOW)",
     "source_type": "filing",
-    "headline": "SNOW files 10-K: 10-K",
+    "headline": "SNOW files 10-K: periodic report",
     "quote": "As of January 31, 2026, our remaining performance obligations were approximately $9.8 billion, of which we expect approximately 46% to be recognized as revenue in the 12 months ending January 31, 2027 based on historical customer consumption patterns.",
     "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/snow-20260131.htm",
     "layer_ids": [
@@ -2222,15 +2376,16 @@
         "Operating cash flow $1.2B for FY26; deferred revenue +$755M; began ASC 985-20 self-hosted accounting for public sector"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "10-K provides no explicit guidance; expects NRR to decline long-term as install base matures",
         "opex": null,
-        "notes": "10-K provides no explicit guidance; expects NRR to decline long-term as install base matures"
+        "period": null,
+        "revenue": null
       },
       "quote": "As of January 31, 2026, our remaining performance obligations were approximately $9.8 billion, of which we expect approximately 46% to be recognized as revenue in the 12 months ending January 31, 2027 based on historical customer consumption patterns.",
       "quote_section": "Item 7 MD&A - Key Business Metrics"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MU-0000723125-26-000006",
@@ -2239,7 +2394,7 @@
     "date": "2026-03-19",
     "source": "SEC EDGAR (MU)",
     "source_type": "filing",
-    "headline": "MU files 10-Q: 10-Q",
+    "headline": "MU files 10-Q: periodic report",
     "quote": "Sales of DRAM products increased 207%, primarily due to a mid-110% range increase in average selling prices and a mid-40% range increase in bit shipments. Sales of NAND products increased 169%, primarily due to a slightly more than 100% increase in average selling prices.",
     "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm",
     "layer_ids": [
@@ -2259,15 +2414,16 @@
         "Effective tax rate rose to 13.7% from prior periods due to Singapore Pillar Two implementation"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Industry supply allocation decisions continue to impact certain customers as memory/storage demand exceeds overall industry supply",
         "opex": null,
-        "notes": "Industry supply allocation decisions continue to impact certain customers as memory/storage demand exceeds overall industry supply"
+        "period": null,
+        "revenue": null
       },
       "quote": "Sales of DRAM products increased 207%, primarily due to a mid-110% range increase in average selling prices and a mid-40% range increase in bit shipments. Sales of NAND products increased 169%, primarily due to a slightly more than 100% increase in average selling prices.",
       "quote_section": "Item 2 MD&A — Total Revenue"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MU-0000723125-26-000004",
@@ -2276,15 +2432,36 @@
     "date": "2026-03-18",
     "source": "SEC EDGAR (MU)",
     "source_type": "filing",
-    "headline": "MU files 8-K: 8-K",
-    "quote": "",
+    "headline": "MU files 8-K: Earnings release",
+    "quote": "Micron set new records across revenue, gross margin, EPS, and free cash flow in fiscal Q2, driven by a strong demand environment, tight industry supply, and our strong execution, and we expect significant records again in fiscal Q3.",
     "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000004/mu-20260318.htm",
     "layer_ids": [
       "hbm"
     ],
     "tickers": [
       "MU"
-    ]
+    ],
+    "summary": {
+      "tldr": "Q2 FY26 blowout: revenue $23.86B (+196% YoY, +75% QoQ) crushed the $18.7B guide by 28%; non-GAAP EPS $12.20 vs $8.42 guide; Q3 guides to $33.5B and ~81% GM with EPS $19.15.",
+      "takeaways": [
+        "Q2 FY26 reported: revenue $23.86B (+196% YoY, +75% QoQ) — beat Q2 guide of $18.7B by 28%; non-GAAP GM 74.9% (vs 68% guide), non-GAAP EPS $12.20 (vs $8.42 guide, +45% beat)",
+        "DRAM ASPs +mid-110% YoY / +mid-60% QoQ; NAND ASPs +100%+ YoY / +high-70% QoQ — AI-driven supply shortage drove memory pricing higher",
+        "CMBU revenue $7.75B at 66% op margin; CDBU $5.69B at 67%; MCBU $7.71B at 76%; AEBU $2.71B at 62% — every BU at record op margin",
+        "Q3 FY26 guidance: revenue $33.5B ± $750M (+40% QoQ implied), non-GAAP GM ~81%, non-GAAP opex ~$1.40B, non-GAAP EPS $19.15 ± $0.40",
+        "Dividend raised 30% to $0.15/share — first hike in years; signals management confidence cycle isn't immediately rolling",
+        "Ending cash/investments $16.7B (+$4.7B QoQ); operating cash flow $11.9B; adjusted FCF $6.9B"
+      ],
+      "guidance": {
+        "gross_margin": "~81% (non-GAAP)",
+        "notes": "Diluted EPS $19.15 ± $0.40 non-GAAP ($18.90 ± $0.40 GAAP); dividend raised 30%; CEO: 'we expect significant records again in fiscal Q3'",
+        "opex": "~$1.40B (non-GAAP)",
+        "period": "Q3 FY26",
+        "revenue": "$33.5B ± $750M"
+      },
+      "quote": "Micron set new records across revenue, gross margin, EPS, and free cash flow in fiscal Q2, driven by a strong demand environment, tight industry supply, and our strong execution, and we expect significant records again in fiscal Q3.",
+      "quote_section": "Q2 FY26 earnings release (CEO Sanjay Mehrotra)"
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-OKLO-0001628280-26-018698",
@@ -2293,7 +2470,7 @@
     "date": "2026-03-17",
     "source": "SEC EDGAR (OKLO)",
     "source_type": "filing",
-    "headline": "OKLO files 10-K: 10-K",
+    "headline": "OKLO files 10-K: periodic report",
     "quote": "On January 5, 2026, we entered into a prepayment agreement (the \"Prepayment Agreement\") with Meta Platforms, Inc. (\"Meta\") that advances plans to develop a 1.2 gigawatt power campus in Pike County, Ohio, to support Meta's data centers. The Prepayment Agreement provides a mechanism for Meta to prepay for power and provide funding to advance powerhouse deployment.",
     "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026018698/oklo-20251231.htm",
     "layer_ids": [
@@ -2315,15 +2492,16 @@
         "Pursuing alternative fuel materials including DOE plutonium for dilute-and-dispose programs"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Expect total cash used in operating expenses 2026 in $80-100M range; total cash used in investing activities $350-450M",
         "opex": null,
-        "notes": "Expect total cash used in operating expenses 2026 in $80-100M range; total cash used in investing activities $350-450M"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "On January 5, 2026, we entered into a prepayment agreement (the \"Prepayment Agreement\") with Meta Platforms, Inc. (\"Meta\") that advances plans to develop a 1.2 gigawatt power campus in Pike County, Ohio, to support Meta's data centers. The Prepayment Agreement provides a mechanism for Meta to prepay for power and provide funding to advance powerhouse deployment.",
       "quote_section": "Item 1 Business — Recent Developments"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "nvda-eml-lockin",
@@ -2340,7 +2518,8 @@
       "NVDA",
       "LITE",
       "COHR"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-AVGO-0001730168-26-000016",
@@ -2349,7 +2528,7 @@
     "date": "2026-03-11",
     "source": "SEC EDGAR (AVGO)",
     "source_type": "filing",
-    "headline": "AVGO files 10-Q: 10-Q",
+    "headline": "AVGO files 10-Q: periodic report",
     "quote": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 50% and 40% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively.",
     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
     "layer_ids": [
@@ -2370,15 +2549,16 @@
         "Semi solutions now 65% of revenue (vs 55% prior-year Q1) - AI semi ramp shifting mix away from software"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 50% and 40% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively.",
       "quote_section": "Item 2 MD&A - Net Revenue"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MRVL-0001835632-26-000011",
@@ -2408,15 +2588,16 @@
         "Roadmap explicit: custom AI ASIC platform leverages SerDes, ARM compute, silicon photonics, CPO, custom HBM; 5nm in production, 3nm in design, 2nm/1.4nm in development"
       ],
       "guidance": {
-        "period": "FY27",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Expects U.S. export restrictions on certain Chinese customers to continue impacting revenue; flagged risk that Chinese customers may stockpile or move to indigenous suppliers",
         "opex": null,
-        "notes": "Expects U.S. export restrictions on certain Chinese customers to continue impacting revenue; flagged risk that Chinese customers may stockpile or move to indigenous suppliers"
+        "period": "FY27",
+        "revenue": null
       },
       "quote": "Our net revenue for fiscal 2026 increased by $2.4 billion compared to net revenue for fiscal 2025. This was primarily due to a 46% increase in sales from the data center end market which benefited from strong AI-related demand.",
       "quote_section": "Item 7 MD&A - Net Revenue"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-ORCL-0001193125-26-101045",
@@ -2425,7 +2606,7 @@
     "date": "2026-03-11",
     "source": "SEC EDGAR (ORCL)",
     "source_type": "filing",
-    "headline": "ORCL files 10-Q: 10-Q",
+    "headline": "ORCL files 10-Q: periodic report",
     "quote": "Remaining performance obligations were $552.6 billion and $130.2 billion as of February 28, 2026 and 2025, respectively. The increase in remaining performance obligations... was primarily attributable to certain significant cloud contracts that were entered into during the period.",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526101045/orcl-20260228.htm",
     "layer_ids": [
@@ -2445,15 +2626,16 @@
         "9M operating margin $14.5B (+15%); margin % declined as infrastructure spend ramps"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Capex trend continues through FY26 and next few years; new ATM offering program initiated for additional equity issuance",
         "opex": null,
-        "notes": "Capex trend continues through FY26 and next few years; new ATM offering program initiated for additional equity issuance"
+        "period": null,
+        "revenue": null
       },
       "quote": "Remaining performance obligations were $552.6 billion and $130.2 billion as of February 28, 2026 and 2025, respectively. The increase in remaining performance obligations... was primarily attributable to certain significant cloud contracts that were entered into during the period.",
       "quote_section": "Item 2 MD&A - Remaining Performance Obligations"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-HPE-0001645590-26-000032",
@@ -2462,7 +2644,7 @@
     "date": "2026-03-10",
     "source": "SEC EDGAR (HPE)",
     "source_type": "filing",
-    "headline": "HPE files 10-Q: 10-Q",
+    "headline": "HPE files 10-Q: periodic report",
     "quote": "Networking segment net revenue increased by $1,630 million, or 151.5%, primarily due to a $1,031 million, or 130.7%, increase in product revenue, and $599 million, or 208.7%, increase in service revenue. The increase in product revenue was primarily led by revenue attributable to Juniper Networks of $1,061 million, or 134.5%.",
     "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000032/hpe-20260131.htm",
     "layer_ids": [
@@ -2483,15 +2665,16 @@
         "Supreme Court 2/20/26 struck down IEEPA tariffs but new tariffs announced — net effect on margins still uncertain; memory component shortages flagged as new risk"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "$600M Juniper synergies by FY28 with $800M investment reaffirmed; AI server growth flagged as margin-dilutive due to GPU pass-through pricing",
         "opex": null,
-        "notes": "$600M Juniper synergies by FY28 with $800M investment reaffirmed; AI server growth flagged as margin-dilutive due to GPU pass-through pricing"
+        "period": null,
+        "revenue": null
       },
       "quote": "Networking segment net revenue increased by $1,630 million, or 151.5%, primarily due to a $1,031 million, or 130.7%, increase in product revenue, and $599 million, or 208.7%, increase in service revenue. The increase in product revenue was primarily led by revenue attributable to Juniper Networks of $1,061 million, or 134.5%.",
       "quote_section": "Item 2 MD&A — Networking Segment"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-ORCL-0001193125-26-100148",
@@ -2500,7 +2683,7 @@
     "date": "2026-03-10",
     "source": "SEC EDGAR (ORCL)",
     "source_type": "filing",
-    "headline": "ORCL files 8-K: 8-K",
+    "headline": "ORCL files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526100148/orcl-20260310.htm",
     "layer_ids": [
@@ -2508,7 +2691,8 @@
     ],
     "tickers": [
       "ORCL"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-HPE-0001645590-26-000028",
@@ -2517,7 +2701,7 @@
     "date": "2026-03-09",
     "source": "SEC EDGAR (HPE)",
     "source_type": "filing",
-    "headline": "HPE files 8-K: 8-K",
+    "headline": "HPE files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000028/hpe-20260309.htm",
     "layer_ids": [
@@ -2525,7 +2709,8 @@
     ],
     "tickers": [
       "HPE"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "broadcom-q1-fy26",
@@ -2541,7 +2726,27 @@
     ],
     "tickers": [
       "AVGO"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MRVL-0001835632-26-000006",
+    "accession": "0001835632-26-000006",
+    "form": "8-K",
+    "date": "2026-03-05",
+    "source": "SEC EDGAR (MRVL)",
+    "source_type": "filing",
+    "headline": "MRVL files 8-K: FORM 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000006/mrvl-20260305.htm",
+    "layer_ids": [
+      "gpu",
+      "networking"
+    ],
+    "tickers": [
+      "MRVL"
+    ],
+    "arch_risk": false
   },
   {
     "id": "dc-delays-electrical",
@@ -2558,7 +2763,27 @@
       "GEV",
       "ETN",
       "HUBB"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AVGO-0001730168-26-000011",
+    "accession": "0001730168-26-000011",
+    "form": "8-K",
+    "date": "2026-03-04",
+    "source": "SEC EDGAR (AVGO)",
+    "source_type": "filing",
+    "headline": "AVGO files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-20260304.htm",
+    "layer_ids": [
+      "gpu",
+      "networking"
+    ],
+    "tickers": [
+      "AVGO"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-CRWV-0001769628-26-000104",
@@ -2567,7 +2792,7 @@
     "date": "2026-03-02",
     "source": "SEC EDGAR (CRWV)",
     "source_type": "filing",
-    "headline": "CRWV files 10-K: 10-K",
+    "headline": "CRWV files 10-K: periodic report",
     "quote": "We recognized an aggregate of approximately 67% of our revenue from our top customer, Microsoft, for the year ended December 31, 2025... In May 2025, we entered into a master services agreement with OpenAI OpCo, LLC... pursuant to which OpenAI has committed to pay us up to approximately $6.5 billion through May 31, 2031.",
     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
     "layer_ids": [
@@ -2589,15 +2814,16 @@
         "Capex $10.3B for 2025; deploying NVIDIA GB200/GB300 NVL72 first-to-market"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "10-K does not provide point guidance; mgmt expects continued substantial growing capex and reliance on debt/equity financing",
         "opex": null,
-        "notes": "10-K does not provide point guidance; mgmt expects continued substantial growing capex and reliance on debt/equity financing"
+        "period": null,
+        "revenue": null
       },
       "quote": "We recognized an aggregate of approximately 67% of our revenue from our top customer, Microsoft, for the year ended December 31, 2025... In May 2025, we entered into a master services agreement with OpenAI OpCo, LLC... pursuant to which OpenAI has committed to pay us up to approximately $6.5 billion through May 31, 2031.",
       "quote_section": "Item 1A Risk Factors - Customer Concentration"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CRM-0001108524-26-000060",
@@ -2606,7 +2832,7 @@
     "date": "2026-03-02",
     "source": "SEC EDGAR (CRM)",
     "source_type": "filing",
-    "headline": "CRM files 10-K: 10-K",
+    "headline": "CRM files 10-K: periodic report",
     "quote": "Total remaining performance obligation, which represents all future revenue under contract yet to be recognized, as of January 31, 2026 was approximately $72.4 billion, an increase of 14 percent year-over-year. Current remaining performance obligation... was approximately $35.1 billion, an increase of 16 percent year-over-year.",
     "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
     "layer_ids": [
@@ -2626,15 +2852,16 @@
         "Attrition rate ~8% as of Jan 31 2026, unchanged YoY"
       ],
       "guidance": {
-        "period": "FY 2027",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Mgmt frames AI products as primary growth vector; expects continued operating margin expansion through restructuring and AI/Data Cloud investments",
         "opex": null,
-        "notes": "Mgmt frames AI products as primary growth vector; expects continued operating margin expansion through restructuring and AI/Data Cloud investments"
+        "period": "FY 2027",
+        "revenue": null
       },
       "quote": "Total remaining performance obligation, which represents all future revenue under contract yet to be recognized, as of January 31, 2026 was approximately $72.4 billion, an increase of 14 percent year-over-year. Current remaining performance obligation... was approximately $35.1 billion, an increase of 16 percent year-over-year.",
       "quote_section": "Item 7 MD&A - Highlights from Fiscal 2026"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CLS-0001030894-26-000011",
@@ -2643,7 +2870,7 @@
     "date": "2026-02-27",
     "source": "SEC EDGAR (CLS)",
     "source_type": "filing",
-    "headline": "CLS files 10-K: 10-K",
+    "headline": "CLS files 10-K: periodic report",
     "quote": "HPS revenue for 2025 increased 81% (to $5.0 billion) compared to 2024, and accounted for 41% of our total 2025 revenue (compared to 29% of our total 2024 revenue), driven by accelerating volumes in our ramping networking switch programs with hyperscaler customers.",
     "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000011/cls-20251231.htm",
     "layer_ids": [
@@ -2664,15 +2891,16 @@
         "Q4 gross margin 11.8% (vs 11.7% Q4 2024); CCS segment margin 8.4% in Q4 on improved operating leverage"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "FY26 capex of approximately $1 billion (~6% of currently anticipated revenue) to support hyperscaler-driven demand; long-term margin profile expected to benefit from HPS mix",
         "opex": null,
-        "notes": "FY26 capex of approximately $1 billion (~6% of currently anticipated revenue) to support hyperscaler-driven demand; long-term margin profile expected to benefit from HPS mix"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "HPS revenue for 2025 increased 81% (to $5.0 billion) compared to 2024, and accounted for 41% of our total 2025 revenue (compared to 29% of our total 2024 revenue), driven by accelerating volumes in our ramping networking switch programs with hyperscaler customers.",
       "quote_section": "Item 7 MD&A — Recent Developments"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-ETN-0001551182-26-000007",
@@ -2681,7 +2909,7 @@
     "date": "2026-02-26",
     "source": "SEC EDGAR (ETN)",
     "source_type": "filing",
-    "headline": "ETN files 10-K: 10-K",
+    "headline": "ETN files 10-K: periodic report",
     "quote": "The agreement to acquire Boyd Thermal expands Eaton's existing portfolio of solutions for data center customers to include critical liquid cooling technology, enabling the Company to serve hyperscale and colocation customers from the chip to the grid.",
     "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000007/etn-20251231.htm",
     "layer_ids": [
@@ -2702,15 +2930,34 @@
         "Electrical Americas operating margin 29.9% (vs 30.2%) compressed by 380bps from commodity/wage inflation"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Boyd Thermal acquisition expected to close Q2 2026",
         "opex": null,
-        "notes": "Boyd Thermal acquisition expected to close Q2 2026"
+        "period": null,
+        "revenue": null
       },
       "quote": "The agreement to acquire Boyd Thermal expands Eaton's existing portfolio of solutions for data center customers to include critical liquid cooling technology, enabling the Company to serve hyperscale and colocation customers from the chip to the grid.",
       "quote_section": "Item 7 MD&A — Overview"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CRWV-0001769628-26-000094",
+    "accession": "0001769628-26-000094",
+    "form": "8-K",
+    "date": "2026-02-26",
+    "source": "SEC EDGAR (CRWV)",
+    "source_type": "filing",
+    "headline": "CRWV files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000094/crwv-20260226.htm",
+    "layer_ids": [
+      "neoclouds"
+    ],
+    "tickers": [
+      "CRWV"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-NVDA-0001045810-26-000021",
@@ -2719,7 +2966,7 @@
     "date": "2026-02-25",
     "source": "SEC EDGAR (NVDA)",
     "source_type": "filing",
-    "headline": "NVDA files 10-K: 10-K",
+    "headline": "NVDA files 10-K: periodic report",
     "quote": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial.",
     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
     "layer_ids": [
@@ -2740,15 +2987,16 @@
         "Gross margin compressed YoY due to Hopper HGX -> Blackwell full-system transition"
       ],
       "guidance": {
-        "period": "Q1 FY27",
-        "revenue": "$43.0B ± 2%",
         "gross_margin": "73.5% non-GAAP",
+        "notes": "Gaming supply constraints expected to be a Q1 FY27 headwind",
         "opex": null,
-        "notes": "Gaming supply constraints expected to be a Q1 FY27 headwind"
+        "period": "Q1 FY27",
+        "revenue": "$43.0B ± 2%"
       },
       "quote": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial.",
       "quote_section": "Item 7 Recent Developments"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-NVDA-0001045810-26-000019",
@@ -2757,7 +3005,7 @@
     "date": "2026-02-25",
     "source": "SEC EDGAR (NVDA)",
     "source_type": "filing",
-    "headline": "NVDA files 8-K: 8-K",
+    "headline": "NVDA files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/nvda-20260225.htm",
     "layer_ids": [
@@ -2766,7 +3014,26 @@
     ],
     "tickers": [
       "NVDA"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CRM-0001108524-26-000056",
+    "accession": "0001108524-26-000056",
+    "form": "8-K",
+    "date": "2026-02-25",
+    "source": "SEC EDGAR (CRM)",
+    "source_type": "filing",
+    "headline": "CRM files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000056/crm-20260225.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "CRM"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-SNPS-0000883241-26-000014",
@@ -2775,7 +3042,7 @@
     "date": "2026-02-25",
     "source": "SEC EDGAR (SNPS)",
     "source_type": "filing",
-    "headline": "SNPS files 10-Q: 10-Q",
+    "headline": "SNPS files 10-Q: periodic report",
     "quote": "Revenues were $2.4 billion, an increase of $953.5 million or 66%, which includes revenues from Ansys of $885.6 million. The remaining growth came organically across a majority of products and geographies, offset by weakness in our Design IP segment.",
     "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000014/snps-20260131.htm",
     "layer_ids": [
@@ -2795,15 +3062,16 @@
         "Paid off remaining $3.5B term loan in Q1 FY26 (had been used to fund Ansys cash consideration); $13.5B FY25-end debt being aggressively paid down before buyback resumes"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Expect growth across most geographies in fiscal 2026; challenging near-term environment in China due to macro and Trade Restrictions; continue to expect muted Design IP segment growth in fiscal 2026",
         "opex": null,
-        "notes": "Expect growth across most geographies in fiscal 2026; challenging near-term environment in China due to macro and Trade Restrictions; continue to expect muted Design IP segment growth in fiscal 2026"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "Revenues were $2.4 billion, an increase of $953.5 million or 66%, which includes revenues from Ansys of $885.6 million. The remaining growth came organically across a majority of products and geographies, offset by weakness in our Design IP segment.",
       "quote_section": "Item 2 MD&A - Financial Performance Summary"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-SNPS-0001193125-26-071601",
@@ -2812,7 +3080,7 @@
     "date": "2026-02-25",
     "source": "SEC EDGAR (SNPS)",
     "source_type": "filing",
-    "headline": "SNPS files 8-K: 8-K",
+    "headline": "SNPS files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312526071601/d921168d8k.htm",
     "layer_ids": [
@@ -2820,7 +3088,8 @@
     ],
     "tickers": [
       "SNPS"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-CEG-0001868275-26-000032",
@@ -2829,7 +3098,7 @@
     "date": "2026-02-24",
     "source": "SEC EDGAR (CEG)",
     "source_type": "filing",
-    "headline": "CEG files 10-K: 10-K",
+    "headline": "CEG files 10-K: periodic report",
     "quote": "Recently, we have benefited from increased demand for our generation as a result of the developing data economy, including demand driven by data centers and AI and other high-performance computing applications, evidenced by the execution of long-term contracts with technology companies as well as increased interest in prospective contracts from our customers.",
     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000032/ceg-20251231.htm",
     "layer_ids": [
@@ -2850,15 +3119,16 @@
         "Mgmt explicitly flags AI/data-center driven baseload demand as multi-decade tailwind for nuclear fleet"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Intends to file 80-year license extension applications across nuclear fleet; expects nuclear PTC under IRA/OBBBA to support long-term economics",
         "opex": null,
-        "notes": "Intends to file 80-year license extension applications across nuclear fleet; expects nuclear PTC under IRA/OBBBA to support long-term economics"
+        "period": null,
+        "revenue": null
       },
       "quote": "Recently, we have benefited from increased demand for our generation as a result of the developing data economy, including demand driven by data centers and AI and other high-performance computing applications, evidenced by the execution of long-term contracts with technology companies as well as increased interest in prospective contracts from our customers.",
       "quote_section": "Item 1A Risk Factors"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CEG-0001868275-26-000029",
@@ -2867,7 +3137,7 @@
     "date": "2026-02-24",
     "source": "SEC EDGAR (CEG)",
     "source_type": "filing",
-    "headline": "CEG files 8-K: 8-K",
+    "headline": "CEG files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000029/ceg-20260224.htm",
     "layer_ids": [
@@ -2875,7 +3145,8 @@
     ],
     "tickers": [
       "CEG"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-AMKR-0001047127-26-000014",
@@ -2884,7 +3155,7 @@
     "date": "2026-02-20",
     "source": "SEC EDGAR (AMKR)",
     "source_type": "filing",
-    "headline": "AMKR files 10-K: 10-K",
+    "headline": "AMKR files 10-K: periodic report",
     "quote": "Our ten largest customers accounted for 72% of our net sales in 2025. Direct sales to Apple and Qualcomm accounted for 29.8% and 11.1% of our net sales, respectively, for the year ended December 31, 2025.",
     "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000014/amkr-20251231.htm",
     "layer_ids": [
@@ -2904,15 +3175,16 @@
         "FCBGA with 2.5D/HBM integration and SiPh/CPO support called out as advanced-packaging growth vectors"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Capex guided to $2.5B-$3.0B for 2026, up from $904.6M in 2025, primarily for Arizona Facility construction and advanced packaging/test equipment",
         "opex": null,
-        "notes": "Capex guided to $2.5B-$3.0B for 2026, up from $904.6M in 2025, primarily for Arizona Facility construction and advanced packaging/test equipment"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "Our ten largest customers accounted for 72% of our net sales in 2025. Direct sales to Apple and Qualcomm accounted for 29.8% and 11.1% of our net sales, respectively, for the year ended December 31, 2025.",
       "quote_section": "Item 1 Business — Customers"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-AMAT-0001628280-26-009694",
@@ -2921,7 +3193,7 @@
     "date": "2026-02-19",
     "source": "SEC EDGAR (AMAT)",
     "source_type": "filing",
-    "headline": "AMAT files 10-Q: 10-Q",
+    "headline": "AMAT files 10-Q: periodic report",
     "quote": "Memory customers' spending in the three months ended January 25, 2026 was higher compared to the same period in the prior year primarily due to increased customer investments in DRAM technology transitions.",
     "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026009694/amat-20260125.htm",
     "layer_ids": [
@@ -2942,15 +3214,16 @@
         "Operating margin fell 4.3pts to 26.1% primarily from the legal settlement; gross margin 49.0% (+0.2pts)"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "Memory customers' spending in the three months ended January 25, 2026 was higher compared to the same period in the prior year primarily due to increased customer investments in DRAM technology transitions.",
       "quote_section": "Item 2 MD&A — Results of Operations"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-PWR-0001050915-26-000006",
@@ -2959,7 +3232,7 @@
     "date": "2026-02-19",
     "source": "SEC EDGAR (PWR)",
     "source_type": "filing",
-    "headline": "PWR files 10-K: 10-K",
+    "headline": "PWR files 10-K: periodic report",
     "quote": "The investment of capital into the build out of data centers by technology customers in order to, among other things, expand cloud-based services and develop artificial intelligence (AI) training and inference, increases demand for our solutions offerings. In particular, we believe Quanta is well positioned to provide turnkey infrastructure solutions for these facilities...",
     "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000006/pwr-20251231.htm",
     "layer_ids": [
@@ -2980,15 +3253,16 @@
         "2024 CEI acquisition continues to drive critical-path electrical solutions demand from tech/data center customers"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "The investment of capital into the build out of data centers by technology customers in order to, among other things, expand cloud-based services and develop artificial intelligence (AI) training and inference, increases demand for our solutions offerings. In particular, we believe Quanta is well positioned to provide turnkey infrastructure solutions for these facilities...",
       "quote_section": "Item 1 Business — Industry Trends"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-PWR-0001193125-26-058069",
@@ -2997,7 +3271,7 @@
     "date": "2026-02-19",
     "source": "SEC EDGAR (PWR)",
     "source_type": "filing",
-    "headline": "PWR files 8-K: 8-K",
+    "headline": "PWR files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526058069/d101511d8k.htm",
     "layer_ids": [
@@ -3005,7 +3279,8 @@
     ],
     "tickers": [
       "PWR"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-CDNS-0000813672-26-000016",
@@ -3014,7 +3289,7 @@
     "date": "2026-02-19",
     "source": "SEC EDGAR (CDNS)",
     "source_type": "filing",
-    "headline": "CDNS files 10-K: 10-K",
+    "headline": "CDNS files 10-K: periodic report",
     "quote": "On May 23, 2025, BIS informed us that a license was required for the export... of EDA Software and Technology... when a party to the transaction is located in China... On July 2, 2025, BIS informed us that the license requirements... were rescinded effective immediately.",
     "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000016/cdns-20251231.htm",
     "layer_ids": [
@@ -3034,15 +3309,16 @@
         "Announced Hexagon D&E acquisition (MSC Nastran, Adams); acquired Arm Artisan foundation IP, VLAB Works, Secure-IC, agentic-AI verification tech in FY25"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Effective tax rate expected approximately 27% for fiscal 2026",
         "opex": null,
-        "notes": "Effective tax rate expected approximately 27% for fiscal 2026"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "On May 23, 2025, BIS informed us that a license was required for the export... of EDA Software and Technology... when a party to the transaction is located in China... On July 2, 2025, BIS informed us that the license requirements... were rescinded effective immediately.",
       "quote_section": "Item 1 Business - Governmental Regulations / Trade"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-GNRC-0001437749-26-004568",
@@ -3072,15 +3348,16 @@
         "Liquidity $1.34B; net secured leverage 1.32x; new $500M buyback authorized Feb 2026"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "OBBBA accelerated phaseout of solar tax credits will negatively impact solar/storage in near term but mega-trends expected to persist",
         "opex": null,
-        "notes": "OBBBA accelerated phaseout of solar tax credits will negatively impact solar/storage in near term but mega-trends expected to persist"
+        "period": null,
+        "revenue": null
       },
       "quote": "Massive capital investment into hyperscale and edge data centers has created a very large market for back-up power that is supply-constrained, providing a significant growth opportunity for our newly introduced large-megawatt C&I products.",
       "quote_section": "Item 1 Business — Key Mega-Trends"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-ANET-0001596532-26-000013",
@@ -3089,7 +3366,7 @@
     "date": "2026-02-17",
     "source": "SEC EDGAR (ANET)",
     "source_type": "filing",
-    "headline": "ANET files 10-K: 10-K",
+    "headline": "ANET files 10-K: periodic report",
     "quote": "Sales to one end customer represented 16%, 15%, and 21% of our total revenue, and sales to the other end customer represented 26%, 20%, and 18% of our total revenue for the years ended December 31, 2025, 2024, and 2023, respectively.",
     "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm",
     "layer_ids": [
@@ -3110,15 +3387,16 @@
         "R&D +24.1% to $1.24B; operating cash flow $4.4B; large customer pricing discounts continue to compress GM on big orders"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "10-K does not provide point guidance; mgmt flags variability from AI Ethernet trials, memory supply tightening, and tariff/trade exposure as the dominant near-term swing factors",
         "opex": null,
-        "notes": "10-K does not provide point guidance; mgmt flags variability from AI Ethernet trials, memory supply tightening, and tariff/trade exposure as the dominant near-term swing factors"
+        "period": null,
+        "revenue": null
       },
       "quote": "Sales to one end customer represented 16%, 15%, and 21% of our total revenue, and sales to the other end customer represented 26%, 20%, and 18% of our total revenue for the years ended December 31, 2025, 2024, and 2023, respectively.",
       "quote_section": "Item 7 MD&A — Overview"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CSCO-0000858877-26-000021",
@@ -3127,7 +3405,7 @@
     "date": "2026-02-17",
     "source": "SEC EDGAR (CSCO)",
     "source_type": "filing",
-    "headline": "CSCO files 10-Q: 10-Q",
+    "headline": "CSCO files 10-Q: periodic report",
     "quote": "Revenue from the Networking product category increased by 21%, or $1.4 billion primarily driven by our AI Infrastructure and Campus Networking solutions. The increase was primarily driven by double digit revenue growth in Service Provider Routing, Data Center Switching, Campus Switching, Enterprise Routing, Wireless and Compute.",
     "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000021/csco-20260124.htm",
     "layer_ids": [
@@ -3148,15 +3426,16 @@
         "Software revenue $5.7B (+2%); subscription revenue flat; ongoing inventory/purchase commitment buildup for Silicon One continues"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "Revenue from the Networking product category increased by 21%, or $1.4 billion primarily driven by our AI Infrastructure and Campus Networking solutions. The increase was primarily driven by double digit revenue growth in Service Provider Routing, Data Center Switching, Campus Switching, Enterprise Routing, Wireless and Compute.",
       "quote_section": "Item 2 MD&A — Net Product Sales by Product Category"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-NVT-0001628280-26-008608",
@@ -3165,7 +3444,7 @@
     "date": "2026-02-17",
     "source": "SEC EDGAR (NVT)",
     "source_type": "filing",
-    "headline": "NVT files 10-K: 10-K",
+    "headline": "NVT files 10-K: periodic report",
     "quote": "We are an enclosures and liquid cooling leader in the U.S. and globally. We believe that trends like electrification, sustainability and digitalization, including increased use of artificial intelligence, are helping to drive the need for our products.",
     "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026008608/nvt-20251231.htm",
     "layer_ids": [
@@ -3186,15 +3465,16 @@
         "Returned ~$383M to shareholders in FY25: $253.1M repurchases + $130.4M dividends; $146.9M remaining on $500M authorization; Q1 2026 dividend raised to $0.21/share"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Expect AI/data center megatrends to continue driving Systems Protection sales growth in 2026 and beyond; inflationary cost pressure including tariffs expected to continue",
         "opex": null,
-        "notes": "Expect AI/data center megatrends to continue driving Systems Protection sales growth in 2026 and beyond; inflationary cost pressure including tariffs expected to continue"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "We are an enclosures and liquid cooling leader in the U.S. and globally. We believe that trends like electrification, sustainability and digitalization, including increased use of artificial intelligence, are helping to drive the need for our products.",
       "quote_section": "Item 1 Business - Systems Protection"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-PLTR-0001321655-26-000011",
@@ -3203,7 +3483,7 @@
     "date": "2026-02-17",
     "source": "SEC EDGAR (PLTR)",
     "source_type": "filing",
-    "headline": "PLTR files 10-K: 10-K",
+    "headline": "PLTR files 10-K: periodic report",
     "quote": "Of the $4.5 billion in revenue that we generated in 2025, 54% came from customers in the government segment, and 46% came from customers in the commercial segment.",
     "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
     "layer_ids": [
@@ -3223,15 +3503,34 @@
         "Founders + affiliates ~22% voting power (excluding Class F); Founders Excluded Shares dynamic"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "10-K does not provide explicit guidance",
         "opex": null,
-        "notes": "10-K does not provide explicit guidance"
+        "period": null,
+        "revenue": null
       },
       "quote": "Of the $4.5 billion in revenue that we generated in 2025, 54% came from customers in the government segment, and 46% came from customers in the commercial segment.",
       "quote_section": "Item 1 Business - Customer Base"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CDNS-0000813672-26-000013",
+    "accession": "0000813672-26-000013",
+    "form": "8-K",
+    "date": "2026-02-17",
+    "source": "SEC EDGAR (CDNS)",
+    "source_type": "filing",
+    "headline": "CDNS files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000013/cdns-20260217.htm",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [
+      "CDNS"
+    ],
+    "arch_risk": false
   },
   {
     "id": "intel-emib-cowos",
@@ -3247,7 +3546,8 @@
     ],
     "tickers": [
       "INTC"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-VRT-0001674101-26-000008",
@@ -3256,7 +3556,7 @@
     "date": "2026-02-13",
     "source": "SEC EDGAR (VRT)",
     "source_type": "filing",
-    "headline": "VRT files 10-K: 10-K",
+    "headline": "VRT files 10-K: periodic report",
     "quote": "Vertiv's estimated combined order backlog was $15.0 billion and $7.2 billion as of December 31, 2025 and 2024, respectively, as continued strong demand has contributed to an increase in customer orders being placed in advance of our ability to fulfill them.",
     "url": "https://www.sec.gov/Archives/edgar/data/1674101/000167410126000008/vrt-20251231.htm",
     "layer_ids": [
@@ -3277,15 +3577,16 @@
         "Capital return: dividend raised to $0.0625/share quarterly (Nov 2025); no share repurchases in 2H 2024 or FY25; $2.4B remains on authorization; $1.73B cash at YE25"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Capital expenditures (including capitalized software) guided to $425M-$525M for FY26 to support capacity expansion",
         "opex": null,
-        "notes": "Capital expenditures (including capitalized software) guided to $425M-$525M for FY26 to support capacity expansion"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "Vertiv's estimated combined order backlog was $15.0 billion and $7.2 billion as of December 31, 2025 and 2024, respectively, as continued strong demand has contributed to an increase in customer orders being placed in advance of our ability to fulfill them.",
       "quote_section": "Item 1 Business - Backlog"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CAT-0000018230-26-000008",
@@ -3294,7 +3595,7 @@
     "date": "2026-02-13",
     "source": "SEC EDGAR (CAT)",
     "source_type": "filing",
-    "headline": "CAT files 10-K: 10-K",
+    "headline": "CAT files 10-K: periodic report",
     "quote": "We also anticipate accelerated investment in data centers, which will further bolster overall construction spending... we are starting to see orders for prime power trend higher as data center customers look for alternative power solutions to keep pace with their growth.",
     "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
     "layer_ids": [
@@ -3313,15 +3614,53 @@
         "Restructuring $300-350M expected in 2026; capex guidance ~$3.5B; expects tariff costs $2.2-2.4B in 2026"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": "low double digit growth vs 2025 (top end of 5-7% CAGR target)",
         "gross_margin": null,
+        "notes": "Full-year sales growth across all three primary segments; expects $2.2-2.4B of tariff costs; restructuring $300-350M; capex ~$3.5B; effective tax rate ~23%",
         "opex": null,
-        "notes": "Full-year sales growth across all three primary segments; expects $2.2-2.4B of tariff costs; restructuring $300-350M; capex ~$3.5B; effective tax rate ~23%"
+        "period": "FY26",
+        "revenue": "low double digit growth vs 2025 (top end of 5-7% CAGR target)"
       },
       "quote": "We also anticipate accelerated investment in data centers, which will further bolster overall construction spending... we are starting to see orders for prime power trend higher as data center customers look for alternative power solutions to keep pace with their growth.",
       "quote_section": "Item 7 MD&A — Outlook for Key End Markets"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AMAT-0001628280-26-007661",
+    "accession": "0001628280-26-007661",
+    "form": "8-K",
+    "date": "2026-02-12",
+    "source": "SEC EDGAR (AMAT)",
+    "source_type": "filing",
+    "headline": "AMAT files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026007661/amat-20260212.htm",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [
+      "AMAT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ANET-0001596532-26-000010",
+    "accession": "0001596532-26-000010",
+    "form": "8-K",
+    "date": "2026-02-12",
+    "source": "SEC EDGAR (ANET)",
+    "source_type": "filing",
+    "headline": "ANET files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000010/anet-20260212.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "ANET"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-HUBB-0001628280-26-007500",
@@ -3330,7 +3669,7 @@
     "date": "2026-02-12",
     "source": "SEC EDGAR (HUBB)",
     "source_type": "filing",
-    "headline": "HUBB files 10-K: 10-K",
+    "headline": "HUBB files 10-K: periodic report",
     "quote": "Volume growth was driven primarily by strength in the datacenter and light industrial markets, partially offset by softness in the non-residential and heavy industrial markets.",
     "url": "https://www.sec.gov/Archives/edgar/data/48898/000162828026007500/hubb-20251231.htm",
     "layer_ids": [
@@ -3351,15 +3690,72 @@
         "Pricing/productivity drove margin expansion; partially offset by tariff and material inflation"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "Volume growth was driven primarily by strength in the datacenter and light industrial markets, partially offset by softness in the non-residential and heavy industrial markets.",
       "quote_section": "Item 7 MD&A — Electrical Solutions Segment Results"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CSCO-0000858877-26-000006",
+    "accession": "0000858877-26-000006",
+    "form": "8-K",
+    "date": "2026-02-11",
+    "source": "SEC EDGAR (CSCO)",
+    "source_type": "filing",
+    "headline": "CSCO files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000006/csco-20260211.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "CSCO"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-VRT-0001674101-26-000006",
+    "accession": "0001674101-26-000006",
+    "form": "8-K",
+    "date": "2026-02-11",
+    "source": "SEC EDGAR (VRT)",
+    "source_type": "filing",
+    "headline": "VRT files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1674101/000167410126000006/vrt-20260211.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "VRT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-GNRC-0001437749-26-003700",
+    "accession": "0001437749-26-003700",
+    "form": "8-K",
+    "date": "2026-02-11",
+    "source": "SEC EDGAR (GNRC)",
+    "source_type": "filing",
+    "headline": "GNRC files 8-K: FORM 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926003700/gnrc20260211_8k.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "GNRC"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-LEU-0001628280-26-007117",
@@ -3368,7 +3764,7 @@
     "date": "2026-02-11",
     "source": "SEC EDGAR (LEU)",
     "source_type": "filing",
-    "headline": "LEU files 10-K: 10-K",
+    "headline": "LEU files 10-K: periodic report",
     "quote": "Centrus plans to leverage its multi-billion-dollar uranium enrichment expansion to meet its growing backlog of $2.3 billion in contingent LEU sales to U.S. and international customer contracts, and targets future commercial-scale production of HALEU, as well.",
     "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026007117/leu-20251231.htm",
     "layer_ids": [
@@ -3389,15 +3785,16 @@
         "Russian supply represents 43% of global enrichment capacity; non-Russian market is undersupplied"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Total LEU + HALEU deployment depends on continued public and private funding; FY27 DOE budget proposal does not include HALEU Operation Contract cascade funding",
         "opex": null,
-        "notes": "Total LEU + HALEU deployment depends on continued public and private funding; FY27 DOE budget proposal does not include HALEU Operation Contract cascade funding"
+        "period": null,
+        "revenue": null
       },
       "quote": "Centrus plans to leverage its multi-billion-dollar uranium enrichment expansion to meet its growing backlog of $2.3 billion in contingent LEU sales to U.S. and international customer contracts, and targets future commercial-scale production of HALEU, as well.",
       "quote_section": "Item 1 Business — Overview"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CMI-0000026172-26-000009",
@@ -3406,7 +3803,7 @@
     "date": "2026-02-10",
     "source": "SEC EDGAR (CMI)",
     "source_type": "filing",
-    "headline": "CMI files 10-K: 10-K",
+    "headline": "CMI files 10-K: periodic report",
     "quote": "We also have strong demand for our data center products extending out six to eight quarters. We continue to work closely with our suppliers and customers to meet the demand.",
     "url": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000009/cmi-20251231.htm",
     "layer_ids": [
@@ -3426,15 +3823,16 @@
         "First mention: 2026 outlook expects continued strength in Power Systems including power generation and industrial markets"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Power Systems demand to remain strong (power generation + industrial); medium/heavy duty truck demand weak in H1; continued investment losses in Accelera as zero-emission adoption slows",
         "opex": null,
-        "notes": "Power Systems demand to remain strong (power generation + industrial); medium/heavy duty truck demand weak in H1; continued investment losses in Accelera as zero-emission adoption slows"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "We also have strong demand for our data center products extending out six to eight quarters. We continue to work closely with our suppliers and customers to meet the demand.",
       "quote_section": "Item 1 Business — Suppliers"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-LEU-0001628280-26-006909",
@@ -3443,7 +3841,7 @@
     "date": "2026-02-10",
     "source": "SEC EDGAR (LEU)",
     "source_type": "filing",
-    "headline": "LEU files 8-K: 8-K",
+    "headline": "LEU files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026006909/leu-20260210.htm",
     "layer_ids": [
@@ -3451,7 +3849,45 @@
     ],
     "tickers": [
       "LEU"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AMKR-0001047127-26-000007",
+    "accession": "0001047127-26-000007",
+    "form": "8-K",
+    "date": "2026-02-09",
+    "source": "SEC EDGAR (AMKR)",
+    "source_type": "filing",
+    "headline": "AMKR files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1047127/000104712726000007/amkr-20260209.htm",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [
+      "AMKR"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-NVT-0001628280-26-005930",
+    "accession": "0001628280-26-005930",
+    "form": "8-K",
+    "date": "2026-02-06",
+    "source": "SEC EDGAR (NVT)",
+    "source_type": "filing",
+    "headline": "NVT files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026005930/nvt-20260206.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "NVT"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-AMZN-0001018724-26-000004",
@@ -3460,7 +3896,7 @@
     "date": "2026-02-06",
     "source": "SEC EDGAR (AMZN)",
     "source_type": "filing",
-    "headline": "AMZN files 10-K: 10-K",
+    "headline": "AMZN files 10-K: periodic report",
     "quote": "Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth)... both of which we expect to increase in 2026.",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
     "layer_ids": [
@@ -3480,15 +3916,16 @@
         "Q3 2025 took $2.5B FTC settlement charge and $2.7B severance for planned role eliminations"
       ],
       "guidance": {
-        "period": "FY 2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Mgmt expects both AWS technical-infrastructure capex and fulfillment-network capex to increase in 2026; AI/ML investments to keep rising",
         "opex": null,
-        "notes": "Mgmt expects both AWS technical-infrastructure capex and fulfillment-network capex to increase in 2026; AI/ML investments to keep rising"
+        "period": "FY 2026",
+        "revenue": null
       },
       "quote": "Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth)... both of which we expect to increase in 2026.",
       "quote_section": "Item 7 MD&A - Liquidity and Capital Resources"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-GOOGL-0001652044-26-000018",
@@ -3497,7 +3934,7 @@
     "date": "2026-02-05",
     "source": "SEC EDGAR (GOOGL)",
     "source_type": "filing",
-    "headline": "GOOGL files 10-K: 10-K",
+    "headline": "GOOGL files 10-K: periodic report",
     "quote": "During the years ended December 31, 2024 and 2025, we spent $52.5 billion and $91.4 billion on capital expenditures, respectively. In 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers.",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
     "layer_ids": [
@@ -3519,15 +3956,34 @@
         "$3.5B / $9.9B power purchase agreement signed Jan 2026 (one-time payment vs ongoing lease, 2027-2047)"
       ],
       "guidance": {
-        "period": "FY 2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Capex to 'significantly increase' in 2026 vs 2025's $91.4B - servers, network equipment, data centers",
         "opex": null,
-        "notes": "Capex to 'significantly increase' in 2026 vs 2025's $91.4B - servers, network equipment, data centers"
+        "period": "FY 2026",
+        "revenue": null
       },
       "quote": "During the years ended December 31, 2024 and 2025, we spent $52.5 billion and $91.4 billion on capital expenditures, respectively. In 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers.",
       "quote_section": "Item 7 MD&A - Capital Expenditures"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CMI-0000026172-26-000004",
+    "accession": "0000026172-26-000004",
+    "form": "8-K",
+    "date": "2026-02-05",
+    "source": "SEC EDGAR (CMI)",
+    "source_type": "filing",
+    "headline": "CMI files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/26172/000002617226000004/cmi-20260205.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CMI"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-MOD-0001104659-26-010790",
@@ -3536,7 +3992,7 @@
     "date": "2026-02-05",
     "source": "SEC EDGAR (MOD)",
     "source_type": "filing",
-    "headline": "MOD files 10-Q: 10-Q",
+    "headline": "MOD files 10-Q: periodic report",
     "quote": "The transaction is intended to establish Gentherm as a scaled leader in thermal management. The Company will retain its Climate Solutions segment businesses, creating a pure-play climate solutions company focused on the data center and commercial HVAC and refrigeration markets.",
     "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926010790/mod-20251231x10q.htm",
     "layer_ids": [
@@ -3556,15 +4012,16 @@
         "$116.1M non-cash US pension termination charge in Q3 FY26 (tax benefit $13.1M); incremental data center manufacturing lease signed in Q3"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Reverse Morris Trust spin-off with Gentherm expected to close by end of calendar 2026; $30-40M transaction costs anticipated",
         "opex": null,
-        "notes": "Reverse Morris Trust spin-off with Gentherm expected to close by end of calendar 2026; $30-40M transaction costs anticipated"
+        "period": null,
+        "revenue": null
       },
       "quote": "The transaction is intended to establish Gentherm as a scaled leader in thermal management. The Company will retain its Climate Solutions segment businesses, creating a pure-play climate solutions company focused on the data center and commercial HVAC and refrigeration markets.",
       "quote_section": "Item 2 MD&A - Subsequent Events / Gentherm Transaction"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-AMZN-0001018724-26-000002",
@@ -3573,7 +4030,7 @@
     "date": "2026-02-05",
     "source": "SEC EDGAR (AMZN)",
     "source_type": "filing",
-    "headline": "AMZN files 8-K: 8-K",
+    "headline": "AMZN files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20260205.htm",
     "layer_ids": [
@@ -3581,7 +4038,8 @@
     ],
     "tickers": [
       "AMZN"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "coherent-q2-fy26",
@@ -3596,7 +4054,8 @@
     ],
     "tickers": [
       "COHR"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-AMD-0000002488-26-000018",
@@ -3605,7 +4064,7 @@
     "date": "2026-02-04",
     "source": "SEC EDGAR (AMD)",
     "source_type": "filing",
-    "headline": "AMD files 10-K: 10-K",
+    "headline": "AMD files 10-K: periodic report",
     "quote": "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
     "layer_ids": [
@@ -3626,15 +4085,16 @@
         "No customer >10% of FY25 revenue (one Client+Gaming customer was 18% in FY23); China geo 22% of revenue ($7.8B), US 33%, Taiwan 15%"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "FY26 to feature annual Instinct cadence (MI350 -> MI355X -> MI450); Helios AI rack platform previewed combining CPUs, GPUs and Pensando AI NICs",
         "opex": null,
-        "notes": "FY26 to feature annual Instinct cadence (MI350 -> MI355X -> MI450); Helios AI rack platform previewed combining CPUs, GPUs and Pensando AI NICs"
+        "period": null,
+        "revenue": null
       },
       "quote": "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
       "quote_section": "Item 7 MD&A - Overview"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-GOOGL-0001652044-26-000012",
@@ -3643,7 +4103,7 @@
     "date": "2026-02-04",
     "source": "SEC EDGAR (GOOGL)",
     "source_type": "filing",
-    "headline": "GOOGL files 8-K: 8-K",
+    "headline": "GOOGL files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/goog-20260204.htm",
     "layer_ids": [
@@ -3652,7 +4112,8 @@
     ],
     "tickers": [
       "GOOGL"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-LITE-0001628280-26-005129",
@@ -3661,7 +4122,7 @@
     "date": "2026-02-04",
     "source": "SEC EDGAR (LITE)",
     "source_type": "filing",
-    "headline": "LITE files 10-Q: 10-Q",
+    "headline": "LITE files 10-Q: periodic report",
     "quote": "In fiscal year 2026, we have continued to experience increasing demand, driven in part by the continued advances in cloud and AI infrastructure. This demand is outpacing our current supply which has led to decisions on supply allocation. We are investing in manufacturing capacity, both internally and with contract manufacturers, to meet demand.",
     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026005129/lite-20251227.htm",
     "layer_ids": [
@@ -3681,15 +4142,16 @@
         "Customer concentration: 2 customers at 24% and 17% of revenue in Q (combined 41%); company consolidated to a single reporting segment in FY26"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "In fiscal year 2026, we have continued to experience increasing demand, driven in part by the continued advances in cloud and AI infrastructure. This demand is outpacing our current supply which has led to decisions on supply allocation. We are investing in manufacturing capacity, both internally and with contract manufacturers, to meet demand.",
       "quote_section": "Item 2 MD&A — Industry Conditions"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-COHR-0000820318-26-000006",
@@ -3698,7 +4160,7 @@
     "date": "2026-02-04",
     "source": "SEC EDGAR (COHR)",
     "source_type": "filing",
-    "headline": "COHR files 10-Q: 10-Q",
+    "headline": "COHR files 10-Q: periodic report",
     "quote": "Revenue growth in our Datacenter business was fueled by continued strong AI datacenter demand, while our Communications business benefited from increased demand in both data center interconnect and traditional telecom applications.",
     "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000006/iivi-20251231.htm",
     "layer_ids": [
@@ -3718,15 +4180,16 @@
         "Diluted EPS $1.95 vs $0.41 prior year; effective tax rate 4% YTD vs 14%, helped by German tax law changes and stock-comp windfalls"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "Revenue growth in our Datacenter business was fueled by continued strong AI datacenter demand, while our Communications business benefited from increased demand in both data center interconnect and traditional telecom applications.",
       "quote_section": "Item 2 MD&A — Datacenter & Communications Segment"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-COHR-0001193125-26-037556",
@@ -3735,7 +4198,7 @@
     "date": "2026-02-04",
     "source": "SEC EDGAR (COHR)",
     "source_type": "filing",
-    "headline": "COHR files 8-K: 8-K",
+    "headline": "COHR files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526037556/d101115d8k.htm",
     "layer_ids": [
@@ -3743,7 +4206,8 @@
     ],
     "tickers": [
       "COHR"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-MOD-0001104659-26-010338",
@@ -3752,7 +4216,7 @@
     "date": "2026-02-04",
     "source": "SEC EDGAR (MOD)",
     "source_type": "filing",
-    "headline": "MOD files 8-K: 8-K",
+    "headline": "MOD files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926010338/mod-20260204x8k.htm",
     "layer_ids": [
@@ -3760,7 +4224,8 @@
     ],
     "tickers": [
       "MOD"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "lumentum-q3-fy26",
@@ -3775,7 +4240,8 @@
     ],
     "tickers": [
       "LITE"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-AMD-0000002488-26-000014",
@@ -3784,7 +4250,7 @@
     "date": "2026-02-03",
     "source": "SEC EDGAR (AMD)",
     "source_type": "filing",
-    "headline": "AMD files 8-K: 8-K",
+    "headline": "AMD files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000014/amd-20260203.htm",
     "layer_ids": [
@@ -3792,7 +4258,8 @@
     ],
     "tickers": [
       "AMD"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-LITE-0001628280-26-005005",
@@ -3801,7 +4268,7 @@
     "date": "2026-02-03",
     "source": "SEC EDGAR (LITE)",
     "source_type": "filing",
-    "headline": "LITE files 8-K: 8-K",
+    "headline": "LITE files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026005005/lite-20260203.htm",
     "layer_ids": [
@@ -3809,7 +4276,8 @@
     ],
     "tickers": [
       "LITE"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-FN-0001408710-26-000008",
@@ -3818,7 +4286,7 @@
     "date": "2026-02-03",
     "source": "SEC EDGAR (FN)",
     "source_type": "filing",
-    "headline": "FN files 10-Q: 10-Q",
+    "headline": "FN files 10-Q: periodic report",
     "quote": "Revenues from optical communications products ... increased by $185.4 million, or 28.7%, ... mainly due to an increase in revenues from telecommunication products and datacenter interconnect products, and partially offset with a decrease in revenues from data communication products during the three months ended December 26, 2025.",
     "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000008/fn-20251226.htm",
     "layer_ids": [
@@ -3838,15 +4306,34 @@
         "Operating income +43.7% to $114.4M (10.1% margin); net income $112.6M (10.0% margin); EPS not given but YoY growth strong"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "Revenues from optical communications products ... increased by $185.4 million, or 28.7%, ... mainly due to an increase in revenues from telecommunication products and datacenter interconnect products, and partially offset with a decrease in revenues from data communication products during the three months ended December 26, 2025.",
       "quote_section": "Item 2 MD&A — Revenues"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-HUBB-0001628280-26-004800",
+    "accession": "0001628280-26-004800",
+    "form": "8-K",
+    "date": "2026-02-03",
+    "source": "SEC EDGAR (HUBB)",
+    "source_type": "filing",
+    "headline": "HUBB files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/48898/000162828026004800/hubb-20260203.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "HUBB"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-FN-0001408710-26-000006",
@@ -3855,7 +4342,7 @@
     "date": "2026-02-02",
     "source": "SEC EDGAR (FN)",
     "source_type": "filing",
-    "headline": "FN files 8-K: 8-K",
+    "headline": "FN files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1408710/000140871026000006/fn-20260202.htm",
     "layer_ids": [
@@ -3863,7 +4350,26 @@
     ],
     "tickers": [
       "FN"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-PLTR-0001321655-26-000004",
+    "accession": "0001321655-26-000004",
+    "form": "8-K",
+    "date": "2026-02-02",
+    "source": "SEC EDGAR (PLTR)",
+    "source_type": "filing",
+    "headline": "PLTR files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/pltr-20260202.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "PLTR"
+    ],
+    "arch_risk": false
   },
   {
     "id": "generac-stargate",
@@ -3878,7 +4384,8 @@
     ],
     "tickers": [
       "GNRC"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-KLAC-0000319201-26-000008",
@@ -3887,7 +4394,7 @@
     "date": "2026-01-30",
     "source": "SEC EDGAR (KLAC)",
     "source_type": "filing",
-    "headline": "KLAC files 10-Q: 10-Q",
+    "headline": "KLAC files 10-Q: periodic report",
     "quote": "Demand for advanced semiconductor technologies, particularly evident in the 2-nanometer node, which is seeing higher levels of investment and process control intensity, continues to drive investments in AI. Increasing complexity and value of semiconductor packages, particularly for AI and high-performance computing applications, is also driving significant growth in our advanced packaging business.",
     "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000008/klac-20251231.htm",
     "layer_ids": [
@@ -3908,15 +4415,16 @@
         "Q2 FY26 capital returns: $548M repurchases + $250M dividends; 16th consecutive annual dividend increase"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Expects continued revenue growth in CY2026 but escalating DRAM costs for image computers will negatively impact gross margin going forward",
         "opex": null,
-        "notes": "Expects continued revenue growth in CY2026 but escalating DRAM costs for image computers will negatively impact gross margin going forward"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "Demand for advanced semiconductor technologies, particularly evident in the 2-nanometer node, which is seeing higher levels of investment and process control intensity, continues to drive investments in AI. Increasing complexity and value of semiconductor packages, particularly for AI and high-performance computing applications, is also driving significant growth in our advanced packaging business.",
       "quote_section": "Item 2 MD&A — Executive Summary"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-LRCX-0000707549-26-000009",
@@ -3925,7 +4433,7 @@
     "date": "2026-01-29",
     "source": "SEC EDGAR (LRCX)",
     "source_type": "filing",
-    "headline": "LRCX files 10-Q: 10-Q",
+    "headline": "LRCX files 10-Q: periodic report",
     "quote": "The decrease in the foundry market segment for the December 2025 quarter compared to the September 2025 quarter was primarily driven by mature node investments, while the memory market segment saw strengthened DRAM investments offset by lower non-volatile memory spending.",
     "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000009/lrcx-20251228.htm",
     "layer_ids": [
@@ -3945,15 +4453,16 @@
         "Deferred revenue $2.25B at qtr-end (down from $2.77B at Sep qtr-end) on decrease in customer down payments"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Mgmt notes WFE spending was strong in CY2025 driven by higher demand across memory and non-memory; tariffs/trade restrictions cited as ongoing negative factor on revenue and operating margin",
         "opex": null,
-        "notes": "Mgmt notes WFE spending was strong in CY2025 driven by higher demand across memory and non-memory; tariffs/trade restrictions cited as ongoing negative factor on revenue and operating margin"
+        "period": null,
+        "revenue": null
       },
       "quote": "The decrease in the foundry market segment for the December 2025 quarter compared to the September 2025 quarter was primarily driven by mature node investments, while the memory market segment saw strengthened DRAM investments offset by lower non-volatile memory spending.",
       "quote_section": "Item 2 MD&A — Results of Operations"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-KLAC-0000319201-26-000006",
@@ -3962,7 +4471,7 @@
     "date": "2026-01-29",
     "source": "SEC EDGAR (KLAC)",
     "source_type": "filing",
-    "headline": "KLAC files 8-K: 8-K",
+    "headline": "KLAC files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000006/klac-20260129.htm",
     "layer_ids": [
@@ -3970,7 +4479,8 @@
     ],
     "tickers": [
       "KLAC"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-MXL-0001288469-26-000011",
@@ -3979,7 +4489,7 @@
     "date": "2026-01-29",
     "source": "SEC EDGAR (MXL)",
     "source_type": "filing",
-    "headline": "MXL files 10-K: 10-K",
+    "headline": "MXL files 10-K: periodic report",
     "quote": "Currently, while server connections are transitioning from 10Gbps to 25Gbps or 100Gbps speeds, router and switch connections are moving from 400G to 800 and 1600Gbps (1.6T) interconnections, with the next generation of switch connections (under development) targeting 1600Gbps.",
     "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000011/mxl-20251231.htm",
     "layer_ids": [
@@ -4000,15 +4510,16 @@
         "R&D -7% to $208.6M on workforce reductions; mgmt notes R&D will need to re-expand for next-gen products"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Mgmt expects revenue to fluctuate consistent with industry cyclicality; no point guidance in 10-K",
         "opex": null,
-        "notes": "Mgmt expects revenue to fluctuate consistent with industry cyclicality; no point guidance in 10-K"
+        "period": null,
+        "revenue": null
       },
       "quote": "Currently, while server connections are transitioning from 10Gbps to 25Gbps or 100Gbps speeds, router and switch connections are moving from 400G to 800 and 1600Gbps (1.6T) interconnections, with the next generation of switch connections (under development) targeting 1600Gbps.",
       "quote_section": "Item 1 Business — Data Center Infrastructure"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MXL-0001288469-26-000009",
@@ -4017,7 +4528,7 @@
     "date": "2026-01-29",
     "source": "SEC EDGAR (MXL)",
     "source_type": "filing",
-    "headline": "MXL files 8-K: 8-K",
+    "headline": "MXL files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000009/mxl-20260129.htm",
     "layer_ids": [
@@ -4025,7 +4536,8 @@
     ],
     "tickers": [
       "MXL"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-GEV-0001996810-26-000015",
@@ -4034,7 +4546,7 @@
     "date": "2026-01-29",
     "source": "SEC EDGAR (GEV)",
     "source_type": "filing",
-    "headline": "GEV files 10-K: 10-K",
+    "headline": "GEV files 10-K: periodic report",
     "quote": "We believe that gas power plays an essential role in the energy transition, serving as a fundamental source of reliable and dispatchable power to support industrialization, grid stability needs, and rising electricity demand from hyperscalers and data centers.",
     "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000015/gev-20251231.htm",
     "layer_ids": [
@@ -4056,15 +4568,34 @@
         "Tariff impact $250M in 2025 after contractual protections; Fitch upgraded to BBB+, S&P to BBB (positive outlook)"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "$5B cumulative R&D investment 2025-2028 across businesses; ~half on industrializing existing products and installed base",
         "opex": null,
-        "notes": "$5B cumulative R&D investment 2025-2028 across businesses; ~half on industrializing existing products and installed base"
+        "period": null,
+        "revenue": null
       },
       "quote": "We believe that gas power plays an essential role in the energy transition, serving as a fundamental source of reliable and dispatchable power to support industrialization, grid stability needs, and rising electricity demand from hyperscalers and data centers.",
       "quote_section": "Item 1 Business — Power"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CAT-0000018230-26-000003",
+    "accession": "0000018230-26-000003",
+    "form": "8-K",
+    "date": "2026-01-29",
+    "source": "SEC EDGAR (CAT)",
+    "source_type": "filing",
+    "headline": "CAT files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000003/cat-20260129.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CAT"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-META-0001628280-26-003942",
@@ -4073,7 +4604,7 @@
     "date": "2026-01-29",
     "source": "SEC EDGAR (META)",
     "source_type": "filing",
-    "headline": "META files 10-K: 10-K",
+    "headline": "META files 10-K: periodic report",
     "quote": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business.",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
     "layer_ids": [
@@ -4095,15 +4626,16 @@
         "Mgmt frames AI as primary investment driver; AI initiatives require 'significantly increased' infrastructure investment"
       ],
       "guidance": {
-        "period": "FY 2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "2026 capex $115-135B to support AI efforts and core business; 2026 effective tax rate 13-16%; RL op losses to remain similar to 2025's $19.2B",
         "opex": null,
-        "notes": "2026 capex $115-135B to support AI efforts and core business; 2026 effective tax rate 13-16%; RL op losses to remain similar to 2025's $19.2B"
+        "period": "FY 2026",
+        "revenue": null
       },
       "quote": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business.",
       "quote_section": "Item 7 MD&A - Liquidity and Capital Resources"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-NOW-0001373715-26-000007",
@@ -4112,7 +4644,7 @@
     "date": "2026-01-29",
     "source": "SEC EDGAR (NOW)",
     "source_type": "filing",
-    "headline": "NOW files 10-K: 10-K",
+    "headline": "NOW files 10-K: periodic report",
     "quote": "As of December 31, 2025, our RPO was $28.2 billion, of which 46% represented cRPO. RPO and cRPO increased by 27% and 25%, respectively, compared to December 31, 2024.",
     "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000007/now-20251231.htm",
     "layer_ids": [
@@ -4133,15 +4665,16 @@
         "OBBBA July 2025 enacted - immediate domestic R&D expensing; minimal Pillar 2 impact for now"
       ],
       "guidance": {
-        "period": "FY 2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Expects subscription revenue to grow in absolute dollars while staying ~flat as % of total revenue",
         "opex": null,
-        "notes": "Expects subscription revenue to grow in absolute dollars while staying ~flat as % of total revenue"
+        "period": "FY 2026",
+        "revenue": null
       },
       "quote": "As of December 31, 2025, our RPO was $28.2 billion, of which 46% represented cRPO. RPO and cRPO increased by 27% and 25%, respectively, compared to December 31, 2024.",
       "quote_section": "Item 7 MD&A - Key Business Metrics"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-LRCX-0000707549-26-000006",
@@ -4150,7 +4683,7 @@
     "date": "2026-01-28",
     "source": "SEC EDGAR (LRCX)",
     "source_type": "filing",
-    "headline": "LRCX files 8-K: 8-K",
+    "headline": "LRCX files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000006/lrcx-20260128.htm",
     "layer_ids": [
@@ -4158,7 +4691,8 @@
     ],
     "tickers": [
       "LRCX"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-GEV-0001996810-26-000012",
@@ -4167,7 +4701,7 @@
     "date": "2026-01-28",
     "source": "SEC EDGAR (GEV)",
     "source_type": "filing",
-    "headline": "GEV files 8-K: 8-K",
+    "headline": "GEV files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000012/gev-20260128.htm",
     "layer_ids": [
@@ -4175,7 +4709,8 @@
     ],
     "tickers": [
       "GEV"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-MSFT-0001193125-26-027207",
@@ -4184,7 +4719,7 @@
     "date": "2026-01-28",
     "source": "SEC EDGAR (MSFT)",
     "source_type": "filing",
-    "headline": "MSFT files 10-Q: 10-Q",
+    "headline": "MSFT files 10-Q: periodic report",
     "quote": "Commercial remaining performance obligation increased 110% to $625 billion... Azure and other cloud services revenue increased 39%.",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027207/msft-20251231.htm",
     "layer_ids": [
@@ -4205,15 +4740,16 @@
         "Total RPO $631B at Dec 31 2025 (weighted avg duration 2.5 years)"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Capex to continue increasing for cloud/AI infrastructure; gross margins remain pressured by AI investments",
         "opex": null,
-        "notes": "Capex to continue increasing for cloud/AI infrastructure; gross margins remain pressured by AI investments"
+        "period": null,
+        "revenue": null
       },
       "quote": "Commercial remaining performance obligation increased 110% to $625 billion... Azure and other cloud services revenue increased 39%.",
       "quote_section": "Item 2 MD&A - Highlights"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MSFT-0001193125-26-027198",
@@ -4222,7 +4758,7 @@
     "date": "2026-01-28",
     "source": "SEC EDGAR (MSFT)",
     "source_type": "filing",
-    "headline": "MSFT files 8-K: 8-K",
+    "headline": "MSFT files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-20260128.htm",
     "layer_ids": [
@@ -4230,7 +4766,8 @@
     ],
     "tickers": [
       "MSFT"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-META-0001628280-26-003832",
@@ -4239,7 +4776,7 @@
     "date": "2026-01-28",
     "source": "SEC EDGAR (META)",
     "source_type": "filing",
-    "headline": "META files 8-K: 8-K",
+    "headline": "META files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-20260128.htm",
     "layer_ids": [
@@ -4247,7 +4784,8 @@
     ],
     "tickers": [
       "META"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-NOW-0001373715-26-000005",
@@ -4256,7 +4794,7 @@
     "date": "2026-01-28",
     "source": "SEC EDGAR (NOW)",
     "source_type": "filing",
-    "headline": "NOW files 8-K: 8-K",
+    "headline": "NOW files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000005/now-20260128.htm",
     "layer_ids": [
@@ -4264,7 +4802,8 @@
     ],
     "tickers": [
       "NOW"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "asml-q4-fy25",
@@ -4279,7 +4818,8 @@
     ],
     "tickers": [
       "ASML"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-INTC-0000050863-26-000011",
@@ -4288,7 +4828,7 @@
     "date": "2026-01-23",
     "source": "SEC EDGAR (INTC)",
     "source_type": "filing",
-    "headline": "INTC files 10-K: 10-K",
+    "headline": "INTC files 10-K: periodic report",
     "quote": "If we are unable to secure a significant external foundry customer for Intel 14A, we may pause or discontinue our pursuit of Intel 14A and successor leading-edge process technologies. In such event, we would expect, over time, to shift manufacturing to third-party foundries, particularly TSMC.",
     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000011/intc-20251227.htm",
     "layer_ids": [
@@ -4309,15 +4849,16 @@
         "Intel 7 supply constraints hit CCG/DCAI revenue in Q4 2025 and expected to persist into Q1 2026; Altera deconsolidated Sep 12, 2025 (51% sold)"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Intel 7 wafer fabrication supply constraints expected to persist into 2026 with most severe impact in Q1 2026; may pause Intel 14A if no significant external foundry customer",
         "opex": null,
-        "notes": "Intel 7 wafer fabrication supply constraints expected to persist into 2026 with most severe impact in Q1 2026; may pause Intel 14A if no significant external foundry customer"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "If we are unable to secure a significant external foundry customer for Intel 14A, we may pause or discontinue our pursuit of Intel 14A and successor leading-edge process technologies. In such event, we would expect, over time, to shift manufacturing to third-party foundries, particularly TSMC.",
       "quote_section": "Item 1 Business — Strategy"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-INTC-0000050863-26-000009",
@@ -4326,7 +4867,7 @@
     "date": "2026-01-22",
     "source": "SEC EDGAR (INTC)",
     "source_type": "filing",
-    "headline": "INTC files 8-K: 8-K",
+    "headline": "INTC files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000009/intc-20260122.htm",
     "layer_ids": [
@@ -4335,7 +4876,8 @@
     ],
     "tickers": [
       "INTC"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "innolight-eoptolink-share",
@@ -4351,7 +4893,8 @@
     "tickers": [
       "300308.SZ",
       "300502.SZ"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-SNPS-0000883241-25-000028",
@@ -4360,7 +4903,7 @@
     "date": "2025-12-22",
     "source": "SEC EDGAR (SNPS)",
     "source_type": "filing",
-    "headline": "SNPS files 10-K: 10-K",
+    "headline": "SNPS files 10-K: periodic report",
     "quote": "On May 29, 2025, Synopsys received a so-called \"is-informed\" letter from the BIS imposing a license requirement for the export, reexport, or in-country transfer of EDA software and technology classified under export control classification numbers (ECCNs) 3D991 and 3E991 when a party to the transaction is located in China... The Q3 2025 BIS Restrictions were subsequently rescinded on July 2, 2025.",
     "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324125000028/snps-20251031.htm",
     "layer_ids": [
@@ -4380,15 +4923,16 @@
         "Share repurchase Program suspended after Ansys close pending debt reduction; $194.3M remains on authorization"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Expect growth across geographies in FY26 but challenging near-term in China due to macro and Trade Restrictions; muted Design IP growth expected; 2026 Plan workforce reduction to complete by FY27",
         "opex": null,
-        "notes": "Expect growth across geographies in FY26 but challenging near-term in China due to macro and Trade Restrictions; muted Design IP growth expected; 2026 Plan workforce reduction to complete by FY27"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "On May 29, 2025, Synopsys received a so-called \"is-informed\" letter from the BIS imposing a license requirement for the export, reexport, or in-country transfer of EDA software and technology classified under export control classification numbers (ECCNs) 3D991 and 3E991 when a party to the transaction is located in China... The Q3 2025 BIS Restrictions were subsequently rescinded on July 2, 2025.",
       "quote_section": "Item 7 MD&A - Impact of Global Trade Policy"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MU-0000723125-25-000046",
@@ -4397,7 +4941,7 @@
     "date": "2025-12-18",
     "source": "SEC EDGAR (MU)",
     "source_type": "filing",
-    "headline": "MU files 10-Q: 10-Q",
+    "headline": "MU files 10-Q: periodic report",
     "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage, at a rate greater than our ability to increase supply. This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply.",
     "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000046/mu-20251127.htm",
     "layer_ids": [
@@ -4417,15 +4961,16 @@
         "CHIPS Act direct funding up to $6.4B; 35% investment tax credit; $7.49B repurchased to date of $10B authorization"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "FY26 capex approximately $20 billion net of government incentives, weighted to H2; supply allocation decisions may impact certain customers as demand exceeds industry supply",
         "opex": null,
-        "notes": "FY26 capex approximately $20 billion net of government incentives, weighted to H2; supply allocation decisions may impact certain customers as demand exceeds industry supply"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "The AI-driven growth in the data center has accelerated demand for memory and storage, at a rate greater than our ability to increase supply. This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply.",
       "quote_section": "Item 2 MD&A — Industry Conditions"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-AVGO-0001730168-25-000121",
@@ -4434,7 +4979,7 @@
     "date": "2025-12-18",
     "source": "SEC EDGAR (AVGO)",
     "source_type": "filing",
-    "headline": "AVGO files 10-K: 10-K",
+    "headline": "AVGO files 10-K: periodic report",
     "quote": "The sale or leasing of AI racks or systems based on our XPUs will likely increase our operating margin but compress or lower future gross margin, which would adversely impact our stock price.",
     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000121/avgo-20251102.htm",
     "layer_ids": [
@@ -4455,15 +5000,16 @@
         "China shipments 17% of FY25 revenue (vs 20% FY24); end-customer China exposure substantially lower; capex expected higher in FY26 than FY25"
       ],
       "guidance": {
-        "period": "FY26",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Capex expected higher in FY26 vs FY25; Singapore enactment of Pillar Two global minimum tax expected to have material impact on FY26 results and cash flows",
         "opex": null,
-        "notes": "Capex expected higher in FY26 vs FY25; Singapore enactment of Pillar Two global minimum tax expected to have material impact on FY26 results and cash flows"
+        "period": "FY26",
+        "revenue": null
       },
       "quote": "The sale or leasing of AI racks or systems based on our XPUs will likely increase our operating margin but compress or lower future gross margin, which would adversely impact our stock price.",
       "quote_section": "Item 1A Risk Factors - Gross margin"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-HPE-0001645590-25-000130",
@@ -4472,7 +5018,7 @@
     "date": "2025-12-18",
     "source": "SEC EDGAR (HPE)",
     "source_type": "filing",
-    "headline": "HPE files 10-K: 10-K",
+    "headline": "HPE files 10-K: periodic report",
     "quote": "Networking net revenue increased by $2,318 million, or 51.1%, primarily due to a $1,444 million, or 43.2%, increase in product revenue, and $874 million, or 73.6%, increase in service revenue. The increase in product revenue was primarily led by revenue attributable to Juniper Networks of $1,367 million, or 40.9%.",
     "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000130/hpe-20251031.htm",
     "layer_ids": [
@@ -4493,15 +5039,16 @@
         "AI Systems demand drives 'significant AI backlog' but mgmt flags data center space, GPU supply transition, and lumpy AI deals as inventory-elevating swing factors"
       ],
       "guidance": {
-        "period": "FY26-FY28",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Targeting at least $600M in Juniper synergies by FY28 with ~$800M of integration investment; FY26 ARR growth to continue on networking aaS",
         "opex": null,
-        "notes": "Targeting at least $600M in Juniper synergies by FY28 with ~$800M of integration investment; FY26 ARR growth to continue on networking aaS"
+        "period": "FY26-FY28",
+        "revenue": null
       },
       "quote": "Networking net revenue increased by $2,318 million, or 51.1%, primarily due to a $1,444 million, or 43.2%, increase in product revenue, and $874 million, or 73.6%, increase in service revenue. The increase in product revenue was primarily led by revenue attributable to Juniper Networks of $1,367 million, or 40.9%.",
       "quote_section": "Item 7 MD&A — Segment Information"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "abf-substrate-expansion",
@@ -4517,7 +5064,8 @@
     "tickers": [
       "4062.T",
       "3037.TW"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-MU-0000723125-25-000044",
@@ -4526,15 +5074,36 @@
     "date": "2025-12-17",
     "source": "SEC EDGAR (MU)",
     "source_type": "filing",
-    "headline": "MU files 8-K: 8-K",
-    "quote": "",
+    "headline": "MU files 8-K: Earnings release",
+    "quote": "Our Q2 outlook reflects substantial records across revenue, gross margin, EPS and free cash flow, and we anticipate our business performance to continue strengthening through fiscal 2026.",
     "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312525000044/mu-20251217.htm",
     "layer_ids": [
       "hbm"
     ],
     "tickers": [
       "MU"
-    ]
+    ],
+    "summary": {
+      "tldr": "Q1 FY26 record results: revenue $13.64B (+57% YoY), non-GAAP EPS $4.78, GM 56.8%; Q2 outlook guides revenue to $18.7B with 68% GM and $8.42 EPS — substantial sequential records.",
+      "takeaways": [
+        "Q1 FY26 reported: revenue $13.64B (+57% YoY, +21% QoQ), non-GAAP EPS $4.78, non-GAAP GM 56.8% (vs 39.5% Q1 FY25)",
+        "Operating cash flow $8.41B (highest ever); adjusted FCF $3.9B; capex net $4.5B; ending cash/investments $12.0B",
+        "Cloud Memory BU (HBM + hyperscale DRAM) $5.28B revenue (+100% YoY) at 55% op margin; CDBU $2.38B @ 37%; MCBU $4.26B @ 47%; AEBU $1.72B @ 36%",
+        "Q2 FY26 guidance: revenue $18.7B ± $400M, non-GAAP GM 68.0% ± 1pt, non-GAAP opex $1.38B ± $20M, non-GAAP EPS $8.42 ± $0.20",
+        "Q2 EPS guide implies +76% QoQ — would be a step-function from $4.78 to $8.42 driven by tight industry supply and mix shift to HBM/DRAM",
+        "Dividend held at $0.115/share; $7.49B of $10B buyback already executed"
+      ],
+      "guidance": {
+        "gross_margin": "68.0% ± 1.0% (non-GAAP)",
+        "notes": "Diluted EPS $8.42 ± $0.20 non-GAAP ($8.19 ± $0.20 GAAP); CEO: 'substantial records across revenue, gross margin, EPS and free cash flow'",
+        "opex": "$1.38B ± $20M (non-GAAP)",
+        "period": "Q2 FY26",
+        "revenue": "$18.70B ± $400M"
+      },
+      "quote": "Our Q2 outlook reflects substantial records across revenue, gross margin, EPS and free cash flow, and we anticipate our business performance to continue strengthening through fiscal 2026.",
+      "quote_section": "Q1 FY26 earnings release (CEO Sanjay Mehrotra)"
+    },
+    "arch_risk": false
   },
   {
     "id": "micron-fq1-2026",
@@ -4549,7 +5118,8 @@
     ],
     "tickers": [
       "MU"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-AMAT-0001628280-25-056742",
@@ -4558,7 +5128,7 @@
     "date": "2025-12-12",
     "source": "SEC EDGAR (AMAT)",
     "source_type": "filing",
-    "headline": "AMAT files 10-K: 10-K",
+    "headline": "AMAT files 10-K: periodic report",
     "quote": "Investments by semiconductor equipment customers are expected to remain strong with growth in the adoption of high-bandwidth memory and other forms of advanced packaging, continued demand for AI and data center computing, and for non-leading edge nodes.",
     "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828025056742/amat-20251026.htm",
     "layer_ids": [
@@ -4579,15 +5149,35 @@
         "Two-customer concentration at 19% and 15% of revenue; geographic concentration in China/Taiwan/Korea flagged as risk"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "10-K qualitative: investments by semi customers expected to remain strong with HBM and advanced packaging adoption; non-leading-edge node demand continues",
         "opex": null,
-        "notes": "10-K qualitative: investments by semi customers expected to remain strong with HBM and advanced packaging adoption; non-leading-edge node demand continues"
+        "period": null,
+        "revenue": null
       },
       "quote": "Investments by semiconductor equipment customers are expected to remain strong with growth in the adoption of high-bandwidth memory and other forms of advanced packaging, continued demand for AI and data center computing, and for non-leading edge nodes.",
       "quote_section": "Item 7 MD&A — Results of Operations"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AVGO-0001730168-25-000116",
+    "accession": "0001730168-25-000116",
+    "form": "8-K",
+    "date": "2025-12-11",
+    "source": "SEC EDGAR (AVGO)",
+    "source_type": "filing",
+    "headline": "AVGO files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016825000116/avgo-20251211.htm",
+    "layer_ids": [
+      "gpu",
+      "networking"
+    ],
+    "tickers": [
+      "AVGO"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-ORCL-0001193125-25-315925",
@@ -4596,7 +5186,7 @@
     "date": "2025-12-11",
     "source": "SEC EDGAR (ORCL)",
     "source_type": "filing",
-    "headline": "ORCL files 10-Q: 10-Q",
+    "headline": "ORCL files 10-Q: periodic report",
     "quote": "Remaining performance obligations were $523.3 billion and $97.3 billion as of November 30, 2025 and 2024, respectively. The increase in remaining performance obligations as of November 30, 2025 in comparison to November 30, 2024 was primarily attributable to certain significant cloud contracts that were entered into during the period.",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm",
     "layer_ids": [
@@ -4617,15 +5207,16 @@
         "Stock repurchases minimal ($95M) - cash deployed to capex"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Capex expected to keep increasing through FY26 and next few fiscal years to expand data center capacity",
         "opex": null,
-        "notes": "Capex expected to keep increasing through FY26 and next few fiscal years to expand data center capacity"
+        "period": null,
+        "revenue": null
       },
       "quote": "Remaining performance obligations were $523.3 billion and $97.3 billion as of November 30, 2025 and 2024, respectively. The increase in remaining performance obligations as of November 30, 2025 in comparison to November 30, 2024 was primarily attributable to certain significant cloud contracts that were entered into during the period.",
       "quote_section": "Item 2 MD&A - Remaining Performance Obligations"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-ORCL-0001193125-25-314207",
@@ -4634,7 +5225,7 @@
     "date": "2025-12-10",
     "source": "SEC EDGAR (ORCL)",
     "source_type": "filing",
-    "headline": "ORCL files 8-K: 8-K",
+    "headline": "ORCL files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/orcl-20251210.htm",
     "layer_ids": [
@@ -4642,7 +5233,26 @@
     ],
     "tickers": [
       "ORCL"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-SNPS-0001193125-25-314200",
+    "accession": "0001193125-25-314200",
+    "form": "8-K",
+    "date": "2025-12-10",
+    "source": "SEC EDGAR (SNPS)",
+    "source_type": "filing",
+    "headline": "SNPS files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312525314200/d29055d8k.htm",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [
+      "SNPS"
+    ],
+    "arch_risk": false
   },
   {
     "id": "delloro-ethernet-shift",
@@ -4659,7 +5269,8 @@
     "tickers": [
       "AVGO",
       "ANET"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "cowos-fully-booked",
@@ -4676,7 +5287,8 @@
       "TSM",
       "ASX",
       "AMKR"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-SNOW-0001640147-25-000211",
@@ -4685,7 +5297,7 @@
     "date": "2025-12-05",
     "source": "SEC EDGAR (SNOW)",
     "source_type": "filing",
-    "headline": "SNOW files 10-Q: 10-Q",
+    "headline": "SNOW files 10-Q: periodic report",
     "quote": "As of October 31, 2025, our remaining performance obligations were approximately $7.9 billion, of which we expect approximately 48% to be recognized as revenue in the 12 months ending October 31, 2026 based on historical customer consumption patterns.",
     "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000211/snow-20251031.htm",
     "layer_ids": [
@@ -4706,15 +5318,34 @@
         "Convertible notes Sale Price Trigger met during Q3 - holders may convert"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "RPO timing depends on consumption variability; mgmt expects NRR to decline over long-term as base matures",
         "opex": null,
-        "notes": "RPO timing depends on consumption variability; mgmt expects NRR to decline over long-term as base matures"
+        "period": null,
+        "revenue": null
       },
       "quote": "As of October 31, 2025, our remaining performance obligations were approximately $7.9 billion, of which we expect approximately 48% to be recognized as revenue in the 12 months ending October 31, 2026 based on historical customer consumption patterns.",
       "quote_section": "Item 2 MD&A - Remaining Performance Obligations"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-HPE-0001645590-25-000126",
+    "accession": "0001645590-25-000126",
+    "form": "8-K",
+    "date": "2025-12-04",
+    "source": "SEC EDGAR (HPE)",
+    "source_type": "filing",
+    "headline": "HPE files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1645590/000164559025000126/hpe-20251204.htm",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [
+      "HPE"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-CRM-0001108524-25-000238",
@@ -4723,7 +5354,7 @@
     "date": "2025-12-04",
     "source": "SEC EDGAR (CRM)",
     "source_type": "filing",
-    "headline": "CRM files 10-Q: 10-Q",
+    "headline": "CRM files 10-Q: periodic report",
     "quote": "In addition, the markets and monetization strategies for certain offerings, including Agentforce and Data Cloud, remain relatively new and uncertain... We offer certain products, including Agentforce and Data Cloud, through a consumption-based business model.",
     "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000238/crm-20251031.htm",
     "layer_ids": [
@@ -4743,15 +5374,16 @@
         "Implemented new ERP in Q2 FY26 - infrastructure investment to support AI products"
       ],
       "guidance": {
-        "period": "FY 2026",
-        "revenue": null,
         "gross_margin": null,
+        "notes": "No explicit guidance in MD&A; R&D expected to remain consistent as % of revenue with continued AI/Agents/Data Cloud investment",
         "opex": null,
-        "notes": "No explicit guidance in MD&A; R&D expected to remain consistent as % of revenue with continued AI/Agents/Data Cloud investment"
+        "period": "FY 2026",
+        "revenue": null
       },
       "quote": "In addition, the markets and monetization strategies for certain offerings, including Agentforce and Data Cloud, remain relatively new and uncertain... We offer certain products, including Agentforce and Data Cloud, through a consumption-based business model.",
       "quote_section": "Item 1A Risk Factors"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MRVL-0001835632-25-000197",
@@ -4781,15 +5413,16 @@
         "China shipment destination 40% of Q3 revenue (mostly non-China end-customers); Asia 77% overall"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Flagged risk that USG 15% China revenue-sharing or 25% tariff could erode gross margin and pricing flexibility",
         "opex": null,
-        "notes": "Flagged risk that USG 15% China revenue-sharing or 25% tariff could erode gross margin and pricing flexibility"
+        "period": null,
+        "revenue": null
       },
       "quote": "Our accounts receivable was concentrated with three customers at November 1, 2025, who represented a total of 70% of gross accounts receivable...",
       "quote_section": "Item 2 MD&A - Sales and Customer Composition"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-CRM-0001108524-25-000234",
@@ -4798,7 +5431,7 @@
     "date": "2025-12-03",
     "source": "SEC EDGAR (CRM)",
     "source_type": "filing",
-    "headline": "CRM files 8-K: 8-K",
+    "headline": "CRM files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000234/crm-20251203.htm",
     "layer_ids": [
@@ -4806,7 +5439,26 @@
     ],
     "tickers": [
       "CRM"
-    ]
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-SNOW-0001640147-25-000207",
+    "accession": "0001640147-25-000207",
+    "form": "8-K",
+    "date": "2025-12-03",
+    "source": "SEC EDGAR (SNOW)",
+    "source_type": "filing",
+    "headline": "SNOW files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014725000207/snow-20251203.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "SNOW"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-MRVL-0001835632-25-000193",
@@ -4824,7 +5476,8 @@
     ],
     "tickers": [
       "MRVL"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-NVDA-0001045810-25-000230",
@@ -4833,7 +5486,7 @@
     "date": "2025-11-19",
     "source": "SEC EDGAR (NVDA)",
     "source_type": "filing",
-    "headline": "NVDA files 10-Q: 10-Q",
+    "headline": "NVDA files 10-Q: periodic report",
     "quote": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers is crucial, and any shortage of these resources could impact our future revenue and financial performance.",
     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000230/nvda-20251026.htm",
     "layer_ids": [
@@ -4854,15 +5507,16 @@
         "USG seeking 15% revenue share on licensed H20 sales not yet codified; GAIN AI Act in Senate-passed NDAA threatens future license flexibility"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers is crucial, and any shortage of these resources could impact our future revenue and financial performance.",
       "quote_section": "Item 2 MD&A - Recent Developments, Future Objectives and Challenges"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-NVDA-0001045810-25-000228",
@@ -4871,7 +5525,7 @@
     "date": "2025-11-19",
     "source": "SEC EDGAR (NVDA)",
     "source_type": "filing",
-    "headline": "NVDA files 8-K: 8-K",
+    "headline": "NVDA files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000228/nvda-20251119.htm",
     "layer_ids": [
@@ -4880,7 +5534,8 @@
     ],
     "tickers": [
       "NVDA"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-CSCO-0000858877-25-000171",
@@ -4889,7 +5544,7 @@
     "date": "2025-11-18",
     "source": "SEC EDGAR (CSCO)",
     "source_type": "filing",
-    "headline": "CSCO files 10-Q: 10-Q",
+    "headline": "CSCO files 10-Q: periodic report",
     "quote": "In fiscal 2025 and in the first quarter of fiscal 2026, we entered into additional purchase commitments with contract manufacturers and suppliers related to manufacturing Cisco Silicon One and other products to meet demand from hyperscalers and other customers. We expect to continue entering into these additional purchase commitments in fiscal 2026.",
     "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000171/csco-20251025.htm",
     "layer_ids": [
@@ -4910,15 +5565,35 @@
         "Repurchased $2.0B stock and paid $1.6B dividend; cash and investments $15.7B vs total debt $28.1B"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": null,
         "opex": null,
-        "notes": null
+        "period": null,
+        "revenue": null
       },
       "quote": "In fiscal 2025 and in the first quarter of fiscal 2026, we entered into additional purchase commitments with contract manufacturers and suppliers related to manufacturing Cisco Silicon One and other products to meet demand from hyperscalers and other customers. We expect to continue entering into these additional purchase commitments in fiscal 2026.",
       "quote_section": "Item 1A Risk Factors — Supply Chain"
-    }
+    },
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CSCO-0001193125-25-277624",
+    "accession": "0001193125-25-277624",
+    "form": "8-K",
+    "date": "2025-11-12",
+    "source": "SEC EDGAR (CSCO)",
+    "source_type": "filing",
+    "headline": "CSCO files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000119312525277624/d484663d8k.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "CSCO"
+    ],
+    "arch_risk": false
   },
   {
     "id": "edgar-MOD-0001104659-25-103646",
@@ -4927,7 +5602,7 @@
     "date": "2025-10-29",
     "source": "SEC EDGAR (MOD)",
     "source_type": "filing",
-    "headline": "MOD files 10-Q: 10-Q",
+    "headline": "MOD files 10-Q: periodic report",
     "quote": "Cost of sales was unfavorably impacted by temporary operating inefficiencies in the Climate Solutions segment, largely due to the rapid expansion of manufacturing capacity for data center products...",
     "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465925103646/mod-20250930x10q.htm",
     "layer_ids": [
@@ -4947,15 +5622,16 @@
         "No share buybacks in 1H FY26; $81.6M remains on authorization"
       ],
       "guidance": {
-        "period": null,
-        "revenue": null,
         "gross_margin": null,
+        "notes": "Planning incremental $100M capex over next 12 months for US data center capacity expansion",
         "opex": null,
-        "notes": "Planning incremental $100M capex over next 12 months for US data center capacity expansion"
+        "period": null,
+        "revenue": null
       },
       "quote": "Cost of sales was unfavorably impacted by temporary operating inefficiencies in the Climate Solutions segment, largely due to the rapid expansion of manufacturing capacity for data center products...",
       "quote_section": "Item 2 MD&A - Results of Operations"
-    }
+    },
+    "arch_risk": false
   },
   {
     "id": "edgar-MOD-0001104659-25-103221",
@@ -4964,7 +5640,7 @@
     "date": "2025-10-28",
     "source": "SEC EDGAR (MOD)",
     "source_type": "filing",
-    "headline": "MOD files 8-K: 8-K",
+    "headline": "MOD files 8-K: Earnings release",
     "quote": "",
     "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465925103221/mod-20251028x8k.htm",
     "layer_ids": [
@@ -4972,7 +5648,8 @@
     ],
     "tickers": [
       "MOD"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-2398c6a40c825b32",
@@ -4986,7 +5663,8 @@
       "gpu",
       "optics"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-f65fc98e9cdefd72",
@@ -4999,7 +5677,8 @@
     "layer_ids": [
       "gpu"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-6253ccc1f3af3f09",
@@ -5013,7 +5692,8 @@
       "foundry",
       "hbm"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-eddb6d423ce26a92",
@@ -5029,7 +5709,8 @@
     ],
     "tickers": [
       "NOW"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "rss-4af35d771ad8c8ae",
@@ -5042,7 +5723,8 @@
     "layer_ids": [
       "gpu"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-f0a3dc3a3b319874",
@@ -5055,7 +5737,8 @@
     "layer_ids": [
       "hbm"
     ],
-    "tickers": []
+    "tickers": [],
+    "arch_risk": false
   },
   {
     "id": "rss-0a4b342f7babf062",
@@ -5071,7 +5754,8 @@
     ],
     "tickers": [
       "AMD"
-    ]
+    ],
+    "arch_risk": false
   },
   {
     "id": "mckinsey-1p6t-shortfall",
@@ -5088,6 +5772,7 @@
       "LITE",
       "COHR",
       "FN"
-    ]
+    ],
+    "arch_risk": false
   }
 ]

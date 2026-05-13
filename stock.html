@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=2">
 </head>
 <body class="min-h-screen">
   <div id="header"></div>
@@ -16,8 +16,8 @@
     <div id="content"></div>
   </main>
 
-  <script src="assets/app.js"></script>
-  <script src="assets/components.js"></script>
+  <script src="assets/app.js?v=2"></script>
+  <script src="assets/components.js?v=2"></script>
   <script>
     (async () => {
       await loadAll();
@@ -38,12 +38,32 @@
       const f = (DATA.fundamentals || {})[ticker] || {};
       const ciq = f.ciq || {};
       const px = (DATA.prices || {})[ticker] || {};
+      const ne = f.next_earnings || null;
       const score = f.score || null;
       const q = (score && score.quadrant) || "unscored";
       const primaryLayer = layerById(player.layer_id);
       const secondary = (player.secondary_layers || []).map((id) => layerById(id)).filter(Boolean);
       const tickerSignals = (DATA.signals || []).filter((s) => (s.tickers || []).includes(ticker));
       const mh = (DATA.multiples_history || {})[ticker];
+
+      // ---------- Earnings ribbon ----------
+      let earningsPill = "";
+      if (ne && ne.date) {
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+        const dt = new Date(ne.date);
+        const days = Math.round((dt - today) / (24 * 3600 * 1000));
+        const dateLbl = ne.range_end && ne.range_end !== ne.date
+          ? `${fmtDate(ne.date)} – ${fmtDate(ne.range_end)}`
+          : fmtDate(ne.date);
+        const within = days >= 0 && days <= 14;
+        const dayLbl = days === 0 ? "today"
+          : days === 1 ? "tomorrow"
+          : days > 0 ? `in ${days}d`
+          : `${-days}d ago`;
+        const confirmTip = ne.confirmed ? "yfinance" : "yfinance (estimated)";
+        earningsPill = `<span class="earnings-pill ${within ? 'earnings-pill--imminent' : ''}" title="Next earnings · ${escapeHtml(confirmTip)}">📅 Earnings ${escapeHtml(dateLbl)} <span class="earnings-pill__rel">${escapeHtml(dayLbl)}</span></span>`;
+      }
 
       // ---------- Header ----------
       const headerHtml = `
@@ -53,6 +73,7 @@
             <div class="flex items-baseline gap-3 flex-wrap">
               <div class="stock-header__ticker">${escapeHtml(ticker)}</div>
               <span class="qpill qpill--${q}" title="${escapeHtml(quadrantLabel(q) + ' — ' + quadrantDefinition(q))}">${escapeHtml(quadrantLabel(q))}</span>
+              ${earningsPill}
             </div>
             <div class="stock-header__name">${escapeHtml(f.long_name || player.name)}</div>
             <div class="stock-header__meta">
@@ -172,6 +193,9 @@
 
         <div class="section-divider">Cross-quarter shifts</div>
         <section>${cqHtml}</section>
+
+        <div class="section-divider">What's priced in</div>
+        <section>${renderImpliedCAGRCard(ticker, f)}</section>
 
         <div class="section-divider">Multiples history (8y)</div>
         <section>${chartHtml}</section>

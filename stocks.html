@@ -6,7 +6,7 @@
   <title>Tracked stocks · Inference Stack</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=2">
 </head>
 <body class="min-h-screen">
   <div id="header"></div>
@@ -37,8 +37,8 @@
     <div id="empty" class="text-center text-[color:var(--text-faint)] py-16 hidden">No tickers match.</div>
   </main>
 
-  <script src="assets/app.js"></script>
-  <script src="assets/components.js"></script>
+  <script src="assets/app.js?v=2"></script>
+  <script src="assets/components.js?v=2"></script>
   <script>
     (async () => {
       await loadAll();
@@ -46,6 +46,7 @@
       document.getElementById("quadrant-legend").innerHTML = renderQuadrantLegend();
 
       // Build per-ticker rows with everything needed for sort + render.
+      const todayMs = (() => { const d = new Date(); d.setHours(0,0,0,0); return d.getTime(); })();
       const rows = DATA.players.map((p) => {
         const px = DATA.prices[p.ticker] || {};
         const f = DATA.fundamentals[p.ticker] || {};
@@ -54,6 +55,10 @@
         const q = (score && score.quadrant) || "unscored";
         const layer = layerById(p.layer_id);
         const mcap = ciq.market_cap_usd ?? f.market_cap_usd ?? (f.currency === "USD" ? f.market_cap : null);
+        const ne = f.next_earnings || null;
+        const earnDays = ne && ne.date
+          ? Math.round((new Date(ne.date).getTime() - todayMs) / (24 * 3600 * 1000))
+          : null;
         return {
           player: p,
           layer,
@@ -69,8 +74,13 @@
           p_s: ciq.p_s,
           ebitda_mgn: ciq.ebitda_margin,
           rev_yoy: ciq.revenue_yoy,
+          earn_date: ne && ne.date ? ne.date : null,
+          earn_days: earnDays,
+          earn_confirmed: ne ? !!ne.confirmed : false,
           biz: score ? score.business : null,
           val: score ? score.valuation : null,
+          implied_cagr: score ? score.implied_5y_cagr : null,
+          implied_delta: score ? score.implied_vs_recent_growth : null,
         };
       });
 
@@ -116,8 +126,11 @@
         pe_fwd: { type: "num", get: (r) => r.pe_fwd },
         ev_ebitda: { type: "num", get: (r) => r.ev_ebitda },
         rev_yoy: { type: "num", get: (r) => r.rev_yoy },
+        earn: { type: "num", get: (r) => r.earn_days },  // asc = soonest first
         biz: { type: "num", get: (r) => r.biz },
         val: { type: "num", get: (r) => r.val },
+        implied_cagr: { type: "num", get: (r) => r.implied_cagr },
+        implied_delta: { type: "num", get: (r) => r.implied_delta },
       };
 
       function sortRows(rs, key, dir) {
@@ -141,6 +154,14 @@
         const yoyPct = r.rev_yoy != null ? r.rev_yoy * 100 : null;
         const yoyCls = changeClass(yoyPct);
         const colorFor = (cls) => cls === 'up' ? 'text-[color:var(--green)]' : cls === 'dn' ? 'text-[color:var(--rose)]' : 'text-[color:var(--text-faint)]';
+        let earnCell = `<span class="text-[color:var(--text-faint)]">—</span>`;
+        if (r.earn_date) {
+          const days = r.earn_days;
+          const imm = days != null && days >= 0 && days <= 14;
+          const rel = days == null ? "" : (days === 0 ? "today" : days === 1 ? "1d" : days > 0 ? `${days}d` : `${-days}d ago`);
+          const tip = r.earn_confirmed ? "yfinance" : "yfinance (estimated)";
+          earnCell = `<span class="${imm ? 'text-[color:var(--violet)]' : 'text-[color:var(--text-dim)]'}" title="${escapeHtml(tip)}">${escapeHtml(fmtDate(r.earn_date))} <span class="text-[color:var(--text-faint)]">${rel}</span></span>`;
+        }
         return `
           <tr>
             <td><a class="ticker text-white hover:text-[color:var(--sky)] hover:underline underline-offset-2" href="stock.html?ticker=${encodeURIComponent(p.ticker)}">${p.ticker}</a></td>
@@ -150,10 +171,13 @@
             <td class="num text-right ${colorFor(c1cls)}">${fmtPct(r.c1)}</td>
             <td class="num text-right hidden md:table-cell ${colorFor(c6cls)}">${fmtPct(r.c6)}</td>
             <td class="num text-right hidden md:table-cell ${colorFor(cycls)}">${fmtPct(r.cy)}</td>
+            <td class="text-right text-xs hidden md:table-cell tabular-nums whitespace-nowrap">${earnCell}</td>
             <td class="num text-right text-[color:var(--text-dim)] hidden md:table-cell">${fmtMcap(r.mcap)}</td>
             <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${fmtPE(r.pe_fwd)}</td>
             <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${fmtMultiple(r.ev_ebitda)}</td>
             <td class="num text-right hidden lg:table-cell ${colorFor(yoyCls)}">${fmtPct(yoyPct)}</td>
+            <td class="num text-right hidden lg:table-cell text-[color:var(--text-dim)]" title="What 5y EPS CAGR the current trailing P/E implies, under r=10% / terminal P/E=18.">${r.implied_cagr == null ? '<span class="text-[color:var(--text-faint)]">—</span>' : fmtPct(r.implied_cagr * 100)}</td>
+            <td class="num text-right hidden lg:table-cell" title="Delta: implied CAGR minus most-recent revenue YoY. Negative = market modeling deceleration; the variant-perception zone if you think recent growth is durable.">${r.implied_delta == null ? '<span class="text-[color:var(--text-faint)]">—</span>' : `<span class="${r.implied_delta >= 0 ? 'text-[color:var(--green)]' : 'text-[color:var(--rose)]'}">${fmtPct(r.implied_delta * 100)}</span>`}</td>
             <td class="text-right hidden xl:table-cell whitespace-nowrap">${renderScoreBar(r.biz)}</td>
             <td class="text-right hidden xl:table-cell whitespace-nowrap">${renderScoreBar(r.val)}</td>
           </tr>`;
@@ -192,10 +216,13 @@
                   ${headerCell("1m", "c1", sort, { align: "right" })}
                   ${headerCell("6m", "c6", sort, { align: "right", hidden: "hidden md:table-cell" })}
                   ${headerCell("YTD", "cy", sort, { align: "right", hidden: "hidden md:table-cell" })}
+                  ${headerCell("Earnings", "earn", sort, { align: "right", hidden: "hidden md:table-cell", title: "Next earnings date (yfinance). Violet = within 14 days." })}
                   ${headerCell("Mkt cap", "mcap", sort, { align: "right", hidden: "hidden md:table-cell" })}
                   ${headerCell("P/E fwd", "pe_fwd", sort, { align: "right", hidden: "hidden lg:table-cell", title: "Forward P/E from yfinance" })}
                   ${headerCell("EV/EBITDA", "ev_ebitda", sort, { align: "right", hidden: "hidden lg:table-cell", title: "Trailing EV/EBITDA — S&P Capital IQ" })}
                   ${headerCell("Rev YoY", "rev_yoy", sort, { align: "right", hidden: "hidden lg:table-cell", title: "Revenue YoY (latest fiscal year) — S&P Capital IQ" })}
+                  ${headerCell("Implied 5y", "implied_cagr", sort, { align: "right", hidden: "hidden lg:table-cell", title: "Reverse-DCF implied 5y EPS CAGR — what the current trailing P/E demands, assuming r=10% and exit P/E=18." })}
+                  ${headerCell("vs YoY", "implied_delta", sort, { align: "right", hidden: "hidden lg:table-cell", title: "Implied CAGR minus most-recent revenue YoY. Negative = market expecting deceleration. The big-negative names are the variant-perception zone IF you think recent growth is durable." })}
                   ${headerCell("Biz", "biz", sort, { align: "right", hidden: "hidden xl:table-cell", title: "Business score (z-scored within layer). Positive = strong." })}
                   ${headerCell("Val", "val", sort, { align: "right", hidden: "hidden xl:table-cell", title: "Valuation score (z-scored within layer). Positive = cheap." })}
                 </tr>
@@ -244,7 +271,9 @@
                 cur.dir = cur.dir === "desc" ? "asc" : "desc";
               } else {
                 cur.key = key;
-                cur.dir = SORT_KEYS[key].type === "num" ? "desc" : "asc";
+                // Earnings: asc (soonest first) is the useful default; other
+                // numeric columns: desc (biggest first).
+                cur.dir = key === "earn" ? "asc" : (SORT_KEYS[key].type === "num" ? "desc" : "asc");
               }
               render();
             });

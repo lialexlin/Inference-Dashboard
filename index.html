@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=2">
 </head>
 <body class="min-h-screen">
   <div id="header"></div>
@@ -23,6 +23,12 @@
         Memory has run. The interesting question is which layer of the inference stack — packaging, optics, power, substrates — is next to re-rate. Each card maps a layer of the stack, the global key players, and a status read on whether the trade is priced in or under-appreciated.
       </p>
     </section>
+
+    <section id="exit-triggers" class="relative z-10 mb-4"></section>
+
+    <section id="demand-strip" class="relative z-10 mb-4"></section>
+
+    <section id="arch-risk-strip" class="relative z-10 mb-6 hidden"></section>
 
     <section class="relative z-10 mb-4 flex items-center gap-3 flex-wrap">
       <span class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mr-2">Filter</span>
@@ -49,13 +55,40 @@
     </div>
   </footer>
 
-  <script src="assets/app.js"></script>
-  <script src="assets/components.js"></script>
+  <script src="assets/app.js?v=2"></script>
+  <script src="assets/components.js?v=2"></script>
   <script>
     (async () => {
       await loadAll();
       document.getElementById("header").innerHTML = shellHeader("overview");
       document.getElementById("status-legend").innerHTML = renderStatusLegend();
+      document.getElementById("exit-triggers").innerHTML = renderExitTriggers();
+      document.getElementById("demand-strip").innerHTML = renderDemandStrip();
+
+      // Arch-risk strip — top 5 most-recent algorithmic-shift signals (last 30d).
+      // Thesis-killer category; hidden if zero. Each signal already carries
+      // arch_risk: bool from jobs/transform.py.
+      (function renderArchRiskStrip() {
+        const strip = document.getElementById("arch-risk-strip");
+        if (!strip) return;
+        const cutoff = new Date(Date.now() - 30 * 86400000);
+        const archSigs = (DATA.signals || [])
+          .filter((s) => s.arch_risk && new Date(s.date) >= cutoff)
+          .slice(0, 5);
+        if (!archSigs.length) return;
+        strip.classList.remove("hidden");
+        const cards = archSigs.map((s) => renderSignalCard(s, { compact: true })).join("");
+        strip.innerHTML = `
+          <div class="arch-risk-strip">
+            <div class="arch-risk-strip__head">
+              <span class="arch-risk-strip__dot"></span>
+              <span class="arch-risk-strip__title">Architectural risk feed</span>
+              <span class="arch-risk-strip__sub">algorithmic shifts that could compress inference FLOPs/token — the thesis-killer category. Past 30 days.</span>
+              <a href="signals.html" class="arch-risk-strip__more">see all →</a>
+            </div>
+            <div class="arch-risk-strip__cards">${cards}</div>
+          </div>`;
+      })();
 
       const grid = document.getElementById("layers");
       const empty = document.getElementById("empty");

@@ -99,6 +99,30 @@ body {
 .qpill--fair             { color: var(--text-faint); background: transparent; border-color: var(--border-soft); }
 .qpill--unscored         { color: var(--text-faint); background: transparent; border: 1px dashed var(--border-soft); }
 
+/* Earnings-date pill — sits next to the quadrant pill on stock.html and
+   appears as a compact cell on stocks.html. Imminent variant (≤14d) flips
+   to violet to draw the eye. */
+.earnings-pill {
+  display: inline-flex; align-items: baseline; gap: 0.35rem;
+  padding: 0.08rem 0.45rem; border-radius: 999px;
+  font-size: 0.66rem; font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--text-dim);
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--border-soft);
+  white-space: nowrap;
+}
+.earnings-pill__rel {
+  color: var(--text-faint); font-weight: 500;
+  font-size: 0.6rem;
+}
+.earnings-pill--imminent {
+  color: var(--violet);
+  background: rgba(167,139,250,0.08);
+  border-color: rgba(167,139,250,0.35);
+}
+.earnings-pill--imminent .earnings-pill__rel { color: rgba(167,139,250,0.75); }
+
 /* Score bar — used in Biz/Val columns. range -2 .. +2 */
 .score-bar {
   position: relative; display: inline-block;
@@ -505,6 +529,390 @@ input.search::placeholder { color: var(--text-faint); }
   color: var(--violet);
   border: 1px solid rgba(167,139,250,0.2);
   font-size: 0.7rem; letter-spacing: 0.02em;
+}
+/* Arch-risk variant — rose tint so the thesis-killer tag reads as risk, not topic. */
+.layer-pill--arch {
+  background: rgba(251,113,133,0.08);
+  color: var(--rose);
+  border-color: rgba(251,113,133,0.3);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.62rem;
+  letter-spacing: 0.06em;
+}
+
+/* Architectural-risk strip — homepage, above the layer filter row. Surfaces the
+   most recent algorithmic-shift signals so they catch the eye before the
+   structural cards render. */
+.arch-risk-strip {
+  border: 1px solid rgba(251,113,133,0.25);
+  background: linear-gradient(180deg, rgba(251,113,133,0.04), transparent 60%);
+  border-radius: 12px;
+  padding: 1rem 1.2rem 1.1rem;
+}
+.arch-risk-strip__head {
+  display: flex; align-items: center; gap: 0.65rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+.arch-risk-strip__dot {
+  width: 0.55rem; height: 0.55rem; border-radius: 50%;
+  background: var(--rose);
+  box-shadow: 0 0 6px rgba(251,113,133,0.55);
+}
+.arch-risk-strip__title {
+  font-size: 0.75rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--rose);
+}
+.arch-risk-strip__sub {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  max-width: 56ch;
+}
+.arch-risk-strip__more {
+  margin-left: auto;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  text-decoration: none;
+}
+.arch-risk-strip__more:hover { color: var(--rose); }
+.arch-risk-strip__cards {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* Compact signal card — used inside the arch-risk strip and other density-
+   constrained contexts. Drops padding, the footer, and tickers. */
+.signal--compact {
+  padding: 0.6rem 0.75rem;
+  font-size: 0.83rem;
+}
+.signal--compact h4 { font-size: 0.86rem; }
+
+/* Heat meter — inline horizontal bar on layer cards showing 0-100 tightness.
+   Rose at hot (>=60), amber at warm (>=30), faint blue/grey at cool. */
+.heat-meter {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font-size: 0.62rem;
+  color: var(--text-faint);
+  cursor: help;
+}
+.heat-meter__label {
+  text-transform: uppercase; letter-spacing: 0.08em;
+  font-size: 0.55rem;
+}
+.heat-meter__track {
+  position: relative;
+  width: 84px; height: 5px; border-radius: 3px;
+  background: var(--bg-elev); border: 1px solid var(--border-soft);
+  overflow: hidden;
+}
+.heat-meter__fill {
+  position: absolute; left: 0; top: 0; bottom: 0;
+  border-radius: 2px;
+}
+.heat-meter--hot .heat-meter__fill { background: var(--rose); box-shadow: 0 0 6px rgba(251,113,133,0.4); }
+.heat-meter--hot .heat-meter__val { color: var(--rose); }
+.heat-meter--warm .heat-meter__fill { background: var(--amber); }
+.heat-meter--warm .heat-meter__val { color: var(--amber); }
+.heat-meter--cool .heat-meter__fill { background: var(--text-faint); }
+.heat-meter__val {
+  font-family: ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  font-weight: 600;
+}
+
+/* Bottleneck callout — full-width card on layer.html with score + evidence. */
+.bottleneck-callout {
+  border: 1px solid var(--border-soft);
+  border-left-width: 3px;
+  background: var(--bg-card);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.bottleneck-callout--hot { border-left-color: var(--rose); background: linear-gradient(90deg, rgba(251,113,133,0.04), transparent 40%); }
+.bottleneck-callout--warm { border-left-color: var(--amber); background: linear-gradient(90deg, rgba(251,191,36,0.04), transparent 40%); }
+.bottleneck-callout--cool { border-left-color: var(--text-faint); }
+.bottleneck-callout__head {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 1rem; flex-wrap: wrap;
+}
+.bottleneck-callout__score {
+  font-family: ui-monospace, monospace;
+  font-size: 2.4rem; font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.bottleneck-callout--hot .bottleneck-callout__score { color: var(--rose); }
+.bottleneck-callout--warm .bottleneck-callout__score { color: var(--amber); }
+.bottleneck-callout__score-suffix {
+  font-size: 1rem; color: var(--text-faint); font-weight: 400;
+}
+.bottleneck-callout__meta {
+  font-size: 0.75rem; color: var(--text-dim);
+  text-align: right;
+}
+.bottleneck-callout__track {
+  margin-top: 0.85rem;
+  width: 100%; height: 4px; border-radius: 2px;
+  background: var(--bg-elev);
+  overflow: hidden;
+}
+.bottleneck-callout__fill {
+  display: block; height: 100%;
+}
+.bottleneck-callout--hot .bottleneck-callout__fill { background: var(--rose); }
+.bottleneck-callout--warm .bottleneck-callout__fill { background: var(--amber); }
+.bottleneck-callout--cool .bottleneck-callout__fill { background: var(--text-faint); }
+.bottleneck-callout__evidence {
+  margin-top: 0.85rem;
+  list-style: disc;
+  padding-left: 1.2rem;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  line-height: 1.55;
+}
+.bottleneck-callout__evidence li { margin-bottom: 0.35rem; }
+
+/* Reverse-DCF card — "what's priced in" on stock.html. Tone reflects the gap
+   between implied 5y CAGR and most-recent revenue YoY. */
+.rdcf-card {
+  border: 1px solid var(--border-soft);
+  border-left-width: 3px;
+  background: var(--bg-card);
+  border-radius: 10px;
+  padding: 1rem 1.2rem 1.1rem;
+}
+.rdcf-card--variant {
+  border-left-color: var(--green);
+  background: linear-gradient(90deg, rgba(52,211,153,0.05), transparent 50%);
+}
+.rdcf-card--variant-mild { border-left-color: rgba(52,211,153,0.5); }
+.rdcf-card--neutral      { border-left-color: var(--text-faint); }
+.rdcf-card--expensive-mild { border-left-color: rgba(251,113,133,0.5); }
+.rdcf-card--expensive    {
+  border-left-color: var(--rose);
+  background: linear-gradient(90deg, rgba(251,113,133,0.05), transparent 50%);
+}
+.rdcf-card__head {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 1rem; flex-wrap: wrap;
+}
+.rdcf-card__numbers {
+  display: flex; gap: 2rem; flex-wrap: wrap;
+}
+.rdcf-card__metric {
+  display: flex; flex-direction: column; gap: 0.2rem;
+}
+.rdcf-card__metric-label {
+  font-size: 0.62rem;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--text-faint);
+}
+.rdcf-card__metric-val {
+  font-family: ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1;
+}
+.rdcf-card__assumptions {
+  font-family: ui-monospace, monospace;
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  text-align: right;
+  cursor: help;
+}
+.rdcf-card__verdict {
+  margin-top: 0.9rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--border-soft);
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.rdcf-card__verdict strong {
+  font-family: ui-monospace, monospace;
+  color: var(--text);
+}
+
+/* Demand telemetry strip — top of homepage. Surfaces frontier inference
+   demand (OpenRouter token throughput) as the variant-perception signal that
+   leads hyperscaler capex. */
+.demand-strip {
+  border: 1px solid rgba(56,189,248,0.2);
+  background: linear-gradient(135deg, rgba(56,189,248,0.05), rgba(167,139,250,0.04) 60%);
+  border-radius: 12px;
+  padding: 1rem 1.25rem 1.1rem;
+}
+.demand-strip__head {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 1rem; flex-wrap: wrap;
+  margin-bottom: 0.85rem;
+}
+.demand-strip__title {
+  display: flex; align-items: center; gap: 0.55rem;
+  flex-wrap: wrap;
+}
+.demand-strip__title > span:nth-child(2) {
+  font-size: 0.78rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--sky);
+}
+.demand-strip__sub {
+  font-size: 0.72rem; color: var(--text-faint);
+}
+.demand-strip__dot {
+  width: 0.6rem; height: 0.6rem; border-radius: 50%;
+  background: var(--sky);
+  box-shadow: 0 0 8px rgba(56,189,248,0.55);
+}
+.demand-strip__totals {
+  text-align: right;
+}
+.demand-strip__big {
+  font-family: ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.8rem; font-weight: 700;
+  color: var(--text);
+  line-height: 1;
+}
+.demand-strip__big-suffix {
+  font-size: 0.78rem; color: var(--text-faint);
+  font-weight: 400; margin-left: 0.4rem;
+}
+.demand-strip__wow {
+  margin-top: 0.3rem;
+  font-size: 0.78rem; color: var(--text-dim);
+  font-family: ui-monospace, monospace;
+}
+.demand-strip__body {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 1rem; flex-wrap: wrap;
+}
+.demand-strip__models {
+  display: flex; gap: 0.5rem; flex-wrap: wrap;
+}
+.demand-strip__model {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  padding: 0.25rem 0.55rem; border-radius: 6px;
+  background: var(--bg-elev); border: 1px solid var(--border-soft);
+  font-size: 0.78rem;
+}
+.demand-strip__model-name { color: var(--text); }
+.demand-strip__model-share {
+  color: var(--sky); font-family: ui-monospace, monospace;
+  font-size: 0.72rem; font-weight: 600;
+}
+.demand-strip__movers {
+  font-size: 0.78rem; color: var(--text-dim);
+  display: flex; align-items: center; gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.demand-strip__movers-label {
+  font-size: 0.65rem;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--text-faint);
+}
+
+/* Exit-trigger panel — 4 tiles + overall worst-state badge. Visible at top of
+   homepage so the user sees thesis health at a glance under stress. */
+.exit-panel {
+  border: 1px solid var(--border-soft);
+  background: var(--bg-card);
+  border-radius: 12px;
+  padding: 0.9rem 1.1rem 1rem;
+}
+.exit-panel__head {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  gap: 1rem; flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+.exit-panel__title {
+  font-size: 0.75rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--text);
+}
+.exit-panel__sub {
+  font-size: 0.72rem; color: var(--text-faint);
+  margin-top: 0.15rem;
+}
+.exit-panel__overall {
+  display: inline-flex; align-items: center;
+}
+.exit-panel__tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.6rem;
+}
+.exit-tile {
+  border: 1px solid var(--border-soft);
+  border-left-width: 3px;
+  background: var(--bg-elev);
+  border-radius: 8px;
+  padding: 0.65rem 0.8rem 0.7rem;
+}
+.exit-tile--green { border-left-color: var(--green); }
+.exit-tile--amber { border-left-color: var(--amber); }
+.exit-tile--red   { border-left-color: var(--rose); background: rgba(251,113,133,0.04); }
+.exit-tile__head {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.exit-tile__label {
+  font-size: 0.78rem; font-weight: 600;
+  color: var(--text);
+}
+.exit-tile__state {
+  font-size: 0.6rem;
+}
+.exit-tile__desc {
+  font-size: 0.72rem; color: var(--text-dim);
+  line-height: 1.4;
+}
+.exit-tile__details {
+  margin-top: 0.45rem;
+  font-size: 0.72rem;
+}
+.exit-tile__details > summary {
+  cursor: pointer;
+  list-style: none;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  font-size: 0.6rem;
+  color: var(--text-faint);
+  display: inline-flex; align-items: center; gap: 0.3rem;
+}
+.exit-tile__details > summary::-webkit-details-marker { display: none; }
+.exit-tile__details > summary::before {
+  content: "▶"; font-size: 0.55rem; color: var(--text-faint);
+  transition: transform 0.15s;
+}
+.exit-tile__details[open] > summary::before { transform: rotate(90deg); }
+.exit-tile__details > summary:hover { color: var(--text-dim); }
+.exit-tile__evidence {
+  margin-top: 0.4rem;
+  list-style: disc;
+  padding-left: 1.1rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+.exit-tile__evidence li { margin-bottom: 0.2rem; }
+.exit-tile__rule {
+  margin-top: 0.45rem;
+  padding-top: 0.4rem;
+  border-top: 1px solid var(--border-soft);
+  font-size: 0.68rem;
+  color: var(--text-faint);
+  font-style: italic;
+  line-height: 1.4;
 }
 
 /* Quadrant breakdown (stock.html "Why this quadrant" section) */

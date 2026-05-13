@@ -23,10 +23,13 @@ from pathlib import Path
 from jobs import seed
 from jobs import transform
 from jobs import scoring
+from jobs import bottleneck as bottleneck_stage
+from jobs import exit_triggers as exit_triggers_stage
 from jobs.sources import prices as prices_src
 from jobs.sources import rss as rss_src
 from jobs.sources import edgar as edgar_src
 from jobs.sources import capital_iq as ciq_src
+from jobs.sources import openrouter as openrouter_src
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -52,6 +55,9 @@ def main() -> int:
     p.add_argument("--skip-edgar", action="store_true")
     p.add_argument("--skip-ciq", action="store_true")
     p.add_argument("--skip-scoring", action="store_true")
+    p.add_argument("--skip-bottleneck", action="store_true")
+    p.add_argument("--skip-openrouter", action="store_true")
+    p.add_argument("--skip-exit-triggers", action="store_true")
     p.add_argument("--tickers", help="comma-separated ticker subset for prices/edgar/ciq (debug)")
     p.add_argument("-v", "--verbose", action="store_true")
     args = p.parse_args()
@@ -229,6 +235,8 @@ def main() -> int:
     if args.skip_rss and args.skip_edgar:
         # Preserve previously-discovered entries so partial refreshes don't wipe.
         prev_discovered = [s for s in existing if s["id"].startswith(("rss-", "edgar-"))]
+        # Re-tag so flags added in later code (e.g. arch_risk) get backfilled.
+        transform.tag(prev_discovered + curated_only, players)
         merged = transform.merge(curated_only, prev_discovered)
         log.info("Skipped both RSS and EDGAR — preserving %d discovered signals.", len(prev_discovered))
         kept_count = len(prev_discovered)
@@ -248,6 +256,66 @@ def main() -> int:
         "discovered_kept": kept_count,
         "total": len(merged),
     }
+
+    # OpenRouter demand telemetry ----------------------------------------
+    # Rolling daily snapshots of frontier inference token throughput.
+    # Preserves prior history on parse failure (same shape as RSS/CIQ recovery).
+    if not args.skip_openrouter:
+        log.info("Fetching OpenRouter demand telemetry ...")
+        prev_demand = _load_json(DATA / "demand_signals.json", {})
+        prev_daily = prev_demand.get("daily", []) if isinstance(prev_demand, dict) else []
+        try:
+            demand = openrouter_src.fetch(existing=prev_daily)
+            _write_json(DATA / "demand_signals.json", demand)
+            latest = (demand.get("daily") or [])[-1] if demand.get("daily") else None
+            meta["sources"]["openrouter"] = {
+                "ok": 1 if latest else 0,
+                "daily_rows": len(demand.get("daily") or []),
+                "latest_date": latest["date"] if latest else None,
+                "latest_total_tokens_b": latest["total_tokens_b"] if latest else None,
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+            log.info("OpenRouter: latest=%s, %d daily rows in history",
+                     latest["date"] if latest else "?", len(demand.get("daily") or []))
+        except Exception as e:
+            log.error("OpenRouter stage failed: %s — preserving prior demand_signals.json", e)
+            meta["sources"]["openrouter"] = {
+                "ok": 0,
+                "errors": {"__stage__": str(e)},
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+    else:
+        log.info("Skipping OpenRouter.")
+
+    # Bottleneck heat-map ------------------------------------------------
+    # Per-layer tightness score from signal density + supply-language extraction.
+    # Reads merged signals, players, cross_quarter; emits data/bottleneck.json.
+    if not args.skip_bottleneck:
+        log.info("Computing per-layer bottleneck scores ...")
+        try:
+            cq_now = _load_json(DATA / "cross_quarter.json", {})
+            bn = bottleneck_stage.compute(layers, merged, cq_now, players)
+            _write_json(DATA / "bottleneck.json", bn)
+            top3 = sorted(bn.items(), key=lambda kv: -kv[1]["tightness_score"])[:3]
+            meta["sources"]["bottleneck"] = {
+                "ok": len(bn),
+                "top_layers": [
+                    {"layer_id": lid, "tightness_score": v["tightness_score"]}
+                    for lid, v in top3
+                ],
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+            log.info("Bottleneck: %d layers scored; top=%s",
+                     len(bn), [f'{lid}={v["tightness_score"]}' for lid, v in top3])
+        except Exception as e:
+            log.error("Bottleneck stage failed: %s", e)
+            meta["sources"]["bottleneck"] = {
+                "ok": 0,
+                "errors": {"__stage__": str(e)},
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+    else:
+        log.info("Skipping bottleneck.")
 
     # Scoring ------------------------------------------------------------
     # Final stage: per-ticker business x valuation z-scores + per-layer auto status.
@@ -301,6 +369,40 @@ def main() -> int:
             }
     else:
         log.info("Skipping scoring.")
+
+    # Exit-trigger status panel ------------------------------------------
+    # Last stage: rolls up signals, demand_signals, filing_summaries, and the
+    # manual Taiwan flag into 4 trigger states (green/amber/red).
+    if not args.skip_exit_triggers:
+        log.info("Computing exit-trigger states ...")
+        try:
+            demand_now = _load_json(DATA / "demand_signals.json", {})
+            filing_summ_now = _load_json(DATA / "filing_summaries.json", {})
+            taiwan_manual = _load_json(DATA / "exit_triggers_manual.json", {})
+            triggers = exit_triggers_stage.compute(
+                signals=merged,
+                demand_signals=demand_now,
+                filing_summaries=filing_summ_now,
+                manual=taiwan_manual,
+            )
+            _write_json(DATA / "exit_triggers.json", triggers)
+            meta["sources"]["exit_triggers"] = {
+                "ok": 1,
+                "overall": triggers["overall"],
+                "states": {k: v["state"] for k, v in triggers["triggers"].items()},
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+            log.info("Exit triggers: overall=%s, states=%s",
+                     triggers["overall"], {k: v["state"] for k, v in triggers["triggers"].items()})
+        except Exception as e:
+            log.error("Exit-triggers stage failed: %s", e)
+            meta["sources"]["exit_triggers"] = {
+                "ok": 0,
+                "errors": {"__stage__": str(e)},
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+    else:
+        log.info("Skipping exit-triggers.")
 
     _write_json(DATA / "meta.json", meta)
 

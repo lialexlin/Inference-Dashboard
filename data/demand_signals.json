@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-05-14T23:04:11.772356+00:00",
+  "as_of": "2026-05-15T23:02:31.476174+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -141,13 +141,83 @@
           "requests": 15271349
         }
       ]
+    },
+    {
+      "date": "2026-05-14",
+      "total_tokens_b": 25868.665,
+      "total_prompt_tokens_b": 24815.989,
+      "total_completion_tokens_b": 1052.676,
+      "total_reasoning_tokens_b": 0.0,
+      "total_requests": 2717135350,
+      "top_models": [
+        {
+          "model": "tencent/hy3-preview-20260421",
+          "tokens_b": 2401.608,
+          "share": 0.0928,
+          "requests": 43688848
+        },
+        {
+          "model": "anthropic/claude-4.7-opus-20260416",
+          "tokens_b": 1561.97,
+          "share": 0.0604,
+          "requests": 29527777
+        },
+        {
+          "model": "anthropic/claude-4.6-sonnet-20260217",
+          "tokens_b": 1542.538,
+          "share": 0.0596,
+          "requests": 39880167
+        },
+        {
+          "model": "deepseek/deepseek-v4-flash-20260423",
+          "tokens_b": 1460.674,
+          "share": 0.0565,
+          "requests": 96884534
+        },
+        {
+          "model": "moonshotai/kimi-k2.6-20260420",
+          "tokens_b": 1286.99,
+          "share": 0.0498,
+          "requests": 22279555
+        },
+        {
+          "model": "google/gemini-3-flash-preview-20251217",
+          "tokens_b": 1123.699,
+          "share": 0.0434,
+          "requests": 135787826
+        },
+        {
+          "model": "deepseek/deepseek-v3.2-20251201",
+          "tokens_b": 970.663,
+          "share": 0.0375,
+          "requests": 113049237
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro-20260423",
+          "tokens_b": 880.856,
+          "share": 0.0341,
+          "requests": 24859624
+        },
+        {
+          "model": "minimax/minimax-m2.7-20260318",
+          "tokens_b": 772.412,
+          "share": 0.0299,
+          "requests": 25637568
+        },
+        {
+          "model": "nvidia/nemotron-3-super-120b-a12b-20230311",
+          "tokens_b": 625.86,
+          "share": 0.0242,
+          "requests": 15408060
+        }
+      ]
     }
   ],
   "summary": {
-    "latest_date": "2026-05-13",
-    "latest_total_tokens_b": 25206.419,
-    "latest_total_requests": 2709579402,
-    "dod_pct": 0.0317,
+    "latest_date": "2026-05-14",
+    "latest_total_tokens_b": 25868.665,
+    "latest_total_requests": 2717135350,
+    "dod_pct": 0.0263,
     "wow_pct": null
   }
 }

@@ -1,5 +1,40 @@
 [
   {
+    "id": "rss-a19749aead806016",
+    "date": "2026-05-19",
+    "source": "Reuters Tech",
+    "source_type": "news",
+    "headline": "ASML says first chips made with High-NA machines to arrive in months - Reuters",
+    "quote": "ASML says first chips made with High-NA machines to arrive in months Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcWtoU21oSDd3a3lXWnY2VHpJeVd4TUFTOVlCaUR1dE1rWkxpRjB0MXItWUR2TVpHTU94ckNqZm10WFBTck8yaXBHZ1lVV1dpaTBUbVRwb21rUXJrZVEzSFJKdGh6NGhzTlVfRTNBdlZPamd5QU41QTliZktBMEZpdE1yeU1uWmhuYnpDb1diWVFSdGFPQTA5T09yUC1OTUVYcmVZ?oc=5",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [
+      "ASML"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CSCO-0000858877-26-000078",
+    "accession": "0000858877-26-000078",
+    "form": "10-Q",
+    "date": "2026-05-19",
+    "source": "SEC EDGAR (CSCO)",
+    "source_type": "filing",
+    "headline": "CSCO files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000078/csco-20260425.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "CSCO"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-e454ea44ea6c3a59",
     "date": "2026-05-18",
     "source": "Reuters Tech",
@@ -32,6 +67,23 @@
     "arch_risk": false
   },
   {
+    "id": "rss-360c02c39a5227e9",
+    "date": "2026-05-18",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "DIGITIMES Insight: Intel and AMD diverge as TSMC prepares price hikes - digitimes",
+    "quote": "DIGITIMES Insight: Intel and AMD diverge as TSMC prepares price hikes digitimes",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRzhvb04tVXc0UVBvYVkzZVFxbzdLTXhPZ2VhR0dPNnE2R0R5azNqc1ZkUlFUVk1jZ183UGdmb3BFOG93SlJvakRyb3A3OUlPN2xGNkFHdHEtTlRxZGFVQ3lkdW1VOGNmTjM0X3p6eFVMS0FVMGxsUU9vNUN6TllUYQ?oc=5",
+    "layer_ids": [
+      "foundry",
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-4126ce04e8dd6ca3",
     "date": "2026-05-18",
     "source": "DigiTimes",
@@ -54,6 +106,21 @@
     "quote": "Weekly news roundup: TSMC faces AI supply strain as Samsung, Intel, and Apple test foundry alternatives digitimes",
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRkNQRThMcTY0MU54Nnp0UlF1RWFYZGZIX0VjcGNQdnFscDMwVG5aX1IyM0xxelRzX1pvZXBPUTZFWF9saXpxd3NCQWhRaDFYbGFPcUZ5MC1iLUotMnBBVmJlcnIxTzBtZDNLUWg0clJRb3RLRXdtSm1LS1JBajU2eXdFM3FCcVkzVEdsN1h6YzJ2MnJUSmVDNGt2Q01iUkxhUEY1cUJBMWtHQkpRaTRF?oc=5",
     "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-e99715476f656d75",
+    "date": "2026-05-17",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC CoWoS yields top 98% as capacity expands - digitimes",
+    "quote": "TSMC CoWoS yields top 98% as capacity expands digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObk5qXzJ1bGtIcWljRDlBQ09WXzZJd3VTR1FubU54M2RuY3pLcDU3dW1xcXoyLUNqM09wRkNwQ3c5a1NWSjk1dXBPVjFvODdjNlVfY3BnZkxFNWlGM2l6bWlZUS15VGt5TzNQeDdERm1XSk5RemZzeVd3NmhYcUhPUkw3dVo1am02VHVJag?oc=5",
+    "layer_ids": [
+      "packaging",
       "foundry"
     ],
     "tickers": [],
@@ -87,37 +154,6 @@
       "hbm"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-6dc7009f8f4c04bd",
-    "date": "2026-05-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "China's memory push accelerates as YMTC and CXMT expand DRAM ambitions - digitimes",
-    "quote": "China's memory push accelerates as YMTC and CXMT expand DRAM ambitions digitimes",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT3NkT0dIbnFjek5zUjZFM3hBaXRwOGhFWUppX19kTzFmV3RlUHpnbE1Ua1FRU3dJdVZMUWdLMmVsRml5SFdVUzdyZ3JvMDF2MGFRU3lRVjJCaXduYk8tb3NmSWxhQmJfSnZheW5yREQ2M3FnN3RvdDFqNHBtUFlvNG9WdmxDNzJGclp5eWg4WENncVJUcUplYjhzY2hMNGts?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-4d68208c5f038bdb",
-    "date": "2026-05-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Taiwan semiconductor materials, April 2026— One sector, two races - digitimes",
-    "quote": "Taiwan semiconductor materials, April 2026— One sector, two races digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcU1QMjV2UkozUXk2OXp3YjNDem9PazFYeGdGWU9zNElyZXc5RGRkS0h0cTV1LWNBZ3NOdGx5M2JMRmJ0Y3hESldyVThOY1Voem5CTzRrZmdvVDlndTJyWFN6NVU0Q1lWMXVIRGVaVWQteGZDN21waXEwQWVjWUR4TXdJZFlKaG5TSllvdGZPdDlabFBRaHhR?oc=5",
-    "layer_ids": [
-      "foundry",
-      "packaging"
-    ],
-    "tickers": [
-      "TSM"
-    ],
     "arch_risk": false
   },
   {
@@ -179,22 +215,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-90ee5b330055f200",
-    "date": "2026-05-14",
-    "source": "Reuters Tech",
-    "source_type": "news",
-    "headline": "Applied Materials sees quarterly revenue above estimates on sustained AI spending - Reuters",
-    "quote": "Applied Materials sees quarterly revenue above estimates on sustained AI spending Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVVF5eHJBSUZRdld5a3k4T0dqa2VqX2t3bXRwZC1udEhTZjgta0NsdzBHejQxOWZ4Y1ZBY3NTUk1vOG5oeHNTT1NZb0dGSlRzQzdwbGlLZlA5RWRTSnd2bXN2TC14VUVkZDlwMXVDZURIc2N2UWVJeDdaQjRnaGpzYUZaa3d3SW9ORlVkNXdZMGxtaVRxYkN2My00a1RxT1g3VU5F?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "AMAT"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-59c7ab7944900a17",
     "date": "2026-05-14",
     "source": "DigiTimes",
@@ -237,6 +257,25 @@
       "foundry"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CSCO-0000858877-26-000075",
+    "accession": "0000858877-26-000075",
+    "form": "8-K",
+    "date": "2026-05-13",
+    "source": "SEC EDGAR (CSCO)",
+    "source_type": "filing",
+    "headline": "CSCO files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000075/csco-20260513.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "CSCO"
+    ],
     "arch_risk": false
   },
   {
@@ -692,6 +731,20 @@
       "quote": "In March 2026, Centrus announced that the Company is exploring a joint venture with Oklo Inc. focused on deconversion services for HALEU – which currently does not exist commercially. Activities under this contemplated joint venture would occur at Centrus' site in Piketon, Ohio, to be co-located with Centrus' enrichment operations and adjacent to Oklo's planned 1.2 GW power campus.",
       "quote_section": "Item 2 MD&A — Overview"
     },
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7089df8387ce751a",
+    "date": "2026-05-05",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Analysis: CoWoS crunch and MediaTek's hire raise a bigger question — can Intel deliver? - digitimes",
+    "quote": "Analysis: CoWoS crunch and MediaTek's hire raise a bigger question — can Intel deliver? digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTUh3RHFJaHczMkhXMUw1X216ajZBWEtCSlBhQmp3cXJaN09FM2Y1VmtHV041bUlqVVNDYWVkdWlOMy1vbXM1REFYYTZwbWs1XzdxTldJX2dIQkllb2FoYWdCVG5tYVR4emtRVG1qODA2SlVYVlE1Nlp5NVQwWV9ubzNSMUZQdzE4YUhkWDhuVTlNSkk?oc=5",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -5636,64 +5689,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-CSCO-0000858877-25-000171",
-    "accession": "0000858877-25-000171",
-    "form": "10-Q",
-    "date": "2025-11-18",
-    "source": "SEC EDGAR (CSCO)",
-    "source_type": "filing",
-    "headline": "CSCO files 10-Q: periodic report",
-    "quote": "In fiscal 2025 and in the first quarter of fiscal 2026, we entered into additional purchase commitments with contract manufacturers and suppliers related to manufacturing Cisco Silicon One and other products to meet demand from hyperscalers and other customers. We expect to continue entering into these additional purchase commitments in fiscal 2026.",
-    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887725000171/csco-20251025.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "CSCO"
-    ],
-    "summary": {
-      "tldr": "Q1 FY26 revenue $14.88B +8% YoY with Networking +15% led by AI Infrastructure; inventory and purchase commitments +9% as CSCO secures Silicon One capacity for hyperscaler orders.",
-      "takeaways": [
-        "Q1 FY26 revenue $14.88B +8% YoY; product +10%, services +2%; Networking +15% (+$1.0B) on AI Infrastructure, Data Center Switching, Campus",
-        "Service Provider and Cloud customer market led product growth; US revenue +13%, Mexico +25%, mirroring AI infrastructure builds",
-        "Remaining performance obligations $42.87B (vs $43.53B at FYE); software revenue $5.7B +3%; subscription revenue +2%",
-        "Inventory +7% and purchase commitments +10% vs FYE 2025, explicitly tied to Cisco Silicon One contract manufacturing capacity for hyperscalers",
-        "Product gross margin -0.6pts on mix and pricing; mgmt warns Silicon One commitments raise supply-chain exposure to obsolescence risk",
-        "Repurchased $2.0B stock and paid $1.6B dividend; cash and investments $15.7B vs total debt $28.1B"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": null,
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "In fiscal 2025 and in the first quarter of fiscal 2026, we entered into additional purchase commitments with contract manufacturers and suppliers related to manufacturing Cisco Silicon One and other products to meet demand from hyperscalers and other customers. We expect to continue entering into these additional purchase commitments in fiscal 2026.",
-      "quote_section": "Item 1A Risk Factors — Supply Chain"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CSCO-0001193125-25-277624",
-    "accession": "0001193125-25-277624",
-    "form": "8-K",
-    "date": "2025-11-12",
-    "source": "SEC EDGAR (CSCO)",
-    "source_type": "filing",
-    "headline": "CSCO files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/858877/000119312525277624/d484663d8k.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "CSCO"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-MOD-0001104659-25-103646",
     "accession": "0001104659-25-103646",
     "form": "10-Q",
@@ -5871,6 +5866,20 @@
       "COHR",
       "FN"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-899553b2e4e4c76a",
+    "date": "2013-11-08",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC seeing order visibility weaken - digitimes",
+    "quote": "TSMC seeing order visibility weaken digitimes",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VTWNvOHQzaU5pUE9QcGRMZHprWm9NcjlERXh2UGxmR3JPdHM4VzhDN0RkcDhzYWw0RXBwQWpjc2paM0R5ejFsbnRubjc3YUYyVUF2UnYzRl9OaWdrampLd0IxbmYwQ0Q0Yko5M09VQQ?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   }
 ]

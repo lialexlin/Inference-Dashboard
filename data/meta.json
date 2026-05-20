@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-05-19T23:10:28.431365+00:00",
+  "last_refresh_at": "2026-05-20T23:18:09.881014+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-05-19T23:11:30.195084+00:00"
+      "ts": "2026-05-20T23:19:04.996845+00:00"
     },
     "rss": {
       "ok": 6,
@@ -28,13 +28,13 @@
         "Mule Capital": "bozo: <unknown>:2:1326: not well-formed (invalid token)",
         "AnandTech (Wayback)": "bozo: <unknown>:113:62: not well-formed (invalid token)"
       },
-      "ts": "2026-05-19T23:11:35.201912+00:00"
+      "ts": "2026-05-20T23:19:09.990261+00:00"
     },
     "edgar": {
       "entries": 166,
-      "summarized": 85,
+      "summarized": 84,
       "errors": {},
-      "ts": "2026-05-19T23:11:47.014295+00:00"
+      "ts": "2026-05-20T23:19:23.318481+00:00"
     },
     "ciq": {
       "ok": 64,
@@ -43,21 +43,21 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-05-19T23:10:41.142436+00:00"
+      "ts": "2026-05-20T23:18:22.805984+00:00"
     },
     "scoring": {
       "ok": 65,
       "quadrant_counts": {
-        "fair": 32,
-        "avoid": 11,
-        "priced-in": 11,
+        "fair": 33,
+        "avoid": 10,
+        "priced-in": 12,
         "underappreciated": 2,
-        "value-trap": 8,
+        "value-trap": 7,
         "unscored": 1
       },
       "manual_estimates_coverage": 0,
       "manual_estimates_total": 65,
-      "ts": "2026-05-19T23:11:47.359664+00:00"
+      "ts": "2026-05-20T23:19:23.645201+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -68,21 +68,21 @@
         },
         {
           "layer_id": "power",
-          "tightness_score": 72
+          "tightness_score": 75
         },
         {
           "layer_id": "gpu",
-          "tightness_score": 71
+          "tightness_score": 68
         }
       ],
-      "ts": "2026-05-19T23:11:47.227763+00:00"
+      "ts": "2026-05-20T23:19:23.516635+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-05-19T23:11:47.223694+00:00"
+      "ts": "2026-05-20T23:19:23.512705+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -93,7 +93,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-05-19T23:11:47.364736+00:00"
+      "ts": "2026-05-20T23:19:23.650104+00:00"
     }
   },
   "signals": {

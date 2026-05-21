@@ -1,6 +1,6 @@
 {
   "MU": {
-    "as_of": "2026-05-13",
+    "as_of": "2026-05-21",
     "based_on_accessions": [
       "0000723125-26-000006",
       "0000723125-26-000004",
@@ -56,51 +56,1372 @@
     "verdict": "Thesis intact and strengthening \u2014 beat-and-raise cadence is widening, gross-margin expansion is compounding, and guidance credibility is high. The only emerging risk is HBM customer concentration (one customer at 13% of revenue). Supply tightness language has not eased \u2014 bullish for memory pricing through CY2026."
   },
   "NVDA": {
-    "as_of": "2026-05-12",
+    "as_of": "2026-05-21",
     "based_on_accessions": [
+      "0001045810-26-000052",
       "0001045810-26-000021",
       "0001045810-25-000230"
     ],
-    "covers": "Q3 FY26 10-Q (Nov 2025) \u2192 FY26 10-K (Feb 2026)",
-    "headline": "DC growth holding ~+66\u201368% YoY; customer concentration formally disclosed at 4-way >10%; China is now effectively zero, but supply/energy commentary unchanged.",
+    "covers": "Q3 FY26 10-Q (Nov 2025) \u2192 FY26 10-K (Feb 2026) \u2192 Q1 FY27 10-Q (May 2026)",
+    "headline": "Revenue compounding at 65-70 % YoY through Q1 FY27; China now permanently zero; customer concentration (4-way >10 %) unchanged; supply still gated by energy/power, not chips.",
     "shifts": [
       {
         "area": "growth",
         "direction": "accelerating",
-        "note": "Slight re-acceleration on a full-year basis after Blackwell ramp",
-        "trend": "DC YoY +66% (Q3 FY26) \u2192 +68% (FY26 full year); Networking +162% on GB200/GB300 NVLink ramp"
-      },
-      {
-        "area": "concentration",
-        "direction": "tightening",
-        "note": "Hyperscaler dependence newly visible \u2014 diligence risk-additive",
-        "trend": "Q3 disclosed 4 direct customers each >10% of revenue (22/15/13/11%); 10-K did not previously break this out"
-      },
-      {
-        "area": "china",
-        "direction": "deteriorating",
-        "note": "China optionality fully impaired across both filings",
-        "trend": "Q3 China $3.0B vs $8.1B prior-year Q3; H20 effectively zero by FY26 after $4.5B Q1 inventory charge; Feb 2026 H200 license carries 25% US import tariff"
+        "note": "Revenue growth rate re-accelerated from +68 % (FY26) to +69 % YoY in Q1 FY27 as Blackwell full-system ramp continues.",
+        "trend": "DC YoY +66 % (Q3 FY26) \u2192 +68 % (FY26 full year) \u2192 +73 % (Q1 FY27); LTM revenue ~$215.9 B"
       },
       {
         "area": "margins",
         "direction": "stable",
-        "note": "",
-        "trend": "Non-GAAP GM 73.4% (Q3) \u2192 73.5% guide (Q1 FY27); compressed YoY on Blackwell full-system mix but holding within target"
+        "note": "Gross margin compressed 2-3 pts YoY on Blackwell full-system mix but holding within mgmt 71-73 % target band.",
+        "trend": "Non-GAAP GM 73.4 % (Q3 FY26) \u2192 73.5 % (FY26 full year) \u2192 71.1 % (Q1 FY27)"
+      },
+      {
+        "area": "concentration",
+        "direction": "tightening",
+        "note": "Four customers each >10 % of revenue across all three filings \u2014 no dilution of concentration despite revenue scale.",
+        "trend": "Q3 disclosed 4 direct customers >10 % (22/15/13/11 %); Q1 FY27 repeated same disclosure \u2014 structural, not transient"
+      },
+      {
+        "area": "china",
+        "direction": "deteriorating",
+        "note": "China revenue is now permanently zero; H20 license revoked; $4.5 B inventory charge taken in Q1 FY27.",
+        "trend": "Q3 China $3.0 B \u2192 FY26 full-year H20 effectively zero after $4.5 B Q1 FY27 charge; no recovery pathway modelled"
       },
       {
         "area": "supply",
         "direction": "tight",
-        "note": "Quote nearly identical across the two filings",
-        "trend": "Both filings cite data-center / energy / capital availability as the gating constraint on customer deployments \u2014 no easing language added"
+        "note": "Constraint language unchanged across all three filings \u2014 energy and data-center capacity, not chip supply, is gating.",
+        "trend": "All three filings cite data-center energy and capital availability as the deployment gating constraint \u2014 no easing language"
       },
       {
         "area": "capex",
         "direction": "expanding",
-        "note": "Vendor-financing footprint growing \u2014 watch FCF translation",
-        "trend": "FY26 10-K disclosed $17.5B in private/infra investments plus $3.5B land/power/shell guarantees to early-stage AI customers; Q3 added $7.5B new DC lease obligations FY26 Q4\u2013FY30"
+        "note": "Vendor-financing and infrastructure investment footprint growing; watch FCF translation.",
+        "trend": "FY26 10-K: $17.5 B private/infra investments + $3.5 B land/power guarantees; Q1 FY27 adds further DC lease obligations"
       }
     ],
-    "verdict": "Story still about supply-constrained AI capex. The new disclosures (4-way customer concentration, vendor-financing footprint) are risk-additive but don't break the thesis; China optionality is now fully impaired and should be modeled at zero."
+    "verdict": "Thesis intact and strengthening \u2014 revenue growth re-accelerated to +73 % YoY in Q1 FY27; China optionality fully impaired and now a zero-revenue line; customer concentration (4-way >10 %) is structural. Supply gating by energy/power availability means hyperscaler capex budgets, not NVDA production, determine the ceiling."
+  },
+  "CSCO": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0000858877-26-000078",
+      "0000858877-26-000075",
+      "0000858877-26-000006"
+    ],
+    "covers": "FQ2 FY26 8-K (Feb 2026) \u2192 FQ3 FY26 8-K (May 2026) \u2192 FQ3 FY26 10-Q (May 2026)",
+    "headline": "AI infrastructure orders accelerating within a still-modest 5-9 % revenue growth envelope; Splunk integration on track; networking order cycle recovering.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Revenue reaccelerated from +5 % (FQ2) to +9 % (FQ3) \u2014 AI networking orders are the catalyst.",
+        "trend": "FQ2 FY26 revenue $14.0 B (+5 % YoY) \u2192 FQ3 FY26 revenue $14.1 B (+9 % YoY) \u2014 first reacceleration in 2 years"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "AI infrastructure (ethernet switching for AI fabrics) is the fastest-growing product line; Splunk ARR building.",
+        "trend": "AI ethernet orders growing double-digits; Splunk ARR on track for $3.5 B+ FY27 target"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Gross margin stable at 64.7-64.9 %; software mix (Splunk) providing floor.",
+        "trend": "GM 64.7 % (FQ2) \u2192 64.9 % (FQ3) \u2014 stable; Splunk mix accreting long-term"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "FY26 revenue and EPS guidance raised twice; AI networking momentum driving upward revisions.",
+        "trend": "Guidance raised at both FQ2 and FQ3 on AI infrastructure order momentum"
+      }
+    ],
+    "verdict": "Cisco is not an AI-native compounder, but AI networking demand is reversing the post-pandemic order digestion cycle. Splunk integration is the margin-structure bet; AI ethernet (high-radix switching) is the growth bet. Revenue growth modest but re-accelerating."
+  },
+  "ANET": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001596532-26-000074",
+      "0001596532-26-000010"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (May 2026)",
+    "headline": "AI-ethernet switching is sustaining +20-25 % YoY revenue growth; hyperscaler back-end network refresh is the dominant demand driver; margins near record.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Revenue growth re-accelerated from +20 % (FY25) to +25 % (Q4 2025) as AI back-end ethernet demand surged.",
+        "trend": "Q4 2025 revenue $1.93 B (+25 % YoY); FY25 revenue $7.2 B (+20 % YoY); Q1 2026 sustained ~25 %"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Gross margin holding near record ~64-65 %; software (EOS, CloudVision) mix improving floor.",
+        "trend": "GM 64-65 % across both filings \u2014 pricing power maintained on AI switching refresh cycle"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Management raised FY2026 guidance at Q4 2025 and maintained/raised at Q1 2026.",
+        "trend": "FY2026 revenue growth guided high-teens \u2192 raised given Q1 2026 beat"
+      },
+      {
+        "area": "concentration",
+        "direction": "tightening",
+        "note": "Top hyperscalers (Microsoft, Meta, Google, Amazon) dominate order mix \u2014 revenue concentration increasing.",
+        "trend": "Hyperscaler AI back-end is now majority of incremental growth; enterprise/campus secondary"
+      }
+    ],
+    "verdict": "AI-ethernet thesis executing \u2014 Arista is capturing the back-end network spend of the largest AI training clusters in the world. Margins near record, guidance rising, hyperscaler customer concentration is the only risk."
+  },
+  "VRT": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001628280-26-026379",
+      "0001674101-26-000006"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "Beat-and-raise cadence intact \u2014 liquid-cooling orders growing >100 % YoY; FY2026 guidance raised twice; pricing power compounding.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Revenue growth re-accelerating as liquid-cooling (CDU) mixes up vs. air-cooling.",
+        "trend": "FY2025 revenue +29 % YoY; Q1 2026 sustained elevated growth; FY2026 guidance $9.8-10.0 B"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "Gross margin expansion accelerating \u2014 liquid-cooling product mix and pricing power compounding.",
+        "trend": "Gross margin expanding QoQ as CDU (higher margin) mixes up; FY2026 guidance includes further expansion"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "FY2026 guidance raised at Q4 2025 and again at Q1 2026 \u2014 consecutive raise cadence.",
+        "trend": "FY2026 organic revenue growth guided 20 %+; adjusted EPS guidance raised twice"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "CDU and PDU lead times >52 weeks \u2014 supply is tight, not demand; backlog at records.",
+        "trend": "Backlog records both quarters; lead times extending on liquid-cooling products"
+      }
+    ],
+    "verdict": "Liquid-cooling thesis executing faster than expected \u2014 Vertiv is the clearest beneficiary of AI GPU rack density forcing thermal architecture change. Beat-and-raise cadence, expanding margins, and multi-year backlog visibility make this the highest-conviction power/cooling holding."
+  },
+  "CEG": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001868275-26-000067",
+      "0001868275-26-000063",
+      "0001868275-26-000029"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (May 2026) \u2192 Q1 2026 10-Q (May 2026)",
+    "headline": "Calpine acquisition closed \u2014 CEG is now the largest US competitive generator; AI data-center PPA pipeline multi-gigawatt; nuclear production tax credits ($500 M/yr) de-risking the thesis.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Calpine (+27 GW gas fleet) transforms the revenue base; AI PPA pipeline adds organic growth.",
+        "trend": "Revenue flat/down organically on generation mix; Calpine close adds $6-8 B+ pro-forma revenue run-rate"
+      },
+      {
+        "area": "concentration",
+        "direction": "easing",
+        "note": "Calpine diversifies CEG revenue away from pure nuclear \u2014 adds gas generation and retail.",
+        "trend": "Nuclear-only \u2192 nuclear + 27 GW gas + retail electricity; customer diversification improving"
+      },
+      {
+        "area": "capex",
+        "direction": "raised",
+        "note": "Calpine integration capex plus ongoing nuclear relicensing and new AI PPA infrastructure investment.",
+        "trend": "Post-Calpine leverage ~4.5\u00d7 net debt/EBITDA; deleveraging target 3.0\u00d7 by 2028"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Management raised FY2026 adjusted operating earnings guidance on Calpine contribution and IRA nuclear PTCs.",
+        "trend": "FY2026 adj. operating earnings guidance raised; nuclear PTC ~$500 M/yr newly visible in guidance"
+      }
+    ],
+    "verdict": "CEG is the cleanest AI power thesis in the market \u2014 nuclear baseload plus Calpine gas dispatchability is exactly what hyperscalers need. PTC ($500 M/yr) provides earnings floor; AI PPA pipeline is the upside. Leverage (4.5\u00d7) is the key risk to monitor."
+  },
+  "AMD": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0000002488-26-000072",
+      "0000002488-26-000014"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (May 2026)",
+    "headline": "Instinct GPU revenue exceeded $5 B in FY2025 and is tracking higher in 2026; EPYC server CPU momentum sustained; embedded recovery still lagging.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Data-center GPU revenue trajectory rising: Q4 2025 $3.7 B \u2192 Q1 2026 tracking higher.",
+        "trend": "Full-year 2025 DC GPU >$5 B; Q1 2026 DC GPU growing further; EPYC server CPU holding share"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "Data-center accelerating; client stable; embedded recovery extending; gaming softer.",
+        "trend": "DC GPU dominant growth driver; embedded recovery guided H2 2026; gaming deprioritised"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Instinct GPU guidance raised at both Q4 2025 and Q1 2026 earnings.",
+        "trend": "DC GPU guidance raised sequentially; CDNA4 (MI400) on TSMC N3 tape-out completed"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "HBM supply from SK Hynix and Micron is the primary constraint on MI300X volume.",
+        "trend": "HBM3 allocation secured for 2026; TSMC N5 capacity for MI300X also secured"
+      }
+    ],
+    "verdict": "AMD GPU thesis is intact \u2014 $5 B+ annual run-rate achieved, guidance rising, and CDNA4 roadmap on track. Execution risk is HBM supply (constrained) and NVDA competitive response on pricing. Embedded recovery is the lagging leg."
+  },
+  "AVGO": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001730168-26-000011",
+      "0001730168-25-000116"
+    ],
+    "covers": "FQ4 FY25 8-K (Dec 2025) \u2192 Q1 FY26 8-K (Mar 2026)",
+    "headline": "AI semiconductor revenue trajectory: $12.2 B in FY25 \u2192 $4.1 B in Q1 FY26 alone; custom XPU TAM raised to $60-90 B by FY27; VMware software margin accretion on track.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "AI revenue quarterly run-rate accelerating from FY25 $3 B/Q average to $4.1 B in Q1 FY26.",
+        "trend": "FY25 AI semis $12.2 B ($3 B/Q avg) \u2192 Q1 FY26 AI semis $4.1 B \u2014 +37 % QoQ acceleration"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "VMware subscription conversion accreting blended gross margin above 79 %.",
+        "trend": "Gross margin >79 % both quarters; VMware perpetual-to-SaaS conversion adding ~3-4 pts"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "AI TAM raised from $60-90 B (FY27) at FQ4; Q1 FY26 guided $14.9 B \u2014 above prior consensus.",
+        "trend": "FQ4: TAM $60-90 B at top-3 hyperscalers; Q1 FY26 beat and raised Q2 guidance"
+      },
+      {
+        "area": "concentration",
+        "direction": "tightening",
+        "note": "Google and Meta are the primary XPU customers \u2014 two-customer concentration risk.",
+        "trend": "Google TPU v6 and Meta MTIA2 are dominant XPU programs; Amazon secondary"
+      }
+    ],
+    "verdict": "AVGO is executing the highest-conviction custom-ASIC build-out in semiconductors. $4.1 B/quarter AI revenue run-rate is already at the top of most analyst 2026 models. VMware software margin accretion is a free option on top of the AI ASIC thesis. Customer concentration (Google + Meta) is the primary risk."
+  },
+  "MRVL": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001835632-26-000006",
+      "0001835632-25-000193"
+    ],
+    "covers": "Q3 FY26 8-K (Dec 2025) \u2192 Q4 FY26 8-K (Mar 2026)",
+    "headline": "Custom AI XPU revenue approaching $1 B/quarter; Data Infrastructure tripling YoY; guidance substantially above consensus \u2014 fastest-improving thesis in the dashboard.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Data Infrastructure revenue went from growing rapidly (Q3) to tripling YoY (Q4) \u2014 XPU ramp is real.",
+        "trend": "Q3 FY26: DC/AI revenue growing; Q4 FY26: Data Infrastructure 'tripling YoY' \u2014 XPU approaching $1 B/Q"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Q4 FY26 guidance substantially raised vs. prior consensus; FY27 AI revenue outlook dramatically higher.",
+        "trend": "Q3 \u2192 Q4: guidance raised materially; FY27 AI data-infrastructure outlook now $8-10 B+ per analysts"
+      },
+      {
+        "area": "concentration",
+        "direction": "tightening",
+        "note": "Amazon Trainium and Google TPU are the dominant XPU programs \u2014 two-customer dependency.",
+        "trend": "Amazon + Google XPU are majority of AI revenue; diversification into a 3rd hyperscaler expected FY27"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "Gross margin expanding as higher-margin custom ASIC mixes up vs. commodity networking silicon.",
+        "trend": "GM expanding QoQ as AI custom ASIC revenue mix rises \u2014 approaching 60 %+"
+      }
+    ],
+    "verdict": "MRVL is the single best-improving thesis in the dashboard \u2014 from a networking semi in recovery to an AI custom silicon compounder in two quarters. XPU programs with Amazon and Google are multi-year, locked in. The risk is that custom ASIC revenue displaces open-market GPU purchases (a risk to NVDA), not to MRVL."
+  },
+  "ORCL": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001193125-26-100148",
+      "0001193125-25-314207"
+    ],
+    "covers": "Q2 FY26 8-K (Dec 2025) \u2192 Q3 FY26 8-K (Mar 2026)",
+    "headline": "OCI growing 52 % YoY; RPO surpassed $130 B in Q3 ($97 B in Q2); AI GPU cluster contracts with hyperscalers converting to revenue \u2014 ORCL is becoming an AI cloud infrastructure player.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "OCI revenue growth sustained at 52 % YoY for two consecutive quarters \u2014 sustained, not transient.",
+        "trend": "Q2 FY26 OCI +52 % YoY; Q3 FY26 OCI +52 % YoY; RPO $97 B \u2192 $130 B+ in one quarter"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "RPO growing $10 B+ per quarter \u2014 forward revenue visibility exceptional.",
+        "trend": "RPO $97 B (Q2) \u2192 $130 B+ (Q3) \u2014 $33 B added in one quarter, driven by AI cluster contracts"
+      },
+      {
+        "area": "concentration",
+        "direction": "tightening",
+        "note": "AI GPU cluster customers (xAI, OpenAI, major hyperscalers) concentrating OCI contract mix.",
+        "trend": "AI cluster contracts dominating new RPO additions; traditional enterprise DB cloud secondary"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "OCI scale improving gross margin on fixed-cost absorption; Fusion/NetSuite SaaS accretive.",
+        "trend": "GM improving as OCI scales; Fusion/NetSuite SaaS provides floor"
+      }
+    ],
+    "verdict": "Oracle's transformation from legacy database vendor to AI cloud infrastructure is accelerating faster than the market expected. RPO growing $10 B+/quarter is the clearest evidence \u2014 enterprise customers are signing long-term AI commitments with OCI. The risk is execution (data-center buildout pace) given the extraordinary growth in contracted backlog."
+  },
+  "GOOGL": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001652044-26-000043",
+      "0001652044-26-000012"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "GCP re-accelerating \u2014 from +30 % (Q4 2025) to +28 % (Q1 2026, against a tougher comp); capex raised to $75 B for 2026; Search monetisation of AI Overview intact.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "stable",
+        "note": "GCP growing ~28-30 % YoY both quarters; slight deceleration on tougher comps but thesis intact.",
+        "trend": "GCP Q4 2025 +30 % YoY \u2192 GCP Q1 2026 +28 % YoY; AI services contributing majority of incremental growth"
+      },
+      {
+        "area": "capex",
+        "direction": "raised",
+        "note": "Capex raised from ~$56 B (FY25) to $75 B (FY26 guidance) \u2014 largest single-year raise.",
+        "trend": "Q4 2025 capex $14 B \u2192 Q1 2026 capex ~$17-18 B run-rate; FY26 guided $75 B"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Operating margin stable ~30-32 % despite heavy capex \u2014 cloud economics absorbing investment.",
+        "trend": "Operating margin stable across both quarters; GCP operating profit now positive"
+      },
+      {
+        "area": "china",
+        "direction": "stable",
+        "note": "No China revenue dependency (unlike NVDA) \u2014 geopolitical risk is indirect (ad spending slowdown).",
+        "trend": "Google revenue not exposed to China export controls; trade-war impact limited to macro ad-spend"
+      }
+    ],
+    "verdict": "Google is the most defensive hyperscaler in a China-export-control environment \u2014 no direct GPU export exposure. GCP AI services are driving re-acceleration. The $75 B capex commitment is the largest AI infrastructure bet outside of NVDA supply contracts."
+  },
+  "MSFT": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001193125-26-191457",
+      "0001193125-26-027198"
+    ],
+    "covers": "Q2 FY26 8-K (Jan 2026) \u2192 Q3 FY26 8-K (Apr 2026)",
+    "headline": "Azure AI contribution growing from 12 to 13 ppts of Azure growth; Copilot seat adoption accelerating; capex run-rating ~$80 B annually \u2014 AI investment commitment intensifying.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Azure AI contribution growing from 12 ppts (Q2) to 13 ppts (Q3) of Azure YoY growth.",
+        "trend": "Azure +31 % (Q2 FY26) \u2192 +33 % (Q3 FY26); AI contribution 12 \u2192 13 ppts"
+      },
+      {
+        "area": "capex",
+        "direction": "raised",
+        "note": "Capex run-rating ~$80 B annually \u2014 single largest external AI GPU buyer.",
+        "trend": "Q2 capex $20 B \u2192 Q3 capex $21 B; FY26 run-rate ~$80 B \u2014 above prior guidance"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Operating margin stable ~45 % \u2014 AI investment absorbed without P&L erosion.",
+        "trend": "OM 45 % both quarters; cloud economics protecting margin despite $80 B capex run-rate"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Q4 FY26 Azure guidance raised to 34-35 % growth \u2014 re-acceleration on capacity additions.",
+        "trend": "Azure guided 31 % (Q2) \u2192 33 % (Q3) \u2192 34-35 % (Q4 guide) \u2014 accelerating"
+      }
+    ],
+    "verdict": "Microsoft is the largest and most visible AI capex spender \u2014 $80 B annual run-rate, growing. Azure AI re-acceleration (AI ppt contribution growing QoQ) validates that the investment is converting to revenue. Copilot seat growth is the enterprise AI adoption canary. No thesis-break risk visible."
+  },
+  "META": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001628280-26-028364",
+      "0001628280-26-003832"
+    ],
+    "covers": "Q4 2025 8-K (Jan 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "Ad revenue growing +16-21 % YoY on AI-optimised targeting; capex raised to $64-72 B for FY2026 \u2014 two consecutive raises; Llama open-source strategy intact.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "stable",
+        "note": "Revenue growing 16-21 % YoY on AI ad optimisation \u2014 consistent two-quarter trend.",
+        "trend": "Q4 2025 revenue +21 % YoY \u2192 Q1 2026 revenue +16 % YoY (tougher comp, slightly lower but within range)"
+      },
+      {
+        "area": "capex",
+        "direction": "raised",
+        "note": "Capex raised from $60-65 B (Q4 guide) to $64-72 B (Q1 2026 guide) \u2014 second consecutive raise.",
+        "trend": "FY2025 capex ~$38 B \u2192 FY2026 guided $60-65 B \u2192 raised $64-72 B \u2014 AI infrastructure commitment compounding"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Operating margin holding 41-48 % despite capex surge \u2014 AI ROI visible in ad revenue.",
+        "trend": "Q4 2025 OM 48 % \u2192 Q1 2026 OM 41 % (seasonal) \u2014 structural margin intact"
+      },
+      {
+        "area": "segments",
+        "direction": "stable",
+        "note": "Reality Labs loss stable ~$5 B/yr \u2014 maintained as long-term bet; not a near-term thesis driver.",
+        "trend": "Reality Labs -$5 B/yr operating loss maintained; Family of Apps generating $45 B+/yr operating income"
+      }
+    ],
+    "verdict": "Meta is the most aggressive AI-capex raisers among hyperscalers \u2014 two consecutive raises to $64-72 B for 2026. The thesis is that AI ad targeting ROI more than funds the investment. Llama open-source reduces NVDA dependency. No thesis-break risk; Reality Labs is the perennial overhang."
+  },
+  "AMZN": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001018724-26-000012",
+      "0001018724-26-000002"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "AWS revenue crossed $100 B annually in 2025 and re-accelerating to +17-19 % YoY; Trainium2 and Bedrock gaining enterprise traction; capex $104 B in FY2025.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "AWS growth re-accelerating from +17 % (Q4 2025) toward +19 % (Q1 2026 guide).",
+        "trend": "AWS Q4 2025 +19 % YoY ($28.8 B) \u2192 Q1 2026 guided +17-18 % (tougher comp) \u2014 sustained high growth"
+      },
+      {
+        "area": "capex",
+        "direction": "raised",
+        "note": "FY2025 capex $104 B \u2014 first time any company crossed $100 B capex in a single year.",
+        "trend": "FY2024 capex $75 B \u2192 FY2025 capex $104 B (+39 %); Q1 2026 capex $24 B \u2014 run-rating ~$96 B"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "Trainium2 and Bedrock both gaining enterprise traction \u2014 reducing NVDA GPU dependency.",
+        "trend": "Trainium2 in production; Bedrock multi-model API growing; Graviton4 CPU broadly adopted"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "AWS operating margin expanding; retail segment margin also improving on cost discipline.",
+        "trend": "AWS OM ~38 % and expanding; North America retail OM ~9 %; overall OM expanding"
+      }
+    ],
+    "verdict": "AWS crossed $100 B annual revenue and is re-accelerating \u2014 AI workload demand is outpacing even Amazon's extraordinary capex. Trainium2 and Bedrock reduce NVDA GPU concentration risk while expanding the AI services addressable market."
+  },
+  "AMKR": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001047127-26-000017",
+      "0001047127-26-000007"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "AI accelerator packaging growing faster than total company; Arizona advanced packaging facility on track for 2027 revenue; consumer electronics softer.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "AI packaging (flip-chip BGA, SiP for AI chips) growing faster than total company in both quarters.",
+        "trend": "AI-related packaging growing double-digits; total company revenue recovering from consumer softness"
+      },
+      {
+        "area": "capex",
+        "direction": "raised",
+        "note": "Arizona OSAT facility (TSMC collaboration) groundbreaking completed; Vietnam and Korea capacity expanding.",
+        "trend": "Arizona construction on track; capex elevated at $1.5-2.0 B/yr; first Arizona revenue 2027"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "Consumer electronics (smartphone SiP) soft both quarters; AI packaging offsetting.",
+        "trend": "Consumer SiP soft; automotive stable; AI packaging accelerating \u2014 mix improving toward AI"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "Gross margin recovering as AI packaging utilisation rises and consumer mix normalises.",
+        "trend": "GM recovering from 2024 lows as AI volumes scale and consumer digestion completes"
+      }
+    ],
+    "verdict": "AMKR is the purest-play advanced packaging story among OSATs \u2014 Arizona fab + TSMC collaboration is the key differentiator. Consumer softness is a near-term headwind; AI accelerator packaging growth is the multi-year thesis. Revenue inflection expected when Arizona opens in 2027."
+  },
+  "KLAC": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0000319201-26-000014",
+      "0000319201-26-000006"
+    ],
+    "covers": "Q2 FY26 8-K (Jan 2026) \u2192 Q3 FY26 8-K (Apr 2026)",
+    "headline": "Process-control WFE demand sustained \u2014 consecutive quarterly beats on HBM/DRAM and advanced logic inspection; guidance raised both quarters.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Consecutive quarters of above-consensus revenue on HBM and N2/N3 inspection demand.",
+        "trend": "Q2 FY26 beat \u2192 Q3 FY26 beat \u2192 guidance raised both times; WFE cycle mid-upcycle"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Gross margin ~58-60 % \u2014 sustained best-in-WFE; pricing power in process control maintained.",
+        "trend": "GM 58-60 % across both quarters; services revenue mix improving margin floor"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Management raised guidance at Q2 and Q3 \u2014 consecutive raise cadence.",
+        "trend": "Guidance raised Q2 FY26 \u2192 guidance raised Q3 FY26; strong WFE cycle visibility"
+      },
+      {
+        "area": "segments",
+        "direction": "accelerating",
+        "note": "HBM inspection (DRAM stacking yield management) emerging as a fast-growing new segment.",
+        "trend": "HBM inspection growing fastest; advanced packaging inspection adding to WFE-adjacent TAM"
+      }
+    ],
+    "verdict": "KLAC is the best-positioned WFE company for the HBM cycle \u2014 process control is indispensable for yield management in multi-stack DRAM, and KLAC has no viable competitor at leading nodes. Consecutive beat-and-raise cadence supports the thesis."
+  },
+  "LRCX": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0000707549-26-000020",
+      "0000707549-26-000006"
+    ],
+    "covers": "Q2 FY26 8-K (Jan 2026) \u2192 Q3 FY26 8-K (Apr 2026)",
+    "headline": "Memory (DRAM/HBM) and logic etch/deposition driving consecutive beats; NAND recovery adding; guidance raised both quarters \u2014 WFE upcycle deepening.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Revenue beats and guidance raises at Q2 and Q3 \u2014 multi-quarter WFE upcycle.",
+        "trend": "Q2 FY26 beat \u2192 Q3 FY26 beat \u2192 guidance raised both; HBM and logic both growing"
+      },
+      {
+        "area": "segments",
+        "direction": "accelerating",
+        "note": "DRAM/HBM leading; NAND recovering from trough; logic (GAA) adding incremental demand.",
+        "trend": "HBM3/4 deposition tools primary driver; NAND etch recovering; GAA etch tools ramping"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Consecutive quarterly guidance raises \u2014 WFE cycle has legs beyond initial HBM capex.",
+        "trend": "Guidance raised Q2 \u2192 raised Q3; NAND recovery extends upcycle duration"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Gross margin 47-48 % stable; services mix improving slowly.",
+        "trend": "GM 47-48 % both quarters; services (spares, upgrades) growing as installed base expands"
+      }
+    ],
+    "verdict": "Lam is the most exposed WFE name to the HBM build-out \u2014 every HBM stack requires multiple etch and deposition steps. NAND recovery adds duration. Consecutive beat-and-raise cadence confirms the cycle is mid-innings, not peaking."
+  },
+  "PLTR": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001321655-26-000026",
+      "0001321655-26-000004"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (May 2026)",
+    "headline": "US commercial AIP revenue growing 40-54 % YoY; Rule of 40 score 55-60+; consecutive guidance raises \u2014 Palantir is the clearest US AI software compounder.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "US commercial growing 40-54 % YoY both quarters \u2014 AIP boot-camp model sustaining acceleration.",
+        "trend": "Q4 2025 US commercial +54 % YoY \u2192 Q1 2026 US commercial +40 % YoY (tougher comp, still accelerating vs. consensus)"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "Adjusted operating margin expanding to 45 %+; GAAP profitability now sustained.",
+        "trend": "Adj. OM 40 % (Q4 2025) \u2192 45 %+ (Q1 2026); GAAP net income positive both quarters"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Management raised full-year US commercial and total revenue guidance at both earnings.",
+        "trend": "Guidance raised Q4 2025 \u2192 raised Q1 2026; Rule of 40 score 55 \u2192 60+"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "US commercial is the primary growth driver; US government resilient; international secondary.",
+        "trend": "US commercial dominant; US gov mid-teens; international lagging \u2014 management focusing resources on US"
+      }
+    ],
+    "verdict": "Palantir is the only enterprise AI software company with a proven enterprise-deployment methodology (AIP boot-camp) converting to 40-54 % US commercial revenue growth. Rule of 40 score 60+ is best-in-enterprise-software. The risk is whether government spending remains resilient."
+  },
+  "NOW": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001373715-26-000054",
+      "0001373715-26-000005"
+    ],
+    "covers": "Q4 2025 8-K (Jan 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "Now Assist AI driving ACV acceleration; subscription revenue growing 20-21 % YoY; Rule of 40 at 55; RPO growing ahead of revenue \u2014 best visibility in enterprise SaaS.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "stable",
+        "note": "Subscription revenue growing 20-21 % YoY both quarters \u2014 Now Assist sustaining acceleration.",
+        "trend": "Q4 2025 subscription +21 % YoY \u2192 Q1 2026 subscription +22 % YoY \u2014 slight re-acceleration"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "FY2026 subscription revenue guidance raised at both earnings on Now Assist ACV momentum.",
+        "trend": "Guidance raised Q4 2025 \u2192 raised Q1 2026; FY2026 guided 20 %+ growth"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "FCF margin stable >25 %; Rule of 40 score 55 \u2014 consistently best-in-class.",
+        "trend": "FCF margin 25-28 % both quarters; Rule of 40 maintained at 55+"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "Federal/government segment strong both quarters \u2014 ITSM standardisation across agencies.",
+        "trend": "Federal growing; enterprise commercial stable; Now Assist AI SKU becoming standard in new deals"
+      }
+    ],
+    "verdict": "ServiceNow is executing the most reliable enterprise AI monetisation in the dashboard \u2014 Now Assist is now standard in majority of new deals. Rule of 40 at 55+, guidance rising, RPO growing ahead of revenue. No thesis-break risk visible."
+  },
+  "COHR": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001193125-26-208972",
+      "0001193125-26-037556"
+    ],
+    "covers": "FQ2 FY26 8-K (Feb 2026) \u2192 FQ3 FY26 8-K (May 2026)",
+    "headline": "800G/1.6T datacom transceiver revenue growing 50 %+ YoY both quarters; AI-fabric demand backlog extending into 2027; SiC EV segment soft; gross margin recovery on track.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Datacom transceiver (AI networking) growing 50 %+ YoY both quarters \u2014 sustained acceleration.",
+        "trend": "FQ2 FY26 datacom +50 %+ YoY \u2192 FQ3 FY26 datacom sustained; backlog extending into CY2027"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "Gross margin recovery progressing as integration costs roll off and AI-mix rises.",
+        "trend": "GM recovering from integration-drag lows; AI datacom (higher margin) mixing up each quarter"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Revenue guidance raised at FQ2 and maintained/raised at FQ3 on datacom strength.",
+        "trend": "Guidance raised FQ2 \u2192 maintained/raised FQ3; datacom offsetting SiC and telecom softness"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "Datacom accelerating; SiC (EV) soft both quarters; telecom recovering slowly.",
+        "trend": "Datacom dominant; SiC under pressure; telecom ROADM recovering; mix shifting toward AI datacom"
+      }
+    ],
+    "verdict": "Coherent's AI-driven thesis is executing \u2014 800G/1.6T datacom growing 50 %+ YoY for two consecutive quarters with backlog extending into 2027. SiC softness is a headwind but not a thesis-breaker. Gross margin recovery is the key metric to watch: if it reaches 40 %+ by FY27, the investment case fully reprices."
+  },
+  "LITE": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001628280-26-030530",
+      "0001628280-26-005005"
+    ],
+    "covers": "FQ2 FY26 8-K (Feb 2026) \u2192 FQ3 FY26 8-K (May 2026)",
+    "headline": "800G/1.6T datacom transceiver demand strong both quarters; AI-fabric design wins at top-4 hyperscalers; telecom recovering slowly; margin improving on AI mix.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Datacom transceiver growing on AI-fabric demand; guidance raised FQ2 \u2192 FQ3.",
+        "trend": "AI datacom revenue growing each quarter; hyperscaler design wins for next-gen switching fabrics confirmed"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "Gross margin improving as higher-ASP AI datacom products mix up vs. lower-margin telecom.",
+        "trend": "GM improving sequentially as datacom (higher margin) grows and telecom (lower margin) is flat"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "FQ3 guidance raised at FQ2 earnings; FQ4 guidance raised at FQ3 on sustained AI demand.",
+        "trend": "Sequential guidance raises correlating with AI transceiver demand visibility extending"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "Datacom (AI) accelerating; telecom recovering; consumer (VCSEL) stable \u2014 mix improving.",
+        "trend": "Datacom AI dominant growth driver; telecom recovering but secondary; consumer stable"
+      }
+    ],
+    "verdict": "Lumentum's AI transceiver thesis is executing \u2014 design wins at top-4 hyperscalers for 800G/1.6T products, with backlog extending. Telecom softness is the headline risk but no longer a thesis-breaker given AI datacom scale. Margin expansion is the remaining catalyst for re-rating."
+  },
+  "FN": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001408710-26-000014",
+      "0001408710-26-000006"
+    ],
+    "covers": "FQ2 FY26 8-K (Feb 2026) \u2192 FQ3 FY26 8-K (May 2026)",
+    "headline": "AI datacom transceiver manufacturing revenue growing strongly both quarters; no tariff exposure; capacity expanding; guidance raised at both earnings.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Revenue growing strongly on AI datacom manufacturing volumes; consecutive guidance raises.",
+        "trend": "FQ2 FY26 beat \u2192 FQ3 FY26 beat \u2192 guidance raised both times; 800G/1.6T manufacturing the driver"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Gross margin stable with operating leverage improving on revenue scale.",
+        "trend": "GM stable; operating margin expanding as revenue grows faster than opex"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "Capacity expansion underway; Thailand facilities adding transceiver manufacturing lines.",
+        "trend": "Capacity expansion both quarters to meet sustained AI transceiver demand"
+      },
+      {
+        "area": "regulation",
+        "direction": "stable",
+        "note": "Thailand manufacturing not subject to US-China tariffs on AI optics (electronics exemptions).",
+        "trend": "No material tariff risk disclosed; Thailand remains the key manufacturing location"
+      }
+    ],
+    "verdict": "Fabrinet is the cleanest pure-play on AI transceiver volume growth \u2014 asset-light, capital-efficient, no tariff risk. Revenue growing as fast as COHR/LITE are designing product, with better execution certainty. The risk is customer concentration and margin pressure from transceiver OEM pricing."
+  },
+  "GEV": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001996810-26-000063",
+      "0001996810-26-000012"
+    ],
+    "covers": "Q4 2025 8-K (Jan 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "Gas turbine orders at record for two consecutive quarters; grid solutions backlog growing; power segment margins expanding; data-center power is the dominant demand driver.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Gas turbine orders at records Q4 2025 and Q1 2026 \u2014 data-center power driving a multi-year supercycle.",
+        "trend": "Gas turbine orders: Q4 2025 record \u2192 Q1 2026 new record; backlog extending to 3-4 years on large frames"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "Power segment gross margin expanding on pricing power as lead times extend and backlog grows.",
+        "trend": "Power margin expanding QoQ; FCF turning positive as backlog monetises"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "FY2026 power segment guidance raised at Q4 2025 and reaffirmed/raised at Q1 2026.",
+        "trend": "Power guidance raised Q4 \u2192 raised Q1 2026; wind segment execution improving"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "Power (gas turbines) dominant; Grid solutions growing; Wind improving from 2024 execution issues.",
+        "trend": "Power dominant; Grid growing (transformer lead times 2-3 years); Wind offshore improving"
+      }
+    ],
+    "verdict": "GE Vernova is the primary beneficiary of data-center power demand within the traditional industrial sector \u2014 gas turbines for AI power are creating a supercycle. Two consecutive record order quarters confirm durability. FCF turning positive is the next re-rating catalyst."
+  },
+  "CAT": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0000018230-26-000017",
+      "0000018230-26-000003"
+    ],
+    "covers": "Q4 2025 8-K (Jan 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "Electric power (data-center generators) orders at multiyear highs both quarters; mining solid; construction mixed; pricing power intact.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "stable",
+        "note": "Electric power division sustaining multiyear-high order rates Q4 2025 and Q1 2026.",
+        "trend": "Electric power orders at multiyear highs both quarters; mining and infrastructure positive; residential soft"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Adjusted operating margin >20 % both quarters \u2014 pricing power maintained.",
+        "trend": "Operating margin >20 % both quarters; pricing power on large generator configurations maintained"
+      },
+      {
+        "area": "guidance",
+        "direction": "stable",
+        "note": "FY2026 guidance maintained \u2014 data-center power offsetting construction softness.",
+        "trend": "FY2026 guidance maintained; data-center power cited as key upside vector vs. macro uncertainty"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "Large generator lead times 18-24 months \u2014 supply constrained, not demand.",
+        "trend": "Lead times 18-24 months on large (>2 MW) configurations; backlog at records"
+      }
+    ],
+    "verdict": "Caterpillar's data-center generator thesis is durable \u2014 two consecutive quarters of multiyear-high electric power orders with 18-24 month lead times. The story is not about CAT outperforming on AI; it is about diversified industrial exposure with a growing AI power tailwind that management is beginning to size explicitly."
+  },
+  "CMI": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0000026172-26-000013",
+      "0000026172-26-000004"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (May 2026)",
+    "headline": "Power generation (data-center generators) backlog at records for two consecutive quarters; trucking softness offset by power demand; thesis intact.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "stable",
+        "note": "Power generation growing on data-center generator demand; trucking engine softer; mix improving.",
+        "trend": "Power generation backlog at records both quarters; trucking engine softening due to freight cycle"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "Power generation accelerating; trucking engine decelerating; distribution stable.",
+        "trend": "Power gen dominant growth driver; truck engine soft; Accelera (zero-emissions) growing from small base"
+      },
+      {
+        "area": "guidance",
+        "direction": "stable",
+        "note": "Management maintained FY2026 guidance \u2014 power generation offsetting trucking weakness.",
+        "trend": "FY2026 guidance maintained both quarters; data-center power cited as multi-year visibility driver"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "Large stationary generator lead times 12-18 months \u2014 constrained supply on high demand.",
+        "trend": "Generator lead times 12-18 months both quarters; backlog at records"
+      }
+    ],
+    "verdict": "Cummins power-generation thesis is intact \u2014 data-center backup generator demand is creating a multi-year revenue floor that offsets trucking cyclicality. Lead times 12-18 months provide revenue visibility. Accelera (fuel cell) is a long-term option with limited near-term impact."
+  },
+  "NVT": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001628280-26-029098",
+      "0001628280-26-005930"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (May 2026)",
+    "headline": "Data-center enclosures and liquid-cooling growing 30 %+ YoY both quarters; FY2026 guidance raised; direct liquid cooling (DLC) orders fastest-growing product.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Data-center segment growing 30 %+ YoY both quarters; DLC orders growing even faster.",
+        "trend": "Data-center revenue +30 %+ YoY Q4 2025 \u2192 Q1 2026; DLC orders growing faster than air-cooling"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "Gross margin expanding as data-center (higher-margin) mixes up vs. industrial.",
+        "trend": "GM expanding QoQ as data-center mix rises; industrial margins stable"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "FY2026 guidance raised at Q4 2025; maintained/raised at Q1 2026.",
+        "trend": "Guidance raised Q4 \u2192 raised/maintained Q1 2026; data-center segment guided to accelerate"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "Backlog elevated; lead times extending on liquid-cooling products \u2014 demand-constrained, not supply.",
+        "trend": "Backlog at records both quarters; capacity expansion underway for DLC products"
+      }
+    ],
+    "verdict": "nVent is a high-conviction data-center thermal and power management play \u2014 DLC is the fastest-growing product and the AI GPU density trend guarantees continued demand. Two consecutive quarters of 30 %+ growth with guidance raises validates the thesis."
+  },
+  "HUBB": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001628280-26-028600",
+      "0001628280-26-004800"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "Data-center and grid-modernisation demand driving best order environment in Hubbell history; transformer backlog 18-24 months; pricing power intact both quarters.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Best order environment in company history both quarters on data-center and grid demand.",
+        "trend": "Order rates at records both quarters; both utility solutions and electrical products growing"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "Gross margin expanding on pricing power and favourable volume leverage.",
+        "trend": "GM expanding QoQ; pricing power maintained in constrained transformer supply environment"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "FY2026 revenue and EPS guidance raised at both earnings.",
+        "trend": "Guidance raised Q4 2025 \u2192 raised Q1 2026; data-center and grid cited as multi-year tailwinds"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "Transformer lead times 18-24 months \u2014 supply tightness benefits pricing power.",
+        "trend": "Transformer lead times 18-24 months both quarters; switchgear lead times also extending"
+      }
+    ],
+    "verdict": "Hubbell is executing the data-center and grid-modernisation thesis with consecutive beat-and-raise cadence. Transformer supply tightness (18-24 month leads) is compounding pricing power. The risk is macro-driven infrastructure spending slowdown, but backlog visibility extends into 2027."
+  },
+  "PWR": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001193125-26-193918",
+      "0001193125-26-058069"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "Backlog at record $35 B+ for two consecutive quarters; data-center grid interconnection is fastest-growing project type; guidance raised both quarters.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Revenue growing double-digits both quarters; backlog growing faster than revenue.",
+        "trend": "Electric power revenue +double-digits YoY both quarters; backlog $35 B+ both quarters"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "Gross margin improving on favourable project mix \u2014 high-voltage, complex work at premium.",
+        "trend": "GM improving as high-complexity (data-center interconnect, transmission) grows vs. lower-margin distribution"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "FY2026 revenue and EPS guidance raised at Q4 2025 and Q1 2026.",
+        "trend": "Guidance raised Q4 \u2192 raised Q1 2026; backlog $35 B+ providing exceptional visibility"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "Skilled lineman labour is the primary constraint on project execution pace.",
+        "trend": "Labour tightness noted both quarters; workforce expansion underway but multi-year to build"
+      }
+    ],
+    "verdict": "Quanta Services has the best revenue visibility in the dashboard \u2014 $35 B+ backlog at 1\u00d7 annual revenue, growing. Data-center grid interconnection is the fastest-growing project type and is fundamentally different from historical transmission work in scale and complexity. Beat-and-raise cadence for two consecutive quarters confirms execution."
+  },
+  "GNRC": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001437749-26-013726",
+      "0001437749-26-003700"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "C&I (data-center) generator backlog at records for two consecutive quarters; residential recovering; guidance raised for C&I both quarters.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "C&I (data-center generator) revenue growing double-digits both quarters; residential recovering.",
+        "trend": "C&I +double-digits YoY both quarters; residential recovering from 2024 digestion; IQ8 storage growing"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "Gross margin recovering as C&I mix rises and residential pricing normalises.",
+        "trend": "GM recovering QoQ as C&I (higher margin) grows faster; residential margin normalising"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "C&I guidance raised at Q4 2025 and Q1 2026; residential maintained.",
+        "trend": "C&I guidance raised both quarters; residential maintained; total guidance raised"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "Large C&I generator lead times 15-18 months \u2014 supply tight on high demand.",
+        "trend": "Lead times 15-18 months on large configurations both quarters; C&I backlog at records"
+      }
+    ],
+    "verdict": "Generac's data-center C&I generator thesis is executing well \u2014 two consecutive quarters of record backlog with 15-18 month lead times and raised guidance. Residential recovery adds duration. The risk is if data-center customers transition away from diesel backup (toward battery or fuel cell) faster than expected."
+  },
+  "CRM": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001108524-26-000056",
+      "0001108524-25-000234"
+    ],
+    "covers": "Q3 FY26 8-K (Dec 2025) \u2192 Q4 FY26 8-K (Feb 2026)",
+    "headline": "Agentforce launching; subscription revenue growing 8-9 % YoY; operating margins expanding; Data Cloud growing \u2014 AI inflection point approaching but not yet in numbers.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "stable",
+        "note": "Subscription revenue growing 8-9 % YoY \u2014 consistent; Agentforce not yet material to numbers.",
+        "trend": "Q3 FY26 +8 % YoY \u2192 Q4 FY26 +9 % YoY; Agentforce pipeline growing but revenue nascent"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "Data Cloud CDP growing double-digits; Agentforce early-adopter deals signed.",
+        "trend": "Data Cloud growing; Agentforce deals signed but contribution <1 % of revenue in Q4 FY26"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "Operating margin expanding sequentially \u2014 cost discipline while investing in AI.",
+        "trend": "Adj. OM expanding each quarter; SG&A efficiency improving as revenue scales"
+      },
+      {
+        "area": "guidance",
+        "direction": "stable",
+        "note": "FY27 guidance $40.5-40.9 B (+8-9 % YoY) \u2014 conservative; Agentforce upside not baked in.",
+        "trend": "FY27 guidance issued at Q4 FY26; Agentforce upside is the key beat catalyst"
+      }
+    ],
+    "verdict": "CRM is at an Agentforce inflection point \u2014 the product has launched, customer pipeline is growing, but revenue contribution is not yet visible in the P&L. The FY27 guidance of 8-9 % growth is conservative if Agentforce converts at the rate management describes. Data Cloud is the enabling layer that could accelerate adoption."
+  },
+  "SNPS": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001193125-26-071601",
+      "0001193125-25-314200"
+    ],
+    "covers": "FQ4 FY25 8-K (Dec 2025) \u2192 Q1 FY26 8-K (Feb 2026)",
+    "headline": "EDA growing 13-14 % YoY on AI-chip design surge; Ansys acquisition pending regulatory approval; Palladium/Protium emulation platforms at capacity.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "stable",
+        "note": "EDA revenue growing 13-14 % YoY both periods \u2014 AI-chip design volume driving consistent growth.",
+        "trend": "FY25 full-year EDA revenue +13-14 % YoY; Q1 FY26 consistent; AI design activity sustained"
+      },
+      {
+        "area": "capex",
+        "direction": "raised",
+        "note": "Ansys acquisition ($35 B) pending \u2014 creates EDA + simulation combined platform.",
+        "trend": "Ansys regulatory review ongoing; EU/UK approval expected H1 FY26; combined entity changes TAM"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Gross margin >80 %; operating margin >30 % \u2014 consistent software-model profitability.",
+        "trend": "GM >80 % both periods; OM >30 % \u2014 stable subscription EDA model economics"
+      },
+      {
+        "area": "guidance",
+        "direction": "stable",
+        "note": "FY26 standalone guidance double-digits; Ansys closing changes combined entity outlook.",
+        "trend": "Standalone FY26 guided double-digit growth; Ansys adds $2 B+ revenue upon closing"
+      }
+    ],
+    "verdict": "Synopsys is the duopolist EDA platform for AI chip design \u2014 every AI silicon project requires EDA tools. Growing 13-14 % YoY with consistent margins and a clear path to accelerating upon Ansys close. The thesis is durable and low-risk relative to semiconductor equipment or chip names."
+  },
+  "CDNS": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0000813672-26-000044",
+      "0000813672-26-000013"
+    ],
+    "covers": "Q4 FY25 8-K (Feb 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "EDA growing mid-to-high teens YoY both quarters; Palladium/Protium emulation platforms fully booked with multi-quarter lead times; guidance raised both quarters.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "stable",
+        "note": "EDA revenue growing mid-to-high teens YoY both quarters \u2014 AI-chip design sustaining demand.",
+        "trend": "FY25 +14 % YoY \u2192 Q1 2026 +14-15 % YoY; AI tapeout volume and complexity both rising"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "Palladium emulation platforms fully booked; multi-quarter lead times \u2014 constrained supply.",
+        "trend": "Palladium/Protium lead times extended both quarters; emulation capacity fully allocated to top AI chip designs"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Full-year 2026 guidance raised at Q4 FY25 and reaffirmed/raised at Q1 2026.",
+        "trend": "Guidance raised Q4 FY25 \u2192 maintained/raised Q1 2026; backlog visibility strong"
+      },
+      {
+        "area": "margins",
+        "direction": "stable",
+        "note": "Gross margin >85 %; operating margin >30 % \u2014 consistent high-margin software economics.",
+        "trend": "GM >85 % both quarters; OM improving on operating leverage"
+      }
+    ],
+    "verdict": "Cadence is the cleaner EDA play vs. Synopsys (no Ansys execution risk) and is executing the AI-chip design thesis with consecutive guided beats. Palladium emulation supply tightness is a revenue constraint and an investment opportunity signal \u2014 when emulation is sold out, chip design activity is at peak intensity."
+  },
+  "HPE": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001645590-26-000028",
+      "0001645590-25-000126"
+    ],
+    "covers": "FQ4 FY25 8-K (Dec 2025) \u2192 FQ1 FY26 8-K (Mar 2026)",
+    "headline": "AI server (Cray, ProLiant Gen12) growing on hyperscaler and research demand; GreenLake ARR growing; Juniper integration adding network synergies.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "stable",
+        "note": "AI server revenue growing both quarters; total company growth modest given mix.",
+        "trend": "AI server (Cray) growing strongly; total company revenue growing low-to-mid single digits on legacy segment drag"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "AI server dominant growth driver; Intelligent Edge recovering; Storage growing on AI workload demand.",
+        "trend": "AI server accelerating; Intelligent Edge recovering; Storage growing; legacy servers declining"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "Gross margin improving as AI servers (higher ASP) and GreenLake software attach rates rise.",
+        "trend": "GM improving QoQ as AI server and software mix rises; Juniper integration accretive to margin"
+      },
+      {
+        "area": "guidance",
+        "direction": "stable",
+        "note": "FY2026 guidance maintained at both earnings; AI server backlog providing near-term visibility.",
+        "trend": "FY2026 guidance maintained; AI server backlog cited as primary visibility driver"
+      }
+    ],
+    "verdict": "HPE is a leveraged play on AI infrastructure buildout \u2014 not an AI-native company but a compute infrastructure manufacturer with growing AI server content. Juniper adds a meaningful networking overlay. The risk is margin dilution if AI server pricing becomes competitive."
+  },
+  "SNOW": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001640147-25-000207"
+    ],
+    "covers": "Q3 FY26 8-K (Dec 2025)",
+    "headline": "Only one new filing; insufficient for cross-quarter trend (single 8-K, Q3 FY26). Cortex AI driving product revenue +28 % YoY; NRR 127 %.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Product revenue +28 % YoY \u2014 Cortex AI and Snowpark workloads driving re-acceleration.",
+        "trend": "Q3 FY26 product revenue +28 % YoY; NRR 127 %; Cortex AI consumption growing"
+      }
+    ],
+    "verdict": "Single filing \u2014 insufficient for cross-quarter trend analysis. Cortex AI is the key watch item: if LLM inference consumption on Snowflake continues to grow, it could re-rate the product revenue growth trajectory materially."
+  },
+  "CLS": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001030894-26-000030"
+    ],
+    "covers": "Q1 2026 8-K (Apr 2026)",
+    "headline": "Single new 8-K \u2014 Celestica AI server and networking hardware revenue growing rapidly; hyperscaler manufacturing orders at records; guidance raised.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "CCS (AI server rack assembly) revenue growing strongly; guidance raised for FY2026.",
+        "trend": "AI server and networking hardware manufacturing revenue growing; hyperscaler customer orders at records"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "Gross margin expanding as AI hardware (higher-value) mixes up vs. commodity server assembly.",
+        "trend": "GM expanding as AI hardware revenue grows faster than commodity server assembly"
+      }
+    ],
+    "verdict": "Celestica is a high-leverage play on hyperscaler AI server manufacturing outsourcing. AI hardware is now the dominant revenue driver. Guidance raised on AI order momentum."
+  },
+  "MOD": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001104659-26-010338",
+      "0001104659-25-103221"
+    ],
+    "covers": "Q2 FY26 8-K (Oct 2025) \u2192 Q3 FY26 8-K (Feb 2026)",
+    "headline": "Data-center liquid-cooling revenue growing 40 %+ YoY for two consecutive quarters; CDU orders at records; guidance raised at both earnings.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Data-center cooling growing 40 %+ YoY both quarters \u2014 AI GPU density driving CDU demand.",
+        "trend": "Q2 FY26 data-center +40 %+ YoY \u2192 Q3 FY26 sustained; CDU orders at records both quarters"
+      },
+      {
+        "area": "margins",
+        "direction": "expanding",
+        "note": "GM expanding as data-center cooling (higher-margin) mixes up vs. HVAC.",
+        "trend": "GM expanding QoQ as data-center segment grows faster than HVAC"
+      },
+      {
+        "area": "guidance",
+        "direction": "raised",
+        "note": "Data-center revenue guidance raised at Q2 and Q3.",
+        "trend": "Data-center guidance raised Q2 \u2192 raised Q3; HVAC maintained; total guidance raised"
+      }
+    ],
+    "verdict": "Modine is a pure-play liquid-cooling beneficiary with two consecutive quarters of 40 %+ data-center growth. CDU orders at records with capacity expansion underway. The HVAC segment provides stability while data-center drives growth."
+  },
+  "INTC": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0000050863-26-000077",
+      "0000050863-26-000009"
+    ],
+    "covers": "Q4 2025 8-K (Jan 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "18A process (2nm-class) yield improving; Panther Lake on track for H2 2026; IFS external revenue growing; Gaudi AI accelerator gaining traction \u2014 credibility events approaching.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "improving",
+        "note": "Revenue stabilising after multi-year share loss; 18A yield progress is the key catalyst.",
+        "trend": "Q4 2025 revenue stabilising; Q1 2026 recovery; 18A Panther Lake risk production H1 2026"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "Gross margin recovering from 2024 lows as foundry losses narrow and product mix improves.",
+        "trend": "GM recovering both quarters; IFS losses still material but narrowing"
+      },
+      {
+        "area": "segments",
+        "direction": "improving",
+        "note": "IFS (foundry) external revenue growing; Gaudi AI traction at Meta/Amazon; Altera strategic review.",
+        "trend": "IFS external customers growing; Gaudi 3 gaining enterprise traction; Altera sale/IPO possible"
+      },
+      {
+        "area": "guidance",
+        "direction": "stable",
+        "note": "Management maintained Q1 2026 guidance; 18A yield is the key near-term catalyst.",
+        "trend": "Guidance maintained both quarters; 18A yield progress cited as primary positive signal"
+      }
+    ],
+    "verdict": "Intel is still in recovery mode \u2014 18A process is the credibility event that determines whether the thesis fully reprices. Two quarters of stabilising revenue and improving 18A yield language are positive signals. Gaudi AI adoption and IFS external revenue are the incremental growth levers. High execution risk remains."
+  },
+  "CRWV": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001769628-26-000220",
+      "0001769628-26-000094"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (May 2026)",
+    "headline": "First public earnings post-IPO; GPU cloud revenue growing rapidly on Microsoft/OpenAI anchor contracts; NVDA backing provides GPU allocation advantage; capex-intensive model.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Revenue growing rapidly both quarters on hyperscaler AI workload demand.",
+        "trend": "Q4 2025 pre-IPO revenue growing \u2192 Q1 2026 first public quarter; hyperscaler contracts driving"
+      },
+      {
+        "area": "concentration",
+        "direction": "tightening",
+        "note": "Microsoft and OpenAI represent majority of revenue \u2014 two-customer concentration risk.",
+        "trend": "Top-2 customers dominant both quarters; customer diversification is the multi-year execution goal"
+      },
+      {
+        "area": "capex",
+        "direction": "raised",
+        "note": "GPU cluster capex-intensive model; lease and equipment obligations primary balance sheet item.",
+        "trend": "Capex growing both quarters to expand GPU cluster capacity; IPO proceeds fund expansion"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "Gross margin improving as fixed-cost absorption improves on revenue scale.",
+        "trend": "GM improving QoQ as GPU cluster utilisation rises and fixed costs amortise over more revenue"
+      }
+    ],
+    "verdict": "CoreWeave is a high-risk, high-reward AI infrastructure bet \u2014 the only pure-play GPU cloud company with hyperscaler-scale contracts. Customer concentration (Microsoft + OpenAI) and capex intensity are the primary risks. NVDA equity backing and GPU allocation priority are the key competitive moats."
+  },
+  "LEU": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001628280-26-030674",
+      "0001628280-26-006909"
+    ],
+    "covers": "Q4 2025 8-K (Feb 2026) \u2192 Q1 2026 8-K (May 2026)",
+    "headline": "HALEU production advancing; DOE contract Phase 2 negotiations ongoing; SMR developer engagement growing \u2014 only US domestic HALEU enricher.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "improving",
+        "note": "HALEU production milestones advancing both quarters; SMR fuel supply pipeline growing.",
+        "trend": "HALEU production continuing; DOE Phase 2 contract negotiations advancing; SMR engagement growing"
+      },
+      {
+        "area": "supply",
+        "direction": "tight",
+        "note": "Russia TENEX wind-down creating domestic supply urgency \u2014 LEU is the only US option.",
+        "trend": "Russia supply wind-down progressing; US domestic enrichment urgency growing both quarters"
+      },
+      {
+        "area": "concentration",
+        "direction": "easing",
+        "note": "SMR developer diversification improving \u2014 TerraPower, X-energy, OKLO in discussions.",
+        "trend": "Multiple SMR developers engaging for fuel supply; not solely dependent on single DOE contract"
+      }
+    ],
+    "verdict": "LEU is a speculative but uniquely positioned nuclear fuel play \u2014 the only US domestic HALEU enricher in a post-Russia supply world. The thesis requires SMR commercialisation (2028-2030) to materialise. DOE Phase 2 contract is the near-term catalyst; OKLO/TerraPower deployment timelines are the long-term drivers."
+  },
+  "MXL": {
+    "as_of": "2026-05-21",
+    "based_on_accessions": [
+      "0001288469-26-000027",
+      "0001288469-26-000009"
+    ],
+    "covers": "Q4 2025 8-K (Jan 2026) \u2192 Q1 2026 8-K (Apr 2026)",
+    "headline": "PAM4 DSP and ethernet PHY recovering from 2024 digestion; AI networking silicon design wins converting; revenue growing sequentially each quarter of 2026.",
+    "shifts": [
+      {
+        "area": "growth",
+        "direction": "accelerating",
+        "note": "Revenue recovering from 2024 trough; management guiding sequential growth each quarter.",
+        "trend": "Q4 2025 recovering \u2192 Q1 2026 sequential growth; Spica Gen2 and Sleipnir design wins converting"
+      },
+      {
+        "area": "margins",
+        "direction": "improving",
+        "note": "Gross margin recovering as AI networking silicon (higher ASP) mixes up.",
+        "trend": "GM recovering from trough as revenue mix shifts toward higher-ASP AI networking silicon"
+      },
+      {
+        "area": "guidance",
+        "direction": "improving",
+        "note": "Management guiding sequential growth each quarter of 2026 \u2014 recovery confidence growing.",
+        "trend": "Sequential growth guidance maintained both quarters; design win conversion providing visibility"
+      }
+    ],
+    "verdict": "MaxLinear is in early-cycle recovery \u2014 the inventory digestion is behind it and AI networking silicon design wins are converting. The next 3-4 quarters of sequential revenue growth will determine whether MXL re-rates as an AI networking compounder or remains a cyclical recovery story."
   }
 }

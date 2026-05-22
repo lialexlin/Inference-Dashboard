@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-05-21T23:08:16.630591+00:00",
+  "last_refresh_at": "2026-05-22T23:08:27.156463+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-05-21T23:09:14.841901+00:00"
+      "ts": "2026-05-22T23:09:21.806501+00:00"
     },
     "rss": {
       "ok": 6,
@@ -26,15 +26,15 @@
       "errors": {
         "The Register": "bozo: <unknown>:80:24: not well-formed (invalid token)",
         "Mule Capital": "bozo: <unknown>:2:1326: not well-formed (invalid token)",
-        "AnandTech (Wayback)": "bozo: <unknown>:113:62: not well-formed (invalid token)"
+        "AnandTech (Wayback)": "bozo: <unknown>:116:62: not well-formed (invalid token)"
       },
-      "ts": "2026-05-21T23:09:19.862550+00:00"
+      "ts": "2026-05-22T23:09:26.207647+00:00"
     },
     "edgar": {
       "entries": 167,
       "summarized": 83,
       "errors": {},
-      "ts": "2026-05-21T23:09:33.094835+00:00"
+      "ts": "2026-05-22T23:09:39.307279+00:00"
     },
     "ciq": {
       "ok": 64,
@@ -43,13 +43,13 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-05-21T23:08:29.477446+00:00"
+      "ts": "2026-05-22T23:08:39.515036+00:00"
     },
     "scoring": {
       "ok": 65,
       "quadrant_counts": {
-        "fair": 33,
-        "avoid": 10,
+        "fair": 32,
+        "avoid": 11,
         "priced-in": 12,
         "underappreciated": 2,
         "value-trap": 7,
@@ -57,13 +57,13 @@
       },
       "manual_estimates_coverage": 0,
       "manual_estimates_total": 65,
-      "ts": "2026-05-21T23:09:33.338047+00:00"
+      "ts": "2026-05-22T23:09:39.683866+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
-          "layer_id": "hbm",
+          "layer_id": "gpu",
           "tightness_score": 76
         },
         {
@@ -71,18 +71,18 @@
           "tightness_score": 75
         },
         {
-          "layer_id": "gpu",
-          "tightness_score": 68
+          "layer_id": "hbm",
+          "tightness_score": 71
         }
       ],
-      "ts": "2026-05-21T23:09:33.297183+00:00"
+      "ts": "2026-05-22T23:09:39.645095+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-05-21T23:09:33.293647+00:00"
+      "ts": "2026-05-22T23:09:39.641513+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -93,7 +93,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-05-21T23:09:33.342549+00:00"
+      "ts": "2026-05-22T23:09:39.688390+00:00"
     }
   },
   "signals": {

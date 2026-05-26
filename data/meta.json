@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-05-25T23:12:05.404764+00:00",
+  "last_refresh_at": "2026-05-26T23:14:51.212233+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-05-25T23:12:49.369066+00:00"
+      "ts": "2026-05-26T23:15:38.106768+00:00"
     },
     "rss": {
       "ok": 6,
@@ -26,15 +26,15 @@
       "errors": {
         "The Register": "bozo: <unknown>:80:24: not well-formed (invalid token)",
         "Mule Capital": "bozo: <unknown>:2:1326: not well-formed (invalid token)",
-        "AnandTech (Wayback)": "Remote end closed connection without response"
+        "AnandTech (Wayback)": "bozo: <unknown>:113:62: not well-formed (invalid token)"
       },
-      "ts": "2026-05-25T23:12:53.840160+00:00"
+      "ts": "2026-05-26T23:15:43.066243+00:00"
     },
     "edgar": {
       "entries": 167,
       "summarized": 83,
       "errors": {},
-      "ts": "2026-05-25T23:13:06.334344+00:00"
+      "ts": "2026-05-26T23:15:55.733278+00:00"
     },
     "ciq": {
       "ok": 64,
@@ -43,21 +43,20 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-05-25T23:12:17.352750+00:00"
+      "ts": "2026-05-26T23:15:04.687288+00:00"
     },
     "scoring": {
       "ok": 65,
       "quadrant_counts": {
-        "fair": 34,
+        "fair": 35,
         "avoid": 11,
         "priced-in": 12,
-        "underappreciated": 1,
         "value-trap": 6,
         "unscored": 1
       },
       "manual_estimates_coverage": 0,
       "manual_estimates_total": 65,
-      "ts": "2026-05-25T23:13:06.627657+00:00"
+      "ts": "2026-05-26T23:15:56.072780+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -75,14 +74,14 @@
           "tightness_score": 73
         }
       ],
-      "ts": "2026-05-25T23:13:06.588003+00:00"
+      "ts": "2026-05-26T23:15:55.944083+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-05-25T23:13:06.584078+00:00"
+      "ts": "2026-05-26T23:15:55.940404+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -93,12 +92,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-05-25T23:13:06.632695+00:00"
+      "ts": "2026-05-26T23:15:56.077539+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 205,
-    "total": 231
+    "discovered_kept": 208,
+    "total": 234
   }
 }

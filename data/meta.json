@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-05-28T23:26:19.693274+00:00",
+  "last_refresh_at": "2026-05-29T23:19:39.908033+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-05-28T23:27:25.482808+00:00"
+      "ts": "2026-05-29T23:20:25.256501+00:00"
     },
     "rss": {
       "ok": 6,
@@ -26,15 +26,15 @@
       "errors": {
         "The Register": "bozo: <unknown>:80:24: not well-formed (invalid token)",
         "Mule Capital": "bozo: <unknown>:2:1326: not well-formed (invalid token)",
-        "AnandTech (Wayback)": "bozo: <unknown>:113:62: not well-formed (invalid token)"
+        "AnandTech (Wayback)": "bozo: <unknown>:116:62: not well-formed (invalid token)"
       },
-      "ts": "2026-05-28T23:27:30.517818+00:00"
+      "ts": "2026-05-29T23:20:29.539529+00:00"
     },
     "edgar": {
       "entries": 167,
-      "summarized": 79,
+      "summarized": 78,
       "errors": {},
-      "ts": "2026-05-28T23:27:44.623866+00:00"
+      "ts": "2026-05-29T23:20:44.152347+00:00"
     },
     "ciq": {
       "ok": 64,
@@ -43,7 +43,7 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-05-28T23:26:35.158589+00:00"
+      "ts": "2026-05-29T23:19:54.138152+00:00"
     },
     "scoring": {
       "ok": 65,
@@ -56,7 +56,7 @@
       },
       "manual_estimates_coverage": 0,
       "manual_estimates_total": 65,
-      "ts": "2026-05-28T23:27:45.096871+00:00"
+      "ts": "2026-05-29T23:20:44.453443+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -74,14 +74,14 @@
           "tightness_score": 75
         }
       ],
-      "ts": "2026-05-28T23:27:45.058671+00:00"
+      "ts": "2026-05-29T23:20:44.413818+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-05-28T23:27:45.054862+00:00"
+      "ts": "2026-05-29T23:20:44.410120+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -92,12 +92,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-05-28T23:27:45.101586+00:00"
+      "ts": "2026-05-29T23:20:44.457766+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 206,
-    "total": 232
+    "discovered_kept": 209,
+    "total": 235
   }
 }

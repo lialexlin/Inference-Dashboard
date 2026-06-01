@@ -1,0 +1,227 @@
+{
+  "ticker": "SNPS",
+  "symbol_used": "SNPS",
+  "call_id": 21908,
+  "source": "earningscalls.dev",
+  "url": "https://earningscalls.dev/transcript/21908",
+  "fetched_at": "2026-05-13T06:23:46.881850+00:00",
+  "company": "Synopsys, Inc.",
+  "call_type": "Presents at Morgan Stanley Technology, Media & Telecom Conference 2026, Mar-03-2026 11:30 AM",
+  "date": "2026-03-03",
+  "raw_date": "Tuesday, March 3, 2026",
+  "sector": "Information Technology",
+  "industry": "Software",
+  "segments": [
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Good morning, everyone. I think it's still morning, and welcome to San Francisco. This is the TMT Conference, Morgan Stanley 2026, and I'm glad to welcome to the stage, Sassine Ghazi, CEO of Synopsys. Sassine welcome."
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Maybe just to help level set everyone. Maybe -- it was only just last week, we did the results. So maybe you could just help us summarize what it was you highlighted for Q1 results, what you said for Q2, and maybe a little bit about the '26 guide?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Great. Before I go into the Q1 and the year, it's important to point out that FY '26 will be the first year that we have the combined companies, Ansys plus Synopsys coming together. And that provided a significant expansion for the opportunity that  we have.\r\nSynopsys has gone from a silicon design solution to silicon to systems engineering solution. And the timing could not be better for these two companies to come together as you look at the opportunities of physical AI. You look at the complexity of chips that needs to go into these systems, the holistic approach of designing these systems from silicon to system becomes essential.\r\nWe delivered solid Q1. We said what we're going to do, and we did it. And we delivered on the revenue towards the top line of the guide. We beat on EPS. We reiterated the guide for the year. So it's a great start of the year and gives us confidence to the guidance that we provided."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Got you. I made one mistake. I should have read the disclaimer at the top. Even if we just do that now, and we'll pretend we didn't do that. Today's discussion may contain forward-looking statements related to our current outlook, expectations and beliefs, which are subject to certain risks and uncertainties that could cause actual results to differ. Please refer to Synopsys most recent SEC filings for a discussion of risk factors that may materially affect these statements. Sorry about that. Back on track.\r\nSo maybe just with all that's being said, now with the integration of Ansys, what is driving the growth as you look across the group? It looks to be from the outside. So IP and hardware are part of that growth. But how do you see things this year?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Yes. Again, if you zoom out and you look at where are the opportunities from a market point of view, the complexity of designing the more sophisticated chips for AI applications require deeper integration, or what we call co-design, co-design between electronics and physics. That's one area.\r\nThe second area is as you envision the world with many companies trying to invest and deliver to more intelligent systems, be it a car, a robot, drone, et cetera. How do you design these intelligent systems by reengineering the way that you engineer these systems, creating a digital twin, be able to reduce the cost, et cetera. So that's the second area.\r\nThe third area is around agentic AI. It's such a great opportunity to attain the complexity of how these products are designed. So when you think of the electronics and physics core design, Synopsys with the new portfolio will be leading with having the physics sign off, be it thermal structure, et cetera, come into the design phase of the silicon. Actually, next week, we have our conference called Converge, where we'll be announcing a number of the joint solutions across these 3 vectors with the digital twin as long as the agentic effort that we're building."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Got you. Maybe if we just stay with the agentic effort, as you've outlined here. It does look as though you are starting to see a little bit of a competitive advantage coming to yourselves relative to some of the peers. And I think on top of that, there's been some sort of suggestion that this will be value-based pricing.\r\nMaybe help us understand how could that be done in practice? Where are you seeing customer interest arising? And maybe the time line as well for [indiscernible]."
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "The way we thought about AI is to tame complexity of the work our customers' R&D is dealing with. So we started an investment in 2017 around reinforcement learning. And we inserted the reinforcement learning in every opportunity we have into our product portfolio. We started selling that solution around 2020 time frame with a similar business model as we've had for EDA, which is a license consumption based.\r\nThe next wave was generative AI. With generative AI that really changed the user interface, the way the user deal with our technology. Because our customers are dealing with very sophisticated complex problems they're trying to solve, how do we ramp up new engineers, or how do we make the existing engineer more efficient? So think of it as an assistant for the engineer with generative AI.\r\nA year ago, we announced our vision and road map for agentic. We think of it as a series of task agents, or AgentEngineers, with a cognitive layer that you can orchestrate around these multiple AgentEngineers to change the workflow. The monetization opportunity and the new business model, we don't believe will happen unless the workflow will change. With agents, it will change the workflow. When the workflow changes, you're not counting anymore how many licenses am I consuming, and am I signing a 3-year agreement on prem to get access for these licenses? The delivery mechanism is very adaptive because those models are going to change at a much faster rhythm than the traditional software that we release every 9 months.\r\nMost of our customers run that software on-prem today, then there will be a layer of that -- once you move into these AgentEngineers that you need access to more compute. So therefore, a cloud model. And the outcome is going to be significant improvement to the time to get to results and the quality of the results. So that's the opportunity where we see the workflow will change, then the monetization opportunity will be different."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Okay. So the workflow here as far -- when you say workflow changes, do we see steps being shortened materially? Is it optimization on certain like place and route, for instance? How does it all work?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "So if -- let me describe it in -- at the semiconductor chip design, as well as the simulation and analysis because they have different user persona and a workflow that you need to think through.\r\nAt the chip design, the chip design is multiple parts of that workflow. You start with the requirements, and you start really the chip design very much as a software entry point. Then you go all the way to the last phase, which is process technology manufacturing physics-based. Because if you're going to manufacture, say, at TSMC, or Samsung, or Intel, or GF, or whomever, you need to make sure that you have the physics representation of the process technology taken into account during the first phase of the chip design.\r\nSo the workflow has multiple steps. Some part of the workflow, the agents can do a great job to augment the human engineer and take on certain tasks to make the engineer more effective and efficient. Other part of the workflow is a better quality of outcome of results faster. Some part of the workflow is very difficult to bring in an agent to take on the task. Other part of the workflow and agent will be a perfect fit. So the way we mapped it out last year, they're going to be L1 through L5 in terms of levels of maturity for agents. From a task agent to the orchestration, et cetera.\r\nToday, we are delivering a number of tasks, agents or AgentEngineers with some sort of a cognitive layer to orchestrate these agents, and we're in early adoption with customers to see. What is the impact overall on the time to design the chip, and the quality of the chip. Because with the objective to improve the power or the performance, or the cost of the chip. So when we think of a workflow, it's -- in the chip design, it's a series of tasks and which task can be at this stage delivered to an agent to deliver to it.\r\nAnd simulation and analysis is slightly different. In simulation and verification in general, it's all about how much verification can I get done in the fastest and shortest time possible because there the bottleneck is time. AI is a great opportunity to accelerate. And we're working on a number of other investments besides AI. There, for example, compute acceleration like GPU is another opportunity where, for example, a fluid dynamic simulation can be accelerated by 100x, 300x. That's a significant improvement on a task that may take weeks that you can reduce to days or hours."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. Incredible. A hundredfold increase. So maybe if I just try and just quickly summarize there. You're talking about various optimal points across the entire flow. The flow itself could introduce different agents, maybe multiple agents across the flow. And then there is a difference between the EDA flow, obviously, and what you're doing in simulation analysis. But there -- and you did talk about verification. And there is, maybe, a concern in the market that some of the coding that's done, pre-verification will go to RTL, for instance, could be done utilizing models at customers. And yet you have tools that have got decades of data algorithms behind them and data layers. So how do you deal with that competition, that potential risk in the market?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Yes, they are part of the workflow. They are very similar to a software development. You write code. That part of the business is very, very small because our customer owns writing that code. Not Synopsys is trying to write the code for the customer or -- the tool we provide, once you write that code is it going to be functioning. And as you go deeper into implementing it into physics, are you able to manufacture it. So it's not a code that you write and you say, okay, that performed the task, I'm done. There's a physics element of it. The code that is written needs to be physically implemented and that physical implementation is still using software. Then once you go into the manufacturing step that you need to make sure you have the physics of manufacturing taken into account when you're implementing that physical implementation.\r\nThose are series of complex solvers that we have built over decades. In collaboration with the manufacturing technology and the architecture level. We are -- when we talk about agents, engineers and tasks agents, we are leading with the disruptions that we say with AI, there are certain tasks that how do we leverage the solvers that we have with the cognitive layer or any foundation LLM, that is out there and provide a new better solution for our customers.\r\nSo we -- I don't want to take the thunder out of next week as we're at Converge. But when we talk next week about the series of advancements we've made with these AgentEngineers is quite remarkable. And the reason we have the advantage is because we own the solvers. And our customers from a data point of view, et cetera, we have that entire visibility to build these agents."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. And so ultimately, the AgentEngineer will call the solvers, the underlying software tools. So you get a much more deterministic outcome for the client?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Exactly. And then the next phase is when you have an orchestration of these multiple agents. That's where the workflow will change."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Got you. Okay. Maybe just changing to the new NVIDIA relationship that you guys talked about a month or so back. And trying to understand the sort of commercial traction for Synopsys here. Time lines to use the work that you're going to do around Omniverse. Maybe just help us understand how does that work? How do you monetize this? And when does it all happen?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "There what triggers -- so we've been a partner with NVIDIA for decades. And what triggered that deeper partnership is really the expanded portfolio. When you look at the Synopsys portfolio, historically has been targeted and focused to semiconductor companies. The companies they're designing chips. As these chips are sitting in a very complex system, be it a data center or a car or a humanoid, et cetera. In order to achieve the best total cost of ownership of these end intelligent systems, a lot of customization is happening. That's where you see a plethora of architecture ASIC customization, COT happening with these end system companies.\r\nThe complexity of thinking of the system as a stack from silicon to software and to the system level, the end product level is a complex engineering task. And today, the way our customers are trying to differentiate is how do they reduce margin and improve the cost across the stack. With the Ansys portfolio, we're very uniquely differentiated because we own the physics simulation with the design of the silicon. NVIDIA could see that. They could see that as they're designing themselves a system, and as they're trying to capture the opportunity of the future, we have a massive workload for engineering.\r\nSo today, you cannot think of any type of engineering, be it mechanical, electrical, electronics, et cetera, that is not using Synopsys one way or another. Most of these workloads are running on CPUs. Most of these workloads need to be accelerated. So the closest opportunity to accelerate is a GPU. We have a road map that we are committed to deliver with the joint R&D with NVIDIA by the end of this year. And we have some proof points of number of technology that we have invested prior to that announcement with any -- with a range of anywhere between 10x to 20, 25x improvement to a CPU. That's a great monetization opportunity.\r\nSo what the customer will see is from many weeks to fewer weeks or days that are -- they're willing to pay extra money and value for that acceleration. That's one layer of the collaboration is the GPU acceleration. The next layer of collaboration is the digital twin of these intelligent systems. With Omniverse, as the -- think of it as the cockpit to bring in an end product requirements, and before you go into the manufacturing of that product, you need to validate. Will it function in that simulation world? In the physical world, in the real world? So you need an accurate physics simulation in order to go from that digital design to the physical design.\r\nAnd again, this is where the Ansys portfolio today, if you think of a car or an airplane engine, or any applications a drone, robot there are mechanical aspects that are driven by electronics, that you need to make sure you have the right -- either gas or electric battery mileage. You have the right fluid dynamics to improve the efficiency of the product, et cetera, et cetera. And this is where the Omniverse partnership is about."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Perfect. It sounds very exciting, actually. So we look forward to March 11 was the event?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Superb. Maybe if I take you back to, however, Q3 last year, we did see a couple of issues come up, which do look like they're now going into a rearview mirror. One of which was in China. Maybe you could help us understand again, it did seem as though IP in China was getting something of a roadblock and there were some road map issues going forward.\r\nCan you just maybe outline what was happening there? And if indeed China as a growth story in IP comes back for Synopsys?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Yes. So let me describe China then IP as both separate and how did they impact one another.\r\nChina for a number of years was a very fast-growing market for Synopsys, primarily driven by the number of start-ups. If you go back to 2019, 2020, '21 time frame, the number of start-ups in China doing chip design, were at a pace much faster than any other region in the world. That was a fantastic opportunity for Synopsys, not only driven by IP, driven by IP and the rest of the EDA portfolio.\r\nThen what we've seen over that period of time since then, the number of start-ups are shrinking. And there's the headwind coming from the cumulative impact of restrictions on technology in China. The impact on Synopsys was more significant than our competitors because our position and IP in China was much bigger than any peer that we compete with in China. So that's the China dynamic. So what we communicated for FY '26, we are derisking China, meaning we're assuming the environment in China will not change. So that's the China aspect.\r\nNow from an IP portfolio point of view. We have the largest in terms of breadth of an IP portfolio that serves multiple markets. So today, if you are a semiconductor company designing for automotive, for industrial, for mobile, for HPC, Synopsys is your partner of choice. If you're designing on TSMC, but the next chip is on Samsung, Intel, GF, we have our IP available on all foundries for various markets. That has been our business for about 25 years on IP. So you build it once, you sell it many times, and you provide the IP before the customer needs the IP.\r\nThe trend over the last 3, 4 years, especially with AI-driven semiconductor chips is a lot of customization of that IP, and that's where you see companies like Broadcom have been benefited greatly from customization in ASIC. And then you see many of these hyperscalers designing their own chips in order to improve their TCO for specific workload. That's a fantastic opportunity for Synopsys, but it's a change in opportunity, meaning we still have to deliver on that broad portfolio that you build it once, sell it many times. And we need to build a new lane of customization for these opportunities.\r\nSo what we communicated is for that new lane of opportunities, we have to approach it with a different business model and with a different approach with these customers. Because if you take the top 1 or 2 ASIC companies out that they have their own IP, the rest of the ASIC companies rely heavily on Synopsys for their business. They cannot have an ASIC business if we don't have our IP business. So they're very open to adapt to a new business model.\r\nAnd same thing with hyperscalers. As they're building COT, they're building an IP group. They need the IP to come from Synopsys, but we need to customize it. So when we talked about FY '26 will be a transition year for IP, is for us to continue on serving the current business model and market. And as we adapt and allocate resources and investment to serve that new opportunity."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "And that adoption of IP business model. If I remember right, you used the word pivoting to subsystems as a design, which seemed like as though you were dancing close to the idea of making chiplets or custom designing chiplets for perhaps ASIC players or hyperscalers. Is that the right way to see this going forward? And do you see this as a bigger TAM of dollar capture for you guys?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Our customers are pulling us in that direction. And by the way, when I say customers, in this case, are the HPC customers, the hyperscalers and the semiconductor companies building to serve that cohort of customers. We've been evolving from delivering an IP as a stand-alone small block to a bunch IP working together that sits on a bigger part of the chip. We have been down that journey for a number of years now.\r\nBut what we're trying to change is the monetization of that work. Because the way we sold IP is, you buy the IP for one use on a chip. The next chip, you buy the IP again, the next chip, you buy the IP again. It's been very healthy and great business model. Now with the customization, you have a use fee plus an NRE. But given the demand on the resources, and these are scarce resources, we need to have a use fee in NRE plus some sort of a share. Think of it as a royalty for these engagements. And that's the period we're in right now. We're in a number of discussions with those customers to pivot to a new layer of monetization for that resource investment that we're making.\r\nBut we're not going all the way to build the chip. And the reason we're not is because we are an ecosystem. The moment we decide to go all the way to build a chip, then we're competing with the whole slew of our customers. I would rather sell to many, many, many of those customers and monetize better, versus building and competing with the customer."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Got you. Okay. So there's still value to be had coming in and enabling subsystems for customers utilizing resource to get there and then taking a royalty in the market afterwards?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Exactly because in this model, we can engage as an ecosystem to many of either the ASIC, or chip companies that are serving that market, or the hyperscalers themselves that they're building that chip."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Got you. Okay. Maybe if we turn to foundational IP, and I think you're #1 customer there was -- there wasn't a pull down on their customers at a certain process node. And the suggestion, I think, from yourselves had been maybe just look at that as potentially a 0 for this year, the foundational IP from the #1 customer. Is that still the right way to look at this? And how about foundational IP as a general opportunity for the next 2, 3 years?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "So by the way to -- from a terminology point of view, there is the foundation, but we have two categories of IP. We have a foundation IP and an interface IP. So think of them as both are needed to work with a foundry in order to on ramp customers on their node and technology. What we said is for that particular foundry customer, the way we're approaching FY '26 from a guide point of view, we are assuming that there will be no new design start with that foundry customer in our guide. If there are, great, that will be an upside. But we're derisking it from a guide point of view.\r\nNow you can argue you're being pragmatic with that approach? Yes. Why? Because we have the transformation of the IP opportunity, as I just described, that we need to make sure we capture it as well. From the long term, the opportunity for IP is massive. For all the reasons I mentioned earlier, if you're building a chip and you don't want to just buy a general purpose from whomever you're buying the general purpose chip for to -- for your data center, and ASIC, you're limited to very few players. You want to build either your own chip or work with a broader set of ASIC companies to customize the chip for that third cohort. You cannot get to it without the Synopsys IP. And that's the opportunity that we want to capture and make sure we have the resources and the investment allocation for that market."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Got you. That makes sense. One more from me and then I'll open up to the floor. Just on Ansys and the integration now. It seemed as though on the call last week that you pulled forward some of the synergies, the cost synergies, maybe to next year, but possibly even this year. Is that the case? And can you maybe help put some numbers around that for us?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Yes. Actually, it was -- by the way, thank you for bringing this point because it's -- it does require some attention to share with you the strength of our balance sheet. We had short-term debt to be paid off over a 3-year period. We ended up accelerating it and paid it off in 6 months. So that tells you the strength of the balance sheet we have of the position that we have. So yes, that was paid off from a short-term debt point of view.\r\nAnd actually, just Monday yesterday, we have announced $250 million buybacks with -- again, that we believe it's a great return given where we are from a market point of view. The other priority that we're driving, we said there will be $400 million in cost synergy that we'll achieve in 3 years post the Ansys acquisition. That is being accelerated as well. We have confidence that we'll be able to accelerate and achieve the $400 million in cost synergy much earlier than the 3-year point that we set initially."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Perfect. Maybe I will open up to floor at this point, see if there's any burning questions. I've got one down here."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Thank you. Sassine, more of a near-term question, but one of the concerns that analysts are expressing is around just the core EDA growth slowing from the high single-digit range, even while we're seeing all this strength in AI compute demand. So I guess my question is, why would EDA -- the core EDA growth be slowing in this environment?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Yes. So thank you for the question. How do we monetize core EDA? Either our customers are investing more in R&D, and we get the percentage of that increased investment or they have a need to use more of our new technology. New technology, be it the GPU acceleration, the joint solution with Ansys or the AI technology, et cetera. We have a great monetization happening today in EDA for that cohort of customers, what we call it the tale of two markets today that we're selling into, that are investing more in their R&D, and they are adopting the latest technology to tame the complexity they have.\r\nBut if you look at the broader semiconductor market, there is still a big chunk of companies that are not investing more in R&D, and they're not facing forward in their road map. Net-net, when you aggregate these two, this year, we're going to be delivering close to a double digit for EDA. But the long-term confidence in EDA as double digit, same thing with simulation and analysis at double digit, as IP in the mid-teens remain given the need for that sophisticated silicon that our customers are building."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. Thanks for that question. Maybe just staying on that, I mean..."
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "I think there is a question right there."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "There was another one there? Sorry."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Just following on the same question. I was curious, given the market structure that exists in EDA, why do you limit yourself to the R&D budgets of your customers? Why not think about their revenue, their demand equation, and try to tap into that value creation? Versus say, okay, if I'm customer A and I set my R&D budget at X, well, I hope to get a percentage of that. When clearly, those customer companies are tapping into a demand equation that is massively accelerating?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "On the EDA side, the percentage of R&D dollar that's coming to Synopsys and our industry has been increasing. Due to complexity, due to -- primarily complexity of what our customer is doing. Where we're seeing the opportunity to capture exactly what you're saying is in IP. And IP is exactly what we're positioning that change in the business model from the historical 25 years of just the use fee to capture the dollar amount.\r\nThat if you look at percentage of R&D that the EDA used to capture about 10 years ago, it was in the single digits, 7-ish percent or so, where right now is close to 12%, and that budget of R&D is increasing. The change in the workflow is the new opportunity to change the way we capture value for the impact we're delivering to the customer."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Maybe we've got one down front."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "I guess your EDA business is fundamentally a SaaS model. So the question is, are you yourself vulnerable to AI disruption?"
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "It's not really a SaaS model. Today, the -- its license based that is on-prem primarily. So the way our customers today, they assess how much money do they spend with us is based on their number of engineers and the tasks they are running. So in many cases, you have an engineer running many, many licenses and other parts of the workflow, one engineer is running very few just because of the interaction and part of the workflow.\r\nAs far as the AI impact, AI is a great opportunity for us. It's actually driving the opportunity to monetize more. I mentioned earlier, reinforcement learning, et cetera, those are techniques that we have product and we're monetizing. And remember, what we deliver, it has a software layer that is driving deep physics, solvers and engines that we do. Therefore, the AI opportunity to improve the user interface with generative AI, et cetera, we are leading with that innovation to our customers. With the next opportunity of agents, we are leading in building these agents with the solvers that we have. So we see it as absolutely a tailwind to simplify what our customers are trying to do, which is very complex already, both at the silicon level, as well as the system level."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Great. I see we're out of time. Sassine, thank you very much."
+    },
+    {
+      "speaker": "Sassine Ghazi",
+      "role": "Executives",
+      "text": "Thank you so much. Thank you."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Thanks."
+    }
+  ],
+  "word_count": 4988
+}

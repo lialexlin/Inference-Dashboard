@@ -1,0 +1,5264 @@
+{
+  "as_of": "2026-06-01",
+  "generated": "2026-06-01",
+  "note": "AI-supply-chain value chains per TW sub-industry. TW codes validated against the live TWSE/TPEx universe. A navigational map — verify before acting.",
+  "chains": {
+    "Foundry": {
+      "sub_industry": "Foundry",
+      "summary": "Foundry (晶圓代工) converts IC design files into physical silicon using lithography, etch, deposition, and CMP across 500–1,000 process steps — it is the irreplaceable conversion layer between design IP and working silicon. At leading edge (≤5nm), TSMC holds a near-monopoly on the nodes where AI accelerators, custom ASICs, and inference processors are manufactured.",
+      "ai_relevance": "Every AI accelerator — NVDA H/B/R-series, AMD MI-series, Google TPU, custom hyperscaler ASICs — is fabbed exclusively on TSMC N3/N2; wafer demand from AI grew ~40% YoY in 2025 and is the primary driver of TSMC capacity expansion through 2028. Second-tier foundries (UMC, PSMC, VIS) benefit from trailing-node spillover as AI system BOM requires mature-node analog, power, and I/O chips alongside the leading-edge compute die.",
+      "stages": [
+        {
+          "name": "Wafer Fab Equipment & Lithography",
+          "position": "upstream",
+          "desc": "Capital equipment — lithography, etch, CVD/ALD, CMP, metrology — consumed by foundries to build and expand capacity; no fab runs without this layer.",
+          "players": [
+            {
+              "name": "ASML",
+              "code": "",
+              "region": "EU",
+              "role": "EUV/High-NA monopoly; gating N3/N2",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Applied Materials",
+              "code": "",
+              "region": "US",
+              "role": "Etch, dep, CMP global #1",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Lam Research",
+              "code": "",
+              "region": "US",
+              "role": "Etch and dep global #2",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Tokyo Electron",
+              "code": "",
+              "region": "JP",
+              "role": "Coater/developer, thermal; global #3",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "KLA Corporation",
+              "code": "",
+              "region": "US",
+              "role": "Process control & metrology leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "弘塑",
+              "code": "3131",
+              "region": "TW",
+              "role": "Wet-clean equipment for local fabs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "辛耘",
+              "code": "3583",
+              "region": "TW",
+              "role": "Diffusion & cleaning tools; TSMC supplier",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Silicon Wafers & Process Materials",
+          "position": "upstream",
+          "desc": "Bare silicon wafers and specialty chemicals (photoresists, CMP slurries, etchants, gases) that are consumed per wafer start.",
+          "players": [
+            {
+              "name": "Shin-Etsu Chemical",
+              "code": "",
+              "region": "JP",
+              "role": "Silicon wafer global #1 (~30% share)",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "SUMCO",
+              "code": "",
+              "region": "JP",
+              "role": "Silicon wafer global #2",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "環球晶",
+              "code": "6488",
+              "region": "TW",
+              "role": "Silicon wafer global #3; TSMC qualified",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "JSR / Tokyo Ohka",
+              "code": "",
+              "region": "JP",
+              "role": "EUV photoresist near-duopoly",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "達興材料",
+              "code": "5234",
+              "region": "TW",
+              "role": "Specialty process chemicals, local supply",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "光洋科",
+              "code": "1785",
+              "region": "TW",
+              "role": "Sputtering targets & noble-metal materials",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Leading-Edge Foundry (TSMC / Samsung)",
+          "position": "core",
+          "desc": "N3/N2/1.4nm pure-play and IDM foundries that manufacture AI compute die; the volume and yield at this tier determine GPU/ASIC supply.",
+          "players": [
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "N3/N2 monopoly for AI silicon",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Samsung Electronics",
+              "code": "",
+              "region": "KR",
+              "role": "3GAE/2nm competitor; SF2 ramping",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Intel Foundry",
+              "code": "",
+              "region": "US",
+              "role": "18A risk-on; show-me on AI wins",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Mature-Node Foundry",
+          "position": "core",
+          "desc": "28nm–0.18µm capacity serving analog, power management, display drivers, I/O, and networking silicon that populates the rest of AI server BOM.",
+          "players": [
+            {
+              "name": "聯電",
+              "code": "2303",
+              "region": "TW",
+              "role": "22/28nm mature node global #2",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "力積電",
+              "code": "6770",
+              "region": "TW",
+              "role": "12/8-inch mature; memory + logic",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "世界",
+              "code": "5347",
+              "region": "TW",
+              "role": "8-inch PMIC/display driver specialist",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "GlobalFoundries",
+              "code": "",
+              "region": "US",
+              "role": "22FDX/mature; US content for CHIPS Act",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "中芯國際 (SMIC)",
+              "code": "",
+              "region": "CN",
+              "role": "China captive mature node; export-restricted",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "IC Design (Fabless Customers)",
+          "position": "downstream",
+          "desc": "Fabless and fab-lite chip designers who place wafer orders; their tape-out schedules and node mix dictate foundry revenue and utilisation.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand sink; largest N3/N2 customer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "AMD",
+              "code": "",
+              "region": "US",
+              "role": "MI-series AI GPU on N3",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "Custom ASIC (XPU) for hyperscalers on N3",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Marvell Technology",
+              "code": "",
+              "region": "US",
+              "role": "Custom inference ASIC; N3 ramp",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "聯發科",
+              "code": "2454",
+              "region": "TW",
+              "role": "Edge AI SoC; TSMC N3 volume customer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "世芯-KY",
+              "code": "3661",
+              "region": "TW",
+              "role": "Hyperscaler ASIC design services",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "創意",
+              "code": "3443",
+              "region": "TW",
+              "role": "TSMC-affiliated ASIC & turnkey design",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Advanced Packaging & System Integration",
+          "position": "downstream",
+          "desc": "CoWoS, SoIC, and OSAT packaging that integrates foundry-made compute die with HBM and substrate into deployable AI accelerator modules.",
+          "players": [
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "Captive CoWoS; packaging bottleneck",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "日月光投控",
+              "code": "3711",
+              "region": "TW",
+              "role": "OSAT #1; CoWoP spillover ramp",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "京元電子",
+              "code": "2449",
+              "region": "TW",
+              "role": "AI chip testing bottleneck partner",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "力成",
+              "code": "6239",
+              "region": "TW",
+              "role": "Advanced OSAT; HBM-adjacent packaging",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Amkor Technology",
+              "code": "",
+              "region": "US",
+              "role": "US packaging buildout; CoWoS-class capacity",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "IC Design": {
+      "sub_industry": "IC Design",
+      "summary": "Taiwan IC Design houses create the silicon blueprints — SoCs, controllers, power management ICs, MCUs, and mixed-signal chips — that sit between raw wafer fabrication and finished systems. In the inference stack they supply the glue logic, power delivery, and connectivity silicon that every AI accelerator board, server, and edge-inference device depends on.",
+      "ai_relevance": "Wave-1 demand (GPU/HBM) pulled forward wafer starts at TSMC, which in turn raises tape-out volumes for every IC Design house sharing that foundry capacity; wave-2 is the re-rating of the controller, power, and networking chips that surround the AI die — PCIe retimers (祥碩), PMIC (矽力*-KY), BMC/IPMI (信驊), and high-speed interface controllers — whose content per inference server is 5-10× a commodity laptop BOM.",
+      "stages": [
+        {
+          "name": "EDA & IP Licensing",
+          "position": "upstream",
+          "desc": "Electronic design automation software and licensable hard IP (PCIe/USB/DDR PHYs, SRAM compilers) that IC Design houses must license before taping out.",
+          "players": [
+            {
+              "name": "Synopsys",
+              "code": "",
+              "region": "US",
+              "role": "EDA market leader; AI-enhanced design tools",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Cadence Design Systems",
+              "code": "",
+              "region": "US",
+              "role": "EDA co-leader; Cerebrus AI-opt flows",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Arm Holdings",
+              "code": "",
+              "region": "EU",
+              "role": "CPU/NPU IP licensor to most TW SoC houses",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "晶心科",
+              "code": "6533",
+              "region": "TW",
+              "role": "RISC-V CPU IP for embedded/AI-edge SoCs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "力旺",
+              "code": "3529",
+              "region": "TW",
+              "role": "Embedded NVM IP (OTP/MTP) for IoT/MCU designs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "M31",
+              "code": "6643",
+              "region": "TW",
+              "role": "Mixed-signal PHY IP for advanced nodes",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Leading-Edge Foundry (Manufacturing)",
+          "position": "upstream",
+          "desc": "Wafer fabrication on N5/N4/N3/N2 for AI-oriented SoCs and N28/N16/N12 for controllers/PMICs — the physical substrate IC Design houses buy capacity from.",
+          "players": [
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "Dominant foundry for AI-grade IC Design tape-outs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯電",
+              "code": "2303",
+              "region": "TW",
+              "role": "Mature-node home for MCU/analog/connectivity designs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "世界",
+              "code": "5347",
+              "region": "TW",
+              "role": "8-inch specialty foundry for power/display drivers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "力積電",
+              "code": "6770",
+              "region": "TW",
+              "role": "12-inch mature node; DRAM controller adjacency",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "IC Design — Controllers & Connectivity (Core)",
+          "position": "core",
+          "desc": "Taiwan fabless houses designing the PCIe retimers, USB/Thunderbolt controllers, Ethernet PHYs, and high-speed I/O chips that are the connective tissue of every AI server and edge device.",
+          "players": [
+            {
+              "name": "祥碩",
+              "code": "5269",
+              "region": "TW",
+              "role": "PCIe 5/6 retimer leader; AI server content play",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "瑞昱",
+              "code": "2379",
+              "region": "TW",
+              "role": "Ethernet PHY/NIC; expanding into 800GbE for AI clusters",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "創惟",
+              "code": "6104",
+              "region": "TW",
+              "role": "USB/Thunderbolt controller; AI hub demand",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯陽",
+              "code": "3014",
+              "region": "TW",
+              "role": "PCIe/USB bridge ICs for server platforms",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "信驊",
+              "code": "5274",
+              "region": "TW",
+              "role": "BMC/IPMI controller; sole-source in AI servers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "安國",
+              "code": "8054",
+              "region": "TW",
+              "role": "USB/NAND flash controller; edge inference storage",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "IC Design — Power Management & Display (Core)",
+          "position": "core",
+          "desc": "Taiwan fabless houses supplying PMICs, DC-DC converters, motor drivers, and display driver ICs — the power and signal conditioning layer for AI accelerator boards, edge devices, and panels.",
+          "players": [
+            {
+              "name": "矽力*-KY",
+              "code": "6415",
+              "region": "TW",
+              "role": "High-efficiency PMIC; server/AI board power delivery",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "茂達",
+              "code": "6138",
+              "region": "TW",
+              "role": "Gate drivers and PWM controllers for power stages",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "致新",
+              "code": "8081",
+              "region": "TW",
+              "role": "DC-DC converters; power management for servers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯發科",
+              "code": "2454",
+              "region": "TW",
+              "role": "SoC leader; AI-on-device NPU + 5G/Wi-Fi chips",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯詠",
+              "code": "3034",
+              "region": "TW",
+              "role": "Display driver IC leader; TCON for edge AI panels",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "天鈺",
+              "code": "4961",
+              "region": "TW",
+              "role": "Power management ICs for IoT/wearable edge AI",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Accelerator & Platform Silicon (Downstream)",
+          "position": "downstream",
+          "desc": "GPU, ASIC, and SoC vendors that are the primary customers consuming Taiwan IC Design output — their design wins directly drive tape-out demand back up the chain.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand anchor; largest AI silicon volume",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "AMD",
+              "code": "",
+              "region": "US",
+              "role": "MI300X/MI400 AI accelerator; TSMC N5/N3 customer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "Custom ASIC (XPU) for Google/Meta; PCIe/SerDes buyer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Marvell Technology",
+              "code": "",
+              "region": "US",
+              "role": "Custom AI silicon + 800G Ethernet; TSMC N3 customer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Intel",
+              "code": "",
+              "region": "US",
+              "role": "Gaudi AI accelerator; Xeon platform anchor customer",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Server & Hyperscaler End-Demand",
+          "position": "downstream",
+          "desc": "Server ODMs and hyperscale cloud operators that assemble boards using Taiwan IC Design chips and set the ultimate volume cadence for the entire sub-industry.",
+          "players": [
+            {
+              "name": "鴻海",
+              "code": "2317",
+              "region": "TW",
+              "role": "Largest AI server ODM; NVIDIA GB200 NVL rack integrator",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "AI server ODM; NVIDIA and hyperscaler BOM anchor",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "緯穎",
+              "code": "6669",
+              "region": "TW",
+              "role": "Hyper-scale ODM; cloud-first AI rack designs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Microsoft (Azure)",
+              "code": "",
+              "region": "US",
+              "role": "Hyperscaler; Maia ASIC + GB200 rack buyer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Google (GCP)",
+              "code": "",
+              "region": "US",
+              "role": "Hyperscaler; TPU v5/v6 + third-party AI cluster buyer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Amazon (AWS)",
+              "code": "",
+              "region": "US",
+              "role": "Hyperscaler; Trainium/Inferentia + NVIDIA fleet buyer",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "ASIC & IP": {
+      "sub_industry": "ASIC & IP",
+      "summary": "Taiwan's ASIC design-services and semiconductor IP cluster handles the full custom-silicon stack: turning a hyperscaler's architectural spec into a tapeout-ready GDS file (design services) or licensing reusable embedded cores (RISC-V, SerDes, NVM IP) that every chip integrates. It sits between the chip architect and the foundry, acting as the silicon translation layer.",
+      "ai_relevance": "The hyperscaler ASIC wave (Google TPU, AWS Trainium, Meta MTIA, Microsoft Maia) is structurally shifting compute spend from merchant GPUs to custom silicon — TrendForce projects custom ASIC shipments +45% in 2026 vs. +16% for GPUs — which flows directly through ASIC design-service houses and IP licensors whose revenue scales with tapeout volume and NVM/SerDes content per die.",
+      "stages": [
+        {
+          "name": "EDA Tools & Process Design Kits",
+          "position": "upstream",
+          "desc": "Software and foundry-supplied PDKs that ASIC designers run every design through; without qualified EDA flows there is no tapeout.",
+          "players": [
+            {
+              "name": "Synopsys",
+              "code": "",
+              "region": "US",
+              "role": "EDA #1; AI-chip design market leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Cadence Design Systems",
+              "code": "",
+              "region": "US",
+              "role": "EDA #2; custom/analog stronghold",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Siemens EDA (Mentor)",
+              "code": "",
+              "region": "EU",
+              "role": "EDA #3; DFT and verification",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "PDK sole-source for N3/N2 nodes",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Semiconductor IP Licensing",
+          "position": "upstream",
+          "desc": "Hard/soft silicon IP cores (RISC-V CPU, SerDes, NVM, SRAM compilers, mixed-signal) licensed to ASIC designers per tapeout or per unit.",
+          "players": [
+            {
+              "name": "Arm Holdings",
+              "code": "",
+              "region": "other",
+              "role": "CPU IP monopoly; NPU Ethos in AI SoCs",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "晶心科",
+              "code": "6533",
+              "region": "TW",
+              "role": "Taiwan RISC-V CPU IP pure-play",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "力旺",
+              "code": "3529",
+              "region": "TW",
+              "role": "NVM IP (eFlash/OTP) sole-source Taiwan",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "M31",
+              "code": "6643",
+              "region": "TW",
+              "role": "TSMC-qualified PHY/SerDes/IO IP",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Rambus",
+              "code": "",
+              "region": "US",
+              "role": "Memory interface IP (HBM PHY, DDR)",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Imagination Technologies",
+              "code": "",
+              "region": "other",
+              "role": "GPU IP for inference SoCs",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "ASIC Design Services (Turnkey / NRE)",
+          "position": "core",
+          "desc": "Full-turnkey ASIC design houses that take a customer spec from RTL through layout, verification, and tapeout management at TSMC/Samsung nodes — the core bottleneck asset in the hyperscaler custom-silicon boom.",
+          "players": [
+            {
+              "name": "世芯-KY",
+              "code": "3661",
+              "region": "TW",
+              "role": "Hyperscaler ASIC leader; Amazon/Meta key customer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "創意",
+              "code": "3443",
+              "region": "TW",
+              "role": "TSMC affiliate; 3nm/2nm tapeout partner",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "智原",
+              "code": "3035",
+              "region": "TW",
+              "role": "SoC design + IP platform; mid-range ASIC",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "In-house ASIC design for Google/Meta XPUs",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Marvell Technology",
+              "code": "",
+              "region": "US",
+              "role": "Custom ASIC + 5nm packaging for hyperscalers",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Leading-Edge Foundry (Tapeout Execution)",
+          "position": "downstream",
+          "desc": "TSMC and Samsung execute the physical wafer manufacturing once design-service houses hand off the GDS; the foundry relationship is what makes Taiwan design houses strategically sticky.",
+          "players": [
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "N3/N2 sole-source for AI ASIC production",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Samsung Foundry",
+              "code": "",
+              "region": "KR",
+              "role": "2nm GAA alternative for non-TSMC ASICs",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "聯電",
+              "code": "2303",
+              "region": "TW",
+              "role": "Mature-node ASIC overflow and mixed-signal",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Hyperscaler & AI Chip End Customers",
+          "position": "downstream",
+          "desc": "The direct buyers of ASIC design services and IP licenses — hyperscalers designing their own inference/training silicon and fabless AI chip companies.",
+          "players": [
+            {
+              "name": "Google (Alphabet)",
+              "code": "",
+              "region": "US",
+              "role": "TPU v6/v7 custom ASIC demand anchor",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Amazon Web Services",
+              "code": "",
+              "region": "US",
+              "role": "Trainium3/Inferentia3 key 世芯 customer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Microsoft",
+              "code": "",
+              "region": "US",
+              "role": "Maia 2 ASIC; Azure inference buildout",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Meta Platforms",
+              "code": "",
+              "region": "US",
+              "role": "MTIA v2/v3 training+inference ASIC",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU compute demand sink driving ASIC competition",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "XPU ASIC merchant supplier to hyperscalers",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Memory": {
+      "sub_industry": "Memory",
+      "summary": "Memory chips — DRAM (HBM, DDR5, LPDDR5) and NAND Flash — provide the working and storage memory that feeds AI accelerators, inference servers, and data-center stacks. Taiwan's role concentrates in NOR Flash (data-retention / code-storage), DRAM modules/SSDs, and the controller ICs that sit between raw die and the host system.",
+      "ai_relevance": "Each new AI accelerator generation (HBM3E → HBM4, DDR5, LPCAMM2) demands exponentially more memory bandwidth and capacity per GPU, pulling forward wafer starts and expanding the addressable market for every link in the chain — from specialty NOR/SRAM suppliers to module assemblers to controller IC designers. Wave-1 (SK Hynix / Micron) is fully priced; wave-2 upside sits in the controller IC and module-assembly tiers that benefit from volume growth without needing to win the HBM qualification race.",
+      "stages": [
+        {
+          "name": "Memory Fab Equipment & Materials",
+          "position": "upstream",
+          "desc": "Deposition, etch, CMP, litho, and specialty chemicals/gases required to manufacture DRAM and NAND wafers, including TSV drill for HBM stacking.",
+          "players": [
+            {
+              "name": "ASML",
+              "code": "",
+              "region": "EU",
+              "role": "EUV lithography, DRAM node shrink",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Applied Materials",
+              "code": "",
+              "region": "US",
+              "role": "CVD/PVD/CMP, leading DRAM share",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Lam Research",
+              "code": "",
+              "region": "US",
+              "role": "Etch & dep, critical for HBM TSV",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Tokyo Electron",
+              "code": "",
+              "region": "JP",
+              "role": "Thermal/etch tools, DRAM #2",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "達興材料",
+              "code": "5234",
+              "region": "TW",
+              "role": "Specialty photoresist ancillaries",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "光洋科",
+              "code": "1785",
+              "region": "TW",
+              "role": "Sputtering targets, thin-film materials",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Memory Die Producers (Global Leaders)",
+          "position": "upstream",
+          "desc": "Vertically-integrated IDMs that design and fab DRAM (including HBM), NAND, and LPDDR at leading nodes; the direct output feeds every downstream memory product.",
+          "players": [
+            {
+              "name": "SK Hynix",
+              "code": "",
+              "region": "KR",
+              "role": "~62% HBM share; capacity sold out 2026",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Samsung Electronics",
+              "code": "",
+              "region": "KR",
+              "role": "HBM4 first mover; NAND #1 globally",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Micron Technology",
+              "code": "",
+              "region": "US",
+              "role": "15-20% HBM; LPDDR5X leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Kioxia / WDC",
+              "code": "",
+              "region": "JP",
+              "role": "NAND flash joint venture leader",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "NOR Flash & Specialty SRAM (Taiwan Core)",
+          "position": "core",
+          "desc": "Taiwan-based memory IDMs and fab-lite players producing NOR Flash (code storage, AI edge/IoT), pseudo-SRAM, and specialty DRAM used in networking, automotive, and inference-edge applications.",
+          "players": [
+            {
+              "name": "旺宏",
+              "code": "2337",
+              "region": "TW",
+              "role": "NOR Flash largest TW IDM, AI-edge exposure",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "華邦電",
+              "code": "2344",
+              "region": "TW",
+              "role": "NOR/DRAM, IoT & automotive secular bid",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "南亞科",
+              "code": "2408",
+              "region": "TW",
+              "role": "Commodity DRAM, DDR4/5 server modules",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "鈺創",
+              "code": "5351",
+              "region": "TW",
+              "role": "Specialty DRAM, low-power niche",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "晶豪科",
+              "code": "3006",
+              "region": "TW",
+              "role": "SRAM / logic IP, specialty small-cap",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "愛普*",
+              "code": "6531",
+              "region": "TW",
+              "role": "Embedded NOR Flash IP, foundry model",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Memory Controller IC Designers",
+          "position": "core",
+          "desc": "Fabless IC designers producing NAND Flash controllers, DRAM controllers, and interface ICs that convert raw memory die into addressable SSDs, modules, and managed storage.",
+          "players": [
+            {
+              "name": "群聯",
+              "code": "8299",
+              "region": "TW",
+              "role": "NAND Flash controller global #1",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "慧荣 (Silicon Motion)",
+              "code": "",
+              "region": "TW",
+              "role": "NAND controller #2; enterprise SSD ramp",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "安國",
+              "code": "8054",
+              "region": "TW",
+              "role": "USB/SD/SSD controller, volume player",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "DRAM Module & SSD Assembly",
+          "position": "downstream",
+          "desc": "Assemblers that take commodity DRAM/NAND die plus controllers and package them into DDR5 DIMMs, LPCAMM2, enterprise SSDs, and consumer flash products sold to OEMs and system builders.",
+          "players": [
+            {
+              "name": "創見",
+              "code": "2451",
+              "region": "TW",
+              "role": "DRAM modules + SSD, industrial/embedded",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "威剛",
+              "code": "3260",
+              "region": "TW",
+              "role": "Consumer DRAM & SSD, gaming segment",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "十銓",
+              "code": "4967",
+              "region": "TW",
+              "role": "DRAM modules & USB flash, retail brand",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "宇瞻",
+              "code": "8271",
+              "region": "TW",
+              "role": "Industrial DRAM modules, server focus",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Accelerator & Server Demand Sinks",
+          "position": "downstream",
+          "desc": "GPU, ASIC, and server OEM customers that consume memory output — the primary demand driver for every memory type from HBM on AI accelerators to DDR5/LPDDR5 in inference servers.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "HBM3E/HBM4 largest demand sink",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "Custom ASIC, ASIC-attached HBM ramp",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Marvell Technology",
+              "code": "",
+              "region": "US",
+              "role": "Custom ASIC + HBM demand, hyperscaler",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "Server ODM, DDR5 DIMM volume buyer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "鴻海",
+              "code": "2317",
+              "region": "TW",
+              "role": "Server & AI rack ODM, memory pull-through",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "OSAT": {
+      "sub_industry": "OSAT",
+      "summary": "OSAT (Outsourced Semiconductor Assembly and Test) covers the back-end packaging and electrical testing of bare dies into finished chips, sitting between foundry wafer output and system-level integration. For AI inference, this layer is a critical volume bottleneck: every AI accelerator, AI-edge chip, and memory die must pass through assembly and test before integration into servers or advanced packages.",
+      "ai_relevance": "AI accelerator demand — NVDA Blackwell/Rubin, Broadcom/Marvell custom ASICs, edge inference SoCs — drives OSAT volume directly as die counts and I/O complexity grow faster than leading-edge foundry capacity; the wave-2 thesis is that CoWoS overflow forces GPU/ASIC chipmakers to qualify OSAT partners for fan-out and heterogeneous assembly, pulling mid-tier houses (ASE, Amkor, 力成, 京元電) into the AI packaging ramp.",
+      "stages": [
+        {
+          "name": "封裝材料 & 設備 (Materials & Equipment)",
+          "position": "upstream",
+          "desc": "Supplies the lead-frames, bonding wire, encapsulant mold compound, and process tools consumed in OSAT assembly lines.",
+          "players": [
+            {
+              "name": "Heraeus",
+              "code": "",
+              "region": "EU",
+              "role": "Au/Cu bonding wire global leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Henkel",
+              "code": "",
+              "region": "EU",
+              "role": "Die-attach film and mold compound",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Kulicke & Soffa",
+              "code": "",
+              "region": "US",
+              "role": "Wire bonder equipment #1",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "ASM Pacific Technology",
+              "code": "",
+              "region": "other",
+              "role": "Flip-chip & advanced bonder tools",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Besi (BE Semiconductor)",
+              "code": "",
+              "region": "EU",
+              "role": "Die-attach and flip-chip equipment",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "福懋科",
+              "code": "8131",
+              "region": "TW",
+              "role": "Lead-frame supplier, OSAT upstream",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "IC載板 & 基板 (IC Substrate)",
+          "position": "upstream",
+          "desc": "Provides the organic substrates and BGA/flip-chip carriers that OSATs use to build up packaged devices.",
+          "players": [
+            {
+              "name": "欣興",
+              "code": "3037",
+              "region": "TW",
+              "role": "IC substrate leader, ABF capacity ramp",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "南電",
+              "code": "8046",
+              "region": "TW",
+              "role": "ABF substrate #2 TW, server focus",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "景碩",
+              "code": "3189",
+              "region": "TW",
+              "role": "BGA substrate mid-tier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Ibiden",
+              "code": "",
+              "region": "JP",
+              "role": "ABF substrate sole-source resin",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Shinko Electric",
+              "code": "",
+              "region": "JP",
+              "role": "FC-BGA substrate, going private",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "OSAT核心 — 封裝 (Assembly Leaders)",
+          "position": "core",
+          "desc": "Full turnkey assembly OSATs performing die attach, wire bond, flip-chip, fan-out, and advanced heterogeneous packaging for AI chips.",
+          "players": [
+            {
+              "name": "日月光投控",
+              "code": "3711",
+              "region": "TW",
+              "role": "Global OSAT #1, CoWoP AI ramp",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "力成",
+              "code": "6239",
+              "region": "TW",
+              "role": "Memory packaging specialist, HBM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "同欣電",
+              "code": "6271",
+              "region": "TW",
+              "role": "SiP / image sensor specialist",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "訊芯-KY",
+              "code": "6451",
+              "region": "TW",
+              "role": "RFIC and connectivity packaging",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Amkor Technology",
+              "code": "",
+              "region": "US",
+              "role": "OSAT #2 global, US fab for DoD",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "JCET",
+              "code": "",
+              "region": "CN",
+              "role": "OSAT #3 global, China market",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "OSAT核心 — 測試 (Test Services)",
+          "position": "core",
+          "desc": "Provides wafer probe and final test of packaged semiconductors, a critical yield gate before devices ship to system integrators.",
+          "players": [
+            {
+              "name": "京元電子",
+              "code": "2449",
+              "region": "TW",
+              "role": "AI/GPU test partner, CoWoS overflow",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "欣銓",
+              "code": "3264",
+              "region": "TW",
+              "role": "Wafer-level test, logic/memory",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "頎邦",
+              "code": "6147",
+              "region": "TW",
+              "role": "Display driver IC test specialist",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "南茂",
+              "code": "8150",
+              "region": "TW",
+              "role": "Memory & logic test mid-tier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "超豐",
+              "code": "2441",
+              "region": "TW",
+              "role": "Leadframe packaging & test",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "菱生",
+              "code": "2369",
+              "region": "TW",
+              "role": "Discrete & logic assembly test",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "矽格",
+              "code": "6257",
+              "region": "TW",
+              "role": "Wafer sort & final test second-tier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "華東",
+              "code": "8110",
+              "region": "TW",
+              "role": "Analog / MCU package test",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI晶片客戶 (AI Chip Demand Sinks)",
+          "position": "downstream",
+          "desc": "GPU, ASIC, and high-bandwidth memory chipmakers that outsource packaging and test to OSAT houses.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "Blackwell/Rubin GPU demand anchor",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "Custom ASIC (XPU) volume leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Marvell Technology",
+              "code": "",
+              "region": "US",
+              "role": "Custom ASIC, Trainium-class",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "AMD",
+              "code": "",
+              "region": "US",
+              "role": "MI300X/MI400 GPU series",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "CoWoS overflow volumes to OSAT",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯發科",
+              "code": "2454",
+              "region": "TW",
+              "role": "Edge AI SoC packaging demand",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Silicon Wafer": {
+      "sub_industry": "Silicon Wafer",
+      "summary": "Silicon wafer producers grow, slice, and polish monocrystalline silicon ingots into the bare substrates every logic and memory chip is built on. The segment sits one full step upstream of foundry and memory, making it a pure volume play on wafer-start demand.",
+      "ai_relevance": "AI accelerator ramp forces TSMC and memory fabs to sustain or raise wafer-start volumes at leading-edge nodes (N3/N2 for logic, 1α/1β for HBM DRAM), creating structural pull-through for prime 300mm wafer demand even as trailing-node utilization stays soft. This is the classic wave-2 dynamic: wafer suppliers lagged the GPU/HBM run-up but are now re-rating as N2 capacity additions lock in multi-year supply agreements.",
+      "stages": [
+        {
+          "name": "Polysilicon & Crystal-Growth Inputs",
+          "position": "upstream",
+          "desc": "High-purity polysilicon (11N grade) and Czochralski crystal-pulling equipment that feed ingot growth at wafer makers.",
+          "players": [
+            {
+              "name": "Wacker Chemie",
+              "code": "",
+              "region": "EU",
+              "role": "polysilicon global #1, semiconductor grade",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "OCI Company",
+              "code": "",
+              "region": "KR",
+              "role": "polysilicon global #3, cost leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Shin-Etsu Chemical",
+              "code": "",
+              "region": "JP",
+              "role": "wafer AND upstream quartz crucibles",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Ferrotec",
+              "code": "",
+              "region": "JP",
+              "role": "quartz crucibles and CZ furnace components",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "光洋科",
+              "code": "1785",
+              "region": "TW",
+              "role": "silicon precursor materials, TW-listed",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Semiconductor Equipment (Wafer-Shaping)",
+          "position": "upstream",
+          "desc": "Wire-saw slicing, lapping, CMP polishing, and epitaxial-reactor equipment used to convert ingots into prime polished wafers.",
+          "players": [
+            {
+              "name": "Applied Materials",
+              "code": "",
+              "region": "US",
+              "role": "epi reactor (Centura) global leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Tokyo Electron (TEL)",
+              "code": "",
+              "region": "JP",
+              "role": "epi + CMP equipment for wafer prep",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Meyer Burger / Disco",
+              "code": "",
+              "region": "JP",
+              "role": "precision dicing and wire-saw leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "弘塑",
+              "code": "3131",
+              "region": "TW",
+              "role": "wafer-cleaning equipment, TW domestic",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "辛耘",
+              "code": "3583",
+              "region": "TW",
+              "role": "wet-bench and surface-prep equipment",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "中砂",
+              "code": "1560",
+              "region": "TW",
+              "role": "abrasive/CMP slurry consumables",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Silicon Wafer Producers — Leaders",
+          "position": "core",
+          "desc": "Global-scale 300mm wafer growers commanding long-term supply agreements with leading-edge foundries and memory fabs.",
+          "players": [
+            {
+              "name": "Shin-Etsu Handotai (SEH)",
+              "code": "",
+              "region": "JP",
+              "role": "300mm wafer global #1, ~28% share",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "SUMCO",
+              "code": "",
+              "region": "JP",
+              "role": "300mm wafer global #2, ~25% share",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "環球晶",
+              "code": "6488",
+              "region": "TW",
+              "role": "300mm wafer global #3, TSMC key supplier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Siltronic",
+              "code": "",
+              "region": "EU",
+              "role": "300mm wafer global #4, Samsung/TSMC qualified",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "SK Siltron",
+              "code": "",
+              "region": "KR",
+              "role": "300mm wafer global #5, captive to SK Hynix",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Silicon Wafer Producers — Second Tier / Specialty",
+          "position": "core",
+          "desc": "Smaller-scale or specialty wafer makers serving mature nodes, epitaxial wafers, and niche compound-semiconductor adjacencies.",
+          "players": [
+            {
+              "name": "中美晶",
+              "code": "5483",
+              "region": "TW",
+              "role": "parent of 環球晶; solar + semi wafers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "合晶",
+              "code": "6182",
+              "region": "TW",
+              "role": "200mm and below; mature-node epi wafers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "嘉晶",
+              "code": "3016",
+              "region": "TW",
+              "role": "compound semi (GaN/SiC) epitaxial wafers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "台勝科",
+              "code": "3532",
+              "region": "TW",
+              "role": "silicon epitaxial wafers, leading-edge support",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "昇陽半導體",
+              "code": "8028",
+              "region": "TW",
+              "role": "reclaimed/test wafers, small-cap niche",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Foundry & Memory — Direct Customers",
+          "position": "downstream",
+          "desc": "Leading-edge foundries and memory fabs that consume prime 300mm wafers as their core raw input for chip manufacturing.",
+          "players": [
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "world's largest 300mm wafer consumer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Samsung Electronics",
+              "code": "",
+              "region": "KR",
+              "role": "logic + DRAM wafer demand, #2 globally",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "SK Hynix",
+              "code": "",
+              "region": "KR",
+              "role": "HBM DRAM wafer demand surge 2025-26",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Micron Technology",
+              "code": "",
+              "region": "US",
+              "role": "HBM + NAND wafer demand, US fab expansion",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "聯電",
+              "code": "2303",
+              "region": "TW",
+              "role": "mature-node foundry, steady 200/300mm pull",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Intel",
+              "code": "",
+              "region": "US",
+              "role": "18A ramp adds 300mm demand 2026+",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Accelerator & Hyperscaler Demand Sink",
+          "position": "downstream",
+          "desc": "GPU, ASIC, and HBM end-demand that ultimately prices and volumes the wafer supply chain through fab utilization.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand sink, Blackwell wafer intensity",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "AMD",
+              "code": "",
+              "region": "US",
+              "role": "MI300/MI400 AI GPU, TSMC N3 wafer pull",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "hyperscaler ASIC, drives TSMC N3 wafer demand",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Google",
+              "code": "",
+              "region": "US",
+              "role": "TPU v6/v7 custom ASIC, large wafer-start block",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Microsoft / AWS / Meta",
+              "code": "",
+              "region": "US",
+              "role": "hyperscaler ASIC capex, multi-year wafer pull",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Semi Equipment": {
+      "sub_industry": "Semi Equipment",
+      "summary": "Semi Equipment encompasses the tools, systems, and fab-infrastructure that physically build semiconductors — from lithography and deposition to etch, inspection, and cleanroom construction. It sits one layer upstream of foundries and memory makers, converting capex budgets into installed capacity.",
+      "ai_relevance": "Every new wafer fab, CoWoS packaging line, and HBM TSV stack requires fresh equipment spend; AI-driven capacity expansions at TSMC, SK Hynix, and Samsung are the primary driver of WFE growth in 2025–2027, making this a wave-2 beneficiary that lags the GPU/HBM demand signal by 12–24 months.",
+      "stages": [
+        {
+          "name": "Equipment Sub-Components & Materials",
+          "position": "upstream",
+          "desc": "Precision-machined parts, vacuum components, abrasives, and specialty gases that feed into equipment OEM assembly lines.",
+          "players": [
+            {
+              "name": "翔名",
+              "code": "8091",
+              "region": "TW",
+              "role": "vacuum components and equipment parts",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "中砂",
+              "code": "1560",
+              "region": "TW",
+              "role": "SiC grinding wheels and CMP rings",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "科嘉-KY",
+              "code": "5215",
+              "region": "TW",
+              "role": "precision machined equipment components",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Shin-Etsu Chemical",
+              "code": "",
+              "region": "JP",
+              "role": "silicon wafers and specialty materials",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "達興材料",
+              "code": "5234",
+              "region": "TW",
+              "role": "process chemicals for equipment cleaning",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Entegris",
+              "code": "",
+              "region": "US",
+              "role": "ultrapure materials and filtration systems",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Fab Facility & Infrastructure",
+          "position": "upstream",
+          "desc": "Turnkey cleanroom construction, mechanical/piping/electrical systems, and chemical-gas delivery infrastructure installed before process tools arrive.",
+          "players": [
+            {
+              "name": "漢唐",
+              "code": "2404",
+              "region": "TW",
+              "role": "fab turnkey EPC, mechanical and piping",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "亞翔",
+              "code": "6139",
+              "region": "TW",
+              "role": "cleanroom facility engineering contractor",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "帆宣",
+              "code": "6196",
+              "region": "TW",
+              "role": "fab facility system integration",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "信紘科",
+              "code": "6667",
+              "region": "TW",
+              "role": "chemical and gas delivery systems",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "M+W Group (Exyte)",
+              "code": "",
+              "region": "EU",
+              "role": "global fab facility engineering EPC",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Process Equipment OEMs (Wet / Thermal / CVD)",
+          "position": "core",
+          "desc": "Front-end wafer process tools — wet clean, etch, diffusion furnaces, CVD chambers — that perform the core chip-making unit processes.",
+          "players": [
+            {
+              "name": "ASML",
+              "code": "",
+              "region": "EU",
+              "role": "EUV lithography monopoly, leading-edge gate",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Applied Materials",
+              "code": "",
+              "region": "US",
+              "role": "deposition and etch breadth leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Lam Research",
+              "code": "",
+              "region": "US",
+              "role": "etch and HBM TSV tooling leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Tokyo Electron",
+              "code": "",
+              "region": "JP",
+              "role": "coat/develop, etch, thermal systems",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "弘塑",
+              "code": "3131",
+              "region": "TW",
+              "role": "single-wafer wet clean and etch tools",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "辛耘",
+              "code": "3583",
+              "region": "TW",
+              "role": "wet clean and photoresist strip tools",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "志聖",
+              "code": "2467",
+              "region": "TW",
+              "role": "diffusion furnaces, LPCVD, oxidation",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "京鼎",
+              "code": "3413",
+              "region": "TW",
+              "role": "CVD chamber clean, remote plasma source",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Wafer Handling, Automation & Ancillary Tools",
+          "position": "core",
+          "desc": "Reticle pods, wafer carriers, AMHS automation, and specialty process tools that complete the fab workflow around the primary process tools.",
+          "players": [
+            {
+              "name": "家登",
+              "code": "3680",
+              "region": "TW",
+              "role": "EUV reticle pods, FOUP/SMIF sole TW supplier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "萬潤",
+              "code": "6187",
+              "region": "TW",
+              "role": "vacuum and thermal process equipment",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "迅得",
+              "code": "6438",
+              "region": "TW",
+              "role": "wafer cassette and carrier handling",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "盟立",
+              "code": "2464",
+              "region": "TW",
+              "role": "fab AMHS automation, robotic systems",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "均豪",
+              "code": "5443",
+              "region": "TW",
+              "role": "substrate and display process equipment",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "均華",
+              "code": "6640",
+              "region": "TW",
+              "role": "equipment automation and robotic arms",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Entegris",
+              "code": "",
+              "region": "US",
+              "role": "FOUP and wafer handling consumables",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Inspection, Metrology & Test",
+          "position": "core",
+          "desc": "Optical and electrical inspection tools — AOI, metrology, IC test — that verify process quality at each fab step and at final test.",
+          "players": [
+            {
+              "name": "KLA Corporation",
+              "code": "",
+              "region": "US",
+              "role": "process control and metrology monopoly",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "致茂",
+              "code": "2360",
+              "region": "TW",
+              "role": "test and measurement, power test systems",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "德律",
+              "code": "3030",
+              "region": "TW",
+              "role": "AOI and ICT board inspection systems",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "由田",
+              "code": "3455",
+              "region": "TW",
+              "role": "semiconductor and panel AOI inspection",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "牧德",
+              "code": "3563",
+              "region": "TW",
+              "role": "AOI for PCB and semiconductor, 3D SPI",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Onto Innovation",
+              "code": "",
+              "region": "US",
+              "role": "wafer metrology and inspection tools",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Foundry, Memory & Packaging (Equipment Customers)",
+          "position": "downstream",
+          "desc": "The fabs and OSATs that absorb equipment capex to build AI accelerator silicon, HBM memory stacks, and advanced packaging — the direct revenue sink for equipment makers.",
+          "players": [
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "leading-edge foundry, largest WFE buyer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "SK Hynix",
+              "code": "",
+              "region": "KR",
+              "role": "HBM memory, High-NA EUV early adopter",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Samsung",
+              "code": "",
+              "region": "KR",
+              "role": "memory and foundry, dual equipment buyer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Micron",
+              "code": "",
+              "region": "US",
+              "role": "DRAM and HBM, US fab expansion",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "日月光投控",
+              "code": "3711",
+              "region": "TW",
+              "role": "CoWoS/SoIC advanced packaging OSAT",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand sink driving all capex",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Semi Materials": {
+      "sub_industry": "Semi Materials",
+      "summary": "Semi Materials producers supply the chemical consumables — photoresists, CMP slurries, sputtering targets, ultra-pure etchants, and dielectric/encapsulant resins — that every wafer fabrication and advanced packaging step burns through. As a process-input layer it sits between bulk chemical feedstocks and the fabs/OSAT houses that consume these materials run-rate at every node shrink and every package iteration.",
+      "ai_relevance": "AI accelerator ramps at TSMC (N3/N2 CoWoS) and HBM fabs at SK Hynix/Micron drive outsized pull on advanced photoresists, high-k precursors, and CMP slurries because leading-node and 3D-stacking processes consume 2-4x more chemical steps per wafer than mature nodes; wave-1 spend on GPUs and HBM directly translates to a wave-2 run-rate uplift in fab chemical consumption.",
+      "stages": [
+        {
+          "name": "Chemical Feedstock & Specialty Gas Suppliers",
+          "position": "upstream",
+          "desc": "Produce bulk organic/inorganic precursors, ultra-high-purity gases, and fluorine compounds that are the raw inputs to semiconductor chemical formulations.",
+          "players": [
+            {
+              "name": "Shin-Etsu Chemical",
+              "code": "",
+              "region": "JP",
+              "role": "global photoresist resin & silicone leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "JSR Corporation",
+              "code": "",
+              "region": "JP",
+              "role": "ArF/EUV resist polymer supplier",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Air Products",
+              "code": "",
+              "region": "US",
+              "role": "ultra-high-purity process gas leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Linde",
+              "code": "",
+              "region": "US",
+              "role": "NF3/WF6 specialty gas global #1",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Stella Chemifa",
+              "code": "",
+              "region": "JP",
+              "role": "ultra-pure HF and fluorine compounds",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "崇越",
+              "code": "5434",
+              "region": "TW",
+              "role": "fluorine/HF distributor, specialty gas trader",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Semi Materials Producers — Process Chemicals",
+          "position": "core",
+          "desc": "Formulate and supply photoresists, CMP slurries, wet etchants, ultra-pure solvents, and developer chemicals directly consumed inside wafer fabs.",
+          "players": [
+            {
+              "name": "達興材料",
+              "code": "5234",
+              "region": "TW",
+              "role": "ArF/KrF photoresist & BARC, advanced nodes",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "光洋科",
+              "code": "1785",
+              "region": "TW",
+              "role": "sputtering targets, high-purity metal deposition",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "三福化",
+              "code": "4755",
+              "region": "TW",
+              "role": "CMP slurry & wet-process chemicals",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "國精化",
+              "code": "4722",
+              "region": "TW",
+              "role": "NMP solvent & ultra-pure fluorine chemicals",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "永光",
+              "code": "1711",
+              "region": "TW",
+              "role": "photoresist additives & specialty dyes",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Tokyo Ohka Kogyo (TOK)",
+              "code": "",
+              "region": "JP",
+              "role": "photoresist & CMP global #2",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "CMC Materials (Entegris)",
+              "code": "",
+              "region": "US",
+              "role": "CMP slurry & filtration global leader",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Semi Materials Producers — Dielectrics & Encapsulants",
+          "position": "core",
+          "desc": "Supply epoxy molding compounds, underfill resins, and specialty film laminates used in chip packaging and IC substrate fabrication.",
+          "players": [
+            {
+              "name": "長興",
+              "code": "1717",
+              "region": "TW",
+              "role": "epoxy resins, EMC underfill for advanced packaging",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "律勝",
+              "code": "3354",
+              "region": "TW",
+              "role": "ABF-type film & CCL prepregs for substrates",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Ajinomoto (ABF)",
+              "code": "",
+              "region": "JP",
+              "role": "ABF substrate film sole-source supplier",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Sumitomo Bakelite",
+              "code": "",
+              "region": "JP",
+              "role": "EMC compounds global #1",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Resonac (Showa Denko)",
+              "code": "",
+              "region": "JP",
+              "role": "CMP slurry & bonding materials",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Wafer Fabs & Memory Fabs",
+          "position": "downstream",
+          "desc": "Logic and memory fabs that consume semiconductor chemicals, targets, and slurries at run-rate in advanced node and 3D-stacking processes.",
+          "players": [
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "N3/N2/CoWoS dominant chemical demand sink",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯電",
+              "code": "2303",
+              "region": "TW",
+              "role": "mature-node fab, high-volume chemical consumer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "SK Hynix",
+              "code": "",
+              "region": "KR",
+              "role": "HBM3E/HBM4 fab; CMP/etch chemical pull",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Micron Technology",
+              "code": "",
+              "region": "US",
+              "role": "DRAM/NAND advanced node chemical buyer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Samsung Electronics",
+              "code": "",
+              "region": "KR",
+              "role": "foundry + DRAM; broad chemical demand",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Advanced Packaging & OSAT",
+          "position": "downstream",
+          "desc": "OSAT and substrate houses that consume encapsulants, underfills, and specialty films to assemble CoWoS, HBM stacks, and 2.5D/3D packages for AI chips.",
+          "players": [
+            {
+              "name": "日月光投控",
+              "code": "3711",
+              "region": "TW",
+              "role": "CoWoS OSAT, large EMC/underfill buyer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "欣興",
+              "code": "3037",
+              "region": "TW",
+              "role": "IC substrate; consumes ABF film & resins",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "南電",
+              "code": "8046",
+              "region": "TW",
+              "role": "ABF substrate; film & resin consumer",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand anchor; H100/B200 packaging pull",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "custom ASIC CoWoS ramp; packaging pull",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "IC Substrate": {
+      "sub_industry": "IC Substrate",
+      "summary": "IC Substrate (IC載板) bridges the bare semiconductor die to the PCB motherboard, providing the fine-pitch interconnect that routes power and signals between chip and package. For AI accelerators it is the foundational layer beneath every CoWoS/SoIC advanced package, making substrate density and warpage control direct constraints on GPU/ASIC package yield.",
+      "ai_relevance": "Each successive GPU generation (H100→B200→Rubin) requires larger, denser substrates with finer L/S (below 10/10 µm), directly expanding substrate area per unit and stressing ABF-layer supply; wave-1 CoWoS capacity additions at TSMC pull wave-2 substrate demand from the three TW leaders, creating a lagging bottleneck that hasn't yet been fully priced into the substrate names.",
+      "stages": [
+        {
+          "name": "ABF & Raw Materials",
+          "position": "upstream",
+          "desc": "Ajinomoto Build-up Film (ABF) resin and other key substrate dielectrics, copper foil, and specialty resins that set substrate layer-count and fine-pitch capability.",
+          "players": [
+            {
+              "name": "Ajinomoto",
+              "code": "",
+              "region": "JP",
+              "role": "ABF resin sole-source supplier globally",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Mitsubishi Gas Chemical",
+              "code": "",
+              "region": "JP",
+              "role": "BT resin for wire-bond substrates",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Panasonic Industry",
+              "code": "",
+              "region": "JP",
+              "role": "Megtron specialty laminate supplier",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "台光電",
+              "code": "2383",
+              "region": "TW",
+              "role": "CCL for substrate-grade high-speed laminates",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯茂",
+              "code": "6213",
+              "region": "TW",
+              "role": "High-frequency CCL for server substrates",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Substrate Equipment",
+          "position": "upstream",
+          "desc": "Laser drills, direct-imaging (DI) lithography, plating, and inspection tools required to pattern fine-pitch build-up layers on IC substrates.",
+          "players": [
+            {
+              "name": "Via Mechanics (Hitachi Solutions)",
+              "code": "",
+              "region": "JP",
+              "role": "CO2/UV laser drill dominant supplier",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Orbotech / KLA",
+              "code": "",
+              "region": "US",
+              "role": "DI lithography and AOI inspection",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Mitsubishi Electric",
+              "code": "",
+              "region": "JP",
+              "role": "Laser processing equipment",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "家登",
+              "code": "3680",
+              "region": "TW",
+              "role": "Substrate photomask handling carriers",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "IC Substrate Producers (Leaders)",
+          "position": "core",
+          "desc": "Manufacturers of high-end flip-chip BGA and embedded-die substrates used directly under GPU, CPU, and custom-ASIC packages.",
+          "players": [
+            {
+              "name": "欣興",
+              "code": "3037",
+              "region": "TW",
+              "role": "TW IC substrate leader; ABF expansion for AI",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "南電",
+              "code": "8046",
+              "region": "TW",
+              "role": "Premium ABF substrate; CoWoS supply partner",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "景碩",
+              "code": "3189",
+              "region": "TW",
+              "role": "IC substrate second-tier; ramp to finer L/S",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Ibiden",
+              "code": "",
+              "region": "JP",
+              "role": "Global ABF substrate #1 by revenue",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Shinko Electric",
+              "code": "",
+              "region": "JP",
+              "role": "IC substrate #2 in Japan; JIC take-private",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Samsung Electro-Mechanics",
+              "code": "",
+              "region": "KR",
+              "role": "FC-BGA substrate for high-end CPUs/GPUs",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Advanced Packaging (OSAT / Foundry)",
+          "position": "downstream",
+          "desc": "Customers that bond bare die onto IC substrates using flip-chip or CoWoS processes, creating the final compute package delivered to board assemblers.",
+          "players": [
+            {
+              "name": "台積電",
+              "code": "2330",
+              "region": "TW",
+              "role": "CoWoS-S/L primary substrate demand sink",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "日月光投控",
+              "code": "3711",
+              "region": "TW",
+              "role": "Top OSAT; FC-BGA volume consumer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Intel",
+              "code": "",
+              "region": "US",
+              "role": "EMIB/Foveros substrate consumer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Amkor",
+              "code": "",
+              "region": "US",
+              "role": "Advanced packaging; substrate pull for AI",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "力成",
+              "code": "6239",
+              "region": "TW",
+              "role": "OSAT substrate consumption for HPC modules",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Accelerator & Server Demand",
+          "position": "downstream",
+          "desc": "End customers consuming packaged compute modules: GPU/ASIC designers, hyperscalers, and ODM server assemblers whose CapEx programs set the multi-year substrate demand signal.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand sink; largest ABF substrate pull",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "AMD",
+              "code": "",
+              "region": "US",
+              "role": "MI300/400 substrate demand growing",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "XPU ASIC substrate consumer for hyperscalers",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "AI server ODM; substrate embedded in BOM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "緯穎",
+              "code": "6669",
+              "region": "TW",
+              "role": "GPU server ODM; NVDA rack-scale programs",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "PCB": {
+      "sub_industry": "PCB",
+      "summary": "PCB (印刷電路板) manufacturers etch, laminate, and drill the copper-clad boards that mechanically and electrically interconnect every active component in a server, networking, or storage system. They sit between material suppliers (CCL, copper foil, chemicals) and final system assemblers.",
+      "ai_relevance": "AI server build-outs (GB200 NVL72 racks, Ethernet AI-fabric switches, storage backplanes) demand high-layer-count, tighter-trace ABF-adjacent PCBs and ultra-dense flex boards at volumes that are structurally above prior server cycles. Wave-1 captured memory/GPU; wave-2 rotation watches whether PCB ASP lift from AI-spec boards is enough to re-rate the still-cheap mid-tier players.",
+      "stages": [
+        {
+          "name": "CCL & Raw Laminates",
+          "position": "upstream",
+          "desc": "Copper-clad laminate and specialty resin systems are the primary substrate from which PCB layers are built — material chemistry sets loss tangent, thermal performance, and layer registration tolerance.",
+          "players": [
+            {
+              "name": "台光電",
+              "code": "2383",
+              "region": "TW",
+              "role": "高頻高速CCL台灣龍頭",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯茂",
+              "code": "6213",
+              "region": "TW",
+              "role": "高速CCL；主攻AI伺服器板",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "台燿",
+              "code": "6274",
+              "region": "TW",
+              "role": "中高階CCL第三家",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Panasonic (MEGTRON)",
+              "code": "",
+              "region": "JP",
+              "role": "MEGTRON高頻CCL全球標竿",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Isola Group",
+              "code": "",
+              "region": "US",
+              "role": "高頻基板材料供應商",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Shengyi Technology",
+              "code": "",
+              "region": "CN",
+              "role": "量大低成本CCL，中國第一",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "PCB Process Chemicals & Equipment",
+          "position": "upstream",
+          "desc": "Wet-chemistry (etching, plating), laser drills, AOI, and press equipment enable fine-line trace formation, via drilling, and multilayer lamination required for AI-spec boards.",
+          "players": [
+            {
+              "name": "Atotech (MKS Instruments)",
+              "code": "",
+              "region": "US",
+              "role": "PCB電鍍化學品全球龍頭",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Mitsubishi Gas Chemical",
+              "code": "",
+              "region": "JP",
+              "role": "Hydrogen peroxide etching & ABF-adjacent材料",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Via Mechanics (日立後身)",
+              "code": "",
+              "region": "JP",
+              "role": "雷射鑽孔設備主要供應商",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "達興材料",
+              "code": "5234",
+              "region": "TW",
+              "role": "乾膜光阻等PCB化學材料",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "律勝",
+              "code": "3354",
+              "region": "TW",
+              "role": "PI/軟性覆蓋膜，FPC材料",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "PCB製造 — 領先梯隊",
+          "position": "core",
+          "desc": "High-layer-count rigid and rigid-flex PCB producers serving AI server motherboards, GPU carrier boards, and 400G/800G networking switches — highest ASP and technical barrier.",
+          "players": [
+            {
+              "name": "臻鼎-KY",
+              "code": "4958",
+              "region": "TW",
+              "role": "台灣PCB最大；FPC+AI server板",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "健鼎",
+              "code": "3044",
+              "region": "TW",
+              "role": "高速伺服器板龍頭，大客戶NVDA/CSP",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "華通",
+              "code": "2313",
+              "region": "TW",
+              "role": "高層數伺服器板；ABF+傳統雙線",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "台郡",
+              "code": "6269",
+              "region": "TW",
+              "role": "Apple FPC主力+AI flex板",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "嘉聯益",
+              "code": "6153",
+              "region": "TW",
+              "role": "FPC+RF板；車載與AI並行",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "金像電",
+              "code": "2368",
+              "region": "TW",
+              "role": "HDI+高階多層板；伺服器exposure",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "PCB製造 — 第二梯隊 / 利基板",
+          "position": "core",
+          "desc": "Mid-tier and niche PCB makers supplying networking backplanes, industrial, automotive, and lower-layer-count server boards — cost-competitive feeders to the system supply chain.",
+          "players": [
+            {
+              "name": "燿華",
+              "code": "2367",
+              "region": "TW",
+              "role": "多層板；工業+網通exposure",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "瀚宇博",
+              "code": "5469",
+              "region": "TW",
+              "role": "高階多層板；IC測試板利基",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "敬鵬",
+              "code": "2355",
+              "region": "TW",
+              "role": "厚銅板+工業PCB利基",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "楠梓電",
+              "code": "2316",
+              "region": "TW",
+              "role": "多層板+背板；伺服器供應鏈",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "泰鼎-KY",
+              "code": "4927",
+              "region": "TW",
+              "role": "大陸廠為主；消費+工業板",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "定穎投控",
+              "code": "3715",
+              "region": "TW",
+              "role": "中高階多層板；轉型AI板中",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "競國",
+              "code": "6108",
+              "region": "TW",
+              "role": "特殊板；RF/車載利基",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "志超",
+              "code": "8213",
+              "region": "TW",
+              "role": "中階多層板；成本導向",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Server & Networking System Assembly",
+          "position": "downstream",
+          "desc": "ODM system integrators and networking OEMs consume AI-spec PCBs as the backbone of GPU trays, top-of-rack switches, and HBM carrier assemblies — the direct demand pull for high-layer-count boards.",
+          "players": [
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "NVDA GB200 NVL72主要ODM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "鴻海",
+              "code": "2317",
+              "region": "TW",
+              "role": "AI伺服器+GB200機架ODM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "緯穎",
+              "code": "6669",
+              "region": "TW",
+              "role": "超大規模CSP rack-scale ODM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "智邦",
+              "code": "2345",
+              "region": "TW",
+              "role": "400G/800G AI switch OEM",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "Celestica",
+              "code": "",
+              "region": "other",
+              "role": "北美AI基礎設施ODM",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Jabil",
+              "code": "",
+              "region": "US",
+              "role": "PCB組裝+系統整合EMS",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Accelerator & Hyperscaler Demand",
+          "position": "downstream",
+          "desc": "GPU and custom ASIC vendors and the hyperscalers that deploy them represent the terminal demand signal — their capex and silicon roadmaps set the PCB spec upgrade cycle.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand sink；高層板主要拉動",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "AI ASIC+以太網交換晶片",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Microsoft / Azure",
+              "code": "",
+              "region": "US",
+              "role": "CSP capex；Maia/Cobalt板需求",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Google / GCP",
+              "code": "",
+              "region": "US",
+              "role": "TPU v5+自研ASIC PCB需求",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Meta",
+              "code": "",
+              "region": "US",
+              "role": "MTIA ASIC+AI rack大規模部署",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Amazon / AWS",
+              "code": "",
+              "region": "US",
+              "role": "Trainium/Inferentia板需求",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "CCL": {
+      "sub_industry": "CCL",
+      "summary": "CCL (Copper Clad Laminate) is the base dielectric substrate from which PCBs are fabricated — glass-fiber cloth impregnated with resin, laminated with copper foil, forming the rigid backbone of every PCB in a server. It sits one stage upstream of PCB fabrication in the AI hardware stack.",
+      "ai_relevance": "AI accelerator servers demand high-layer-count, low-Dk/Df CCL (especially halogen-free and high-speed grades like M6/M7) to handle 112G/224G signaling — specs that mainstream commodity CCL cannot meet. As hyperscaler GPU cluster buildout accelerates, AI-grade CCL capacity is the binding material constraint that PCB makers (臻鼎, 健鼎, 華通) cannot substitute away from, making this a textbook wave-2 feeder play.",
+      "stages": [
+        {
+          "name": "Raw Materials — Resin & Glass Cloth",
+          "position": "upstream",
+          "desc": "Specialty epoxy/BT/PTFE resins and E/NE-glass woven cloth that define the dielectric performance of finished CCL.",
+          "players": [
+            {
+              "name": "Mitsubishi Gas Chemical",
+              "code": "",
+              "region": "JP",
+              "role": "BT resin near-monopoly for high-freq CCL",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Panasonic Industry",
+              "code": "",
+              "region": "JP",
+              "role": "Megtron 6/7 high-speed resin supplier",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Isola Group",
+              "code": "",
+              "region": "US",
+              "role": "High-speed halogen-free resin for data center PCB",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "長興",
+              "code": "1717",
+              "region": "TW",
+              "role": "Specialty epoxy resin; CCL customer overlap",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Nittobo / Nitto Boseki",
+              "code": "",
+              "region": "JP",
+              "role": "E-glass and NE-glass cloth key supplier",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Asahi-Kasei Electronics",
+              "code": "",
+              "region": "JP",
+              "role": "High-performance glass cloth for AI-grade CCL",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Copper Foil",
+          "position": "upstream",
+          "desc": "Electrodeposited (ED) and rolled-annealed (RA) copper foil laminated onto the dielectric core — ultra-thin VLP/HVLP grades required for AI server signal integrity.",
+          "players": [
+            {
+              "name": "Mitsui Mining & Smelting",
+              "code": "",
+              "region": "JP",
+              "role": "HVLP copper foil global leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Furukawa Electric",
+              "code": "",
+              "region": "JP",
+              "role": "VLP foil; key PCB server supply chain",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Chang Chun Petrochemical",
+              "code": "",
+              "region": "TW",
+              "role": "ED copper foil; CCL feeder",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "金居",
+              "code": "8358",
+              "region": "TW",
+              "role": "VLP/HVLP copper foil; vertically integrated into CCL",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "CCL Producers — Leaders",
+          "position": "core",
+          "desc": "Manufacture high-speed, low-loss CCL for AI server PCBs; differentiated by dielectric constant, loss tangent, and thermal reliability at scale.",
+          "players": [
+            {
+              "name": "台光電",
+              "code": "2383",
+              "region": "TW",
+              "role": "AI-grade CCL global #1; M6/M7 key supplier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯茂",
+              "code": "6213",
+              "region": "TW",
+              "role": "High-speed CCL; server and hyperscaler exposure",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Isola Group",
+              "code": "",
+              "region": "US",
+              "role": "Western high-speed CCL benchmark",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Panasonic Industry (R-1755V)",
+              "code": "",
+              "region": "JP",
+              "role": "Megtron series; AI PCB spec-in anchor",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "CCL Producers — Second Tier",
+          "position": "core",
+          "desc": "Mid-tier CCL makers serving mainstream server PCB and transitioning into AI-grade products; price-competitive alternative supply.",
+          "players": [
+            {
+              "name": "台燿",
+              "code": "6274",
+              "region": "TW",
+              "role": "Mid-tier CCL; halogen-free server grades",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "騰輝電子-KY",
+              "code": "6672",
+              "region": "TW",
+              "role": "CCL maker; CN-based capacity, AI upgrade cycle",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "金居",
+              "code": "8358",
+              "region": "TW",
+              "role": "Vertically integrated copper foil + CCL",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Shengyi Technology",
+              "code": "",
+              "region": "CN",
+              "role": "CN CCL volume leader; price pressure vector",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "PCB Fabricators",
+          "position": "downstream",
+          "desc": "Convert CCL into finished multi-layer PCBs — backplanes, switch boards, and GPU baseboard — for AI server platforms.",
+          "players": [
+            {
+              "name": "臻鼎-KY",
+              "code": "4958",
+              "region": "TW",
+              "role": "Largest TW PCB; AI server backplane leader",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "健鼎",
+              "code": "3044",
+              "region": "TW",
+              "role": "High-layer server PCB; hyperscaler supplier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "華通",
+              "code": "2313",
+              "region": "TW",
+              "role": "Server PCB; GPU board content exposure",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "TTM Technologies",
+              "code": "",
+              "region": "US",
+              "role": "North America server/networking PCB",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Tripod Technology",
+              "code": "",
+              "region": "TW",
+              "role": "TW PCB; mixed server + consumer",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Server ODM & Hyperscalers",
+          "position": "downstream",
+          "desc": "Assemble GPU servers from PCBs and ultimately pull CCL demand via CapEx spend on AI training and inference infrastructure.",
+          "players": [
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "NVIDIA GB200 NVL72 prime ODM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "緯穎",
+              "code": "6669",
+              "region": "TW",
+              "role": "Hyperscale server; direct-to-cloud ODM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand sink; Blackwell ramp driver",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Microsoft / Azure",
+              "code": "",
+              "region": "US",
+              "role": "Hyperscaler capex; AI cluster demand anchor",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Google / GCP",
+              "code": "",
+              "region": "US",
+              "role": "TPU + GPU cluster buildout",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Passive Components": {
+      "sub_industry": "Passive Components",
+      "summary": "Passive components — principally MLCCs, resistors, inductors, and aluminum/tantalum capacitors — are foundational circuit-level elements that filter power, decouple noise, and regulate signals on every PCB in the AI stack. The segment sits immediately upstream of board assembly, feeding server ODMs and networking hardware that house accelerators.",
+      "ai_relevance": "Each AI server rack carries 5–10× the passive-component density of a conventional server: high-frequency switching power rails for GPU VRMs, decoupling capacitors for SerDes lanes, and bulk capacitance for transient-load buffering during inference bursts. The hyperscaler capex supercycle — concentrated in CoWoS-capped GPU nodes and 800G/1.6T switches — directly expands MLCC and inductor unit demand from the same Taiwan-dominated supply base, with lead times already re-tightening on automotive-grade Hi-CV and EIA-0201 sizes preferred by AI power topologies.",
+      "stages": [
+        {
+          "name": "Raw Materials & Chemical Inputs",
+          "position": "upstream",
+          "desc": "Ceramic dielectric powders (barium titanate), base-metal electrode (BME) nickel paste, palladium/silver for terminations, and aluminum foil for electrolytic capacitors feed the core MLCC and resistor manufacturing process.",
+          "players": [
+            {
+              "name": "Sakai Chemical",
+              "code": "",
+              "region": "JP",
+              "role": "BaTiO3 ceramic powder leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Ferro Corporation (now IMERYS)",
+              "code": "",
+              "region": "US",
+              "role": "Dielectric powder & paste materials",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Sumitomo Metal Mining",
+              "code": "",
+              "region": "JP",
+              "role": "Nickel powder for BME electrodes",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Mitsui Mining & Smelting",
+              "code": "",
+              "region": "JP",
+              "role": "Copper foil & metal powders",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "達興材料",
+              "code": "5234",
+              "region": "TW",
+              "role": "Specialty electronic chemicals TW",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "長興",
+              "code": "1717",
+              "region": "TW",
+              "role": "Resin & chemical materials supplier",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Passive Component Manufacturers — Leaders",
+          "position": "core",
+          "desc": "Producers of MLCCs, chip resistors, inductors, and aluminum/tantalum capacitors that are spec'd into AI server, networking, and power delivery BOM.",
+          "players": [
+            {
+              "name": "國巨*",
+              "code": "2327",
+              "region": "TW",
+              "role": "TW MLCC & resistor global #3",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "華新科",
+              "code": "2492",
+              "region": "TW",
+              "role": "MLCC & resistor; national capacity leader",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "禾伸堂",
+              "code": "3026",
+              "region": "TW",
+              "role": "Authorized MLCC distributor & maker",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Murata Manufacturing",
+              "code": "",
+              "region": "JP",
+              "role": "MLCC global #1; >40% market share",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "TDK Corporation",
+              "code": "",
+              "region": "JP",
+              "role": "MLCC & inductor global #2",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Samsung Electro-Mechanics",
+              "code": "",
+              "region": "KR",
+              "role": "MLCC global #4; AI server spec'd",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Passive Component Manufacturers — Second Tier",
+          "position": "core",
+          "desc": "Niche and mid-tier TW-listed producers covering specialty ceramic caps, film capacitors, aluminum electrolytics, and resistor networks for industrial and server applications.",
+          "players": [
+            {
+              "name": "大毅",
+              "code": "2478",
+              "region": "TW",
+              "role": "Chip resistor & thick-film networks",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "立隆電",
+              "code": "2472",
+              "region": "TW",
+              "role": "Aluminum electrolytic capacitors",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "信昌電",
+              "code": "6173",
+              "region": "TW",
+              "role": "MLCC & ceramic capacitor distributor",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "凱美",
+              "code": "2375",
+              "region": "TW",
+              "role": "Tantalum & ceramic specialty caps",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "千如",
+              "code": "3236",
+              "region": "TW",
+              "role": "Film capacitors & inductors",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "蜜望實",
+              "code": "8043",
+              "region": "TW",
+              "role": "Passive components distributor TW",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Board Assembly & Power Delivery Module Makers",
+          "position": "downstream",
+          "desc": "PCB assemblers and VRM/power-module manufacturers that consume passives at highest density per unit — GPU server boards and 800G switch cards are the primary AI-driven end-points.",
+          "players": [
+            {
+              "name": "臻鼎-KY",
+              "code": "4958",
+              "region": "TW",
+              "role": "PCB leader; AI server board supply",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "健鼎",
+              "code": "3044",
+              "region": "TW",
+              "role": "High-layer PCB for servers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "台達電",
+              "code": "2308",
+              "region": "TW",
+              "role": "VRM & power modules; GPU rack PSU",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Vishay Intertechnology",
+              "code": "",
+              "region": "US",
+              "role": "Resistor & capacitor for power modules",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Murata (module div.)",
+              "code": "",
+              "region": "JP",
+              "role": "Integrated passive + inductor modules",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Server ODMs & Hyperscaler Demand Sinks",
+          "position": "downstream",
+          "desc": "Server ODMs integrating GPU trays and 800G switch fabric are the ultimate volume demand pull for passives; hyperscaler direct procurement increasingly spec-controls component grades.",
+          "players": [
+            {
+              "name": "鴻海",
+              "code": "2317",
+              "region": "TW",
+              "role": "Server ODM #1; GB200 NVL rack",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "Server ODM #2; NVDA primary ODM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "緯穎",
+              "code": "6669",
+              "region": "TW",
+              "role": "Hyperscale-only ODM; fastest growing",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand anchor; BOM spec setter",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Microsoft / Azure",
+              "code": "",
+              "region": "US",
+              "role": "Hyperscaler capex demand sink",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "智邦",
+              "code": "2345",
+              "region": "TW",
+              "role": "800G switch; passive-dense line cards",
+              "in_universe": true,
+              "tracked": true
+            }
+          ]
+        }
+      ]
+    },
+    "Connectors": {
+      "sub_industry": "Connectors",
+      "summary": "Connectors are the electrical/mechanical interface components linking PCBs, power supplies, cables, and backplanes inside servers, switches, and AI accelerator boards. Taiwan's connector cluster sits at the intersection of precision metal stamping and high-speed signal integrity, supplying into every AI server box assembled by the major ODMs.",
+      "ai_relevance": "AI accelerator nodes (H100/B200 class) require 2-3x more power and signal connectors per board than standard servers — denser GPU cards, NVLink bridges, and 400/800G switch backplanes all demand high-current power connectors and ultra-high-speed differential-pair signal connectors that the legacy server connector spec cannot handle. Wave-2 demand is structural: each incremental GB200 rack deployed consumes high-pin-count power and signal connectors at dollar-content well above prior generations.",
+      "stages": [
+        {
+          "name": "Raw Materials & Sub-components",
+          "position": "upstream",
+          "desc": "Copper alloy strip (terminals), precious-metal plating stock (Au/Pd), and high-performance engineering resins (nylon, LCP) that form connector contacts and housings.",
+          "players": [
+            {
+              "name": "Wieland Group",
+              "code": "",
+              "region": "EU",
+              "role": "precision copper alloy strip leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Materion",
+              "code": "",
+              "region": "US",
+              "role": "beryllium-copper alloy, contact materials",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Celanese",
+              "code": "",
+              "region": "US",
+              "role": "LCP/PPA resins for connector housings",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "DuPont",
+              "code": "",
+              "region": "US",
+              "role": "Zytel nylon, high-temp connector plastics",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Furukawa Electric",
+              "code": "",
+              "region": "JP",
+              "role": "copper alloy strip, connector terminals",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "達興材料",
+              "code": "5234",
+              "region": "TW",
+              "role": "specialty chemicals, surface treatment materials",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "PCB & IC Substrate Interfaces",
+          "position": "upstream",
+          "desc": "Printed circuit boards and IC substrates that connectors physically mount onto, defining pitch geometry, impedance requirements, and thermal constraints for connector design.",
+          "players": [
+            {
+              "name": "臻鼎-KY",
+              "code": "4958",
+              "region": "TW",
+              "role": "AI server HDI PCB, ABF substrate adjacent",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "健鼎",
+              "code": "3044",
+              "region": "TW",
+              "role": "thick-copper server PCB leader",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "欣興",
+              "code": "3037",
+              "region": "TW",
+              "role": "IC substrate, ABF for GPU packages",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "金像電",
+              "code": "2368",
+              "region": "TW",
+              "role": "HDI server board for GPU tray",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "南電",
+              "code": "8046",
+              "region": "TW",
+              "role": "ABF substrate, high-density server PCB",
+              "in_universe": true,
+              "tracked": true
+            }
+          ]
+        },
+        {
+          "name": "Connector Manufacturers — Leaders",
+          "position": "core",
+          "desc": "High-speed signal and high-current power connectors for AI server boards, backplanes, and cable assemblies; dominated by Taiwan's precision stamping cluster plus global connector majors.",
+          "players": [
+            {
+              "name": "嘉澤",
+              "code": "3533",
+              "region": "TW",
+              "role": "AI server power connector, GPU board specialist",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "貿聯-KY",
+              "code": "3665",
+              "region": "TW",
+              "role": "cable assembly & harness, data-center scale",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "宣德",
+              "code": "5457",
+              "region": "TW",
+              "role": "high-density server/AI board connectors",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Amphenol",
+              "code": "",
+              "region": "US",
+              "role": "global connector #2, server backplane dominant",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "TE Connectivity",
+              "code": "",
+              "region": "US",
+              "role": "global connector #3, power + signal",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Molex (Koch)",
+              "code": "",
+              "region": "US",
+              "role": "high-speed data center connectors",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Foxconn Interconnect (FIT)",
+              "code": "",
+              "region": "TW",
+              "role": "connector + cable, hyperscaler OEM",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Connector Manufacturers — Second Tier",
+          "position": "core",
+          "desc": "Smaller-cap Taiwan connector makers supplying board-to-board, backplane, and cable-assembly connectors into server ODMs and networking OEMs.",
+          "players": [
+            {
+              "name": "正崴",
+              "code": "2392",
+              "region": "TW",
+              "role": "broad connector + cable, server & consumer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "維熹",
+              "code": "3501",
+              "region": "TW",
+              "role": "signal connectors, backplane applications",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "胡連",
+              "code": "6279",
+              "region": "TW",
+              "role": "board-to-board, high-speed diff-pair connectors",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "詮欣",
+              "code": "6205",
+              "region": "TW",
+              "role": "fine-pitch board-to-board connectors",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "健和興",
+              "code": "3003",
+              "region": "TW",
+              "role": "PCB connectors, precision stamping",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "連展投控",
+              "code": "3710",
+              "region": "TW",
+              "role": "connector holding, cable harness",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "良維",
+              "code": "6290",
+              "region": "TW",
+              "role": "connector distribution + OEM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "萬泰科",
+              "code": "6190",
+              "region": "TW",
+              "role": "connector modules, cable assemblies",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Server ODM & Networking OEM",
+          "position": "downstream",
+          "desc": "Server and networking hardware assemblers that source connectors as BOM components, integrating them into AI server trays, GPU baseboard cards, switch line-cards, and cable racks.",
+          "players": [
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "largest AI server ODM, key NVDA GB200 builder",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "緯穎",
+              "code": "6669",
+              "region": "TW",
+              "role": "hyperscaler-dedicated ODM, highest AI mix",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "鴻海",
+              "code": "2317",
+              "region": "TW",
+              "role": "broadest ODM footprint, NB+server+AI",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "智邦",
+              "code": "2345",
+              "region": "TW",
+              "role": "400/800G AI switch OEM, connector-intensive",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "英業達",
+              "code": "2356",
+              "region": "TW",
+              "role": "server ODM, NVIDIA CSP focus",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "台達電",
+              "code": "2308",
+              "region": "TW",
+              "role": "power supply + thermal, connectors inside PSU",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Accelerator & Hyperscaler Demand Sink",
+          "position": "downstream",
+          "desc": "Hyperscalers and AI chip designers whose infrastructure capex ultimately pulls connector volume through the ODM tier.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand anchor, GB200/B300 cluster spec",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "custom ASIC + 800G switch silicon, AI clusters",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Microsoft",
+              "code": "",
+              "region": "US",
+              "role": "Azure AI infra, largest GB200 buyer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Google",
+              "code": "",
+              "region": "US",
+              "role": "TPU clusters + GPU racks, hyperscale capex",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Amazon",
+              "code": "",
+              "region": "US",
+              "role": "AWS Trainium/Inferentia + GPU fleet",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Cooling": {
+      "sub_industry": "Cooling",
+      "summary": "Cooling produces heat-dissipation hardware — vapor chambers, heat pipes, cold plates, liquid cooling loops, and fans — that keeps AI accelerators within thermal envelope. It sits between the server ODM assembly stage and the compute substrate, and is a direct physical constraint on GPU/ASIC sustained throughput.",
+      "ai_relevance": "Each Blackwell/Hopper GPU TDP has scaled to 700 W+ per chip and rack-level power densities now exceed 100 kW, making air cooling physically inadequate and forcing datacenter operators into liquid/immersion cooling — a structural step-change in cooling complexity and content-per-rack that directly expands the Taiwan cooling supply chain's addressable value.",
+      "stages": [
+        {
+          "name": "Thermal Materials & Fluid Inputs",
+          "position": "upstream",
+          "desc": "Supplies the base materials consumed in cooling assemblies: copper/aluminium strip, sintered powder for heat pipes, thermal interface materials (TIM), and dielectric coolant fluids.",
+          "players": [
+            {
+              "name": "Wieland Group",
+              "code": "",
+              "region": "EU",
+              "role": "high-purity copper strip for heat pipes",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "3M / Novec fluids",
+              "code": "",
+              "region": "US",
+              "role": "dielectric immersion-cooling fluid",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Honeywell",
+              "code": "",
+              "region": "US",
+              "role": "TIM and phase-change thermal pads",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Parker Hannifin",
+              "code": "",
+              "region": "US",
+              "role": "quick-disconnect fittings, fluid connectors",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "光洋科",
+              "code": "1785",
+              "region": "TW",
+              "role": "specialty metals and sputtering targets",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Cooling Component Makers (Core — Tier 1)",
+          "position": "core",
+          "desc": "Manufactures the primary thermal assemblies shipped to server ODMs: vapor chambers, heat pipes, cold plates, liquid cooling modules, and high-speed fans.",
+          "players": [
+            {
+              "name": "奇鋐",
+              "code": "3017",
+              "region": "TW",
+              "role": "largest TW thermal module maker, liquid cooling leader",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "雙鴻",
+              "code": "3324",
+              "region": "TW",
+              "role": "vapor chamber and liquid cooling modules",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "建準",
+              "code": "2421",
+              "region": "TW",
+              "role": "fans and thermal solutions for servers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "動力-KY",
+              "code": "6591",
+              "region": "TW",
+              "role": "cold plates and liquid cooling for AI servers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "泰碩",
+              "code": "3338",
+              "region": "TW",
+              "role": "heat-pipe modules, mid-tier thermal",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "尼得科超眾",
+              "code": "6230",
+              "region": "TW",
+              "role": "Nidec group TW cooling arm, heat sinks",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Nidec Corporation",
+              "code": "",
+              "region": "JP",
+              "role": "parent of 6230; global fan and cooling giant",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Cooling Component Makers (Core — Tier 2)",
+          "position": "core",
+          "desc": "Smaller-scale or more specialized cooling component suppliers — heat sinks, thermal modules, and rack-level cooling accessories.",
+          "players": [
+            {
+              "name": "力致",
+              "code": "3483",
+              "region": "TW",
+              "role": "heat sinks and thermal interface modules",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "業強",
+              "code": "6124",
+              "region": "TW",
+              "role": "thermal assemblies for networking and servers",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "元山",
+              "code": "6275",
+              "region": "TW",
+              "role": "fans and blowers for server enclosures",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Vertiv Holdings",
+              "code": "",
+              "region": "US",
+              "role": "rack-level liquid cooling and CDUs",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Aavid / Boyd Corporation",
+              "code": "",
+              "region": "US",
+              "role": "custom cold plates for hyperscaler GPUs",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Server ODM & System Integration",
+          "position": "downstream",
+          "desc": "Assembles cooling modules into complete GPU server platforms and rack systems sold to datacenter operators and hyperscalers.",
+          "players": [
+            {
+              "name": "緯穎",
+              "code": "6669",
+              "region": "TW",
+              "role": "hyperscaler GPU server ODM, top AI rack share",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "cloud server ODM, NVDA rack partner",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "英業達",
+              "code": "2356",
+              "region": "TW",
+              "role": "server ODM; AI rack ramp underway",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "鴻海",
+              "code": "2317",
+              "region": "TW",
+              "role": "GB200 NVL72 rack assembly for NVDA",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Super Micro Computer",
+              "code": "",
+              "region": "US",
+              "role": "liquid-cooled AI server integrator",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "勤誠",
+              "code": "8210",
+              "region": "TW",
+              "role": "server chassis and rack management",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Hyperscaler & End Demand",
+          "position": "downstream",
+          "desc": "Ultimate buyers deploying AI inference and training clusters where thermal density determines infrastructure architecture.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand sink, defines cooling spec per SKU",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Microsoft / Azure",
+              "code": "",
+              "region": "US",
+              "role": "largest Blackwell buyer; datacenter capex +50% YoY",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Google / GCP",
+              "code": "",
+              "region": "US",
+              "role": "TPU + GPU hybrid fleet, liquid cooling mandate",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Meta",
+              "code": "",
+              "region": "US",
+              "role": "AI training clusters; 1+ GW datacenter build",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Amazon / AWS",
+              "code": "",
+              "region": "US",
+              "role": "Trainium2/Inferentia + GPU clusters",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Server & ODM": {
+      "sub_industry": "Server & ODM",
+      "summary": "Taiwan ODMs design and assemble complete AI servers — GPU baseplates, NVLink/CXL backplanes, thermal sleds, power distribution — then deliver white-box racks to hyperscalers and cloud builders. The segment sits directly between component suppliers (PCB, power, cooling, networking) and the global compute build-out.",
+      "ai_relevance": "Each next-gen GPU SKU (H100→H200→B200→GB300) requires a new server chassis design with a tighter power/thermal/signal-integrity spec, forcing ODMs to co-develop with NVIDIA and hyperscalers 12-18 months ahead — giving the few qualified players structural pricing power and repeat design wins that compound as inference cluster density grows.",
+      "stages": [
+        {
+          "name": "Key Sub-Components (PCB, Power, Cooling, Networking)",
+          "position": "upstream",
+          "desc": "Printed circuit boards, copper-clad laminates, PSUs/VRMs, thermal modules, and high-speed networking cards that feed directly into server assembly.",
+          "players": [
+            {
+              "name": "臻鼎-KY",
+              "code": "4958",
+              "region": "TW",
+              "role": "PCB leader for AI server boards",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "台達電",
+              "code": "2308",
+              "region": "TW",
+              "role": "Power supply/VRM #1 for AI racks",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "奇鋐",
+              "code": "3017",
+              "region": "TW",
+              "role": "Liquid-cooling leader for GPU sleds",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "台光電",
+              "code": "2383",
+              "region": "TW",
+              "role": "High-speed CCL for AI server PCBs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "嘉澤",
+              "code": "3533",
+              "region": "TW",
+              "role": "High-speed connector for GPU modules",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "智邦",
+              "code": "2345",
+              "region": "TW",
+              "role": "Top-of-rack switch OEM for hyperscalers",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "Amphenol",
+              "code": "",
+              "region": "US",
+              "role": "Global connector leader for AI servers",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Vertiv",
+              "code": "",
+              "region": "US",
+              "role": "Rack-level power and cooling systems",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "IC Substrates & Packaging Inputs",
+          "position": "upstream",
+          "desc": "Advanced IC substrates (ABF/BT) and OSAT services for the ASICs, CPUs, and network ICs that populate server boards.",
+          "players": [
+            {
+              "name": "欣興",
+              "code": "3037",
+              "region": "TW",
+              "role": "ABF substrate leader for AI ASICs",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "南電",
+              "code": "8046",
+              "region": "TW",
+              "role": "ABF substrate #2; CoWoS adjacency",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "日月光投控",
+              "code": "3711",
+              "region": "TW",
+              "role": "OSAT leader; CoWoP ramp",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Ajinomoto (ABF resin)",
+              "code": "",
+              "region": "JP",
+              "role": "Sole ABF film supplier globally",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Server ODM Leaders (Cloud-Scale AI)",
+          "position": "core",
+          "desc": "Tier-1 ODMs co-designing next-gen GPU server platforms with NVIDIA, AMD, and hyperscalers; delivering full rack systems including liquid-cooling integration.",
+          "players": [
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "AI server ODM #1; NVDA GB200 prime",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "鴻海",
+              "code": "2317",
+              "region": "TW",
+              "role": "GB200 NVL rack ODM; scale advantage",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "緯穎",
+              "code": "6669",
+              "region": "TW",
+              "role": "Cloud AI server ODM; AWS/Meta prime",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "英業達",
+              "code": "2356",
+              "region": "TW",
+              "role": "AI server ODM; GPU sled integration",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "緯創",
+              "code": "3231",
+              "region": "TW",
+              "role": "AI server ODM; GPU rack systems",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "和碩",
+              "code": "4938",
+              "region": "TW",
+              "role": "AI server ODM; Apple + hyperscaler mix",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Server ODM Second Tier (Edge / Enterprise AI)",
+          "position": "core",
+          "desc": "Smaller ODMs and IPC/appliance makers serving enterprise AI, edge inference, and telco verticals; lower ASP but higher margin on specialty designs.",
+          "players": [
+            {
+              "name": "技嘉",
+              "code": "2376",
+              "region": "TW",
+              "role": "GPU server boards + barebones for SI",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "微星",
+              "code": "2377",
+              "region": "TW",
+              "role": "Workstation AI + edge server GPU systems",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "勤誠",
+              "code": "8210",
+              "region": "TW",
+              "role": "Server chassis ODM; 2U/4U specialty",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "神達",
+              "code": "3706",
+              "region": "TW",
+              "role": "Edge AI appliance + telco server ODM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "營邦",
+              "code": "3693",
+              "region": "TW",
+              "role": "Rackmount server chassis + IPC",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "仁寶",
+              "code": "2324",
+              "region": "TW",
+              "role": "ODM diversified; AI server ramp later",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Compute Silicon Demand Sinks",
+          "position": "downstream",
+          "desc": "GPU, ASIC, and CPU silicon vendors whose reference designs dictate server architecture and whose supply pull drives ODM order books.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand anchor; GB200/B300 roadmap",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "AMD",
+              "code": "",
+              "region": "US",
+              "role": "MI300X/MI400 GPU; alternative platform",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "Custom ASIC + networking for hyperscalers",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Marvell",
+              "code": "",
+              "region": "US",
+              "role": "Custom AI ASIC + DPU for CSPs",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Intel",
+              "code": "",
+              "region": "US",
+              "role": "Gaudi AI accelerators; CPU platform",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Hyperscaler & Cloud End-Customers",
+          "position": "downstream",
+          "desc": "Hyperscalers and large cloud operators placing multi-year ODM orders to build out inference and training clusters.",
+          "players": [
+            {
+              "name": "Microsoft (Azure)",
+              "code": "",
+              "region": "US",
+              "role": "OpenAI infra; massive GB200 buyer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Amazon (AWS)",
+              "code": "",
+              "region": "US",
+              "role": "Trainium/Inferentia + NVDA cluster builds",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Google (GCP)",
+              "code": "",
+              "region": "US",
+              "role": "TPU + NVDA; hyperscale cluster buyer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Meta",
+              "code": "",
+              "region": "US",
+              "role": "350K H100 cluster; custom MTIA builds",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "ByteDance / TikTok",
+              "code": "",
+              "region": "CN",
+              "role": "Large GPU cluster build; ODM buyer",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Networking": {
+      "sub_industry": "Networking",
+      "summary": "Taiwan networking ODMs design and manufacture white-box switches, routers, wireless access points, and CPE — the physical boxes that integrate merchant silicon and optics into deployable network systems. They sit between the chip and the end buyer, capturing margin on system integration and manufacturing scale.",
+      "ai_relevance": "Every 100k-GPU AI cluster requires tens of thousands of high-radix Ethernet switches; hyperscalers bypass branded vendors (Arista, Cisco) and source white-box systems directly from ODMs, making Taiwan white-box switch makers like 智邦 (Accton) the volume beneficiary of AI cluster build-outs. The wave-2 logic is that switch port count scales with GPU count, so the ODM tier captures AI capex with a lag behind GPU silicon.",
+      "stages": [
+        {
+          "name": "Networking Silicon (Switch ASIC / PHY / DSP)",
+          "position": "upstream",
+          "desc": "Merchant switch ASICs, PHY chips, and PAM4 DSPs that are the intelligence core of every white-box switch.",
+          "players": [
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "Tomahawk/Trident switch ASIC near-monopoly",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Marvell Technology",
+              "code": "",
+              "region": "US",
+              "role": "Prestera switch ASIC, PAM4 DSPs",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Intel (Tofino)",
+              "code": "",
+              "region": "US",
+              "role": "Programmable switch silicon, P4 ecosystem",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "瑞昱",
+              "code": "2379",
+              "region": "TW",
+              "role": "SMB/enterprise Ethernet switch IC leader",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "祥碩",
+              "code": "5269",
+              "region": "TW",
+              "role": "USB/PCIe/connectivity IC; edge network SoC",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯發科",
+              "code": "2454",
+              "region": "TW",
+              "role": "Wi-Fi/router SoC for CPE/AP segment",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "PCB, Passives & Power Sub-components",
+          "position": "upstream",
+          "desc": "Bare boards, passive components, and internal power supplies that go into every network box.",
+          "players": [
+            {
+              "name": "臻鼎-KY",
+              "code": "4958",
+              "region": "TW",
+              "role": "HDI PCB for networking OEMs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "健鼎",
+              "code": "3044",
+              "region": "TW",
+              "role": "Multi-layer PCB for network equipment",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "國巨*",
+              "code": "2327",
+              "region": "TW",
+              "role": "MLCC/resistor passive components global #3",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "華新科",
+              "code": "2492",
+              "region": "TW",
+              "role": "MLCC for networking PCB assemblies",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "台達電",
+              "code": "2308",
+              "region": "TW",
+              "role": "Internal AC-DC power supplies to ODMs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Murata",
+              "code": "",
+              "region": "JP",
+              "role": "MLCC global #1; embedded in every board",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Taiwan Networking ODM — Hyperscale White-Box",
+          "position": "core",
+          "desc": "Design and manufacture white-box open-networking switches sold directly to hyperscalers under their own brand or under Arista/Celestica-like OEM labels.",
+          "players": [
+            {
+              "name": "智邦",
+              "code": "2345",
+              "region": "TW",
+              "role": "White-box switch ODM; hyperscaler anchor supplier",
+              "in_universe": true,
+              "tracked": true
+            },
+            {
+              "name": "智易",
+              "code": "3596",
+              "region": "TW",
+              "role": "Open-networking switches; Accton ecosystem brand",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "台揚",
+              "code": "2314",
+              "region": "TW",
+              "role": "Carrier/enterprise networking ODM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "仲琦",
+              "code": "2419",
+              "region": "TW",
+              "role": "Broadband/carrier access equipment ODM",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Taiwan Networking ODM — Wireless / CPE / SMB",
+          "position": "core",
+          "desc": "Design and manufacture Wi-Fi APs, routers, CPE, and SMB switches for telcos, ISPs, and enterprise channels.",
+          "players": [
+            {
+              "name": "啟碁",
+              "code": "6285",
+              "region": "TW",
+              "role": "Wi-Fi AP/CPE ODM; major telco channel",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "中磊",
+              "code": "5388",
+              "region": "TW",
+              "role": "CPE/gateway ODM; 5G FWA exposure",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "正文",
+              "code": "4906",
+              "region": "TW",
+              "role": "GPON/xDSL CPE ODM for telcos",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "明泰",
+              "code": "3380",
+              "region": "TW",
+              "role": "SMB switch/AP ODM; enterprise channel",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "友訊",
+              "code": "2332",
+              "region": "TW",
+              "role": "D-Link brand; SMB/consumer networking",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "譁裕",
+              "code": "3419",
+              "region": "TW",
+              "role": "Wireless LAN AP ODM; ISP/carrier focus",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "兆赫",
+              "code": "2485",
+              "region": "TW",
+              "role": "Set-top/gateway ODM; cable MSO channel",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Branded Systems Integrators & White-Box Aggregators",
+          "position": "downstream",
+          "desc": "Branded networking vendors and white-box aggregators that source ODM hardware and resell to enterprise or hyperscaler buyers.",
+          "players": [
+            {
+              "name": "Arista Networks",
+              "code": "",
+              "region": "US",
+              "role": "DC switch brand; AI cluster share ~60%",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Cisco Systems",
+              "code": "",
+              "region": "US",
+              "role": "Enterprise/DC networking incumbent",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Celestica",
+              "code": "",
+              "region": "other",
+              "role": "White-box ODM aggregator to hyperscalers",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "HPE / Juniper",
+              "code": "",
+              "region": "US",
+              "role": "Post-merger full networking suite",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "TP-Link / Netgear",
+              "code": "",
+              "region": "CN",
+              "role": "Consumer/SMB channel demand sink",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Hyperscalers & AI Cluster Operators",
+          "position": "downstream",
+          "desc": "Ultimate demand source — each AI training/inference cluster is a switched Ethernet fabric consuming thousands of 400G/800G ports.",
+          "players": [
+            {
+              "name": "Microsoft (Azure)",
+              "code": "",
+              "region": "US",
+              "role": "CY26 ~$190B capex; massive AI cluster buildout",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Amazon (AWS)",
+              "code": "",
+              "region": "US",
+              "role": "~$200B FY26 capex; Trainium cluster networking",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Meta Platforms",
+              "code": "",
+              "region": "US",
+              "role": "RSNC AI fabric; white-box switch buyer",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Alphabet (Google)",
+              "code": "",
+              "region": "US",
+              "role": "Jupiter fabric; TPU cluster networking",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "CoreWeave",
+              "code": "",
+              "region": "US",
+              "role": "Neocloud; NVDA GPU cluster networking demand",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Optical Comms": {
+      "sub_industry": "Optical Comms",
+      "summary": "Taiwan's optical comms tier produces laser chips (EML/VCSEL/InGaAs), passive WDM components, fiber assemblies, and sub-rate transceiver modules that feed the global 800G/1.6T pluggable transceiver supply chain. It sits one layer below the branded transceiver module houses and two layers below the AI cluster fabric.",
+      "ai_relevance": "Every Blackwell/GB200 rack consumes hundreds of high-speed transceivers, and 1.6T modules are mandatory at >50k-GPU scale; EML laser chips and InGaAs receivers inside those modules are sourced from exactly this tier, where supply is sold out through 2027 — making it the cleanest wave-2 bottleneck after memory.",
+      "stages": [
+        {
+          "name": "Substrate & Epitaxial Wafer",
+          "position": "upstream",
+          "desc": "InP and GaAs compound semiconductor substrates plus epitaxial wafer growth — the raw material for all laser and photodetector chips in optical transceivers.",
+          "players": [
+            {
+              "name": "Sumitomo Electric",
+              "code": "",
+              "region": "JP",
+              "role": "InP/GaAs substrate global leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "AXT Inc",
+              "code": "",
+              "region": "US",
+              "role": "InP/GaAs substrate #2, US-listed",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "IQE",
+              "code": "",
+              "region": "EU",
+              "role": "Epi-wafer foundry for VCSEL/EML",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Coherent",
+              "code": "",
+              "region": "US",
+              "role": "Vertically integrated InP laser epi",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "DSP & Driver ICs",
+          "position": "upstream",
+          "desc": "High-speed optical DSPs, trans-impedance amplifiers (TIA), and laser drivers that digitally condition signals inside every pluggable transceiver module.",
+          "players": [
+            {
+              "name": "Marvell Technology",
+              "code": "",
+              "region": "US",
+              "role": "PAM4 DSP for 800G/1.6T dominant",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Broadcom",
+              "code": "",
+              "region": "US",
+              "role": "DSP + optical ASIC; CPO roadmap",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "MaxLinear",
+              "code": "",
+              "region": "US",
+              "role": "Optical DSPs for 400G/800G modules",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "MACOM Technology",
+              "code": "",
+              "region": "US",
+              "role": "TIA and driver IC for InP/EML",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "光通訊零組件 (TW Core Producers)",
+          "position": "core",
+          "desc": "Taiwan-based makers of EML/VCSEL laser chips, InGaAs photodetectors, TOSA/ROSA sub-assemblies, passive WDM/MUX elements, and fiber-cable assemblies that are built into 400G–1.6T transceiver modules.",
+          "players": [
+            {
+              "name": "聯亞",
+              "code": "3081",
+              "region": "TW",
+              "role": "VCSEL, InGaAs PD, LiDAR; AI optics play",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "眾達-KY",
+              "code": "4977",
+              "region": "TW",
+              "role": "VCSEL-based optical modules, KY-listed",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "華星光",
+              "code": "4979",
+              "region": "TW",
+              "role": "WDM/MUX passive components, DC focus",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "光環",
+              "code": "3234",
+              "region": "TW",
+              "role": "Fiber cable assemblies, AOC supplier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "聯鈞",
+              "code": "3450",
+              "region": "TW",
+              "role": "Optical transceivers, passive sub-assemblies",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "光聖",
+              "code": "6442",
+              "region": "TW",
+              "role": "Transceiver modules, 100G-400G range",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "上詮",
+              "code": "3363",
+              "region": "TW",
+              "role": "Optical transceivers, CWDM/DWDM",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "統新",
+              "code": "6426",
+              "region": "TW",
+              "role": "Passive optical components, low-speed",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Transceiver Module Brands",
+          "position": "downstream",
+          "desc": "Branded 800G/1.6T pluggable transceiver module houses that integrate TW-sourced chips and sub-assemblies into finished QSFP-DD/OSFP form factors for hyperscaler and OEM purchase.",
+          "players": [
+            {
+              "name": "Lumentum",
+              "code": "",
+              "region": "US",
+              "role": "EML sole-source; 200G/lane 1.6T enabler",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Coherent",
+              "code": "",
+              "region": "US",
+              "role": "InP lasers sold out through 2027",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "InnoLight Technology",
+              "code": "",
+              "region": "CN",
+              "role": "~50% of NVDA 800G transceiver supply",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Eoptolink",
+              "code": "",
+              "region": "CN",
+              "role": "33% net margins; 179% revenue growth",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Fabrinet",
+              "code": "",
+              "region": "other",
+              "role": "Contract optical module manufacturer",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "AI Cluster Infrastructure (Demand Sink)",
+          "position": "downstream",
+          "desc": "GPU switch fabrics, AI server platforms, and hyperscaler data-center builds that consume finished transceivers at hundreds of units per rack — the primary demand pull for the entire optical supply chain.",
+          "players": [
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand sink; invested $4B in LITE+COHR",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Arista Networks",
+              "code": "",
+              "region": "US",
+              "role": "DC spine switch; 800G port ramp",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "鴻海",
+              "code": "2317",
+              "region": "TW",
+              "role": "NVL72 rack ODM; high transceiver density",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "AI server ODM; GB200 NVL integration",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Microsoft / Hyperscalers",
+              "code": "",
+              "region": "US",
+              "role": "GPU cluster buyers; 1.6T capex wave",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    },
+    "Power Supply": {
+      "sub_industry": "Power Supply",
+      "summary": "Power Supply makers design and manufacture AC/DC rack PSUs, distributed power modules, and 48V bus converters that regulate and deliver electricity inside AI servers and GPU clusters. They sit between raw power electronics components and the server ODMs that integrate PSUs into finished racks shipped to hyperscaler data centres.",
+      "ai_relevance": "AI accelerator servers (GB200 NVL72, HGX H100) draw 3–10× the power of a standard 1U server — a single GB200 rack exceeds 120 kW — forcing a full redefinition of rack power architecture from 12V to 48V bus and driving mandatory upgrade cycles at every hyperscaler. This step-change in power density per rack is a direct, sustained unit-ASP tailwind for every Tier-1 PSU maker before a single GPU ship date moves.",
+      "stages": [
+        {
+          "name": "Power Semiconductors & Magnetic Components",
+          "position": "upstream",
+          "desc": "Wide-bandgap FETs (SiC/GaN), power controllers/drivers, and passive magnetics (transformers, chokes) that set PSU efficiency and switching frequency.",
+          "players": [
+            {
+              "name": "Infineon Technologies",
+              "code": "",
+              "region": "EU",
+              "role": "SiC/GaN FET global leader, AI PSU designs",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "ON Semiconductor",
+              "code": "",
+              "region": "US",
+              "role": "SiC FET ramp for 48V server power",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "STMicroelectronics",
+              "code": "",
+              "region": "EU",
+              "role": "GaN + SiC dual-roadmap for server PSU",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Texas Instruments",
+              "code": "",
+              "region": "US",
+              "role": "Power controller & LLC resonant IC leader",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "茂達",
+              "code": "6138",
+              "region": "TW",
+              "role": "AC/DC controller ICs for PSU designs",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "矽力*-KY",
+              "code": "6415",
+              "region": "TW",
+              "role": "DC/DC converter ICs, server power rails",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "TDK",
+              "code": "",
+              "region": "JP",
+              "role": "Transformer & choke modules for PSU",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Passive Components (Caps & Resistors)",
+          "position": "upstream",
+          "desc": "Electrolytic and film capacitors, MLCCs, and resistors providing energy storage and filtering in PSU bulk and output stages.",
+          "players": [
+            {
+              "name": "國巨*",
+              "code": "2327",
+              "region": "TW",
+              "role": "MLCC & resistor global #4, PSU-grade lines",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "華新科",
+              "code": "2492",
+              "region": "TW",
+              "role": "MLCC & thick-film resistors, PSU OEM supplier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "立隆電",
+              "code": "2472",
+              "region": "TW",
+              "role": "Electrolytic capacitors, primary PSU supplier",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "禾伸堂",
+              "code": "3026",
+              "region": "TW",
+              "role": "MLCC distributor & passive specialist",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "Murata",
+              "code": "",
+              "region": "JP",
+              "role": "MLCC global #1, high-capacitance for server PSU",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Nichicon",
+              "code": "",
+              "region": "JP",
+              "role": "Electrolytic cap specialist, server-grade",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Power Supply Makers — Leaders",
+          "position": "core",
+          "desc": "Tier-1 ODM/OEM manufacturers of rack PSUs, open-frame power modules, and 48V bus converters targeting AI servers and hyperscaler data centres.",
+          "players": [
+            {
+              "name": "台達電",
+              "code": "2308",
+              "region": "TW",
+              "role": "Global PSU #1; hyperscaler direct, 48V AI racks",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "光寶科",
+              "code": "2301",
+              "region": "TW",
+              "role": "PSU global #2; server ODM & OCP volumes",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "群電",
+              "code": "6412",
+              "region": "TW",
+              "role": "High-efficiency AI server PSU specialist",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "康舒",
+              "code": "6282",
+              "region": "TW",
+              "role": "Server & telecom PSU, growing AI exposure",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Power Supply Makers — Second Tier",
+          "position": "core",
+          "desc": "Focused or niche PSU makers serving AI server sub-segments — charging, embedded power, and industrial/edge inference.",
+          "players": [
+            {
+              "name": "飛宏",
+              "code": "2457",
+              "region": "TW",
+              "role": "EV charger + server PSU, AI edge power",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "全漢",
+              "code": "3015",
+              "region": "TW",
+              "role": "PC/workstation PSU, AI workstation exposure",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "僑威",
+              "code": "3078",
+              "region": "TW",
+              "role": "Power adapter & open-frame, edge AI units",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Server ODMs (PSU Integration)",
+          "position": "downstream",
+          "desc": "Hyperscaler-serving ODMs that integrate rack PSUs into GPU server platforms and deliver complete systems to data centre operators.",
+          "players": [
+            {
+              "name": "廣達",
+              "code": "2382",
+              "region": "TW",
+              "role": "NVDA GB200 ODM #1; largest PSU buyer",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "鴻海",
+              "code": "2317",
+              "region": "TW",
+              "role": "AI server + NVIDIA JDM; massive PSU pull",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "緯穎",
+              "code": "6669",
+              "region": "TW",
+              "role": "Hyperscaler-direct ODM, OCP PSU spec",
+              "in_universe": true,
+              "tracked": false
+            },
+            {
+              "name": "英業達",
+              "code": "2356",
+              "region": "TW",
+              "role": "NVIDIA HGX platform integrator",
+              "in_universe": true,
+              "tracked": false
+            }
+          ]
+        },
+        {
+          "name": "Hyperscalers & AI Labs (End Demand)",
+          "position": "downstream",
+          "desc": "Ultimate buyers of AI compute infrastructure whose GPU cluster build-outs set the volume and power spec for every upstream PSU design cycle.",
+          "players": [
+            {
+              "name": "Microsoft",
+              "code": "",
+              "region": "US",
+              "role": "Azure AI infra, largest hyperscaler capex",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Google",
+              "code": "",
+              "region": "US",
+              "role": "GCP + TPU clusters, OCP PSU specs",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Amazon",
+              "code": "",
+              "region": "US",
+              "role": "AWS Trainium/Inferentia infra buildout",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "Meta",
+              "code": "",
+              "region": "US",
+              "role": "MTIA cluster + open rack power standards",
+              "in_universe": false,
+              "tracked": false
+            },
+            {
+              "name": "NVIDIA",
+              "code": "",
+              "region": "US",
+              "role": "GPU demand sink; sets 48V rack power spec",
+              "in_universe": false,
+              "tracked": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

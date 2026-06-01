@@ -276,6 +276,108 @@ window.renderCrossQuarter = function (ticker, cq) {
     </article>`;
 };
 
+// Management narrative drift — per-theme tone score across earnings calls.
+// Reads data/narrative_tracking.json. Positive tone = bottleneck thesis
+// reinforced (tight supply / strong demand / raised capex / extending lead
+// times / rising prices). Negative tone = thesis weakening.
+const NARRATIVE_THEMES = [
+  { id: "supply",     label: "Supply",     pos: "tight",     neg: "easing" },
+  { id: "demand",     label: "Demand",     pos: "strong",    neg: "weak" },
+  { id: "capex",      label: "Capex",      pos: "raised",    neg: "cut" },
+  { id: "lead_times", label: "Lead times", pos: "extending", neg: "shortening" },
+  { id: "pricing",    label: "Pricing",    pos: "rising",    neg: "pressure" },
+];
+
+window.renderNarrativeDrift = function (ticker) {
+  const nt = DATA.narrative_tracking || {};
+  const calls = (nt.by_ticker || {})[ticker] || [];
+  if (!calls.length) {
+    return `<div class="text-sm text-[color:var(--text-faint)] py-3">No transcript on file for ${escapeHtml(ticker)} — earningscalls.dev covers US listings + ADRs; local non-US tickers are documented gaps. Drift comparison becomes meaningful once 2–3 quarterly transcripts accumulate.</div>`;
+  }
+
+  // Helper: tone score [-1, +1] → centered fill on a score-bar.
+  // Score 0 → no visible fill. Positive → green to the right; negative → rose to the left.
+  const renderScoreBar = (score) => {
+    const v = Math.max(-1, Math.min(1, score || 0));
+    const widthPct = Math.abs(v) * 50; // half the bar = score of 1
+    const fillClass = v >= 0 ? "score-bar__fill--pos" : "score-bar__fill--neg";
+    const left = v >= 0 ? "50%" : `${50 - widthPct}%`;
+    return `<span class="score-bar"><span class="score-bar__fill ${fillClass}" style="left: ${left}; width: ${widthPct}%;"></span></span>
+            <span class="score-bar__val">${v >= 0 ? "+" : ""}${v.toFixed(2)}</span>`;
+  };
+
+  // Mini drift sparkline: one dot per call (newest on the right).
+  // Color-coded by tone score. With one call it's just a single dot —
+  // intentional; the user can see drift fill in as more quarters land.
+  const renderSparkline = (themeId) => {
+    const dots = [...calls].reverse().map((c) => {
+      const s = (c.themes[themeId] || {}).tone_score || 0;
+      const color = s > 0.2 ? "var(--green)" : s < -0.2 ? "var(--rose)" : "var(--text-faint)";
+      const tip = `${c.date || "—"}: ${s >= 0 ? "+" : ""}${s.toFixed(2)}`;
+      return `<span class="narrative-spark__dot" title="${escapeHtml(tip)}" style="background:${color};"></span>`;
+    }).join("");
+    return `<span class="narrative-spark">${dots}</span>`;
+  };
+
+  const latest = calls[0];
+  const latestUrl = latest.url ? `<a class="narrative-call__src" href="${escapeHtml(latest.url)}" target="_blank" rel="noopener">source ↗</a>` : "";
+
+  const rowsHtml = NARRATIVE_THEMES.map((th) => {
+    const bucket = latest.themes[th.id] || { mentions: 0, tone_score: 0, counts: { positive: 0, negative: 0, neutral: 0 }, quotes: [] };
+    const mentions = bucket.mentions;
+    const counts = bucket.counts || { positive: 0, negative: 0, neutral: 0 };
+    const quotesHtml = (bucket.quotes || []).slice(0, 4).map((q) => {
+      const toneClass = q.tone === "positive" ? "tone-pos" : q.tone === "negative" ? "tone-neg" : "tone-neu";
+      const toneLabel = q.tone === "positive" ? th.pos : q.tone === "negative" ? th.neg : "neutral";
+      const who = q.speaker ? `${escapeHtml(q.speaker)}${q.role ? " · " + escapeHtml(q.role) : ""}` : "";
+      return `<li class="narrative-quote">
+                <span class="narrative-quote__tag ${toneClass}">${escapeHtml(toneLabel)}</span>
+                <span class="narrative-quote__text">${escapeHtml(q.text)}</span>
+                ${who ? `<span class="narrative-quote__who">— ${who}</span>` : ""}
+              </li>`;
+    }).join("");
+    const evidence = quotesHtml
+      ? `<details class="narrative-row__evidence"><summary>${counts.positive}+ / ${counts.negative}− / ${counts.neutral}∼ &nbsp;quotes</summary><ul class="narrative-quotes">${quotesHtml}</ul></details>`
+      : `<span class="text-[color:var(--text-faint)] text-xs">no mentions</span>`;
+    return `
+      <div class="narrative-row">
+        <div class="narrative-row__label">
+          <div class="narrative-row__theme">${th.label}</div>
+          <div class="narrative-row__legend">${th.pos} ↔ ${th.neg}</div>
+        </div>
+        <div class="narrative-row__bar">${mentions ? renderScoreBar(bucket.tone_score) : '<span class="text-[color:var(--text-faint)] text-xs">—</span>'}</div>
+        <div class="narrative-row__count">${mentions}</div>
+        <div class="narrative-row__spark">${renderSparkline(th.id)}</div>
+        <div class="narrative-row__evidence-wrap">${evidence}</div>
+      </div>`;
+  }).join("");
+
+  return `
+    <article class="cq-card narrative-card">
+      <header class="narrative-card__head">
+        <div>
+          <div class="narrative-card__title">${escapeHtml(latest.call_type || "Earnings call")}</div>
+          <div class="narrative-card__sub">${escapeHtml(latest.date || "—")} · ${calls.length} call${calls.length === 1 ? "" : "s"} on file ${latestUrl}</div>
+        </div>
+        <div class="narrative-card__legend">
+          <span>← thesis weakening</span>
+          <span>thesis reinforced →</span>
+        </div>
+      </header>
+      <div class="narrative-grid">
+        <div class="narrative-row narrative-row--head">
+          <div class="narrative-row__label">Theme</div>
+          <div class="narrative-row__bar">Tone</div>
+          <div class="narrative-row__count">N</div>
+          <div class="narrative-row__spark">Drift</div>
+          <div class="narrative-row__evidence-wrap">Top quotes</div>
+        </div>
+        ${rowsHtml}
+      </div>
+      ${calls.length === 1 ? `<div class="narrative-card__hint">Drift sparkline fills in as more quarterly transcripts accumulate — typically 2–3 cycles needed for a meaningful comparison.</div>` : ""}
+    </article>`;
+};
+
 // Exit-trigger status panel — 4 tiles showing thesis-break trigger states.
 // Lives at the top of index.html so the user sees thesis health at a glance,
 // even during emotional drawdowns.
@@ -569,6 +671,8 @@ window.shellHeader = function (active) {
     { id: "stocks", label: "Stocks", href: "stocks.html" },
     { id: "signals", label: "Signals feed", href: "signals.html" },
     { id: "about", label: "Sources", href: "about.html" },
+    { id: "tw-movers", label: "TW Movers", href: "tw-movers.html" },
+    { id: "architecture", label: "Architecture", href: "architecture.html" },
   ];
   const refreshTime = DATA.meta && DATA.meta.last_refresh_at
     ? new Date(DATA.meta.last_refresh_at).toISOString().replace("T", " ").slice(0, 16) + " UTC"

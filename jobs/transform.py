@@ -41,33 +41,46 @@ _KEYWORD_INDEX: list[tuple[str, str]] = sorted(
 
 
 # Architectural-risk keywords — algorithmic shifts that could collapse FLOPs/token
-# and break the inference-capex thesis (Mamba/SSMs, linear attention, MoE
-# efficiency, speculative decoding, KV-cache compression, distillation, BitNet).
-# A signal is flagged arch_risk=True if any term hits headline+quote.
+# and break the inference-capex thesis. Three classes:
+#   (1) non-attention architectures (SSMs, RWKV, RetNet, Hyena, diffusion LMs)
+#   (2) attention-cost reduction (MoE, linear/grouped/multi-query, paged, sparsity)
+#   (3) inference-shape changes (speculative decoding, prefill/decode disagg,
+#       KV-cache offload, distillation, quantization, edge/on-device inference)
+# Word-isolation rules: short tokens are space-padded; ambiguous tokens
+# ("compressed"→margin compression, "agentic"→product marketing) are excluded.
 ARCH_RISK_KEYWORDS: list[str] = [
+    # (1) Non-attention / sub-quadratic frontier architectures
     "mamba",
     "state space model",
     "state-space model",
+    "rwkv",
+    "retnet",
+    "hyena",
+    "jamba",
+    "samba",
+    "byte latent",
+    "byte-latent",
+    "diffusion language model",
+    "diffusion llm",
+    "dllm",
+    "sub-quadratic",
+    "subquadratic",
+    "linear-time transformer",
+    "recurrent gemma",
+    "griffin",
+    "mixture of recursions",
+    "mixture-of-recursions",
+    # (2) Attention-cost reduction
     "linear attention",
     "flash attention",
     "flashattention",
     "mixture of experts",
     "mixture-of-experts",
     " moe ",
-    "speculative decoding",
-    "kv cache",
-    "kv-cache",
-    "paged attention",
-    "pagedattention",
-    "distillation",
-    "quantization",
-    "bitnet",
-    "1-bit",
-    "ternary llm",
+    "moe routing",
+    "fine-grained sparsity",
     "sparsity",
     "pruning",
-    "medusa",
-    "lookahead decoding",
     "tree attention",
     "ring attention",
     "grouped query attention",
@@ -75,8 +88,40 @@ ARCH_RISK_KEYWORDS: list[str] = [
     " gqa ",
     "multi-query attention",
     "multi-query-attention",
+    " mqa ",
+    "paged attention",
+    "pagedattention",
+    # (3) Inference-shape changes
+    "speculative decoding",
+    "speculative streaming",
+    "self-speculative",
+    "draft model",
+    "medusa",
+    "lookahead decoding",
+    "kv cache",
+    "kv-cache",
+    "kvcache",
+    "kv cache offload",
+    "kvcache offload",
+    "disaggregated prefill",
+    "prefill-decode",
+    "prefill/decode",
+    "distillation",
+    "distilled model",
+    "quantization",
+    "bitnet",
+    "1-bit llm",
+    "1-bit model",
+    "ternary llm",
     "test-time compute",
+    "test-time scaling",
     "inference-time scaling",
+    "reasoning effort",
+    "small language model",
+    " slm ",
+    " slms ",
+    "on-device inference",
+    "edge inference",
 ]
 
 
@@ -152,15 +197,19 @@ def tag(signals: list[dict], players: list[dict]) -> list[dict]:
                 layer_score[layer] += 3
                 keyword_hits += 1
 
-        # Filings: tagged purely by ticker (no headline text to match keywords).
-        # Other signal types: require at least one keyword OR a strong (full
-        # company name) alias hit to keep the relevance bar high.
-        is_filing = sig.get("source_type") == "filing"
+        # Filings and earnings transcripts are tagged purely by ticker — the
+        # speaker is known, so the player's primary/secondary layers apply
+        # regardless of whether the quoted text happens to mention a keyword.
+        # RSS/news must clear a keyword OR full-company-name bar to stay
+        # relevant (single-word brand mentions are too noisy).
+        ticker_authoritative = (
+            sig.get("source_type") in ("filing", "earnings") and sig.get("tickers")
+        )
         has_strong_match = keyword_hits > 0 or any(
             len(a.split()) >= 2 for a in aliases if a in text
         )
 
-        if not is_filing and not has_strong_match:
+        if not ticker_authoritative and not has_strong_match:
             sig["layer_ids"] = []
             continue
 
@@ -184,5 +233,7 @@ def merge(curated: list[dict], discovered: list[dict]) -> list[dict]:
     for sig in discovered + curated:  # curated wins because written second
         by_id[sig["id"]] = sig
     merged = list(by_id.values())
-    merged.sort(key=lambda s: s["date"], reverse=True)
+    # `date` may be missing/None (e.g. a transcript whose date didn't parse) —
+    # coerce to "" so the sort never raises TypeError comparing None to str.
+    merged.sort(key=lambda s: s.get("date") or "", reverse=True)
     return merged

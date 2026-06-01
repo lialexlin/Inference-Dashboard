@@ -7,7 +7,8 @@ Usage:
     python -m jobs.refresh                # full refresh
     python -m jobs.refresh --skip-rss     # for fast local iteration
     python -m jobs.refresh --skip-edgar
-    python -m jobs.refresh --skip-ciq     # skip Capital IQ (e.g. when warehouse paused)
+    python -m jobs.refresh --skip-ciq          # skip Capital IQ (e.g. when warehouse paused)
+    python -m jobs.refresh --skip-tw-universe  # skip Taiwan universe momentum
     python -m jobs.refresh --tickers AAPL,MSFT  # subset (debug)
 """
 from __future__ import annotations
@@ -24,12 +25,17 @@ from jobs import seed
 from jobs import transform
 from jobs import scoring
 from jobs import bottleneck as bottleneck_stage
+from jobs import cross_quarter_auto
 from jobs import exit_triggers as exit_triggers_stage
 from jobs.sources import prices as prices_src
 from jobs.sources import rss as rss_src
 from jobs.sources import edgar as edgar_src
 from jobs.sources import capital_iq as ciq_src
 from jobs.sources import openrouter as openrouter_src
+from jobs.sources import transcripts as transcripts_src
+from jobs.sources import transcripts_extract as transcripts_extract_src
+from jobs.sources import tw_universe as tw_universe_src
+from jobs import narrative as narrative_mod
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -58,6 +64,9 @@ def main() -> int:
     p.add_argument("--skip-bottleneck", action="store_true")
     p.add_argument("--skip-openrouter", action="store_true")
     p.add_argument("--skip-exit-triggers", action="store_true")
+    p.add_argument("--skip-transcripts", action="store_true")
+    p.add_argument("--skip-narrative", action="store_true")
+    p.add_argument("--skip-tw-universe", action="store_true")
     p.add_argument("--tickers", help="comma-separated ticker subset for prices/edgar/ciq (debug)")
     p.add_argument("-v", "--verbose", action="store_true")
     args = p.parse_args()
@@ -226,19 +235,102 @@ def main() -> int:
     else:
         log.info("Skipping EDGAR.")
 
+    # Transcripts --------------------------------------------------------
+    # Earnings-call + shareholder-call transcripts from earningscalls.dev.
+    # Per-call JSONs land in data/transcripts/{ticker}-{call_id}.json; the
+    # aggregate index at data/transcripts_index.json is rebuilt every run
+    # from on-disk files (cheap — counts a directory listing).
+    if not args.skip_transcripts:
+        log.info("Fetching transcripts for %d tickers ...", len(tickers))
+        try:
+            tr = transcripts_src.fetch(tickers, data_dir=DATA / "transcripts")
+            index = transcripts_src.build_index(DATA / "transcripts")
+            _write_json(DATA / "transcripts_index.json", index)
+            meta["sources"]["transcripts"] = {
+                "ok": index["tickers_covered"],
+                "fetched_this_run": len(tr.fetched),
+                "cached": len(tr.cached),
+                "rate_limited": tr.rate_limited,
+                "unmapped": tr.unmapped,
+                "errors": tr.errors,
+                "total_calls_on_disk": index["total_calls"],
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+            log.info("Transcripts: %d new, %d cached, %d rate-limited, %d errors, %d total calls on disk",
+                     len(tr.fetched), len(tr.cached), len(tr.rate_limited), len(tr.errors), index["total_calls"])
+        except Exception as e:
+            log.error("Transcripts stage failed: %s — preserving prior on-disk transcripts", e)
+            meta["sources"]["transcripts"] = {
+                "ok": 0,
+                "errors": {"__stage__": str(e)},
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+    else:
+        log.info("Skipping transcripts.")
+
+    # Narrative theme extraction -----------------------------------------
+    # Scan every transcript on disk and emit per-call tone scores across
+    # supply / demand / capex / lead-times / pricing. Cheap (pure-Python
+    # text scan), so we run it every refresh even if no new transcripts
+    # landed — keeps the JSON consistent with on-disk transcripts.
+    if not args.skip_narrative:
+        log.info("Extracting narrative themes from on-disk transcripts ...")
+        try:
+            narrative = narrative_mod.compute(DATA / "transcripts")
+            _write_json(DATA / "narrative_tracking.json", narrative)
+            ns = narrative["summary"]
+            meta["sources"]["narrative"] = {
+                "ok": ns["tickers_covered"],
+                "calls_analyzed": ns["calls_analyzed"],
+                "total_mentions": ns["total_mentions"],
+                "themes": ns["themes"],
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+            log.info("Narrative: %d calls, %d tickers, %d theme mentions",
+                     ns["calls_analyzed"], ns["tickers_covered"], ns["total_mentions"])
+        except Exception as e:
+            log.error("Narrative stage failed: %s — preserving prior narrative_tracking.json", e)
+            meta["sources"]["narrative"] = {
+                "ok": 0,
+                "errors": {"__stage__": str(e)},
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+    else:
+        log.info("Skipping narrative.")
+
+    # Mine on-disk transcripts into signal entries so the bottleneck scorer and
+    # exit-trigger pipeline see management Q&A language (not just filings + RSS).
+    # Runs independently of the network fetch above — operates on cached JSONs —
+    # so it works even when --skip-transcripts is set or the upstream is down.
+    try:
+        transcript_signals = transcripts_extract_src.build_signals(DATA / "transcripts")
+        log.info("Transcripts → %d signal entries (supply/demand language present)",
+                 len(transcript_signals))
+        discovered.extend(transcript_signals)
+    except Exception as e:
+        log.error("Transcript extraction failed: %s", e)
+        transcript_signals = []
+
     # Tag + merge signals -------------------------------------------------
+    DISCOVERED_PREFIXES = ("rss-", "edgar-", "transcript-")
     existing = _load_json(DATA / "signals.json", [])
-    curated_only = [s for s in existing if not s["id"].startswith(("rss-", "edgar-"))]
+    curated_only = [s for s in existing if not s["id"].startswith(DISCOVERED_PREFIXES)]
     if not curated_only:
         curated_only = seed.SIGNALS
 
     if args.skip_rss and args.skip_edgar:
         # Preserve previously-discovered entries so partial refreshes don't wipe.
-        prev_discovered = [s for s in existing if s["id"].startswith(("rss-", "edgar-"))]
+        # Freshly-mined transcript entries take precedence over their prior copy.
+        new_transcript_ids = {s["id"] for s in transcript_signals}
+        prev_discovered = [s for s in existing
+                           if s["id"].startswith(DISCOVERED_PREFIXES)
+                           and s["id"] not in new_transcript_ids]
+        prev_discovered.extend(transcript_signals)
         # Re-tag so flags added in later code (e.g. arch_risk) get backfilled.
         transform.tag(prev_discovered + curated_only, players)
         merged = transform.merge(curated_only, prev_discovered)
-        log.info("Skipped both RSS and EDGAR — preserving %d discovered signals.", len(prev_discovered))
+        log.info("Skipped both RSS and EDGAR — preserving %d discovered signals (%d transcripts re-mined).",
+                 len(prev_discovered), len(transcript_signals))
         kept_count = len(prev_discovered)
     else:
         log.info("Tagging %d discovered signals ...", len(discovered))
@@ -286,6 +378,32 @@ def main() -> int:
             }
     else:
         log.info("Skipping OpenRouter.")
+
+    # Cross-quarter auto-generator --------------------------------------
+    # Derives supply-tightness shifts from filing_summaries for tickers
+    # without a manually-written entry. Bottleneck (next stage) reads
+    # cross_quarter.json fresh, so this must run before it.
+    try:
+        filing_summ_for_cq = _load_json(DATA / "filing_summaries.json", {})
+        prev_cq = _load_json(DATA / "cross_quarter.json", {})
+        manual_cq = {t: v for t, v in prev_cq.items() if not v.get("auto_generated")}
+        cq = cross_quarter_auto.generate(filing_summ_for_cq, manual_cq)
+        _write_json(DATA / "cross_quarter.json", cq)
+        auto_count = sum(1 for v in cq.values() if v.get("auto_generated"))
+        meta["sources"]["cross_quarter"] = {
+            "ok": len(cq),
+            "manual": len(manual_cq),
+            "auto_generated": auto_count,
+            "ts": datetime.now(timezone.utc).isoformat(),
+        }
+        log.info("Cross-quarter: %d entries (%d manual + %d auto)",
+                 len(cq), len(manual_cq), auto_count)
+    except Exception as e:
+        log.error("Cross-quarter auto-gen failed: %s — preserving prior file", e)
+        meta["sources"]["cross_quarter"] = {
+            "ok": 0, "errors": {"__stage__": str(e)},
+            "ts": datetime.now(timezone.utc).isoformat(),
+        }
 
     # Bottleneck heat-map ------------------------------------------------
     # Per-layer tightness score from signal density + supply-language extraction.
@@ -349,17 +467,23 @@ def main() -> int:
             manual_covered = sum(1 for t in [pp["ticker"] for pp in players]
                                  if t in manual and manual[t].get("fwd_eps_curr") is not None)
             quadrant_counts: dict[str, int] = {}
+            component_coverage: dict[str, int] = {}
             for s in scores.values():
                 quadrant_counts[s["quadrant"]] = quadrant_counts.get(s["quadrant"], 0) + 1
+                for k in (s.get("components") or {}).keys():
+                    component_coverage[k] = component_coverage.get(k, 0) + 1
             meta["sources"]["scoring"] = {
                 "ok": len(scores),
                 "quadrant_counts": quadrant_counts,
                 "manual_estimates_coverage": manual_covered,
                 "manual_estimates_total": len(players),
+                "component_coverage": component_coverage,
+                "tickers_scored": len(scores),
                 "ts": datetime.now(timezone.utc).isoformat(),
             }
-            log.info("Scoring: %d tickers, quadrants=%s, manual=%d/%d",
-                     len(scores), quadrant_counts, manual_covered, len(players))
+            log.info("Scoring: %d tickers, quadrants=%s, manual=%d/%d, components=%s",
+                     len(scores), quadrant_counts, manual_covered, len(players),
+                     component_coverage)
         except Exception as e:
             log.error("Scoring stage failed: %s", e)
             meta["sources"]["scoring"] = {
@@ -403,6 +527,40 @@ def main() -> int:
             }
     else:
         log.info("Skipping exit-triggers.")
+
+    # Taiwan universe momentum -------------------------------------------
+    # All-stock TWSE + TPEx daily closes, multi-window returns, sector medians.
+    # Wave-1 detector: spot which sectors already ripped so the user can hunt
+    # for Wave-2 laggards in the AI inference supply chain.
+    # Runs LAST (slowest, most failure-prone network stage): a slow or failed
+    # TW fetch must never delay or block the core dashboard stages above
+    # (scoring / bottleneck / exit-triggers). Failure preserves the prior file.
+    if not args.skip_tw_universe:
+        log.info("Fetching Taiwan universe momentum ...")
+        prev_movers = _load_json(DATA / "tw_movers.json", {})
+        try:
+            movers = tw_universe_src.fetch(existing=prev_movers)
+            _write_json(DATA / "tw_movers.json", movers)
+            meta["sources"]["tw_universe"] = {
+                "ok": movers.get("count", 0),
+                "stock_count": movers.get("count", 0),
+                "sector_count": len(movers.get("sectors", [])),
+                "latest_date": (movers.get("dates") or {}).get("latest"),
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+            log.info("TW Universe: %d stocks, %d sectors, latest=%s",
+                     movers.get("count", 0),
+                     len(movers.get("sectors", [])),
+                     (movers.get("dates") or {}).get("latest"))
+        except Exception as e:
+            log.error("TW Universe stage failed: %s — preserving prior tw_movers.json", e)
+            meta["sources"]["tw_universe"] = {
+                "ok": 0,
+                "errors": {"__stage__": str(e)},
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+    else:
+        log.info("Skipping TW Universe.")
 
     _write_json(DATA / "meta.json", meta)
 

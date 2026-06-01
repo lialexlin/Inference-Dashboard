@@ -6,7 +6,7 @@
   <title>Sources & refresh status · Inference Stack</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="assets/styles.css?v=2">
+  <link rel="stylesheet" href="assets/styles.css?v=3">
 </head>
 <body class="min-h-screen">
   <div id="header"></div>
@@ -42,6 +42,12 @@
     <section class="mb-10">
       <div class="section-divider">Coverage stats</div>
       <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-3"></div>
+    </section>
+
+    <section class="mb-10">
+      <div class="section-divider">Score components live</div>
+      <p class="text-sm text-[color:var(--text-dim)] mb-4 max-w-2xl">A component below ~80% coverage is silently absent from the average for the missing tickers. A component at 0% is fully <span class="text-[color:var(--rose)]">DARK</span> — fix the upstream input before trusting downstream scores.</p>
+      <div id="component-coverage" class="grid grid-cols-2 md:grid-cols-5 gap-3"></div>
     </section>
 
     <section class="mb-10">
@@ -129,8 +135,8 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
     </section>
   </main>
 
-  <script src="assets/app.js?v=2"></script>
-  <script src="assets/components.js?v=2"></script>
+  <script src="assets/app.js?v=3"></script>
+  <script src="assets/components.js?v=3"></script>
   <script>
     (async () => {
       await loadAll();
@@ -187,6 +193,19 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
           err: errs[name] || "",
         });
       });
+      const trSrc = sources.transcripts || {};
+      const trStageErr = (trSrc.errors || {}).__stage__;
+      const unmappedN = (trSrc.unmapped || []).length;
+      const errN = Object.keys(trSrc.errors || {}).filter((k) => k !== "__stage__").length;
+      rows.push({
+        name: "Earnings-call transcripts (earningscalls.dev)",
+        type: "filings",
+        entries: trSrc.total_calls_on_disk || 0,
+        ok: !trStageErr && (trSrc.ok || 0) > 0,
+        err: trStageErr
+          ? `stage failed: ${trStageErr}`
+          : `${trSrc.ok || 0} / ${DATA.players.length} tickers covered · ${trSrc.fetched_this_run || 0} new this run · ${unmappedN} unmapped (non-ADR locals) · ${errN} per-ticker errors`,
+      });
       const orSrc = sources.openrouter || {};
       const orStageErr = (orSrc.errors || {}).__stage__;
       rows.push({
@@ -234,12 +253,26 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
         name: "Manual forward-EPS estimates (Capital IQ / Bloomberg)",
         type: "prices",
         entries: manualCovered,
-        ok: !scoringStageErr,
+        ok: !scoringStageErr && manualCovered > 0,
         err: scoringStageErr
           ? `scoring stage failed: ${scoringStageErr}`
           : manualCovered === 0
-            ? `0 / ${manualTotal} tickers — add entries to data/manual_estimates.json to power EPS revision scoring`
+            ? `0 / ${manualTotal} tickers — EPS-revision component is DARK. Add entries to data/manual_estimates.json to bring it online.`
             : `${manualCovered} / ${manualTotal} tickers with manual estimates`,
+      });
+      // Score-component coverage — a low fill rate on any component means that
+      // component is silently absent from the average. Surface it so the user
+      // sees what's dark.
+      const cqSrc = sources.cross_quarter || {};
+      const cqStageErr = (cqSrc.errors || {}).__stage__;
+      rows.push({
+        name: "Cross-quarter trajectories (manual + filings-derived)",
+        type: "filings",
+        entries: cqSrc.ok || 0,
+        ok: !cqStageErr && (cqSrc.ok || 0) > 0,
+        err: cqStageErr
+          ? `stage failed: ${cqStageErr}`
+          : `${cqSrc.manual || 0} manual · ${cqSrc.auto_generated || 0} auto-derived from filing language`,
       });
 
       document.getElementById("health-body").innerHTML = rows.map((r) => `
@@ -265,6 +298,7 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
         { label: "Tickers tracked", value: tickerCount },
         { label: "Price coverage", value: `${priceCount} / ${tickerCount}` },
         { label: "Earnings dates", value: `${earningsCount} / ${tickerCount}` },
+        { label: "Call transcripts", value: `${(sources.transcripts || {}).ok || 0} / ${tickerCount}` },
         { label: "Signals indexed", value: sigStats.total || (DATA.signals || []).length },
       ];
       document.getElementById("stats").innerHTML = stats.map((s) => `
@@ -273,6 +307,38 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
           <div class="font-mono text-2xl text-white mt-2 tabular-nums">${s.value}</div>
         </div>
       `).join("");
+
+      // Score-component coverage — shows which inputs are firing across the
+      // universe so silent gaps (e.g. EPS revisions when manual_estimates is
+      // empty) are visible at a glance.
+      const compCov = (sources.scoring || {}).component_coverage || {};
+      const tickersScored = (sources.scoring || {}).tickers_scored || DATA.players.length;
+      const compLabels = [
+        ["biz_revenue_yoy_z",   "Revenue YoY",        "biz"],
+        ["biz_accel_z",         "Acceleration",       "biz"],
+        ["biz_margin_z",        "EBITDA margin",      "biz"],
+        ["biz_eps_revision_z",  "EPS revisions",      "biz"],
+        ["biz_signal_density_z","Signal density",     "biz"],
+        ["val_vs_own_pe_z",     "P/E vs own median",  "val"],
+        ["val_vs_own_fwd_pe_z", "Fwd P/E vs own",     "val"],
+        ["val_vs_peer_pe_z",    "P/E vs peers",       "val"],
+        ["val_vs_peer_ev_z",    "EV/EBITDA vs peers", "val"],
+        ["val_price_run_z",     "1y price run",       "val"],
+      ];
+      document.getElementById("component-coverage").innerHTML = compLabels.map(([key, label, kind]) => {
+        const n = compCov[key] || 0;
+        const pct = tickersScored ? Math.round(100 * n / tickersScored) : 0;
+        const colourVar = pct === 0 ? "--rose" : pct < 80 ? "--amber" : "--green";
+        const statusText = pct === 0 ? "DARK" : `${pct}%`;
+        const kindLabel = kind === "biz" ? "business" : "valuation";
+        const kindColour = kind === "biz" ? "--green" : "--sky";
+        return `<div class="layer-card">
+          <div class="text-[10px] uppercase tracking-widest text-[color:var(${kindColour})]">${kindLabel}</div>
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mt-1">${label}</div>
+          <div class="font-mono text-xl text-white mt-2 tabular-nums">${n} / ${tickersScored}</div>
+          <div class="text-xs text-[color:var(${colourVar})] mt-1 font-mono">${statusText}</div>
+        </div>`;
+      }).join("");
     })();
   </script>
 </body>

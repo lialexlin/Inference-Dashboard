@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Architecture · Inference Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=3">
+  <style>
+    /* Local-only styles for the pipeline diagram. */
+    .pipeline {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 8px;
+      align-items: stretch;
+    }
+    @media (max-width: 900px) { .pipeline { grid-template-columns: 1fr; } }
+    .pipe-col {
+      background: var(--bg-elev);
+      border: 1px solid var(--border-soft);
+      border-radius: 10px;
+      padding: 14px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      position: relative;
+    }
+    .pipe-col__head {
+      font-size: 10px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-faint);
+    }
+    .pipe-col__title {
+      color: var(--text);
+      font-family: "Newsreader", serif;
+      font-size: 18px;
+      line-height: 1.15;
+      margin-bottom: 4px;
+    }
+    .pipe-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .pipe-col li {
+      font: 11px/1.45 ui-monospace, SFMono-Regular, Menlo, monospace;
+      color: var(--text-dim);
+    }
+    .pipe-col li .tagline {
+      display: block;
+      font: 11px/1.4 "Newsreader", serif;
+      color: var(--text-faint);
+      margin-top: 1px;
+    }
+    .pipe-arrow {
+      display: none;
+    }
+    .data-table td, .data-table th { vertical-align: top; }
+    .data-table code, .mono-cell { font: 12px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text); }
+    .data-table .src { color: var(--text-faint); font-size: 11px; }
+    .pill {
+      display: inline-block;
+      padding: 1px 7px;
+      border-radius: 999px;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      background: var(--bg-elev);
+    }
+    .pill--gen { color: var(--green); border-color: rgba(52,211,153,0.35); background: rgba(52,211,153,0.06); }
+    .pill--manual { color: var(--amber); border-color: rgba(251,191,36,0.35); background: rgba(251,191,36,0.06); }
+    .pill--seed { color: var(--violet); border-color: rgba(167,139,250,0.35); background: rgba(167,139,250,0.06); }
+    .pill--external { color: var(--sky); border-color: rgba(56,189,248,0.35); background: rgba(56,189,248,0.06); }
+    .stage-row { display: flex; align-items: baseline; gap: 10px; padding: 8px 0; border-bottom: 1px dashed var(--border-soft); }
+    .stage-row:last-child { border-bottom: 0; }
+    .stage-num {
+      font: 11px/1 ui-monospace, monospace;
+      color: var(--text-faint);
+      width: 22px;
+      flex-shrink: 0;
+    }
+    .stage-name {
+      font: 12px/1.4 ui-monospace, monospace;
+      color: var(--text);
+      width: 180px;
+      flex-shrink: 0;
+    }
+    .stage-desc { color: var(--text-dim); font-size: 13px; line-height: 1.5; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <div id="header"></div>
+
+  <main class="max-w-6xl mx-auto px-6 py-10">
+    <header class="mb-10 max-w-3xl">
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Architecture</div>
+      <h1 class="font-display text-4xl text-white leading-tight">How the dashboard is wired</h1>
+      <p class="mt-3 text-[color:var(--text-dim)] leading-relaxed">
+        Static frontend, Python ETL backend, JSON in between. The browser fetches <code class="text-[color:var(--text)] bg-[color:var(--bg-elev)] px-1 rounded">data/*.json</code> directly — no build step, no API server, no framework. Everything below is a description of what runs and what each file is for.
+      </p>
+    </header>
+
+    <!-- ============================================================ -->
+    <section class="mb-10">
+      <div class="section-divider">End-to-end pipeline</div>
+      <div class="pipeline">
+        <div class="pipe-col">
+          <div class="pipe-col__head">1 · Where the data comes from</div>
+          <div class="pipe-col__title">Sources <span class="text-[color:var(--text-faint)] text-xs">— the raw inputs</span></div>
+          <ul>
+            <li>yfinance <span class="tagline">prices, fwd P/E, next earnings</span></li>
+            <li>S&amp;P Capital IQ <span class="tagline">multiples, fundamentals, 8y history</span></li>
+            <li>SEC EDGAR <span class="tagline">8-K / 10-Q / 10-K filings</span></li>
+            <li>RSS (9 feeds) <span class="tagline">industry &amp; analyst commentary</span></li>
+            <li>OpenRouter <span class="tagline">frontier inference throughput</span></li>
+            <li>earningscalls.dev <span class="tagline">call transcripts</span></li>
+            <li><span class="pill pill--seed">seed</span> jobs/seed.py</li>
+            <li><span class="pill pill--manual">manual</span> manual_estimates.json</li>
+          </ul>
+        </div>
+        <div class="pipe-col">
+          <div class="pipe-col__head">2 · Talk to each source</div>
+          <div class="pipe-col__title">Adapters <span class="text-[color:var(--text-faint)] text-xs">— fetch &amp; clean</span></div>
+          <ul>
+            <li>prices.py</li>
+            <li>capital_iq.py <span class="tagline">Snowflake / Xpressfeed</span></li>
+            <li>edgar.py <span class="tagline">CIK_MAP lookup</span></li>
+            <li>rss.py <span class="tagline">feedparser, HTML stripped</span></li>
+            <li>openrouter.py</li>
+            <li>transcripts.py <span class="tagline">polite pacing, 429 backoff</span></li>
+          </ul>
+        </div>
+        <div class="pipe-col">
+          <div class="pipe-col__head">3 · Make sense of it</div>
+          <div class="pipe-col__title">Tag &amp; score <span class="text-[color:var(--text-faint)] text-xs">— add meaning</span></div>
+          <ul>
+            <li>transform.py <span class="tagline">keyword → layer, arch_risk flag</span></li>
+            <li>bottleneck.py <span class="tagline">tightness 0–100 per layer</span></li>
+            <li>scoring.py <span class="tagline">biz × val z-scores, quadrants</span></li>
+            <li>exit_triggers.py <span class="tagline">4 thesis-break states</span></li>
+          </ul>
+        </div>
+        <div class="pipe-col">
+          <div class="pipe-col__head">4 · Save the results</div>
+          <div class="pipe-col__title">Persist <span class="text-[color:var(--text-faint)] text-xs">— write JSON files</span></div>
+          <ul>
+            <li>atomic write <span class="tagline">.tmp → rename</span></li>
+            <li>partial preserve <span class="tagline">prior on stage fail</span></li>
+            <li>meta.json <span class="tagline">refresh ts + health</span></li>
+            <li>git-tracked <span class="tagline">daily bot commit</span></li>
+          </ul>
+        </div>
+        <div class="pipe-col">
+          <div class="pipe-col__head">5 · Show it to you</div>
+          <div class="pipe-col__title">Browser <span class="text-[color:var(--text-faint)] text-xs">— render the pages</span></div>
+          <ul>
+            <li>fetch('data/*.json')</li>
+            <li>Tailwind CDN <span class="tagline">utility CSS</span></li>
+            <li>ECharts <span class="tagline">price + multiples charts</span></li>
+            <li>marked.js <span class="tagline">layer markdown</span></li>
+            <li>Alpine.js <span class="tagline">small interactive bits</span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="mt-3 text-xs text-[color:var(--text-faint)]">
+        Daily orchestration: <code class="text-[color:var(--text-dim)]">jobs/refresh.py</code> runs stages in order — CIQ → prices → RSS → EDGAR → transform/tag → bottleneck → openrouter → transcripts → scoring → exit-triggers. Every stage uses atomic writes; on failure it preserves the prior output for that stage and the others continue.
+      </p>
+    </section>
+
+    <!-- ============================================================ -->
+    <section class="mb-10">
+      <div class="section-divider">What each step actually does — in plain English</div>
+      <p class="text-[color:var(--text-dim)] mb-5 max-w-3xl">No computer-science background needed. Read left-to-right, the way the data flows.</p>
+
+      <div class="grid md:grid-cols-2 gap-4">
+
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Step 2 · Adapters</div>
+          <h3 class="font-display text-xl text-white mb-2">"Talk to each website / database, bring the data home"</h3>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+            Every data source speaks a different language. Yahoo Finance gives you stock prices through a Python library. S&amp;P Capital IQ wants you to log into a database and run a SQL query. SEC EDGAR has a public web URL that returns a list of filings. RSS feeds are XML files that need to be parsed.
+          </p>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+            An "adapter" is just a small Python file whose only job is to talk to <em>one</em> source. It logs in (if needed), makes the request, deals with errors, strips out junk (HTML tags inside RSS articles, for example), and hands back a clean Python dictionary.
+          </p>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">
+            Why split them up? So when Yahoo changes their API or Capital IQ adds a new field, you fix <em>one</em> small file. The rest of the system doesn't know or care.
+          </p>
+          <div class="mt-3 text-xs text-[color:var(--text-faint)] font-mono">
+            Files: jobs/sources/prices.py · capital_iq.py · edgar.py · rss.py · openrouter.py · transcripts.py
+          </div>
+        </div>
+
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Step 3 · Tag &amp; score</div>
+          <h3 class="font-display text-xl text-white mb-2">"Turn raw data into <em>meaning</em>"</h3>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+            Raw data is just numbers and headlines. This step adds <em>opinion</em>:
+          </p>
+          <ul class="text-sm text-[color:var(--text-dim)] leading-relaxed space-y-2 mb-3 list-disc list-inside marker:text-[color:var(--text-faint)]">
+            <li><strong class="text-white">Tagging</strong> — when a news article mentions "HBM3" or "CoWoS", which of the 15 layers of the stack does that belong to? <code>jobs/transform.py</code> reads a list of keywords per layer and stamps each article with its layer(s). It also flags "architectural risk" articles (anything that could make today's GPUs obsolete — Mamba, mixture-of-experts, etc.).</li>
+            <li><strong class="text-white">Bottleneck score</strong> — for each layer, how often are companies in it saying "supply constrained / sold out / lead times extending"? <code>jobs/bottleneck.py</code> counts those phrases over the last 90 days and produces a 0–100 number. High = the bottleneck is binding right now.</li>
+            <li><strong class="text-white">Business × Valuation score</strong> — for each ticker, is it growing fast (Business score) and is it cheap relative to peers (Valuation score)? Two numbers, plotted on a 2×2 grid that gives you the green/red labels you see on every chip. <code>jobs/scoring.py</code> does this. Full walkthrough in the next section ↓</li>
+            <li><strong class="text-white">Exit triggers</strong> — four pre-defined "if X happens, the whole thesis breaks" conditions. <code>jobs/exit_triggers.py</code> checks them and lights up green / amber / red.</li>
+          </ul>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">
+            None of this requires AI. It's keyword matching, arithmetic, and statistics. The judgement lives in <em>what</em> we measure (the keyword lists, the thresholds) — not in any black box.
+          </p>
+        </div>
+
+        <div class="layer-card md:col-span-2">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Step 4 · Persist</div>
+          <h3 class="font-display text-xl text-white mb-2">"Save it as JSON files so the browser can read them"</h3>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+            "Persist" in software just means <em>write to disk so it survives after the program stops running</em>. A typical web app would save into a database (Postgres, MySQL). This dashboard is deliberately simpler — it writes plain text files in the <code>data/</code> folder, one per topic. JSON is the file format; it looks like nested lists and dictionaries.
+          </p>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+            That's it. No database server. No login. When you open the website, your browser downloads those JSON files directly the same way it downloads images. The site can be hosted on free GitHub Pages because the "backend" is just static text.
+          </p>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+            Two safety properties worth knowing:
+          </p>
+          <ul class="text-sm text-[color:var(--text-dim)] leading-relaxed space-y-2 list-disc list-inside marker:text-[color:var(--text-faint)]">
+            <li><strong class="text-white">Atomic writes</strong> — instead of writing directly to <code>scores.json</code>, the code writes to <code>scores.json.tmp</code>, then renames it in one operation. If the script is interrupted mid-write, you still have yesterday's file intact. The browser never sees a half-finished file.</li>
+            <li><strong class="text-white">Partial preservation</strong> — if today the Capital IQ database is down, the Capital IQ stage fails gracefully. Yesterday's CIQ data stays in <code>fundamentals.json</code> and every other stage runs normally. You don't lose the whole refresh because one source had a bad day.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <section class="mb-10">
+      <div class="section-divider">Scoring — how a ticker gets its label</div>
+      <p class="text-[color:var(--text-dim)] mb-6 max-w-3xl">
+        Every ticker on the site ends up with a <strong class="text-white">colored dot</strong> (green = underappreciated, blue = priced-in, amber = value-trap, red = avoid). Here's exactly what that dot is built from. All maths happen in <code>jobs/scoring.py</code> — no AI, no opaque models, just five fundamentals and five valuation checks, averaged.
+      </p>
+
+      <!-- Z-score primer -->
+      <div class="layer-card mb-6">
+        <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">First, the one bit of jargon: <em>z-score</em></div>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-2">
+          A z-score answers the question "how unusual is this number compared to the group?" Take everyone in NVDA's layer (GPU + accelerators) and look at their revenue-growth percentages. Compute the average and the typical spread. Then ask: how many "spreads" above (or below) the average is NVDA?
+        </p>
+        <ul class="text-sm text-[color:var(--text-dim)] leading-relaxed space-y-1 mb-2 list-disc list-inside marker:text-[color:var(--text-faint)]">
+          <li><code>z = 0</code> → exactly average for the peer group</li>
+          <li><code>z = +1</code> → one "step" above average (top ~16% of peers)</li>
+          <li><code>z = +2</code> → strongly above (top ~2%)</li>
+          <li><code>z = −1</code> → one step below average</li>
+        </ul>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">
+          We z-score within the <em>layer</em>, not across the whole 66-ticker universe — that way memory companies are compared to memory companies, not to optics companies. Every z is clipped to ±3 so one freak number can't dominate. Convention: <strong class="text-[color:var(--green)]">positive = good</strong> (strong growth, OR cheap valuation).
+        </p>
+      </div>
+
+      <!-- Business + Valuation -->
+      <div class="grid md:grid-cols-2 gap-4 mb-6">
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--green)] mb-3">Business score · "is the company growing?"</div>
+          <p class="text-sm text-[color:var(--text-dim)] mb-3">Average of up to 5 components (missing ones are skipped, not penalized):</p>
+          <table class="players data-table">
+            <thead><tr><th>Component</th><th>Source</th></tr></thead>
+            <tbody>
+              <tr><td><strong class="text-white">Revenue YoY growth</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">How much revenue rose vs. a year ago.</div></td><td class="src">Capital IQ</td></tr>
+              <tr><td><strong class="text-white">Acceleration</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">YoY growth <em>minus</em> the 3-year average growth. Positive = company is speeding up, not slowing down.</div></td><td class="src">Capital IQ</td></tr>
+              <tr><td><strong class="text-white">EBITDA margin</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">Profit margin before interest, tax, depreciation. Pricing-power proxy.</div></td><td class="src">Capital IQ</td></tr>
+              <tr><td><strong class="text-white">Forward-EPS revision</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">Did analyst expectations of next-year earnings go up since the last snapshot you saved? Positive revisions = strong tape.</div></td><td class="src">Manual (manual_estimates.json)</td></tr>
+              <tr><td><strong class="text-white">Signal density</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">How often the company appeared in news / filings using capex / lead-time / backlog / shortage language in the last 90 days. A "is the company in the conversation right now?" check.</div></td><td class="src">Signals feed (RSS + EDGAR)</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--sky)] mb-3">Valuation score · "is it cheap?"</div>
+          <p class="text-sm text-[color:var(--text-dim)] mb-3">Average of up to 5 components. Sign flipped so <strong class="text-[color:var(--green)]">positive = cheap</strong>.</p>
+          <table class="players data-table">
+            <thead><tr><th>Component</th><th>Source</th></tr></thead>
+            <tbody>
+              <tr><td><strong class="text-white">Trailing P/E vs its <em>own</em> 8-year median</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">Is the stock trading above or below its own typical valuation? Compares it to its own history, not its peers.</div></td><td class="src">Capital IQ (8y history)</td></tr>
+              <tr><td><strong class="text-white">Forward P/E vs your manual 5y median</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">Same idea but forward-looking, using a median you provide.</div></td><td class="src">Manual (manual_estimates.json)</td></tr>
+              <tr><td><strong class="text-white">Trailing P/E vs layer-peer median</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">Is it cheaper or more expensive than other companies in the same layer?</div></td><td class="src">Capital IQ</td></tr>
+              <tr><td><strong class="text-white">EV/EBITDA vs layer-peer median</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">Same comparison but using a capital-structure-neutral multiple (handles companies with lots of debt fairly).</div></td><td class="src">Capital IQ</td></tr>
+              <tr><td><strong class="text-white">1-year price return vs layer peers</strong><div class="text-xs text-[color:var(--text-faint)] mt-1">If a stock has already rallied much more than its peers, that part of the "cheap" thesis is gone — penalty.</div></td><td class="src">yfinance</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Worked example -->
+      <div class="layer-card mb-6">
+        <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-3">Worked example — how a quadrant gets assigned</div>
+        <p class="text-sm text-[color:var(--text-dim)] mb-3">
+          Suppose for some ticker we end up with:
+        </p>
+        <div class="grid md:grid-cols-2 gap-3 mb-3">
+          <div class="text-sm font-mono bg-[color:var(--bg-elev)] p-3 rounded">
+            Business components<br>
+            <span class="text-[color:var(--text-dim)]">  rev_yoy_z     = +1.8</span><br>
+            <span class="text-[color:var(--text-dim)]">  accel_z       = +1.2</span><br>
+            <span class="text-[color:var(--text-dim)]">  margin_z      = +0.4</span><br>
+            <span class="text-[color:var(--text-dim)]">  eps_revision  = +2.0</span><br>
+            <span class="text-[color:var(--text-dim)]">  signal_dens   = +1.6</span><br>
+            <strong class="text-[color:var(--green)]">Business avg  = +1.4</strong>
+          </div>
+          <div class="text-sm font-mono bg-[color:var(--bg-elev)] p-3 rounded">
+            Valuation components<br>
+            <span class="text-[color:var(--text-dim)]">  vs_own_pe     = +0.8</span><br>
+            <span class="text-[color:var(--text-dim)]">  vs_own_fwd_pe = (skip)</span><br>
+            <span class="text-[color:var(--text-dim)]">  vs_peer_pe    = +0.3</span><br>
+            <span class="text-[color:var(--text-dim)]">  vs_peer_ev    = +0.5</span><br>
+            <span class="text-[color:var(--text-dim)]">  price_run     = −0.2</span><br>
+            <strong class="text-[color:var(--green)]">Valuation avg = +0.35</strong>
+          </div>
+        </div>
+        <p class="text-sm text-[color:var(--text-dim)]">
+          Both averages are above the <code>+0.3</code> threshold. → quadrant = <span class="qpill qpill--underappreciated">Underappreciated</span> · strong growth AND cheap vs peers. Top-idea zone.
+        </p>
+      </div>
+
+      <!-- Quadrant grid -->
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-3">The four quadrants (decision thresholds ±0.3)</div>
+      <table class="players data-table mb-6">
+        <thead>
+          <tr><th>Label</th><th>Business</th><th>Valuation</th><th>What it means</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><span class="qpill qpill--underappreciated">Underappreciated</span></td><td class="num">&gt; +0.3</td><td class="num">&gt; +0.3</td><td class="text-[color:var(--text-dim)]">Strong fundamentals AND cheap — top-idea zone.</td></tr>
+          <tr><td><span class="qpill qpill--priced-in">Priced in</span></td><td class="num">&gt; +0.3</td><td class="num">&lt; −0.3</td><td class="text-[color:var(--text-dim)]">Strong but already expensive — consensus trade.</td></tr>
+          <tr><td><span class="qpill qpill--value-trap">Value trap</span></td><td class="num">&lt; −0.3</td><td class="num">&gt; +0.3</td><td class="text-[color:var(--text-dim)]">Cheap but weak — optical bargain.</td></tr>
+          <tr><td><span class="qpill qpill--avoid">Avoid</span></td><td class="num">&lt; −0.3</td><td class="num">&lt; −0.3</td><td class="text-[color:var(--text-dim)]">Weak AND expensive — no edge.</td></tr>
+          <tr><td><span class="qpill qpill--fair">Fair</span></td><td class="num text-[color:var(--text-faint)]">else</td><td class="num text-[color:var(--text-faint)]">else</td><td class="text-[color:var(--text-dim)]">In between — fundamentals and price roughly balanced.</td></tr>
+        </tbody>
+      </table>
+
+      <!-- Layer rollup -->
+      <div class="layer-card mb-6">
+        <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Layer roll-up — how a whole <em>layer</em> gets a status</div>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-2">
+          Once every ticker has a quadrant, the layer takes the distribution and picks one label:
+        </p>
+        <ul class="text-sm text-[color:var(--text-dim)] leading-relaxed space-y-1 list-disc list-inside marker:text-[color:var(--text-faint)]">
+          <li>≥ 30% of the layer's tickers are <strong class="text-[color:var(--green)]">underappreciated</strong> → layer = Underappreciated (lowest bar — actionable case)</li>
+          <li>≥ 50% are <strong class="text-[color:var(--sky)]">priced-in</strong> → Priced-in</li>
+          <li>≥ 50% are <strong class="text-[color:var(--amber)]">value-trap</strong> → Value trap</li>
+          <li>≥ 50% are <strong class="text-[color:var(--rose)]">avoid</strong> → Avoid</li>
+          <li>otherwise → Fair</li>
+        </ul>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mt-2">
+          If you want to pin a label manually (e.g. you know an area is being mispriced for a reason the data doesn't capture), set <code>status_override</code> in <code>jobs/seed.py</code> and that wins over the auto-status.
+        </p>
+      </div>
+
+      <!-- Bottleneck score -->
+      <div class="layer-card mb-6">
+        <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Bottleneck tightness score (0–100) · <code>jobs/bottleneck.py</code></div>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+          The little heat meter on each layer card. Higher = more evidence the layer is supply-constrained <em>right now</em>. Three ingredients, fixed weights:
+        </p>
+        <ul class="text-sm text-[color:var(--text-dim)] leading-relaxed space-y-2 list-disc list-inside marker:text-[color:var(--text-faint)]">
+          <li><strong class="text-white">40% Signal density</strong> — how many signals (news, filings) tagged this layer in the last 90 days, ranked against other layers as a percentile.</li>
+          <li><strong class="text-white">40% Tightness language</strong> — of those signals, how often do they contain phrases like "allocated", "sold out", "lead time", "shortage", "backlog", "supply constrained", "demand exceeds supply" (full list in the code). Hits-per-signal, percentile-ranked.</li>
+          <li><strong class="text-white">20% Cross-quarter supply tightening</strong> — bonus +20 if any ticker in the layer had a recent earnings call where management said supply got tighter compared to the prior quarter.</li>
+        </ul>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mt-3">
+          The score is paired with up to 3 evidence quotes (the actual sentences that drove it up), shown in the tooltip and on the layer page.
+        </p>
+      </div>
+
+      <!-- Reverse DCF -->
+      <div class="layer-card mb-6">
+        <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Reverse-DCF · "what growth rate is the price implying?"</div>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+          A regular DCF asks "given this growth assumption, what's fair value?" A <em>reverse</em>-DCF flips it: "given today's price, what growth rate would justify it?" Then you can compare that to what the company actually printed last year and ask: is the market expecting more, or less?
+        </p>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+          Two fixed assumptions, so every ticker is on the same playing field:
+        </p>
+        <ul class="text-sm text-[color:var(--text-dim)] leading-relaxed space-y-1 list-disc list-inside marker:text-[color:var(--text-faint)] mb-3">
+          <li>Discount rate <code>r = 10%</code> (what an equity investor demands)</li>
+          <li>Year-5 exit P/E <code>= 18×</code> (rough S&amp;P long-run average)</li>
+          <li>5-year horizon</li>
+        </ul>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">
+          The code solves for the EPS growth rate <code>g</code> that makes today's P/E exactly add up. If a stock is at 50× trailing earnings, the implied <code>g</code> might be ~30% per year. If the company just grew earnings at 12%, the gap (<code>+18%</code>) tells you the market is pricing in a re-acceleration. That gap is shown on <code>stock.html</code> and the stocks table as "implied vs recent growth".
+        </p>
+      </div>
+
+      <!-- Exit triggers -->
+      <div class="layer-card">
+        <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Exit triggers · "when is the whole thesis wrong?"</div>
+        <p class="text-sm text-[color:var(--text-dim)] leading-relaxed mb-3">
+          The dashboard isn't here to make you bullish forever — it watches four pre-defined conditions that would break the inference-build thesis. Each lights up <span class="text-[color:var(--green)]">green</span> (fine), <span class="text-[color:var(--amber)]">amber</span> (watch), or <span class="text-[color:var(--rose)]">red</span> (triggered).
+        </p>
+        <ul class="text-sm text-[color:var(--text-dim)] leading-relaxed space-y-2 list-disc list-inside marker:text-[color:var(--text-faint)]">
+          <li><strong class="text-white">Token-growth stalling</strong> — derived from OpenRouter daily snapshots. If frontier-inference token throughput stops growing, demand is rolling over.</li>
+          <li><strong class="text-white">Hyperscaler capex cut</strong> — driven by signals tagged with capex-guide-down language from MSFT / GOOGL / META / AMZN.</li>
+          <li><strong class="text-white">Architectural risk</strong> — count of arch-risk-tagged signals (Mamba, MoE, linear attention, KV-cache compression, distillation). High volume = the dominant transformer assumption is being challenged.</li>
+          <li><strong class="text-white">Taiwan / geopolitical</strong> — manually set by you in <code>data/exit_triggers_manual.json</code>. The only one not data-driven, because geopolitics doesn't show up in numbers until it's too late.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- ============================================================ -->
+    <section class="mb-10">
+      <div class="section-divider">Data sources</div>
+      <table class="players data-table">
+        <thead>
+          <tr>
+            <th>Source</th>
+            <th>What it provides</th>
+            <th>Adapter</th>
+            <th>Auth</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="pill pill--external">market</span> yfinance</td>
+            <td>1y daily prices, 1m / 6m / YTD changes, forward P/E, analyst targets, next earnings date</td>
+            <td><code>jobs/sources/prices.py</code></td>
+            <td>none</td>
+          </tr>
+          <tr>
+            <td><span class="pill pill--external">market</span> S&amp;P Capital IQ</td>
+            <td>Trailing P/E, EV/EBITDA, P/S, P/B (current + 8y), margins, growth, ROE/ROA/ROIC, revenue / EBITDA / NI in USD</td>
+            <td><code>jobs/sources/capital_iq.py</code> <span class="src">via Snowflake / Xpressfeed Cloud</span></td>
+            <td>SF creds in <code>.env</code></td>
+          </tr>
+          <tr>
+            <td><span class="pill pill--external">filings</span> SEC EDGAR</td>
+            <td>8-K / 10-Q / 10-K filings for US-listed tickers (CIK_MAP)</td>
+            <td><code>jobs/sources/edgar.py</code></td>
+            <td>none</td>
+          </tr>
+          <tr>
+            <td><span class="pill pill--external">news</span> RSS feeds (9)</td>
+            <td>TrendForce, Nikkei Asia (Google News), DigiTimes, ServeTheHome, Next Platform, SemiAnalysis, Utility Dive, SemiWiki, Stratechery</td>
+            <td><code>jobs/sources/rss.py</code> <span class="src">feedparser</span></td>
+            <td>none</td>
+          </tr>
+          <tr>
+            <td><span class="pill pill--external">demand</span> OpenRouter</td>
+            <td>Daily snapshots of frontier-inference token throughput per model (variant-perception telemetry)</td>
+            <td><code>jobs/sources/openrouter.py</code></td>
+            <td>none (scrape)</td>
+          </tr>
+          <tr>
+            <td><span class="pill pill--external">transcripts</span> earningscalls.dev</td>
+            <td>Earnings &amp; analyst-call transcripts, speaker-segmented; covers all US tickers + ADRs (TSM, ASML). 16 local non-US tickers gap-documented.</td>
+            <td><code>jobs/sources/transcripts.py</code></td>
+            <td>none</td>
+          </tr>
+          <tr>
+            <td><span class="pill pill--seed">seed</span> jobs/seed.py</td>
+            <td>Source of truth for the 15 layers, 66 players, 26 curated signals, layer thesis markdown, <code>CIQ_OVERRIDES</code>, layer <code>status_override</code></td>
+            <td><code>jobs/seed.py</code></td>
+            <td>committed to repo</td>
+          </tr>
+          <tr>
+            <td><span class="pill pill--manual">manual</span> Forward EPS &amp; revisions</td>
+            <td>User-curated forward EPS snapshots per ticker (Capital IQ / Bloomberg). Powers the EPS-revision component of the Business score.</td>
+            <td><code>data/manual_estimates.json</code></td>
+            <td>hand-edited</td>
+          </tr>
+          <tr>
+            <td><span class="pill pill--manual">manual</span> Taiwan exit trigger</td>
+            <td>Free-text Taiwan geopolitical-risk flag (green / amber / red) — feeds the exit-triggers panel.</td>
+            <td><code>data/exit_triggers_manual.json</code></td>
+            <td>hand-edited</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ============================================================ -->
+    <section class="mb-10">
+      <div class="section-divider">Backend stages (jobs/)</div>
+      <div class="layer-card">
+        <div class="stage-row">
+          <div class="stage-num">0</div>
+          <div class="stage-name">jobs/seed.py</div>
+          <div class="stage-desc">One-shot. Writes <code>layers.json</code> and <code>players.json</code> and the curated entries inside <code>signals.json</code>. Re-run after editing the seed dicts. <code>--refresh-ciq-mapping</code> resolves tickers against Capital IQ.</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">1</div>
+          <div class="stage-name">jobs/sources/capital_iq.py</div>
+          <div class="stage-desc">Snowflake query per batch of 25 tickers. Emits <code>fundamentals[ticker].ciq</code> (current snapshot) and <code>multiples_history.json</code> (8y annual). Currency derived from <code>PLAYERS.country</code>, not the ticker suffix.</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">2</div>
+          <div class="stage-name">jobs/sources/prices.py</div>
+          <div class="stage-desc">yfinance pulls per ticker: 1y daily, summary changes, forward P/E, target prices, next earnings. Writes <code>prices.json</code> and merges into <code>fundamentals.json</code>.</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">3</div>
+          <div class="stage-name">jobs/sources/rss.py</div>
+          <div class="stage-desc">feedparser over the <code>FEEDS</code> constant. Strips HTML entities &amp; tags. New entries are id-prefixed <code>rss-*</code> and merged into <code>signals.json</code> — curated entries are preserved by prefix check.</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">4</div>
+          <div class="stage-name">jobs/sources/edgar.py</div>
+          <div class="stage-desc">SEC submissions API for each ticker in <code>CIK_MAP</code>. New entries prefixed <code>edgar-*</code>. Same merge model as RSS.</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">5</div>
+          <div class="stage-name">jobs/transform.py</div>
+          <div class="stage-desc">In-memory tagging. <code>LAYER_KEYWORDS</code> routes every signal to one of 15 layers; <code>ARCH_RISK_KEYWORDS</code> sets the <code>arch_risk</code> boolean (Mamba / MoE / linear attention / KV-cache / distillation / BitNet).</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">6</div>
+          <div class="stage-name">jobs/bottleneck.py</div>
+          <div class="stage-desc">Per-layer tightness score 0–100 from signal density + supply-tightness lexicon + cross-quarter supply signals. Emits <code>bottleneck.json</code> (also surfaces evidence snippets used by the layer-card heat meter).</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">7</div>
+          <div class="stage-name">jobs/sources/openrouter.py</div>
+          <div class="stage-desc">Scrapes OpenRouter rankings, appends today's row to <code>demand_signals.json</code> (top models, share, WoW). Graceful degradation — preserves prior snapshot on parse failure.</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">8</div>
+          <div class="stage-name">jobs/sources/transcripts.py</div>
+          <div class="stage-desc">Polite 2.5s-paced fetch from earningscalls.dev. Stores per-call JSON under <code>data/transcripts/{ticker}-{call_id}.json</code>; rebuilds aggregate <code>transcripts_index.json</code> from on-disk files each run.</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">9</div>
+          <div class="stage-name">jobs/scoring.py</div>
+          <div class="stage-desc">Per-ticker Business × Valuation z-scores (5 components each, layer-peer normalized). Quadrant assignment ±0.3 thresholds. Layer roll-up via <code>ROLL_UNDER_FRACTION</code> / <code>ROLL_PRICED_FRACTION</code>. Also computes <code>implied_5y_cagr</code> via reverse-DCF (r=10%, terminal P/E=18, bisection). Writes <code>scores.json</code>.</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">10</div>
+          <div class="stage-name">jobs/exit_triggers.py</div>
+          <div class="stage-desc">Evaluates 4 codified thesis-break conditions (token-growth, hyperscaler capex, arch-risk, Taiwan). Taiwan state comes from <code>exit_triggers_manual.json</code>. Writes <code>exit_triggers.json</code>.</div>
+        </div>
+        <div class="stage-row">
+          <div class="stage-num">⟳</div>
+          <div class="stage-name">jobs/refresh.py</div>
+          <div class="stage-desc">Orchestrator. Flags: <code>--skip-prices --skip-rss --skip-edgar --skip-ciq --skip-scoring --skip-bottleneck --skip-openrouter --skip-exit-triggers --skip-transcripts --tickers X,Y</code>. Daily GitHub Actions cron at 12:00 UTC commits as <code>inference-dashboard-bot</code>.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <section class="mb-10">
+      <div class="section-divider">Generated data files</div>
+      <table class="players data-table">
+        <thead>
+          <tr>
+            <th>File</th>
+            <th>Origin</th>
+            <th>Shape / purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>data/layers.json</code></td>
+            <td><span class="pill pill--seed">seed</span></td>
+            <td>15 layers — id, order, name, short_role, optional <code>status_override</code>.</td>
+          </tr>
+          <tr>
+            <td><code>data/players.json</code></td>
+            <td><span class="pill pill--seed">seed</span></td>
+            <td>66 tickers — name, layer_id, country (drives CIQ reporting currency), role, secondary_layers.</td>
+          </tr>
+          <tr>
+            <td><code>data/signals.json</code></td>
+            <td><span class="pill pill--seed">seed</span> + <span class="pill pill--gen">rss</span> + <span class="pill pill--gen">edgar</span></td>
+            <td>Unified feed. Each entry: id, date, source, type, title, url, layer_id, tickers[], <code>arch_risk: bool</code>. Curated rows kept across refreshes (id-prefix check).</td>
+          </tr>
+          <tr>
+            <td><code>data/prices.json</code></td>
+            <td><span class="pill pill--gen">yfinance</span></td>
+            <td>Per ticker: 1y daily series + summary (last_price, change_1m, change_6m, change_ytd, market_cap).</td>
+          </tr>
+          <tr>
+            <td><code>data/fundamentals.json</code></td>
+            <td><span class="pill pill--gen">CIQ + yfinance</span></td>
+            <td>Per ticker. <code>ciq.*</code> block — trailing multiples, margins, growth, returns, USD financials. <code>fwd_pe</code>, <code>target_price</code>, <code>next_earnings</code> from yfinance.</td>
+          </tr>
+          <tr>
+            <td><code>data/multiples_history.json</code></td>
+            <td><span class="pill pill--gen">CIQ</span></td>
+            <td>8 years of annual P/E, EV/EBITDA, P/S, P/B per ticker. Drives the multiples chart on <code>stock.html</code> and the trailing-vs-own-median z-score in scoring.</td>
+          </tr>
+          <tr>
+            <td><code>data/scores.json</code></td>
+            <td><span class="pill pill--gen">scoring</span></td>
+            <td>Per ticker: <code>business</code>, <code>valuation</code>, <code>quadrant</code>, component breakdown, <code>implied_5y_cagr</code>, <code>implied_vs_recent_growth</code>.</td>
+          </tr>
+          <tr>
+            <td><code>data/bottleneck.json</code></td>
+            <td><span class="pill pill--gen">bottleneck</span></td>
+            <td>Per layer: <code>tightness_score</code> (0–100), evidence snippets, 90d signal count.</td>
+          </tr>
+          <tr>
+            <td><code>data/demand_signals.json</code></td>
+            <td><span class="pill pill--gen">openrouter</span></td>
+            <td>Rolling daily rows — total tokens, top models, share, WoW deltas.</td>
+          </tr>
+          <tr>
+            <td><code>data/exit_triggers.json</code></td>
+            <td><span class="pill pill--gen">exit_triggers</span></td>
+            <td>4 trigger states + overall (green / amber / red).</td>
+          </tr>
+          <tr>
+            <td><code>data/transcripts/*.json</code></td>
+            <td><span class="pill pill--gen">transcripts</span></td>
+            <td>One file per call. Immutable once written. <code>call_id</code> is the stable earningscalls.dev integer key.</td>
+          </tr>
+          <tr>
+            <td><code>data/transcripts_index.json</code></td>
+            <td><span class="pill pill--gen">transcripts</span></td>
+            <td>Per-ticker pointer list — date, call_type, word_count. Rebuilt every run from on-disk files.</td>
+          </tr>
+          <tr>
+            <td><code>data/cross_quarter.json</code></td>
+            <td><span class="pill pill--gen">transform</span></td>
+            <td>Supply-side language tracked across consecutive quarters per ticker / layer.</td>
+          </tr>
+          <tr>
+            <td><code>data/ciq_mapping.json</code></td>
+            <td><span class="pill pill--seed">seed (one-shot)</span></td>
+            <td>Resolved <code>ticker → companyId</code> for Capital IQ. Regenerate with <code>python -m jobs.seed --refresh-ciq-mapping</code>.</td>
+          </tr>
+          <tr>
+            <td><code>data/meta.json</code></td>
+            <td><span class="pill pill--gen">refresh</span></td>
+            <td>Refresh timestamp, dashboard version, per-source health (ok counts, errors, unmapped tickers). Powers the <a class="text-[color:var(--sky)]" href="about.html">Sources</a> page.</td>
+          </tr>
+          <tr>
+            <td><code>data/manual_estimates.json</code></td>
+            <td><span class="pill pill--manual">manual</span></td>
+            <td>User-curated forward EPS + revision history per ticker. Optional but improves Business/Valuation scoring.</td>
+          </tr>
+          <tr>
+            <td><code>data/exit_triggers_manual.json</code></td>
+            <td><span class="pill pill--manual">manual</span></td>
+            <td>Taiwan state + free-text note. Toggle on geopolitical news.</td>
+          </tr>
+          <tr>
+            <td><code>data/filing_summaries.json</code></td>
+            <td><span class="pill pill--gen">edgar</span></td>
+            <td>Per-filing extracted summary used by the signal feed for richer EDGAR rows.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ============================================================ -->
+    <section class="mb-10">
+      <div class="section-divider">Frontend pages</div>
+      <p class="text-[color:var(--text-dim)] mb-5 max-w-3xl">No framework — each HTML page calls <code class="text-[color:var(--text)] bg-[color:var(--bg-elev)] px-1 rounded">loadAll()</code> from <code>assets/app.js</code>, which fetches the JSON files in parallel into <code>window.DATA</code>. Render helpers live in <code>assets/components.js</code>; design tokens (the dark theme, badges, chips, qpills) in <code>assets/styles.css</code>.</p>
+
+      <table class="players data-table">
+        <thead>
+          <tr>
+            <th>Page</th>
+            <th>What it shows</th>
+            <th>Reads</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a class="text-[color:var(--sky)]" href="index.html"><code>index.html</code></a></td>
+            <td>15 layer cards · status filter · search · exit-triggers panel · demand strip · arch-risk strip</td>
+            <td><code>layers · players · prices · scores · bottleneck · signals · exit_triggers · demand_signals</code></td>
+          </tr>
+          <tr>
+            <td><a class="text-[color:var(--sky)]" href="stocks.html"><code>stocks.html</code></a></td>
+            <td>Sortable table of all 66 tickers · quadrant pill · multiples · implied CAGR · next-earnings column</td>
+            <td><code>players · prices · fundamentals · scores</code></td>
+          </tr>
+          <tr>
+            <td><a class="text-[color:var(--sky)]" href="stock.html?ticker=NVDA"><code>stock.html</code></a></td>
+            <td>Per-ticker detail · price chart · multiples history chart · score-component breakdown · reverse-DCF card · transcripts list · related signals</td>
+            <td><code>players · prices · fundamentals · scores · multiples_history · manual_estimates · signals · transcripts_index · (transcripts/*.json lazy)</code></td>
+          </tr>
+          <tr>
+            <td><a class="text-[color:var(--sky)]" href="layer.html?id=gpu"><code>layer.html</code></a></td>
+            <td>Per-layer detail · long-form thesis markdown · players table · price chart · bottleneck callout · layer-scoped signals</td>
+            <td><code>layers · players · prices · fundamentals · scores · signals · bottleneck · content/layers/NN-*.md</code></td>
+          </tr>
+          <tr>
+            <td><a class="text-[color:var(--sky)]" href="signals.html"><code>signals.html</code></a></td>
+            <td>Chronological signal feed · sidebar filters (type, layer, time window, search, arch-risk-only, saved)</td>
+            <td><code>signals · layers · players</code></td>
+          </tr>
+          <tr>
+            <td><a class="text-[color:var(--sky)]" href="about.html"><code>about.html</code></a></td>
+            <td>Per-source health table · coverage tiles · scoring methodology · manual refresh commands</td>
+            <td><code>meta · all data files (for counts)</code></td>
+          </tr>
+          <tr>
+            <td><code>architecture.html</code> <span class="text-[color:var(--text-faint)]">(this page)</span></td>
+            <td>Static reference for the wiring above.</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ============================================================ -->
+    <section class="mb-10">
+      <div class="section-divider">Operational notes</div>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Atomicity</div>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">Every JSON write goes to <code>file.json.tmp</code> then is renamed into place. The browser never observes a half-written file. If a single stage fails, its prior <code>data/*.json</code> is preserved and the rest of the refresh continues.</p>
+        </div>
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Partial preservation</div>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">Curated signals (any id NOT prefixed <code>rss-</code> or <code>edgar-</code>) survive every refresh. <code>--skip-ciq</code> or a CIQ failure preserves prior <code>ciq.*</code> blocks. <code>--skip-rss</code> doesn't drop existing RSS rows; it just doesn't fetch new ones.</p>
+        </div>
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Daily cron</div>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">GitHub Actions (<code>.github/workflows/refresh.yml</code>) runs <code>python -m jobs.refresh</code> at 12:00 UTC on a hosted Ubuntu runner. <code>SF_ACCOUNT / SF_USER / SF_PASS</code> are repo secrets. The bot commits <code>data/</code> as <code>inference-dashboard-bot</code>; Pages auto-redeploys on push.</p>
+        </div>
+        <div class="layer-card">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Local run</div>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">Python is uv-managed. First time: <code>uv sync</code>. Then <code>uv run python -m jobs.refresh</code> and <code>uv run python -m http.server 8000</code>. Or double-click <code>launch.command</code> / <code>refresh.command</code> — both wrap <code>uv run</code>.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-[color:var(--border-soft)] mt-12">
+    <div class="max-w-7xl mx-auto px-6 py-6 text-xs text-[color:var(--text-faint)] flex justify-between flex-wrap gap-3">
+      <span>Personal research dashboard. Not investment advice.</span>
+      <span>Static HTML · JSON files · Python ETL · no framework, no build step.</span>
+    </div>
+  </footer>
+
+  <script src="assets/app.js?v=3"></script>
+  <script src="assets/components.js?v=3"></script>
+  <script>
+    (async () => {
+      await loadAll();
+      document.getElementById("header").innerHTML = shellHeader("architecture");
+    })();
+  </script>
+</body>
+</html>

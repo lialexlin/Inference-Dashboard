@@ -1,0 +1,237 @@
+{
+  "ticker": "SNOW",
+  "symbol_used": "SNOW",
+  "call_id": 21838,
+  "source": "earningscalls.dev",
+  "url": "https://earningscalls.dev/transcript/21838",
+  "fetched_at": "2026-05-13T06:23:36.273992+00:00",
+  "company": "Snowflake Inc.",
+  "call_type": "Presents at Morgan Stanley Technology, Media & Telecom Conference 2026, Mar-03-2026 04:05 PM",
+  "date": "2026-03-04",
+  "raw_date": "Wednesday, March 4, 2026",
+  "sector": "Information Technology",
+  "industry": "IT Services",
+  "segments": [
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "All right. Continuing the afternoon sessions at TMT Day 2. I'm Sanjit Singh. I cover the infrastructure software practice on the Morgan Stanley research team. \r\nThrilled to have the Snowflake management team, CEO, Sridhar Ramaswamy; and Chief Financial Officer, Brian Robbins. Sridhar, Brian, welcome back to the TMT conference."
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "Thank you. Delighted to be here."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "For important disclosures, please see the Morgan Stanley research disclosure website at www.morganstanley.com/researchdisclosures. So we've got 35 minutes, and Sridhar, we got a lot to talk about between a durable core business. We got Snowflake Intelligence out. We got Cortex code, and we've got to figure out how all this will translate into an attractive growth and free cash flow story."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "I want to start the conversation with the core business. So when I was going at various conferences with AWS or other hyperscaler conferences, the sort of rallying cry that I heard was you had to get your data state ready for -- to prepare for AI. It seems to me like those initiatives really got operationalized in calendar 2025. \r\nAnd so when you look at the core business, how it's sustained over the past year, was it these data modernization that drove that durability and that strength in the core? Or were there other additional factors that you would call out?"
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "Data modernization continues to play an important role. But we've fundamentally been limited by how quickly we can do these modernizations. And I'll come back to this topic because it's a really important one. \r\nBut as 2025 progressed, people were beginning to understand the value of agentic AI, because we had started doing Snowflake Intelligence initially prototypes and POCs and lots of folks right off the public preview started using the product. And it's a magical product. It looks forward to what could agentic systems with reasoning do with different kinds of data sets and truly the power of agentic AI on top of data estates that were on Snowflake. So that's the string that continues to pull in terms of what drives the core business. \r\nAnd migration, to be honest with you, is this problem that our industry as a whole, not just Snowflake has struggled for a very long time. These tend to be long, complicated, messy with lots and lots of details. I've been involved in migration projects where like 100 people from Snowflake deployed, 100 people from the customers. It's an 18-month project, it's like total pressure cooker and drama. But we're making remarkable progress in migrations also. \r\nAnd I expect this year, for example, technically, I think we'll be able to get through most aspects of migration, thanks to the power of coding agents, thanks to the rapid progress that's being made here. But we're very much looking at a world where the core continues to be very strong. And if anything, products like Snowflake Intelligence are demonstrating how much more value you can get from data. So that's a string that actually pulls the whole ecosystem forward."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Yes. That makes a lot of sense. I want all the investors in this room to really understand where you're taking the business, Sridhar. And I wanted to take a quote from the last earnings call in which you said Snowflake is an evolution from where companies govern and analyze their data, to a platform where they build AI native applications and workflows. \r\nGiven what you've released to market and the core business and what you've delivered over the last 18 to 24 months, what will it take for Snowflake to make good on this evolution?"
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "Yes. If you think about just data access and what it means for an enterprise to have its data estate in gear. It often means that you need to have a trusted set of data products within the company. But just as importantly, you also need to have it be secured. You need to make sure that it is auditable because for a lot of financial institutions, it's not just enough to say you're controlling who has the data, you also have to say who actually looked at the data.\r\nAnd having things like governed access, so that the right people can see the data is also incredibly important. This is what we've been working on for a very, very long time. This is the foundation of Snowflake. And because we have often been that analytic layer that supplies data for every important function, most of the interesting companies in the world, we're super well positioned to do this. \r\nAnd what things like Snowflake Intelligence, what AI then provides are the tools for you to take advantage of this data. It's still a read-only application. What we are beginning to see, and this is what Cortex Code demonstrated to us internally, because it's a desktop app, things like setting up MCP servers got a lot easier. We could set up MCP servers to Atlassian. We could set it up for other systems.\r\nAll of a sudden, what Brian and I got were a set of things you can call them an application if you want. There's incredibly fluid access to data, plus the ability to take actions in situ without needing to think about what you were doing. \r\nTo me, that's the future of how we are all going to act on data. That salesperson, not only are they going to know, hey, what do I switch to this customer the next time I talk to them, if they actually win that use case, they're going to be able to update that use case right within a product like a Snowflake Intelligence. And I think that's where applications are going to be headed, where the -- both the access and the update is pretty much seamless."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "If you look at the ecosystem and think about some of your classic competitors as well as some of the AI natives that you squint, they seem to be pursuing a similar vision in terms of becoming agentic app platform. So what gives Snowflake the right to win to become the destination for the next wave of modern AI applications?"
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "This is a great question. And already talked about some of the strong benefits that we have around data, around governance that sets us up very nicely. A lot of it is going to come down to how you execute. And this is where products like Cortex Code become really important. \r\nOur original intention with it was to have an agentic coding platform that would make Snowflake a lot easier, a lot faster to use. Snowflake Intelligence, when you have an end product like I have on my phone is a great product. But to set it up, took months, the first time we did it in the summer of last year. \r\nWe said we need to be using AI to make things like that go much faster. It's an example of a coding problem. So we were able to create a product that started delivering 10x improvements in how you could deploy things on top of Snowflake. It greatly eased the burden, for example, of setting up an agent because not only could you set up the first version, which you could run an e-mail on, is this actually doing it right? Or if you got a problem, someone didn't like an answer, you're able to go change it. And that's been a huge unlock for us.\r\nAnd Cortex Code also pretty much made the entirety of the Snowflake team aware of the power of AI and what it can do on top of governed data. So much so that it's gone from being a coding agent that writes SQL or Python or other things to being much more of an abstraction agent. \r\nWe are rethinking a lot of our workflows in terms of acting on these governed data sets to get us the data that we want and to be able to make the updates that we want. And it's an experience deeply born out of what we ourselves have gone through. And that's the thing that we are turning around and bringing to our customers. \r\nWe don't have -- outside of the fact that we run the best analytics data system on the planet, we have to earn our right to be that layer that comes from creating great products. \r\nNo one has anything guaranteed in a world like the one that we live in today, where there's so much change happening. We have to help create that history. And it comes down to can you create great products that your users love."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "That's a great perspective, and I want to continue to dive in, in terms of the Cortex code unlock. Before we get there, let's bring Brian in the conversation and do a pulse check on where we are in terms of the business. So if I look back to Q4 results, the takeaway from my point of view is that business is in a healthy place. Product revenue growth improved to 30%. Your RPO accelerated. You signed your largest deal ever, signed another 7, 9-figure deals. \r\nSo Brian, what were the factors at play allowing the company to land 7, 9-figure deals in the quarter? And how many of these deals are already baked into the consumption run rate?"
+    },
+    {
+      "speaker": "Brian Robins",
+      "role": "Executives",
+      "text": "Yes. Thanks. I think it's important to note, we did reaccelerate revenue in fourth quarter. We had $9.8 billion RPO balance grew 42% year-over-year. And really, the deals that we talked about, we signed one deal over $400 million, and then we had 7 deals, 9 figures. And first and foremost, thanks to the sales team to sign a $400 million deal in today's economic climate is very difficult. But what that really told us was these companies are actually betting on Snowflake's data and AI strategy and the benefit that they're currently getting today with Snowflake. \r\nAnd so our sales team was in there showing all kinds of different use cases. And so these were all existing customers, and so they're already consuming with us today. And this is an expansion of what they're doing with us. And so I think the real testament is betting on our data strategy, our AI strategy and the positive business outcomes that they're generating."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "The large customers betting bigger on Snowflake. It's great to see. The other element -- another theme coming out of Q4 is that free cash flow margins did come down to 23% adjusted free cash flow margins versus the 25% that you delivered in fiscal year '26. So outside of the Observe acquisition, which was about 150 basis points headwind, what other factors should investors think about to understand the free cash flow margin trajectory?"
+    },
+    {
+      "speaker": "Brian Robins",
+      "role": "Executives",
+      "text": "Yes, absolutely. So in FY '26, we guided 25% free cash flow margin. In FY '27, we guided 23%. We made an acquisition of Observe. We think the observability market is just another data problem that we can help solve. And so there's about 150 basis points headwind related to that acquisition. And so in coming up with the guidance, we want to give a number that we felt comfortable with and that we could overachieve."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Great. Let's return back to the Cortex Code conversation. I know we've talked about it a lot, but if we just sort of step back, when the announcement came on the general availability of Cortex Code, I think many were confused as to why Snowflake was getting the [ coding ] market, I have to raise my hand, including myself. \r\nI think I start to get it out coming out of Q4 results. But can you shed light on why Snowflake built its own coding agent? And can you hit on the major ways that Cortex Code, combined with Intelligence can unlock growth and productivity across the business?"
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "Yes. Coding agents are increasingly critical to every system. As I said, one of the things that Snowflake has always struggled with is how do you make projects go faster. And I've experienced this myself. I tinker with our product all the time, setting up an SI agent used to be hard. \r\nAnd I also saw that it took my own data team 2-plus months to set up a sales agent. It was born out of the conviction that a coding agent that was native to Snowflake that understood all of the nuances of Snowflake. Different deployments, for example, are different. And a business-critical edition of Snowflake has different features from a regular enterprise edition. And not every feature is available in every geography. \r\nSo you can't have a generic coding agent that's going to know all of this stuff. And we also felt that being the place where all of the builders that wanted to build on Snowflake gathered to do stuff was strategically important for the company. And that was the original thesis for Cortex Code. \r\nAnd it more than exceeded our expectations in terms of the results that it delivered in everything from what does it take to set up an open flow pipeline. It is a [ normal ] thing trying to move data from one place to another. That's incredibly easy out of the box or to be able to do the myriad governance activities that your admins have to do, but are still very tedious to do and things like Snowflake Intelligence. All of that got faster. \r\nWith the net result that, for example, all of my field team can create custom POCs for practically any customer, speed up implementations of every project. By the way, they had access to other things like Cursor and Claude Code, but this was so native to Snowflake that they got value out of it. And it also had a funny other side effect that really illustrates the power of data. \r\nWe made Coco as we call it, available to everybody in the sales team. It set off this explosion of creativity within the company that honestly, we had not anticipated. People that I would normally not think of as coders, like sales execs, they started writing applications. It opened the possibility of like how much could be done if you democratize access to it. \r\nAnd then another funny thing happened. It turns out that coding agents are also abstraction agents. We increasingly saw people write skills that started automating complicated problems. Somebody came up with their own template for how they wanted to get ready for a forecast call. Someone else came up with a different template for the exact information that they wanted to have for a customer that's visiting Snowflake. \r\nAnd so because we made things so easy, it was like this explosion of capabilities that became available to everyone in the company. And it really gave us a new perspective of what is work going to look like. in this future. \r\nBrian cannot only just look at a piece of data, he can e-mail a set of folks within the company, all within the same interface. And if I have a question, I don't need to go to an analyst. I can set up a crown job to take your pick, tell me what launches are coming up next week. It's 10 minutes of work. \r\nSo we think having a powerful coding agent on top of structured data, on top of well-organized data is a massive unlock for every enterprise. We are living it, but it also gives us a glimpse into the future of where is work itself going. And I think these are all profound experiences, not for one person, not for me, for the entirety of 6,000, 7,000 people to go through, it's given us the kind of purpose that I think is very hard to achieve just by just using slogan. Easy for me to say AI, AI, AI. But unless you have lived it, you can actually feel it. \r\nAnd the other thing finally that it's done is it's letting us imagine, reimagine whole categories of jobs. Tech writing as we knew it, is not really a thing of the past. We now need people that know the product and can also produce the documentation. We no longer now think of enablement as people making slides. We think of that as a transformation from what a product manager creates to what a sales executive would like to see. \r\nWe have people that are creating PowerPoint decks straight from information that's in Snowflake, so that they can get ready for a customer presentation. None of these are things that I would have predicted. And trust me, I would not have given Claude Code license to my sales team. That's just not something that you do in the regular course of business. And that's the power of actually investing in the tech and living and breathing the stuff that you talk about. \r\nNow when I go to our customers and talk about what Coco, Cortex Code can do for them, both I and the thousands of people within Snowflake can speak from the lived experience of what AI actually does to work. It's been transformative for us. That's also what gives me confidence about how can Snowflake actually take the jump from being this analytic layer to one that feels increasingly confident that it can create new kinds of experiences. \r\nI don't even want to call them applications. They are something else that is going to be all about fluid access to data, fluid access to actions you can take all of the 40 tabs that all of you are 400, depending on who you are, that you struggle with kind of melding into one fluid hole where you get what you want and you get to do what you want."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "I told your CTO, Christian, after last earnings call that in another lifetime, I used to build data pipeline. It was a miserable experience, so miserable that it maybe become a sell-side analyst on Wall Street. But now it seems like it might be the job to have. And so..."
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "I saw one dude on Reddit, who basically said he connected Coco to his data pipeline, his data source, his destination tables and how it found a bug that had been sitting in the system for a year that he had not even realized existed."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Yes. So let's talk about how Cortex Code from a monetization perspective, how is that priced? Is that going to be a stand-alone opportunity? Is it more of a halo effect on the broader business?"
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "So it comes as -- it's not a separate product. So it is something that you can attach to a Snowflake account. And it just -- you just draw down from the consumption that you have. My primary goal with Coco was to drive Snowflake adoption. Everything that you want to do with Snowflake should get a whole lot easier, a whole lot faster. That will continue to be the top goal for us with the product because it has such a large impact on the business. \r\nBut here's the thing. It now gives us access to how people are using Snowflake and the collective knowledge within an enterprise. This is what both SI and Coco. It gives us a glimpse into what they are doing, which means that all of the things that we can do to make this product better flows back into the product. \r\nIncreasingly, in a world -- we live in a world where, let's face it, the foundation models are getting better at generating software by the day. It's not an unreasonable paranoia for all software people, definitely me to think that software is going the way of media, which is the cost of making software is going down to 0. And so what is the special value add that you have? It's your knowledge of the customers' data. It's your ability to take that knowledge and put it into the tools that you give them. That is your own special secret sauce. \r\nIt's basically the equivalent of what made, let's say, search ads a great product because it's a feedback loop, we always showed the ads that users wanted to see because we were the only ones that saw what users wanted to see and what they wanted to click on. That's the kind of feedback effect that I think is going to be essential for companies to survive in this world where software costs are going to 0. So it is a much more profound influence than we built a school coding agent on the site that's going to help someone do their jobs a little bit faster."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Yes. That's great insight. Sridhar, when I talk to investors about the growth opportunity for Snowflake, I don't -- the conversation is really around like a siloed manner of what's the growth opportunity in data warehousing, data engineering, application services, what's going on with the AI portfolio. In reality, these opportunity sets are probably interlinked."
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "They all -- it's a single string that you pull on because data in Snowflake is data that we can help you get in great shape for AI, data that we can help you govern very easily. It's the thing that we can then make you easily develop agents on top of and agents in turn, give you a lot more insight into what's going on within your enterprise. And will absolutely soon turn into what you would previously think of as applications. I think of that as a continuum.\r\nAnd I think of Snowflake Intelligence on top as going to the business user, while Cortex code at the bottom, delivering the programming capabilities needed to make this platform smoother, but there's absolutely a convergence between where these products are headed. Snowflake Intelligence is just Cortex Code at a slightly higher level of abstraction. Brian doesn't want to see the SQL query or the Python code. He wants to understand and actually act on the data, and that's where those 2 converge."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Understood. And maybe if we just go back to the point, you hit on it earlier, but just to pinpoint it about why Cortex code is the right mousetrap to unlock all this value with the Adobe platform as opposed to a third-party agent, whether it's from the model providers. It's a question that we get since earnings. I'd just love for you to pinpoint that."
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "I mean, first of all, I said we are living in a world where the cost of software is going to 0. And we'll be the person that thinks that someone else's front end should be the one that's touching accessing all of their data, all of their interfaces and somehow that they're safe. \r\nI grew up at Google. Our first rule for competing was on the front door. Otherwise, you're toast. I think the same applies in enterprise software as well. Anyone that thinks that they're going to run a successful business with the monstrous capabilities of coding agents, okay, swarming all over them, I think it's smoking the good stuff. \r\nI actually think of this as an existential investment that we had to make. By the way, we didn't bet the company on it. That's the magic of today. My Coco developers, developed with coco. That's like the magic of today where most -- I can develop features on top of Coco using Coco. That's the insanity of the world that we live in, in terms of how powerful these agents are. \r\nI think vacating something like this is foolish. Do I think that we're going to keep up in a fair fight with OpenAI or Anthropic and be somehow a general coding agent for everyone? I don't pretend that at all. But on the other hand, simply vacating this space seems like a really dumb move to me. I am glad we invested early. \r\nOnce there is a certain amount of momentum behind the market leader, it becomes even more difficult to catch up in any way, shape or form. I think of this as a critical investment. But as I said, if I just take the value of what this product has done to teach the entirety of my team about AI, and what good data means to them. Like just that would have paid for the small number of engineers that worked on the product. We got so much more."
+    },
+    {
+      "speaker": "Brian Robins",
+      "role": "Executives",
+      "text": "I'll also add that we're aligned with our customers, right, because it's a consumption-based product. And so you can use it if you get value out of it, continue to use it. And so not only are we taking it from the data science and the data engineer, this is more personas. So everybody in the company can basically talk to their data in natural language.\r\nWhy we have a right to win is because Snowflake is the data layer. And then we actually have the security, the governance, audibility, the -- all that built in, the role-based access. And so for me, when I access the data, I get all the data of the company, if it's a financial analyst or a sales rep, they're just getting that portion of data within the company. So I think those things are important for adoption and our alignment with our customers being purely consumption is, I think, the right way to go."
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "That's a huge point, which is that AI on Snowflake, the products that we sell are all consumption products. I don't go to our customers and say, you need to cough up XYZ million to get our AI bundle. Everything comes with it. \r\nWe make money if they get value from the product. In fact, we are adding other features like per user cap because they want predictability of how much AI products are going to cost, which we are very, very happy to add. \r\nI think this -- starting from 0, positions us very, very differently from subscription companies that basically have to create a package and sell the package. I think it's very hard at this point in time to convince customers that they have to make big outlays for a package. \r\nIn a world where software cost is going to nothing, models are getting better and better. I think people are much more comfortable making a bet on a data platform that also is absolutely keeping up with what's going on in AI. And that's the reason why you see the many 9-figure contracts that Snowflake has."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Yes, it's pretty exciting. Brian, one of the interesting things coming out of Q4 is that as revenue growth improved in the quarter, there was no real increase in headcount. And that's why I think headcount came down by a little bit. So if you play this forward, how confident are you that Snowflake's ability to grow is now decoupled from the growth in headcount?"
+    },
+    {
+      "speaker": "Brian Robins",
+      "role": "Executives",
+      "text": "It's super interesting. Historically, like with capacity curves and things you look at within the business, like people times productivity equaled revenue growth, but those have completely become decoupled now in what we're doing. So fourth quarter, reaccelerated revenue 30%. We actually did a reduction for some fourth quarter, about 200 people related to some of the efficiencies in the G&A groups coming out of our AI tools. So we only added a net 37 people in the entire quarter."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "If we sort of look at it on the other side of the coin, while the growth improved, you had a headcount reduction, margins were higher, operating margins were higher. When we look to fiscal year '27, you guided down product margin by a touch. And so is the takeaway here that AI revenue streams are structurally lower margin as those revenue streams scale to protect EBIT, you'll be forced to do things like ongoing headcount reductions."
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "I'll just add one thing. First of all, it separates the 2. I think, again, what AI Coco have shown is as I said, it's a deconstructed work. All of us are in the business of figuring out how we can work differently and way more efficiently. My data team is the one that produces all of the products that we all use is genuinely worried that they will run out of like the entirety of their road map in the next couple of months. \r\nWe're busy figuring out, okay, what is that road map? What should that look like? What are new products that we could be creating? I think this investment in AI is not just an abstract investment to create future business. I think it's also a mirror into what could work be. And again, I think that's a pretty profound impact."
+    },
+    {
+      "speaker": "Brian Robins",
+      "role": "Executives",
+      "text": "Yes. So to add on just a couple of things. In FY '26, we guided 75% product gross margin. We guided that in FY '27 as well. In order to launch AI products from infancy, they don't have the same gross margin as the core business does. And so the #1 thing we want to do is make great products, make them easy to use, get adoption so we get revenue, then we'll work on the gross margin perspective. \r\nWhat we have done, though, within the core, we're constantly looking for areas where we can save and get more efficient. So we're offsetting some of the AI dilution that we have with some of these new products in the core business. And so for the year, we gave 75% product gross margin guidance."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "That's great context. In the area of public cloud, there was like, I would argue, a healthy coopetition dynamic between the hyperscalers and the third-party software ecosystem with the major hyperscalers. When I think about the $200 million deal that you've done with both OpenAI and Anthropic.\r\nSridhar, as you think about how Snowflake wants to navigate its relationship with the leading model providers who at some point may want to try and compete with Snowflake, would that strategy be similar to how Snowflake partnered with the hyperscalers? Like what's going to be the difference in this era versus working with the hyperscalers?"
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "I think it's going to be very similar. I think part of the maturity that both the hyperscalers and we had to arrive at was understanding that we're going to compete in some situations, but that the value that we create together in many other situations was going to be hugely accretive to both the parties that are involved. \r\nI think it's the same with the model provider. They have different strengths. They have different presence when it comes to things like cloud. And we are very happy to be partnering with them. They will continue to mature and grow."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Awesome. Let's talk about maybe the state of play with the big 3 hyperscalers. So historically, Snowflake has partnered very effectively with AWS. In more recent years, I think Azure has also been on the upswing. And when we think about maybe with Google Cloud and the momentum it has with Gemini, that's always been a knife fight in my opinion, between Snowflake and Google. Do you see an opportunity to partner more effectively with Google and that becomes an emerging channel for the business?"
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "Yes. I think GCP kind of anchored on BigQuery, which made the prospect of collaborating with Snowflake a tough one for them. And with the rise of Gemini, which is world-class and their increasing confidence with what -- who they are as a company on the cloud side, we have already seen better collaboration between the teams, and I absolutely expect this to be an area that gets better and better with time. Because they have differentiated value, and it's no longer about GCP or BigQuery. There are many situations in which Snowflake plus GCP as a whole is hugely positive for the customer, and we both lean into it."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Could you maybe comment on the state relationship with Azure in particular and how that's going in terms of you guys working more."
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "Yes. We have a really good relationship with the Microsoft team as a whole, Azure and Fabric as well. We collaborate very, very tightly with the Fabric team. You can create Iceberg tables, for example, in Snowflake and have it be stored in OneLake in Fabric. \r\nYou can also read OneLake tables straight from within Snowflake. We have a lot of excellent product collaborations. Snowflake Intelligence Agents can be exposed via Microsoft Teams. So it's a very healthy multilevel collaboration between the teams. And I think this has really improved over the past 18 months. And so folks like Arun and Scott and Satya have all contributed to it, and we are all very, very grateful for that."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Yes. I think a couple of quarters ago, they talked about their Snowflake business on Azure accelerating. So that's great to see. I wanted to hit a couple of topics with Brian, but I do want to go to the audience to see if you had any questions for the management team. If you just raise your hand, a microphone should get to you."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Great. Just going back to this concept of owning the front door. So my understanding is your frontier models are going to be equivalent because you're just powering Cortex AI with the leading Anthropic and OpenAI models. But how do you get the distribution beyond the current sort of users of Snowflake to get that broad enterprise footprint when you're saying what OpenAI and Anthropic are trying to get these sort of like enterprise-wide deployments?"
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "I think both with Snowflake Intelligence and with Cortex Code, the initial thrust very much is the Snowflake user base. It's really important for all companies to know which side the cart is and which side the horse is. Snowflake -- and so we are pretty careful about how we position ourselves. \r\nWe're not going to have Cortex Code go up against broad use that a Claude Code or, let's say, a Cortex can provide. But on the other hand, there are teams that are dedicated to Snowflake that spend a lot of their time in Snowflake and making them a whole lot more efficient with Snowflake is very helpful for them. And we will expand -- I mean, like, look, at the end of the day, Cortex Code is powered by the frontier models, and there are many things about it that work out of the box because of that power. \r\nI've had people tell me that it's perfectly good at editing PowerPoint files. And my team uses them for editing Kubernetes configurations. We're using them a lot in situations that are very different from the original goals that we had envisioned.\r\nOn the other hand, I'm not pretending that I'm competing to be the enterprise-wide coding agent. That's just not true. But being that effective coding agent, for example, for all data is actually a pretty good place to be for a company like Snowflake, and it plays to our strength."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Great. So maybe I want to wrap up the conversation around the team's perspective on capital allocation. Unfortunately, it's been a tough year in terms of share prices for software companies in 2026, including with Snowflake. And so a couple of questions for you, Brian. \r\nGiven the market, do you anticipate having to issue more stock-based comp to retain employees? As a follow-up, what is the team's message with respect to share repurchases, the level of share dilution investors should expect on an annual basis? And how much of a priority is it getting to meaningful GAAP profitability?"
+    },
+    {
+      "speaker": "Brian Robins",
+      "role": "Executives",
+      "text": "Yes, absolutely. One of the things that's really important to the company is GAAP profitability. And so when Sridhar took over as CEO, he put a plan in place to actually help achieve that. And so 2 years ago, our SBC was 41% of revenue. This past year, FY '26 is 34%. And then we said on the call that we're targeting 27% this year. \r\nSo we actually have a plan to actually get to GAAP profitability, primarily through SBC. That's really the only differentiation. As you know, we generate a lot of free cash flow. We did 25.5% this past year. We guided to 23% this year. And so happy with what we're doing there and how we're moving forward. \r\nFrom a capital allocation perspective, we do have a share buyback authorization. We have $1.1 billion remaining on the buyback. We historically have bought in the open market in previous quarters. And then we also do some small acquisitions, typically tuck-ins, more acquires -- we did a larger one this past quarter with the Observe acquisition."
+    },
+    {
+      "speaker": "Sanjit Singh",
+      "role": "Analysts",
+      "text": "Awesome. Well, that went fast. But thank you so much, Brian and Sridhar, for giving us an update on the Snowflake business, where you're taking the business going forward, and it seems like there's exciting things ahead. So thank you very much."
+    },
+    {
+      "speaker": "Brian Robins",
+      "role": "Executives",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "Sridhar Ramaswamy",
+      "role": "Executives",
+      "text": "Thank you."
+    }
+  ],
+  "word_count": 6175
+}

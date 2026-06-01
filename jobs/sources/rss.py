@@ -17,14 +17,14 @@ log = logging.getLogger(__name__)
 # (name, url, source_type) — keep this list editable; broken feeds are tolerated.
 FEEDS: list[tuple[str, str, str]] = [
     ("TrendForce", "https://www.trendforce.com/news/feed/", "industry"),
-    ("Reuters Tech", "https://news.google.com/rss/search?q=site:reuters.com+(semiconductor+OR+HBM+OR+AI+chip)&hl=en-US&gl=US&ceid=US:en", "news"),
+    ("Nikkei Asia", "https://news.google.com/rss/search?q=site:asia.nikkei.com+(semiconductor+OR+HBM+OR+CoWoS+OR+TSMC+OR+Samsung+OR+%22SK+Hynix%22+OR+Micron+OR+%22data+center%22)&hl=en-US&gl=US&ceid=US:en", "news"),
     ("DigiTimes", "https://news.google.com/rss/search?q=site:digitimes.com+(semiconductor+OR+TSMC+OR+CoWoS)&hl=en-US&gl=US&ceid=US:en", "industry"),
     ("ServeTheHome", "https://www.servethehome.com/feed/", "news"),
-    ("The Register", "https://www.theregister.com/data_centre/headlines.atom", "news"),
+    ("The Next Platform", "https://www.nextplatform.com/feed/", "analyst"),
     ("SemiAnalysis", "https://semianalysis.com/feed/", "analyst"),
-    ("Mule Capital", "https://mulecap.substack.com/feed", "analyst"),
+    ("Utility Dive", "https://www.utilitydive.com/feeds/news/", "industry"),
+    ("SemiWiki", "https://semiwiki.com/feed/", "analyst"),
     ("Stratechery", "https://stratechery.com/feed/", "analyst"),
-    ("AnandTech (Wayback)", "https://www.anandtech.com/rss/", "news"),
 ]
 
 

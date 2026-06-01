@@ -241,7 +241,7 @@ def _components_valuation(
     if chg_1y is None:
         # Approximate: derive from history if change_1y missing
         h = px.get("history") or []
-        if len(h) >= 252 and h[0].get("close") and h[-1].get("close"):
+        if len(h) >= 240 and h[0].get("close") and h[-1].get("close"):
             chg_1y = (h[-1]["close"] - h[0]["close"]) / h[0]["close"] * 100.0
     chg_peers = layer_values.get("change_1y", [])
     if chg_1y is not None and chg_peers:
@@ -286,7 +286,7 @@ def _layer_values_for_layer(
         chg = px.get("change_1y")
         if chg is None:
             h = px.get("history") or []
-            if len(h) >= 252 and h[0].get("close") and h[-1].get("close"):
+            if len(h) >= 240 and h[0].get("close") and h[-1].get("close"):
                 chg = (h[-1]["close"] - h[0]["close"]) / h[0]["close"] * 100.0
         if chg is not None:
             out["change_1y"].append(chg)
@@ -511,7 +511,8 @@ def write_outputs(
         override = layer.get("status_override")
         layer = dict(layer)
         layer["status_auto"] = auto
-        # status (rendered) = override if set, else auto
-        layer["status"] = override or auto or layer.get("status") or "fair"
+        # Rendered status is data-driven: status_override (rarely set) wins,
+        # otherwise the auto rollup, otherwise neutral. No editorial fallback.
+        layer["status"] = override or auto or "fair"
         new_layers.append(layer)
     write_json(layers_path, new_layers)

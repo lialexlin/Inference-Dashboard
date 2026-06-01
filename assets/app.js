@@ -9,7 +9,7 @@ window.loadJson = async function (path) {
 };
 
 window.loadAll = async function () {
-  const [layers, players, prices, fundamentals, signals, meta, multiplesHistory, manualEstimates, crossQuarter, bottleneck, demandSignals, exitTriggers] = await Promise.all([
+  const [layers, players, prices, fundamentals, signals, meta, multiplesHistory, manualEstimates, crossQuarter, bottleneck, demandSignals, exitTriggers, narrativeTracking] = await Promise.all([
     loadJson("data/layers.json"),
     loadJson("data/players.json"),
     loadJson("data/prices.json").catch(() => ({})),
@@ -22,6 +22,7 @@ window.loadAll = async function () {
     loadJson("data/bottleneck.json").catch(() => ({})),
     loadJson("data/demand_signals.json").catch(() => ({})),
     loadJson("data/exit_triggers.json").catch(() => ({})),
+    loadJson("data/narrative_tracking.json").catch(() => ({ by_ticker: {} })),
   ]);
   Object.assign(window.DATA, {
     layers, players, prices, fundamentals, signals, meta,
@@ -31,6 +32,7 @@ window.loadAll = async function () {
     bottleneck,
     demand_signals: demandSignals,
     exit_triggers: exitTriggers,
+    narrative_tracking: narrativeTracking,
   });
   return window.DATA;
 };

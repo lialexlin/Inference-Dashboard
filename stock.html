@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
-  <link rel="stylesheet" href="assets/styles.css?v=2">
+  <link rel="stylesheet" href="assets/styles.css?v=3">
 </head>
 <body class="min-h-screen">
   <div id="header"></div>
@@ -16,8 +16,8 @@
     <div id="content"></div>
   </main>
 
-  <script src="assets/app.js?v=2"></script>
-  <script src="assets/components.js?v=2"></script>
+  <script src="assets/app.js?v=3"></script>
+  <script src="assets/components.js?v=3"></script>
   <script>
     (async () => {
       await loadAll();
@@ -176,6 +176,9 @@
       const cq = (DATA.cross_quarter || {})[ticker];
       const cqHtml = renderCrossQuarter(ticker, cq);
 
+      // ---------- Management narrative drift (per-call theme tone) ----------
+      const narrativeHtml = renderNarrativeDrift(ticker);
+
       // ---------- Signals ----------
       const signalsHtml = tickerSignals.length
         ? `<section class="grid gap-3">${tickerSignals.map(renderSignalCard).join("")}</section>`
@@ -193,6 +196,9 @@
 
         <div class="section-divider">Cross-quarter shifts</div>
         <section>${cqHtml}</section>
+
+        <div class="section-divider">Management narrative drift</div>
+        <section>${narrativeHtml}</section>
 
         <div class="section-divider">What's priced in</div>
         <section>${renderImpliedCAGRCard(ticker, f)}</section>

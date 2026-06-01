@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TW Movers · Inference Stack</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css?v=3">
+  <style>
+    /* Heat-map cell */
+    .heatcell {
+      display: flex; flex-direction: column; align-items: flex-start; justify-content: center;
+      padding: 0.6rem 0.9rem; border-radius: 8px; cursor: pointer;
+      border: 1px solid transparent;
+      transition: border-color 0.15s, transform 0.1s;
+      min-width: 0;
+    }
+    .heatcell:hover { border-color: rgba(255,255,255,0.12); transform: translateY(-1px); }
+    .heatcell.selected { border-color: rgba(255,255,255,0.3) !important; box-shadow: 0 0 0 1px rgba(255,255,255,0.15); }
+    .heatcell .hc-pct { font-size: 1.05rem; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1; }
+    .heatcell .hc-name { font-size: 0.72rem; color: rgba(255,255,255,0.65); margin-top: 0.2rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+    .heatcell .hc-n { font-size: 0.65rem; color: rgba(255,255,255,0.4); margin-top: 0.1rem; }
+    /* Period toggle pill */
+    .period-btn { padding: 0.3rem 0.7rem; border-radius: 6px; border: 1px solid var(--border-soft); background: transparent; color: var(--text-dim); font-size: 0.8rem; cursor: pointer; transition: all 0.12s; }
+    .period-btn:hover { border-color: var(--border); color: var(--text); background: var(--bg-elev); }
+    .period-btn.active { color: var(--text); background: var(--bg-elev); border-color: var(--border); }
+    /* Exchange chip */
+    .ex-chip { display: inline-block; padding: 0.1rem 0.45rem; border-radius: 4px; font-size: 0.65rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; font-variant-numeric: tabular-nums; }
+    .ex-chip--twse { background: rgba(56,189,248,0.12); color: var(--sky); border: 1px solid rgba(56,189,248,0.2); }
+    .ex-chip--tpex { background: rgba(167,139,250,0.12); color: var(--violet); border: 1px solid rgba(167,139,250,0.2); }
+    /* Industry chip */
+    .ind-chip { display: inline-block; padding: 0.1rem 0.45rem; border-radius: 4px; font-size: 0.65rem; background: var(--bg-elev); color: var(--text-dim); border: 1px solid var(--border-soft); white-space: nowrap; }
+    /* Tracked badge */
+    .tracked-badge { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.65rem; font-weight: 600; background: rgba(52,211,153,0.1); color: var(--green); border: 1px solid rgba(52,211,153,0.2); white-space: nowrap; text-decoration: none; }
+    .tracked-badge:hover { background: rgba(52,211,153,0.18); }
+    /* Return cell color classes */
+    .ret-strong-up { color: #34d399; }
+    .ret-up        { color: #6ee7b7; }
+    .ret-flat      { color: var(--text-faint); }
+    .ret-dn        { color: #fda4af; }
+    .ret-strong-dn { color: var(--rose); }
+    /* Thesis callout */
+    .thesis-box { background: var(--bg-card); border: 1px solid var(--border-soft); border-radius: 10px; padding: 1.25rem 1.5rem; }
+    /* table sticky rank col */
+    td.rank-cell, th.rank-cell { width: 2.5rem; color: var(--text-faint); font-variant-numeric: tabular-nums; font-size: 0.75rem; text-align: right; padding-right: 0.5rem; }
+    /* highlight the active period column */
+    th.period-active, td.period-active { background: rgba(255,255,255,0.025); }
+    /* show-all toggle */
+    #show-all-btn { cursor: pointer; }
+    /* ===== Value-chain panel ===== */
+    .vc-wrap { background: var(--bg-card); border: 1px solid var(--border-soft); border-radius: 12px; padding: 1.25rem 1.4rem; }
+    .vc-relevance { background: var(--bg-elev); border: 1px solid var(--border-soft); border-left: 3px solid var(--sky); border-radius: 8px; padding: 0.6rem 0.85rem; }
+    .vc-stage { position: relative; padding: 0.8rem 1rem 0.8rem 1.1rem; border-radius: 10px; background: var(--bg-elev); border: 1px solid var(--border-soft); }
+    .vc-rail { position: absolute; left: 0; top: 0; bottom: 0; width: 3px; border-radius: 3px 0 0 3px; }
+    .vc-pos { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; }
+    .vc-arrow { display: flex; align-items: center; justify-content: center; color: var(--text-faint); font-size: 0.95rem; line-height: 1; margin: 0.1rem 0; }
+    .vc-chip { display: inline-flex; align-items: center; gap: 0.32rem; padding: 0.2rem 0.5rem; border-radius: 6px; font-size: 0.72rem; border: 1px solid var(--border-soft); background: var(--bg-card); text-decoration: none; white-space: nowrap; transition: border-color 0.12s; }
+    .vc-chip .vc-code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; color: var(--text); }
+    .vc-chip .vc-name { color: var(--text-dim); }
+    .vc-chip--tw:hover { border-color: var(--sky); }
+    .vc-chip--tracked { border-color: rgba(52,211,153,0.45); background: rgba(52,211,153,0.06); }
+    .vc-chip--foreign { opacity: 0.9; }
+    .vc-chip--foreign .vc-name { color: var(--text); }
+    .vc-chip .vc-region { font-size: 0.58rem; color: var(--text-faint); border: 1px solid var(--border-soft); border-radius: 3px; padding: 0 0.22rem; letter-spacing: 0.03em; }
+    .vc-chip .vc-track { color: var(--green); font-size: 0.7rem; }
+    .vc-chip .vc-ret { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.68rem; }
+  </style>
+</head>
+<body class="min-h-screen">
+  <div id="header"></div>
+
+  <main class="max-w-7xl mx-auto px-6 py-10">
+
+    <!-- Page header -->
+    <header class="mb-8 max-w-3xl">
+      <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">TW Movers</div>
+      <h1 class="font-display text-4xl text-white leading-tight">Taiwan listed universe — wave-1 momentum radar</h1>
+      <p class="mt-2 text-[color:var(--text-dim)]">
+        Spot which sectors have already re-rated (wave 1) so you can hunt lagging feeder sectors for wave-2 opportunities.
+        <span id="as-of-note" class="ml-1 text-[color:var(--text-faint)] tabular-nums"></span>
+      </p>
+      <p class="mt-1 text-xs text-[color:var(--text-faint)]">Raw closes — <strong class="text-[color:var(--text-dim)]">not adjusted for dividends, splits, or capital reductions (減資)</strong>. Treat extreme single-name moves as leads to verify, not signal; the sector wave-map uses medians and is robust to outliers.</p>
+    </header>
+
+    <!-- Controls bar -->
+    <section class="mb-6 flex flex-wrap items-center gap-3">
+      <!-- Period toggle -->
+      <div class="flex items-center gap-1.5 flex-wrap">
+        <span class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mr-1">Period</span>
+        <button class="period-btn" data-period="ret_1w">1W</button>
+        <button class="period-btn" data-period="ret_1m">1M</button>
+        <button class="period-btn active" data-period="ret_3m">3M</button>
+        <button class="period-btn" data-period="ret_6m">6M</button>
+        <button class="period-btn" data-period="ret_ytd">YTD</button>
+        <button class="period-btn" data-period="ret_1y">1Y</button>
+      </div>
+      <div class="w-px h-5 bg-[color:var(--border)] mx-1 hidden sm:block"></div>
+      <!-- Exchange filter -->
+      <div class="flex items-center gap-1.5 flex-wrap">
+        <span class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mr-1">Exch</span>
+        <button class="btn-ghost active" data-exch="all">All</button>
+        <button class="btn-ghost" data-exch="TWSE">TWSE 上市</button>
+        <button class="btn-ghost" data-exch="TPEx">TPEx 上櫃</button>
+      </div>
+      <div class="w-px h-5 bg-[color:var(--border)] mx-1 hidden sm:block"></div>
+      <!-- Sector dropdown -->
+      <div class="flex items-center gap-2">
+        <span class="text-xs uppercase tracking-widest text-[color:var(--text-faint)]">Sector</span>
+        <select id="sector-select" style="background:var(--bg-elev);border:1px solid var(--border-soft);color:var(--text-dim);font-size:0.8rem;padding:0.35rem 0.6rem;border-radius:6px;cursor:pointer;">
+          <option value="">All sectors</option>
+        </select>
+      </div>
+      <div class="w-px h-5 bg-[color:var(--border)] mx-1 hidden sm:block"></div>
+      <!-- Market-cap floor -->
+      <div class="flex items-center gap-2">
+        <span class="text-xs uppercase tracking-widest text-[color:var(--text-faint)]">Min cap</span>
+        <select id="mktcap-floor" style="background:var(--bg-elev);border:1px solid var(--border-soft);color:var(--text-dim);font-size:0.8rem;padding:0.35rem 0.6rem;border-radius:6px;cursor:pointer;">
+          <option value="0">No floor</option>
+          <option value="10000000000">≥ NT$10B</option>
+          <option value="30000000000" selected>≥ NT$30B (~US$1B)</option>
+          <option value="50000000000">≥ NT$50B</option>
+          <option value="100000000000">≥ NT$100B</option>
+        </select>
+      </div>
+      <!-- Search -->
+      <div class="ml-auto w-64">
+        <input class="search" id="search" placeholder="Code or name…">
+      </div>
+    </section>
+
+    <!-- Loading / error states -->
+    <div id="loading" class="py-20 text-center text-[color:var(--text-faint)]">Loading Taiwan universe…</div>
+    <div id="error" class="py-20 text-center text-[color:var(--rose)] hidden"></div>
+
+    <!-- Content (hidden until data loads) -->
+    <div id="content" class="hidden">
+
+      <!-- ===== SECTOR HEAT-MAP ===== -->
+      <section class="mb-10">
+        <div class="flex items-center justify-between mb-3">
+          <div>
+            <h2 class="text-sm font-semibold text-white uppercase tracking-widest">Wave map — sector median returns</h2>
+            <p class="text-xs text-[color:var(--text-faint)] mt-0.5">Green = already re-rated (wave 1). Flat/red = potential wave-2 laggard. Click a cell to filter the leaderboard.</p>
+          </div>
+          <button id="clear-sector-filter" class="btn-ghost text-xs hidden">Clear sector filter</button>
+        </div>
+        <div id="heatmap" class="grid gap-2" style="grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));"></div>
+      </section>
+
+      <!-- ===== VALUE CHAIN (shown when a mapped sub-industry is selected) ===== -->
+      <section id="vc-section" class="mb-10 hidden">
+        <div id="vc-content" class="vc-wrap"></div>
+      </section>
+
+      <!-- ===== LEADERBOARD ===== -->
+      <section>
+        <div class="flex items-center justify-between flex-wrap gap-3 mb-3">
+          <div>
+            <h2 class="text-sm font-semibold text-white uppercase tracking-widest">Leaderboard</h2>
+            <p class="text-xs text-[color:var(--text-faint)] mt-0.5">
+              <span id="showing-label"></span>
+              <span id="tracked-count-note" class="ml-2"></span>
+            </p>
+          </div>
+          <button id="show-all-btn" class="btn-ghost text-xs hidden">Show all</button>
+        </div>
+
+        <div id="table-wrap"></div>
+        <div id="empty" class="text-center text-[color:var(--text-faint)] py-16 hidden">No stocks match the current filters.</div>
+      </section>
+
+      <!-- ===== THESIS CALLOUT ===== -->
+      <section class="mt-12 mb-4">
+        <div class="thesis-box max-w-3xl">
+          <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">How to use this page</div>
+          <h3 class="text-white font-semibold mb-2">Wave 1 → Wave 2 rotation playbook</h3>
+          <p class="text-sm text-[color:var(--text-dim)] mb-3">
+            <strong class="text-white">Wave 1</strong> is driven by tech/demand alpha you can't catch early — the primary beneficiary (e.g., GPU makers) re-rates first as the market prices the demand shock.
+            <strong class="text-white">Wave 2</strong> is the lagging supply-chain re-rating: feeder sectors (substrates, test, packaging, optics) follow weeks or months later as consensus traces the value chain.
+          </p>
+          <p class="text-sm text-[color:var(--text-dim)] mb-3">
+            <strong class="text-white">How to read the wave map:</strong> sectors with large positive medians have already re-rated — that's wave-1 territory. Sectors that are flat or negative despite their customers ripping are the wave-2 hunting ground. Click a sector cell to drill into its constituents in the leaderboard, then click a code to open Yahoo Finance TW for rapid research.
+          </p>
+          <p class="text-sm text-[color:var(--text-dim)]">
+            <strong class="text-white">Tracked players</strong> (green badge) are the 66 dashboard stocks you already follow. They anchor your orientation — if TSMC is +30% (wave 1) but the substrate/packaging names in the leaderboard are still flat, that's the wave-2 signal. Use the sector filter to isolate the lagging feeder and size the opportunity.
+          </p>
+        </div>
+      </section>
+
+    </div><!-- /content -->
+
+  </main>
+
+  <script src="assets/app.js?v=3"></script>
+  <script src="assets/components.js?v=3"></script>
+  <script>
+  (async () => {
+    // ---- Load shared data (for nav refresh time + tracked player list) ----
+    await loadAll();
+    document.getElementById("header").innerHTML = shellHeader("tw-movers");
+
+    // Build tracked code set from players.json — strip .TW / .TWO suffix, keep bare numeric code.
+    const trackedTickers = new Map(); // bare numeric code -> full player ticker (preserves .TW vs .TWO)
+    (DATA.players || []).forEach((p) => {
+      const t = p.ticker || "";
+      if (t.endsWith(".TW") || t.endsWith(".TWO")) {
+        const code = t.replace(/\.(TW|TWO)$/, "");
+        trackedTickers.set(code, t);
+      }
+    });
+
+    // ---- Load tw_movers.json ----
+    let TW;
+    try {
+      TW = await loadJson("data/tw_movers.json");
+    } catch (e) {
+      document.getElementById("loading").classList.add("hidden");
+      const errEl = document.getElementById("error");
+      errEl.classList.remove("hidden");
+      errEl.textContent = "Could not load data/tw_movers.json — run the tw_universe refresh job first. (" + e.message + ")";
+      return;
+    }
+
+    // ---- Load value_chains.json (optional — graceful if absent) ----
+    let VC = {};
+    try {
+      const vcData = await loadJson("data/value_chains.json");
+      VC = vcData.chains || {};
+    } catch (e) { VC = {}; }
+
+    document.getElementById("loading").classList.add("hidden");
+    document.getElementById("content").classList.remove("hidden");
+
+    // ---- as_of note ----
+    if (TW.as_of) {
+      document.getElementById("as-of-note").textContent = "Data as of " + TW.as_of + " · " + (TW.count || (TW.stocks || []).length) + " stocks";
+    }
+
+    // ---- State ----
+    let activePeriod = "ret_3m";
+    let activeExch = "all";
+    let activeSector = ""; // industry_en value or "" for all
+    let mktcapFloor = 30e9; // NT$30B (~US$1B) default — investable-size gate
+    let searchQuery = "";
+    let sort = { key: "active_period", dir: "desc" };
+    let showAll = false;
+    const TOP_N = 100;
+
+    const PERIOD_LABELS = {
+      ret_1w: "1W", ret_1m: "1M", ret_3m: "3M",
+      ret_6m: "6M", ret_ytd: "YTD", ret_1y: "1Y"
+    };
+    const PERIOD_ORDER = ["ret_1w", "ret_1m", "ret_3m", "ret_6m", "ret_ytd", "ret_1y"];
+
+    // ---- Enrich stocks with tracked flag + the exact player ticker (preserves .TW vs .TWO) ----
+    const stocks = (TW.stocks || []).map((s) => ({
+      ...s,
+      tracked: trackedTickers.has(String(s.code)),
+      trackedTicker: trackedTickers.get(String(s.code)) || null,
+    }));
+
+    // Fast code → stock lookup for the value-chain panel (spans the whole universe,
+    // unaffected by the size floor — the chain is a fixed structural map).
+    const byCode = new Map(stocks.map((s) => [String(s.code), s]));
+
+    // Sector dropdown is (re)built from the floored set in populateSectorDropdown().
+    const sectorSelect = document.getElementById("sector-select");
+
+    // ---- Helpers ----
+    function escHtml(s) {
+      return String(s || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function fmtRet(v) {
+      if (v == null || isNaN(v)) return "—";
+      return (v > 0 ? "+" : "") + v.toFixed(1) + "%";
+    }
+
+    // Compact NT$ market cap: T(rillion) / B(illion) / M(illion).
+    function fmtMktcap(v) {
+      if (v == null || isNaN(v)) return "—";
+      if (v >= 1e12) return "NT$" + (v / 1e12).toFixed(v >= 1e13 ? 1 : 2) + "T";
+      if (v >= 1e9)  return "NT$" + (v / 1e9).toFixed(v >= 1e11 ? 0 : 1) + "B";
+      if (v >= 1e6)  return "NT$" + (v / 1e6).toFixed(0) + "M";
+      return "NT$" + Math.round(v).toLocaleString();
+    }
+
+    // Diverging color for return value — used in heat-map and table cells.
+    // Thresholds: ±5% mild, ±15% moderate, ±30% strong.
+    function retColor(v) {
+      if (v == null || isNaN(v)) return "var(--text-faint)";
+      if (v >= 30) return "#34d399";
+      if (v >= 15) return "#6ee7b7";
+      if (v >= 5)  return "#a7f3d0";
+      if (v > -5)  return "var(--text-faint)";
+      if (v > -15) return "#fda4af";
+      return "var(--rose)";
+    }
+
+    function retClass(v) {
+      if (v == null || isNaN(v)) return "ret-flat";
+      if (v >= 30) return "ret-strong-up";
+      if (v >= 5)  return "ret-up";
+      if (v > -5)  return "ret-flat";
+      if (v > -15) return "ret-dn";
+      return "ret-strong-dn";
+    }
+
+    // Heat-map background using the same diverging scale.
+    function heatBg(v) {
+      if (v == null || isNaN(v)) return "var(--bg-card)";
+      const abs = Math.abs(v);
+      const alpha = Math.min(abs / 40, 1) * 0.55 + 0.06;
+      if (v >= 0) return `rgba(52,211,153,${alpha.toFixed(2)})`;
+      return `rgba(251,113,133,${alpha.toFixed(2)})`;
+    }
+
+    function numCmp(a, b, dir) {
+      const aNull = a == null || (typeof a === "number" && isNaN(a));
+      const bNull = b == null || (typeof b === "number" && isNaN(b));
+      if (aNull && bNull) return 0;
+      if (aNull) return 1;
+      if (bNull) return -1;
+      return dir === "desc" ? b - a : a - b;
+    }
+
+    function strCmp(a, b, dir) {
+      a = (a || "").toLowerCase();
+      b = (b || "").toLowerCase();
+      if (a < b) return dir === "desc" ? 1 : -1;
+      if (a > b) return dir === "desc" ? -1 : 1;
+      return 0;
+    }
+
+    const SORT_DEFS = {
+      active_period: { type: "num", get: (s) => s[activePeriod] },
+      code:     { type: "str", get: (s) => s.code },
+      name:     { type: "str", get: (s) => s.name },
+      exchange:    { type: "str", get: (s) => s.exchange },
+      industry_en: { type: "str", get: (s) => s.industry_en },
+      close:    { type: "num", get: (s) => s.close },
+      mktcap:   { type: "num", get: (s) => s.mktcap },
+      ret_1w:   { type: "num", get: (s) => s.ret_1w },
+      ret_1m:   { type: "num", get: (s) => s.ret_1m },
+      ret_3m:   { type: "num", get: (s) => s.ret_3m },
+      ret_6m:   { type: "num", get: (s) => s.ret_6m },
+      ret_ytd:  { type: "num", get: (s) => s.ret_ytd },
+      ret_1y:   { type: "num", get: (s) => s.ret_1y },
+      pe:       { type: "num", get: (s) => s.pe },
+    };
+
+    function sortStocks(arr, key, dir) {
+      const def = SORT_DEFS[key] || SORT_DEFS["active_period"];
+      return arr.slice().sort((a, b) =>
+        def.type === "num" ? numCmp(def.get(a), def.get(b), dir) : strCmp(def.get(a), def.get(b), dir)
+      );
+    }
+
+    // ---- Sector medians, computed client-side over the current size/exchange gate ----
+    // The wave-map honors the same market-cap floor (and exchange) as the leaderboard,
+    // so it reflects the investable set — coarse residual buckets fall away once every
+    // name above the floor carries a curated sub-industry. NOT affected by the sector
+    // filter or search (the map always shows all sectors).
+    function median(arr) {
+      const a = arr.filter((v) => v != null && !isNaN(v)).sort((x, y) => x - y);
+      if (!a.length) return null;
+      const m = Math.floor(a.length / 2);
+      return a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2;
+    }
+    function heatmapSubset() {
+      return stocks.filter((s) => {
+        if (mktcapFloor && (s.mktcap == null || s.mktcap < mktcapFloor)) return false;
+        if (activeExch !== "all" && s.exchange !== activeExch) return false;
+        return true;
+      });
+    }
+    function computeSectors(subset) {
+      const by = new Map();
+      subset.forEach((s) => {
+        const key = s.industry_en || "Other";
+        if (!by.has(key)) by.set(key, { industry_en: key, n: 0, vals: {} });
+        const o = by.get(key);
+        o.n += 1;
+        PERIOD_ORDER.forEach((p) => { (o.vals[p] = o.vals[p] || []).push(s[p]); });
+      });
+      const out = [];
+      by.forEach((o) => {
+        const sec = { industry_en: o.industry_en, n: o.n };
+        PERIOD_ORDER.forEach((p) => { sec["median_" + p.replace("ret_", "")] = median(o.vals[p]); });
+        out.push(sec);
+      });
+      return out;
+    }
+
+    // Rebuild the sector dropdown from the floored/exchange set, preserving selection.
+    function populateSectorDropdown() {
+      const secs = computeSectors(heatmapSubset())
+        .filter((s) => s.n > 0)
+        .sort((a, b) => (a.industry_en || "").localeCompare(b.industry_en || ""));
+      const cur = activeSector;
+      sectorSelect.innerHTML = '<option value="">All sectors</option>' +
+        secs.map((s) => `<option value="${escHtml(s.industry_en)}">${escHtml(s.industry_en)} (${s.n})</option>`).join("");
+      sectorSelect.value = cur;
+      if (sectorSelect.value !== cur) {
+        // Previously-selected sector no longer has names above the floor — clear it.
+        activeSector = "";
+        document.getElementById("clear-sector-filter").classList.add("hidden");
+      }
+    }
+
+    // ---- Sector heat-map render ----
+    function renderHeatmap() {
+      const sectors = computeSectors(heatmapSubset()).sort((a, b) => {
+        const av = a["median_" + activePeriod.replace("ret_", "")];
+        const bv = b["median_" + activePeriod.replace("ret_", "")];
+        return numCmp(av, bv, "desc");
+      });
+
+      // Map sector median field name: sectors use "median_1w", "median_1m", etc.
+      function secVal(sec) {
+        const key = "median_" + activePeriod.replace("ret_", "");
+        return sec[key];
+      }
+
+      const html = sectors.map((sec) => {
+        const v = secVal(sec);
+        const label = sec.industry_en || sec.industry || "";
+        const isSelected = activeSector === label;
+        return `<div class="heatcell${isSelected ? " selected" : ""}" data-sector="${escHtml(label)}"
+            style="background:${heatBg(v)}">
+            <div class="hc-pct" style="color:${retColor(v)}">${fmtRet(v)}</div>
+            <div class="hc-name" title="${escHtml(label)}">${escHtml(label)}</div>
+            <div class="hc-n">n=${sec.n}</div>
+          </div>`;
+      }).join("");
+
+      document.getElementById("heatmap").innerHTML = html;
+
+      // Wire click handlers.
+      document.querySelectorAll(".heatcell").forEach((cell) => {
+        cell.addEventListener("click", () => {
+          const sec = cell.getAttribute("data-sector");
+          if (activeSector === sec) {
+            activeSector = "";
+          } else {
+            activeSector = sec;
+            // Sync dropdown.
+            sectorSelect.value = activeSector;
+          }
+          document.getElementById("clear-sector-filter").classList.toggle("hidden", !activeSector);
+          renderHeatmap();
+          renderTable();
+          renderValueChain();
+        });
+      });
+    }
+
+    // ---- Table render ----
+    function renderTable() {
+      const q = searchQuery.trim().toLowerCase();
+
+      // Filter.
+      let filtered = stocks.filter((s) => {
+        if (mktcapFloor && (s.mktcap == null || s.mktcap < mktcapFloor)) return false;
+        if (activeExch !== "all" && s.exchange !== activeExch) return false;
+        const secLabel = s.industry_en || "";
+        if (activeSector && secLabel !== activeSector) return false;
+        if (q) {
+          if (!String(s.code).toLowerCase().includes(q) && !(s.name || "").toLowerCase().includes(q)) return false;
+        }
+        return true;
+      });
+
+      // Sort.
+      const effectiveKey = sort.key;
+      const sorted = sortStocks(filtered, effectiveKey, sort.dir);
+
+      // Show top N unless showAll.
+      const total = sorted.length;
+      const displayed = showAll ? sorted : sorted.slice(0, TOP_N);
+
+      // Labels.
+      document.getElementById("showing-label").textContent =
+        total === 0 ? "No stocks match" :
+        showAll ? `Showing all ${total} stocks` :
+        `Showing top ${Math.min(TOP_N, total)} of ${total} stocks`;
+
+      const trackedInView = sorted.filter((s) => s.tracked).length;
+      document.getElementById("tracked-count-note").textContent =
+        trackedInView > 0 ? `· ${trackedInView} tracked player${trackedInView === 1 ? "" : "s"}` : "";
+
+      const showAllBtn = document.getElementById("show-all-btn");
+      if (total > TOP_N && !showAll) {
+        showAllBtn.classList.remove("hidden");
+        showAllBtn.textContent = `Show all ${total}`;
+      } else {
+        showAllBtn.classList.add("hidden");
+      }
+
+      document.getElementById("empty").classList.toggle("hidden", total > 0);
+
+      if (total === 0) {
+        document.getElementById("table-wrap").innerHTML = "";
+        return;
+      }
+
+      function hcell(label, key, opts) {
+        opts = opts || {};
+        const align = opts.align === "right" ? "text-right" : "";
+        const hidden = opts.hidden || "";
+        const isPeriodActive = key === activePeriod || (key === "active_period" && activePeriod);
+        const activeClass = (sort.key === key || (key === "active_period")) ? "text-[color:var(--text)]" : "";
+        const periodHighlight = PERIOD_ORDER.includes(key) && key === activePeriod ? "period-active" : "";
+        const arrow = sort.key === key ? (sort.dir === "desc" ? " ↓" : " ↑") : "";
+        const title = opts.title ? ` title="${escHtml(opts.title)}"` : "";
+        return `<th class="${align} ${hidden} ${activeClass} ${periodHighlight} cursor-pointer select-none" data-sort-key="${key}"${title}>${escHtml(label)}<span class="text-[color:var(--text-faint)]">${arrow}</span></th>`;
+      }
+
+      const thead = `<tr>
+        <th class="rank-cell"></th>
+        ${hcell("Code", "code")}
+        ${hcell("Name", "name")}
+        ${hcell("Exch", "exchange", { hidden: "hidden md:table-cell" })}
+        ${hcell("Industry", "industry_en", { hidden: "hidden lg:table-cell" })}
+        ${hcell("Close NT$", "close", { align: "right" })}
+        ${hcell("Mkt Cap", "mktcap", { align: "right", title: "Issued shares × latest close (NT$)" })}
+        ${hcell("1W", "ret_1w", { align: "right", hidden: "hidden sm:table-cell" })}
+        ${hcell("1M", "ret_1m", { align: "right", hidden: "hidden sm:table-cell" })}
+        ${hcell("3M", "ret_3m", { align: "right" })}
+        ${hcell("6M", "ret_6m", { align: "right", hidden: "hidden md:table-cell" })}
+        ${hcell("YTD", "ret_ytd", { align: "right", hidden: "hidden md:table-cell" })}
+        ${hcell("1Y", "ret_1y", { align: "right", hidden: "hidden lg:table-cell" })}
+        ${hcell("P/E", "pe", { align: "right", hidden: "hidden lg:table-cell", title: "Trailing P/E (TWSE); TPEx may be null" })}
+      </tr>`;
+
+      const tbody = displayed.map((s, i) => {
+        const exChip = s.exchange === "TWSE"
+          ? `<span class="ex-chip ex-chip--twse">TWSE</span>`
+          : `<span class="ex-chip ex-chip--tpex">TPEx</span>`;
+
+        const indChip = s.industry_en
+          ? `<span class="ind-chip">${escHtml(s.industry_en)}</span>`
+          : `<span class="text-[color:var(--text-faint)]">—</span>`;
+
+        const trackedBadge = s.tracked
+          ? `<a href="stock.html?ticker=${encodeURIComponent(s.trackedTicker)}" class="tracked-badge ml-1" title="Open dashboard stock page">&#10003; tracked</a>`
+          : "";
+
+        const codeLink = `<a href="https://tw.stock.yahoo.com/quote/${encodeURIComponent(s.code)}/technical-analysis" target="_blank" rel="noopener noreferrer"
+            class="font-mono font-semibold text-white hover:text-[color:var(--sky)] hover:underline underline-offset-2">${escHtml(s.code)}</a>`;
+
+        function retCell(v, periodKey, hiddenClass) {
+          const cls = retClass(v);
+          const active = periodKey === activePeriod ? " period-active" : "";
+          return `<td class="num text-right ${hiddenClass || ""} ${cls}${active}">${fmtRet(v)}</td>`;
+        }
+
+        return `<tr>
+          <td class="rank-cell">${i + 1}</td>
+          <td>${codeLink}${trackedBadge}</td>
+          <td><div class="text-white text-sm">${escHtml(s.name || "—")}</div></td>
+          <td class="hidden md:table-cell">${exChip}</td>
+          <td class="hidden lg:table-cell">${indChip}</td>
+          <td class="num text-right text-[color:var(--text-dim)]">
+            ${s.close != null ? "NT$" + s.close.toLocaleString(undefined, { maximumFractionDigits: 1 }) : "—"}
+          </td>
+          <td class="num text-right text-[color:var(--text-dim)]">${fmtMktcap(s.mktcap)}</td>
+          ${retCell(s.ret_1w, "ret_1w", "hidden sm:table-cell")}
+          ${retCell(s.ret_1m, "ret_1m", "hidden sm:table-cell")}
+          ${retCell(s.ret_3m, "ret_3m", "")}
+          ${retCell(s.ret_6m, "ret_6m", "hidden md:table-cell")}
+          ${retCell(s.ret_ytd, "ret_ytd", "hidden md:table-cell")}
+          ${retCell(s.ret_1y, "ret_1y", "hidden lg:table-cell")}
+          <td class="num text-right text-[color:var(--text-dim)] hidden lg:table-cell">${s.pe != null ? s.pe.toFixed(1) : "—"}</td>
+        </tr>`;
+      }).join("");
+
+      const tableHtml = `<table class="players">
+        <thead>${thead}</thead>
+        <tbody>${tbody}</tbody>
+      </table>`;
+
+      const tableWrap = document.getElementById("table-wrap");
+      tableWrap.innerHTML = tableHtml;
+
+      // Wire sort clicks.
+      tableWrap.querySelectorAll("th[data-sort-key]").forEach((th) => {
+        th.addEventListener("click", () => {
+          const key = th.getAttribute("data-sort-key");
+          if (sort.key === key) {
+            sort.dir = sort.dir === "desc" ? "asc" : "desc";
+          } else {
+            sort.key = key;
+            sort.dir = SORT_DEFS[key] && SORT_DEFS[key].type === "num" ? "desc" : "asc";
+          }
+          renderTable();
+        });
+      });
+    }
+
+    // ---- Value-chain panel ----
+    const POS_META = {
+      upstream:   { label: "Upstream",   color: "var(--amber)" },
+      core:       { label: "Core",       color: "var(--sky)" },
+      downstream: { label: "Downstream", color: "var(--violet)" },
+    };
+
+    // Render one player chip. TW names in the universe link out (tracked → dashboard,
+    // else → Yahoo) and carry an active-period return badge; foreign anchors render
+    // as a muted, non-linked chip with a region tag.
+    function vcChip(p) {
+      const code = (p.code || "").trim();
+      const stk = (code && p.in_universe) ? byCode.get(code) : null;
+      let retBadge = "";
+      if (stk) {
+        const v = stk[activePeriod];
+        if (v != null && !isNaN(v)) retBadge = `<span class="vc-ret ${retClass(v)}">${fmtRet(v)}</span>`;
+      }
+      if (stk) {
+        const cls = "vc-chip vc-chip--tw" + (p.tracked ? " vc-chip--tracked" : "");
+        const href = p.tracked && stk.trackedTicker
+          ? `stock.html?ticker=${encodeURIComponent(stk.trackedTicker)}`
+          : `https://tw.stock.yahoo.com/quote/${encodeURIComponent(code)}/technical-analysis`;
+        const ext = p.tracked ? "" : ` target="_blank" rel="noopener noreferrer"`;
+        return `<a href="${href}"${ext} class="${cls}" title="${escHtml(p.role || "")}">`
+          + `<span class="vc-code">${escHtml(code)}</span>`
+          + `<span class="vc-name">${escHtml(stk.name || p.name || "")}</span>`
+          + (p.tracked ? `<span class="vc-track" title="Tracked dashboard player">&#9733;</span>` : "")
+          + retBadge + `</a>`;
+      }
+      const region = escHtml(p.region || (code ? "TW" : ""));
+      return `<span class="vc-chip vc-chip--foreign" title="${escHtml(p.role || "")}">`
+        + `<span class="vc-name">${escHtml(p.name || "")}</span>`
+        + (region ? `<span class="vc-region">${region}</span>` : "") + `</span>`;
+    }
+
+    function renderValueChain() {
+      const section = document.getElementById("vc-section");
+      const chain = activeSector ? VC[activeSector] : null;
+      if (!chain) { section.classList.add("hidden"); return; }
+      section.classList.remove("hidden");
+
+      const stages = chain.stages || [];
+      const stagesHtml = stages.map((st, i) => {
+        const meta = POS_META[st.position] || POS_META.core;
+        const chips = (st.players || []).map(vcChip).join("");
+        const arrow = i < stages.length - 1 ? `<div class="vc-arrow">&#8595;</div>` : "";
+        return `<div class="vc-stage">
+            <div class="vc-rail" style="background:${meta.color}"></div>
+            <div class="flex items-baseline gap-2 mb-2 flex-wrap">
+              <span class="vc-pos" style="color:${meta.color}">${meta.label}</span>
+              <span class="text-sm font-semibold text-white">${escHtml(st.name)}</span>
+              <span class="text-xs text-[color:var(--text-faint)]">${escHtml(st.desc || "")}</span>
+            </div>
+            <div class="flex flex-wrap gap-1.5">${chips}</div>
+          </div>${arrow}`;
+      }).join("");
+
+      document.getElementById("vc-content").innerHTML = `
+        <div class="flex items-start justify-between gap-4 mb-3 flex-wrap">
+          <div>
+            <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-1">Value chain · upstream → downstream</div>
+            <h2 class="font-display text-2xl text-white">${escHtml(chain.sub_industry)}</h2>
+            <p class="text-sm text-[color:var(--text-dim)] mt-1 max-w-2xl">${escHtml(chain.summary || "")}</p>
+          </div>
+          <button id="vc-close" class="btn-ghost text-xs">Close ✕</button>
+        </div>
+        ${chain.ai_relevance ? `<div class="vc-relevance mb-4 text-sm text-[color:var(--text-dim)]"><span class="text-[color:var(--sky)] font-semibold">Why AI demand drives it · </span>${escHtml(chain.ai_relevance)}</div>` : ""}
+        <div>${stagesHtml}</div>
+        <p class="mt-3 text-xs text-[color:var(--text-faint)]">Return badge = each name's ${PERIOD_LABELS[activePeriod]} move (tracks the period toggle). <span class="text-[color:var(--green)]">★</span> = tracked dashboard player. Foreign anchors shown for context. A navigational map — verify before acting.</p>`;
+
+      const closeBtn = document.getElementById("vc-close");
+      if (closeBtn) closeBtn.addEventListener("click", () => {
+        activeSector = "";
+        sectorSelect.value = "";
+        document.getElementById("clear-sector-filter").classList.add("hidden");
+        renderHeatmap();
+        renderTable();
+        renderValueChain();
+      });
+    }
+
+    // ---- Full render ----
+    function renderAll() {
+      populateSectorDropdown();
+      renderHeatmap();
+      renderTable();
+      renderValueChain();
+    }
+
+    // ---- Wire controls ----
+
+    // Period buttons.
+    document.querySelectorAll("[data-period]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("[data-period]").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        activePeriod = btn.getAttribute("data-period");
+        // Default sort to active period desc when period changes.
+        sort = { key: "active_period", dir: "desc" };
+        renderAll();
+      });
+    });
+
+    // Exchange filter.
+    document.querySelectorAll("[data-exch]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll("[data-exch]").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+        activeExch = btn.getAttribute("data-exch");
+        showAll = false;
+        renderAll();
+      });
+    });
+
+    // Sector dropdown.
+    sectorSelect.addEventListener("change", () => {
+      activeSector = sectorSelect.value;
+      document.getElementById("clear-sector-filter").classList.toggle("hidden", !activeSector);
+      showAll = false;
+      renderHeatmap();
+      renderTable();
+      renderValueChain();
+    });
+
+    // Clear sector filter.
+    document.getElementById("clear-sector-filter").addEventListener("click", () => {
+      activeSector = "";
+      sectorSelect.value = "";
+      document.getElementById("clear-sector-filter").classList.add("hidden");
+      renderHeatmap();
+      renderTable();
+      renderValueChain();
+    });
+
+    // Market-cap floor.
+    document.getElementById("mktcap-floor").addEventListener("change", (e) => {
+      mktcapFloor = Number(e.target.value) || 0;
+      showAll = false;
+      renderAll();
+    });
+
+    // Search.
+    document.getElementById("search").addEventListener("input", (e) => {
+      searchQuery = e.target.value;
+      showAll = false;
+      renderTable();
+    });
+
+    // Show all button.
+    document.getElementById("show-all-btn").addEventListener("click", () => {
+      showAll = true;
+      renderTable();
+    });
+
+    // ---- Initial render ----
+    renderAll();
+
+  })();
+  </script>
+</body>
+</html>

@@ -34,7 +34,6 @@ LAYERS = [
         "order": 1,
         "name": "HBM / DRAM Memory",
         "short_role": "On-package memory feeding GPUs and ASICs.",
-        "status": "priced-in",
         "status_note": "Fully priced. Memory has run hardest of any layer; risk now skews to mix shift, China DRAM, capex over-build.",
         "bottleneck_summary": "HBM3E + HBM4 sold out across all three vendors through 2026; ~20% price hike for 2026; 3-year LTAs being signed.",
         "key_sources": [
@@ -49,7 +48,6 @@ LAYERS = [
         "order": 2,
         "name": "Leading-Edge Foundry",
         "short_role": "Where the GPU/ASIC die is etched at 3nm/2nm.",
-        "status": "priced-in",
         "status_note": "TSMC priced for perfection. Intel is a binary turnaround bet, not a stack play.",
         "bottleneck_summary": "TSMC N2 sold out for 2026–2027; N3 fully booked for AI. Wafers tight but packaging is the binding constraint.",
         "key_sources": [
@@ -63,7 +61,6 @@ LAYERS = [
         "order": 3,
         "name": "Advanced Packaging (CoWoS / SoIC / CoPoS)",
         "short_role": "Stacks die + HBM on a silicon interposer. The single tightest node in the AI stack.",
-        "status": "underappreciated",
         "status_note": "TSMC priced in, but ASE/Amkor get the spillover at much lower multiples — that's the de-bottlenecking trade.",
         "bottleneck_summary": "TSMC CoWoS oversubscribed through mid-2026; NVDA holds >60% of 2026 allocation, forcing Google to cut 2026 TPU build ~25%.",
         "key_sources": [
@@ -78,7 +75,6 @@ LAYERS = [
         "order": 4,
         "name": "Wafer Fab Equipment / Lithography",
         "short_role": "The tools that build the chips. Multi-year backlog visibility.",
-        "status": "mixed",
         "status_note": "ASML priced in. LRCX/AMAT under-modeled for HBM TSV ramp — that's the underappreciated leg.",
         "bottleneck_summary": "Not capacity-constrained — WFE delivers the bottleneck-relievers. ASML 2026 guide €36–40B; €38.8B backlog. High-NA at SK Hynix and Samsung 1.4nm.",
         "key_sources": [
@@ -92,7 +88,6 @@ LAYERS = [
         "order": 5,
         "name": "GPUs / AI Accelerators",
         "short_role": "The compute itself — merchant GPUs and custom hyperscaler ASICs.",
-        "status": "priced-in",
         "status_note": "NVDA and AVGO largely priced in. MRVL is the cleanest under-modeled name on ASIC mix shift.",
         "bottleneck_summary": "TrendForce: custom ASIC sales +45% in 2026 vs +16% GPU shipments. Blackwell sold out through mid-2026; Rubin pull-in slipping to GB300.",
         "key_sources": [
@@ -107,7 +102,6 @@ LAYERS = [
         "order": 6,
         "name": "Networking Silicon",
         "short_role": "Switch ASICs and DSPs that make 100k-GPU clusters work as one machine.",
-        "status": "mixed",
         "status_note": "AVGO priced in via Tomahawk dominance. MRVL DSPs underappreciated.",
         "bottleneck_summary": "Scale-out networking now ~10–15% of cluster spend. Ethernet won the back-end shift (Dell'Oro: ⅔ of Q3 2025 AI cluster switch sales).",
         "key_sources": [
@@ -120,7 +114,6 @@ LAYERS = [
         "order": 7,
         "name": "Optical Components / EML Lasers",
         "short_role": "InP lasers, transceivers, DSPs — the 1.6T enabler for AI clusters.",
-        "status": "underappreciated",
         "status_note": "Top idea cluster. The closest analog to where memory was in early 2024 — multi-year supply gap, NVDA bankrolling capacity, market hasn't fully repriced.",
         "bottleneck_summary": "EML lasers (InP) sold out through 2027; LITE capacity tripling only by mid-2027. McKinsey: 1.6T transceivers short 30–40% through 2029.",
         "key_sources": [
@@ -135,7 +128,6 @@ LAYERS = [
         "order": 8,
         "name": "Switches & Networking Systems",
         "short_role": "The boxes that wire up the cluster — branded systems and white-box ODMs.",
-        "status": "mixed",
         "status_note": "ANET priced in. Celestica is the white-box sleeper — hyperscaler share gain not fully in the multiple.",
         "bottleneck_summary": "Arista guide ~+20% 2026; AI/campus growth ~60%. Cisco raised AI infra revenue to $3B. White-box ODMs (CLS, Accton) gaining share.",
         "key_sources": [
@@ -148,7 +140,6 @@ LAYERS = [
         "order": 9,
         "name": "Grid, Transformers, Gensets, Switchgear",
         "short_role": "The actual binding constraint for putting watts on the GPU.",
-        "status": "underappreciated",
         "status_note": "GEV/ETN/VRT richly priced. Underappreciated: GNRC, HUBB, PWR — they get every grid-buildout dollar regardless of which hyperscaler wins.",
         "bottleneck_summary": ">50% of US 2026 data centers expected delayed/cancelled due to electrical gear. Gas turbine slots sold out through 2028; transformer lead times stretched to 5 years.",
         "key_sources": [
@@ -162,7 +153,6 @@ LAYERS = [
         "order": 10,
         "name": "Liquid / Direct-to-Chip Cooling",
         "short_role": "Cold plates, CDUs, immersion — mandatory above ~700W TDP (Blackwell+).",
-        "status": "underappreciated",
         "status_note": "VRT priced in. MOD and NVT still underappreciated for the DC mix-shift inside an industrials wrapper.",
         "bottleneck_summary": "Vertiv backlog ~$15B (+109% YoY), book-to-bill 2.9x. Modine DC sales +31% sequential, mgmt guides 50–70% growth.",
         "key_sources": [
@@ -174,7 +164,6 @@ LAYERS = [
         "order": 11,
         "name": "Hyperscaler Capex (Demand Side)",
         "short_role": "MSFT, GOOG, META, AMZN, ORCL — combined ~$725B 2026 capex (+77% YoY).",
-        "status": "mixed",
         "status_note": "META and ORCL most stretched on capex/sales. GOOG arguably under-loved given full integrated stack (TPU + DeepMind + YouTube ad attach).",
         "bottleneck_summary": "Self-imposed FCF discipline. AMZN projected –$17B FCF 2026; META –90% FCF. Memory pricing cited as $25B of MSFT's 2026 increase.",
         "key_sources": [
@@ -188,7 +177,6 @@ LAYERS = [
         "order": 12,
         "name": "Neoclouds / GPU Clouds",
         "short_role": "Specialist AI compute providers — CoreWeave, Nebius, Lambda (private).",
-        "status": "fairly-priced",
         "status_note": "High beta, not under-priced. Leveraged plays on NVDA shipment continuity. Skip if you already own NVDA.",
         "bottleneck_summary": "Bottleneck = GPU allocation + power siting. CRWV + NBIS combined Meta deals ~$48B.",
         "key_sources": [
@@ -200,7 +188,6 @@ LAYERS = [
         "order": 13,
         "name": "Inference Software / Platforms",
         "short_role": "Model labs (private), serving runtimes (vLLM, TRT-LLM), enterprise AI (CRM, NOW).",
-        "status": "priced-in",
         "status_note": "Most crowded layer ex-NVDA. PLTR especially. Hard to find under-priced names here.",
         "bottleneck_summary": "Not a hardware bottleneck — software margins compress as inference becomes a commodity. Differentiation moves to data + workflow.",
         "key_sources": [
@@ -212,7 +199,6 @@ LAYERS = [
         "order": 14,
         "name": "EDA",
         "short_role": "Chip design tools. Toll-booth model, no capacity bottleneck.",
-        "status": "fairly-priced",
         "status_note": "Quality compounders, not where alpha lives in this cycle.",
         "bottleneck_summary": "AI-EDA segment growing ~24% CAGR. Cadence 2026 guide raised; Synopsys closing Ansys merger.",
         "key_sources": [
@@ -225,7 +211,6 @@ LAYERS = [
         "order": 15,
         "name": "FC-BGA / ABF Substrates & PCBs",
         "short_role": "The high-density laminate that connects die to package and package to board.",
-        "status": "underappreciated",
         "status_note": "Ibiden in particular is a multi-decade quality compounder still trading like a cyclical PCB stock. Unimicron similar. Western retail underweights both.",
         "bottleneck_summary": "ABF tight in 2023 (–9% supply gap), now expanding ~15% — re-tightens with each AI cycle. Intel/AMD/NVDA pre-funded ~50% of capex.",
         "key_sources": [
@@ -292,10 +277,8 @@ PLAYERS = [
     {"ticker": "ETN", "name": "Eaton", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Switchgear, distribution, PDUs. DC orders +30%+ for 4 quarters."},
     {"ticker": "VRT", "name": "Vertiv", "exchange": "NYSE", "country": "US", "layer_id": "cooling", "secondary_layers": ["power"], "role": "Power + cooling integrated; $15B backlog (+109% YoY); NVDA partner."},
     {"ticker": "GNRC", "name": "Generac", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Gensets, 50–60 wk lead time vs. 70–107 wk for Cat/Cummins. Stargate slot."},
-    {"ticker": "CMI", "name": "Cummins", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "High-HP gensets; 18-mo lead times even after $150M Fridley expansion."},
     {"ticker": "HUBB", "name": "Hubbell", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Utility T&D — every grid-buildout dollar."},
     {"ticker": "PWR", "name": "Quanta Services", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Substation/transmission EPC."},
-    {"ticker": "CAT", "name": "Caterpillar", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Gensets, prime power."},
     {"ticker": "CEG", "name": "Constellation Energy", "exchange": "NASDAQ", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Largest US nuclear operator; MSFT PPA to restart Three Mile Island Unit 1 for AI baseload."},
     {"ticker": "OKLO", "name": "Oklo Inc.", "exchange": "NYSE", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "SMR developer (Aurora powerhouse); Sam Altman-backed; pure-play on AI-driven SMR demand."},
     {"ticker": "LEU", "name": "Centrus Energy", "exchange": "NYSE-AM", "country": "US", "layer_id": "power", "secondary_layers": [], "role": "Sole US producer of HALEU; fuel bottleneck for advanced reactors and SMRs."},
@@ -999,7 +982,25 @@ def main() -> None:
     DATA.mkdir(parents=True, exist_ok=True)
     CONTENT.mkdir(parents=True, exist_ok=True)
 
-    _write_json(DATA / "layers.json", LAYERS)
+    # Preserve data-derived fields (status_auto, status) on rerun so reseeding
+    # doesn't stomp the scoring stage's output. Seed owns editorial fields only.
+    prior_layers_path = DATA / "layers.json"
+    prior_by_id: dict[str, dict] = {}
+    if prior_layers_path.exists():
+        try:
+            prior_by_id = {l["id"]: l for l in json.loads(prior_layers_path.read_text())}
+        except (json.JSONDecodeError, KeyError, TypeError):
+            prior_by_id = {}
+    merged_layers = []
+    for layer in LAYERS:
+        prior = prior_by_id.get(layer["id"], {})
+        out = dict(layer)
+        if "status_auto" in prior:
+            out["status_auto"] = prior["status_auto"]
+        if "status" in prior:
+            out["status"] = prior["status"]
+        merged_layers.append(out)
+    _write_json(prior_layers_path, merged_layers)
     _write_json(DATA / "players.json", PLAYERS)
     _write_json(DATA / "signals.json", sorted(SIGNALS, key=lambda s: s["date"], reverse=True))
 

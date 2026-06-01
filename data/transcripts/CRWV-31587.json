@@ -1,0 +1,237 @@
+{
+  "ticker": "CRWV",
+  "symbol_used": "CRWV",
+  "call_id": 31587,
+  "source": "earningscalls.dev",
+  "url": "https://earningscalls.dev/transcript/31587",
+  "fetched_at": "2026-06-01T23:41:20.254700+00:00",
+  "company": "CoreWeave, Inc.",
+  "call_type": "Presents at J.P. Morgan 54th Annual Global Technology, Media and Communications Conference, May-19-2026 11:25 AM",
+  "date": "2026-05-19",
+  "raw_date": "Tuesday, May 19, 2026",
+  "sector": "Information Technology",
+  "industry": "IT Services",
+  "segments": [
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Welcome, everybody. Thank you for joining. [ Brandon ], you know how to draw a crowd. For those who can't see, there's a lot of people standing here. So I'll give all that credit to you."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Quite an extraordinary 14 months for the team, IPO-ed last year. Full year FY '25 revenue is $5.1 billion. 2 weeks ago, nearly $100 billion in backlog, $40 billion new bookings in a single quarter. So for the 1 or 2 people who don't already know, you could introduce yourself, what you do as a Co-Founder and Chief Development Officer?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Yes, absolutely. Thank you. Brannin McBee, [indiscernible] one of the [ CDO ], one of the co-founders. I lead all things capital markets for the business. So that's capital formation, M&A, venture [ investing ], basically, whenever you see one of these DDTL deals convert high yield, that's my team leading those processes. Where our responsibility is keeping the business funded and being able to grow at the pace of AI."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. Yes. We'll head on one of the items in the news for you guys, which is that Blackstone Google deal. So anything you want to [indiscernible] there, let investors kind of [indiscernible]?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Yes, yes. Look, I think, first and foremost, it's just yet another demand signal that's out there. I don't think that this room really needs more signals and more conviction that there is overwhelming and insatiable demand for AI, but that's our takeaway that's there. I think as everyone knows as well, this is a TPU cloud that's being built. I mean, to me, it makes sense that Google is going to want to empower others to go build TPU cloud, much as NVIDIA has empowered others go build GPU clouds.\r\nOur business is not TPUs. Our clients come to us asking us to build GPUs and explicitly NVIDIA GPUs. I think the last thing I'd say is Blackstone and Google are both massive and fantastic partners of ours. Blackstone did our first DDTLs. I think they've participated in every single transaction that we've done. I was speaking with one of the partners this morning. And they're going to be participating on our upcoming transactions, right? That relationship doesn't change.\r\nAnd Google is a large GQ client of ours as well. They're a multibillion-dollar client consumer of our GPU platform. So look, just comes back to this is another demand signal, and we wish those guys the best of luck in the TPU space."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. Yes, I think you guys have kind of emphasized this, and we've tried to as well, which is this is a obviously very rapidly growing pie. So there's a lot to go around for everybody, it seems like."
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "There is and that pie for us kind of sits across 3 clients -- or 3 client types, I would say. It's hyperscaler demand like traditional cloud coming to us because we offer a differentiated product to them and they keep coming back over and over and over again. It's AI labs, which I think everyone knows well, what that cohort looks like. We were very excited to announce [indiscernible] as a customer last quarter that got added. I think 9 of the top 10 global non-China AI labs are on our platform today, which is incredibly exciting from a diversification perspective. Incredibly exciting from a like just verification of we have the best-performing product in the space for all these entities and it's just become kind of de facto mandatory to work with CoreWeave.\r\nBut the last customer segment is one we don't talk about very often. That's enterprise, right? The great indicator for enterprise is inference demand. A great indicator for enterprise, I think, is famously just following what Anthropic has done in this space, right? Their client base is predominantly enterprise, and they've grown so much. I mean -- I believe the questions I was getting from this room 6 months ago is where is enterprise demand? Is it going to show up? Is enterprise adopting AI. And I think that answer today is overwhelmingly yes.\r\nAnd if the question is, are they working with CoreWeave? That's also overwhelmingly yes. It's just we don't need to talk about those deals as much because they're not -- those are 8-, 9-figure deals. They're not 10 and 11 figure deals like our huge banner contracts have culminated in $100 billion in backlog. But make no mistake, in Q4 we added double -- more than double the number of logos that we had ever added in any preceding quarter. These logos are coming from enterprise. Enterprise is rapidly growing on our platform. And across those 3 segments, we're incredibly excited to have such a diverse set of clients out there."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. A lot of threads we're definitely going to pull on. I think to start off with the one area we can miss is, you guys are very clear about the demand environment more than anybody else out there. So just a couple of quotes here. Demand is insatiable. We're turning customers away at the door. I think Nick said, I'll give my unborn child for 100 megs of contiguous power [indiscernible]"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "[indiscernible] now too."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "He's got to [indiscernible]. So I think, especially right now, it's a little bit rare to hear about that level of demand. If we just go one level below that, and I'm sure it's all of these, but maybe hit on them. Is it a new cycle of chips, agentic workloads, enterprises kind of crossing that threshold for AI adoption? What is kind of coming together here all at once?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Yes. I think it's inference, right? That is really kind of pushing this next lurch in demand. Training was obviously a massive part of establishing the AI product. Well, now it's monetizing the AI product that's out there. And if you don't have the infrastructure, you do not have an ability to monetize AI as a revenue stream. And I think one of the clearest [indiscernible] of that maturation of the monetization [indiscernible] is moving into these other components, right? It's moving into CPU. It's moving into [indiscernible]. It's using a agentic workloads.\r\nLike this is all an evolution of an already existing demand base where it was all just like, frankly, kind of simplistic LLMs. Well, now we're moving into truly empowering workforces to work with this agentic platform, and do that it requires different components to work with now. And like these things that like start resembling the cloud that everyone in this room is familiar with from the 2010s that relied upon lots of peripheral components to serve different elements of the workload stack, or the demand [ stock in ]. That's something that we are purpose built for.\r\nIt's something that our clients have been telling us that they need for [indiscernible] at this point. It's sort of an underappreciated fact, like having such a diverse client base, we are directly supporting the leaders in the AI space, [indiscernible] And that direct support is a dual way dialogue right? They're telling us what they need. And we are then able to be proactive in market. We're able to be proactive in supply chain with these components and ensuring that we are moving our technology, our engineering teams, our procurement teams in the right direction to support where these guys are going over the next 12 to 24 months."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. And maybe just one aspect of that. I mean how much of that pull forward, and what specification customers are wanting also figures into that software layer of it? Is that kind of increasingly becoming a big factor as more of the same for [indiscernible], come in?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Yes. I think it's that software layer for us is mission control. It's suck. It's how do you provision and operate these clusters at scale. At the end of the day, there's a handful of companies have delivered over 1 gigawatt of billable compute. It's a massive number, right? Like people just throw around with gigawatts today like it's nothing. But I think a lot of the time when people are throwing around gigawatts. It's they have security gigawatt of power. Or they bought land that has a gigawatt of power associated with it.\r\nThat's -- there's a CASM of execution risk between contracting for power and delivering billable GPU hours. And that's where our software stack sits. That's where our supply chain and procurement sets like that is the magic of CoreWeave that we can build supercomputers at scale and maintain them and keep them online and operate them in. It's a little bit of a tangent, but like doing this in the space is going to be an entirely different thing.\r\nAnd I struggle to see how that's a near-term reality given just how hard it is to do on the ground, but CoreWeave simply best-in-class. I do it on the ground. And we're recognized by not only the most demanding AI clients in the world, were recognized by the most demanding AI suppliers in the world with our relationships across the supply chain. I mean these GPUs aren't just going to anyone. They're going to the people that can bring it online and have a demonstrated track record of execution."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. Yes. I think one very important topic to touch on is inference. I remember at the beginning of this year, I think you guys were at a conference saying, hey, keep an eye on this, it's coming. There's observability players who have been calling it out as well. So a lot of subtle signals. I think it might be an underappreciated part of what the downstream impacts of that are.\r\nIf we just kind of dig into it, you guys had said on the Q1 call that it's materially in excess of 50% of your power drop based on what you can see. And you've been saying that been picking up, you referenced it earlier. So are these workloads -- like how should we imagine they're percolating across your installed base? Is this customers who are transitioning from training to inferencing? Is that people come in net new just for inferencing? What does that look like from your perspective?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Great question. I would say it's both. Let me start on the architecture side and moving from [indiscernible]. So for the most part, in an infrastructure -- in an architecture's life cycle versus 12-ish months are focused on training, right? Because that's your opportunity to advance your models beyond the rest of the competition, right? After that, it's largely fine-tuning and [indiscernible] thereafter, right?\r\nWhat we build is AI infrastructure, meaning it's infrastructure they can use for both training [indiscernible]. We don't build explicitly for training or inference our clients seamlessly use their infrastructure with us for everything, right? It crosses both training and [indiscernible] So when we qualified 50% I would say that, that's reflective of hopper maturing. I would say that's reflective of also new clients coming in who want only inference. Like they're not training foundation models. That's like financial services, for example, which I think financial services, of my notes, they are over [ $10 billion ] of our backlog today, right?\r\nLike that's a massive number that I don't think many people in this room expect that our backlog has that much financial services associated with it. And they are heavily relying on Hopper, Blackwell and [indiscernible] for inference. That does bring up another question that is just coming up less and less frequently now, which is what is the appropriate depreciation or life cycle GPUs?\r\nMaybe it's 6 years. Our peer [indiscernible]. I think at the end of the day, that might end up being conservative, frankly. I wouldn't expect any change in any time soon. But from what we're seeing, I mean Hopper prices are going up and [indiscernible] prices are going up. Blackwell prices are going up across the board. This isn't a -- people only want the latest generation in technology. They want the technology that's the best fit for their workload. And  surprise, that's not just the latest generation GPU. It reaches all the way back to [indiscernible], and that's on our platform, right?\r\nYou can look at the broader cloud and you're going to see Tesla and [ Volta ] GPUs that are late 2010 SKUs, and those are still running online. They're not running for free for fun, right? They're running because they're profitable. And interestingly, those are well past their 6-year [indiscernible] appreciation curve, and that is the single largest input cost of running our infrastructure is depreciation. So for us, our focus has been signing these 5- and 6-year long-term take-or-pay agreements to fully derisk the depreciation period to fully handle the CapEx, interest, operational expenses and kick off a 25% contribution margin up to the parent go.\r\nBut after that, man, we have a pretty interesting asset class to work with after we pay the GPUs, after the depreciation has run off and demand looks like it's just going to continue to be [indiscernible]."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. And maybe one framing that might be helpful is when you have these customers that are transitioning from training to inferencing. What does that life cycle look like? I mean is that within the 6-year contract like into 3 years training through our inferencing? Because I've heard from context in the field, sometimes it takes 4 years training, 4 years inferencing all of a sudden, you have the data center kind of being used with the same CapEx you put into it for quite a while."
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "I would say it [indiscernible] But for our clients, it seems. It's like literally it can be hours later. They can be using the exact same infrastructure for training of next-gen foundation model across hundreds of thousands of GPUs. And then the next [indiscernible] they're running inference right? That's how seamless it is. And that's because of not only how we build the infrastructure, but how we operate it from an infrastructure management, infrastructure orchestration perspective."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. Is there any future where there are inferencing dedicated facilities? Or you have -- I mean it's a bit of a [indiscernible] inference that needs to be at the edge, right? But obviously, some of that will be. Is that in the cards? Or it, kind of -- does it make sense at this point for you guys?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "We are client-led in what we build, what type of data center capacity we procure. Clients aren't asking for that, right. They're not too latency-sensitive right? Like I don't know about you guys, when I use ChatGPT or Claude, I can't tell a difference if it's a 10 [indiscernible] or a 20 [indiscernible] response time. And accordingly, our clients really aren't emphasizing it too much like financial services, probably emphasize that a little bit more in the location of the site.\r\nBut overall, we're not getting client demand to build something that is added, or client demand that is inference only. And we're not getting clients demand for frankly, chips outside of NVIDIA's infrastructure either. It's just been consistent of -- and it might be a little bit self-selecting, just because we're known as the best operator of [indiscernible] infrastructure on the planet. But at the end of the day, that's not like a question in the pipeline. The pipeline is it full of clients saying, like, well, here's my TPU pricing. Can you match that on GPU?\r\nNo one asks that. That doesn't come up, I think the client has already made a decision what they want to do and they're not -- there isn't fungibility between those two architectures, right? That's a very fundamental decision between the two of them."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "And I know I've heard you say this, but just to put a finer point if you did have clients coming to you saying, hey, we want to use XYZ semiconductor technology [indiscernible] can do it?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Yes. Look, I think we would absolutely consider it. It would need to be a pretty large scale. But I think the main point there is our operational stack, like how we provision and operate compute is not dependent on the underlying hardware. Meaning we can operate really anything we want. I think we've demonstrated that even within NVIDIA of moving from Hopper to Grace Blackwell. Those are entirely different architectures, right? It's a completely different compute platform between those things. And we were first to market with that infrastructure because of our provisioning and operational solution that we have.\r\nIt's not just us plugging things in quickly. That's us having such a [indiscernible] operation stack to run and incorporate new pieces of infrastructure. CPU storage, like all these other peripheral components that are starting to come into market right now. The CoreWeave solution is the best solution in the market to run workloads, artificial intelligence."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. you hinted a bit earlier, but this kind of large tail of enterprise customers coming in. I'd love to hear your perspective. Is that -- does that change how you're going to market with those? Are those customers like a lot of the others just come into your door, knocking on your door, and asking you for your solutions? Or are you guys kind of doing that [indiscernible] well there?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "We do that outbound. We certainly get a lot of inbound as well. We recently brought in [ John Jones ] to lead our revenue organization. He's building that and has delivered a enterprise for sales mechanism. That's a [indiscernible] And those clients, I mean, they've been flooding our platform since last year. I think the enterprise demand is robust. I think that, that's really indicative of just how differentiated our platform is as well.\r\nI mean it's a heavy lift to exit or split your workloads from a hyperscaler platform to moving somewhere else. There has to be a lot of reason for you to do that. And that reason isn't just supply in the market. I think that reason is product differentiation and we're really proud of the client base that we've been able to pick up on the enterprise side."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "And beyond the fact that I would assume they do a little bit more inferencing versus training, right, these enterprise customers. But -- is there any difference in how they kind of contract, utilize your platform? I mean, like you said, they're not as big commitments in terms of pure dollars individually."
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Correct."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "So do they have similar kind of dynamics of 6-year [indiscernible] a little bit shorter. Is there any on demand there?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Yes. I'd see our contracts are 4 to 6 years in duration. That's inclusive of enterprise as well, like they're wanting to sign longer-term commits on those contracts. It's all similar margin profiles as well. As I mentioned, we have materials on our website. We target a 25% contribution margin of operating these clusters at the SPV level to go back up the parent. And we target that regardless of what the underlying skew is, right?\r\nWe have margin targets at the launch of each generation of architecture. And then we bring that into market and that kind of sets pricing, et cetera. But I wouldn't say material contract differences between enterprise, AI labs, hyperscalers, not that much of a duration difference either. And [indiscernible] we see enterprise pretty heavily leaning into inference relative to training."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Do you think there's any chance some of these enterprise customers kind of upscale their contracts before they run out? I mean it feels like they're very early innings. I assume they're not kind of projecting 10x, 20x growth in that. So is this any chance they're undershooting how much demand they'll have just because they're still experimenting with it, or in early innings, however you think about it?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "I think so. And I think that's what you're seeing out there as well. I mean we've all seen the reports of engineers using 10x the credits that they have been budgeted, but it's driving productivity, so management teams are allowing for it. And I would say that, that's the exact same cadence we saw with our AI lab clients, our hyperscale clients when we were really growing within those sectors over the past few years as you get on to the core platform with your first contract. You get some -- you get used to operating with us. You said, wow, this is fantastic, and then you go sign your expansion contract, an expansion contract. And to us, it's less of like renewal cadence, right?\r\nRenewals sound like kind of a stable market, meaning that it's not in hyper growth anymore. Everyone kind of knows what they need and what their demand profile is, et cetera. It's not the cadence that we're in right now. When renewals do come up on our platform, we are seeing clients take advantage of that, right? Like -- and we typically work with that as well. They get renewed like our Hoppers, [indiscernible] being renewed into new 1- to 3-year [indiscernible] right now.\r\nI would say our business plan was for that infrastructure to kind of roll off into on-demand pools instead after its initial contracting period, but it's really hard to say no to 100% utilization rates and a firm economics for a multiyear period, right? Like sure, margins are more attractive in an on-demand environment. Today, but we don't know what that looks like 3 months, 6 months, 9 months from now. And what we're trying to play is the longer game of how do you derisk a business with so much capital consumption and deployment in such a high velocity technology market, you do that with long-term take-or-pay contracts in a way that fully derisks the infrastructure."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. I think it's a great segue talking about the contract structure, contribution margins earlier. So let's just talk about margins as a whole.\r\nQ1 is supposed to be a trough for you guys. You reaffirm that you're going to exit the year at like a low double-digit pro forma operating margin. Long-term target, I think, still is 25% to 30%. So we're in mid-May. You got a lot of deployments coming up in the back half. What's giving you that confidence in that you'll be able to exit the way you want to exit?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Yes. So I'd say last year, when we were presented with kind of a similar scenario, we had so many deployments that were coming online in December. And like that's really tough to kind of cram it in, in December and Q4 [indiscernible] year. This year, those deployments are coming online right now, right? And like this is all verifiable information. If you go look at our data center providers, you can look at their capacity ramp schedules for us and just directly translate it to our platform, but the bulk of our capacity is ramping today in Q2 and in Q3.\r\nYou're seeing that show up in our numbers as well from an OpEx CapEx perspective. And so I think that just kind of like a small learning curve for the market was that investment precedes revenue within the infrastructure space. And so what you've seen with our margin compression and agree that Q1 was the trough and we're expanding out of there, and everything that we gave in the guide I think is absolutely correct.\r\nYou're watching that investment period with lots of infrastructure that's coming online. And that infrastructure is coming online right now. And I think that's what really offers my confidence in the H2 numbers that we've given into the market is like we're watching all this come online. And these are -- all these deployments are coming online for contractual commitments, right? We know the economics of them. We have all the infrastructure for these appointments, we know the cost of the infrastructure for all these employments. And thus, we know what the margin profile is for them accordingly."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. So for you guys, it's a [indiscernible] problem, kind of just to [indiscernible]"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "And execution is, we've delivered a gigawatt of billable GPUs. I think there's maybe 4 companies on the planet who have done that. It's an unbelievable amount of infrastructure that we brought online, and I could not be more proud of our team have done so, but execution is what matters. And execution, by the way, is I think what's allowed for us to drop our cost of capital so aggressively, right? Like 2, 3 years ago, when we were doing our first [indiscernible] that was being done at [ plus 850 ] for [indiscernible] offtake, right? I think that same contract today, all variables being held equal, we're getting done at [indiscernible] as opposed to [indiscernible].\r\nBut that gap, that massive decrease in cost is all execution, right, that we have a proven track record of being able to participate in the credit markets and deliver billable GPU hours. And I don't -- I think that we're kind of second to none in the market for doing so."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. Again, great segue. Let's talk about financing a big topic for you guys to say the least. I think there's two parts for it, right, which is the cost of it and the access to it. And both of those are pretty important to you guys.\r\nYou talked about how that cost has come down pretty substantially. You've got a lot of investments coming in, debt equity, all sorts of mechanisms. And you closed, I think, the [indiscernible] 5 today, officially, right? So maybe just talk about where you see that cost side going? I mean, is there a floor you kind of reaches, is there execution then whatever your customers [indiscernible] how do you see your path towards investment grade?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Yes. So our thesis on financing this is a debt finance business right? This was an equity finance business, we would just be raising tens of billions of dollars of equity. Many tens [indiscernible] all equity every year, and that would be a pretty tough case to the equity market. And look, like it makes sense to use credit to fund this infrastructure, right?\r\nYou have a physical asset you have take-or-pay agreements. They're -- it's a concept that's not unfamiliar across the credit market, right? And so we kind of think about the financing flywheel in two ways, right? There's ParentCO, financing. And then there's [ AssetCo ] financing. AssetCo is where all of our large contracts hit. It's where all the infrastructure associated with those large contracts, that's the DDTL cell facilities that we've been doing. Those facilities are being done at like, 90% to 100% LTCs for investment-grade offtake and 70, 75-ish percent LTCs for non-investment-grade uptick. That's a leverage profile that we're able to bring to market there.\r\nAnd then ParentCo is responsible for funding any of that like kind of delta and GAAP, right? That's where ParentCo financing since back -- down to [indiscernible]. ParentCo will continue to be a mix of convert instruments, high-yield instruments, equity issuance, like whatever kind of sits there. But I think it will be a diminishing percentage on a relative basis because we will keep ratching up the LTCs down at [indiscernible] and then also AssetCo's kicking off net proceeds to [indiscernible], right? Like [indiscernible] is profitable from that sense. Like it is margin accretive up to the parent, and parent will get a larger and larger stream of these like kind of clean net proceeds from [indiscernible] that it just turns around and is back down into [indiscernible], but that will reduce our reliance on issuing these parent-level securities over time."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "And then related, but maybe we can hit it quickly, like there is sometimes a question of like, how are you guys going to raise all that debt, all that capital, but it seems like your access to capital is pretty substantial."
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "We've done a pretty good job, yes. The [indiscernible] was our first investment-grade rated instrument, and that's a massive milestone, right? Like being able to there, it opens the world to be able to participate in our credit instruments. that was a phenomenal deal for us. And within that deal, we introduced some technology, we actually had a -- it was a 90% LTC transaction in like the construction phase. But the revenue phase, we have an additional, I think, it's a 14 percentage point unlock for AS style financing that takes it to 104% LTC. Like that's fantastic for us, right? Like that's just a further enablement of [indiscernible] to be able to self finance and not require these parent-level financings. That facility again is for investment grade.\r\nI don't think we're quite there for non-investment-grade counterparties? Yes, right. The best example of noninvestment-grade deal is what we just completed and announced today, which was [indiscernible]. That was done at [ S+ 450 ], think like kind of 70-ish percent LTC on that deal. But the advancement of that transaction we really like it was a publicly syndicated security. [indiscernible] has traded asset now. That's the first time that's really been done, and it was met with overwhelming demand.\r\nI mean that was a 3.1 billion, $3.5 billion facility. It had $19 billion of [indiscernible]. It was the largest ever [ TLB ] demand book pretty wild, right? And I think that just goes to show you how much demand there is for exposure to AI within credit world, even if it's not investment grade, right? Like that was OpenAI and go here. The demand is there for it. I think headlines [indiscernible], will say one thing about the market's appetite of demand, but when you have $20 billion worth of demand for these credit instruments showing it in the market, I mean that's [indiscernible] for us. That's the reality."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. Want to add 2 things. I'll [indiscernible] a little short on time, but let's talk about supply. It's not just energy. You have electricians, transformers, all sorts of stuff. But can you talk about where you're seeing the most tightness right now? And when you look forward to [indiscernible] in the future, when do you see that loosening up because you have a lot of push and pulls and takes time to train that with attritions, right? So do you see that loosening up at [indiscernible]?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "I feel like we've been asked this for the last 4 years. And every time we've said it's a ways out. I think it's still..."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "It's always 5 years from now."
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "Yes. And that's the reality, right? Like we are I struggle to see a kind of supply-demand balance before the end of the decade. Truly. I don't know how that gets resolved. I think today, it's on powered shell. It's not electricity, right? Like letricity is accessible, it's there. It's the ability to consume electricity at the rack level that's not there. And we refer to that and the industry [indiscernible] as powered shell capacity. What is powered shell bottleneck by, you're absolutely correct. [indiscernible] massive [indiscernible] within powered shell delivery time lines.\r\nYou have transformers, you have backup batteries, like you have all of these components where these are global supply chains that were not built to scale and react at the pace of AI, and it's going to remain constrained. For us, how do we navigate that? We have over 43 sites in operation today. We've been navigating this for years. We know how to deal with supply chain disruptions. We know which partners to work with. We know how to solve problems when they pop up. And I don't believe that, that is going to change in the near term."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "One question we'd love to ask, and I think for you, it's probably more relevant than other companies is when we're sitting here a year from now, what do you think the audience is kind of going to appreciate that they maybe don't appreciate now, right? What do you see on the horizon that others probably aren't given enough way to?"
+    },
+    {
+      "speaker": "Brannin McBee",
+      "role": "Executives",
+      "text": "It's a point I hammer on a lot we touched on it briefly, but it's this concept that like signed power like -- or signed leases does not translate to revenue? Yes, right. I think, again, that there is an oversimplification in the market of well, this company has 500 megawatts of signed power. That must mean that they're going to be able to easily translate that to 500 megawatts of GPU associated revenue?\r\nIt's just not the case, right? We really have not seen execution across the rest of the sector enough to confidently say that it's easy to deploy GPUs. I think in my seat, I can [indiscernible] say it's intensely difficult to build and deliver this infrastructure. I think you have to do it at scale, right? You do it a gigawatt scale. It's just unbelievable physical feats of engineering that are being accomplished. And I think that CoreWeave is simply best in class at doing that."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Yes. That's what we're here to. Listen, Brannin, thank you very much. It's been a pleasure having you here, and I think everybody has enjoyed that. So thank you."
+    }
+  ],
+  "word_count": 5558
+}

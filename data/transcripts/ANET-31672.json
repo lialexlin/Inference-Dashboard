@@ -1,0 +1,237 @@
+{
+  "ticker": "ANET",
+  "symbol_used": "ANET",
+  "call_id": 31672,
+  "source": "earningscalls.dev",
+  "url": "https://earningscalls.dev/transcript/31672",
+  "fetched_at": "2026-06-01T23:40:25.559184+00:00",
+  "company": "Arista Networks, Inc.",
+  "call_type": "Presents at J.P. Morgan 54th Annual Global Technology, Media and Communications Conference, May-19-2026 02:15 PM",
+  "date": "2026-05-19",
+  "raw_date": "Tuesday, May 19, 2026",
+  "sector": "Information Technology",
+  "industry": "Communications Equipment",
+  "segments": [
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Hi. Good afternoon, everyone. Welcome to the fireside chat here with Arista Networks. I have the pleasure of hosting John McCool, who is the Senior Vice President of Platform Hardware at Arista; Tyson Lamoreaux, I hope that I got that right, SVP of Cloud and AI Networking; and then Rod Hall, who's probably not new to a lot of people, but Investor Relations and Finance at Arista."
+    },
+    {
+      "speaker": "Roderick Hall",
+      "role": "Executives",
+      "text": "Yes. Thanks, Samik. Yes, it's great to be back. Thank you for having us and organizing everything. It's really good to be here. And I'm going to kick off with a couple of points, and then I'm going to get -- we're going to get to your questions. But we -- two high-level themes that I want to flag to people and then I want to make a couple of points.\r\nHigh level, there's 2 things you need to take away from this. One, Arista is extremely good at managing the supply chain. We -- if you go back to COVID and you don't have that -- maybe some of you don't have that history with the company, we went into COVID and ended up doing better than most others in our area in managing supply. And so that's why we've got John McCool here with us because he's the key guy that ran all of that, and we wanted to give you all a chance to hear from him and talk to him.\r\nThe second thing we want to leave you with is that our products are, from a value point of view, absolutely incredible. And we are doing extremely well from a competitive point of view, and that's why Tyson is here because he's Head of our AI and Cloud Networking Group and can, I think, articulate the value of those products really well. So those are the 2 really high-level things we want to say.\r\nLow-level, we know there's going to be a lot of questions on supply. Samik has got a lot of questions for us as he's going to ask, but we are talking about an industry-wide supply problem. We don't believe this is specific to Arista. We've been dealing with supply issues for quite a long time, and we've called out long lead times for some of the components for several quarters now and that continues.\r\nWhat we don't believe is this is necessarily changing anything from a revenue point of view for us. We already are in a situation where we can't ship as much product as we have demand for, and that's been the case for quite a while. But you will have seen in our recent earnings deck that we put out after earnings, we updated it any way, we're talking about a 20% CAGR for 3 years for our revenue, 20% plus. And that's meant to give you some idea of the confidence we've got in our ability to deliver revenue even in the midst of this difficult supply situation.\r\nThe second thing I want to say to you is that our margins remain stable. We have kept our margin guidance unchanged at 62% to 64% for the gross margins for this year. And we do that for a reason because we can demand value for these products. We've already put one pricing change through. We hope not to do any more. We want to be good partners for those customers that we work with, all of our customers. But at the same time, we're a company that has been able to demand value for its products. And I hope, as you hear from Tyson here, you'll get a better feeling for that. That's all I got to say. Over to you, Samik."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Thank you. Thanks. So that's a good overview. Now let's dive deeper, start with supply. We'll come to the cloud companies and the demand drivers in a bit. John, what are you dealing with in terms of biggest constraints on supply? And to Rod's point, how do you see the supply situation now, similar or different to what you had after COVID?"
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "Yes. So different to COVID. So let me just start with supply. What we really see is a demand-supply imbalance, right? And Jayshree talked about on the call demand being greater than anything that she's seen in her tenure. So with that demand, capacity for advanced semiconductors have been put in place 2 years ago for this year that we're facing. As these folks are building out these big AI data centers, they really have 3 constraints. One is energy to fuel those data centers, the physical construction of the data centers and advanced components, whether that be 5-nanometer, 3-nanometer process nodes, advanced memory technology, CoWoS packaging and packaging test, DSPs for fiber optic components. So that's what we've been up against.\r\nIf you take a look at our shipments, if you take the revenue that we had in Q1, plus the deferred revenue, which actually represents physical shipments that we made from our factory, we were able to overcome those supply constraints and grew 54%. But we talked about on the call that we are living in a supply-constrained environment, and it is around those advanced processing nodes."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Any change in prioritization from your vendors in supply chain to Arista because that's been a big topic?"
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "Absolutely. Yes. And just kind of back to the question about COVID and maybe what's different. In COVID, we started out really with a supply constraint. There were no people to build anything. I mean everything stopped. And that started to shift again to a demand profile later in. And if you think about it, that demand, part of it was IT. We were all working at home. There were a lot of computer and desktop upgrades, but we were also buying new cars, we were doing DIY projects and needed drills that had 10 FETs in them. So the things that were short were things that were broadly based across all electronics, whereas this is singularly focused around the components that need to go in AI.\r\nIn terms of prioritization, look, I think we're well represented by our suppliers who have an enormous seat at the table at TSMC as well as our customers. What we saw during COVID is our suppliers that needed to build out advanced networks to support their capability really represented us well. We haven't had to invoke that in terms of this current supply constraint, but I think it's really well recognized that our customers will need networks to connect their GPUs, their CPUs and the underlying pieces that put together their AI infrastructure."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Got it. Got it. Okay. Maybe moving down that path a bit more, let me phrase one more question, and I think Rod touched upon it a little bit, but you've talked about being a good partner to your customers, not doing multiple or aggressive price increases. There was some indication on the call that you could be looking to sort of help customers out and there could be some hit on gross margins on that account. Just maybe address those concerns while also talking to the purchase commitments that you've done and how do those help customers? And do we eventually get to a point in the tightness of the supply chain where some of those aggressive price increases or multiple price increases just become inevitable for you?"
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "Sure. We already saw that with memory. And coming back to the comment about gross margins, what we were saying on the call is we're really going to lean into the business because of the demand. So in Q4, we began to see that sharp increase in memory prices. We went out and secured supply. We made the price adjustments in Q1. So there was some disconnect between the timing of our consumption action against the price increase. And we're going to be aggressive in terms of getting supply to meet this demand and there may be some lag between being able to pass that on to customers. But we absolutely have the value to really bring those price increases forward if there is an underlying cost increase.\r\nOur customers are quite sophisticated. We've been with them for a very long time. So we don't believe in really kind of leveraging this moment to increase prices. They're also very sophisticated to understand the underlying mechanisms that would drive a cost increase. And no one's happy about price increases, but they're open to the conversation and have supported us in the past and are supporting us now with the memory increases that we've made."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Okay. Rod, for you. The decision to upgrade your long-term target to 20% following the earnings call, maybe just walk us through the thought process there and what drove that?"
+    },
+    {
+      "speaker": "Roderick Hall",
+      "role": "Executives",
+      "text": "Yes. Before I say that, I also want to -- John made a point earlier in some of our meetings, we could have increased our margins quite a bit more during COVID and we chose not to do that because of these long-term relationships. So I thought that was a really good point that you made. It's not a commodity company like memory where we just double our margins when we can grab up that margin. We have these long-term relationships. We want to be good partners. So that's something to think about, even though we did keep good margins through that period.\r\nIn terms of the growth CAGR, I mean, I guess what we wanted to do, first of all, mathematically, that number, the mid-teens number we put out back in August didn't make any sense anymore in the light of our 28% growth. So that was one thing we just thought well, gosh, this doesn't make sense mathematically. But secondly, we wanted people to understand that we have confidence in our ability to deliver revenue even in the midst of this situation. So we wanted to just put some highlighter on that, make sure people understand that."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "And higher number would have been more helpful, I can tell you that."
+    },
+    {
+      "speaker": "Roderick Hall",
+      "role": "Executives",
+      "text": "Yes."
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "Yes. The other thing that I think we addressed in that update was around deferred revenue. And as we were having callbacks and discussions, a lot of people conflated to discussions some people are having around order growth with deferred revenue and deferred revenue is actually things that we shipped, we've invoiced, we built and represents the growth of our shipments. So that also is explained a little bit better in that deck."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Okay. So finally, Tyson. You built one of the largest cloud networks in the world before coming to Arista. When you look at now the network architectures that your customers from this side of the lens now, the customers that are designing today versus even a year before or 2 years ago, what surprises you most in terms of how quickly things are evolving with your customers?"
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Well, I mean I think it's the rate and volume of change like -- and what I mean by that on 2 dimensions, the rate of change is just the quick turnover to new architecture. Some of our customers are super ambitious and their goals, objectives are unafraid of putting multiple types of competing architectures into production simultaneously and unafraid to walk away from ones that they determine don't work, don't scale, don't meet their operational criteria. We have some others who are a little bit more methodical and iterative, but their iteration cycle has shrunk. So that rate of change has increased dramatically. We've even seen it in the optics. We've seen it in silicon. It used to be accepted that you would see a new switch every 3 years. And now we're talking about 18-month cycles on accelerators, 18-month cycles on switches. Those go into new architectures. Because the architectures are advancing in parallel to the switches being built, there's sometimes some dissimilarity in terms of what is intended to be done and what can be done.\r\nAnd so you see some of this iteration also apply to taking what they can use today, like maybe a Tomahawk 5 switch and deploying it at smaller scale in an architecture that's intended for something along the lines of Tomahawk 6 or maybe it's going to go out and air cooled and plan to convert it to liquid. But it's energy, it's link speed and transmission rate, it's reliability, it's the radix, the total bandwidth of the switch. You're seeing a lot of stuff evolving around protocols now at a much faster pace as well. The argument around scheduled versus unscheduled fabrics, the argument around switch-assisted computation, the argument around leveraging new protocols like the MRC protocol to be able to do better multipathing using the network silicon to assist in this as opposed to just purely unscheduled fabric, but having a protocol-native mechanism for it.\r\nSo this happens at kind of every customer, but across several customers, and then you look at across our product set and this is where kind of the volume kicks in. It's a lot of parallel change across the entire product stack kind of at the architecture level, at the system level and it doesn't really show any signs of slowing down. I mean we're staring at 1.6T coming, 3.2T is right behind it, optical technologies are evolving into XPO and CPO are coming as well. And then when we look at the clusters, john talked about the constraints in getting data centers online either due to power or real estate or construction or construction-related materials, you start to see things push around distributed training or novel ways of interconnecting locations together to drive inference or a combination of inference and training traffic.\r\nSo I think that this is similar to the cloud in several respects, but so much more on a much more compressed cycle. And hard to see when we're going to reach the peak of it. I mean it still looks like a lot of runway ahead of us to keep going."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Okay. So maybe turning -- going more specific here. A lot of attention recently around one of the large cloud providers publicly describing and detailing a new scale-out accelerator fabric, purpose built with higher radix commercial switching in a flat 2-layer topology, right? It looks on paper like a great fit for Arista?. Just talk to us about how you interpret the specifics there, and whether Arista would be well positioned with that cloud company or not in terms of their new scale-out fabric?"
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Yes. Well, I think your assessment of it looks great on paper, I would agree with. I mean I think that like anything that resembles our Tier 2 leaf spine architecture, higher radix Ethernet, anything that's Ethernet plays very well to our heritage, to the products we've built, to the ongoing investments in R&D that we're driving around the products that we're going to be building in the future. So ignoring the specific customer, generally, we think this is a nice validation for what we've been saying all along, which is open standards, ecosystem, interoperability, Ethernet tends to win out in the end. Customers want choice. They want to be able to choose the best-in-breed suppliers to work with. They need partners who can be an extension of their engineering capabilities and can help them achieve bigger things faster. And when we're talking about this accelerating and compressed innovation cycle, a lot of architectural level, a lot of industry-wide evolution happening.\r\nSupply constraints. You need companies and partners that can move at the level of kind of dynamic that you have and can impedance match. So I think we're very well positioned for this type of architecture in general. I think we're building products that slot into this really well. And I think our company, in terms of its product, its operations, its capabilities also make for a wonderful fit. So we're going to go fight to try to win every one of these Ethernet deals that we possibly can, that's for sure. And we like to be part of the story there at this customer and the others."
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "What's exciting to me about that is if you think about 8 quarters ago, at a conference like this, we'd be talking about this Ethernet even have a role in AI, and that was all InfiniBand. We talked about the back-end network and the potential TAM. We tracked 4 customers. And if you look at our guide now for 2026, 30% of the business will be AI, right? So that's really exciting. And I think the continued validation of Ethernet and the scale-out architectures continue to drive that growth."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Let me ask you a follow-up on that, Tyson. As much as Ethernet adoption broadly is stable for Arista, what are you seeing in the competitive landscape for higher radix switches? I mean, to us, on the analyst side, hieratic switches just seems to be a great fit for Arista, but are you seeing more competition at that level of capability that you particularly do well in?"
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Yes. There certainly are some competitors who are aggressively pushing in for denser, higher radix switches. Some of this is kind of what I would call kind of a mixed modality, which is kind of a multi-RU or multi-OU system with several chips in it, but they kind of operate as disparate independent planes or nodes versus something more sophisticated like our modular chassis, which is kind of the largest that you can get, but it operates as a single unit and substitutes optics and cables for traces, for communication efficiency and in the case of high bandwidth and high link speeds cost savings as well. I mean, it's -- copper is always going to be cheaper than optics. And so we see competitors understanding that there is market for this and entering, but we really think we have great heritage in building here. We have a tremendous team that has been building these products for generations.\r\nNow we've got really sophisticated customers that we've been working with in kind of somewhat of a joint development model, right? We're co-engineering together, looking down the range and saying, what are the constraints that are going to affect kind of our next-generation decision-making? Where do we need to be? Where do we need to place our systems? And that allows us to get out in front and build, in a lot of cases, some of these products that we ship that are pathfinding for our general purpose products, things that you wouldn't find in the Arista catalog on the website, but we're deploying at scale.\r\nI think some of our competitors have recognized that, that level of sophistication exists and those opportunities exist. So they're incented to invest. Whether they can do it as well as we can, I mean, it remains to be seen. I think we're going to continue to focus on relentlessly executing with our customers. And then we generalize those things into architectures and systems that we can sell to the broader market, and that's where the enterprise follows and the Neoclouds consume and kind of slot into that quite well as well. So yes."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Maybe let's talk -- move to talking about scale across a bit. You indicated on the call, it's going to be about roughly 1/3 of your AI revenue this year. Why -- how -- like what drove -- what is driving the number to move so quickly? I mean this was practically nonexistent last year. It is going to be $1 billion almost in revenue, $1 billion or more, I guess, I should say, given your track record. But what's driving the number to move this quickly?"
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Yes. Well, like John said, I mean, the AI revenue even a couple of years ago was almost nonexistent. So that this one can grow independently is not super surprising. We do see some customers that are adopting architectures that heavily feature scale across inherently in their design. They're working around the data center space and power constraints proactively by saying we're going to adopt smaller tens, low hundreds of megawatt facilities, getting them together and construct them into a fashion that inherently requires on a scale across solution. Others are building massive campuses where they're layering in data centers over time on a singular campus and then the scale across works to interconnect all of those together as well.\r\nWe've also seen some novel architectures even on the inference and agentic side where customers are creating more of like an interconnect fabric for inference and access to different clouds and on-prem capabilities to power agentic. Some of it is redundancy, some of it is latency optimization, again, following principles that we've seen similar to kind of Edge computing and cloud really and its evolution into the Edge. And so -- but in terms of like is 30% durable, should we expect that every year, can it grow? When we think about the mix within the AI bucket, I think it's very dynamic still because there are so many architectures running in parallel. There's new systems and new silicon shipping in the next 12 months, another 12, 18 months behind that. These things are going to inevitably affect the architecture that folks are deploying.\r\nI think we're a long way from seeing coalescence onto a common kind of set of design principles in AI. There's still going to continue to be a lot of experimentation. And as long as we're working around constraints, I think we're going to see mix shifts between whether it's a bigger singular facility with a lot of scale out versus more scale across. But I do think, as agentic continues to grow, as it gets commercialized, adopted, enterprises adopt, we're going to see more push to the Edge. That definitely serves -- or we have good products to serve that use case well in the scale across arena."
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "In the early days with the 4 customers 6 quarters ago, it was easy to track these ratios. It's getting really hard because they might build out different pieces of the network at different times. So it's difficult -- more difficult to see the alignment of the ratios..."
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Yes. Customer mix and then architecture choices within them for sure..."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "I mean scale across for inferencing has been coming up more and more. Are you able to delineate when you engage with the customer, whether it's a training, let's scale across or whether it's already planning for inferencing driven by that?"
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Yes and no. I mean, insofar as we have deep engagements with those customers, we have a sense of what we're doing, what we're competing for in the business and what their configuration and their architecture concentrates on and product selection. It's a little bit easier to differentiate. But again, some of these things are very temporal, right? There are decisions that are a moment in time. There are several customers who are building scale across to interconnect data centers, who, if they could gain access to a single gigawatt facility, would much prefer, right?\r\nAnd so they're going to continue to work their own supply chains in parallel, data center side, compute side, storage network and converge it all. So sometimes we're going to be a lagging indicator of some of these decisions, sometimes our mix of our own products and shipments will just reflect some of that customer choice and how they solve for the constraints that they're facing. But broadly speaking, yes, I think the customers who concentrate on agentic, on inference, we can differentiate those pretty easily because there isn't the associated training workload running with it."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "You brought up this earlier, Neoclouds or call it -- or maybe you can even take the segment that's just the Frontier AI labs working on Frontier models. Historically, when we look at the large hyperscaler space, your customers there, you've co-designed, innovated with them. What are you now seeing in terms of engagement model from the Frontier AI labs? Are you co-designing with them as well? What's the magnitude of the breadth of the customer vertical that you're looking at?"
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Yes. Well, you would have seen the press release this month of the MRC protocol spearheaded by OpenAI with a lot of partners, including ourselves. So we are deeply engaged with the Frontier folks. We treat them a lot like our hyperscale customers in terms of knowing that they're super strategic in the industry and the market. We have a lot of faith that they're going to continue to grow. We want to be able to grow with them. We want to be able to support and help power their growth as well. So those tend to be a lot of more deep relationship kind of close co-engineering, engineering extension kind of relationship. Some of them are earlier phase in terms of moving down the stack where they may have started in the cloud and they're taking on more and more of their infrastructure. We're uniquely suited to help come in and help them build to solve those problems. So that is part of our go-to-market motion when we're working with these folks is like how can we help fill in some of the gaps with them on staffing capabilities, architectural choices.\r\nAnd so the motion, I think, and the engagement model looks pretty similar to hyperscalers in many respects with a lot of these Frontier folks. And certainly, even on the Neo side, as they continue to grow and become bigger entities, vice versa kind of -- it actually looks pretty similar there."
+    },
+    {
+      "speaker": "Roderick Hall",
+      "role": "Executives",
+      "text": "I think they recognize that token -- I've been doing some work on token economics. Token production costs are very sensitive to network performance metrics. So if you change latency or jitter just a little bit, you can really -- you can very quickly blow up your token production costs, and they're aware of that. So that's why they're engaging with a company like us."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Actually, on that front, Rod and Tyson, feel free to jump in. How are you guys thinking about networking content per rack if most of the infrastructure going forward is for inferencing, which again, I'm being simplistic here, but as you shift from training to inferencing, as more of the CapEx dollars are diverted to that, how do you think about networking content per rack?"
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Well, if I understand the question correctly, I mean, I think that when we look at our product set and we look at like the experience we have of high-density networking in general, it's kind of replicating itself now in just a different deployment model, right? So if you're talking about inference at the Edge, kind of complete package model, compute co-located with storage co-located with network and then the need to be able to pull from disparate data sources, provide security over the top, I mean, in many respects, it does mirror some of the common patterns of the kind of age of the Internet and the cloud in terms of what the demands are. It's just a lot more density, a lot more demanding, a lot less jitter tolerant, latency tolerant.\r\nAnd so we've had a lot of conversations. And when I joined Arista, within the first couple of weeks, having conversations about the importance of like the rack as the product. And I think if you turn around and you look at the heritage on our largest chassis, the 7800s, there's a lot of technology that slots in very nicely for building these kind of co-engineered, highly integrated networking systems where the network is a piece of the story. And even with things like our CloudVision and APIs of our software, it lends itself very well toward automation and giving customers tools to be able to deploy these things, manage them, monitor the workloads, maintain them, security patch them, identify vulnerabilities to kind of help with partners and some of the other integrations that we have.\r\nSo I think the rack scale networking becomes a logical extension in the moving forward for us. And I think that's true in scale-up domain as well, not just inference at the Edge."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Let me just pause here and see if any questions in the audience. If you have a question, you can raise your hand and we'll get a mic over to you.\r\nOkay. So maybe just continuing on then. One of the things that we've seen more recently is this thesis that's around agentic AI finally being a catalyst around enterprise customers, modernizing both their data centers and campus. Just, one, what -- how are you thinking about that overall sort of thesis? And do you -- are you seeing any evidence of it yet within your discussions with customers?"
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "I think we're seeing a lot of vertical activity around AI and the enterprise for specific use cases, could be health care, financial, a lot of anticipation about agentic AI. I do think it's affecting people's forward-looking decisions, especially around campus and the Edge. Maybe they would have sweat the assets before. Maybe they're leaning in more to higher speeds and higher performance WiFi 7. But I think in terms of broad-based agentic AI, it's not really happening today. But I think it is people thinking about how it will in the future.\r\nOne piece that I think will be important when that day comes is you're going to lose a lot of visibility into what's happening with applications. And when we saw the transition to the client server, there was a lot of consternation about how you would monitor performance of applications. In this world, there will not be a lot of visibility. I think there's a unique opportunity in the network with network observability and the observability architecture we put in to EOS and CloudVision to really get a viewpoint into the topology and activity inside the network that should be an advantage."
+    },
+    {
+      "speaker": "Roderick Hall",
+      "role": "Executives",
+      "text": "I mean the other thing I'd say just as an anecdote, the silly anecdote maybe, but I've got an agent running at home and the thing is actively marketing Arista networking gear to me because I basically told it, \"Look, I'd like you to be able to manage my network.\" It said, \"Well, the stuff you've got not great. I said, \"Well, what should I get?\" It said, \"Well, you really should get Arista, but unfortunately, it's too expensive because it's enterprise gear.\" And I said, \"Well, I have a discount?\" So that's a silly example, but when you get into enterprises and they realize that our API is so rich and broad, that is going, I think, to sort of start selling itself as they begin to use agents to manage their networks, and that's inevitable, I think."
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "And we have our own AVA technology we built on top of CloudVision and NetDB to help customers assist in the build out of their networks and visibility as well."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Before we run out of time, maybe just to hit a couple of topics that are of interest to everyone, XPO. You now have, I think, 100 vendor endorsements, [indiscernible] compared it to OSFP in terms of the run that it could have. How should we think about XPO? What it means for Arista economically in the sense that, yes, you enable a new standard in itself, but how does it play into the revenue opportunity for Arista?"
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "We do sell optics that are Arista optics, Arista-branded optics we sell, but we do also enable our -- especially our cloud and hyperscale customers to procure their own optics. So there is some economic piece around the optic itself, but system readiness is key for us. We invested in the OSFP form factor and the MSA I think back in the 100-gig days anticipating 400-gig. We saw some adoption at 400-gig, but it really became mandatory and a better cooling and thermal dynamic in the 800-gig range. And I would say our market share gains that we made and our competitive differentiation would not have been possible without the OSFP. And I think we'll see XPO in sort of the 1.6 begin to be adopted, but to achieve the density, I don't think you'll be able to achieve it at 3.2 without it. I think you have some kind of use cases where it could be an advantage..."
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Yes, I think that's right. I mean I expect a similar kind of adoption uptake and 1.6T will be the kind of early adoption, but I think the modularity is really great here. You're going to get the density and power savings immediately, power efficiency out of it, but the ability to build a configuration on the fly or specify it to meet exactly what you deploy, if you've got a mix on a DCI use case where you've got ZR optics and you need to half load a system with ZR and you need the other half to be FR MDR internal-facing optics, you can do that very easily with an XPO kind of at deployment, at run time across a diverse supply chain ecosystem. And then you've got field replaceability for reliability and maintenance in the field. So there's going to be some use cases I think that will evolve pretty quickly where you need these mixed modalities of optics where XPO will play quite nicely. And then following on to it, obviously, we are heavily focused on XPO.\r\nYou asked about XPO, but we're also invested in CPO and we have a belief that a lot of the work we're doing around modularity, modularity to the optical engine, some of the manufacturing techniques that are being done and XPO can actually apply directly into CPO as well. It will be hard to ever achieve field replaceability because these optical engines are just super sensitive to contamination. They're super brittle. If you break something in the field, you are boing to break the whole switch. And so that's going to be difficult. But a model whereby you can replace the switch, have it serviced and then repaired and brought back into service later is much better than some of the early CPO stuff where everything is really manufactured, sautered down together at run time, it's a complex manufacturing process, yields are lower, that affects costs and then there's no reparability for it whatsoever.\r\nSo we think these 2 things will play very nicely in the ecosystem together, XPO and CPO. We just think some of the challenges that customers have around density and speeds and feeds are going to dictate that the XPO -- something get there a little sooner and the XPO will come."
+    },
+    {
+      "speaker": "Roderick Hall",
+      "role": "Executives",
+      "text": "XPO is an example of how we stay on the front edge of the learning curve as well because we're always -- it's such a geeky engineering-led company, we're always trying to solve problems for customers. So we're aware probably in advance of just about anybody else in networking what options are coming down the road because we're codeveloping things. So we don't make mistakes strategically thinking that maybe CPO is the only option. And there's others in the industry that bet the ranch on CPO not realizing there're other options maybe that will come along. \r\nSo we're able to distribute our risk across different technologies because we're on the front edge of the learning curve, and that's a really important thing to understand about Arista."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Okay. Maybe just while we wrap up, can you just dive into that a bit because I think there's a broader perception that Arista is delayed in terms of a CPO solution, right? Can you just dive a bit more into what are you seeing from your customers today? And if you were to put time lines around XPO versus CPO, where would you look to intersect the market with an XPO solution? What time line would you expect to intersect the CPO market as well? Or how are you thinking about the cadence of when customers start to adopt these?"
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "I think the vision of CPO really recognized the law of physics where the connector and the chip they're closer together because you just couldn't span the distance and the opportunity to save power by putting -- not duplicating DSPs in your switching chip and in the optics. The problem has been mix and match capability of different optics as well as if an optic breaks, now you're replacing this very expensive switch part. So what we've been able to do working with the industry and the ecosystem is mitigate those downsides with the OSFP and XPO. And eventually, we believe there will have to be a CPO-like form factor, but the thing we're working is to make it really interoperable with multi-vendors and an ecosystem type of approach.\r\nSo as the power goes up, if you get past 3.2, there'll probably be some inevitability for the beginning of CPO in a more broad-based environment. I think you'll start to see some of that also in some deployments in the next couple of years as well, the beginning of it."
+    },
+    {
+      "speaker": "Tyson Lamoreaux",
+      "role": "Executives",
+      "text": "Yes. I think you'll see some uptake on CPO early. I mean, like Rod said, some people are betting the farm on it, betting the ranch on it. They're going to be very aggressive in trying to push it out and inevitably, there will be some adoption, but it's really well suited for certain use cases, a lot of high-density network traffic. So scale up, scale out to some extent plays pretty well, but I think where you're going to really see material adoption is when you start to get some of these other things that customers really want. They want the serviceability, they want the optionality and then the economics kind of fall behind it.\r\nAnd like Rod said, some of that geekiness to us, like it's accretive, right? Our evolution of our thinking on CPO is because a lot of the work on the XPO is a pathfinder to say, \"No, you can package these optical engines up into a meaningful way. You can use an interposer to interconnect those to the silicon. You can still use that silicon kind of instead of a DSP use the SerDes for driving all that signal.\" And now you can actually imagine a world that becomes, from a manufacturing perspective, easier to stack up as you kind of work up through that L10 assembly as well. So kind of what I would expect to see for us broadly in the industry is probably XPO really takes off '28, some early adoption may be late '27, and CPO behind it. There will be some earlier CPO deployments on that for sure. They'll kind of run neck and neck to some extent."
+    },
+    {
+      "speaker": "Samik Chatterjee",
+      "role": "Analysts",
+      "text": "Great. I will wrap it up there, but thank you for coming to the conference. Thank you to the audience as well."
+    },
+    {
+      "speaker": "John McCool",
+      "role": "Executives",
+      "text": "Thanks for having us."
+    }
+  ],
+  "word_count": 6518
+}

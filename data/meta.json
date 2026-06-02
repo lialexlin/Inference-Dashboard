@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-06-01T23:38:18.746382+00:00",
+  "last_refresh_at": "2026-06-02T23:49:18.162964+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-06-01T23:39:08.923659+00:00"
+      "ts": "2026-06-02T23:50:00.995250+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,13 +24,13 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-06-01T23:39:14.162042+00:00"
+      "ts": "2026-06-02T23:50:05.930306+00:00"
     },
     "edgar": {
       "entries": 159,
-      "summarized": 74,
+      "summarized": 73,
       "errors": {},
-      "ts": "2026-06-01T23:39:27.877276+00:00"
+      "ts": "2026-06-02T23:50:20.003488+00:00"
     },
     "ciq": {
       "ok": 62,
@@ -39,15 +39,15 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-06-01T23:38:32.437919+00:00"
+      "ts": "2026-06-02T23:49:30.604342+00:00"
     },
     "scoring": {
       "ok": 63,
       "quadrant_counts": {
-        "fair": 30,
-        "priced-in": 14,
-        "avoid": 9,
-        "underappreciated": 1,
+        "fair": 33,
+        "priced-in": 12,
+        "avoid": 7,
+        "underappreciated": 2,
         "value-trap": 8,
         "unscored": 1
       },
@@ -64,32 +64,32 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-06-01T23:41:47.549634+00:00"
+      "ts": "2026-06-02T23:52:33.563412+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "power",
-          "tightness_score": 69
+          "tightness_score": 72
         },
         {
           "layer_id": "hbm",
           "tightness_score": 68
         },
         {
-          "layer_id": "gpu",
-          "tightness_score": 65
+          "layer_id": "switches",
+          "tightness_score": 68
         }
       ],
-      "ts": "2026-06-01T23:41:47.502861+00:00"
+      "ts": "2026-06-02T23:52:33.516113+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-06-01T23:41:47.492359+00:00"
+      "ts": "2026-06-02T23:52:33.505470+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -100,12 +100,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-06-01T23:41:47.557234+00:00"
+      "ts": "2026-06-02T23:52:33.570927+00:00"
     },
     "transcripts": {
       "ok": 48,
-      "fetched_this_run": 27,
-      "cached": 19,
+      "fetched_this_run": 7,
+      "cached": 39,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -128,13 +128,13 @@
       "errors": {
         "SIEGY": "not found on earningscalls.dev"
       },
-      "total_calls_on_disk": 75,
-      "ts": "2026-06-01T23:41:46.455593+00:00"
+      "total_calls_on_disk": 82,
+      "ts": "2026-06-02T23:52:32.330941+00:00"
     },
     "narrative": {
       "ok": 48,
-      "calls_analyzed": 75,
-      "total_mentions": 4257,
+      "calls_analyzed": 82,
+      "total_mentions": 4457,
       "themes": [
         "supply",
         "demand",
@@ -142,25 +142,25 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-06-01T23:41:46.894000+00:00"
+      "ts": "2026-06-02T23:52:32.788605+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-06-01T23:41:47.497450+00:00"
+      "ts": "2026-06-02T23:52:33.510493+00:00"
     },
     "tw_universe": {
-      "ok": 1961,
-      "stock_count": 1961,
+      "ok": 1959,
+      "stock_count": 1959,
       "sector_count": 71,
-      "latest_date": "2026-06-01",
-      "ts": "2026-06-01T23:42:57.879841+00:00"
+      "latest_date": "2026-06-02",
+      "ts": "2026-06-02T23:53:40.101205+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 276,
-    "total": 302
+    "discovered_kept": 286,
+    "total": 312
   }
 }

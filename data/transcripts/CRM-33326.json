@@ -1,0 +1,367 @@
+{
+  "ticker": "CRM",
+  "symbol_used": "CRM",
+  "call_id": 33326,
+  "source": "earningscalls.dev",
+  "url": "https://earningscalls.dev/transcript/33326",
+  "fetched_at": "2026-06-03T23:50:06.137427+00:00",
+  "company": "Salesforce, Inc.",
+  "call_type": "Presents at 2026 Evercore Global TMT Conference, Jun-03-2026 01:20 PM",
+  "date": "2026-06-03",
+  "raw_date": "Wednesday, June 3, 2026",
+  "sector": "Information Technology",
+  "industry": "Software",
+  "segments": [
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Thanks, everybody. I assume we'll have some folks filtering in after lunch finishes up. But I'm super excited to have Parker Harris with us, Co-Founder and Chief Technology Officer of Salesforce. Just a couple of English majors talking about headless technology, should be good. \r\nSo really excited to have you here. So much going on in the industry around agentic, AI, you've been through so many of these cycles. So it will be fun conversations."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Never been through a cycle like this one, but I've seen the cycles."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "No. No, I don't think anyone has in terms of the pace and [indiscernible] and just sort of size of it. It's pretty amazing. So why don't we just jump into it. And if you have a question, raise your hand, we try to keep this as interactive as possible."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "But -- to your point on cycles, you've been through a bunch. Why -- and we've seen a lot from Salesforce over the last month or so on Headless. Why are you all as a company sort of excited about that as part of the broader AI strategy?"
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Yes. I think we were surprised that we didn't make it the headline of Dreamforce last year. It was kind of a more recent idea, and we launched it at one of our world tours. And the feedback was just phenomenal, like everyone in the press and then on social and our customers are like, well, this is a brilliant strategy. \r\nAnd I think what we're most excited about is just meeting customers where they are. We've had APIs to our service forever. But with the rise of -- and it's also kind of related to Claude Code that really hit that tipping point in February, that the first place we thought is Salesforce should just be easier to configure, to implement, to diagnose and why not vibe code it. So that's like the first step. Like let's open everything up Headless, and you can hit it with that. But then if you look at. And Salesforce always follows consumer trends. Like when we started the company, it was about Amazon, the bookseller, when we launched Chatter, was looking at Facebook. And right now, you look at the model companies and commerce, and there's UI coming into these products.\r\nAnd so part of Headless was also, let's rethink our experience layer, the experience is actually in the Headless layer because you define the user experience and metadata. And we interpret it and we play it out in what we call Lightning. Now that can come to you, but you're not saying what I told you, you should see, you're just telling AI, this is what I want. And so give me my top deals for the quarter. Tell me what trouble tickets or cases that Kirk might ask me about at Evercore, and it paid in that response, beautiful UI, not just a bunch of text. And so it's really the new experience layer. We're seeing customers use it from things like Claude Cowork with OpenAI, ChatGPT, but also from Slack, which I've been spending a lot of time with the past couple of years being a great engagement layer for kind of everything Headless, not just Salesforce but everything in the enterprise."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Okay. We'll definitely talk more about Slack. I guess when you think about the Headless strategy, what does success look like? Is it opening up the TAM again for you in terms of just these people that might not have come through Salesforce traditionally through, say, more of the app layer? Is it -- when you think about where you'd want to be in a year on this strategy, what would you guys think about as success?"
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "I think first and foremost, it's about adoption. So users are moving and they're looking at these new services -- surfaces. Success would be massive adoption of Headless. And I haven't seen the stats of MCPs on the Agentforce side been more close to Slack. But the Slack business unit MCP interface just spiked, we just released it, I don't know, a couple of months ago, and it is just spiked. So the number of people wanting access to that corpus of information is just like. So we're seeing the adoption.\r\nAnd we're talking a lot internally about what are the monetization strategies for this because I think part of the success is also there is our current monetization like let's just get more license revenue and agent may be talking to Salesforce agentically through Headless, but it's talking as a named user because it needs to get the right data with the right security protocols, the right context for that agentic response. So it's a lot of named users. But there's also opportunities for usage-based pricing. And we're talking to our customers and saying, well, where do they want us to go."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. That makes tons of sense. You mentioned Slack. Let's double-click on that a little bit. Probably one of the products when you think about Salesforce that has perhaps the most network effect to it within your customer organizations. How does that feed into sort of the broader headless strategy? Why is that such a great engagement layer for the agentic enterprise? Can you talk to us about that a little bit?"
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Well, take Slack where it was most successful when it started before we ever acquired it, was it with engineering. The engineers would take it real great. I'm going to hook it to get for source code control and Jira for my bug tracking and planning and connect it to my monitoring. Give me all the tools, but don't make me leave what they call the flow of work and just work there in context. And what is amazing about Slack is that expanded from engineering groups to all knowledge workers where they're working together and humans all humans at the time before AI, it's like, great, I can work in Slack. And we're just getting more work done. It wasn't just about communications. It was really about work. \r\nNow it's about AI. It's about getting work done with AI, both as my assistant there. So Slackbot being a native one, but also third parties Claude Cowork in there or my Linear agent, if I'm coding, they're all in Slack because -- and they all want to be in Slack. And it's basically where AI-assisted or more and more AI autonomous work is getting done, but it's where humans are working together with AI with each other. And so Slack calls it multiplayer. When I use like a Codex or a Claude Code, that single player. I'm just working myself with it. And then -- but if I wanted to work with other people, Slack is really the best place for that. And so you'll see more things coming where we're opening up more surfaces where when people want to work together, whether they're coding or they're doing knowledge work, they're in Slack. \r\nAnd by the way, in both Anthropic and OpenAI, like that's all they use, Slack. They have Slack, they have Salesforce. They don't really log into Salesforce because they're sitting in Slack using their models and stuff they've built, sometimes our stuff and working with all of these headless APIs to get their work done."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Has AI given you an opportunity to go back into those customers that might have bought Sales Cloud 10 years ago and say, look, like financial services is a good industry as an example. I guess, it's never been a great Slack industry forever reason. Maybe people are in Bloomberg."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Would you like to buy some Slack?"
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Our CIO is here. You can pitch them. But I think the idea would be you should rethink this in concert with AI? Is that kind of the message your salespeople are trying to reintroduce it to sort of, again, expand the surface area where you've been? And I guess, have you seen early success on that and maybe financial tough one, but other industries."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Well, let's take sales, for example. So we always try to like use everything ourselves first of all, call it [ dog footing. ] And so the sales manager agent, as an example, is this agent that is built on Agentforce that we have all these leads. We have a lead database, all these prospect leads. And there's a lot that we think aren't valuable, like to call them because you're too expensive as an employee to call them, call these because we think [ these are close ].\r\nBut we've taken all the leads. We think or lower value, and we've put them on this -- the sales manager agent, which agentically is having conversations with our customers over Vimo, WhatsApp voice is coming where they maybe call you. But it's not a one-way batch and blast like market automation like, hey, you're interested in Salesforce automation. And see if they clicked and then somebody calls it, it's a multiparty conversation back and forth. So that's an example where we can go back into a customer and say, would you like to close more business without adding more humans we can help you do that. Or the qualified great acquisition, ex Salesforce team came back in recently come to the website and just engaging with the customer on the website as an agent to get that prospect to the right place where maybe they'll even buy or they'll hand off to a human. \r\nAnd so there's huge opportunities that we have just to go back on the customer base and say, are you in agentic enterprise? Have you found more productivity with AI or not? And if you've not done any of that, we can help you get there."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "And you mentioned sort of monetization around the Headless list concept. I mean you guys had the app exchange for a long time, right, for API-based sort of revenue stream. I mean, should we sort of think about that in a similar vein, whereas you can still buy agents directly from Salesforce, you can build within Lightning? Or look, you might be able to build agents on Claude, hit, hit, come in through the MCP server and get data that way. Is that sort of the way we should think about it? And I guess, from your perspective, again, you're just trying to meet the customers where they are. Is that kind of idea?"
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Yes, so we have an agent exchange and agents can be built an Agentforce, a third parties. They can -- if it's built on an Agentforce, it's not going through MCP. It's just native or third parties can go through the MCP interfaces. Customers are building some themselves, which is totally cool. We're just trying to solve what is that use case they're trying to solve. And is it more sales? Is it happier customers in the service department? Is it lead gen and market automation whatever it is. \r\nAnd we're going to do our best to provide services that I guess just you can do it, but it's going to be easier or better with us. But we have been true ever since we started the company. When we started the company, -- we call it Salesforce.com. When we started the company, we like we we're probably going to do more than Salesforce Automation, should we pick a different name, didn't pick a different name and people have told us like change your name. But we had Salesforce Automation and then you have customer service with [ Siebel ] or whatever, like, great, we will integrate. And so we always want to where they are and whatever they're doing. But we'll still pitch in these customers, the integrated platform and just all from us, it's going to be easier and probably cheaper for you long term and just cost to maintain and run."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Okay. Agentforce has been out there now for maybe 18 months. And what have you all learned in terms of adoption, sort of removing the friction, what if companies that are seeing real success with it done correctly? And how do you sort of expand that out to the rest of the year...."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Who many times the people use the word for deployed engineer exactly..."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Plenty."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Plenty. It's a new term and a number of other companies kind of coined that phrase. I think one of the things we learned which is kind of obvious is agentic AI is nondeterministic which we know. And so but you don't want in your call center, like it could do multiple things. We can't tell you exactly what it will do, but we'd like it to -- that's not a great answer is like how is my portfolio doing? Like do you want to give the right answer. You wanted to have the right context. \r\nSo what we found is being in the customer, and it's no longer about being in the customer in the sales process and saying, here's a demonstration of what we can do for you is we're like, why don't we build it with you. We have agentic coding now, we can mitigate the entire platform really, really fast. And we want to show you how it's working. And then we want to work with you to make it successful. So that's one thing. \r\nAnother thing is that determinism a non-determinism, in the harness of agent force, we started out just saying, well, the models are going to keep getting better. And so when I say do these 10 things in this order, that's great. It will do that. It turns out 9 times out of 10, it does. I want it at 10 times out a 10. And a lot of companies are doing this, we've pulled out some of what is really deterministic logic, which is workflow basically. And we built Agent Script, which is essentially a way and an ICI to basically script out what do you want the agent to do like coming into the website, ask them who they are or have a pilot claim for insurance is a series of steps you need to do. And in each of those steps, some of those could be nondeterministic AI through a LLM, something that kind of interaction, so mixing the 2 together. And that's been really successful is -- and it's actually faster and cheaper because you're not hitting tokens to do some of those things that you really don't need to model for. \r\nAnd so what we found is, these things are brilliant brains, but you don't use them for everything. And I think what we first did is like, well, great, let's just have to do everything and turns out they're not graded everything."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. And you all have obviously invested in Anthropic and a number of these native AI companies."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Yes. Yes."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. So that's good was a good one."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "That's a good one. Yes. Well, we like to sell [ John Somers ], but not enough. You didn't see where it was going enough."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Always too little after..."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Too little, too little, yes."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "but one of the questions you bring up around this sort of harness and orchestration concept is that where the value has to accrue longer term for companies that want to participate in this genic world, meaning to your point, the base level of intelligence for models will continue to get better over time. So when you think about how you differentiate, how you deliver value to customers, does it need to be your sort of ability to take that brain and then deliver sort of customer value on top of it? And is that -- do you -- and I guess the second part of the question would be like, is that durable? Meaning is that the delta between what of intelligent models, the intelligence, again, will keep get better. Is it durable? Is that sort of value-add at the orchestration level, durable."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Well, I don't think it's just orchestration. It is the -- like everything we're doing is the Headless. Because we're not building the models. We're using multiple models, mixing them for the right use cases, some for performance for cost. And when we say Headless like agent force, the entire ad bores, you can call it, harness because it's basically using these models to do customer service to do sales. We've got orchestration in there. We have telemetry for monitoring. We've got e-vals or testing the output of it can then get used to update the whole configuration the prompts and everything. And so that's hugely defensible. We've always been a CRM company. That's our wire ticker CRM. We will stay in that lane. And we're not trying to be a multipurpose like -- just like use us for any sort of AI. We're going to be CRM enhanced with AI autonomous. \r\nAnd yes, I do think that's defensible. And we can also take 27 years of our customer base, the implementations, the business logic, the metadata, all of that's already out there. And they're asking us our massive Salesforce are like, hey, take us to the future because we have those trusted relationships. So I think that's also a huge advantage we have. And then we're taking them there. And we keep using these better and better models, but the models don't have the context. And they don't have the context that is secure, like we don't put all the data in the model. It doesn't have the exact right context for the question because if you put too much data to the model, it has a hard time or you spend a ton of money or both. And so all of that I think is kind of a differentiated..."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "And you mentioned data, obviously, bought Informatica, you had data cloud before that. How important has that been for you all to build a data platform in the back to complement Agentforce?"
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "I mean we can call it context now because it's a cool word. Yes, we built our Data Cloud, which is really 2 things. One is the data platform for collecting data, but also a data activation platform that connects all the other data platforms out there. MuleSoft for API management, Informatica has been an incredible acquisition. It's exceeded our expectations in the first full quarter, yes. So it's been great for the business. \r\nBut I think we have too many brands right now, people know these brands, so it's fine. But we were doing customer mastering that's very important. We weren't doing product mastering. So our customers, our financial instrument would be a product, or a car from for whoever. Informatica has an amazing MDM solution for things like product mastering. And if you're an agent and you want to talk to get the right context, you want to get the right context on I'm going to the car website, and I want to buy a car, which car, you want the context, all the contacts for that product. And so mastering that is super important.\r\nAnd our vision is not that all the data is there is going to take to make that work. It's a logical semantic onto logic, maybe is better where these days layer that combines the metadata of the history of sales force with metadata from Informatica, it hears all these other data sources with metadata from MuleSoft, of -- here's all these other API-connected data sources with Tableau, which is a semantic layer to understand what is the semantic meaning of all this data. All of that comes together and gives us that rich context layer that AI can then use. So it's a huge event. I'm so happy we're able to get Informatica."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. Is connecting data to the agents still the biggest challenge for a lot of your customers in terms of sort of the promise, and the reality right now."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "It's not connecting the data, it's the AI shows them where the data is not clean, it's not right. They haven't mastered it. we even found that when we -- I think we were perfect, but [indiscernible], when we stood up our help.salesforce.com Agentforce agent's, they started showing us where -- in our data sources wasn't it wasn't clean, was it quite right. So we had to go and fix that. And we had all the tools, obviously, with our products to do that. And so getting your data right is definitely that first step for any success with AI."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Any questions? I have a bunch more, I'll open it up. Okay. I'll keep going. I think the next one -- trying to think next one. Verticalization for you all and bringing sort of more -- it seems to me like in an AI world, the ability to bring an agent that not only understands the sort of domain and in terms of being a salesperson understands the context and then actually maybe even the nomenclature that goes into a different industry something that might become more valuable over time. I think through AppExchange, you all let some of your -- like Aviva went out and sort of originally did that in pharma. \r\nHow do you think about that going forward for you all because I could see having sales agents that are tuned for retail might be different than insurance that might be different from financial services. So I know [ David Schmaier ] spent a lot of time on this topic, and I talk to him a lot about this topic."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "I mean shootout to [indiscernible] earlier, former co-CEO he really started the motion to go industry vertical, which originally, our sales engineers would just go and say, sure, I can take Salesforce and I'll just configure it for banking, retail banking or investment banking. But then we realize it's more than just the data model. And so like when you -- everybody is talking about vibe coding your CRM is like, yes, you can create a data model, but it's far more than that. And so I think we have a huge advantage as you go deeper into our product line and you look at our industry verticals, we have a lot of industry vertical business processes built out. We are building out industry vertical Agentforce agent's. And Agentforce skills and topics that you can use in your industry that understand an insurance claim, understand, I know your customer motion in banking, understand like I'm trying to think of other examples, but just to understand all of those.\r\nAnd instead of handing you a horizontal here you go, it's a toolkit, go at it, we can hit out of the box, and it keeps getting better. And we're exploring with our research group. How do we -- how could we -- might we fine-tune some smaller models that are industry-specific that really underban the business process that industry to make them even smarter."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "And that sort of relates to my next question, I think I know the answer will be. But I expect you all believe that this is going to be a multi-model world where you're going to be using the right model for the right action for the -- in the right, again, context. Is that happening already underneath Agentforce, meaning if someone ask a fairly simple question. You don't necessarily need a frontier model, or you might just want an open source model or some -- to your point, a small language model. Is that already going on? And how, I guess, instantaneous is that when you put in a prompt as Agentforce is smart enough to know the context of the question, so I can go to the right model, get the right answer? Or is that still a little bit..."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Exactly like that. It's more like the core reasoning loop, the large foundation models are really useful like to reason what you want. To then voice has its own models to do checking on ethics or violations that could be a simpler model. Just understanding the question of what did they -- were they asking and parsing it out in the right way, can be a smaller model. And so we're -- the first step is not like a cost optimization. It's like let's choose the right model for the use case because often, it's a performance thing like I don't need to run through 1 trillion parameter model due to the simple use case and by the way, it can be expensive and it's going to take too long. \r\nAnd so quality is the first step, but then performance and cost will be the next to you. And so we're mixing models all over. And we can do it at run time. We can mix and match. I think we will head in the future, we will look at should we have fine-tuned models per customer for some of those use cases that maybe we're dynamically updating the models from each customer, like we wouldn't mix the data. So that's another idea.\r\nAnd finally, like we're always looking at, well, what's the next frontier model that what can it give me? And will the next Anthropic model or OpenAI, 2 biggest ones, but -- we also look at companies like Mistral that we're invested in and Cohere and other model companies who look at what do they have. We've shied away from the Chinese model for various reasons, a lot of which are -- we sell a lot to the U.S. government."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Right. Maybe you could help me with the question I get a lot, which is there's obviously going to be some workflows that are deterministic, meaning if you have a policy around CPQ, you can't just model come up with sort of guest. It can't be -- how does that get integrated? You mentioned maybe it's the agent script point you made earlier about like how do you start mixing in the benefits of both probabilistic models, but also within sort of the parameters of having deterministic outcomes to some degree. You can't have salespeople being like, all right, like close enough on discount..."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Yes. I think one of the best examples is a company called Regrello that we launched, which I thing is called Agentforce Operations?"
+    },
+    {
+      "speaker": "Unknown Executive",
+      "role": "Executives",
+      "text": "Operations."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Yes. We never changed the names of our products but it at design time uses AI heavily. So trying to understand the business process of a corporation that's not written down. It's like, well, oh, you want to give a discount on professional services. That's actually an internal example where -- we wanted to -- for a customer, I want to give them highly discounted professional services in the deal for the implementation.\r\nOh, well, to do that, you need approval from these 3 humans. You need to go on these 4 systems. And it can look at all the data you could draw a diagram, you can parse it or you can look at some of the e-mails that are going around. And it's using AI to understand, well, what is the real human business process, but then it takes that and it turns it into workflow because at run time, it doesn't need to be the AI running that process. It's like, first, I'm going to ask Kirk for an approval to be an e-mail and then when he really says, yes, but I'm going to go to this person to make sure the system -- and it's obvious what it is, but figuring that out, we acquired in an agenetic process. \r\nAnd so I think more and more, you're going to see that. And so like companies like Dell are like, well, we're saving a ton of money. We used to call it supply chain was the first here we use because they use it in their supply chain area, but it was just simplifying their internal business processes significantly."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "We obviously talk a lot about agentic. And I feel like we're sometimes in a little bit of a bubble when we talk about this in the industry. When you go out and talk to CIOs or you're talking to some of your bigger partners, I mean, how early are we? I feel like everybody wants the agentic enterprise tomorrow, but when you go out and talk to customers."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "I think we're really early. I mean, we're still super early. Right now, the hot area that's getting automated, it's customer service. That's where you see a lot of little start-ups. That's where we're playing. And then in collaboration with Slack and Slackbot and see Claude Cowork as an example, obviously, coding is a huge area. But yes, I mean those are the areas that we see right now."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Okay. And any industry you think that's farther ahead, the ones that are more regulated, seem to be obvious, that will take a little while longer in certain functions."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "I think it's more like the CIO. It's more of the leadership of the company, are they leaning in or not? I was just in France. I was meeting with the [ Adecco ] which is a big recruiter. And they're going all in, they source temporary labor contractors to corporations of all sizes. And I went out to one of their recruiting offices because I wanted to see our software and use. And so they were using Einstein for sales. So that's machine learning. So just like just help me understand the score some leads and score the this candidate and is this a good candidate, matched this candidate with the right thing. So that's machine learning. Then it was using Agentforce to that outbound to have an interaction with a candidate. But it was because Pierre Matuchet, the CIO is an amazing CIO, and he's forward leaning and he's going all in, and he's figuring it out. \r\nAnd so I think it's -- and then it's about like are you taking the right problem to solve and there's a lot of DIY out there that some has worked a lot has failed. I mean that's selfishly saying, let us help you. So that's another thing we're seeing. But it's still super early. And I think with AI, the demonstrations are so compelling, we think everyone is doing it, and we all have this fomo, well, I got to do it. And that's why a year ago, every CEO said, everybody do AI. And everybody bought various tools and do stuff. And now we're seeing more consolidation and more use case by use case success."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "One thing I forgot to ask when we're talking a Headless earlier in the conversation is, it seemed to be that Headless in a market that's moving this fast lets the customer understand that they have optionality with you, meaning you're not boxing them in, and I'd imagine at a time where a lot of CIOs frankly, aren't sure in which way they might want to go 2 or 3 years from now that's actually a benefit, meaning I can count on you all to be flexible with me because every organization is going to have to be somewhat flexible in an AI world."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "It's resounded incredibly well, and we just want to meet people where they are and where they are is moving. And we have built user experiences for 27 years. We think -- and you can customize them, but we think this is the first version that makes the most sense for you for sales, service. And maybe the future is not that at all and how I interact with enterprise solutions is going to be personalized just for me. And maybe it's not me, it's my agent or agents. I mean, you look at how people are coding, they're managers of agents now, like, rate the spec and test it and do. \r\nI think every job function will move in that direction. And we want to meet the customer where they are. So what surface do you want to do that? And what user experience do you want? If you want to vibe code a new UI for part of Salesforce, go for it. And you can use parts of what you've already configured and you can build your own. If that's valuable to you, great. If you want to use it and have it surface in these other tools, great. if you want to be multiplayer and have multiple [indiscernible] working together, we still think Slack is the best. If you want to use Teams, many people have Teams, obviously, I think Slack is way better. we will help you use Teams as a service. And I think the world is moving so fast, we can't predict where it's going to be -- we all have to be super flexible and super fast and move with the same pace."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "You've obviously been at Salesforce since the beginning. Are you pleased with the agility. I mean it's a big company. So to move -- I think there's sometimes a view of like inhibitor dilemma or those kind of things with companies. But do you feel good about the level of velocity that's going on..."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "I credit Marc Benioff. I think he is an incredible entrepreneur. And he's like, he's talked about a inhibitor dilemma, we have to go rethink how we're organized a -- should we when we think about forward deployed engineers, we have sales engineers. Well, what's the different -- if we're not building demos, how should we think about that? Should we deploy them more out into where the business is happening. And so Headless, yes, let's go all in on it. And so I'm very pleased with the rate of change that we're driving. We have an internal process called the V2MOM that helps us stay a line, and we just keep rewriting it because it keeps changing. \r\nBut that's how tone from the top, change, try some things, don't be afraid to fail, and that's coming from Marc, and then use that V2MOM process to say like we're changing now. Now everybody we're at, here's how we need to align. But it's never perfect. I just talked to some of the leadership in our technology and product organization, like they're asking how do we take more chances and do more. So we've got to keep hammering on it."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. You're obviously very in the weeds on all the tech. And just out of curiosity, what's the sort of idiosyncratic thing that you guys have broken through on more recently that perhaps only you would find it interesting, but I'm kind of curious what you're spending time on, maybe that's in the bells of the technology, whether it's data, governance model."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "A lot of it has been for me personally has been in the Slack business unit. And the breakthroughs I'm seeing is, how do you think about multiplayer Claude Code where multiple people are working together with AI to build something. And that could also be Cowork, or it could be Codex or it could be linear. \r\nSo it's a breakthrough of thinking about, well, Slack as the channel-based experience you're doing work together. And it's all human based, and we're bringing agents in and what if that agent is building code or writing an S-1 to go for it. Maybe Anthropic, using Anthropic to rates on that would be interesting. But how do we do that together? And so what is that experience? What's the identity of the agent, who like -- and how do you bring it all in together. And so it's not -- maybe it's not the sexiest answer of like, oh, we've figured out this identic loop for that. But it's really more of the user experience. And I think change happens at the user experience layer. \r\nWhen Steve Jobs launched the iPhone is like, well, the world has changed because of the experience, the battery didn't last day, the outport may be the best, but it was the experience. And so if you think of the company, we're really leaning in harder on what is the experience of the future, and we're trying a lot of ideas, in Slack how -- what is the experience of many people working together with AI."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "And is that pretty much the operating environment at Salesforce now? It's everybody in Slack? Is that..."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "100%. We all in Slack. We're all using Slackbot. I mean Slackbot as an agentic agent helping people, the adoption rate is the fastest I have ever seen of any feature we built. And it's helping everybody get their jobs done, and it's phenomenal. And so everybody is like, we now have just we had a big -- we have lots of meetings -- we just had a big meeting in Las Vegas -- Los Angeles with our top 500 people. And we launched internally Tableau Analytics in Slack, but implemented for every -- all of our regions and all of our sellers, so they can run their business like instead of going into Tableau or into Salesforce or something they built themselves pulling data out and putting it in Excel got for a bit. They're just living in Slack, running their book of business and what's my pipe for the quarter? What are my top deals, what I have closed so far, who has trouble? That's all happening in Slack with Tableau tied to all the data. \r\nAnd it's a great use case to go to sell because they could say like, hopefully, they're not showing everything, but Kirk, let me show you how I'm running my business at Salesforce, and here it is. And it's a really compelling way to tell."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. That was my next question, actually, which was, it was a reference selling, software choice but reference, anything in the [indiscernible] is reference selling."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "I mean certainly selling Salesforce automation, if you're a salesperson [indiscernible] use our tools. It's very easy."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "And do you think that Slack but what you showed to customers kind of changes their perception perhaps about there -- where you can go with your technology?"
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Yes. [indiscernible] the team shop where they're like that. We don't need another chat tool. And we're like, yes, but can I do this? And they're like, oh, wow, and it's tied to Salesforce. And we have Salesforce channels and Slack, all the data is there and Tableau Analytics, all my work. Everything is there. It changes how they think. But we have more work to do there."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Anything in particular you think you have more work to do?"
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "I think we have more work to do on both enabling with our teams of like telling that story and coexist with Microsoft Teams. Like in Slack, you can now join Teams Meetings, It can -- you can MCP to the team's data Black Box could use that data if you're working -- also working in Teams. But people -- most customers I talk to, they're not working in Teams. They're using Teams for video and they're using Teams for direct messaging, which is a little bit of work, but they're not really working together deeply on something. And so -- but we have more work to do on and getting some IP out there."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Just because I think it gets off a little bit. I mean, I think Marc talked about Slack getting the $10 billion at some point in time. What's the -- is the monetization sort of thought process behind Slack changed at all because of this?"
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Yes. Yes. So the monetization is still very much license based. We move you up in the additions. And so you want more access and more Slackbot, you move up in addition. So that's a typical motion really successful. It's one of our best executing business units. But we also see opportunities for some additional usage-based pricing to come out, which we haven't been out yet, but we're  talking about working on, everyone wants their Slack corpus of data. All our partners want access to the APIs, the [indiscernible] products because now with agentic AI the intelligence you can derive from all of the unstructured data in Slack and the messages, the files, all the collaboration is a huge asset. And that's what you can see in Slackbot, but maybe one of these some other tools. And so we can monetize that as well the access to all that."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes, pretty amazing amount of context from a business is in Slack for a lot of them."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "It's shocking, yes."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "I got one more, unless anybody else has a question. All right. All right. Kind of an open-ended one, sort of maybe a softball to some degree. But yes, what's -- if you guys win in agentic enterprise, right, what would you view as success over the next couple of years? Like, obviously, adoption, you mentioned it earlier. Is it Slack becoming -- from a lot of your customers becoming the operating system for them is that what are the I don't know, KPIs to some degree that you're keeping an eye on to know that you're right track around agentic..."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "I would like to see Slack become the interface for getting work done for sure. And I think we are well on our way to that. I think success is also that you can clearly see how the enterprise has changed with a combination of human workers and digital workers and that's reflected in our solutions, making that possible, but it's also reflected in our numbers where you're seeing like, okay, that's amazing. This company is so much more productive because 1/3 or half of the workforce is digital labor and AR investors can see and that value is now seen in these mix of license and consumption-based revenue. And I think -- we're still on the evolution to consumption-based revenue. You see it. We've had it. Marketing Cloud has had for years. Agentforce is doing really, really well. Data Cloud is doing, you know. \r\nBut I want to see that like really clear in the market, and it's not just our pricing and our revenue there, but what has it done to the customer base? Like how does that show up where, wow, your call centers have the size and those people are now doing other higher-level jobs, and your customers are happy. And by the way, it's also a revenue-generating center because everything is blending now. It's like this was true before with the agents that they don't care if I'm a service agent, but I could also tell you like, I could upsell you on something. So that's kind of the future I see."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Agentic work units, is a something you are keeping an eye on."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Yes, it's -- we really were trying to move away from tokens. I mean, because tokens are not a great measurement of did something really get done..."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Not really, token has value."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "This is how much we've paid model providers and helps with their like it's kind of like leaderboards for vibe coding and what's your -- are you token maxing and who's using the most tokens to vibe code. And if you read about that, people say, well, that's a terrible metric because people are just going to try to use the most tokens and it's not really a right metric for output. And so AWS is definitely the right metric. We're trying to tie Slack to that metric as well as that drives a lot of agentic work units. And then from agentic work units to outcome also."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Great. Yes, we're right at time. Parker, thanks very much for being with us."
+    },
+    {
+      "speaker": "Parker Harris",
+      "role": "Executives",
+      "text": "Thanks. Really appreciate it. Thank you for having me."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Thanks a lot. Thanks, everybody."
+    }
+  ],
+  "word_count": 7347
+}

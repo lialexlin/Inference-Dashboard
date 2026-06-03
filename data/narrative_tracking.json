@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T23:52:32.772704+00:00",
+  "generated_at": "2026-06-03T23:50:25.960431+00:00",
   "by_ticker": {
     "AMAT": [
       {
@@ -1392,6 +1392,165 @@
       }
     ],
     "ANET": [
+      {
+        "call_id": 33263,
+        "date": "2026-06-03",
+        "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-03-2026 07:45 AM",
+        "url": "https://earningscalls.dev/transcript/33263",
+        "themes": {
+          "supply": {
+            "mentions": 9,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 8
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Jayshree Ullal",
+                "role": "Executives",
+                "text": "Because what's happening is the material shortages here is as you start to build more complex processes with chip-on-wafer then you got to build fab capacity for 2-nanometer, 3, 5, 7, but we still have all the processes that we need to address, right?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Todd Nightingale",
+                "role": "Executives",
+                "text": "I mean, one is to ensure that the operations at Arista are smooth that we're always able to deliver to the customers that need it and supply everything worldwide."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "So a question for both that was referenced on the last conference call, you spoke about decommits of supply chains and..."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Todd Nightingale",
+                "role": "Executives",
+                "text": "And that means we have to push on the supply chain to be able to serve that, to be able to drive material needed."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "So 2 years ago, 1 year ago, we spoke about memory, memory supply constraints."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 6,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 2,
+              "negative": 0,
+              "neutral": 4
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "What do you need to do in order to make it, as Jayshree said, like a giant business, a big business in the future?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "So elaborate on this, what do you need to do with the go-to-market in order to address the broader market?"
+              },
+              {
+                "tone": "positive",
+                "speaker": "Todd Nightingale",
+                "role": "Executives",
+                "text": "I'll just add, there's surging demand right now."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Todd Nightingale",
+                "role": "Executives",
+                "text": "We started to see surging demand on the CPU as well as the GPU side."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Jayshree Ullal",
+                "role": "Executives",
+                "text": "And any delays we have this year, doesn't mean our orders or our customers go away?"
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 5,
+            "tone_score": -1.0,
+            "counts": {
+              "positive": 0,
+              "negative": 1,
+              "neutral": 4
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Jayshree Ullal",
+                "role": "Executives",
+                "text": "Now having said that, some of this CapEx is just stunning to me."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Jayshree Ullal",
+                "role": "Executives",
+                "text": "We never thought of CapEx in the trillions, let alone billions back when we started this."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Jayshree Ullal",
+                "role": "Executives",
+                "text": "So it's important to understand, though, that the CapEx has many, many pieces to it."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Jayshree Ullal",
+                "role": "Executives",
+                "text": "So the ability to -- for this CapEx to continue growing, I think is high just because -- it's not only the large hyperscalers."
+              },
+              {
+                "tone": "negative",
+                "speaker": "Jayshree Ullal",
+                "role": "Executives",
+                "text": "We had a cloud super cycle back in the 2016 through '18 where deferred wasn't as big but neither was the CapEx, but it was easily 10% to 15% of our revenue because people were putting in Neocloud data centers, our products were new, they were going through 100-gig back then super cycle, sometimes it was a use case in the leaf, sometimes it was in spine, sometimes it is at the edge."
+              }
+            ]
+          },
+          "lead_times": {
+            "mentions": 1,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 1
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Jayshree Ullal",
+                "role": "Executives",
+                "text": "And then it changes the lead time."
+              }
+            ]
+          },
+          "pricing": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          }
+        },
+        "mentions_total": 21
+      },
       {
         "call_id": 33097,
         "date": "2026-06-02",
@@ -3503,6 +3662,98 @@
     ],
     "CRM": [
       {
+        "call_id": 33326,
+        "date": "2026-06-03",
+        "call_type": "Presents at 2026 Evercore Global TMT Conference, Jun-03-2026 01:20 PM",
+        "url": "https://earningscalls.dev/transcript/33326",
+        "themes": {
+          "supply": {
+            "mentions": 1,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 1
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Parker Harris",
+                "role": "Executives",
+                "text": "We used to call it supply chain was the first here we use because they use it in their supply chain area, but it was just simplifying their internal business processes significantly."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 1,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 1
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Parker Harris",
+                "role": "Executives",
+                "text": "And so when I say do these 10 things in this order, that's great."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 3,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 3
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Parker Harris",
+                "role": "Executives",
+                "text": "But there's also opportunities for usage-based pricing."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Parker Harris",
+                "role": "Executives",
+                "text": "But we also see opportunities for some additional usage-based pricing to come out, which we haven't been out yet, but we're talking about working on, everyone wants their Slack corpus of data."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Parker Harris",
+                "role": "Executives",
+                "text": "But I want to see that like really clear in the market, and it's not just our pricing and our revenue there, but what has it done to the customer base?"
+              }
+            ]
+          }
+        },
+        "mentions_total": 5
+      },
+      {
         "call_id": 33106,
         "date": "2026-06-02",
         "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-02-2026 11:20 AM",
@@ -3858,6 +4109,189 @@
       }
     ],
     "CRWV": [
+      {
+        "call_id": 33288,
+        "date": "2026-06-03",
+        "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-03-2026 10:40 AM",
+        "url": "https://earningscalls.dev/transcript/33288",
+        "themes": {
+          "supply": {
+            "mentions": 10,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 9
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "And I think the way we think about how we allocate capacity because it really is an allocation conversation is one of you want to -- like hyperscalers are really nice in that they also give you a prepayment, right, a lot of the time, and that gives you a more effective way of financing."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "When we build enough data center capacity, we'll bring all the capacity in-house."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "Like I would say a similar thing about focusing our kind of efforts on procuring liquid cool data center capacity back in 2024, right, building ahead of GB coming out in 2025."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "Talk about the operational risk, talk about the operational challenges in bringing capacity online to meet your liabilities or your commitments."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "And what about supply constraints?"
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 15,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 14
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "And what it allows you to is to take advantage of the increasing demand for this technology such that a contract 2 or 3 years -- or a piece of [indiscernible] 2 or 3 years from now might be more valuable and you might get a higher price than what you're charging today."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "Already, you are seeing like even our reliance, like when we went public, Microsoft was 85% of our revenue backlog right?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "We are seeing it show up in our pipeline with a long tail of enterprise customers who want to consume this technology directly as opposed to indirectly."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "How we think about it is directly informed by the pipeline, right?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "Like in 2023 and 2024, even for a lot of last year, it seemed almost contrarian to believe that this cycle was going to continue in orders of magnitude larger."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 6,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 6
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "2/3 of the CapEx goes towards what goes inside and about 1/3 is the shell itself."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "So I think it stands to reason that for the portion of a hyperscaler book that is leased, that they probably are going to want to not only avoid the CapEx of the shell but avoid the CapEx of what goes inside given it's twice as expensive."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "Spending CapEx growth has been phenomenal for the last 2 years, including this year."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "Scaling technology often comes without capital intensity, scaling infrastructure never comes without capital intensity."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "And so you got to start, right, with that core foundation with the beauty of it being, hey, a 5-year contract is going to pay for all the financing costs and all the CapEx associated with standing up that cluster."
+              }
+            ]
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 16,
+            "tone_score": 0.5,
+            "counts": {
+              "positive": 6,
+              "negative": 2,
+              "neutral": 8
+            },
+            "quotes": [
+              {
+                "tone": "negative",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "And what it also allows you to do economically is ultimately charge a higher price per GPU hour while still delivering a lower TCO to our customer because you are delivering a much more efficient and performant product."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "If you're committed for fewer years, you're willing to pay a higher price."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "And what it allows you to is to take advantage of the increasing demand for this technology such that a contract 2 or 3 years -- or a piece of [indiscernible] 2 or 3 years from now might be more valuable and you might get a higher price than what you're charging today."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "We're selling hoppers today at higher prices than we were 3 years ago."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Nicholas Robbins",
+                "role": "Executives",
+                "text": "And that what it exposes you to is a higher margin, a higher ASP, right?"
+              }
+            ]
+          }
+        },
+        "mentions_total": 47
+      },
       {
         "call_id": 31587,
         "date": "2026-05-19",
@@ -6162,6 +6596,158 @@
     ],
     "HPE": [
       {
+        "call_id": 33299,
+        "date": "2026-06-03",
+        "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-03-2026 11:20 AM",
+        "url": "https://earningscalls.dev/transcript/33299",
+        "themes": {
+          "supply": {
+            "mentions": 8,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 8
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Wamsi Mohan",
+                "role": "Analysts",
+                "text": "Are you doing anything with LTAs, are you doing anything in terms of procuring how much supply do you have access to?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Wamsi Mohan",
+                "role": "Analysts",
+                "text": "Because I think supply, I think you said it was a gating factor in road."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "And so one of the areas when I talk to the Head of Supply Chain, they're definitely very cognizant that they want to keep us healthy and our competitor is healthy, frankly."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "So all of that kind of comes in, it's just -- it's talking to them -- talking to our supply chain all the time, talking to all of our partners and working with them."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "And as Antonio said on the call, if we had more supply, you would see upside because demand is not an issue."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 15,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 1,
+              "negative": 1,
+              "neutral": 13
+            },
+            "quotes": [
+              {
+                "tone": "negative",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "And just in general, I think the idea that customers continue to come and like I said, triple-digit order growth in the quarter, no signs of slowdown."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "I would say that we're seeing and we talked about this quarter, we're seeing triple-digit order growth in the quarter."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "We are -- we have the highest backlog that we've ever had, a record backlog."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "Our pipeline is multiples of our backlog."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "But in general, we believe this is just sustainable demand."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 12,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 6,
+              "negative": 0,
+              "neutral": 6
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "Clearly, there's a reason when you've seen ASPs increased as much as they have over the last year, that customers are still saying, hey, we want to buy, we're going to start new programs, we're willing to pay the higher prices because we clearly see that there's an ROI in whatever they're putting out there that justifies the purchase of the hardware."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "So even in light of the higher ASPs, people are buying."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "And again, we're seeing now where the orders that we're placing are at ASPs that are substantially higher than earlier in '26."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Shannon Cross",
+                "role": "Executives",
+                "text": "And so when you figure you leave '27 at that higher ASP, that also provides some underlying support."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Wamsi Mohan",
+                "role": "Analysts",
+                "text": "I mean I think there's a lot of concern in the market that for particularly hardware OEMs, it's going to be a really difficult time with the rate and pace of DRAM and LAN price increases."
+              }
+            ]
+          }
+        },
+        "mentions_total": 35
+      },
+      {
         "call_id": 33068,
         "date": "2026-06-02",
         "call_type": "Presents at 2026 Evercore Global TMT Conference, Jun-02-2026 08:20 AM",
@@ -6740,6 +7326,189 @@
         "mentions_total": 15
       },
       {
+        "call_id": 33161,
+        "date": "2026-06-02",
+        "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-02-2026 03:20 PM",
+        "url": "https://earningscalls.dev/transcript/33161",
+        "themes": {
+          "supply": {
+            "mentions": 10,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 2,
+              "negative": 0,
+              "neutral": 8
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "One is on the manufacturing side, there is this clear need for a resilient and more secure supply chain, and there's a need for a company that can provide that for logic that is based in the U.S."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "I mean we've got enough demand out there that if we can do a good job executing on the ramping of supply."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "We're just talking about capacity allocation type decision."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "So let's say your foundry competitor were to make a different capacity allocation decision."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "My last company, where things supply understrips demand and pricing spikes and it goes the other direction."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 12,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 11
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "So I think I feel pretty comfortable that this year, next year, the following year, the demand is going to be strong."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "In terms of demand or in terms of pricing?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "In terms of the demand and pricing, right."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "Well, I think demand, just talking to -- I talked to all the CFOs of the hyper scalers and look at, a, what they think in terms of their overall CapEx, what they think of their CPU percent of that total CapEx."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "One, it's clear over a multiyear period, they see demand going up meaningfully."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 10,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 9
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "Well, I think demand, just talking to -- I talked to all the CFOs of the hyper scalers and look at, a, what they think in terms of their overall CapEx, what they think of their CPU percent of that total CapEx."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "And two, they also see the percentage of that CapEx going up."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "So that's kind of one part of the equation because if your operating margins get into the 30s, I mean, CapEx intensity might be there."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "So how are you managing these different trade-offs there you would like to grow faster but that had involved much higher capital intensity and takes you away from free cash flow, right, John mentioned."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "I actually think we should, probably longer term, operate more in the 20s in terms of CapEx intensity."
+              }
+            ]
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 26,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 25
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "So we are seeing ASP increases."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "David Zinsner",
+                "role": "Executives",
+                "text": "And then there's a number of different aspects of it, but it is basic element it's a cultural thing."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "And more important to that, Dave, how does one conceptually -- is there a simple unit time ASP math so we can understand that number?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "Now the CPU to GPU ratio, right, without going into the technical aspect of it, would you agree that the biggest part of the CPU growth might be in places where it is kind of bundled with the accelerator, whatever that accelerator happens to be, right, whether it's a GPU or CPU or whatever."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "Pricing and other factors changed right very quickly."
+              }
+            ]
+          }
+        },
+        "mentions_total": 58
+      },
+      {
         "call_id": 31618,
         "date": "2026-05-19",
         "call_type": "Presents at J.P. Morgan 54th Annual Global Technology, Media and Communications Conference, May-19-2026 12:55 PM",
@@ -7040,6 +7809,166 @@
       }
     ],
     "KLAC": [
+      {
+        "call_id": 33274,
+        "date": "2026-06-03",
+        "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-03-2026 09:20 AM",
+        "url": "https://earningscalls.dev/transcript/33274",
+        "themes": {
+          "supply": {
+            "mentions": 16,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 15
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "And most of our focus inside the company is, how can we ramp up our supply chain and make sure the execution model is positioned to support what we think will be a number of years of strong growth here moving forward."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "Of course, they see pricing going up, supply being very constrained."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "But as they are signing long-term agreements, do you think they now have to provide supply assurance so then they need to align with their supply chain, including with KLA."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "Right now, our engagement with customers is all focused on how do we drive more capacity, how do we deliver sooner, how do we support these fab greenfield projects that are upcoming."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "So I think that given it's greenfield and retooling, I don't think it's going to be that different in terms of a timing issue because you're going to be adding a whole new set of new capacity into the fab."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 2,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 2
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "One thing that's been great about the extending or stratification of demand at semiconductors has driven a lifetime of our tools up."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "There are opportunities for additional growth in memory because of the demands in the memory market, the requirements for high bandwidth memory to drive more of a contract stream packaging, is an area where more service was underpenetrated."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 1,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 1
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "Back on March 12, we had an Investor Day in New York, and we outlined a 2026 plan, our 2030 plan for KLA and stepped up our talked about how we had beaten our 2026 plan that we laid out in 2022, but a new 2030 plan for KLA that translated into a top line industry model of 11% growth for semiconductor revenue 12% on slightly rising capital intensity per wafer equipment and rising KLA share of the o"
+              }
+            ]
+          },
+          "lead_times": {
+            "mentions": 3,
+            "tone_score": -1.0,
+            "counts": {
+              "positive": 0,
+              "negative": 1,
+              "neutral": 2
+            },
+            "quotes": [
+              {
+                "tone": "negative",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "We've seen customer behavior and certainly some urgency around that, more exposure to sort of packaging that tends to be shorter lead time in terms of strength in the second half."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "Given your long lead times, what indications are you getting from just memory customers broadly about more greenfield write more clean room availability in the second half of next year."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "We have the lead time element."
+              }
+            ]
+          },
+          "pricing": {
+            "mentions": 9,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 8
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "So nice to have aspirations."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "Of course, they see pricing going up, supply being very constrained."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "So I understand the pricing opportunity."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Vivek Arya",
+                "role": "Analysts",
+                "text": "Why doesn't KLA have enough pricing power to kind of pass that through?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Bren Higgins",
+                "role": "Executives",
+                "text": "Our pricing is really based off of -- it's a value pricing sale for our customers."
+              }
+            ]
+          }
+        },
+        "mentions_total": 31
+      },
       {
         "call_id": 31521,
         "date": "2026-05-19",
@@ -9009,6 +9938,159 @@
     ],
     "MRVL": [
       {
+        "call_id": 33160,
+        "date": "2026-06-02",
+        "call_type": "Presents at 2026 Evercore Global TMT Conference, Jun-02-2026 03:50 PM",
+        "url": "https://earningscalls.dev/transcript/33160",
+        "themes": {
+          "supply": {
+            "mentions": 11,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 3,
+              "negative": 0,
+              "neutral": 8
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Ashish Saran",
+                "role": "Executives",
+                "text": "I mean supply has been tight."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Ashish Saran",
+                "role": "Executives",
+                "text": "In a tight supply environment, we're going to accelerate even more next year."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Ashish Saran",
+                "role": "Executives",
+                "text": "And at this point, we are -- like I said, we are well beyond -- this is in a productization phase, where we've lined up basically capacity for volume manufacturing essentially starting fairly soon."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Ashish Saran",
+                "role": "Executives",
+                "text": "You're going to need more CXL essentially, especially today where DRAM prices are high and capacity is very tight."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Mark Lipacis",
+                "role": "Analysts",
+                "text": "How do we think about supply constraints here?"
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 7,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 7
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Willem Meintjes",
+                "role": "Executives",
+                "text": "And so we've been sort of very constantly been able to drive the supply chain with the upsides that we've been seeing on the demand side."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Willem Meintjes",
+                "role": "Executives",
+                "text": "And just on the last call, we said we've actually won multiple additional custom design wins, right?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Mark Lipacis",
+                "role": "Analysts",
+                "text": "Now Will, you mentioned the XPU attached design wins."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Ashish Saran",
+                "role": "Executives",
+                "text": "CXL and NICs are the 2 large examples, but there's a couple more we can identify where we have design wins going into production."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Willem Meintjes",
+                "role": "Executives",
+                "text": "And I think that's been critical in terms of allocation where when you look at like a year like this year, we've been very consistent in terms of what we've seen in terms of demand and how we've communicated that."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 4,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 3
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Willem Meintjes",
+                "role": "Executives",
+                "text": "What we've seen is the end markets that we're addressing continue to be extremely strong, and it's really driven by CapEx, right?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Ashish Saran",
+                "role": "Executives",
+                "text": "And then again, we said next year, we will again substantially outgrow cloud CapEx from an interconnect business."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Ashish Saran",
+                "role": "Executives",
+                "text": "Now that business is going to go from $3 billion to 70% plus this year, right, and then outpacing cloud CapEx, you guys can run through your model, you'll end up with a very large multibillion-dollar DSP business."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Ashish Saran",
+                "role": "Executives",
+                "text": "I mean, I think, if I compare it to what we said like 2 years back, and that's not just a comment on the fact, yes, clearly, CapEx is higher than we thought it is."
+              }
+            ]
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 1,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 1
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Ashish Saran",
+                "role": "Executives",
+                "text": "You're going to need more CXL essentially, especially today where DRAM prices are high and capacity is very tight."
+              }
+            ]
+          }
+        },
+        "mentions_total": 23
+      },
+      {
         "call_id": 32575,
         "date": "2026-05-27",
         "call_type": "Q1 2027 Earnings Call",
@@ -9988,6 +11070,165 @@
     ],
     "NBIS": [
       {
+        "call_id": 33329,
+        "date": "2026-06-03",
+        "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-03-2026 01:20 PM",
+        "url": "https://earningscalls.dev/transcript/33329",
+        "themes": {
+          "supply": {
+            "mentions": 20,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 20
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "So selling data center capacity now is selling water on a hot day in the desert in middle of the day."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "Yes, it's a very broad question, I think, but let me start from the customers because I think that -- you said like selling data center capacity."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "Like in reality, we don't sell data center capacity."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "Meaning what you're seeing today, did the market start with just pure compute capacity and then everything else you talked about will come in the future?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "Downstream, it's about how you build the infrastructure and how you actually control your supply chain and cost structure and upstream is how you evolve your product offering, right?"
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 7,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 6
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "And I also wanted to say that, in the current market, actually the -- I think the effect of like on the prices, from demand-supply situation versus the cost structure and like raising some of the components like the supply-demand situation is much more strong factor."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "And if you think what are the drivers for our business, this is obviously demand and demand is there."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "We are in the world of supply/demand balance."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "So imagine you have a product that can serve 10 customers in the world, and you have a product that can serve 10,000 customers in the world, probably, that will drive your margins up just because you will have better supply-demand more like for us as a supplier, the supply-demand situation."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "Being on demand side, it's the easiest job in the world comparing to being on supply."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 1,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 1
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "And on the practical side, for example, it led you actually extend the lifetime -- the valuable lifetime of the CapEx investments because the new chips come, you can sign the first contract, for example for the most frontier training jobs."
+              }
+            ]
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 5,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 5
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "So I think that even though that the big part of the market is still like sitting is raining, that opportunity to serve inference workloads the opportunity to follow like the new growing customers gives you much more flexibility and gives you much, give us as a provider and the platform give us much more flexibility and optionality on how we build our customer portfolio, how we build our contract "
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "And again, it converts directly to economics because the customer needs tuck-ins with the best quality, best price and best like performance."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "The the more hot options you have, the more prices you have."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "But still, when you sign a deal and you need to bring capacity on board, how do you manage the risk of commodity pricing going up?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Roman Chernin",
+                "role": "Executives",
+                "text": "And I also wanted to say that, in the current market, actually the -- I think the effect of like on the prices, from demand-supply situation versus the cost structure and like raising some of the components like the supply-demand situation is much more strong factor."
+              }
+            ]
+          }
+        },
+        "mentions_total": 33
+      },
+      {
         "call_id": 30524,
         "date": "2026-05-13",
         "call_type": "Q1 2026 Earnings Call",
@@ -10337,6 +11578,122 @@
       }
     ],
     "NOW": [
+      {
+        "call_id": 33298,
+        "date": "2026-06-03",
+        "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-03-2026 11:20 AM",
+        "url": "https://earningscalls.dev/transcript/33298",
+        "themes": {
+          "supply": {
+            "mentions": 1,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 1
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Gina Mastantuono",
+                "role": "Executives",
+                "text": "I talked a little bit about autonomous deployment, using AI to seamlessly help a lot of the journey upfront to really allow our customers to get to value faster because that flywheel of consumption, right, the more they deploy, the more AI they use, the more capacity they generate, the more value they generate, the more they will buy and the more value they will get."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 3,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 2
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "What is the risk that spending on the existing business is not related to AI, your regular customers, what you're doing with IT, what you're doing with, what's the risk that spending slows down ahead of AI, that companies invest less because they need to shift money in order to prepare for AI?"
+              },
+              {
+                "tone": "positive",
+                "speaker": "Gina Mastantuono",
+                "role": "Executives",
+                "text": "Demand continues to be strong."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Gina Mastantuono",
+                "role": "Executives",
+                "text": "And I know you have a question, I'm sure, on the demand environment and spending environment."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 8,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 8
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "Another aspect of AI or deployment of AI is the question of pricing."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "And on the other hand, your historical pricing was seat-based."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Gina Mastantuono",
+                "role": "Executives",
+                "text": "So the hybrid model of pricing that we've put in place over the last couple of years is a great way to help them in the transition."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Gina Mastantuono",
+                "role": "Executives",
+                "text": "And so as we think about what the monetization model looks like, what I say to everyone is we were the first one to announce this hybrid pricing model."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Tal Liani",
+                "role": "Analysts",
+                "text": "How do you monetize the AI opportunity, meaning not from a pricing."
+              }
+            ]
+          }
+        },
+        "mentions_total": 12
+      },
       {
         "call_id": 32529,
         "date": "2026-05-27",
@@ -10865,6 +12222,116 @@
       }
     ],
     "NVT": [
+      {
+        "call_id": 33245,
+        "date": "2026-06-03",
+        "call_type": "Presents at 46th Annual William Blair Growth Stock Conference, Jun-03-2026 08:00 AM",
+        "url": "https://earningscalls.dev/transcript/33245",
+        "themes": {
+          "supply": {
+            "mentions": 6,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 6
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Beth Wozniak",
+                "role": "Executives",
+                "text": "When it comes to operational excellence, we recently added a new supply chain leader, and this is really critical."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Beth Wozniak",
+                "role": "Executives",
+                "text": "I will say this, we focused a lot on our supply chain."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Beth Wozniak",
+                "role": "Executives",
+                "text": "And the last point I will make here is capacity expansion."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Beth Wozniak",
+                "role": "Executives",
+                "text": "We've expanded our liquid cooling capacity."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Brian Drab",
+                "role": "Analysts",
+                "text": "But can you just talk about the need to have the capacity, the quality, the reputation, the relationships [indiscernible] that enable you to win."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 2,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 1
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Beth Wozniak",
+                "role": "Executives",
+                "text": "And so now we're sitting here with a record backlog of $2.6 billion, which is significant for us as a company."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Beth Wozniak",
+                "role": "Executives",
+                "text": "You have to in order to ensure that you can deliver for whether it's utilities or data center customers."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 1,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 1
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Beth Wozniak",
+                "role": "Executives",
+                "text": "As you know, there is $7 trillion of CapEx that's being invested in data centers."
+              }
+            ]
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          }
+        },
+        "mentions_total": 9
+      },
       {
         "call_id": 31531,
         "date": "2026-05-19",
@@ -12161,6 +13628,146 @@
     ],
     "SNOW": [
       {
+        "call_id": 33176,
+        "date": "2026-06-02",
+        "call_type": "Analyst/Investor Day",
+        "url": "https://earningscalls.dev/transcript/33176",
+        "themes": {
+          "supply": {
+            "mentions": 4,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 4
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Brian Robins",
+                "role": "Executives",
+                "text": "Their supply chain department then actually picked up on CoCo and start using them."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Brian Robins",
+                "role": "Executives",
+                "text": "And within the supply chain department, it was -- they were having a problem because it's really complex manual calculations on ordering inventory."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Brian Robins",
+                "role": "Executives",
+                "text": "When our customers actually come to the end of their capacity or use the capacity that they purchase, they really have 2 choices."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Brian Robins",
+                "role": "Executives",
+                "text": "From a sales and marketing perspective, it's really adding capacity to the capacity model where needed."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 4,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 4
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Sridhar Ramaswamy",
+                "role": "Executives",
+                "text": "And for our data scientists and our data engineers, they now think in terms of how do you automate creating an entire pipeline."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Christian Kleinerman",
+                "role": "Executives",
+                "text": "And that has created a sense of urgency in many of the customers that we talk of to on, oh, I really need to go get my data estate in order."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Christian Kleinerman",
+                "role": "Executives",
+                "text": "In a world we're migrating from one type of API to another type of API is borderline free, we're starting to see different reactions."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Brian Robins",
+                "role": "Executives",
+                "text": "And within the supply chain department, it was -- they were having a problem because it's really complex manual calculations on ordering inventory."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 9,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 9
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Christian Kleinerman",
+                "role": "Executives",
+                "text": "Massive performance improvement, but we're doing the exact same thing that we did with Gen2, we priced it in a way that we're aiming for revenue neutrality."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Brian Robins",
+                "role": "Executives",
+                "text": "We've actually changed the way that we're selling to our customers and do an outcome-based pricing."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Brian Robins",
+                "role": "Executives",
+                "text": "So they're automating and transforming the way they work across every aspect."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Brian Robins",
+                "role": "Executives",
+                "text": "AI is accelerating all aspects of the business."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Sridhar Ramaswamy",
+                "role": "Executives",
+                "text": "Everyone can aspire to more, but you need to be very clear about what you're good at."
+              }
+            ]
+          }
+        },
+        "mentions_total": 17
+      },
+      {
         "call_id": 32573,
         "date": "2026-05-27",
         "call_type": "Q1 2027 Earnings Call",
@@ -13153,9 +14760,9 @@
     ]
   },
   "summary": {
-    "calls_analyzed": 82,
+    "calls_analyzed": 93,
     "tickers_covered": 48,
-    "total_mentions": 4457,
+    "total_mentions": 4748,
     "themes": [
       "supply",
       "demand",

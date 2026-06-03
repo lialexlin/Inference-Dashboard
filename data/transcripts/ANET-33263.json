@@ -1,0 +1,342 @@
+{
+  "ticker": "ANET",
+  "symbol_used": "ANET",
+  "call_id": 33263,
+  "source": "earningscalls.dev",
+  "url": "https://earningscalls.dev/transcript/33263",
+  "fetched_at": "2026-06-03T23:49:08.963662+00:00",
+  "company": "Arista Networks, Inc.",
+  "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-03-2026 07:45 AM",
+  "date": "2026-06-03",
+  "raw_date": "Wednesday, June 3, 2026",
+  "sector": "Information Technology",
+  "industry": "Communications Equipment",
+  "segments": [
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "And I'm not saying it's just to say, but I'm really mean it, the most favorite CEO in my universe. And she -- we sometimes argue, but it's always coming with a lot of respect to one another. So thank you, Jayshree. \r\nSo Jayshree Ullal, CEO of Arista; and Todd Nightingale, COO of Arista. And I've known Todd for many years from his days at Cisco and then [indiscernible] that I took public and now at Arista. \r\nSo we're going to have a discussion for about 45 minutes. I'll try to keep it tight for about 40 minutes or 35 minutes and let you ask questions if you have any questions. And the discussion, it's -- as you know me, I'm not a quarter guy. It's not about the quarter. The discussion is really the value of Arista, the sustainability of trends. We do have a spending cycle in the industry with hyperscalers. And through the spending cycle, there are changes to the architecture. There are changes to the network. Customers are deploying certain technologies, and we want to go into it. So the purpose of this session is really to understand the core value of Arista.\r\nAnd with that, so last quarter, you raised the full year guidance from 25% to 28%. And I remember when we looked at your guidance, I'm talking about like a year ago, when you look at your guidance and I told investors these numbers don't make sense. They're too low. The industry is growing faster. The company, if you take out this and you look at this, it's supposed to grow faster. \r\nSo the question is what drives the growth? And I know this is kind of a soft question to start our discussion. What drives the growth right now and how sustainable is what we are seeing in the past few quarters?"
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Well, first of all, Tal, you are my favorite too. There's not too many investors who we could say, I know for decades. So that kind of times both of us a little bit. And if I start talking about mainframes, it will really time me a little.\r\nBut coming back to the growth vectors for Arista, as you know, Arista really made networking sexy again. And part of that was focusing on those growth vectors. We pioneered the lease spine architecture, and we really redefined or reimagined networking for the cloud, right? And as you know, we power some of the world's largest cloud titans, as we call it, with this lease fine architecture that was different than the standard blocking loss oriented enterprise architecture.\r\nSo today, one of our growth vectors continues to be the cloud customers. But a lot of our growth in the last decade came from what I'd call the front-end network. The more visible network where we were connecting to compute, storage, WAN, building the active lease spine, et cetera. In the last 3 years, we really had to study the back end of the network that was historically built through proprietary technologies like InfiniBand and the first thing we set to work on was really defining Ethernet for those use cases. We now call it AI Fabric, scale up, scale out, scale across, scale up within a rack, scale out between racks and scale across between data centers themselves. And that's really going to drive a huge part of our growth.\r\nNow with me is, of course, Todd Nightingale, our President and COO, and you know he reimagined the campus and enterprise in some of his prior assignments. But I think there's another one coming there as well. So that will be a huge vector of growth for us where post-COVID, the campus looks very different from the carpeted buildings and you really need a uniform experience ply into-branch everywhere. So I think the AI and campus are going to be our fastest-growing segments. That doesn't mean the others don't grow, but they grow slower."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Yes. And when we look at the hyperscaler spending, it's up giant this year, was up giant last year. When you talk about -- when you talk to them about their build-out plans, and how sustainable is the cycle? What needs to happen for this cycle, not to be just 1 or 2 years or 3 years, but rather a long-term cycle?"
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Yes. This is a really good question because even I get scared, I look back at our '99, 2000, that was a short-lived cycle. As we all know, it started out the great burst of Y2K and then collapsed. I think the biggest difference here is there is a very sustainable advantage for AI, both networking for AI and AI for networking. So it's going to traverse not just the hyperscalers but go into the Neocloud and enterprises as well. That's one.\r\nAnd we haven't yet seen all the killer genetic AI applications yet, that's just beginning. So I think this is a multiyear, in fact, a multi-decade cycle. Now having said that, some of this CapEx is just stunning to me. We never thought of CapEx in the trillions, let alone billions back when we started this. So it's important to understand, though, that the CapEx has many, many pieces to it. The biggest one being compute, power and obviously, all the real estate itself, the cooling, the chilling, the buildings, et cetera.\r\nNetworking is a small piece of it. But becoming a very strategic piece, meaning I can't let these compute nodes idle. And this is where we really come in because in the past, you could have a bit of underutilization, over utilization, over subscription, it didn't matter. Here, this idle CPU cycles is idle money, right? So the ability to -- for this CapEx to continue growing, I think is high just because -- it's not only the large hyperscalers. There's a force multiplier of others coming into it with the Neocloud and enterprises. I think it's sustainable as far as I can see, which is generally not more than 2, 3 years. But I think this is a transformation much like the industrial revolution or the Internet revolution. \r\nNow will it have its values and peaks and highs and lows? Of course, Newton's laws of gravity means nothing just goes up to the right, there will be some ups and downs. But overall, it will still go up and to the right."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "When it comes to your position, the market is expanding, meaning we started with hyperscalers then Oracle, then Neocloud, now a lot more second-tier cloud. Talk about your position, market share, but not the numbers, rather your position as the market expands to other areas outside of the big hyperscalers."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Yes. And so I think, first of all, if you look back at 2022, our AI position was outside looking in. We were seeing all these GPUs built by NVIDIA connected largely by InfiniBand. So it was -- our position was 0. But interesting thing even back then is customers were asking us for our thought leadership because they were building these proprietary back ends. So today, I would say 3 or 4 years later, our position with the top titans, hyperscalers or even some of the Tier 2 cloud providers is medium to high. There's still existing networks to deal with. But you've heard me often talk about 4 out of 4 or in the past plus 4 out of 5. We now have production, we went from trials to pilots to production in all these 4 major ones.\r\nNow having said that, there's a whole lot more to do there now because largely, we were looking at production networks that are scale out, connecting all of these scale-up technologies. Now we have the opportunity to not only expand scale out, particularly with the advent of Open AI defining multiplane technologies with MRC, but also to scale across because more and more power is a real issue. And I think this is going to be -- it used to be a niche DCI data center interconnect use case, but the power of routing, multi-tenancy, SRV 6 and tunneling across this, encryption, working with coherent optics, is going to expand how we build those scale-out network -- scale across networks. \r\nAnd then scale up is a new market for us, largely today deployed by PCI Express and NVLink switching. But with the Ethernet for scale-up networking ESUN coming out as a spec this year, I think you're going to see a lot more action on that within rack as well. Much more hardware intensive, much more latency, much more defined for high-speed training as well as inference, job completion time, time to first token is all important over there. So this market is multiplying to multiple use cases and is, frankly, redefining the data center as we knew it."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Right. When we think about -- by the way, Todd, I'll get -- I have some questions for you."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Oh, yes, he will get [indiscernible]."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "Take your time."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "I want to first finish the hyperscalers and then we'll get to the important stuff."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Then we will go to [indiscernible] campus."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "When we look at the hyperscale environment, over the last few years, there was white boxes penetrated to the market. So some companies started with it, Amazon and then Google and even existing customers migrated and expanded the use of white boxes. But as the market goes up to scale up and scale across, talk about your position in this market versus white boxes. And does it mean that your -- if the market -- again, I'm thinking about it conceptually, not about numbers. If the market shrank in the last few years because of white box competition, is the market going to expand again for you now with scale across?"
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "I think the market never shrank by the way. Our total available market has gone from $50 billion to $105 billion is our stated number now. I think by 2030, it will be $150 billion. So there's no shrinking in our market. In the market, there's always segmentation. And anybody build their own PC these days, anybody build their own iPhone these days. Great. You are the candidates for a white box. If you're going to look to build something ultra cheap, don't need a lot of features, white -- we have always coexisted with white box. We will continue to because there's a sort of cost-effective do-it-yourself mindset that will require that.\r\nNow with AI, it's actually scary because you don't want all your AI traffic to be going through across something you do yourself. So we're actually seeing less white box in AI installations and more branded vendors like Arista, like NVIDIA. But that doesn't mean it doesn't exist. It does exist when a hyperscaler customer is jointly trying to develop something at the scale-up level and design their own board and almost virtually give it to a CM who can build it like a white box. So it ends up being a joint engineering, not so much do-it-yourself, but manufacture it with the CM type of mindset. So that's going to continue to exist.  \r\nLow software, high hardware, highly defined, different margin profile, typically 20% to 30%, so low software content, we've always coexisted with that. It's been with us -- I mean, I can remember the IPO, when we were $2 billion, $3 billion in market cap 2014, where the first question would be, how are you going to compete against the white box in them? And as you know, we've coexisted and not only competed, but in many cases, they've chosen us over. \r\nThere is a new concept that's emerging for us called the blue box, which is hardware building very, very reliable, high signal integrity, hardware is a nontrivial effort. So what we are seeing now actually is the resurgence of a blue box where more and more customers are not only requiring Arista for the high-level software but for the low-level software, we're building a lot of diagnostics at the power supply level, counters, active components, passive components. This is what we've done for the last 10, 15 years because we have fantastic partners in Broadcom and other switch suppliers. They built great chips, but we build the software to twiddle their chips. And so we literally removed the software development kit of our chip vendors and put in our own network diagnostics and platform level software. And so we think a blue box, which is basically a white box, better designed for mission-critical applications will also factor in and is factoring in already."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Got it. I have many more questions for you, but I don't want him to be bored. Todd, you joined recently, what's your mission statement? What are you focusing on? I mean recently..."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "I am almost a year in."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "I know. I know recently in Arista..."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "He doesn't like it when I call him a new [indiscernible]."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "When you look at the tenure of the length of position of the other managers, you are recent."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "That's true, I am an infant. I think really, my mission comes in twofold. I mean, one is to ensure that the operations at Arista are smooth that we're always able to deliver to the customers that need it and supply everything worldwide. The second, and I think maybe what's most important when we talk about driving growth is fundamentally bringing the mission-critical differentiation that Arista has to every network. We spend a lot of time talking about the hyperscalers, and that's an incredibly important part of our business. But Arista has always stood for mission-critical networks, the most reliable, most available networks in the world.\r\nAnd 5 years ago, even 10 years ago, when we spent a lot of time talking about it, there was a divide between people who needed mission-critical and the nice-to-have networks. I don't think that exists anymore. Every one, every network, every enterprise network is mission-critical right now, and my goal is really to bring Arista to every enterprise."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "And how do you make the campus business grow bigger? What are the challenges in campus that you don't see in enterprise in data centers -- data center enterprise? What do you need to do in order to make it, as Jayshree said, like a giant business, a big business in the future?"
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "Yes. So I think the first is that the breadth of the portfolio goes far beyond switching. It's why we've spent so much time investing in the rest of the network. 7 years ago, Arista invested heavily in the POE switching and launching our campus network. That was fast followed by Wi-Fi. And then just recently, in fact, the day I joined, Arista acquired Velo. And that brought in kind of the missing piece with the SD-WAN technology which really completed the portfolio. Then we had enterprise routing, switching, both [ spine and leaf  ] all of the WiFi and the now SD-WAN to really attack the branch. That's the first.\r\nAnd bringing that portfolio into the Arista world and really delivering with differentiated quality the way we always do, that is the mission we're on right now. In fact, we've got the leadership here who's driving that. \r\nI think the second piece is looking at the universe of customers. The data center enterprise data center and hyperscale data center, the amount of customers that make up the big chunk of that market are relatively small, maybe like the Global 2000, et cetera. But campus networks span a much larger group. And we are working very hard right now to evolve the go-to-market to be able to reach all of that TAM, not just in the U.S. but around the world. And that expansion to the whole market sort of go-to-market effort is key."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "So elaborate on this, what do you need to do with the go-to-market in order to address the broader market?"
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "Yes. I think one really interesting piece is the thought leadership. And we've seen this -- I've seen this even in my one year at Arista exploding the amount that we see Arista being sort of publicly part of the conversation. And in campus, especially, this has been a huge focus, including the exposure that we need from experts around the industry just a couple of weeks ago, the most recent Gartner Magic Quadrant came out and for the first time, Arista was in that leader's quadrant, which has opened up already so many doors because people, of course, look at the leader quadrant there and look to..."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "I just want to take a moment to congratulate, it took us 7 years to get there. We went from being a niche vendor to a visionary and finally, the leadership. And by the way, we're the youngest kid there. Everybody else has been around 25 to 40 years. We entered the market over 5 years ago, right? So congratulations."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "There's a great graph that shows the trajectory year-over-year."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "So the question is what's your value proposition, meaning what do you bring? What do you -- how do you disrupt the market? What do you bring to the market that is different than what the others are offering?"
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Before he answers that can I tell a story about that?"
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Okay. And then you'll know the value proposition answer. So about 7 years ago, we were in a room like this with 100 customers, most of them were data center customers. And I said, how many of you think we should get into the campus? And 30% of them raised their hand and said, we are tired of all this other software spaghetti OSs. We want the uniformity. We want what you brought to the data set into the enterprise. But I said, what about the other 70% of you? They go, oh, no, no, we don't want that because you'll get distracted and you won't give me a good experience in the data center or AI or whatever, right? \r\nFast forward 2 years later, they were like where are your campus products? You're late. So there was a burning desire to bring the same stability, availability, reliability, analytics, automation, software-defined capabilities into the campus that we brought to the data center. \r\nOver to you on the [indiscernible]?"
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "This is the [indiscernible]."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "You have a great CEO. She articulated her message so well."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "We are in a world right now where the entire industry is focused on exactly how quickly they can execute security patches across their portfolio. And with every other vendor, they're looking at 5 or 6 or 8 different OS, different packs of software that have to be patched and upgraded, et cetera. And Arista it's one. And the..."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Can I tell another story on that? So when the Glasswing project happened and there were 10 vendors invited in, little Arista wasn't in that 10 vendors. It was Microsoft, Anthropic, Google, JPMorgan, Bank of America, I'm sure, were in there. And everybody said, where is Arista? Because they were expecting us because this vendor, again, has the least vulnerabilities and the most robust operating system to be there guiding them. So we didn't ask to be invited, we were pulled in literally to help solve an industry-wide problem. And that kind of tells our role in this, the silent network, I guess."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "And it's a moment in time when every IT shop is staring down this enormous challenge with other vendors, 5, 10 different versions. At Arista, it's one. And that's enormously [indiscernible] demonstrating the value of quality and reliability and not just the availability of their apps and their client connectivity, but how we got there through this diligence, year after year, decades after decades of sticking to this core strategy.\r\nThe second piece beyond just reliability is looking at sort of the future of how AI and agents are going to manage these networks. And EOS has incredibly, incredibly powerful data platform. In fact, it turns the whole network into a single observability fabric with complete state streaming, every single stage change across the entire network being fed into our cloud, which means that our AI agents are built on the best possible platform. And that is already being seen by users. And that differentiation heads, years and decades of future ahead of it. And it's really built on the shoulders of giants. It's the state streaming, it's the analytics that are used by hyperscalers that they are used by the biggest data centers in the world being brought into the campus space is awesome, and the response is already great."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "So a question for both that was referenced on the last conference call, you spoke about decommits of supply chains and..."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "It's a word that haunts me now. I actually went and looked it up with the dictionary to make sure I got it right. And just for terminology, when Todd is running this worldwide manufacturing organization, and he puts in a request with silicon suppliers optic CPU memory, often 52 weeks ahead of schedule. This is why you see our purchase commitments now at $8.9 billion. There's usually a promise date they give us, just like we give a promise date to our customer. So the definition of a decommit or recommit is when that date moves. And so we've had a lot of dates move. And that's disconcerting because when their date moves, our date moves to our customers, right? And then it changes the lead time. So nobody in the industry can tell you that they don't have this problem for if they do, they're an [indiscernible] and they're not admitting this a problem. \r\nSecond thing I would say is, this is a 2-year industry problem. I'm not saying it's a 2-year Arista problem. I'm saying it's a -- at least 2-year industry problem. And those that are stronger and can plan better and do things ahead of time are the winners. Obviously, we're going to not sit for 2 years and feel bad about the situation. We're actively acting on it. The memory situation was horrendous last November. We've gotten ahead of it. We are paying top dollar. It's going to affect some of our margins while we still stay in the band of 62% to 64% gross margin like we've advertised, but we dealt with it. So we will deal with it, and we will come out of it just like we did COVID, the lawsuit, or this one. But it's no fun for the industry and in my view, the strong will get stronger."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "I'll just add, there's surging demand right now. And we see from our customer base upside and upside and upside on the forecast. And that means we have to push on the supply chain to be able to serve that, to be able to drive material needed. And this industry phenomenon. It's just how much upside can we deliver on? I mean it's putting pressure on it, for sure. ."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "So 2 years ago, 1 year ago, we spoke about memory, memory supply constraints. What's the situation of supply constraints now? Did it expand to other areas? What other areas? Like talk about the environment and what is the gating factor for you to grow faster?"
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "Let's just talk -- let's just get the time frame. That memory situation was like 4 months ago. Things are moving quick -- things are moving quickly. And it is -- it's going to be across the technology space. I mean we see these capital budgets coming down the pipe that are enormous. People are building out massive, massive data center capabilities around the world. It's not just memory. It's going to be in the wafers and silicon, not just in the high-end silicon. We see it in power ICs. We see compute and CPUs. We started to see surging demand on the CPU as well as the GPU side. A lot of these roads lead back to the same advanced process fabs in Taiwan. there's only really one vendor there. And so we are -- when roads lead back to TSMC, there's going to be capacity constraints."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "And I think even there, the shortages are really not just at the wafer level, but at the substrate level. Because what's happening is the material shortages here is as you start to build more complex processes with chip-on-wafer then you got to build fab capacity for 2-nanometer, 3, 5, 7, but we still have all the processes that we need to address, right? So it's sort of an across-the-board material shortage that pops up like a game of [indiscernible] first its memory then it's, like you said, optics, CPUs, PCBs, you name it. And holistically addressing this so that we can ship a product in time has been a challenge.\r\nHaving said that, I just want to be super clear on one thing, we're going to do everything to solve these problems in quarters, not in years. And any delays we have this year, doesn't mean our orders or our customers go away? It just means we have to address it next year."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Yes. Got it. One question, I want to understand it conceptually. Deferred revenues grew substantially in the last few years. I mean this is -- it's a reflection of the environment. What -- how does it evolve going forward? And I explained what I mean by that, I don't mean orders. I mean what happens when a big customer finishes to build a data center, what happens when -- because these are joint data centers. So what should we expect with deferred revenues to do like step-down and revenue jump when someone finishes a data center? Or is there a smooth kind of line to the deferred?"
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "That's a really good question. And again, history is always an indicator of what might happen in the future. So I'll look at some history first. We had a cloud super cycle back in the 2016 through '18 where deferred wasn't as big but neither was the CapEx, but it was easily 10% to 15% of our revenue because people were putting in Neocloud data centers, our products were new, they were going through 100-gig back then super cycle, sometimes it was a use case in the leaf, sometimes it was in spine, sometimes it is at the edge. So this went on for 3, 4 years. .\r\nAnd then right around 2018, '19, when COVID happened, all these use cases become -- became more mature. And I mean, Cove just put a lot of things into standstill, but you actually saw a deferred not only go flat, but pretty close to 0 in that time frame. So I'm not saying we'll go close to 0 because this is a much larger number, and we -- there's more shock absorbers. But you can expect that deferred, which is in my view, all-time high right now, will start to slowly flatten as these use cases become mature as the products become mature, and there will be this gap between new AI centers and old AI centers. So I don't expect deferred to remain at elevated levels forever. Eventually, they'll come out as revenue. And as the cycle matures, it will be a new set of use cases, maybe in scale up or scale across. So I think we are at an all-time high now. and it could get higher or lower, but I think more likely, it will flatten."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Got it. Another question I had, which is very specific about a single customer, but you disclose it. You disclosed that Microsoft is your largest customer. They -- last year, they did not do Ethernet. They did -- I mean, large scale, right? They did mostly InfiniBand. But this year, they are. And you -- and they don't use white boxes. You are their vendor. What -- the interesting part is when I look at your disclosure, they grew 26% without having you in the back end, in the front end, they grew 26%. So what happens this year, meaning, what happens when you start to see Ethernet deployment in the back end and what happens to the front end? Does it -- is there a parallel growth in the front end as well?"
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Yes. This is a question you keep asking that I've never done full justice to answering which is like, hey, if you're growing in AI, is -- why is your core business not? And I think it's important to look at these things not across quarters or even a year, but across multiple years, right? So as you rightly pointed out, in that particular hyperscaler, but in general, a lot of upgrades were going on in the front end between 22% and 25%, right? And -- but today, if the customer has a $1, they're not refreshing the front end as fast. Guess what they're doing, they're putting all the investments in the back end. Now that doesn't mean it will last forever because once they finish the back end, they're going to put pressure on the front, right? And you got to do another upgrade cycle there. So there's a [indiscernible] way when the back end goes up, the front end doesn't so much. And when the front end goes up, the back end [indiscernible] in a particular use case. And you multiply that times the number of customers, you get the picture.\r\nSo when you see our front-end slowdown, it means they already built it or they're focused elsewhere. And by the way, there was a period of time where they were neither focused on back end or front end, they were just getting GPUs from NVIDIA, right? And that was the largest bill they had to pay for. So I think if you look at it over a period of time, it all even side. But if you look at it at a point of time, I remember saying at one time that the front end today is 2 to 1 over the back. I have to correct that statement now because now it's looking more like 1:1 because our back end is growing so fast."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Got it. So the question is also there is a cycle, and I don't know how to refer to it, but there is also a cycle of technology at the semiconductor level. So when Broadcom releases a new chip, right, like Tomahawk 6, is it a tailwind or a headwind? Does it give opportunities for new players, white boxes? Or because you're so close to Broadcom, does it give you the tailwind to actually grow even faster? What happens upon release of new technology?"
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "I think any new technology tends to drive a benefit to Arista specifically because Ethernet as a standard is becoming kind of the facto standard, especially scale out, but in the rest of the market as well. And as Ethernet continues to demonstrate leadership in the space, then Arista becomes like the natural choice. We lead the standards. We drive sort of the state of the art around that. As we've seen this kind of rapid advance from 800 to 16. We're starting to even look at 3.2T. Like you've got people looking at the capabilities that, that provides and really considering building out faster and faster data center. So it just opens up more and more TAM if anything, accelerates Arista growth."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Got it."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "And just to add to that, if you agree with Todd, I think the beauty of our business is, while we are going to enter this 1.6T refresh cycle, we still got an awful lot of 400 and 800 going on as well, right? It's not like they died and it's either or. So we're actually seeing the benefit of a double cycle where one speed is taking off at 400, 800 and then you're layering upon since I like desserts, a multilayer cake, and the 1.60 comes on top of that. So it's definitely an accelerator to the overall speed refreshes we're going through."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "I want to ask you about the part of the number that we don't talk about, and I'll explain it in a second. So we talk a lot about hyperscalers. We talk a lot about campus. If I remove these 2 from your numbers, there is a 40%, 50% in the middle. And that is enterprise data centers. Now I have the luxury of covering both software and networking. And in the last cycle that we have seen now, I'm seeing the early bird that enterprises are investing in AI cybersecurity. And that is the prerequisite for investing in the network because you have to invest first in cybersecurity. Palo Alto reported it yesterday, [indiscernible], you can see clearly, AI is a driver for cybersecurity.\r\nThe question I have is from your guidance, this part of the network doesn't grow that much, meaning less than historical, but that's part of your conservatism. So I will say, I will add to you in line with historical numbers, 5%, 7%. What happens in the future? What happens to enterprise data centers? What are the drivers? And you're greatly positioned there. Is there -- any other -- like is there a market share discussion even? Or it's not about the market share, it's about market growth."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "Jayshree mentioned this, cyclical nature of the spend. So as people start to shift maybe big focus on to AI than the traditional data center might slow that year and then back. But there's enormous growth opportunity here in 2 ways. Number one is we continue to see ourselves picking up significant use cases, specific important franchises across existing customer base in the enterprise. No doubt about that. But there are parts of this market that we have yet to reach. Arista is the market leader here, but -- we still have an enormous amount of TAM that we can go after, and we're seeing growth internationally. We're starting to see big university wins. We're continuing to pursue the big kind of traditional financial wins, but the verticals that we are starting to penetrate in real ways are amazing, manufacturing, retail, university, et cetera. And these are big data center buildouts that are important. And so this kind of pursuit of the enterprise data center continues. And I know it's easy [indiscernible] get overlooked, but there is enormous opportunity. We're still reaching the rest of the market."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "We're gaining enterprise locals. We're definitely gaining enterprise market share. And as you already know, we're the #1 in high-performance switching. But I think we have to be patient about it. It doesn't happen as fast. We don't get the instant gratification we do in the cloud and AI cycle because think about it, an enterprise data center is building and then it's usually a depreciation or a usage of that data center for at least 7 years, 8 years, 9 years, even if they put the wrong technology and we got to wait, right? So we do best in greenfield situations. We do pretty well in brownfield situations. We don't do as well in legacy risk of situations where the enterprise customers just going to sit there with their assets and spread it out for a while. And you see all 3. But I think over the long term, and as you know, Arista has been built with our software and hardware excellence brick by brick, this brick shall come to. It's just not the first use case, it will come a little bit later. ."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Got it. I want to talk about competition. So we -- 10 years ago, we spoke about competition with Cisco. We don't talk about it anymore because there's nothing to say. But the question is competition with NVIDIA because we do see NVIDIA growing in networking. Can you articulate how you compete with NVIDIA?"
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Well, I think it's one of those classic coopetition issues where we are very grateful to NVIDIA because our AI business is almost always tying into 80% of the time anyway into NVIDIA GPUs. So there's no way they're a competitor to us in the compute space. The more compute capacity they deploy, the more we can do with networking. But obviously, this tendency to build a vertical stack with NVIDIA, and there have been many examples of customers where the customers want to go with a horizontal best-of-breed network from Arista, but end up going with NVIDIA because of the customer gets a better bundled strategy, better support, better availability of the GPUs, et cetera. So there's a natural part of the TAM that's just not available to us because it's an NVIDIA vertical TAM. \r\nNow having said that, again, we got to be patient here because I think today, it's largely NVIDIA GPUs. But we're very excited about the other AI accelerators that are coming on, both in training and inference. It hasn't gone unnoticed that we love the TPUs and the Google architecture that started way back in 2017. And naturally, we have a lot of opportunities to connect directly or indirectly to it. AMD and the MI Series is, again, we have deployed a lot of successful networks already together and every customer is looking for an alternate accelerator strategy. There's a whole range of inference accelerators that are coming out. You guys saw the cerebral IPO, but many of them are being built in-house by the hyperscalers which is, again, giving us a lot of RAC opportunity. So we love NVIDIA when we connect to their GPUs, but we love all the accelerators and frontier models to give us that diverse one network for all the diverse XPUs, if you will."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "The one thing I might add there is there's also a story of building standard-based networking. Networking time after time after time has been an area where open standards have won the day eventually. And we're seeing that across the board. NVIDIA has some Ethernet technology available as well, but Arista leads the way. We lead the way in the standards. We lead the way, pushing the limits of the technology. And in the fullness of time, I think that becomes a driver for us."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Right. if I look -- if I start to try to divide the market between GPUs of AMD or others and between GPUs of NVIDIA, do you have -- do you think you have higher market share when the GPUs are not NVIDIA when it's something else. And the reason why I'm asking it is because that part of the market is actually growing very fast."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Yes. The short answer to that is yes because there is no vertical bundling going on. There is a best-of-breed approach over there. Arista is naturally the first and often only choice. And there's so much risk in this deployment, the last thing they want to do is go explore some speculative things. So yes, it is the fastest-growing market for us as well."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "It's also when we get off of the NVIDIA GPU then the scale up part of the market becomes available, right? And that is a whole piece of the AI space we don't play in."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Okay. My last question, I don't leave much time for Q&A, but I wanted to cover it optical integration. Your competitor, Cisco does have an optical capabilities in-house. What is your philosophy first of all, about optical integration, owning assets versus partnering with assets. And take it from there."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Look, our philosophy is definitely to work with the best-of-breed optical ecosystem. We don't have to own all pieces of it. There's a lot of physics there, as you know, and there's a lot of technology with lasers and co-packaged optics and Andy and the team introduced our XPO, which is the latest and greatest for pluggable optics for 1.6, 3.2T. So we are big fans of optics because wherever we sit, we have to connect to them, right? And it wouldn't come as a surprise to you that we worked very closely with Acacia before Cisco acquired it and continue to. There are good current optics vendor for sure, we see them.\r\nHaving said that, I think Arista's position is not always to be the revenue provider or the product provider for optics, but integrate into the optics really well, which can be integrated into our boards in some cases or work with pluggable optics and provide the right [ MACsec  ] and root cause analysis for them, including managing all of that capabilities. But because that is such a specialized best-of-breed type of companies, just like security, we don't pretend to be that, but we want to enable that at a system level."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Great. Sorry, I took most of your time. But is there any question from the audience? We have a microphone. No."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Well you took all their questions, looks like. Thanks for coming for the first early morning session here. I appreciate it."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Thank you, Jayshree. And thanks, Todd."
+    },
+    {
+      "speaker": "Todd Nightingale",
+      "role": "Executives",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "Tal Liani",
+      "role": "Analysts",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "Jayshree Ullal",
+      "role": "Executives",
+      "text": "Thank you."
+    }
+  ],
+  "word_count": 6878
+}

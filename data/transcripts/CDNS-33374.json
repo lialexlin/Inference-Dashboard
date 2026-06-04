@@ -1,0 +1,197 @@
+{
+  "ticker": "CDNS",
+  "symbol_used": "CDNS",
+  "call_id": 33374,
+  "source": "earningscalls.dev",
+  "url": "https://earningscalls.dev/transcript/33374",
+  "fetched_at": "2026-06-04T23:14:44.621933+00:00",
+  "company": "Cadence Design Systems, Inc.",
+  "call_type": "Presents at Bank of America 2026 Global Technology Conference, Jun-03-2026 02:00 PM",
+  "date": "2026-06-03",
+  "raw_date": "Wednesday, June 3, 2026",
+  "sector": "Information Technology",
+  "industry": "Software",
+  "segments": [
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Good afternoon. Welcome back to this BofA Global Technology Conference. Really delighted and honored to have Anirudh Devgan, the Chief Executive Officer of Cadence Design Systems, join us. We'll go through the usual fireside. Please feel free to raise your hand if you would like to bring something up.\r\nBut before I start, let me read a quick disclosure statement from Cadence that today's discussion will contain forward-looking statements, including Cadence's outlook on future business and operating results. Due to risks and uncertainties, actual results may differ materially from those projected or implied in today's discussion.\r\nSo Anirudh, welcome. Very, really happy to see you at our conference."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "And maybe at the start, what I would love to get from you, I think you have been in the CEO's role for roughly about 4.5, 5 years or so. And what's sort of the master plan as you look over the next 5 years? You have gone through this transformation of the company from kind of just EDA, right, to kind of diversifying it into system design, multiphysics, right, more IP. But what's the kind of the grand strategy? What should investors expect over the next 5 years?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Yes. Thank you, Vivek, and it's great to be here. By the way, I'm a big fan of Vivek and the CadenceLIVE in April, I gave the talk and your numbers just came out, your semi market numbers. So I quoted Vivek and put it and then all the analysts that I should also quote them, but Vivek always have very good numbers and analysis. \r\nSo it's great to be here, Vivek. And then in terms of Cadence, yes, last 5 years have been phenomenal growth, I think. And because we have about 15% CAGR in a tough market. Parts of the semi market was good, but part of the semi market was not that good. And then also our margin has improved. We crossed the rule of 60 this year. Now going forward, I think the environment is improving. I think our customer environment is improving. Our competitive position has the best it has been.\r\nSo going forward, I think -- and of course, I started all this SDA in 2017, 2018. And SDA is still good, but the value of EDA and IP is much higher because of resurgence of semiconductors, resurgence of AI. I mean, not just in semi companies, but in hyperscaler companies. So I think it will be more of the same, but I feel that we are well positioned in all the 3 areas: EDA, IP and SDA. And EDA and IP have potential to grow meaningfully in the next 5 years. SDA still will be good, don't get me wrong. But I think the value of EDA in 2026 is much higher than 2018."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Got it. The one question that has emerged this year for not just Cadence, but for the entire -- anyone connected to the software industry has been the potential of disruption from AI. So give us kind of your measured view, are there certain parts of your design flow where AI can be disruptive? So how do you think about just the emergence? Of course, it's giving you opportunities for more engagement with the customers. But are there parts of the design flow that we should kind of watch out for any kind of disruption?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Well, AI is a net positive to us, and there are multiple reasons for that and I've said this a long time, so sorry if some of this is repeat.\r\nSo first of all, in terms of software, we are both involved in the building of AI and the consumption of AI. So this is designed for AI and AI for design. That is not true for any other software. Okay, we love all our software colleagues, but no other software is directly involved in building of NVIDIA chips or Google CPUs. So I think that's one benefit. And then when we apply AI to us, it can be transformative in terms of productivity. And then people worry that, okay, if you are going to be 5x more productive, does that mean less usage of your base tools.\r\nBut what you have to remember is even in that part, that's why I'm so optimistic about not just about SDA, but EDA and IP. When we apply to AI to our products, our workload is exponential. See, I'm talking to one big customer, and this is true for all of them. They're saying that every next chip, they need 2x more engineers. That's an unrealizable headcount curve. So AI is needed. AI will blunt the headcount curve, right? \r\nAnd if the workload is constant, if it blunts the headcount curve, there's a worry that it reduces usage. In our case, because the workload is -- demand is exponential, the blunting of headcount curves makes it possible. So the market expects 5x, 10x improvement, just like we have delivered 100x over the last 20 years.\r\nI just came back from [indiscernible], I was telling some people, and this is supposed to continue. Kevin gave a good talk from TSMC, and he's showing TSMC road map, the number of transistors on these systems, chip plus package will go up 48x or 50x in the next 5 years. So to design all these things, you need that productivity, okay? And that you can see that even like when -- like, for example, recently, Jensen talked about Cadence at COMPUTEX. By the way, that's the work internally at NVIDIA and they highlighted it is that -- so when the customer is writing RTL, and this is the kind of thing that we never had tools before. It's a new TAM for us. They were using Xcelium and Jasper to write it because we need to verify that the RTL is correct.\r\nSo now when ChipStack is writing it, it actually uses more Jasper and more Xcelium. So actually, the number of base tool usage is going up versus a non-agentic world. So that's first thing that happens.\r\nAnd second thing is this new TAM expansion of this kind of capability that the users were doing manually, and we have now this agent product that we can provide to our customers. So in net, because of all these things, because we, first of all, participate in the build-out of AI, that's one. Second, when we apply AI it's an exponential workflow, exponentially growing workflow.\r\nAnd third, the way we apply it, and this is what I've said forever, is that it uses the base tools more. I've talked forever about this 3-layer cake. So the Agentic AI, then the ground truth tools and then the base layer, which is compute and data. Now if there is a certain application in which the base layer or the middle layer is very trivial or not as complicated, then maybe the LLMs can do everything themselves. But in this kind of complicated physically accurate workload, you have to use the ground truth tools. You cannot do it without that. And actually, Jensen has a very good analogy, okay? He was saying that -- just to -- is that he was saying that, let's say, agent is like a robot, right? And let's say, robot comes in your home.\r\nIf what you were doing was relatively simple, that's picking like the bottle from one place to another place, then maybe the robot can do that. But if you're going to prepare food like or use a microwave, is the robot going to warm the food with its hands or it's going to use the microwave that's already there. And in our case, we are not even like a microwave. We are like a nuclear reactor.\r\nSo when a bunch of robots come, they're not going to build nuclear reactor. They're going to use nuclear reactors in a more effective way. So I think the complexity of the task is also there. So for these 3 reasons, one, complexity of the task, two, the exponential nature of the workload; and three, that we also participate in the build-out, I think AI is a very big net positive for us."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Got it. So just to kind of close that, there is no genius sitting at any hyperscaler who is writing software that can completely remove their use of any part of the EDA process."
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Well, there are a lot of geniuses sitting at hyperscalers. All our customers are very smart, but they will develop all these things working with us. I think that's what we see. They want to enable -- again, they want to use our tools and build on top of that and use our agents."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Makes sense. Now one other thing I also find fascinating is at the leading edge, right, TSMC, right, their ability to drive the advancements in silicon and you are very strongly engaged, right, with the TSMC ecosystem, right, a lot more than some of the other ecosystems. So as they raise their pricing, is it fair to think that, that actually puts a lot more pressure on the upfront design process. So that's a good thing. But does it also perhaps limit the number of design starts because these things are getting so much more expensive. So how are you seeing those 2 kind of trends evolve, right? That one is complexity is growing? And second, is it then becoming a headwind to the number of design starts, which often tends to drive your business?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "No, number of design starts is still very good. It's increasing. And of course, I've said this for a while, not just for data center, but for physical AI. So right now, the design activity is very, very strong. And I think that it has a chance to further improve as -- because 2 years ago, I mean, there were some design activity inside the big system companies. Of course, some of the really big phone companies have done this for 10 years.\r\nBut what is also new, you know all this, in last 1 year, the success of Google is a big shiny example of verticalization. And same thing in China, I just came back from China, success of Xiaomi. Xiaomi is very impressive, okay? They have their own car, they have their own model, they have their own chips. So once this kind of verticalization has happened in like physical AI with Xiaomi or they also have LLM models or with this big data center with Google, I think the more is happening to compete with that.\r\nSo the amount of design activity has picked up independent of this pricing dynamic of the foundry because the value is very high. So I see that increasing. And then the traditional semi-analog memory have also improved. So overall, the environment is much better than a year ago."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Got it. I'm glad you mentioned, right, the environment. There were a few years in between, Anirudh, where we saw the EDA, IP industry have a more modest type growth pace, right, closer to kind of low double digits rather than kind of the mid-teens. But that, of course, followed some years where it was high teens, but I think that was the time when China was also growing much, much faster.\r\nIf you look over the next 3, 4 years, are we now at this mid-teens kind of growth rate? What were the headwinds that kind of made the growth rate slow down? And now what are the tailwinds that you think can sustain the kind of growth rates that you're at right now?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Yes. I mean the environment is -- I think there are 3 main things for us. And of course, we guide 1 year at a time. And this year, I think, is very strong, and we'll see how the next years go. So first, the design activity is much stronger. And for all the reasons I mentioned, hyperscalers are back in and other system companies like Tesla or BYD."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Okay."
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "The parts of semi that were weaker, relatively weaker have improved. So that's number one. The market is much better. And we can drill down more into that. But overall, I think that's good. The second part is competitively, we are in the best position we have ever been.\r\nAgentic, we are ahead. Base EDA, we are ahead. IP, we are taking share. Hardware, we have a unique platform with Palladium. So competitively, we are in the best position."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Okay?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "And then thirdly, we have this new opportunity with TAM expansion with agent. So if you ask me like last few years, there were some -- there's always some issue or other like in the past, we were not as strong in IP or some of the semi was weak or we will not have full exposure to Intel and Samsung. \r\nSo I think all the -- we -- I feel good that right now, a lot of things are aligned well. And that is a change. We have big opportunity at some of the companies, we never worked before the parts of the semi has improved. We have new TAM expansion. So we'll see how it goes. But the environment is probably the best it has been."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Yes. Got it. We had -- to your point, we had ON semiconductor, right earlier, we had Microchip and Analog Devices yesterday. And it's so interesting to see that in the past, 90% of the questions were about industrial and automotive and now half the questions are about the data center, right? So that is also, I assume, helping these companies come out the downturn. So are you starting to see that because you have a very strong exposure, right, to kind of the analog market as well. So are you starting to see R&D activity pick up there as well?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Yes, absolutely. Absolutely. And then also physical AI also benefits that part of the market. Look at ADI or ST just to give some examples. So I know -- and I think the design activity is strong. And also, not only that, everybody wants to do more things more effectively with this agentic flows. So not only is the customer base doing well, but the interest in more automation is there. So we have the amount of engagement we have with like ChipStack or ViraStack or InnoStack is throughout our big customers, whether they're traditional semi or their data center or analog mixed signal or system companies, they all want to do things more efficiently, right?"
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Got it. Is that part of the agentic workflow, right? You mentioned some of these tools. Maybe talk to us about are they means of efficiency for you? Or are they a means of efficiency for your customers? Or can they also become a source of more pricing power or stickiness, right, like some of these Agentic tools that you described? How do they fit into the equation?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "I mean, first of all, we are a technology company first. We want to make sure we deliver value to our customers. So like what NVIDIA was showing or we have so many other engagements with ChipStack like Qualcomm and MediaTek, if we can make things more efficient for what was a manual process, then that's a good TAM expansion opportunity for us. So that's the main thing we focus on is providing value to our customers.\r\nAnd then the way the ChipStack works, it also calls more of the base tool. Now in terms of productivity benefit, okay, it applies to customers and us internally as well. So we have about 15,000 people roughly, okay? About 4,000 are like customer-facing or what these days would be called forward deployed engineers, what we call like AEs, application engineers. And then 10,000 people are in R&D, okay?\r\nSo out of 10,000; 3,000 are in IP. This is like broad numbers, okay, without getting into -- so I think with IP group, we are also applying our own agentic solutions to them, right? That's the best way to prove it. And I am expecting at least a 2x productivity from the IP group. So those 3,000 people should operate like 6,000 because anyway, we have so much demand for IP solutions, and we will hire more, but they should be at least.\r\nSo the way I look at it is at least 30% reduction in headcount per project and at least 30% reduction in schedule for a given project, okay? So that's like a 0.7 x 0.7, that's 0.4, that's 2x. That's like a Moore's Law kind of productivity, okay? And sometimes we can go even better than that. Some customers told me they want 0.5 x 0.5, okay? So that's like 4x. So I think with this agentic flow, there's opportunity of 2x to 3x improvement, and that's huge, right?\r\nSo now we will make sure that we deliver that to our customers and get this opportunity of the new TAM. And then we apply it internally on the -- and then this is just the IP group. AEs can be more efficient. And then the 7,000 people who are writing code, they can be more efficient with like other regular AI tools like Claude and Codex. So it's both providing value to our customers, which is the main thing and then adding efficiency internally.\r\nNow internally, you see some of it already. Our incremental margin was 60%, okay? That's pretty good. And our operating margin is about 44%, 45%, but incremental is at 60%. So we will always try to drive that up and also provide this 2x to 3x to our customers. And again, this 2x to 3x or more is needed if the number of transistors is going to go up 48x, you need much more than 2x to 3x, but we'll start with 2x to 3x to our customers."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Got it. One thing, Anirudh, that has come up more frequently is, is the EDA industry utilizing its pricing power in the [indiscernible]. Interestingly, I find that the same pushback comes with the semi-cap equipment industry, right? Both are kind of ways of complexity. The usual pushback, right, which is your customers, their customers are making so much more money. Are we seeing it already and we just don't notice it as much? Or have we not yet seen it and that goodness.\r\nSo talk to us about has this increase in complexity, the use of all these AI tools, has it actually helped you improve your pricing power versus what it has been historically?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Well, we try to always get the right value from our customers. And first, like I said, our culture is first to deliver value, and these are like the biggest customers in the world, right? So it's not that they are short of money, okay? All these big 60, 70 companies that drive 60%, 70% of our revenue. So my philosophy always is if we can provide value, they are always fair to us, okay? \r\nNow a lot of the growth in the past has been driven by volume more than price because they are doing more and more. And the way to get the right value for us is to deliver more value. So I do think this agentic flow in which they are able to substitute more of human tasks with agents is a unique opportunity because we will deliver a tremendous value like 2x, 3x, 4x, and this is the right way to capture more value for us."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Because it drives more consumption of base tools and your value is kind of more levered to the consumption of your tools, right?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Not only that, it's a new TAM, first of all. It's a new TAM, right? Because like if we are having tools to write RTL, like I was giving the previous example, there were no tools like that. So it's a new TAM to buy. And then they can -- they always have exponential workload. So I think if something can give them 2x to 4x productivity or 40x in case of NVIDIA, yes, they will use that.\r\nSo it's a new TAM. And then that TAM also drives more of the base tools. So it's a multiplicative effect. But our philosophy always is we are very thankful to all these big 70 customers and relationships we have for years. If we provide value to them, they will provide value back to us. So my focus is having the best super agents for ChipStack, ViraStack, this is InnoStack. This is a new way of monetizing because if they get so much benefit, they are more than willing to share that with us."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Got it. Makes sense. You mentioned growth in IP. So why did it lag historically? And what is helping it now pick up and it's now become one of the faster-growing parts of your business?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Yes. I mean IP, first of all, I mean, I also intentionally in the beginning, didn't invest as much in IP, just to be honest, because we wanted to make sure that we are good in EDA first. Cadence has been -- if you followed Cadence, there has been a transition of one business to another. So I also personally invested more in EDA because that's the core of our business. And if you are strong in EDA, then everything follows from that.\r\nSo first 4 years when I was doing, I was more focused on EDA. Then I think a few things have changed in IP. One is because of this AI and disaggregation, some star IP is a lot more valuable. And we are focused on these 5 star IPs, which just -- without getting too DDR, the memory subsystem, PCIe, UCIe, which is chip-to-chip, HBM and then SerDes, okay? So we are always focused on advanced node star IP because, again, we -- and part of the IP business was Tensilica, which is more profitable. But we always thought if we focus on few star IPs and do a good job, you can get a better margin and better behavior because our customers see -- when we have these really big customers, we always focus on win with the winners, the really big guys because once you win with the winners, the other stuff just happens naturally, okay? \r\nThe big with the winners, they always buy best-in-class. They're not interested in -- they're not buying something for -- they want to buy best-in-class. So it's better to focus on a few things and do them well rather than have a big portfolio. And so that's the second difference, which I think has played out well now. It took a few years for that.\r\nAnd third thing, which is probably the most important is I've over the years, changed all the R&D teams in Cadence, and we always have very technical leadership and very good R&D teams, okay? And finally, in IP, I finally believe that the team is world-class. It wasn't world-class before. And -- but I think over the last few years, they are world-class. And if you look at all the GMs in Cadence, they are all technical there because that's what our customers want, okay? \r\nSo as a result, these are standard-based IPs, even these 5 things I mentioned, DDR is a standard, right? So somebody chooses or not depends on how good the PPA is for performance and area. And we are using TSMC or whatever. So it's the same process, same requirements, but how good your R&D team is, it depends. So our PPA now is pretty good. The R&D team is good. So if the product is good, it sells, right? So I think -- and then there are a few other things that happened. Disaggregation helped us and then now Intel and Samsung and other rapiders. But the main thing is, I think we have the right IP strategy, which is more focused at these 5 key IPs and advanced nodes, and we have a great R&D team now."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Got it. For better or worse, investors will always look at the 2 kind of leading companies in the EDA space, right, and try to -- both are high-quality businesses. What do you think gives Cadence the edge in terms of potentially gaining share over the next few years? Is it that you have a specific mix of businesses? Or within those businesses, you have an opportunity to take share in certain things?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "I mean, first of all, we are very strong in core EDA, okay? I mean there's no doubt about that. And we were -- we didn't have as much opportunity. And you can see that in the TSMC ecosystem. So in terms of PPA and also in terms of scope, right? So we have analog. We're the only company that has all the tools. So we have analog, we have digital, we have verification, we have packaging.\r\nSo core EDA, we are very, very strong. In IP, we are getting much stronger with this kind of strategy I mentioned. And then we have SDA, but what I would consider the right amount of SDA. You don't want to over SDA yourself. The right amount of SDA, which is focused on 3D-IC and physical AI. So I feel very good about the mix. And I think we have a very good R&D-driven culture, okay? \r\nI'm R&D by nature. All the -- I said all the leaders are R&D because see, when you interact with these top 60, 70 companies, they're all very technical, too. They want R&D to R&D interaction. They're trusting their huge road maps to a company. So they want that confidence that the other side because we are deeply embedded with their road maps.\r\nSo we have a whole culture of we will enable R&D to R&D interaction, and that's thing we have gained over the years. And I think that is unique to Cadence. And so I think we are well positioned as the market improves. So I mean it's a good industry. What I tell to investors is, yes, you can invest in both, but just invest more in Cadence."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "You say that very objective."
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Yes exactly."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Of course."
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "It's also true, right, if you go back and look at the last 5 years, yes."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Okay. So on -- one other, I think, interesting thing about Cadence [indiscernible] space is you were sort of the early leading indicator of this growth that we are now seeing in cloud AI. What do you think, Anirudh, about the whole excitement and interest in kind of physical AI, edge AI. They still seem a little bit further out. But if anyone has kind of early visibility around that, so do you think investors should be paying more attention? Like are those going to be real markets, real players? How much of a design activity are you seeing in physical AI, robotics, right, edge AI?"
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Yes, I'm a big fan of physical AI. And I've been for a few years. By the way, I say the same thing year after year for a few years, and people used to tell me, what are you saying? What is physical AI. But now I think it becomes more -- because we do have some early view of what is happening. And it's still like I always said like 3 to 7 years, okay? So it's still like -- now it is already -- but if it's 3 years, then they already start designing for that. So we already -- if you look at all the car companies, and of course, a big famous thing is what Elon is saying, right? I mean they're investing a lot in their AI chips and also then with robots and all. \r\nAnd then if you see what is happening, like Rivian is doing things. And then in China, there is a lot of activity already. So BYD and Nio and XPeng, they're all Cadence customers, okay? So that's why Xiaomi now not just making cars, but making robots, and they're very impressive. So I think you're already seeing signs of that in Tesla and in China and then some of the traditional companies, too. And then you're starting to see the signs of that with like ADI and TI and all the traditional semi companies. And then even NVIDIA, Qualcomm, MediaTek. So I think it will be a big market. \r\nNow what I want to make sure is that as a company, we are well positioned for physical AI. I believe we are well positioned for data center AI. And also, we are well positioned physical AI. So there is simulation part, but also the base silicon content will go up a lot. If robotics is going to be the biggest market ever, then the amount of chips that go into robots will be high. If the chips is high, you need to design them.\r\nAnd now exact timing is very difficult to say. Like there's data center, there's physical AI, it's like when it happens. But for us, we want to be best prepared for that. Now it may happen sooner, it may happen later. This may correct, may not correct. I think one thing I want to tell investors is because I believe we are well positioned with data center and physical AI, and we are not directly tied to there is pros and cons of that directly tied to the actual silicon volume. If things are good, it should be good. Even if things turn south a little bit, it should still be good for Cadence Design. So the physical AI part is to make sure we don't miss the next big thing while focusing on the current big thing, which is Agentic and data center."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Makes sense. With that, Anirudh, thank you so much. Really appreciate your time."
+    },
+    {
+      "speaker": "Anirudh Devgan",
+      "role": "Executives",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "Vivek Arya",
+      "role": "Analysts",
+      "text": "Thanks a lot."
+    }
+  ],
+  "word_count": 5020
+}

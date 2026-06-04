@@ -1,0 +1,287 @@
+{
+  "ticker": "NOW",
+  "symbol_used": "NOW",
+  "call_id": 33367,
+  "source": "earningscalls.dev",
+  "url": "https://earningscalls.dev/transcript/33367",
+  "fetched_at": "2026-06-04T23:14:36.375310+00:00",
+  "company": "ServiceNow, Inc.",
+  "call_type": "Presents at 2026 Evercore Global TMT Conference, Jun-03-2026 02:10 PM",
+  "date": "2026-06-03",
+  "raw_date": "Wednesday, June 3, 2026",
+  "sector": "Information Technology",
+  "industry": "Software",
+  "segments": [
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Thanks, everybody, for joining us. Kirk Materne with Evercore ISI. We're really excited to have ServiceNow with us this afternoon, Gaurav Rewari, who's the EVP of Global Marketing, Data and Analytics. So thanks very much for being here."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Just for some background for everybody, can you just talk about sort of your responsibilities at ServiceNow and then the elements of the Data and Analytics platform? Because I think it's something that's obviously up and coming at the company, but maybe not as familiar to everybody. So I'll let you kick off with that."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "No, happy to provide some context, and thanks for having us. So yes, I'm Gaurav Rewari, I'm EVP and GM, General Manager, of the Data and Analytics business.\r\nRelatively new business for us at ServiceNow. And we've done things in data and analytics before. We had embedded reporting, we had data integration products, but it was fairly scattered and it wasn't sort of a serious area of focus. And so Bill and Amit reached out to me to join and to stand up our next multibillion dollar business. So that was sort of the problem statement.\r\nAnd I think the motivation was, on their part, was twofold. One was what they were hearing from customers, which is, look, \"We'd love for you to take data seriously.\" And the second is just its incredible relevance to our AI success, right? And you've all probably read the reports, right, the very sobering statistics, around 95% of projects fail, the MIT study, and the other things from Gartner that are equally sobering.\r\nAnd if you actually read that report, it tells you that, in most cases, the reason for that are data issues, right? So this is -- I often -- the data is all siloed, I don't know where what is. Even if I find it, I don't know what it means. There are 5 different versions of the truth. The quality of the data is suspect. If I can clean it up, how do I keep it clean? Then I derive insights from the data, but you've got one version of a definition for return on invested capital, Andrew has got another one. Which one do I believe? And on and on and on, right?\r\nSo these kinds of issues, we like to joke, it seems like the path to agentic AI heaven goes through some form of data hell, right? And so we said, okay, we looked at ourselves in the mirror and we said, look, if we are serious about driving business transformation through agentic AI, we've also got to be serious about being in the data and analytics space, and making sure that our customers have the tools and the support that they need to get their data estate to be AI-ready.\r\nAnd I'm just delighted to share that sort of the product line that we've built to support that has met with a very strong reception. And we're on track to break $1 billion plus in ARR in just a few quarters here."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "That's great. Very fast ramp. Can you just remind people the products involved in the data and analytics side? Obviously, RaptorDB is a big one. But what else falls within your sort of purview?"
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Good question. Yes. No, look, the framework with which we think about the scope of data and analytics in the new world of AI, which is fundamentally different, we believe, from yesteryear, are what we call the 4 Cs.\r\nYour first order of business is just to connect all your data. And it's really important that you provide connections to all systems of record, all data platforms, et cetera, right? So that these AI agents can learn what they need to learn so that they can do what we want them to do, right? And they can't just be ServiceNow data. So that connect layer is hugely important.\r\nThe second layer is, okay, I've connected it, but like it's not enough to just connect the data. I need to be confident that it's trustworthy. So I need to have -- clean the data and you need to do that on an ongoing basis. So there's governance that's required. So that's the second C.\r\nThe third is you can connect your data, you can keep it clean, but you can still really not know what it means and what ties to the other. So that's context. That's a big investment area for us. That's the third C.\r\nAnd then the fourth is, just think about it for a second, right? AI isn't just about assist and copilot type of -- initial copilot kind of capabilities, right? It's about actually taking action. That's where AI is today. And so how can we have a world or how can we have an architecture and an infrastructure where like the system of where you get insights is completely distinct from the system where you actually take action? You've got to bring those together. And that's the fourth C, converge.\r\nAnd so our products map into that. Workflow Data Fabric is connect and control. We have a new analytics product line that we've just announced that helps with the context and the context engine. And finally, the converge is Raptor."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Okay. Out of curiosity, when Bill came up to you and offered this opportunity, why was it exciting to go to ServiceNow data? Meaning data, there's a lot of companies that are involved in data. What did you see at ServiceNow that gave you sort of -- or gives you permission to win in this area and help customers with this? I was kind of curious, because it's not a trivial task to try to build a data business. It's hard. There's a lot of companies that are trying to do this."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Yes, yes. Look, I'll just sort of speak very frankly here, I wasn't initially intending to go to ServiceNow. I've sort of, deliberately, I think, chosen in my career to alternate between big companies like Oracle, and then startups, just to sort of stay nimble. And so I was actually headed to a startup, and I spoke with Bill. And I suppose he did the old Jedi mind trick on me or whatever. But like I was so fired up at the end of that call, I got to tell you, that I basically said yes on the call and I hadn't spoken to my wife before doing that. So there was an interesting conversation that evening. Of course, she was very, very supportive.\r\nBut I'll tell you, there were 3 reasons that just compelled me like to say yes. One is I've always had a soft corner for this company, because from the Fred Luddy days, they always go back to first principles and think about how is it that we can architect our product to win, right? So we have a structural advantage.\r\nSo we're -- even when we are in the age of AI, that notion of a single codebase, a single platform, with a single security model, single user experience, the painful discipline required to just invest in that gives you leverage, right? And what did Archimedes say? \"Give me a lever long enough, I will lift the moon.\" That's what architectural purity gives you. So I've had a soft corner for that.\r\nAnd then secondly is it's a very collegial place. It's somehow managed to keep a very sort of startuppy innovative environment going even at scale. So those are the things. Plus the old Jedi mind trick, I suppose."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. He's known as a pretty good [ talker ]. So you're not the first, I'm sure there's many of us. Talk to us about, as you obviously have a great customer base that has used you and trust you for managing a lot of workflow, how does the discussion about getting these data products, getting them to view the data products as something that they want to expand with you? Just walk me through maybe an example of a customer where that sort of conversation starts and what it ultimately ends up looking like as they say, \"Hey, look, I like your strategy. Let's go.\""
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Great question, and I think that gives me an opportunity to make a really important point, is I think that we are on our way to becoming a data and analytics juggernaut by, initially, and even in the midterm I would say, never really selling directly to data and analytics teams. And the way we do that is by saying, \"Hey, Dear ServiceNow Platform Owner, Dear Line of Business Head, that uses ServiceNow for workflow orchestration across the board, would you like to have your operational workflows and your analytics run 10x faster?\" Right? \"And if you do, we'll run a POC for you. We'll show you the results. Sign up.\" And we would have sold RaptorDB Pro. No conversation about speeds and feeds, no conversation about columnstore indexing, no conversation about parallel processing. It is the value and the outcome that we sell.\r\nThen the next port of call is, \"Okay, so now you're embarking with us on this journey for agentic workflows, would you like to make sure that your AI agents have, for their training, right, data from not just ServiceNow, but related data, from Workday, from Snowflake, from Databricks, et cetera? If so, we've got the right thing for you. It's Workflow Data Fabric with its connect and contextualized layer,\" right? \r\nAnd so, and lastly, we've gotten into analytics now, we are not going and saying, okay, let's talk to you about -- because I used to be at Oracle, at MicroStrategy, et cetera, I ran products for those companies, right? We're not going to have a conversation about, hey, let's talk about slowly changing dimension and ragged hierarchies, which is the DI speak. We're going to say, \"You put changes into your production systems. Do you want us to help you predict which changes are likely to fail and where the incident volume is likely to spike and which businesses are likely to be impacted?\" And why we can do that is because we're going to take our analytics product and bottle it up into workflow-based solution.\r\nSo fundamentally, we are actually selling solutions with data and analytics products underneath the hood. And then the phase 2 of our journey is to say, well, we've earned the right then at some moment in time to go directly to the data and analytics office."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Okay. That makes sense. RaptorDB Pro, it's positioned to run both transactional and analytical queries on the same data set. How much of an advantage is that for customers in terms of just price performance? And that alone, does that get you in the door to have the conversation, I guess, in terms of..."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "100%. Look, I would say that RaptorDB Pro in its first innings, and we've got a few lined up, is largely about saying, initially, was largely about, hey, if you have a certain volume of transactions that you're running, a certain number of workflows that you're orchestrating across your system, we will speed those up without you knowing, right? Like that's what RaptorDB Pro brought to the table in the initial innings.\r\nBut then this notion, as you call out, about a converged infrastructure, is profoundly important. You see most of enterprise software's history has been about saying, you have these what I call OLTP systems, online transactional processing systems, think ERP, CRM, HCM, that execute transactions and get work done. And then you have, if you have questions, you need answering, business intelligence, analytics, you would typically forklift that data out into a data warehouse or a data mart and then analyze it over there, right?\r\nOkay. But now imagine a world where you have not thousands, but millions, if not billions, of AI agents acting and thinking on your behalf, right? How can you have a situation where they're going to be acting on stale data and stale insights? Because moving that data over introduces what's called latency. So if you can have the same workhorse database perform both operational tasks and analytical tasks, you give them real-time insights, not insights that have that latency.\r\nSo it's fundamentally that value proposition that we find that our customers are -- love. And what we have chosen to do, and this is once again how ServiceNow is distinctly different, is we've said, yes, we have an analytics tool. But if you want to point your favorite analytics tool, Tableau, Power BI, et cetera, directly against RaptorDB, we'll let you do that too. It's okay. We'll embrace the choices you've made just as we've embraced the choices they've made on the systems-of-record layer as well."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "And when you think about Workflow Data Fabric, how much of the sort of early demand for that is people just trying to get ready for agentic? Meaning, I kind of wonder it's always sort of the chicken or egg, are they trying it out and then realizing the data doesn't work so they got to go back and deal with it after the fact? Like, is it just the central discussion around an agentic enterprise driving more, I guess, understanding of the need for a technology like that, that can help centralize data and basically inform the agents in a much better way?"
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "And you're saying versus the more traditional like I want to upgrade my analytical infrastructure..."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Yes, good question. I'd say that certainly, the need to get your data estate-ready for AI is the why-now motivator. I mean I've been going to this Gartner Data & Analytics conference they have for longer than I care to admit. I had a full head of hair when I started, right? And I got to tell you, the sessions that used to be the most packed were the ones on analytics and dashboards. That's where you got the whistles from the gallery, right? No one went to data quality, master data management, like those are not sexy at all. Last 2 years, standing room only. Same people, same problem really, and they're standing room only because their CIOs and CEOs are telling them, \"Listen, clean this up yesterday,\" right?\r\nSo that urgency is definitely tied to getting your data ready for AI. But in so doing, I honestly do feel you're solving a lot of the problems you need to solve anyway to get a more robust, semantically richer analytical infrastructure in place."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "And you mentioned earlier the ServiceNow customer base, they're trying to figure out how to get to that agentic layer. When they think about sort of spending on RaptorDB Pro, does it come more from sort of the -- is it just a broader view of workflow, and so this is sort of almost a new budget for them? Or are the data people getting involved sort of after the fact? They're like, oh, ServiceNow has got a lot to go here. I'm just kind of curious who the buying audience ultimately ends up being at the end of it. It might be all of the above."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "It is all of the above. But principally, I would say it's the ServiceNow platform owner and our existing e-buyer that sponsors the project around. \"Okay, I have like 5,000 reports I'm running and they can run 10x as fast if I have RaptorDB Pro under the hood.\" So that's sort of the land motion for RaptorDB.\r\nBut we have just announced some additional capabilities, like the one I alluded to, which is, hey, what if I have Power BI or Tableau in house and I want to point it directly against RaptorDB? What does that mean? That means you don't necessarily anymore have to take out your data from Raptor, put it in Snowflake, put it in Oracle, put it in BigQuery, et cetera. So the cost of defining and maintaining those data pipelines goes away. So it self-funds itself. And guess what? Because you're hitting Raptor directly, you get live, real-time analytics, not with that latency.\r\nWe've done the same with something called Live Archive, where what we're saying is, if within Raptor you want to offload some data to lower cost storage, we'll let you do that, right? And then we'll let you actually query both the hot and cold data seamlessly. Today a lot of companies take the data out and put it in a backup and archival system. But once again, the cost of doing that goes away if you go with the Raptor option. It self-funds."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "And I guess when -- you guys obviously have a lot of products like Now Assist and others that are agentic in nature. Is the data discussion fundamental in those as well now? I mean, is that when people are thinking about that? Is it sort of like, yes, if you really want to get to sort of more autonomous agentic, you're going to need to make sure that the data is set up? So are you getting pulled into those discussions essentially?"
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "100%, and increasingly so. I mean I'll be perfectly candid, in the early days when the story was largely around connectivity of data, quality of data, governance of data, it was like, \"Yes, yes, I got to do it.\" It's like washing my hands 5 times a day. I get it. I got to do it. But everything has changed with this context thing, where demonstrably you can show that the quality of your AI agents, reducing hallucinations and bias, is tied to how rich the context is that you can give to your AI agents. Then collect -- 3 Cs, connecting the data, controlling it and then contextualizing it, becomes crucially important. That's all large part -- in large part done through Workflow Data Fabric. So suddenly, it's like, okay, I got to know this too as a prereq.\r\nAnd our vision, I would say, on context engine is quite unique. Because a lot of people may not know that like ServiceNow's initial special sauce was the CMDB and this whole Knowledge Graph that was built that powered the CMDB. And so we've been in this business forever, which is mapping the smallest IT software hardware component all the way up to a business service, right? And understanding the lineage, the impact analysis, et cetera.\r\nAnd so to that, we've added context from your data platforms, like Snowflake and Databricks. We've added context from identity and about users through our Veza acquisition, about assets from our Armis acquisition. So suddenly, you've got something that is it's the graph of graphs. That's what our context graph is."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "That's really interesting. If there are any questions, I got a ton more, but I'm happy to make it interactive as well. All right, I'll keep going.\r\nThe data.world acquisition, can you just talk about what you guys are doing on that front in terms of the data catalog, governance capabilities? I think it fits into what you said about the 4 Cs, obviously, but how is it for you?"
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Yes. No, happy to spend a minute or 2 on that. Look, I think that was the first move we made, inorganic move that we made. And it was a Knowledge Graph based company for data cataloging, which was unique. We looked at all the other companies out there in the startup venture ecosystem. And we just fell in love with this one because of the way it was architected. And it's wall-to-wall deployments at places like McKinsey, WPI, et cetera. So we spoke to a lot of customers.\r\nFundamentally, what we said was we need a way to organize the data or catalog it. So we understand, where did this field come from? Can it be trusted? What was the last time it was modified? What is its lineage? And ultimately, bless it. And so from that, we create data products that are really metadata and that tells any user, including an AI agent, this set of things are on this topic and can be trusted, right? So we knew that it was a seminal piece. We had not built that, so we made an inorganic move there. Happy to report, we've just fully integrated it into the ServiceNow platform and rolled it out at Knowledge in May.\r\nSo that's the sort of the big piece of the puzzle. But that's the first step in a longer journey. And that longer journey is about saying we're not just going to get your data estate AI-ready on day 1, we're going to keep it AI-ready. So data quality, data observability, MDM, data harmonization, data enrichment are all things that we will both build and partner with. So we have this notion called Workflow Data Network, which says, \"Look, if you want to use ServiceNow's data quality product down the road, great. If not, if you've got your favorite data quality product, you can plug it in.\"\r\nSo that is once again a very different approach relative to the other players. And so that's what -- and we call it, we've given a fancy name, Autonomous Data Governance. But really, that's what it is."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Okay. And you mentioned sort of you guys have zero copy partnerships with some of the other data providers like Snowflake, Databricks. How should we think about those relationships in general? Is it all just about openness? If someone has -- most, Snowflake to be their core data repository, maybe they have you all, sort of just running under the ServiceNow stack, for example, I guess, how do you think about that from a -- there's, I'm sure, some coopetition to some degree, especially as you get into analytics. But how should an investor kind of frame your position in data versus the ones that are maybe more centralized around that area?"
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "That's a very nice question. And I think that, honestly, it harkens back to one of the reasons I shared with you I felt compelled to join ServiceNow, which is going back to first principles and figuring out how to architect this for today's needs. And in so doing, I believe our position is unique in the market, right? We don't say you have to move all your data into our data cloud or into Raptor for the magic to happen. If you'd like to, we love it. Thank you very much. We'll be flattered. But you don't have to.\r\nSo if you want to leave your data in SAP, the ERP systems, or if you want to leave it in Snowflake, Databricks, Google BigQuery, Oracle Database, we've got all of those. You can leave it in place. You don't need to move it. We will logically represent it in Raptor. And at the moment of the question, we'll push down the query -- federate the query and push it down to these underlying data warehouses and data lakes.\r\nThey're happy because we continue to drive data processing consumption there. We are happy for another reason. It's because we say to our customers, just like we are the platform of platforms, as Bill likes to say, for system of action, we're also the platform of platforms for insights. And AI agents need insight and action.\r\nIt is our position in the stack that allows us to do what we do. And what that meant was basically looking at where the industry was. Everyone, you might remember, was talking about data gravity, data gravity. Don't play in AI if you can't get data gravity. And our position was, that's nice, but it's not necessary. What matters to us more is knowledge gravity. And we believe we can do that even if we're sitting atop the data warehouses, data lakes, the systems of record.\r\nSo that's why Zero Copy is such an exciting thing for us and it's important. And the reception has been really strong. And I think it's a distinctive architectural benefit."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "I think ServiceNow has always, because you've done so well in your core ITSM, you've been sort of given permission by your customers to expand. And I'd imagine having data products allows for potentially more surface coverage for you all over time. You're not going to announce anything, but I'd imagine as customers think about building agents that are cross-functional, things like that, the data foundation sort of helps support that view or that vision for you all. Can you just talk about that a little bit?"
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Absolutely. I think that data and knowledge foundation, as we just talked about, gives us the framework, and the fabric, no pun intended, in place so that you can do powerful things on top. And once again, it's a logical fabric. So not all the pieces involve moving the data over. Some can stay in place. So we play nice with the other systems of record and the data platforms.\r\nSo I think it opens up avenues for us. And I think I'm personally very content, because we can blow past all our revenue targets that we have for this business and our ambition by continuing to sell into our existing e-buyer more and more data and analytics capabilities, but positioned as outcomes that matter to them, right? But the time will come.\r\nAnd this was actually something we did at Oracle. We were very late to the BI platform space. So we built something called BI Apps. Basically, it was CRM analytics, ERP analytics, HCM analytics. And that's what we sold on top of PeopleSoft, Siebel, JD Edwards and E-Business Suite. The customer often didn't know that they were using a BI platform underneath. We blew that past $1 billion, $1.5 billion in revenue. And then after that, the customer is like, \"I kind of like this. Can I use it for other things?\" And we said, sure, you can. And that was the expand motion.\r\nIt is our belief that exactly this will happen. What Mark Twain said, \"History doesn't repeat itself, but it rhymes.\""
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. How about just the go-to-market for these products? I assume, is this, from a rep perspective, they understand the benefit of bringing data into the conversation? You have specialists that just are sort of -- that come in along with the sort of account manager? How do you make sure that the assets you have in Data and Analytics are represented in conversations? Because I'm sure you're still introducing a lot of your customers to these capabilities."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "No, no. Great question. And look, I think it's the latter. So what we do is we have our core AEs. And the core AEs own the relationship with the customer. They're typically more schooled in the sort of bread-and-butter products of ServiceNow that we are known for, whether it's IT service management or the like. And what they do is they know enough to be dangerous and have the first couple of conversations, and then they quickly pull in the specialists. And we've got specialist AEs and SCs as well.\r\nBut now we have to, as we go into 2027, ask ourselves. Because this business is -- it's one of the fastest-growing businesses ever in ServiceNow's history, right? Within a company that has already broken past $5 billion, $10 billion, now $15 billion, faster than anyone else. So we have to ask ourselves whether the time has come where we have a dedicated, not a specialist, but like dedicated sales force just for Data and Analytics, or do we wait a little bit? So those are the discussions that will happen back half of '26."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Interesting. Interesting. Any questions? I'll keep calling, but I can keep going too.\r\nAnalytics. What do you think the secret sauce is for you in that area, right? I mean we've all seen it, you're at Oracle, done that, we've seen analytics, I don't know, it almost takes on sort of people are like, \"Oh, analytics, who cares?\" But there's obviously value to that. Is the value in the analytics really just the whole stack that comes along with it from ServiceNow? It feels like it's a layer that people think is somewhat commoditized, which might not be fair, but it's the view. How do you make sure -- or I guess, how do you monetize value at that layer?"
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "I don't think that's fair. And as in like, I think that proclamations of the death of BI are greatly exaggerated, as they say. And I think that it's never been more relevant. But there is such a thing called modern BI. And what is modern BI? Modern BI is the complete upending of a massive category. This is a $100 billion TAM category. I started my career at MicroStrategy back when the term BI was not coined, and we sort of evangelized it along with Business Objects, right?\r\nAnd look, here are the 3 things that are happening. Number one is we now have a world, agentic AI world, right, where we want these AI agents to think and act on our behalf, right? And so like just as humans need trusted business metrics, you better believe that these AI agents need, not the Monday afternoon versus Monday morning definition of return on invested capital, but the official, governed, curated, best version, right? So they need authoritative business metrics just as much as humans do. That's number one.\r\nNumber two is that this separation between the world of getting insights and taking action cannot survive in a world where you've got AI agents doing both. And they need real-time analytics in the flow of work. That's the second big thing that's happening.\r\nAnd then the third is I think dashboards will be greatly diminished as a consumption mechanism for BI and for analytics, and be conversational. You want to ask your questions conversationally, get results conversationally. And you want to have AI agents analyze the results for you, interpret it, spot outliers, bring them to your attention. And then because we are ServiceNow, trigger workflows. So you detect risk and you remediate, in one platform. Nobody else can do that.\r\nAnd that's why analytics is deadly important for us. And it comes at a time when every single chief data officer is looking at the old analytics tools and saying their better days are behind them, like we have to think differently in the age of AI. It is a moment of profound disruption in this $100 billion TAM market, and we are positioned to go in with we're bringing insight and action together. That's the Pyramid acquisition that we made 2 months, 3 months ago, something like that."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Okay. That's super helpful. One of the conversations I think we've been having at this conference and with investors in the last few months is the sort of concept of a harness and orchestration layer at companies. And I know this might not be perfectly within your purview, but data seems to play a really important role in sort of the value of describing up these layers and what you can do with data, is sort of a differentiator versus just model intelligence getting better.\r\nI guess how should we think about that with the data sort of offering at ServiceNow? Meaning, does it help you all have -- like does having the data platform make that sort of orchestration harness layer even more powerful to some degree as we -- because the models are going to keep getting more intelligent, that's going to happen. So the differentiation has to happen in terms of your ability to understand data, take actions on data, things like that. So I feel like it sort of feeds into that broader discussion, but I'd love your sort of take on that."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "No, no, for sure. I think that we talked about this new context engine that we have, that is a graph of graphs. It combines the traditional ServiceNow Knowledge Graph that we've always had with an identity graph, a user graph. We've also built in sort of something we're calling a Decision Graph, which is because we are sitting on 20 years plus of accumulated workflows, we are able to understand, in a look-back fashion and a go-forward fashion, okay, when a decision was taken, why was it taken? When an exception was made, who made the exception? Did it go through a chain of approval, yes or no?\r\nAnd so decision traces to figure out why that was done and what the outcome was is context for the AI agents to make smarter decisions in the future. Similarly, we talked about that one version of the truth for your business metrics, because in parlance -- in common parlance, that's called the semantic layer. So we got that through Pyramid. But that's going to fold into our Context Engine as well.\r\nSo these are ways in which the data products that we have become extraordinarily relevant to our AI story and to AI adoption with customers, which I think is what you were asking."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. No, exactly. I think we're all asking a question of like we all know the models are getting more powerful, how do you add value on top of them? And I think, obviously..."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Yes. So one is the unique context that we have and we provide. And then the second is what you were getting at, which I forgot to speak to, which is this notion of what Bill likes to call the rules and the rails, so the control paradigm and the harness. And I think that extends to data as well. That's what that Autonomous Governance piece will give us, that we're building out. And data.world, the data catalog, is the first piece of it.\r\nSo we create these data products that are blessed assets for AI agents and humans to use. And unless they're blessed, they can't be used. That's a harness. That's a control mechanism. In fact, like we -- I wanted to name that, before it got named Autonomous Data Governance, I wanted to name it the Data Control Tower. It can shut down. There's going to be only one control tower."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Only one control tower."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Yes, yes. Standing leg.  So yes. But in essence, that's what it is."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Okay. And you all now have a much more fulsome stack of Data and Analytics products right now. Is there a cadence that's normal, I know it's early, is there a cadence like -- like is it RaptorDB first, then Workflow Data Fabric, then analytics? I mean how do you think about..."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "From a customer adoption?"
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes, from a customer adoption perspective. And maybe it's too early to know that or there's not a good sort of..."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "There is 1 or 2 patterns. I mean yes, there's a lot of noise in the data, but a couple of distinct patterns are, I think it's usually Workflow Data Fabric first, largely because we are already in 95% of the Fortune 500 doing the take action piece. So they are using the integration write-back capabilities. And so they're already Workflow Data Fabric customers. That's why we have more than 6,000 already.\r\nAnd then it's about jumping up tiers in our pricing model with them. Would you like to also tap into true zero copy? Databricks, Snowflake, et cetera? Well, then step up to another tier. That's Workflow Data Fabric.\r\nRaptor in the first innings was, \"Hey, do I want my workflows to run 10x faster? If so, I mean\" -- so the bigger companies with a lot of workload, they're the first to gravitate to it. But with Live Connect, Live Perform, some of the new capabilities I alluded to, I think we'll see more broad-based adoption of Raptor earlier. And analytics is the baby of the family, like it's only just rolling out."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Taken off."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Yes."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Okay. Maybe I got a couple of last ones. But of the data platform when you think about -- there's a lot of things, I think, bringing it in and having it to be part of ServiceNow with the change management database, things like that, is that what's durable? Meaning, I think everybody is wondering what moats are and stuff right now. When you think about your data platform and what's durable, that's very unique to ServiceNow as we think about sort of, you know, everybody is wondering about terminal value and all that in the AI world, when you think about your business in particular, the things that are going to be almost impossible for someone to sort of replicate or replicate easily, what comes to mind?"
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "I'll give you 3 things and tell you why neither of those are the answer to your question. The first is that converge database you talked about, right, where you can do both operational execution as well as analytical execution in the same database without needing to move data, that's hugely differentiated, and which -- can you think of like which -- no one else has it, right, at our scale."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "I'll ask a follow-up. Yes."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "So that's number one. Number two is the ability to like federate out the process of understanding the data and taking action without necessarily having to move the data over from external sources. That's a crucial differentiation.\r\nThe third is the CMDB, which is -- I mean, it's a marvel of engineering, built over 20 years, with the accumulated workflow history that we have that allows us to do the things we can with the Context Engine, right? That, unless you've been in this business supporting 10 billion-plus workflows with trillions of transactions, how are you going to get it. That's a pretty good moat, right? That's the third piece.\r\nBut neither of these, and there's probably 2 or 3 more I could probably come up with, but neither of these are what I would put as number one. Number one is the fact that all of these gems are in a single platform. Single data model, single security model, unified user experience for everyone. No one else has that. And that's because Fred Luddy, when he founded the company, made that a defining characteristic of the company. And so that's number one. That's the true differentiation."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Yes. And is that single platform, what do you think about from a customer perspective, is it just like the simplicity of it to some degree? I mean what is -- like if I'm a customer, I'd be like, great, yes, I'm glad it's a single platform. What does that mean to me? Does it mean is it just performance based? Is it the understanding of centralization of data? Like just take it another step further. So if you're talking to a customer about it, why that would resonate with them? I understand why it resonates with ServiceNow, but why would the customers?"
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Lower cost of ownership. More accuracy in the results. The ability to have a core set of people within your IT department trained on using the platform that can then do, with the same skills, allow you to do magical things in HR, CRM, ERP, IT, you name it, right? So it's the gift that keeps on giving, right? And the ability to say, hey, you set up your security and like you have access to this kind of data, Andrew has access to something else, and suddenly, anything you do in HR or CRM or any of the other lines of business, inherit that.\r\nIn alternate solutions, it's all siloed, so then you've got to go buy some other product to stitch it all together. That's not the case when you have a single platform, single data model."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "And I would imagine, because of that, the customers that have bought multiple products from you, whether it's ITSM plus HR Onboarding, are they the ones that almost see the value the most? Is it most obvious to them? Are those the easiest upsell customers where they are at? Okay."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "100%. I think you alluded to it in one of your earlier questions, is this installed base is actually pretty happy, and it's quite refreshing actually. You go to Knowledge and you just feel the love. And I say that because if you're an installed base play, like Data and Analytics is, it matters. You're innocent until proven guilty. You're given a chance. And that's a big deal. That's a big deal."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "One last chance. Any questions? All right. We've covered a lot of territory, so we'll probably end it there. But thank you very much."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "My pleasure."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "This is really interesting. And we'll see how data ends up in the next year or so at ServiceNow. It will be a lot to watch. Thanks a lot."
+    },
+    {
+      "speaker": "Gaurav Rewari",
+      "role": "Executives",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "S. Kirk Materne",
+      "role": "Analysts",
+      "text": "Appreciate it. Thanks, everybody."
+    }
+  ],
+  "word_count": 6832
+}

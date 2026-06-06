@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-06-05T23:13:22.340093+00:00",
+  "last_refresh_at": "2026-06-06T23:07:31.086648+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,15 +7,15 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-06-05T23:14:19.434596+00:00"
+      "ts": "2026-06-06T23:08:04.130578+00:00"
     },
     "rss": {
-      "ok": 9,
-      "total_entries": 136,
+      "ok": 7,
+      "total_entries": 86,
       "per_source_counts": {
         "TrendForce": 20,
-        "Nikkei Asia": 25,
-        "DigiTimes": 25,
+        "Nikkei Asia": 0,
+        "DigiTimes": 0,
         "ServeTheHome": 6,
         "The Next Platform": 25,
         "SemiAnalysis": 10,
@@ -23,14 +23,17 @@
         "SemiWiki": 5,
         "Stratechery": 10
       },
-      "errors": {},
-      "ts": "2026-06-05T23:14:24.522306+00:00"
+      "errors": {
+        "Nikkei Asia": "bozo: <unknown>:2:252: not well-formed (invalid token)",
+        "DigiTimes": "bozo: <unknown>:2:252: not well-formed (invalid token)"
+      },
+      "ts": "2026-06-06T23:08:23.509780+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 73,
       "errors": {},
-      "ts": "2026-06-05T23:14:37.942133+00:00"
+      "ts": "2026-06-06T23:08:38.058734+00:00"
     },
     "ciq": {
       "ok": 62,
@@ -39,15 +42,16 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-06-05T23:13:34.203303+00:00"
+      "ts": "2026-06-06T23:07:43.221772+00:00"
     },
     "scoring": {
       "ok": 63,
       "quadrant_counts": {
         "fair": 35,
         "priced-in": 12,
-        "avoid": 8,
+        "avoid": 7,
         "value-trap": 7,
+        "underappreciated": 1,
         "unscored": 1
       },
       "manual_estimates_coverage": 0,
@@ -63,14 +67,14 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-06-05T23:16:44.067255+00:00"
+      "ts": "2026-06-06T23:10:47.973367+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "switches",
-          "tightness_score": 76
+          "tightness_score": 79
         },
         {
           "layer_id": "power",
@@ -81,14 +85,14 @@
           "tightness_score": 65
         }
       ],
-      "ts": "2026-06-05T23:16:43.951747+00:00"
+      "ts": "2026-06-06T23:10:47.854403+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-06-05T23:16:43.940454+00:00"
+      "ts": "2026-06-06T23:10:47.843147+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -99,7 +103,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-06-05T23:16:44.075287+00:00"
+      "ts": "2026-06-06T23:10:47.981397+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -128,7 +132,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 101,
-      "ts": "2026-06-05T23:16:42.654723+00:00"
+      "ts": "2026-06-06T23:10:46.465328+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -141,25 +145,25 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-06-05T23:16:43.193535+00:00"
+      "ts": "2026-06-06T23:10:47.014640+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-06-05T23:16:43.945629+00:00"
+      "ts": "2026-06-06T23:10:47.848566+00:00"
     },
     "tw_universe": {
       "ok": 1957,
       "stock_count": 1957,
       "sector_count": 71,
       "latest_date": "2026-06-05",
-      "ts": "2026-06-05T23:17:43.621086+00:00"
+      "ts": "2026-06-06T23:11:48.871256+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 301,
-    "total": 327
+    "discovered_kept": 282,
+    "total": 308
   }
 }

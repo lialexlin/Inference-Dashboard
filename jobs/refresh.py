@@ -35,6 +35,7 @@ from jobs.sources import openrouter as openrouter_src
 from jobs.sources import transcripts as transcripts_src
 from jobs.sources import transcripts_extract as transcripts_extract_src
 from jobs.sources import tw_universe as tw_universe_src
+from jobs.sources import us_universe as us_universe_src
 from jobs import narrative as narrative_mod
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -67,6 +68,7 @@ def main() -> int:
     p.add_argument("--skip-transcripts", action="store_true")
     p.add_argument("--skip-narrative", action="store_true")
     p.add_argument("--skip-tw-universe", action="store_true")
+    p.add_argument("--skip-us-universe", action="store_true")
     p.add_argument("--tickers", help="comma-separated ticker subset for prices/edgar/ciq (debug)")
     p.add_argument("-v", "--verbose", action="store_true")
     args = p.parse_args()
@@ -561,6 +563,39 @@ def main() -> int:
             }
     else:
         log.info("Skipping TW Universe.")
+
+    # US large-cap universe momentum ------------------------------------
+    # US analogue of the TW stage: Nasdaq screener (market cap + GICS sector +
+    # industry, one call) gated at $10B, then yfinance bulk history for the
+    # multi-window returns. Wave-1 detector for the broad US tape with a curated
+    # AI sub-industry overlay. Runs LAST alongside TW (slow, failure-prone
+    # network): failure preserves the prior file and never blocks core stages.
+    if not args.skip_us_universe:
+        log.info("Fetching US universe momentum ...")
+        prev_us_movers = _load_json(DATA / "us_movers.json", {})
+        try:
+            us_movers = us_universe_src.fetch(existing=prev_us_movers)
+            _write_json(DATA / "us_movers.json", us_movers)
+            meta["sources"]["us_universe"] = {
+                "ok": us_movers.get("count", 0),
+                "stock_count": us_movers.get("count", 0),
+                "sector_count": len(us_movers.get("sectors", [])),
+                "latest_date": (us_movers.get("dates") or {}).get("latest"),
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+            log.info("US Universe: %d stocks, %d sectors, latest=%s",
+                     us_movers.get("count", 0),
+                     len(us_movers.get("sectors", [])),
+                     (us_movers.get("dates") or {}).get("latest"))
+        except Exception as e:
+            log.error("US Universe stage failed: %s — preserving prior us_movers.json", e)
+            meta["sources"]["us_universe"] = {
+                "ok": 0,
+                "errors": {"__stage__": str(e)},
+                "ts": datetime.now(timezone.utc).isoformat(),
+            }
+    else:
+        log.info("Skipping US Universe.")
 
     _write_json(DATA / "meta.json", meta)
 

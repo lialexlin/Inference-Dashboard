@@ -1,27 +1,35 @@
-# Daily refresh + commit for cloud deploy.
+# Twice-daily refresh + commit for cloud deploy.
 #
-# Regenerates data/*.json every morning and commits the diff back to main.
+# Regenerates data/*.json and commits the diff back to main.
 # GitHub Pages then serves the static site at:
 #   https://lialexlin.github.io/Inference-Dashboard
 #
 # Stage order (see jobs/refresh.py):
-#   CIQ → prices → RSS → EDGAR → transform/tag → bottleneck → openrouter → scoring → exit_triggers
+#   CIQ → prices → RSS → EDGAR → transcripts → narrative → transform/tag
+#   → bottleneck → openrouter → scoring → exit_triggers → tw_universe → us_universe
 #
 # CIQ stage needs SF_ACCOUNT/SF_USER/SF_PASS as repo secrets
 # (Settings → Secrets and variables → Actions). Without them the stage
 # logs a connect error and preserves prior ciq.* blocks; other stages
 # still run.
 #
-# Runs every day (incl. weekends) so OpenRouter token-throughput history,
-# RSS, and EDGAR keep accumulating. yfinance / CIQ on Sat-Sun simply re-store
-# Friday's close — harmless.
+# Runs twice every day (incl. weekends), both times the full chain:
+#   • 09:00 UTC (17:00 Taipei) — after TWSE+TPEx close & post, so the
+#     tw_movers radar + .TW/.TWO player closes are the day's prints.
+#     ~3.5h buffer because TPEx daily quotes lag TWSE by hours.
+#   • 22:00 UTC (~6pm ET) — after US market close, so yfinance has the
+#     US day's closing prints.
+# Off-session stages (CIQ/RSS/EDGAR/transcripts) simply re-store prior
+# values on the run where their market is shut — harmless; every stage
+# preserves prior output on failure.
 #
 # Manual run: Actions → refresh-data → Run workflow.
 
 name: refresh-data
 on:
   schedule:
-    - cron: "0 22 * * *"  # 22:00 UTC every day ≈ 6pm ET (EDT) / 5pm ET (EST) — after US market close so yfinance has the day's closing prints
+    - cron: "0 9 * * *"   # 09:00 UTC = 17:00 Taipei — after TWSE+TPEx close & post
+    - cron: "0 22 * * *"  # 22:00 UTC ≈ 6pm ET (EDT) / 5pm ET (EST) — after US market close
   workflow_dispatch: {}
 
 permissions:
@@ -52,6 +60,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes."
           else
-            git commit -m "Daily data refresh ($(date -u +%Y-%m-%d))"
+            git commit -m "Data refresh ($(date -u '+%Y-%m-%d %H:%MZ'))"
             git push
           fi

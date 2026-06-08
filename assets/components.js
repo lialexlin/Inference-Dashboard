@@ -671,6 +671,7 @@ window.shellHeader = function (active) {
     { id: "stocks", label: "Stocks", href: "stocks.html" },
     { id: "signals", label: "Signals feed", href: "signals.html" },
     { id: "about", label: "Sources", href: "about.html" },
+    { id: "us-movers", label: "US Movers", href: "us-movers.html" },
     { id: "tw-movers", label: "TW Movers", href: "tw-movers.html" },
     { id: "architecture", label: "Architecture", href: "architecture.html" },
   ];

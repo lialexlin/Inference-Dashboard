@@ -1,7 +1,7 @@
 """Taiwan stock universe momentum — TWSE + TPEx all-stock daily closes.
 
 Fetches every common stock on TWSE and TPEx (combined ~2,300 tickers),
-resolves 7 reference dates (latest, w1, m1, m3, m6, ytd, y1), computes
+resolves 7 reference dates (latest, d1, w1, m1, m3, m6, y1), computes
 percentage returns for each window, and emits sector-level medians.
 
 This is a Wave-1 detector for the AI inference supply chain: show what
@@ -13,8 +13,8 @@ Schema of data/tw_movers.json:
 {
   "as_of": "2026-06-01",
   "dates": {
-    "latest": "2026-05-29", "w1": "...", "m1": "...",
-    "m3": "...", "m6": "...", "ytd": "...", "y1": "..."
+    "latest": "2026-05-29", "d1": "...", "w1": "...", "m1": "...",
+    "m3": "...", "m6": "...", "y1": "..."
   },
   "count": 1700,
   "stocks": [
@@ -22,16 +22,16 @@ Schema of data/tw_movers.json:
       "code": "2330", "name": "台積電", "exchange": "TWSE",
       "industry": "晶圓代工", "industry_en": "Foundry",
       "close": 2355.0, "pe": 31.66, "mktcap": 6.108e13,
-      "ret_1w": 3.2, "ret_1m": 8.1, "ret_3m": 22.4,
-      "ret_6m": 41.0, "ret_ytd": 35.2, "ret_1y": 60.5,
+      "ret_1d": 1.4, "ret_1w": 3.2, "ret_1m": 8.1, "ret_3m": 22.4,
+      "ret_6m": 41.0, "ret_1y": 60.5,
       "tracked": true
     }
   ],
   "sectors": [
     {
       "industry": "半導體", "industry_en": "Semiconductors", "n": 120,
-      "median_1w": .., "median_1m": .., "median_3m": ..,
-      "median_6m": .., "median_ytd": .., "median_1y": ..
+      "median_1d": .., "median_1w": .., "median_1m": .., "median_3m": ..,
+      "median_6m": .., "median_1y": ..
     }
   ]
 }
@@ -489,19 +489,18 @@ def _gregorian_to_roc(d: date) -> str:
 
 
 def _resolve_reference_dates(today: date) -> dict[str, date]:
-    """Return the 7 reference date LABELS -> approximate calendar dates.
+    """Return the calendar-anchor reference date LABELS -> approximate dates.
 
     These are walked back to actual trading days by _walk_back_to_trading_day
-    before any fetch is issued.
+    before any fetch is issued. The 1-day (d1) anchor is NOT here — it depends
+    on the resolved `latest` trading day, so fetch() resolves it separately.
     """
-    prev_dec31 = date(today.year - 1, 12, 31)
     return {
         "latest": today,
         "w1":     today - timedelta(days=7),
         "m1":     today - timedelta(days=30),
         "m3":     today - timedelta(days=91),
         "m6":     today - timedelta(days=182),
-        "ytd":    prev_dec31,
         "y1":     today - timedelta(days=365),
     }
 
@@ -828,7 +827,7 @@ def _compute_returns(
 
 def _compute_sector_medians(stocks: list[dict]) -> list[dict]:
     """Group stocks by industry, compute median returns for each window."""
-    windows = ["1w", "1m", "3m", "6m", "ytd", "1y"]
+    windows = ["1d", "1w", "1m", "3m", "6m", "1y"]
     by_industry: dict[str, dict[str, list[float]]] = {}
 
     for s in stocks:
@@ -854,8 +853,11 @@ def _compute_sector_medians(stocks: list[dict]) -> list[dict]:
             sector[f"median_{w}"] = round(median(vals), 1) if vals else None
         sectors.append(sector)
 
-    # Sort by median_3m descending (most relevant window for wave-1 detection)
-    sectors.sort(key=lambda x: (x.get("median_3m") or -9999), reverse=True)
+    # Sort by median_3m descending (most relevant window for wave-1 detection).
+    # (is None, -v): nulls last; `or 0.0` is safe — the only falsy median is 0.0
+    # itself (→ 0.0) and None (already pushed last by the first key). Avoids the
+    # old `or -9999`, which sent a flat (0.0%) sector below the negative ones.
+    sectors.sort(key=lambda x: (x.get("median_3m") is None, -(x.get("median_3m") or 0.0)))
     return sectors
 
 
@@ -932,6 +934,14 @@ def fetch(existing: dict | None = None) -> dict:
     LOG.info("Latest date %s: TWSE=%d stocks, TPEx=%d stocks",
              latest_date, len(latest_twse), len(latest_tpex))
 
+    # 1-day window: the previous trading session relative to `latest`. Anchored on
+    # latest_date (not `today`) so it never collapses to a 0% return on weekends.
+    d1_date = _resolve_trading_day(
+        latest_date - timedelta(days=1), twse_cache, tpex_cache, max_lookback=12
+    )
+    resolved_dates["d1"] = d1_date
+    LOG.info("  d1 -> %s", d1_date if d1_date else "UNRESOLVED")
+
     # Company info: coarse industry + issued shares (for market cap), per exchange.
     LOG.info("Fetching company-info (industry + shares) ...")
     info_twse = _fetch_company_info_twse()
@@ -939,14 +949,14 @@ def fetch(existing: dict | None = None) -> dict:
     LOG.info("Company info: TWSE=%d codes, TPEx=%d codes", len(info_twse), len(info_tpex))
 
     # Build reference snapshots for return computation.
-    # resolved_dates keys are "w1","m1","m3","m6","ytd","y1".
-    # window_labels (output field suffixes) are "1w","1m","3m","6m","ytd","1y".
+    # resolved_dates keys are "d1","w1","m1","m3","m6","y1".
+    # window_labels (output field suffixes) are "1d","1w","1m","3m","6m","1y".
     # Map: resolved_dates key -> output window label.
     RESOLVED_KEY_TO_WINDOW = {
-        "w1": "1w", "m1": "1m", "m3": "3m",
-        "m6": "6m", "ytd": "ytd", "y1": "1y",
+        "d1": "1d", "w1": "1w", "m1": "1m", "m3": "3m",
+        "m6": "6m", "y1": "1y",
     }
-    window_labels = ["1w", "1m", "3m", "6m", "ytd", "1y"]
+    window_labels = ["1d", "1w", "1m", "3m", "6m", "1y"]
     ref_snaps_twse: dict[str, dict[str, dict]] = {w: {} for w in window_labels}
     ref_snaps_tpex: dict[str, dict[str, dict]] = {w: {} for w in window_labels}
     for rk, w in RESOLVED_KEY_TO_WINDOW.items():
@@ -993,11 +1003,11 @@ def fetch(existing: dict | None = None) -> dict:
             "close": data["close"],
             "pe": data.get("pe"),
             "mktcap": _mktcap(code, data["close"], info_twse),
+            "ret_1d": rets.get("ret_1d"),
             "ret_1w": rets.get("ret_1w"),
             "ret_1m": rets.get("ret_1m"),
             "ret_3m": rets.get("ret_3m"),
             "ret_6m": rets.get("ret_6m"),
-            "ret_ytd": rets.get("ret_ytd"),
             "ret_1y": rets.get("ret_1y"),
             "tracked": code in tracked_codes,
         }
@@ -1017,15 +1027,26 @@ def fetch(existing: dict | None = None) -> dict:
             "close": data["close"],
             "pe": None,   # TPEx API doesn't provide P/E
             "mktcap": _mktcap(code, data["close"], info_tpex),
+            "ret_1d": rets.get("ret_1d"),
             "ret_1w": rets.get("ret_1w"),
             "ret_1m": rets.get("ret_1m"),
             "ret_3m": rets.get("ret_3m"),
             "ret_6m": rets.get("ret_6m"),
-            "ret_ytd": rets.get("ret_ytd"),
             "ret_1y": rets.get("ret_1y"),
             "tracked": code in tracked_codes,
         }
         stocks.append(stock)
+
+    # Degraded-write guard: if an exchange snapshot comes back sparse, the
+    # assembled count can collapse without raising. If it drops below 50% of the
+    # prior file, raise so the caller preserves the prior tw_movers.json rather
+    # than shipping a half-empty universe with skewed sector medians.
+    prior_count = (existing or {}).get("count") or len((existing or {}).get("stocks") or [])
+    if prior_count and len(stocks) < 0.5 * prior_count:
+        raise RuntimeError(
+            f"tw_universe: only {len(stocks)} names assembled vs prior {prior_count} "
+            f"(<50%) — likely a partial exchange fetch; preserving prior file"
+        )
 
     # Sort by ret_3m descending (primary wave-1 signal window), nulls last
     stocks.sort(key=lambda s: (s.get("ret_3m") is None, -(s.get("ret_3m") or 0)))

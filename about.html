@@ -275,6 +275,29 @@ python -m jobs.refresh --tickers NVDA  # debug a single ticker</pre>
           : `${cqSrc.manual || 0} manual · ${cqSrc.auto_generated || 0} auto-derived from filing language`,
       });
 
+      const usSrc = sources.us_universe || {};
+      const usStageErr = (usSrc.errors || {}).__stage__;
+      rows.push({
+        name: "US universe momentum (Nasdaq screener + yfinance)",
+        type: "prices",
+        entries: usSrc.stock_count || 0,
+        ok: !usStageErr && (usSrc.ok || 0) > 0,
+        err: usStageErr
+          ? `stage failed: ${usStageErr}`
+          : `${usSrc.stock_count || 0} names ≥ $10B · ${usSrc.sector_count || 0} sectors · latest ${usSrc.latest_date || "—"}`,
+      });
+      const twSrc = sources.tw_universe || {};
+      const twStageErr = (twSrc.errors || {}).__stage__;
+      rows.push({
+        name: "TW universe momentum (TWSE + TPEx)",
+        type: "prices",
+        entries: twSrc.stock_count || 0,
+        ok: !twStageErr && (twSrc.ok || 0) > 0,
+        err: twStageErr
+          ? `stage failed: ${twStageErr}`
+          : `${twSrc.stock_count || 0} names · ${twSrc.sector_count || 0} sectors · latest ${twSrc.latest_date || "—"}`,
+      });
+
       document.getElementById("health-body").innerHTML = rows.map((r) => `
         <tr>
           <td class="text-white">${escapeHtml(r.name)}</td>

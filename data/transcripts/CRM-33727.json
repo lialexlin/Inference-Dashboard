@@ -1,0 +1,222 @@
+{
+  "ticker": "CRM",
+  "symbol_used": "CRM",
+  "call_id": 33727,
+  "source": "earningscalls.dev",
+  "url": "https://earningscalls.dev/transcript/33727",
+  "fetched_at": "2026-06-09T23:21:37.338536+00:00",
+  "company": "Salesforce, Inc.",
+  "call_type": "Presents at Mizuho Technology Conference 2026, Jun-09-2026 02:35 PM",
+  "date": "2026-06-09",
+  "raw_date": "Tuesday, June 9, 2026",
+  "sector": "Information Technology",
+  "industry": "Software",
+  "segments": [
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "All right. We're going to get started with our next session. Very pleased to have Patrick Stokes with us for our next fireside chat. Patrick, of course, is President and CMO of Salesforce, has nearly 20 years of experience in product leadership roles. That includes the last 15 or so at Salesforce. Patrick, thanks so much for being here."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Thanks for having me. Really appreciate it. ."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "My pleasure. So just by way of getting everything started, it'd be helpful if you could outline for us your primary responsibilities and focus areas at Salesforce"
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Sure. Happy to. Well, I'm exactly who you all want to talk to. I'm the Chief Marketing Officer at Salesforce. I've had a bit of an interesting journey. So I've been at the company for about 15 years, longer than most, not quite as long as some. Most of my career has been on the engineering and product side. I started as an engineer, moved into product kind of 10 years in product at Salesforce [indiscernible] platform and then moved over to marketing about 2 years ago, 2.5 years ago. right when all the AI stuff really kicked off, I didn't quite know it at the time and then the whole world changed, which was difficult. \r\nAnd then about 4 months ago moved into the CMO position."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Fantastic. So you're coming off of a solid Q1 in which Salesforce impressed with Agentforce disclosures, of which there were several any reiterated confidence in second half revenue acceleration as well. maybe just briefly recap for us what you personally viewed as most important or instrumental kind of out of the last quarter."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Yes. Well, certainly, we're very excited about the continued growth in Agentforce. I think $1.2 billion now on the Agentforce side, up from, I believe, $800 million. So we're very, very excited about that. We're starting to see customers reach real scale on that with some pretty sophisticated use cases. I'm also equally excited about the AWU growth. We're certainly seeing our own token consumption from agentic work units, yes. And this is this idea of tokens in and out, that's effectively a measure of reasoning or a measure of intelligence, but it's not a measure of actual work getting done. \r\nAnd so we thought it was important for the market and really -- and the technology sector as a whole to kind of have a way to measure actual work getting done by these pieces of intelligence. So we introduced that in Q4 and I was very excited to see that continuing to grow alongside token growth, of course. Interesting watching the 2 of them kind of grow at each of them kind of picks up pace at certain moments in time. \r\nIt's also really interesting looking at the AWUs kind of across different industries and different segments, you can start to see where different usage patterns are emerging. And then lastly, I would say, I was very, very excited about our Headless launch, which we did not that long ago, in March, I think it was at TDX, our developer conference,  and I'm very excited about what that means for Salesforce and the reaction to it we're seeing from our customers. So really opened up kind of a new way of thinking about our role in this agentic era."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "All right. That's great. I definitely want to dive more into head list in a few moments. But let's stick with Agentforce because I think it's important to understand what's underpinning the growth that you were just talking about. So there were a lot of announcements around Agentforce, I would say, dating back to Dreamforce last October. Many other improvements have since been unveiled as well. But how would you characterize the agentic capabilities of agent force today? And what are the most important enhancements to both the tech and the ecosystem, right, over the last 6 to 9 months that are really enabling your customers to unlock more value?"
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Yes. I mean I think the 2 biggest advancements in the last, let's call it, 6 months or so on the agent side or on something that we call Agentforce script, which is, if you start building an agent, you get very excited early on because you're like, all I have to do is write human instructions and like I've coded my agent. They're effectively -- if I'm being very reductive, they're effectively just prompts under the covers. And so anybody can write those. But what you realize when you're starting to try to get agents to do multi-step and complex workflows is you have a lot of like do this, but unless this happens, then do this and you start writing it like that and the agent gets very, very, very confused very, very quickly. \r\nAnd the irony of like programming languages is that's effectively what they are if this then that types of flows. And so we pioneered this way to kind of put little micro moments of scripting into the prompt so that you could eliminate some of the probabilistic problems of working with an LLM. You've all seen this, you ask you a question -- and then you ask it the same question, you get 2 different answers. So it's a probabilistic nondeterministic system. When you're trying to execute workflows, you don't want that, you want deterministic. You want do it the way I've asked you to do it every single time. And so Agentforce helps you with that. And that's been a big unlock for our customers that are trying to either do this at scale or do it in regulated environments, do it with their certain policies that they need to make sure the agent is following. \r\nAnd then the second, I would say, is voice. For sure, voice is very, very exciting for our customers. And as a pretty significant computer science project for us to get that working well. Voice is a tricky thing because there's humans and people have different ways of talking and there's interruptions and latency and all of these things that you kind of don't think of until you actually start trying to build it and you're like, oh, this is actually pretty damn hard."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Yes.  And there are, Patrick, several CCaaS incumbents, right, that have had existing solutions for a while. How do you think about where Agentforce voice stacks up at this stage. ."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Yes. I mean, I think we're in pretty good shape. If you had asked me 3 months ago, I would say we probably have work to do. But I think at the moment, we're now running Salesforce our 1-800 number on Agentforce voice. You can call it now and you'll talk to Agentforce. And we have other customers doing the same. I think over -- we'll probably be sitting here with our Q2 earnings after talking about the big kind of scaled voice customers, just like we are the kind of chat customers with Agentforce."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Okay. Super interesting. And then one other comment on Agentforce. We started to hear of some forward-thinking customers that I would say, are deploying multi-cloud Agentforce use cases. So they might extend from Service Cloud to Sales Cloud or you're doing case resolution in Service Cloud and that triggers a campaign  in Marketing Cloud. Is this something that you're really kind of seeing as well? And is your go-to-market aligned enough, frankly, to be able to sell more holistically in this way?"
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Yes, good question. I mean it's funny. The first part of your question is like, we saw that from the very beginning. There really isn't a usage of Salesforce that doesn't cut across. The platform is actually quite a bit more like [ months ] together than you think that it is from a pure usage perspective, from a buying perspective, it's maybe a little bit more discrete. You have sales service, et cetera, et cetera. So those -- as soon as you start using Agentforce, you immediately get into scenarios where you're like, okay, going to use it to try to qualify a lead. But then I want to put those leads into a marketing campaign. You just -- you immediate or service, I'm going to use it for  case resolution, but I need to know if there's an open opportunity because I'm going to handle my case resolution in a different way. So there's tons of those types of use cases. \r\nWhat we've tried to do is make it easier to buy that. So this is what our kind of top end additions like we call it internally A for X. So Agentforce for sales and commerce service, et cetera. They kind of come with the entirety of the platform. It's like here it all is, go implement your agent and so you're not kind of buying individual piece parts."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Okay. Great. And then maybe just to sort of zoom out a bit, I think what a lot of investors in this room and elsewhere are wondering is like when will the rubber hit the road, right, when it comes to enterprises, meaningfully deploying Agentforce in production and at scale. Certainly, we know that some have gotten to that level, right? But it just comes down to more broad adoption in that capacity."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "I think your second part there kind of got it. I think certainly, we are seeing many, many, many hundreds of customers reach meaningful scale, either scale from a usage perspective, in some cases, simple use cases, but that are being interacted with by hundreds of thousands or millions of individual kind of consumers on the other side, customers like Southwest, who are now kind of doing 20% to 30% of all of their inbound requests from customers with Agentforce. So it's like the curve of sophistication of the interaction and then volume. And so there may be kind of lower on sophistication, but very, very high on volume. And then you have other customers that are very, very high on sophistication and maybe a little bit lower on volume as they experiment. \r\nSo we're seeing kind of all ends of that spectrum. But I think the real basis of your question is, okay, Patrick, but like when is everybody going to be doing that? When is 187,000 your customers, they're all going to be doing that."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Or at least a very significant percentage."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "At least a very significant percentage. And I think  we're definitely nearing that. It's certainly part of how we think about and accelerating the business that's kind of all factored into that. So I definitely think you're going to start to see a rapid acceleration as the product gets easier to use, as the CIOs start to kind of trust the -- what we've built and that also means in a way, I have to be careful how I say this, but in a way, given up on what they've tried to DIY, right? It's kind of like the cloud in the early days where everybody went out and tried to build their own cloud. And you could look at it and say, what are you doing? And what they're doing is they're creating intuition of what it takes to do it. \r\nAnd then that's putting us in a better position because now they come with that intuition and they go, okay, you've actually solved the problems that I ran into and maybe didn't want to solve. And so we're definitely starting to see a lot more kind of openness to the platform from CIOs than maybe we were 6,  12 months ago when everything was so new, they were all just trying to figure it out."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Okay. Yes, super encouraging. And of course, just maybe to sort of stay with this train of thought. I mean the big fear out there remains at AI and specifically the Frontier labs, right, that they will drive significant disruption and deceleration in the Salesforce business. Why is that view incorrect?"
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Well, I mean, there's the data side of it, and then there's the subjective side. I mean the data side shows that it's not correct at the moment. Our seats are still growing. Our businesses, our core businesses are still growing, and we're very happy with the growth. But also when you look into the AI labs, this is what's most fascinating to me. And many of these labs are run by -- have people in the go-to-market organization that we know, they're all using Salesforce extensively. In fact, more than some of our biggest customers. And the reason that is, is because these AI labs, what they're doing is they're not using Salesforce the same way customers have for the last 20 years. \r\nThey're not using it as a UI. They're not logging into it every day and logging a call and an opportunity. They're using it through their own agentic interface through Cloud Enterprise or through Codex. They're hooking it up with MCP. This is how Headless comes into play. And that's how they're using Salesforce. So what we're seeing is there's actually an expansion of usage and expansion of consumption. That's separate from the whole seat conversation is kind of a separate one, which I'm sure you'll hit on. But just if you separate that for a moment, the existing seats this new way of working with Salesforce, we're seeing usage spike up quite a bit. And so that's very, very encouraging for us."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Okay. Terrific. And yes, that was a perfect segue to Headless. So I do think the Headless 360 announcement, Patrick, just seems like a really clever and interesting way to drive stronger connections to your point, with the Frontier AI models, also opening up the Salesforce platform to external AI agents and coding tools via MCP as you also highlighted. One other thing I would add is just also reducing friction, just making Salesforce easier for developers to use. So I guess, is there anything -- is that a fair characterization? Anything else that you would sort of highlight as part of this?"
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Yes, definitely a fair characterization. I mean the inspiration for Headless list came from just watching people use Salesforce in a different way. We have these partnerships with the AI labs and we're watching them use and we can see the API data, we can see that their consumption is through the roof, but like they're using it through Slack, for example, the AI labs are all big giant Slack users or they're using it through their own Claude interface. But we are also seeing it just in the -- this is a very, very hot kind of space right now. So you go to X or you go to Reddit, and it's just like an army or you go to these Discord channels where all these developers hang out. And there's just these constant kind of sets of conversations of people trying to figure this out. \r\nThere's something that I think people can sense where they're like, there's a new way to work. I think that that's what they're sensing that there's going to be a way to work that all of the friction of going to all of these discrete applications that have been purpose-built for the function that I do, that's going to go away and it's going to be replaced by a new interface that interacts with kind of the underlying capability of those discrete applications. \r\nSo the applications aren't going to go away, but the UI is going to be massively disrupted. And so we started to see that pattern emerging, and that was the inspiration. It's just like, okay, well, if that's what customers want and many other companies kind of in our space saw it as well and they were like, we don't want that. We're terrified. We don't want to lose our users. We don't want to lose the UI, and we just took the exact opposite approach and said, no, we endorse it. let's open this up. We're going to have to figure out how to monetize it, which is something that we're talking a lot about, and I'm sure is very relevant for all of you, but the pattern itself is really a no-brainer. And that's why I think it's so exciting. \r\nI think that you saw a very positive sentiment, which we were all very excited about. It's been a couple of months of the SaaS [indiscernible]. And so kind of getting back in front with a message of like, no, no, guys, we see this. We understand what it is you're trying to do and we want to actually enable that and endorse that. We think that, that is the future. I think it was a little bit of a reset moment for us."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Okay. And clearly, it sounds like a mechanism that put Salesforce more directly in the token path?"
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Absolutely. Well, I mean when you look at these tokens, tokens represent intelligence, as I said earlier,  and right now, by far, the single biggest use case for consuming tokens is coding, right? That's -- it's the killer app. One engineer can generate like $100,000 a month bill without much problem. Now you can debate whether that's highly efficient or not. But they're making -- these labs are making a lot of money on these tokens. \r\nThere will probably be some sort of normalization or reckoning of that. Right now, everybody is just like everybody code -- and so people are -- you hear these stories of people taking their mobile up. So there's going to be a normalization. But what the AI labs are -- we think that they're looking for is, well, what's the next killer app, what's the next killer use case. And that's where we think Salesforce is perfectly positioned because we think it's knowledge work. We think it's people like you every day that are showing up and having meetings and analyzing things and making decisions, you have to access information and you want to be able to access information in a way that's low friction, and then you want to be able to connect that to the intelligence of the AI, and that's effectively what we can provide."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Okay. Terrific. And then you alluded to this, Patrick, we know there has not been an official decision on Headless 360 pricing, but maybe you could just sort of speak to some of the early considerations and how that monetization might present itself for Salesforce."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Yes. I mean, so there's kind of 2 arms to the puzzle. One, there's actually quite a few very important technology decisions that we need to make in terms of how do we ask people that are building agents outside of our platform to identify those agents to us in the same way that they identify a user to us, and that's important to solve because that provides the layer of kind of governance and licensing and permissioning that we need to put for the agent to exist and consume from Salesforce in the first place. \r\nSo there's a number of technology decisions there, many of which will almost certainly result in some sort of agent user license showing up. So just like we have human licenses, we'll likely have agent licenses as well where you have to self identify the agents that you run on top of Salesforce. \r\nNow that sounds like if you're in Salesforce at least where we have this 25-year legacy of seat-based pricing that sounds like the answer. Okay, great. So we're going to charge for the agent licenses, that's possible, but we're trying to be as thoughtful as we can on this and make sure that our own kind of legacy bias on that doesn't come in too much. We're trying to be very kind of forward in the way that we think about it. But what -- really what we're doing is we're talking to our customers and our partners. And we're going to them right now and we're saying, look, blank-slate here's your contract. Imagine that you could just rewrite your contract right now and have whatever unlimited usage of Headless that you want for the environment that you're trying to create. You tell us what that contract would look like. And that's -- those are the conversations we're having with our customers right now to make sure that we can do it thoughtfully. \r\nWhile we don't want to do what you can feel in the room, I feel it in every room and a specialty rooms like this is, you all want to know the pricing model so you can model our future growth. And we want you to be able to do that as well, but we want to make sure that we don't give you something that turns out to be wrong and then we have the wrong model. So that's why we're being careful here."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Yes, it makes perfect sense. And the other thing, which I don't know how much of this you guys have thought through, right? But if I think back to the early instantiations of Agentforce pricing, right, where -- and then this was a very different world, right, because everyone was trying to figure it out."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "6 months ago."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Everything is work speed -- but initially, it's per conversation pricing and then it was per action. And then we got to the point of having sort of discrete subscriptions, right, then we have the Agentforce 1 edition and then you have Agentforce ELAs, right, where you have agent force ELAs for customers that are willing to make very, very big commits. So I guess the question here is, is the bias from your perspective, and I won't hold you to it. I realize it's early stages, but to sort of give customers some choice, but maybe to not make it overly complicated, which some may argue was maybe an initial impediment to Agentforce adoption, again, in the very early innings before you kind of were able to work through all that."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "I think that's a very fair characterization or criticism, whatever you want to call it. Yes, I think there's like a Goldilocks type of scenario that we haven't totally found yet. When we first started with Agentforce, it was something that was brand new, and customers didn't know what to expect. So they wanted a consumption model. And so we gave them a consumption model, but it turns out that is a very complicated consumption model. And so it's very, very difficult to kind of predict. It was hard enough to predict their own usage because they didn't really know what they're going to use it at the time. \r\nAnd then even if they could predict their own usage, it was hard to turn that usage into to understand the commercials of it because our consumption side was so difficult. So we made it easier. We're like, okay, what if you just bought the ELA and then you don't worry about it, like use as much as you want and don't worry about it. And customers like that as well because it's simple, but it's also very expensive. It's more expensive than the so it's -- you kind of have to pick your evil, but that's not what we want. We don't want the customer to have to pick their Evol. We want to get them to something that they can really trust and believe in. And I think we're seeing other models emerge outside of Salesforce that are interesting. And I think what this comes down to is it's not really about what benefits us is we want to find a model that benefits our customer. And so we're going to experiment with as many models as we can. The downside to that is it looks like we're confusing the market, which I get, like how many pricing models do you have? And how do we measure this? -- but we're -- our approach is like, yes, that's a moment in time, and we kind of just need you to trust us on this. We're going to figure it out. We're going to do it with our customers, and we're going to find the right thing to do."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Okay. Very helpful. Yes. Thanks, Patrick. And while we're on the topic, so last week, Salesforce announced the acquisition of content, which has a CMS content management system. Can you expand on kind of what this IP will help Salesforce accomplish?"
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Yes. Well, first of all, so the interesting thing about Content is that it's effectively a head list first. platform. So they didn't spend a great deal of time worrying about what the UI for content could look like. Because if you think about content, it's really just like a feature of a campaign, which is a feature of marketing. So the SaaS era has created just like this massive sprawl of these purpose-built applications, and that's especially true in marketing. If you look at the lumiscape for marketing, it's like there's so much. So they were like -- we don't think that's where the world is going. We think the world is going into a world where there's some sort of intelligence that's orchestrating campaigns in real time and doing one-to-one personalization. And so what it would need  to do that is it would need a Headless CMS, it would need to be able to pull the content out when it needs it. The CMS would have enough metadata, enough context in it so that, that intelligence on the other hand, can go grab that when it needs it. \r\nSo part of the attractiveness of the acquisition was certainly that just bringing a little bit more Headless DNA into our product organization. But also, this has been a little bit of a gap in our Marketing Cloud strategy for many years, and so it certainly had some attractiveness in terms of kind of shoring up our marketing cloud."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "All right, terrific. I'll ask one more question, and then we'll pause for any of you folks that may have a question to ask Patrick. So I want to just talk about Slack for a moment. So a lot of investors, quite frankly, believe that Salesforce overpaid for Slack all those years ago. Now my opinion is that view has some merit, but I will also say that Slack has quietly become a more integral technology in an agentic world and many people don't really seem, from my investor conversations, really seem to be aware of that to the extent that it's actually occurring. And going forward, it also seems that because of Slackbot that this can really become more of a center of gravity for Salesforce. That's the opportunity that we see, but it will be helpful to hear your vision on where you think all this is heading?"
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Well, it's pretty similar to your characterization there. Slack for us, I think the market in general kind of see Slack as a collaboration tool and they kind of put it in the same bars teams. And I think that's just a really kind of unsophisticated view of what Slack really is, which is where Slack started was it was a platform for developers. So developers needed a way to work together to build projects and so Slack emerged as a solution for that. And it wasn't just because you could create channels and invite your friends into the channels, it was because of its openness. It's connectivity to things like GitHub and Jira. \r\nIt built this ecosystem of connectivity. So it became very, very sticky for developers in the way that they work. We're seeing that same thing now happen to all sorts of different functions. Certainly, this is true in Salesforce. I mean we only work in Slack. It's unbelievable how much we get done in Slack. But we're seeing it with our customers as well and especially the small -- the new logos, the small customers and even the AI labs, which we say it's small, they're like $1 trillion companies, but they only have like 2,000 people in them, right? So on the scale of employees, they look like they're small, but like they run their whole business on Slack, and it's because of that connectivity. So that's kind of one side of it. \r\nBut the other side of it, that's very exciting is that it is already a conversational interface. So it's already really well prepared for an a genetic future for when you have teams of humans working side by side with agents. But it's even more than that because you could say, well, Patrick, we kind of already have that with Claude and with ChatGPT, that's a human working with an agent.  And it is, but it's one human working with one agent. It's a single player environment. And that single player environment, it's useful. It's nice to be able to work like off on the side and just talk to Claude, but most of us work within teams. \r\nSlack is inherently a multiplayer environment. And once you start putting agents into a multiplayer environment, all sorts of interesting kind of usage patterns start to emerge. So one person can ask a question and the agent answers and then a second person can ask a question and it becomes this very interactive, multiplayer type of experience, imagine using Claude code, which is also a single player environment in a multiplayer experience. These are things that the labs are kind of very interested in doing with us at the moment. And it also adds an element of trust. \r\nHow many of you have ever had your boss and your managers send you something that you can tell was just done in Claude and they're like, look, here's my analysis. And like you instantly know it was done in Claude just by the way it's written. We all have a spitisense for this now or OpenAI as well. But what you also are probably developing a spitisense for is that your manager is full of ship and whatever they prompted to get that answer was full of bias. And so of course, it's very convenient that the analysis that the AI did matches what the person on the other side is asking for because that's just human nature in the way we prompt it. Well, when you move that into a multiplayer environment, all of a sudden this kind of new paradigm of trust evolves because now you can see the prompt, right? And you understand how it arrived at the answer. And in fact, multiple people can kind of prompt it at the same time. And so you're getting a much richer answer that's much more based in multiple viewpoints, which is a much more trusted answer. And that's something that I don't think anybody has really demonstrated yet, but we're on the path to do."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "I have to say that's a fascinating point. I hadn't thought through that in that degree of depth, that may be something again that really enables you to kind of drive some more separation, right? As Slackbot continues to -- and Slack more broadly continues to get adopted. So that's --"
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "And even Slackbot amazing tool, incredible capability, but even Slackbot right now at this moment in time is a single player, right? So you ask it a question, it answers for you. You can share the answer. But imagine, instead of that, you're just in a channel and you have 15 members in the channel, but 2 of them are agents. And you just ask a question in the channel and the agent responds to them. So that user interaction model or paradigm hasn't been fully explored yet, but that's where we're going with Slack and it's super exciting."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "Okay. Tremendous. So fascinating conversation. So that's quite a bit of time, but it was important, I think. Any questions for Patrick."
+    },
+    {
+      "speaker": "Unknown Analyst",
+      "role": "Analysts",
+      "text": "Thanks, Patrick. Thanks for sharing the insights sites fasting with the value because as you think for multiplayer environment, essentially sort of like [indiscernible] system. Do you use all that stuff. How do you think about that? ."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Well, I think what we have at Salesforce, whenever we're building product and trying to bring product out into the world, what we're trying to do is identify what's the thing that's scarce. Right now, the intelligence is not really scarce. I mean there's limits on how much energy we can provide in the world to kind of deliver the inference through the GPUs. But the thing that Salesforce delivers that scarce is context and trust. And so if you're building anything with AI right now, it's very, very easy to just start talking to an LLM and you get excited about how intelligent the answer sound, but then you realize it doesn't know anything about your business. And so then you start trying to figure out ways to dump information into it, so it understands your business, but that runs into all sorts of complexity and limitations in how much you're putting into the context window. \r\nYou can get about 1 million tokens into a context window right now. But if you put 1 million tokens in your context window, that's going to be an insanely expensive call that one question is going to generate a ton of tokens and the more you put in there, the more confused your LLM will get. So you have to engineer this way to get the exact context that it needs in the moment, pick the right model and then deliver an answer. And that's what Salesforce can kind of do behind the scenes in that moment. And what gets really interesting in that multiplayer environment and inside of Slack is the 1 piece of context that nobody is really truly thinking about, well, there are some us and others that we're working with. But the really interesting piece of context is the institutional knowledge of the people in your organization, which is encoded as those conversations inside of Slack. So we bring that in as well, it's not just your data and your metadata, it's the conversational data as well, which adds all that additional context, and then we engineer a way to bring that all in at the moment that a question is asked, optimize the token spend, and that's really where we think our value is going to be in the future. Hopefully, that answers your question."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "You're 30 seconds if someone has a quick one for Patrick. If not, I'll just ask one more. So I just wanted to bring up a recent podcast with Marc Benioff. He mentioned that Salesforce is on track to spend $300 million on tokens from Anthropic this year, a pretty massive amount. Tell us just briefly what that will do for Salesforce in terms of productivity and innovation and maybe even inclusive of the cost implications."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Do you want to see our leader boards. I can pull them up on Slack -- we can go through team by team and see who's really using Yes. I mean it's just been -- honestly, it's been insane in our engineering organization, watching the pace of innovation right now is unbelievable. And there are pockets where it's even more unbelievable Slack, for example, it's just fascinating to watch that team now. \r\nI show up with ideas. And like on Monday, the ideas are in production, which is really it's just astounding to watch. But it's going much deeper than that as well because a lot of that -- most of that spend right now is coding, but not all of it. There is a very -- this is what I don't think the market has totally caught up to yet, a very material amount of that spend is just knowledge workers. It's my team in marketing, it's [indiscernible] team. It's people in sales. It's people like Miguel that are using it to do their forecasting. They're not coding they are hooking up the MCP servers and consuming tokens from Anthropic to do their knowledge work. And we think that, that's where the kind of next big wave is going to come from."
+    },
+    {
+      "speaker": "Gregg Moskowitz",
+      "role": "Analysts",
+      "text": "All right. Super insightful conversation. Patrick, thanks so much."
+    },
+    {
+      "speaker": "Patrick Stokes",
+      "role": "Executives",
+      "text": "Thank you."
+    }
+  ],
+  "word_count": 6085
+}

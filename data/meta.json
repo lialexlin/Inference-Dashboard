@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-06-09T23:18:49.349990+00:00",
+  "last_refresh_at": "2026-06-10T12:17:38.115456+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-06-09T23:19:33.988303+00:00"
+      "ts": "2026-06-10T12:18:28.266764+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,13 +24,13 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-06-09T23:19:38.929109+00:00"
+      "ts": "2026-06-10T12:18:33.247723+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 72,
       "errors": {},
-      "ts": "2026-06-09T23:19:50.442842+00:00"
+      "ts": "2026-06-10T12:18:45.973370+00:00"
     },
     "ciq": {
       "ok": 62,
@@ -39,7 +39,7 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-06-09T23:19:05.204335+00:00"
+      "ts": "2026-06-10T12:17:55.611643+00:00"
     },
     "scoring": {
       "ok": 63,
@@ -64,7 +64,7 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-06-09T23:21:57.932333+00:00"
+      "ts": "2026-06-10T12:20:52.288191+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -78,18 +78,18 @@
           "tightness_score": 65
         },
         {
-          "layer_id": "gpu",
-          "tightness_score": 65
+          "layer_id": "power",
+          "tightness_score": 64
         }
       ],
-      "ts": "2026-06-09T23:21:57.886170+00:00"
+      "ts": "2026-06-10T12:20:52.155535+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-06-09T23:21:57.874591+00:00"
+      "ts": "2026-06-10T12:20:52.143524+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -100,12 +100,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-06-09T23:21:57.940673+00:00"
+      "ts": "2026-06-10T12:20:52.296552+00:00"
     },
     "transcripts": {
       "ok": 48,
-      "fetched_this_run": 5,
-      "cached": 41,
+      "fetched_this_run": 0,
+      "cached": 46,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -129,7 +129,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 106,
-      "ts": "2026-06-09T23:21:56.604601+00:00"
+      "ts": "2026-06-10T12:20:50.851192+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -142,27 +142,27 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-06-09T23:21:57.196848+00:00"
+      "ts": "2026-06-10T12:20:51.436628+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-06-09T23:21:57.880106+00:00"
+      "ts": "2026-06-10T12:20:52.149293+00:00"
     },
     "tw_universe": {
-      "ok": 1953,
-      "stock_count": 1953,
-      "sector_count": 65,
-      "latest_date": "2026-06-09",
-      "ts": "2026-06-09T23:25:38.398516+00:00"
+      "ok": 1955,
+      "stock_count": 1955,
+      "sector_count": 71,
+      "latest_date": "2026-06-10",
+      "ts": "2026-06-10T12:21:46.234646+00:00"
     },
     "us_universe": {
-      "ok": 978,
-      "stock_count": 978,
+      "ok": 980,
+      "stock_count": 980,
       "sector_count": 78,
-      "latest_date": "2026-06-09",
-      "ts": "2026-06-09T23:26:56.302870+00:00"
+      "latest_date": "2026-06-08",
+      "ts": "2026-06-10T12:23:06.494660+00:00"
     }
   },
   "signals": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T23:32:04.864161+00:00",
+  "generated_at": "2026-06-11T12:43:43.069352+00:00",
   "by_ticker": {
     "AMAT": [
       {
@@ -14610,6 +14610,189 @@
     ],
     "ORCL": [
       {
+        "call_id": 33930,
+        "date": "2026-06-10",
+        "call_type": "Q4 2026 Earnings Call",
+        "url": "https://earningscalls.dev/transcript/33930",
+        "themes": {
+          "supply": {
+            "mentions": 12,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 12
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Mike Sicilia",
+                "role": "Executives",
+                "text": "However, customers can also purchase additional agentic capacity in a simple, predictable way by purchasing bundles of tokens that can be used across our application suites."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Clay Magouyrk",
+                "role": "Executives",
+                "text": "Differentiation comes in many forms: technological innovation, supply chain execution, operational ability, and more."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Clay Magouyrk",
+                "role": "Executives",
+                "text": "We combine the power of OCI and Fusion applications to implement an incredibly efficient and flexible supply chain."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Clay Magouyrk",
+                "role": "Executives",
+                "text": "Our pace of delivery continues to accelerate with our FY '27 Q1 delivery approaching 1 gigawatt, nearly the same capacity as we've delivered in the previous 4 quarters combined."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Clay Magouyrk",
+                "role": "Executives",
+                "text": "Our infrastructure is fundamentally multitenant, and we continually allocate capacity between customers."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 19,
+            "tone_score": 0.714,
+            "counts": {
+              "positive": 6,
+              "negative": 1,
+              "neutral": 12
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Hilary Maxson",
+                "role": "Executives",
+                "text": "Cloud infrastructure revenue grew 93%, reflecting strong demand for both AI workloads and our database services, and cloud apps was up double-digit at plus 10%."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Hilary Maxson",
+                "role": "Executives",
+                "text": "This unprecedented level of RPO provides exceptional visibility into our future revenue growth, all supported by long-term contractual customer commitments and reflects the strong customer demand we see across both AI infrastructure and cloud services."
+              },
+              {
+                "tone": "negative",
+                "speaker": "Clay Magouyrk",
+                "role": "Executives",
+                "text": "Agentic coding tools has completely changed how Oracle operates, and we see no slowdown in our own demand for such capabilities."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Hilary Maxson",
+                "role": "Executives",
+                "text": "Customer demand and our growing visibility into future revenues is what underpins the long-term financial outlook we shared at our most recent Analyst Day of plus 31% revenue CAGR and plus 28% EPS CAGR through our fiscal year 2030."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Clay Magouyrk",
+                "role": "Executives",
+                "text": "Cloud infrastructure has become a very large market because of the ever-growing demand for server-side computing."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 20,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 1,
+              "negative": 1,
+              "neutral": 18
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Hilary Maxson",
+                "role": "Executives",
+                "text": "This includes customer prepayments and timing impacts expected at around $20 billion to $25 billion, so our reported CapEx will be higher by this amount."
+              },
+              {
+                "tone": "negative",
+                "speaker": "Hilary Maxson",
+                "role": "Executives",
+                "text": "But from a funding standpoint, what's happening here is that these structures are enabling us to have a lower cash CapEx requirement when we look at how we plan our business."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Hilary Maxson",
+                "role": "Executives",
+                "text": "You can see the table showing the details of net cash outlay for CapEx in our press release."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Hilary Maxson",
+                "role": "Executives",
+                "text": "In order to unlock this unique growth opportunity, we started a program of capital investments."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Hilary Maxson",
+                "role": "Executives",
+                "text": "We'll continue those investments in our fiscal year 2027, with an expected net cash outlay for capital expenditures of around $70 billion."
+              }
+            ]
+          },
+          "lead_times": {
+            "mentions": 0,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 0
+            },
+            "quotes": []
+          },
+          "pricing": {
+            "mentions": 18,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 1,
+              "negative": 1,
+              "neutral": 16
+            },
+            "quotes": [
+              {
+                "tone": "negative",
+                "speaker": "Clay Magouyrk",
+                "role": "Executives",
+                "text": "So I think that over time, as the market continues to mature, and we deploy more and more of our research and development dollars and making things more efficient, I think there's ways that Oracle gets higher and higher margins, but we actually can offer lower and lower prices to our customers."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Mike Sicilia",
+                "role": "Executives",
+                "text": "We're also introducing outcome-based commercial models that align pricing directly to the value derived."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Mike Sicilia",
+                "role": "Executives",
+                "text": "For example, interview agents that are priced based on the number of candidates screened or hospitality upsell agents priced on the percentage of end consumer upsell transactions."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Clay Magouyrk",
+                "role": "Executives",
+                "text": "In terms of the capital expenditures, at least from what we're seeing in Q4, any increase in CapEx is not due to component prices from our perspective."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Clay Magouyrk",
+                "role": "Executives",
+                "text": "So I don't see that as related to component prices."
+              }
+            ]
+          }
+        },
+        "mentions_total": 69
+      },
+      {
         "call_id": 22795,
         "date": "2026-03-10",
         "call_type": "Q3 2026 Earnings Call",
@@ -16438,9 +16621,9 @@
     ]
   },
   "summary": {
-    "calls_analyzed": 106,
+    "calls_analyzed": 107,
     "tickers_covered": 48,
-    "total_mentions": 5032,
+    "total_mentions": 5101,
     "themes": [
       "supply",
       "demand",

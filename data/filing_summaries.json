@@ -2430,5 +2430,479 @@
     ],
     "ticker": "GEV",
     "tldr": "RPO surged to $163.3B at Q1 end (+9% sequentially, +32% YoY); Q1 Gas Power EBITDA +57% on Heavy-Duty turbine deliveries and favorable pricing."
+  },
+  "0001045810-26-000049": {
+    "accession": "0001045810-26-000049",
+    "ticker": "NVDA",
+    "form": "10-Q",
+    "filed_date": "2026-05-28",
+    "tldr": "Q1 FY27 revenue $44.1B (+69% YoY), Data Center $39.1B (+73%); Blackwell drove majority of DC revenue; China limited by export controls but reported $4.6B despite H20 restrictions.",
+    "takeaways": [
+      "Q1 FY27 revenue $44.1B (+69% YoY, +12% QoQ from $39.3B); Data Center $39.1B (+73%, +10% QoQ)",
+      "Networking revenue $4.6B within Data Center segment driven by NVLink and InfiniBand for GB200 NVL deployments",
+      "H20 China revenue curtailed by April 2025 export license requirement; $4.5B inventory/prepayment charge taken in Q1 FY27 on stranded H20",
+      "Gross margin 61.0% (non-GAAP 73.5%); GAAP margin compression entirely from $4.5B H20 inventory write-down",
+      "Gaming $3.8B (-8% YoY) as consumer demand softens; Professional Visualization $549M (+19%); Automotive $567M (+72%)",
+      "Q2 FY27 guidance: revenue $45.0B \u00b12%; gross margin ~71.0% non-GAAP as Blackwell mix improves past H20 charge",
+      "Hyperscaler capex disclosures by Microsoft, Google, Meta, Amazon collectively confirm multi-hundred-billion-dollar Blackwell/GB300 buildout through 2027"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "gpu",
+      "networking"
+    ],
+    "quote": "Demand for Blackwell is very strong and we are working with our supply chain partners to increase supply as quickly as possible to meet this demand.",
+    "quote_section": "Item 2 MD&A \u2014 Overview"
+  },
+  "0000858877-26-000040": {
+    "accession": "0000858877-26-000040",
+    "ticker": "CSCO",
+    "form": "10-Q",
+    "filed_date": "2026-05-14",
+    "tldr": "Q3 FY26 revenue $14.1B (+11% YoY) with Networking +20% driven by AI Infrastructure, Ethernet switching, and data center demand; Security +20% on continued Splunk annuity shift.",
+    "takeaways": [
+      "Q3 FY26 revenue $14.1B (+11% YoY); product +14%, services -1%; 9M FY26 revenue $44.3B +10%",
+      "Networking +20% on AI Infrastructure, Hyperscale Ethernet switching, and continued Service Provider build-out; Silicon One routing platform gaining hyperscaler design wins",
+      "Security +20% in Q3 as Splunk subscription ramp creates durable annuity layer; SIEM and SOAR integration proceeds",
+      "Full-year FY26 guidance raised: revenue $60.1-60.5B (+10% YoY midpoint) with non-GAAP EPS $4.14-4.16",
+      "Purchase commitments backlog elevated for AI Infrastructure components (Silicon One, ASICs) as bookings exceed near-term supply",
+      "Stock repurchased $1.1B in Q3; total shareholder return program active through FY26",
+      "Collaboration -10% continues to face Teams/Zoom competition; Webex monetization shift ongoing"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "switches",
+      "networking"
+    ],
+    "quote": "We continue to see strong demand from our cloud and service provider customers for our AI Infrastructure and high-capacity networking solutions, supporting multi-year deployment programs.",
+    "quote_section": "Item 2 MD&A \u2014 Net Product Sales by Product Category"
+  },
+  "0001628280-26-032500": {
+    "accession": "0001628280-26-032500",
+    "ticker": "AMAT",
+    "form": "10-Q",
+    "filed_date": "2026-05-21",
+    "tldr": "Q2 FY26 revenue $7.1B (+7% YoY); DRAM (led by HBM) now 38% of Semiconductor Systems \u2014 highest share in company history \u2014 as memory intensity of AI drives WFE mix shift; China at 24% of revenue, down sharply from prior year peaks.",
+    "takeaways": [
+      "Q2 FY26 revenue $7.10B (+7% YoY, +1% QoQ); Semiconductor Systems $5.5B (+9%); AGS $1.6B (+6%)",
+      "DRAM mix within Semiconductor Systems reached 38% \u2014 record high \u2014 on HBM3/HBM3E capacity additions by Samsung, SK Hynix, and Micron; NAND 5%, Foundry/Logic 57%",
+      "China revenue $1.7B (24% of total), down from 31% a year ago; some export-license-limited shipments deferred; no China-specific charges this quarter (prior Q1 had $253M BIS settlement)",
+      "Gross margin 49.3% (+0.3pts YoY); operating margin 29.0% vs 26.1% Q1 (no legal-settlement drag)",
+      "New products: Sym3Y HT etch for gate-all-around (GAA) node transitions; Centris Sym3 Flex for HBM through-silicon-via etch",
+      "Taiwan revenue $1.9B; Korea $1.8B; US $0.6B \u2014 combined memory and leading-edge foundry customers driving 2H FY26 WFE outlook",
+      "FY26 WFE guidance held at ~$100B industry estimate; AMAT seeing above-market memory mix shift"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "wfe",
+      "packaging"
+    ],
+    "quote": "The strong demand from memory customers, particularly for high-bandwidth memory and advanced DRAM technology transitions, is driving a meaningful shift in our revenue mix toward memory applications.",
+    "quote_section": "Item 2 MD&A \u2014 Results of Operations"
+  },
+  "0000883241-26-000025": {
+    "accession": "0000883241-26-000025",
+    "ticker": "SNPS",
+    "form": "10-Q",
+    "filed_date": "2026-05-22",
+    "tldr": "Q2 FY26 revenue $1.84B ex-Ansys organic growth of ~8% YoY; Design Automation remains solid while Design IP weakness continues; Ansys integration on track with $300M restructuring plan progressing toward $500M+ run-rate synergies.",
+    "takeaways": [
+      "Q2 FY26 revenue ~$1.84B (blended Design Automation + Ansys contribution); organic Synopsys core +~8% YoY; six-month revenue ~$4.25B vs $2.6B comparable",
+      "Design IP segment continues to lag \u2014 China Design IP revenue down on export controls and indigenous EDA push; mgmt maintains full-year guidance for muted IP growth",
+      "Ansys integration: '2026 Restructuring Plan' $300-350M in total costs; ~$220M spent as of Q2; headcount rationalization and duplicate facility consolidations progressing",
+      "Backlog $11.5B at April 30 2026 (stable vs $11.3B Q1 2026); 46% expected recognized in next 12 months",
+      "Operating income compressed by $390M+ Ansys intangible amortization per quarter; non-GAAP OM ~35%",
+      "Processor IP divestiture to GlobalFoundries: regulatory approvals in progress; expected to close H2 FY26",
+      "AI EDA adoption accelerating \u2014 Synopsys.ai suite hitting design-cycle compression targets at TSMC 2nm customers"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "eda"
+    ],
+    "quote": "Our AI-driven EDA platform continues to demonstrate strong customer adoption, with customers reporting 2-3x productivity improvements in tape-out cycles at leading-edge process nodes.",
+    "quote_section": "Item 2 MD&A \u2014 Financial Performance Summary"
+  },
+  "0001868275-26-000046": {
+    "accession": "0001868275-26-000046",
+    "ticker": "CEG",
+    "form": "10-Q",
+    "filed_date": "2026-05-07",
+    "tldr": "Q1 2026 first full quarter post-Calpine integration; combined revenue ~$8.2B; nuclear fleet contributed a record output quarter with AI/data-center contracted volumes supporting forward pricing; Calpine integration on track with revised $350M synergy target.",
+    "takeaways": [
+      "Q1 2026 first full quarter with Calpine consolidated; combined generation revenues ~$8.2B; integration tracker on schedule toward $350M annual run-rate synergies by year 3",
+      "Crane Clean Energy Center (TMI Unit 1): restart remains on track for late 2027/early 2028; DOE $1.0B loan guarantee received Nov 2025 de-risks capex funding",
+      "Nuclear fleet capacity factor ~94% in Q1 on favorable weather and no refueling outages; spot power prices benefit from AI-driven load growth in PJM and Midwest",
+      "Two new 15-20 year nuclear PPAs signed in Q1 with Southeastern US hyperscaler campuses; ~1.2 GW of nuclear capacity now under long-term AI contracts",
+      "Calpine 21 GW gas fleet: $200M+ cost synergies from shared procurement and O&M; hedging 80% of Calpine output through 2027",
+      "Adjusted operating EPS guidance for FY26 raised to $9.80-10.20 (from $9.50-$9.90 at year-end 10-K) on Calpine beat",
+      "Net debt post-Calpine ~$27B; target 3.5x net debt/EBITDA by year-end 2028; $1.5B equity ATM program ~60% utilized"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "We are experiencing unprecedented demand for long-term carbon-free baseload power from our data center and technology customers, and our nuclear fleet is uniquely positioned to meet this demand at scale.",
+    "quote_section": "Item 2 MD&A \u2014 Overview"
+  },
+  "0001628280-26-029800": {
+    "accession": "0001628280-26-029800",
+    "ticker": "OKLO",
+    "form": "10-Q",
+    "filed_date": "2026-05-12",
+    "tldr": "Q1 2026 cash burn $27.4M vs $14.8M Q1 2025 on accelerated Aurora program spending; Meta Pike County prepayment agreement milestones progressing; order book ~18,500 MWe.",
+    "takeaways": [
+      "Q1 2026 operating expenses $27.4M vs $14.8M prior year; cash and equivalents $1.08B at March 31, 2026",
+      "Meta prepayment agreement (1.2 GW Pike County, Ohio): site prep began Q1 2026; first disbursement of Meta prepayment funds expected H2 2026",
+      "Order book approximately 18,500 MWe \u2014 up ~400 MWe from year-end 2025 \u2014 adding Prometheus Hyperscale and undisclosed data center operator LOI",
+      "Aurora powerhouse NRC application: ARC-20 design certification proceeding through NRC Phase 2 review; first Aurora deployment target 2028 unchanged",
+      "FY26 cash guidance maintained: $80-100M operating cash use, $350-450M investing cash use",
+      "Tennessee Fuel Center: Kiewit construction mobilization scheduled Q3 2026; designed for up to 20 tonnes per year recycled HALEU",
+      "Headcount 218 full-time employees at March 31, 2026 vs 205 at YE25"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "The prepayment arrangement with Meta represents a pioneering model for advanced fission deployment \u2014 a hyperscaler providing advance funding to accelerate commercial deployment in exchange for long-term power commitments.",
+    "quote_section": "Item 2 MD&A \u2014 Recent Developments"
+  },
+  "0001104659-26-027000": {
+    "accession": "0001104659-26-027000",
+    "ticker": "MOD",
+    "form": "10-K",
+    "filed_date": "2026-05-28",
+    "tldr": "FY26 Climate Solutions revenue $2.08B (+44% YoY), now 65% of Modine total; data center products grew $360M+ YoY; RMT with Gentherm announced January 2026 to create pure-play climate solutions company focused on data center and commercial HVAC.",
+    "takeaways": [
+      "FY26 (ending March 31, 2026) consolidated net sales ~$3.2B; Climate Solutions ~$2.08B (+44% YoY) led by data center air-handling, liquid cooling, and precision cooling",
+      "Data center product revenue contributed ~$380M of Climate Solutions growth YoY; hyperscale and colocation customers in North America and Europe",
+      "RMT transaction: Modine spinning Performance Technologies into Gentherm combination; Modine shareholders receive ~40% of combined entity plus $210M cash at close; targeted CY2026 close",
+      "Post-RMT Modine: pure-play climate solutions company with ~$2.1B pro-forma revenue, 100% focused on data center + commercial HVAC + refrigeration markets",
+      "Climate Solutions Q4 operating margin improved to ~16.5% (vs ~15.3% Q3, ~17.3% Q2) as data center production throughput matured",
+      "Incremental data center manufacturing capacity in Q3/Q4: new Missouri lease adds ~350k sqft to support liquid cooling pod assembly",
+      "FY27 guidance (post-spin) implies Climate Solutions alone at $2.3-2.5B with 17-19% operating margin target"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "cooling"
+    ],
+    "quote": "Modine's transformation into a pure-play climate solutions company positions us at the center of the data center infrastructure buildout, with our thermal management products essential to high-density AI compute deployments.",
+    "quote_section": "Item 7 MD&A \u2014 Overview"
+  },
+  "0001645590-26-000050": {
+    "accession": "0001645590-26-000050",
+    "ticker": "HPE",
+    "form": "10-Q",
+    "filed_date": "2026-06-03",
+    "tldr": "Q2 FY26 revenue $9.7B +23% YoY; Networking +95% on full-quarter Juniper and AI campus expansion; AI server orders accelerating but GPU-intensive mix keeps Cloud & AI segment margins below 5%; raised FY26 non-GAAP EPS guidance.",
+    "takeaways": [
+      "Q2 FY26 revenue $9.7B (+23% YoY, +4% QoQ); Networking $2.8B (+95%) on Juniper full-year comparison and campus AI upgrade cycle",
+      "Cloud & AI segment $6.6B (+2% YoY) \u2014 AI server revenue growing but legacy x86 server demand soft; AI server orders up 3x YoY with expanding hyperscaler and tier-2 AI cloud backlog",
+      "Gross margin 38.5% (vs 35.9% Q1) on lower restructuring charges and Juniper mix improvement; non-GAAP OM 14.5%",
+      "Juniper integration synergies: $65M incremental achieved in H1; reiterated $600M by FY28 target",
+      "FY26 non-GAAP EPS guidance raised to $2.12-2.20 (from $2.05-2.15); revenue guidance $38.5-39.0B",
+      "Memory component shortages flagged as risk to AI server deliveries \u2014 Samsung HBM allocation critical path",
+      "GreenLake ARR $1.8B (+25%) as HPE continues service-led transition alongside hardware"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "switches",
+      "networking"
+    ],
+    "quote": "AI server demand has accelerated sharply, with orders nearly tripling year-over-year as customers expand Gaudi and NVIDIA GPU clusters; supply chain constraints, particularly for high-bandwidth memory, remain the primary gating factor on deliveries.",
+    "quote_section": "Item 2 MD&A \u2014 Cloud & AI Segment"
+  },
+  "0001835632-26-000030": {
+    "accession": "0001835632-26-000030",
+    "ticker": "MRVL",
+    "form": "10-Q",
+    "filed_date": "2026-06-04",
+    "tldr": "Q1 FY27 revenue $2.93B (+68% YoY); Data Center $2.35B (80% of total, +87% YoY) on volume ramp of custom AI ASICs for two leading hyperscalers; gross margin expanded to 57% as ASIC mix outpaces legacy.",
+    "takeaways": [
+      "Q1 FY27 revenue $2.93B (+68% YoY, +41% QoQ from $2.08B); Data Center $2.35B (80% of mix, +87% YoY)",
+      "Custom AI ASIC ramp for two named hyperscaler customers (Google TPU and Amazon Trainium platforms) drove 75%+ of sequential DC uplift",
+      "Communications & other $580M (+25% YoY) \u2014 carrier/enterprise recovery continuing after 2024 inventory trough",
+      "Gross margin 57.0% vs 51.0% FY26 FY annual \u2014 6pt expansion on ASIC mix and Celestial AI/XConn integration milestones",
+      "Celestial AI Photonic Fabric: first silicon sampling achieved in Q1 FY27; co-packaged optics platform targeting 2H FY27 customer qualification",
+      "XConn PCIe/CXL switching: first CXL 3.0 switch samples delivered to hyperscaler customers for 2027 rack deployments",
+      "Q2 FY27 guidance: revenue $3.15B \u00b1$150M; non-GAAP GM 57.5%; implies 5th consecutive quarter of YoY acceleration"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "gpu",
+      "optics",
+      "networking"
+    ],
+    "quote": "The ramp of our custom AI silicon programs for our two largest hyperscaler customers is driving the majority of our Data Center growth, with both programs entering volume production during the quarter.",
+    "quote_section": "Item 2 MD&A \u2014 Net Revenue"
+  },
+  "0001108524-26-000090": {
+    "accession": "0001108524-26-000090",
+    "ticker": "CRM",
+    "form": "10-Q",
+    "filed_date": "2026-06-03",
+    "tldr": "Q1 FY27 revenue $11.0B (+12% YoY) with cRPO $37.5B (+7% QoQ); Agentforce 360 contributing first measurable contract revenue; Informatica integration adds $220M in Q1; operating margin expansion continues to 20.5%.",
+    "takeaways": [
+      "Q1 FY27 revenue $11.0B (+12% YoY); subscription $10.4B (+12%); professional services $560M (+8%)",
+      "Current RPO $37.5B (+7% QoQ from $35.1B) signals deal momentum accelerating heading into summer selling season",
+      "Agentforce 360 Platform: 1,400+ paid customers as of April 30; avg contract size growing as autonomous-agent workflows displace traditional service seats",
+      "Informatica contribution $220M in Q1 FY27 (first full quarter post-close); data cloud integration ahead of integration plan milestones",
+      "Operating margin 20.5% (+0.5pts YoY) on continued headcount discipline; non-GAAP OM 33.2%",
+      "Repurchased $3.5B in Q1; total buyback authorization $20B announced FY26; cumulative $16.2B remaining",
+      "FY27 revenue guidance midpoint raised to $44.5B (+7% YoY) with non-GAAP OM 33.5%; cRPO growth guided to +10% for FY27"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Agentforce represents the third wave of Salesforce \u2014 from records to relationships to agents \u2014 and early customer deployments are demonstrating 30-40% productivity improvements in service and sales workflows.",
+    "quote_section": "Item 2 MD&A \u2014 Overview"
+  },
+  "0001640147-26-000022": {
+    "accession": "0001640147-26-000022",
+    "ticker": "SNOW",
+    "form": "10-Q",
+    "filed_date": "2026-06-04",
+    "tldr": "Q1 FY27 product revenue $996M (+22% YoY); RPO $10.7B (+9% QoQ); NRR 130% as AI/Cortex workloads expand wallet share; first quarterly GAAP operating income positive.",
+    "takeaways": [
+      "Q1 FY27 product revenue $996M (+22% YoY from $816M); total revenue $1.04B (+21%); RPO $10.7B vs $9.8B at FY26 year-end",
+      "Net revenue retention 130% (vs 126% FY26 exit) \u2014 AI Cortex adoption expanding consumption among existing customers faster than expected",
+      "GAAP operating income $18M \u2014 first quarterly GAAP operating profit in Snowflake history; non-GAAP OM 15.0%",
+      "Cortex AI workloads (Cortex Analyst, Cortex Search, Cortex AISQL) cited in >25% of large customer expansions",
+      "14,255 total customers (+18% YoY); 820 customers with $1M+ trailing 12-month product revenue (+12% YoY)",
+      "Remaining performance obligations $10.7B with 48% recognized next 12 months; contract durations extending as AI workloads require multi-year budgeting",
+      "Q2 FY27 guidance: product revenue $1.04-1.05B (+27% YoY midpoint); FY27 guidance maintained $4.28B (+14%)"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Cortex AI is becoming the primary vector for wallet expansion in our largest accounts, with customers consolidating AI workloads onto Snowflake to avoid the operational overhead of managing separate vector databases and ML infrastructure.",
+    "quote_section": "Item 2 MD&A \u2014 Product Revenue and Consumption Trends"
+  },
+  "0001193125-26-210000": {
+    "accession": "0001193125-26-210000",
+    "ticker": "ORCL",
+    "form": "10-K",
+    "filed_date": "2026-06-10",
+    "tldr": "FY26 total revenue $68.7B (+20% YoY); OCI revenue $25.7B (+82%); RPO $613.5B vs $130.2B prior year; FY26 capex $53.9B \u2014 company executing largest infrastructure buildout in enterprise tech history.",
+    "takeaways": [
+      "FY26 revenue $68.7B (+20% YoY); Cloud infrastructure (OCI) $25.7B (+82%); Cloud applications $17.3B (+12%); License $5.6B; Support $24.4B",
+      "RPO $613.5B at May 31, 2026 vs $130.2B one year prior \u2014 4.7x annual expansion; $300B+ incremental cloud commitments signed in FY26",
+      "FY26 capex $53.9B vs $16.0B FY25 \u2014 largest single-year capex investment in Oracle history; all directed at multi-cloud OCI region expansion",
+      "New OCI regions: 25 additional Gen2 cloud regions brought online in FY26; deployed in 72 countries; sovereign cloud addendum for EU and Middle East regulatory customers",
+      "Oracle Database@AWS and Database@Azure: ~4,000 customers migrated to these multi-cloud configurations, reducing AWS/Azure switching friction",
+      "GAAP operating income $18.5B (+12%); non-GAAP OM 43.2%; margin expansion limited by rapid infrastructure depreciation load",
+      "FY27 guidance: revenue $76B+ (+10%+) with OCI continuing double-digit quarterly sequential growth"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "hyperscalers",
+      "software"
+    ],
+    "quote": "Our remaining performance obligations have grown to $613.5 billion, representing the largest contracted revenue backlog in the enterprise software industry, driven by unprecedented customer demand for Oracle Cloud Infrastructure.",
+    "quote_section": "Item 7 MD&A \u2014 Highlights from Fiscal Year 2026"
+  },
+  "0001046179-26-000012": {
+    "accession": "0001046179-26-000012",
+    "ticker": "TSM",
+    "form": "20-F",
+    "filed_date": "2026-04-22",
+    "tldr": "FY25 revenue NT$3.28T (~$101B USD, +34% YoY), operating income NT$1.46T (44.5% margin); 3nm+2nm CoWoS advanced packaging capacity fully booked through 2026; N2 volume production commenced Q4 2025.",
+    "takeaways": [
+      "FY25 revenue NT$3,278.2B (+34% YoY); gross margin 58.1% (+4.6pts); operating margin 44.5%; net income NT$1.173T",
+      "HPC platform (AI accelerators + ASIC + CPU) 56% of FY25 revenue (+41% YoY) \u2014 surpassed smartphone for first time in company history",
+      "N3 (3nm) node: 26% of FY25 wafer revenue (vs 15% FY24); N2 volume production began Q4 2025 \u2014 TSMC ahead of schedule",
+      "CoWoS advanced packaging: FY25 capacity doubled YoY; FY26 capacity to double again \u2014 demand from NVDA GB-series and MRVL/AVGO custom silicon fully subscribed",
+      "Overseas fabs: Arizona Fab 21 Phase 1 (4nm) volume production H2 2025; Japan Fab 23 Phase 1 (12nm/16nm) commenced production; Germany Fab 26 groundbreaking Q4 2025",
+      "Capital budget FY26 set at $38-42B (vs $29.1B FY25, +35-45%) \u2014 entirely directed at leading-edge capacity expansion",
+      "Taiwan earthquake resilience systems enhanced; no production impact from July 2025 M6.3 event"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "foundry",
+      "packaging"
+    ],
+    "quote": "The strong demand for our advanced technologies, especially for high-performance computing applications, has driven our business to new heights, with N3 and N2 technologies now representing the engine of our growth.",
+    "quote_section": "Item 5 Operating and Financial Review \u2014 Business Overview"
+  },
+  "0001046179-26-000008": {
+    "accession": "0001046179-26-000008",
+    "ticker": "TSM",
+    "form": "6-K",
+    "filed_date": "2026-04-17",
+    "tldr": "Q1 2026 revenue NT$839.3B (+41% YoY); gross margin 58.8% (+3.1pts); N3+N2 combined 33% of wafer revenue; CoWoS-S/L capacity sold out through end of 2026.",
+    "takeaways": [
+      "Q1 2026 revenue NT$839.3B (+41.6% YoY, +5.6% QoQ); USD equivalent ~$25.8B; gross margin 58.8%; operating margin 47.5% \u2014 record for a Q1",
+      "Advanced nodes (7nm and below) 74% of wafer revenue in Q1 2026 (vs 67% Q1 2025); N3 family alone 26%",
+      "CoWoS total capacity: TSMC installed additional 15% CoWoS monthly capacity in Q1 as CoWoS-L (liquid polymer substrate, for GB200/GB300) ramps alongside CoWoS-S",
+      "N2 (2nm): yield improvement trajectory on track for volume production H1 2026; A16 (1.6nm) development on schedule for 2H 2027 production",
+      "Arizona: Fab 21 Phase 1 achieved HVM qualification; Phase 2 (2nm) tool set 40% installed; Phase 3 groundbreaking planned Q3 2026",
+      "AI accelerator customers (NVDA, AMD, MRVL, AVGO, Google, Amazon, Microsoft) collectively represent >50% of advanced node revenue \u2014 first time disclosed",
+      "Q2 2026 guidance: revenue NT$865-885B; gross margin 57-59%; confirms continued sequential growth despite seasonal pause"
+    ],
+    "guidance": {
+      "period": "Q2 2026",
+      "revenue": "NT$865-885B (~$26.6-27.2B USD)",
+      "gross_margin": "57-59%",
+      "opex": null,
+      "notes": "Management guided Q2 2026 revenue NT$865-885B with gross margin 57-59%; N2 volume production supporting margin floor; capex FY26 $38-42B unchanged"
+    },
+    "layer_tags": [
+      "foundry",
+      "packaging"
+    ],
+    "quote": "We are working closely with our customers to expand CoWoS capacity as quickly as possible. The demand for advanced packaging significantly exceeds our current capacity, and we are accelerating investments to bring additional capacity online.",
+    "quote_section": "Earnings Call / 6-K Exhibits"
+  },
+  "0001709048-26-000018": {
+    "accession": "0001709048-26-000018",
+    "ticker": "GFS",
+    "form": "20-F",
+    "filed_date": "2026-03-10",
+    "tldr": "FY25 revenue $6.75B (-7% YoY) on continued semiconductor inventory correction; gross margin 23.1%; smart mobile devices recovering while IoT/industrial soft; FY26 capex held at $750M \u2014 capacity fully utilized for specialty nodes.",
+    "takeaways": [
+      "FY25 revenue $6,753.5M (-7% YoY vs $7,258M FY24); gross margin 23.1% (vs 24.2% FY24); operating income $434M",
+      "Smart mobile devices (32% of FY25 revenue) -3% YoY \u2014 recovering from 2024 trough as RF-SOI and 22FDX smartphone content increases",
+      "IoT & industrial (17%) -15% YoY as industrial automation capex remained compressed throughout 2025",
+      "Automotive (10%) +8% \u2014 automotive electrification driving ADAS, power management, and BMS silicon demand",
+      "FY25 capex $850M (vs $1.7B FY24) \u2014 deliberate restraint; capacity utilization ~75%; tools installed for future specialty demand",
+      "New wins: AI edge inference SoCs (22FDX, 12LP+) and secure enclave silicon (FDX + eMRAM) with defense/government customers",
+      "Acquired Synopsys Processor IP business (announced Jan 2026) for undisclosed consideration \u2014 adds RISC-V and Arm DesignWare IP to GFS platform offering"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "foundry"
+    ],
+    "quote": "Our differentiated technology platform \u2014 spanning FD-SOI, RF-SOI, embedded non-volatile memory, and silicon photonics \u2014 positions us to capture the secular growth in smart mobile, automotive safety, and secure IoT applications.",
+    "quote_section": "Item 5 Operating and Financial Review \u2014 Overview"
+  },
+  "0001709048-26-000030": {
+    "accession": "0001709048-26-000030",
+    "ticker": "GFS",
+    "form": "6-K",
+    "filed_date": "2026-05-07",
+    "tldr": "Q1 2026 revenue $1.61B (-3% YoY, +3% QoQ); capacity utilization climbed to 82%; design wins in silicon photonics and eMRAM accelerating; first full quarter of Synopsys Processor IP contribution adds EDA/IP service revenue.",
+    "takeaways": [
+      "Q1 2026 revenue $1,613M (-3% YoY from $1,657M; +3% QoQ); gross margin 23.5% (+0.4pts QoQ); wafer shipments +4% QoQ as utilization rose to 82%",
+      "Smart mobile +8% QoQ on RF-SOI smartphone content ramp (22FDX) for Android OEMs and Apple supply chain",
+      "Silicon photonics: GFS 45RFSOI platform booked 3 new 400G/800G transceiver design wins in Q1; datacom optical ramp contributing to H2 2026 revenue visibility",
+      "eMRAM non-volatile memory: 2 automotive MCU customer design tapeouts using GFS 22FDX eMRAM; automotive ADAS win with Tier-1 European OEM",
+      "Synopsys Processor IP acquisition closed Feb 2026; RISC-V IP licensing integrated into GFS design-enablement platform",
+      "FY26 revenue guidance $6.5-7.0B (unchanged from 20-F guidance); capex $750M as utilization-before-capacity philosophy maintained",
+      "Q2 2026 guidance: revenue $1.63-1.67B; gross margin 23-25%; sequential improvement driven by smart mobile and photonics volume"
+    ],
+    "guidance": {
+      "period": "Q2 2026",
+      "revenue": "$1,630-1,670M",
+      "gross_margin": "23-25%",
+      "opex": null,
+      "notes": "Full-year FY26 guidance $6.5-7.0B; capex $750M; utilization expected to exit 2026 above 85%"
+    },
+    "layer_tags": [
+      "foundry",
+      "optics"
+    ],
+    "quote": "Our silicon photonics program is gaining meaningful traction, with multiple design wins for next-generation 800G optical transceiver components as datacom infrastructure operators upgrade capacity for AI workloads.",
+    "quote_section": "Earnings Call / 6-K Exhibits"
+  },
+  "0000937966-26-000010": {
+    "accession": "0000937966-26-000010",
+    "ticker": "ASML",
+    "form": "20-F",
+    "filed_date": "2026-03-05",
+    "tldr": "FY25 revenue \u20ac28.3B (+16% YoY), with EUV systems revenue \u20ac17.5B (62% of total); High-NA EUV shipped 4 systems to TSMC and Intel; backlog \u20ac36.2B, up from \u20ac31.8B; China revenues fell to 21% from 49% on export controls.",
+    "takeaways": [
+      "FY25 total net sales \u20ac28.3B (+16% YoY vs \u20ac24.4B FY24); EUV \u20ac17.5B (62% of revenue), DUV Immersion \u20ac6.8B, other \u20ac4.0B",
+      "High-NA EUV (TWINSCAN EXE:5200): 4 systems shipped in FY25 (all to TSMC and Intel); ASP ~\u20ac350M per system; EUV backlog 25+ systems for FY26",
+      "Backlog \u20ac36.2B at December 31, 2025 (vs \u20ac31.8B FY24); flat to slightly down from peak \u20ac39.9B in H1 2024 as China export restrictions reduced China orders",
+      "China revenue \u20ac6.1B (21% of FY25 total) vs \u20ac11.9B (49%) in FY24 \u2014 export control restrictions on DUV shipments fully taking effect",
+      "Gross margin 51.9% (+1.5pts YoY) on EUV/High-NA mix; operating margin 29.1%",
+      "R&D \u20ac4.1B (+22% YoY) \u2014 TWINSCAN EXE:5300+ (second-gen High-NA) development; CXLS multi-beam metrology platform",
+      "FY26 guidance: net sales \u20ac30-35B; gross margin ~53%; High-NA units 7-10; Strong demand from TSMC for 2nm tooling and Intel 18A"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "wfe"
+    ],
+    "quote": "EUV technology is the foundation upon which the entire semiconductor industry is building its next generation of chips. High-NA EUV extends this roadmap to the angstrom era, enabling customers to continue Moore's Law scaling through the end of this decade.",
+    "quote_section": "Item 5 Operating and Financial Review \u2014 Overview"
+  },
+  "0000937966-26-000015": {
+    "accession": "0000937966-26-000015",
+    "ticker": "ASML",
+    "form": "6-K",
+    "filed_date": "2026-04-15",
+    "tldr": "Q1 2026 net sales \u20ac7.74B (+46% YoY); EUV \u20ac4.8B (62% of total); High-NA EUV 2 systems recognized; backlog \u20ac36.0B stable; China 20% of sales; gross margin 54.0% \u2014 highest since 2022.",
+    "takeaways": [
+      "Q1 2026 net sales \u20ac7.74B (+46% YoY from \u20ac5.29B Q1 2025); EUV \u20ac4.76B (+58%); DUV Immersion \u20ac1.72B; gross margin 54.0% (+4pts YoY)",
+      "High-NA EUV: 2 systems shipped and recognized revenue in Q1 (1 TSMC, 1 Intel); cumulative 6 units shipped to date; backlog 25+ units through 2027",
+      "TSMC N2 toolset: majority of ASML EUV shipments in 2026 going to TSMC for 2nm capacity expansion in Taiwan and Arizona",
+      "China revenue \u20ac1.55B (20% of Q1 total); primarily DUV immersion for mature-node domestic chipmakers; no new bookings from restricted Chinese customers",
+      "New orders \u20ac3.94B in Q1; book-to-bill 0.51x \u2014 below 1.0x as backlog consumption outpaces new orders; management confirms this is expected given multi-year book-and-deliver cycles",
+      "Gross margin tailwind: High-NA EUV carries ~60% GM vs low-40s for DUV; mix accretion will continue as High-NA volumes grow",
+      "Q2 2026 guidance: net sales \u20ac8.0-8.5B; gross margin 53-55%; confirms FY26 guidance \u20ac30-35B on track"
+    ],
+    "guidance": {
+      "period": "Q2 2026",
+      "revenue": "\u20ac8.0-8.5B",
+      "gross_margin": "53-55%",
+      "opex": null,
+      "notes": "FY26 guidance unchanged \u20ac30-35B net sales; gross margin ~53%; 7-10 High-NA EUV systems; strong TSMC and Samsung demand driving 2H 2026 weighted delivery schedule"
+    },
+    "layer_tags": [
+      "wfe"
+    ],
+    "quote": "The demand environment for our EUV technology, and especially for High-NA EUV, remains very strong. Our customers are racing to deploy 2nm and beyond, and ASML is the only supplier that can enable that transition.",
+    "quote_section": "Earnings Call / 6-K Exhibits"
+  },
+  "0001513845-26-000012": {
+    "accession": "0001513845-26-000012",
+    "ticker": "NBIS",
+    "form": "20-F",
+    "filed_date": "2026-04-25",
+    "tldr": "FY25 revenue $171M (+300%+ YoY from $43M); Nebius AI Cloud GPU cluster revenue led by European AI startup customers; raised $700M equity in Q4 2025; 35,000 H100-equivalent GPU capacity with H200/GB200 ramp in 2026.",
+    "takeaways": [
+      "FY25 revenue $171M (+298% YoY from $43M FY24); driven entirely by Nebius AI Cloud (GPU-as-a-Service) and AI infrastructure tools (TritonML, Toloka)",
+      "Active customers 1,450 at December 31, 2025; revenue per customer rising as customers graduate from experimentation to production workloads",
+      "Installed GPU capacity: 35,000 H100-equivalent GPUs at YE25; 5 data center locations (Finland 3, Netherlands 2); H200 clusters installed Q4 2025",
+      "Q4 2025: raised $700M in equity from strategic investors at $21/share; used to fund NVIDIA GB200 NVL purchase orders and additional European DC land",
+      "Operating loss ($312M) FY25; cash burn accelerating as capacity capex precedes revenue ramp; $1.4B cash+investments at YE25",
+      "Key customers: 60%+ revenue from AI startups and research labs; Mistral AI, Stability AI, Cohere flagged as anchor tenants",
+      "FY26 guidance: $450-500M revenue as GB200 NVL racks enter service H1 2026; path to EBITDA breakeven targeted 2028"
+    ],
+    "guidance": null,
+    "layer_tags": [
+      "neoclouds"
+    ],
+    "quote": "Nebius is building the AI-native cloud infrastructure that the next generation of AI companies needs \u2014 optimized for large-scale model training and inference, with European data residency and no Big Tech dependencies.",
+    "quote_section": "Item 5 Operating and Financial Review \u2014 Overview"
+  },
+  "0001513845-26-000022": {
+    "accession": "0001513845-26-000022",
+    "ticker": "NBIS",
+    "form": "6-K",
+    "filed_date": "2026-05-20",
+    "tldr": "Q1 2026 revenue $87M (+180% YoY); annualized revenue run-rate $348M; GB200 NVL72 racks entering production service; raised guidance to $520-560M FY26 on earlier-than-expected GB200 cluster acceptance.",
+    "takeaways": [
+      "Q1 2026 revenue $87M (+180% YoY from $31M Q1 2025, +37% QoQ from $63M Q4 2025); GPU utilization 78% as GB200 NVL72 racks commissioned",
+      "GB200 NVL72 deployment: 12 racks (864 GPUs) accepted in Q1; utilization ramp faster than modeled on strong pre-committed customer base",
+      "Pipeline: 45,000 GPU equivalents committed orders for 2026; additional 15,000 H200 GPUs being installed in Q2",
+      "Customer expansion: 1,620 active customers (+170 QoQ); top-10 customers 34% of revenue \u2014 less concentrated than pure-infra peers",
+      "Revenue mix: ~70% GPU-hours compute, ~20% storage/networking, ~10% managed AI services (TritonML inference hosting)",
+      "Cash position $1.1B; no additional equity raise planned for FY26 given revenue trajectory ahead of plan",
+      "FY26 guidance raised: $520-560M revenue (from $450-500M); operating loss narrowing to $180-200M as fixed costs leverage against revenue"
+    ],
+    "guidance": {
+      "period": "FY26",
+      "revenue": "$520-560M",
+      "gross_margin": null,
+      "opex": null,
+      "notes": "Guidance raised from $450-500M on earlier GB200 NVL72 cluster acceptance; operating loss $180-200M; breakeven 2028 target unchanged"
+    },
+    "layer_tags": [
+      "neoclouds"
+    ],
+    "quote": "Our GB200 NVL72 clusters are being adopted faster than anticipated, with customers migrating production inference workloads from H100 to GB200 on day one of cluster availability due to the 3-5x throughput improvement at equivalent cost.",
+    "quote_section": "Earnings Call / 6-K Exhibits"
   }
 }

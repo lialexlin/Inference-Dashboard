@@ -172,22 +172,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-f6a9a1983af19bfe",
-    "date": "2026-06-10",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Applied Materials opens $500m manufacturing campus in Singapore - Nikkei Asia",
-    "quote": "Applied Materials opens $500m manufacturing campus in Singapore Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZ3ROUktlWHJYUlNrSkQwODVKUUo3Tk41Rm5yYm1ISW13TFVYUzFUeXFWN0NyUVNseG9kMXViWjBYc2lfT2xHRHh0MngtNmM2ZUFiTmJ3eURrMUpJNjJvMUJDR3VIWUU4WHZNbmozb2VYYVoyeE9nWHpSOHhrOEl2TkY3NDlTWDk4NXNLb1lqbEFfMFJzUm4wVEdDay0waFBTY0hBOGtmazJhUQ?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "AMAT"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-8fc9aff1a3950815",
     "date": "2026-06-10",
     "source": "ServeTheHome",
@@ -252,20 +236,6 @@
     "headline": "TSMC capacity crunch pushes Google, Nvidia closer to Intel - digitimes",
     "quote": "TSMC capacity crunch pushes Google, Nvidia closer to Intel digitimes",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUWxDSFFkbEhsQXNDNlBDckpmZm5EcHN5NGFRMTFUTDg0MHVwc2VaQ0JEZzNfNUV1WlBPZElJV3VnWFpNdUNrRmdvUEF5d0YwMDlmNnZPVVRfanlTSWFib1dGRmFLUS10N2syZFdBRnpRcDVJamdlV2lwVERJYmFVV1hOZThSVUtWZjdKSg?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-bd16779648cd2259",
-    "date": "2026-06-09",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Samsung foundry profit rebound may come in 3Q26 as 2nm orders rise 130% - digitimes",
-    "quote": "Samsung foundry profit rebound may come in 3Q26 as 2nm orders rise 130% digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRFhKcmYzeWs0Ym9FaEFlMVVkbUFuckpreGNPRUxHTElsOGZYOW9vUXc4YVN5dEF5cFd5eWJURUlpMXdMYjJRMjkyYlduRXZjUk5vUTNUbGJnUnZwZXRKaGFaaTEyLVQ4TkdwRWRtTGxwU3BaVTZuVXhxdWNmemN6QnUwZWwyNExZUHk0?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -1597,6 +1567,23 @@
     "layer_ids": [
       "packaging",
       "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-593c9e2ae40e5d47",
+    "date": "2026-05-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "AMD CEO meets with TSMC CEO in Taiwan as it expands US chip output - digitimes",
+    "quote": "AMD CEO meets with TSMC CEO in Taiwan as it expands US chip output digitimes",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnZkMwakVSRWxMdzRIaTl3YkRYdTlkZmJBRlJaMWdab00tWHBuOXNTa2hqTTVPQTZpQlFmMHVJUF9HclFnbFlQaE5vc2VWZkJiRnhDQmZIS2NvbEVTR2I0Ml82QUQ4SXJmNk5zQ2YxY19SaW1PcHRMVA?oc=5",
+    "layer_ids": [
+      "gpu",
+      "foundry"
     ],
     "tickers": [
       "AMD"

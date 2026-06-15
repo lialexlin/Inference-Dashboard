@@ -1,8 +1,8 @@
 {
   "hbm": {
-    "tightness_score": 65,
-    "signal_count_90d": 15,
-    "tightness_language_hits_per_signal": 0.267,
+    "tightness_score": 68,
+    "signal_count_90d": 16,
+    "tightness_language_hits_per_signal": 0.25,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Manish Bhatia, Executives] I think what's the demand is supply constrained, right, for both right now. And so we're just continuing to work very hard on enhancing supply, but I mentioned persistent structural factors earlier in my comments",
@@ -10,28 +10,28 @@
       "Micron set new records across revenue, gross margin, EPS, and free cash flow in fiscal Q2, driven by a strong demand environment, tight industry supply, and our strong execution, and we expect significant records again in fiscal Q3."
     ],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.333,
       "language_pct": 0.867,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "foundry": {
-    "tightness_score": 71,
+    "tightness_score": 63,
     "signal_count_90d": 28,
-    "tightness_language_hits_per_signal": 0.107,
+    "tightness_language_hits_per_signal": 0.071,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "Google weighs Samsung's role in next AI chip as TSMC capacity tightens digitimes",
-      "TSMC's May revenue grows 30% as AI demand and tight capacity support outlook digitimes",
-      "TSMC holds its earnings call today, with tightness at its 3nm node coming into focus as the foundry giant outlines new plans to expand N3 capacity. Its Chairman and CEO C.C. Wei says that, historically, TSMC does not add capacity … Continue"
+      "TSMC holds its earnings call today, with tightness at its 3nm node coming into focus as the foundry giant outlines new plans to expand N3 capacity. Its Chairman and CEO C.C. Wei says that, historically, TSMC does not add capacity … Continue",
+      "[INTC] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
       "density_pct": 0.8,
-      "language_pct": 0.467,
+      "language_pct": 0.267,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "packaging": {
     "tightness_score": 35,
@@ -46,10 +46,10 @@
       "language_pct": 0.6,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "wfe": {
-    "tightness_score": 37,
+    "tightness_score": 40,
     "signal_count_90d": 19,
     "tightness_language_hits_per_signal": 0.105,
     "cross_quarter_supply_tight": false,
@@ -58,13 +58,13 @@
     ],
     "components": {
       "density_pct": 0.533,
-      "language_pct": 0.4,
+      "language_pct": 0.467,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "gpu": {
-    "tightness_score": 60,
+    "tightness_score": 63,
     "signal_count_90d": 26,
     "tightness_language_hits_per_signal": 0.077,
     "cross_quarter_supply_tight": true,
@@ -75,13 +75,13 @@
     ],
     "components": {
       "density_pct": 0.733,
-      "language_pct": 0.267,
+      "language_pct": 0.333,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "networking": {
-    "tightness_score": 40,
+    "tightness_score": 43,
     "signal_count_90d": 23,
     "tightness_language_hits_per_signal": 0.087,
     "cross_quarter_supply_tight": false,
@@ -91,10 +91,10 @@
     ],
     "components": {
       "density_pct": 0.667,
-      "language_pct": 0.333,
+      "language_pct": 0.4,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "optics": {
     "tightness_score": 36,
@@ -109,7 +109,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "switches": {
     "tightness_score": 73,
@@ -126,7 +126,7 @@
       "language_pct": 0.733,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "power": {
     "tightness_score": 64,
@@ -143,7 +143,7 @@
       "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "cooling": {
     "tightness_score": 45,
@@ -160,7 +160,7 @@
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "hyperscalers": {
     "tightness_score": 43,
@@ -176,7 +176,7 @@
       "language_pct": 0.2,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "neoclouds": {
     "tightness_score": 24,
@@ -191,7 +191,7 @@
       "language_pct": 0.533,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "software": {
     "tightness_score": 16,
@@ -204,7 +204,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "eda": {
     "tightness_score": 37,
@@ -220,7 +220,7 @@
       "language_pct": 0.8,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -233,6 +233,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-15T15:14:23.150056+00:00"
+    "updated_at": "2026-06-15T23:51:55.849266+00:00"
   }
 }

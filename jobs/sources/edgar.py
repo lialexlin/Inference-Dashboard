@@ -77,7 +77,7 @@ CIK_MAP = {
     "LEU":  "0001065059",
 }
 
-REPORT_FORMS = {"10-K", "10-Q"}
+REPORT_FORMS = {"10-K", "10-Q", "20-F"}
 EARNINGS_8K_ITEM = "2.02"  # SEC item code for "Results of Operations and Financial Condition"
 
 

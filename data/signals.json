@@ -15,6 +15,51 @@
     "arch_risk": false
   },
   {
+    "id": "rss-181c430743f3aaef",
+    "date": "2026-06-17",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Chip supply chains shift: TSMC's capacity crunch reportedly pushes Google, Tesla, BYD toward Samsung - digitimes",
+    "quote": "Chip supply chains shift: TSMC's capacity crunch reportedly pushes Google, Tesla, BYD toward Samsung digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1pqN0o3aXRLTjdOUHVVYVhqMm95OHpZM1ZLQ1M3N19SUGtaSkg2LVhfRkQ4UWgxQUlURXNLbEtlXzZVV3BUX3VBbGl6VVkxTnhEUjlXbU9iby16b0cta1hZRlFXbkVYQ1BuRVFwZDRwVGZMdE1OWElXcXhxSlEwcHFucTczWUk?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-fa155caf6a28c0ac",
+    "date": "2026-06-17",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Synopsys Unifies Electrical, Thermal, Mechanical, and Optical Analysis with Multiphysics Fusion Solutions",
+    "quote": "Synopsys has announced the availability of the first wave of its Multiphysics Fusion Solutions, extending its vision of a unified engineering environment that connects EDA, semiconductor physics, system simulation, and artificial intelligence-driven optimization. The announcement addresses one of the most significant… Read More The post Synopsys Unifies Electrical, Thermal, Mechanical, and Optical Analysis with Multiphysics Fusion Solutions appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/synopsys/370446-synopsys-unifies-electrical-thermal-mechanical-and-optical-analysis-with-multiphysics-fusion-solutions/",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-6575815b1ec901c1",
+    "date": "2026-06-17",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "RISC-V and AI: The Architecture Shift Is Now",
+    "quote": "The semiconductor industry has experienced several defining transitions over the last three decades. We moved from single-core to multicore processors, from ASIC-centric designs to IP-based SoCs, and from monolithic integration to heterogeneous architectures. Today, another transition is underway, one that may ultimately… Read More The post RISC-V and AI: The Architecture Shift Is Now appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/ip/risc-v/370153-risc-v-and-ai-the-architecture-shift-is-now/",
+    "layer_ids": [
+      "gpu",
+      "software"
+    ],
+    "tickers": [
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-7258bfc46ed36d6c",
     "date": "2026-06-16",
     "source": "Nikkei Asia",
@@ -74,20 +119,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-a3cbaa414ba85364",
-    "date": "2026-06-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC A16 takes center stage at VLSI 2026 as mass production targets 4Q26 ramp - digitimes",
-    "quote": "TSMC A16 takes center stage at VLSI 2026 as mass production targets 4Q26 ramp digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVXpMajhIVk5DQm1DdDJ4aVhDV1pzRl96RjI1aDRja2tCNVZCSFFNNWZkMFNveE1Lb19ZVE5pMUpEeERveVo5VE5aWHJEZTdoVlhZWjNTYmpIQzROLWllZjA1REMydjNRcmloNmptblNoLTZMN1NwaGdzRGtFNXIyU0doNFU3RGN2QUlTdTk0bkhrM0k?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-3ad85052b21cf5fe",
     "date": "2026-06-16",
     "source": "DigiTimes",
@@ -101,23 +132,6 @@
     ],
     "tickers": [
       "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-d738dcaeab1dd185",
-    "date": "2026-06-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "AMD opens EFB front beyond CoWoS, putting Taiwan substrate trio in play - digitimes",
-    "quote": "AMD opens EFB front beyond CoWoS, putting Taiwan substrate trio in play digitimes",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV0ZEYlJ5SW9aalhja1RSOEpBNjBuQlZFNE51RlRQZmpodV84MllfanBzYjlRNDlYLTFDeTNKb0QzVXFuU0lXekV4ZGVKLUZKMmdKV2lPakxGYnRBZ0cxOVRsaUFRSGZjbV9pM1VIR0ZjYmxiQ1ozUU91aDJiQlpLbHlZay1ZWUZYVTlJTHJvU3dRcHZDbFNzRDZRbXpJXzBNTG85QUZHS2pKMVpS?oc=5",
-    "layer_ids": [
-      "packaging",
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
     ],
     "arch_risk": false
   },
@@ -145,21 +159,6 @@
     "url": "https://semiwiki.com/semiconductor-manufacturers/intel/370197-intel-foundry-expands-the-18a-platform-with-18a-p-and-demonstrates-long-term-technology-leadership-at-vlsi-2026/",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-a07934f679ce829e",
-    "date": "2026-06-16",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "A tower-like heterogeneous packaging architecture for the AI era",
-    "quote": "For years, advanced packaging has been described mostly in planar terms: chiplets placed side by side, connected through interposers, bridges, redistribution layers, substrates, and short-reach electrical links. This view remains important. It supports today’s GPU, HBM, chiplet, and 2.5D integration architectures.… Read More The post A tower-like heterogeneous packaging architecture for the AI era appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/3dic/370223-a-tower-like-heterogeneous-packaging-architecture-for-the-ai-era/",
-    "layer_ids": [
-      "packaging",
-      "hbm"
     ],
     "tickers": [],
     "arch_risk": false
@@ -209,20 +208,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-98779d0f469c6473",
-    "date": "2026-06-15",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "CoPoS and FOPLP accelerate as Manz delivers its first 310mm electrochemical deposition equipment - digitimes",
-    "quote": "CoPoS and FOPLP accelerate as Manz delivers its first 310mm electrochemical deposition equipment digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb1FxMGtua19KS2VFNDhWOEw3S0xZZkhGeWxnZUFFQUNBOFV2WXZqbmp5T3AyX1lxRDkyU0xLTnkwT0xoOEZnVTB3X1lwQUh0TU9zdzd6dWZnS3JxWWlUMHNEcDZyWHVHZWNtY0tvQWhOUTVEVDFabFBFNk0xeTI1ZkhrakVNb0pNcUlCR2JrQQ?oc=5",
-    "layer_ids": [
-      "packaging"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-4659a6fc751693d1",
     "date": "2026-06-15",
     "source": "DigiTimes",
@@ -235,23 +220,6 @@
     ],
     "tickers": [
       "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b66c66c013020784",
-    "date": "2026-06-15",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Akeana Collaborates with Samsung Electronics, Fast-Tracking RISC-V Customers and Ecosystem for Server and Agentic AI Silicon",
-    "quote": "The momentum behind RISC-V continues to accelerate as Akeana announced a strategic collaboration with Samsung Electronics aimed at reducing time-to-market for next-generation server and agentic AI silicon. The partnership combines Akeana’s high-performance RISC-V compute platform with Samsung Foundry’s advanced process… Read More The post Akeana Collaborates with Samsung Electronics, Fast-Tracking RISC-V Customers and Ecosystem for Server and Agentic AI Silicon appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ip/370104-akeana-collaborates-with-samsung-electronics-fast-tracking-risc-v-customers-and-ecosystem-for-server-and-agentic-ai-silicon/",
-    "layer_ids": [
-      "foundry",
-      "hbm"
-    ],
-    "tickers": [
-      "005930.KS"
     ],
     "arch_risk": false
   },
@@ -305,6 +273,20 @@
     "headline": "US lawmakers push ITC to enforce patent case involving TSMC - digitimes",
     "quote": "US lawmakers push ITC to enforce patent case involving TSMC digitimes",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZm1BOTBwa3FzVDlucFJoZnpLbU1KWU5WY3J5VG5wbGFoZVpfOThnQXFCeEFaa3BOamlaM0g5Y094R2VfU2pwejJtZ0pJbmVxZEtzVGVfOVpGclFQNDFKcHRtcXptYjRiMHExNWQ0YXRENGdUdXN2OXpPSUJJNEM4VW1tNUJmSUgweU13bjNSQQ?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-43d520bac51bb6bf",
+    "date": "2026-06-11",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Commentary: TSMC's pricing power stays intact as AI demand keeps fabs full - digitimes",
+    "quote": "Commentary: TSMC's pricing power stays intact as AI demand keeps fabs full digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNzBzV2I2S0p1cDBITjBnUVlMclRJOHl1ZGxLUHl2akRsWTRBQWVBR1RmTUhpckRSWWktenFvZXlrSVJNbDk1bjR5aS1sUTNKZEVBaVZVVFZlNDRVOVRYSDhXWUJyaTFFNl81WEFfd2dkVzhUZWFuaTl1MFJIY0wtbFBRRGpZT3BLNzF1LXMtdUNnQ1p1WUs5WTVrcw?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -1255,6 +1237,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-29a7946ad499beb4",
+    "date": "2026-05-30",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC's test arm Xintec ramps wafer testing capacity for 2H26 growth - digitimes",
+    "quote": "TSMC's test arm Xintec ramps wafer testing capacity for 2H26 growth digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQkZTWXpuN2VKMWpxa2sxNDRQMnlmSDQ0RHplNUtXekZQWHFrVC0xLXpjUE1DVjBVZ01Db0JJbEZqdUxVLVI3SUVma3VuYXRncFBKMEhvc3l3bzl3ZDBzb2RBaFY1bjRudlBTZ28xbmZWTmJNUEdOUUpMN1NwaXpTQ2N4MU9Kd2dTTkpHc3hUdw?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-SNOW-0001640147-26-000030",
     "accession": "0001640147-26-000030",
     "form": "10-Q",
@@ -1355,6 +1351,21 @@
       "speaker": "Gary Dickerson",
       "role": "Executives"
     },
+    "arch_risk": false
+  },
+  {
+    "id": "rss-224ed67a39c3b6e7",
+    "date": "2026-05-27",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC CEO to address bonus backlash in person as Jensen Huang's visit puts Taiwan chipmaker in spotlight - digitimes",
+    "quote": "TSMC CEO to address bonus backlash in person as Jensen Huang's visit puts Taiwan chipmaker in spotlight digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNLW9GclNxSFNfVFYzdmtLOEtiek95TEhuNHEyQzAwQlhJZE9RRm1ocEc5MDdxNFpLaEVBbUVqVzY3YkdQN20yeTBURFBHdUJRZjdaSWNUSTRNdmlzMmRWaVhzUDVJc0NwRUhVaGN6SFFjV1ZHenhla2VhSk1ZeGJVc25rMkVZREtPN1hiUDFNaTRCOXRlLUVOVDZpMUZ3Tm1fRElB?oc=5",
+    "layer_ids": [
+      "foundry",
+      "wfe"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1700,6 +1711,23 @@
     "arch_risk": false
   },
   {
+    "id": "rss-974f5d154c831ec3",
+    "date": "2026-05-22",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "AMD backs Taiwan EFB packaging chain to cut CoWoS reliance - digitimes",
+    "quote": "AMD backs Taiwan EFB packaging chain to cut CoWoS reliance digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWDgwME5sUkUtT0dQb1ZaN3dHRkhUMS1GaVAxWXFjdHVLZVliVnpjMWprS1BBbTBjekVwaHNJVll5b0hmX0VXeU9YVFh3eVhUY2hQeEdzY21XRHhOSFZfZmY4aU1vYklXYzAwZFBDX1FKcXl6U01BY213bXhZRm84LTFlaTZYYnIzU0E?oc=5",
+    "layer_ids": [
+      "packaging",
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-AMAT-0001628280-26-037227",
     "accession": "0001628280-26-037227",
     "form": "10-Q",
@@ -2011,20 +2039,6 @@
       "speaker": "Gary Corona",
       "role": "Executives"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "rss-97658f308c861cbd",
-    "date": "2026-05-18",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Cisco Wins Over AI Customers With Merchant Silicon And Optics",
-    "quote": "",
-    "url": "https://www.nextplatform.com/connect/2026/05/18/cisco-wins-over-ai-customers-with-merchant-silicon-and-optics/5242200",
-    "layer_ids": [
-      "switches"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {

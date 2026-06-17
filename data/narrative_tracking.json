@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T23:29:32.659600+00:00",
+  "generated_at": "2026-06-17T12:52:18.783165+00:00",
   "by_ticker": {
     "AMAT": [
       {
@@ -7309,6 +7309,190 @@
       }
     ],
     "HPE": [
+      {
+        "call_id": 34106,
+        "date": "2026-06-16",
+        "call_type": "Presents at 2026 HPE Discover IR Summit, Jun-15-2026 through Jun-18-2026",
+        "url": "https://earningscalls.dev/transcript/34106",
+        "themes": {
+          "supply": {
+            "mentions": 14,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 3,
+              "negative": 0,
+              "neutral": 11
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "And that's why we see the results we saw in the previous quarter in terms of orders, in terms of backlog, obviously, because of the supply availability and in terms of durability because the network for AI demand is untouchable."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "As I said, the supply availability will continue to be severely constrained into 2027."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "And to give a perspective, we already have the capacity allocated for 2026 and what we do the way it works, every 90 days, we tell our suppliers how we want that capacity to be dived between, I don't know, server storage, between this 64 gig to this 128 to 256 be that."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Unknown Executive",
+                "role": "Executives",
+                "text": "Marvis has a self-driving action for dynamically fixing capacity issues."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Unknown Executive",
+                "role": "Executives",
+                "text": "Coverage was fine, roaming was fine, wireless capacity was bogged down on a few APs that were functioning at 90% peak utilization."
+              }
+            ]
+          },
+          "demand": {
+            "mentions": 39,
+            "tone_score": 0.5,
+            "counts": {
+              "positive": 3,
+              "negative": 1,
+              "neutral": 35
+            },
+            "quotes": [
+              {
+                "tone": "positive",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "Architect and for AI demands the same focus and discipline fundamentally, AI is only as strong as the data foundation be needed."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "As AI moves from generating content to taking action, the demands on the compute are increasing."
+              },
+              {
+                "tone": "negative",
+                "speaker": "Rami Rahim",
+                "role": "Executives",
+                "text": "And as the demands on the building increased over time, the weakness underneath became impossible to ignore."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Unknown Executive",
+                "role": "Executives",
+                "text": "And as networks become more distributed, more dynamic and more AI-driven, the demands on routing are growing dramatically."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "Agent AI demands a new set of enterprise requirements."
+              }
+            ]
+          },
+          "capex": {
+            "mentions": 3,
+            "tone_score": -1.0,
+            "counts": {
+              "positive": 0,
+              "negative": 1,
+              "neutral": 2
+            },
+            "quotes": [
+              {
+                "tone": "negative",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "With the HPE Financial Services will help you modernize with confidence and better economics, including lower upfront capital investment."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "In many cases, they actually pivot to OpEx versus CapEx."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "And so it's not just, I don't know, $3 million or $3 million, let me buy $3 million of CapEx."
+              }
+            ]
+          },
+          "lead_times": {
+            "mentions": 2,
+            "tone_score": 0.0,
+            "counts": {
+              "positive": 0,
+              "negative": 0,
+              "neutral": 2
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "So it's less about the constraint is more lead times."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "And so if you build -- is going to need to build a large AI training system, that's based on lead time based on where you place the PLs."
+              }
+            ]
+          },
+          "pricing": {
+            "mentions": 6,
+            "tone_score": 1.0,
+            "counts": {
+              "positive": 1,
+              "negative": 0,
+              "neutral": 5
+            },
+            "quotes": [
+              {
+                "tone": "neutral",
+                "speaker": "Unknown Executive",
+                "role": "Executives",
+                "text": "The fourth aspect of what makes us unique, models take the analysis and curate it to understand and analyze post connection issues."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "And fundamentally, every aspect of that act needs to be productive."
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "Price, I think -- they take it for what?"
+              },
+              {
+                "tone": "neutral",
+                "speaker": "Antonio Neri",
+                "role": "Executives",
+                "text": "So in those 2 aspects of the portfolio, we have our silicon."
+              },
+              {
+                "tone": "positive",
+                "speaker": "Unknown Analyst",
+                "role": "Analysts",
+                "text": "Antonio, could you help us better appreciate how customers are navigating this higher-priced hardware environment we're in based on the conversations you're having with customers just given the recent strength in traditional services you guys saw where prices are at multiples of where they were from prior year."
+              }
+            ]
+          }
+        },
+        "mentions_total": 64
+      },
       {
         "call_id": 33299,
         "date": "2026-06-03",
@@ -16621,9 +16805,9 @@
     ]
   },
   "summary": {
-    "calls_analyzed": 107,
+    "calls_analyzed": 108,
     "tickers_covered": 48,
-    "total_mentions": 5101,
+    "total_mentions": 5165,
     "themes": [
       "supply",
       "demand",

@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-06-16T23:26:05.150239+00:00",
+  "last_refresh_at": "2026-06-17T12:49:05.742480+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-06-16T23:27:06.514280+00:00"
+      "ts": "2026-06-17T12:49:50.212443+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,13 +24,13 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-06-16T23:27:11.593559+00:00"
+      "ts": "2026-06-17T12:49:55.091579+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 72,
       "errors": {},
-      "ts": "2026-06-16T23:27:25.211735+00:00"
+      "ts": "2026-06-17T12:50:08.172056+00:00"
     },
     "ciq": {
       "ok": 62,
@@ -39,13 +39,13 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-06-16T23:26:18.779817+00:00"
+      "ts": "2026-06-17T12:49:24.108368+00:00"
     },
     "scoring": {
       "ok": 63,
       "quadrant_counts": {
-        "fair": 31,
-        "priced-in": 13,
+        "priced-in": 14,
+        "fair": 30,
         "avoid": 8,
         "value-trap": 10,
         "unscored": 1
@@ -63,32 +63,32 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-06-16T23:29:33.574072+00:00"
+      "ts": "2026-06-17T12:52:19.708062+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "switches",
-          "tightness_score": 73
-        },
-        {
-          "layer_id": "gpu",
-          "tightness_score": 65
+          "tightness_score": 71
         },
         {
           "layer_id": "power",
-          "tightness_score": 64
+          "tightness_score": 67
+        },
+        {
+          "layer_id": "gpu",
+          "tightness_score": 63
         }
       ],
-      "ts": "2026-06-16T23:29:33.525981+00:00"
+      "ts": "2026-06-17T12:52:19.567435+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-06-16T23:29:33.515082+00:00"
+      "ts": "2026-06-17T12:52:19.555192+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -99,12 +99,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-06-16T23:29:33.581901+00:00"
+      "ts": "2026-06-17T12:52:19.715888+00:00"
     },
     "transcripts": {
       "ok": 48,
-      "fetched_this_run": 0,
-      "cached": 46,
+      "fetched_this_run": 1,
+      "cached": 45,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -127,13 +127,13 @@
       "errors": {
         "SIEGY": "not found on earningscalls.dev"
       },
-      "total_calls_on_disk": 107,
-      "ts": "2026-06-16T23:29:32.107778+00:00"
+      "total_calls_on_disk": 108,
+      "ts": "2026-06-17T12:52:18.208434+00:00"
     },
     "narrative": {
       "ok": 48,
-      "calls_analyzed": 107,
-      "total_mentions": 5101,
+      "calls_analyzed": 108,
+      "total_mentions": 5165,
       "themes": [
         "supply",
         "demand",
@@ -141,32 +141,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-06-16T23:29:32.678927+00:00"
+      "ts": "2026-06-17T12:52:18.804630+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-06-16T23:29:33.520293+00:00"
+      "ts": "2026-06-17T12:52:19.561451+00:00"
     },
     "tw_universe": {
-      "ok": 1959,
-      "stock_count": 1959,
+      "ok": 1954,
+      "stock_count": 1954,
       "sector_count": 71,
-      "latest_date": "2026-06-16",
-      "ts": "2026-06-16T23:31:16.587268+00:00"
+      "latest_date": "2026-06-17",
+      "ts": "2026-06-17T12:53:15.378447+00:00"
     },
     "us_universe": {
-      "ok": 970,
-      "stock_count": 970,
+      "ok": 987,
+      "stock_count": 987,
       "sector_count": 78,
       "latest_date": "2026-06-16",
-      "ts": "2026-06-16T23:35:38.904256+00:00"
+      "ts": "2026-06-17T12:54:39.638088+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 306,
-    "total": 332
+    "discovered_kept": 308,
+    "total": 334
   }
 }

@@ -2430,5 +2430,1881 @@
     ],
     "ticker": "GEV",
     "tldr": "RPO surged to $163.3B at Q1 end (+9% sequentially, +32% YoY); Q1 Gas Power EBITDA +57% on Heavy-Duty turbine deliveries and favorable pricing."
+  },
+  "0001104659-26-066795": {
+    "accession": "0001104659-26-066795",
+    "ticker": "MOD",
+    "form": "10-K",
+    "filed_date": "2026-05-27",
+    "tldr": "FY26 record year: Data Center revenue +73% YoY to $1.1B; Q4 DC >$400M; $4B chiller long-term agreement secured for 2027-2029 with $165M upfront; FY27 guided DC +60-80%, total +20-35%, EBITDA $650-680M; Performance Technologies spin-off in progress.",
+    "takeaways": [
+      "FY26 Data Center revenue +73% YoY to $1.1B; Q4 DC alone >$400M, run-rating >$1.6B annual pace entering FY27",
+      "$4B long-term chiller supply agreement signed with a hyperscaler (2027-2029) + $165M upfront capacity reservation received in Q4",
+      "FY27 guidance: DC +60-80% (implies $1.8-2.0B), total revenue +20-35%, adjusted EBITDA $650-680M (+40%+)",
+      "Performance Technologies segment (vehicular thermal) to be spun off or divested \u2014 sharpening the pure-play DC cooling story",
+      "Order backlog inflecting: DC bookings accelerated in H2 FY26; $4B LTA provides multi-year revenue visibility through 2029",
+      "Liquid cooling (CDUs, rear-door heat exchangers) alongside air-side economizers \u2014 positioned for both air-cooled and direct-liquid-cooled hyperscaler deployments"
+    ],
+    "guidance": {
+      "period": "FY27",
+      "revenue": "+20-35% total; DC +60-80% (implies ~$1.8-2.0B)",
+      "gross_margin": null,
+      "opex": null,
+      "notes": "$4B LTA through 2029; $165M prepayment received; Performance Technologies spin-off underway"
+    },
+    "layer_tags": [
+      "cooling"
+    ],
+    "quote": "We secured a $4 billion long-term chiller supply agreement with a leading hyperscaler, extending through 2029, and received a $165 million upfront capacity reservation payment \u2014 confirming that our customers are locking in thermal management capacity well ahead of deployment.",
+    "quote_section": "Q4 FY26 Earnings Call \u2014 CEO Commentary"
+  },
+  "0001730168-26-000054": {
+    "accession": "0001730168-26-000054",
+    "ticker": "AVGO",
+    "form": "10-Q",
+    "filed_date": "2026-06-09",
+    "tldr": "Q2 FY26 AI semiconductor revenue $10.8B (+143% YoY); networking ~40% of AI revenue; Q3 guided $29.4B total, AI semi $16B; FY26 AI target raised to $56B; FY27 AI forecast >$100B with 6 hyperscaler XPU deployments.",
+    "takeaways": [
+      "Q2 FY26 total revenue $22.2B (+48% YoY); AI semiconductor $10.8B (+143%); networking ~40% of AI revenue (~$4.3B)",
+      "Q3 FY26 guidance: total revenue $29.4B (+84% YoY), AI semi $16B (+200%+) \u2014 beat-and-raise cadence widening",
+      "FY26 AI semiconductor target raised to $56B (previously indicated $40B+); FY27 forecast >$100B",
+      "6 hyperscaler XPU customers: Google (confirmed), Anthropic (6 GW), OpenAI (1.3 GW by 2027), Meta (3 GW by 2028), plus 2 undisclosed \u2014 unprecedented diversification",
+      "Q2 bookings $30B \u2014 far exceeding $22.2B revenue, implying massive backlog; supplier capacity prepayments accelerating",
+      "NVIDIA NVLink Fusion partnership: Broadcom networking silicon integrating with NVLink for non-NVIDIA GPU clusters \u2014 major architectural validation",
+      "VMware revenue roughly flat QoQ at ~$4B; integration progressing, private cloud bundling gaining traction"
+    ],
+    "guidance": {
+      "period": "Q3 FY26",
+      "revenue": "$29.4B (\u00b11%)",
+      "gross_margin": "~69% non-GAAP",
+      "opex": null,
+      "notes": "AI semi Q3 $16B; FY26 AI $56B; FY27 AI >$100B; 6 hyperscaler XPU customers named; Q2 bookings $30B"
+    },
+    "layer_tags": [
+      "gpu",
+      "networking",
+      "optics"
+    ],
+    "quote": "We are engaged with six hyperscalers \u2014 three of whom are in volume production today \u2014 and the deployments we are supporting span from hundreds of megawatts to multiple gigawatts. Our fiscal year 2027 AI revenue is on track to exceed $100 billion.",
+    "quote_section": "Q2 FY26 Earnings Call \u2014 CEO Hock Tan"
+  },
+  "0001645590-26-000055": {
+    "accession": "0001645590-26-000055",
+    "ticker": "HPE",
+    "form": "10-Q",
+    "filed_date": "2026-06-02",
+    "tldr": "Q2 FY26 Server & HPC revenue +38% YoY driven by AI server ramp; AI systems backlog elevated; gross margin pressure from component costs and hyperscaler price competition; FY26 EPS outlook maintained.",
+    "takeaways": [
+      "Q2 FY26 Server & HPC +38% YoY on AI server builds; Intelligent Edge softer on enterprise spending caution",
+      "AI server backlog elevated but converting \u2014 order-to-ship lead times compressing as supply normalizes",
+      "Gross margin under pressure from high-cost AI components (GPUs, HBM-loaded modules) and hyperscaler pricing",
+      "FY26 EPS guidance maintained; cash flow from operations on track",
+      "HPE GreenLake ARR growing; AI Factory bundling increasing attach; hybrid cloud repatriation thesis still early",
+      "Networking (Aruba) soft amid enterprise caution; AI infrastructure offsetting the weakness"
+    ],
+    "guidance": {
+      "period": "FY26",
+      "revenue": "Annual growth mid-single digits",
+      "gross_margin": null,
+      "opex": null,
+      "notes": "AI server backlog strong; GreenLake ARR growing; margin pressure from AI component mix"
+    },
+    "layer_tags": [
+      "hyperscalers"
+    ],
+    "quote": "Our AI systems business continued strong momentum in Q2, with Server and HPC growing 38% year-over-year as hyperscalers and enterprises accelerate AI infrastructure build-outs.",
+    "quote_section": "Q2 FY26 Earnings Call \u2014 Management Commentary"
+  },
+  "0001640147-26-000030": {
+    "accession": "0001640147-26-000030",
+    "ticker": "SNOW",
+    "form": "10-Q",
+    "filed_date": "2026-05-29",
+    "tldr": "Q1 FY27 product revenue $1.334B (+34% YoY, re-accelerating from 26% in Q4); NRR 126%; FY27 raised to $5.84B (+31%); $6B AWS 5-year contract; $200M OpenAI expansion; Cortex AI driving GPU consumption within platform.",
+    "takeaways": [
+      "Q1 FY27 product revenue $1.334B (+34% YoY) \u2014 acceleration vs +26% in Q4 FY26; RPO $7.5B (+40%)",
+      "Net Revenue Retention 126%; large-customer ($1M+ ARR) cohort +29% YoY to 793 customers; 13,912 total",
+      "FY27 product revenue guidance raised to $5.84B (+31% YoY) from $5.71B \u2014 second consecutive raise",
+      "$6B five-year strategic partnership with AWS signed post-quarter; $200M OpenAI expansion of data services deal",
+      "Cortex AI (LLM inference on Snowflake): GPUs provisioned inside Snowflake data cloud; AI workloads incremental to existing SQL/ETL consumption",
+      "Non-GAAP operating margin ~5%; FCF positive at ~$350M; operating cash flow healthy"
+    ],
+    "guidance": {
+      "period": "Q2 FY27",
+      "revenue": "Product revenue $1.435-1.440B (+29-30% YoY)",
+      "gross_margin": "~75% product non-GAAP",
+      "opex": null,
+      "notes": "FY27 full year $5.84B; $6B AWS deal; $200M OpenAI; Cortex AI GPU consumption within platform"
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Cortex AI is becoming a meaningful contributor to our consumption growth. Customers are running LLM inference, fine-tuning, and agentic workloads directly on Snowflake compute \u2014 keeping their data in place and avoiding the latency and cost of moving it to external AI APIs.",
+    "quote_section": "Q1 FY27 Earnings Call \u2014 CEO Sridhar Ramaswamy"
+  },
+  "0001835632-26-000019": {
+    "accession": "0001835632-26-000019",
+    "ticker": "MRVL",
+    "form": "10-Q",
+    "filed_date": "2026-05-28",
+    "tldr": "Q1 FY27 revenue $2.418B (+28% YoY); DC $1.83B (+27%, 76% of revenue); non-GAAP GM 58.9%; Q2 guided $2.7B \u00b15%; FY27 ~$11.5B (+40%); three optics acquisitions (Polariton, XConn, Celestial AI); NVIDIA NVLink Fusion design win; ~$1B supplier prepayments.",
+    "takeaways": [
+      "Q1 FY27: Revenue $2.418B (+28% YoY, +9% QoQ); DC $1.83B (+27% YoY); non-GAAP GM 58.9%; EPS $0.80",
+      "Q2 FY27 guide: $2.7B \u00b15% revenue, EPS $0.88-0.98; FY27 full year ~$11.5B (+40% YoY)",
+      "NVIDIA NVLink Fusion design win: Marvell networking ASICs enabling non-NVIDIA GPU clusters to participate in NVLink topology \u2014 multi-year revenue opportunity",
+      "Three photonics acquisitions: Polariton (silicon photonics modulator IP), XConn (CXL/UCIe switch), Celestial AI (optical compute interconnect) \u2014 vertical integration into co-packaged optics stack",
+      "~$1B in supplier prepayments placed \u2014 locking CoWoS and advanced packaging capacity at TSMC for FY27-28 XPU ramp",
+      "Custom XPU revenue inflecting: multiple hyperscaler next-gen ASICs in or entering mass production in H2 FY27",
+      "DC concentration now >75% of revenue \u2014 effectively a pure-play AI infrastructure name"
+    ],
+    "guidance": {
+      "period": "Q2 FY27",
+      "revenue": "$2.7B \u00b15%",
+      "gross_margin": "~59-60% non-GAAP",
+      "opex": null,
+      "notes": "FY27 ~$11.5B; NVIDIA NVLink Fusion win; 3 optics acquisitions; ~$1B supplier prepayments for TSMC capacity"
+    },
+    "layer_tags": [
+      "networking",
+      "optics"
+    ],
+    "quote": "We have secured a significant design win with NVIDIA for NVLink Fusion, enabling our networking silicon to connect non-NVIDIA XPUs into NVIDIA NVLink fabric \u2014 this validates our position at the center of the next-generation interconnect ecosystem regardless of which accelerator wins.",
+    "quote_section": "Q1 FY27 Earnings Call \u2014 CEO Matt Murphy"
+  },
+  "0001108524-26-000127": {
+    "accession": "0001108524-26-000127",
+    "ticker": "CRM",
+    "form": "10-Q",
+    "filed_date": "2026-05-28",
+    "tldr": "Q1 FY27 revenue $9.83B (+8% YoY); Agentforce scaling to millions of AI agent interactions per week; Data Cloud growing; FY27 guidance $40.9-41.0B; MCP integration enabling third-party AI models to query Salesforce data.",
+    "takeaways": [
+      "Q1 FY27: Revenue $9.83B (+8% YoY); Subscription & support $9.19B (+9%); non-GAAP operating margin ~33%",
+      "FY27 guidance: $40.9-41.0B revenue (+8% YoY); non-GAAP EPS $11.09-11.17",
+      "Agentforce: millions of AI agent conversations/week; paid consumption model; early enterprise pilots converting to production",
+      "Data Cloud ARR growing; MCP (Model Context Protocol) integration enabling third-party AI models to query Salesforce data natively",
+      "Slack AI: Huddle summaries, channel digests, workflow automation \u2014 driving Slack seat upsell within existing CRM accounts",
+      "Operating cash flow strong; $5B+ buyback program; margin expansion despite AI investment"
+    ],
+    "guidance": {
+      "period": "Q2 FY27",
+      "revenue": "$10.22-10.27B (+7-8% YoY)",
+      "gross_margin": "~77% non-GAAP",
+      "opex": null,
+      "notes": "FY27 $40.9-41.0B; Agentforce consumption model scaling; MCP integration; Data Cloud double-digit growth"
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Agentforce is now handling millions of customer interactions autonomously \u2014 from service resolutions to sales follow-ups \u2014 and our customers are seeing measurable deflection rates. The agentic AI era is driving a new consumption layer on top of our seat-based business.",
+    "quote_section": "Q1 FY27 Earnings Call \u2014 CEO Marc Benioff"
+  },
+  "0000883241-26-000018": {
+    "accession": "0000883241-26-000018",
+    "ticker": "SNPS",
+    "form": "10-Q",
+    "filed_date": "2026-05-27",
+    "tldr": "Q2 FY26 revenue $2.276B; FY26 raised to $9.625-9.705B; Design IP bottomed Q1 and recovering; Elliott Management board seat; Processor IP sold to GlobalFoundries; 20 agentic EDA customers; AI chip complexity driving multi-year EDA cycle.",
+    "takeaways": [
+      "Q2 FY26 revenue $2.276B; FY26 guidance raised to $9.625-9.705B (was $9.4-9.5B) \u2014 Elliott-driven financial discipline",
+      "Design IP segment bottomed Q1 FY26 and returned to growth in Q2; on-track for full FY26 recovery",
+      "Elliott Management: board seat secured; pushing for margin expansion and strategic portfolio optimization",
+      "Processor IP (RISC-V core) divested to GlobalFoundries \u2014 proceeds ~$500M; focus sharpened on EDA tools, verification IP, silicon lifecycle",
+      "20+ customers actively using agentic EDA workflows (AI-driven RTL generation, verification test synthesis, sign-off automation)",
+      "AI chip design complexity (HBM integration, chiplet disaggregation, multi-die verification) driving incremental EDA spend per tapeout",
+      "Ansys integration (pending regulatory approval) adds simulation/multiphysics \u2014 expanding TAM beyond pure EDA"
+    ],
+    "guidance": {
+      "period": "FY26",
+      "revenue": "$9.625-9.705B (raised)",
+      "gross_margin": "~80% non-GAAP",
+      "opex": null,
+      "notes": "Design IP recovering; Elliott board seat; Processor IP sold to GFS for ~$500M; Ansys integration pending"
+    },
+    "layer_tags": [
+      "eda"
+    ],
+    "quote": "Artificial intelligence is not just a product we are building tools for \u2014 it is reshaping how those tools are used. We now have more than 20 customers running agentic design workflows where AI generates RTL, writes testbenches, and flags violations before a human engineer reviews the output.",
+    "quote_section": "Q2 FY26 Earnings Call \u2014 CEO Sassine Ghazi"
+  },
+  "0001628280-26-037227": {
+    "accession": "0001628280-26-037227",
+    "ticker": "AMAT",
+    "form": "10-Q",
+    "filed_date": "2026-05-21",
+    "tldr": "Q2 FY26 systems revenue growing >30% YoY; advanced packaging >50% YoY; EPIC center partnership model with 10 partners; 8-quarter rolling customer forecasts; HBM wafer starts 3-4x standard DRAM; China mid-20s % revenue (restricted, no advanced-node exposure).",
+    "takeaways": [
+      "Systems revenue on track >30% growth FY26 YoY; advanced packaging systems >50% YoY \u2014 HBM fab capacity driving outperformance",
+      "HBM wafer intensity: 3-4x more deposition, etch, and CMP steps per wafer vs standard DRAM \u2014 structurally higher AMAT content per AI bit",
+      "EPIC (Equipment and Process Innovation Center): 10 technology partners co-developing processes; 6 global centers; accelerates customer adoption of new materials",
+      "8-quarter rolling purchase commitments from leading customers \u2014 demand visibility through mid-2027",
+      "China revenue stable at mid-20s%; restricted to legacy nodes; no advanced-node exposure in China mix",
+      "Gate-all-around transition (Samsung, TSMC, Intel Foundry) driving etch/deposition intensity uplift vs FinFET",
+      "AGS services growing on expanding installed base; HBM fab recurring revenue opportunity"
+    ],
+    "guidance": {
+      "period": "Q3 FY26",
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": "FY26 systems >30%; advanced packaging >50%; 8-quarter rolling forecasts locked; EPIC partnerships with 10 partners"
+    },
+    "layer_tags": [
+      "wfe",
+      "packaging",
+      "hbm"
+    ],
+    "quote": "HBM requires three to four times the wafer processing steps of standard DRAM \u2014 that means three to four times the deposition, etch, and planarization equipment per gigabyte of capacity. As HBM becomes the memory standard for AI, our content per wafer expands structurally, not cyclically.",
+    "quote_section": "Bernstein Strategic Decisions Conference \u2014 May 2026, CEO Gary Dickerson"
+  },
+  "0001045810-26-000052": {
+    "accession": "0001045810-26-000052",
+    "ticker": "NVDA",
+    "form": "10-Q",
+    "filed_date": "2026-05-20",
+    "tldr": "Q1 FY27: DC revenue $39.0B (+73% YoY, +18% QoQ); networking $14.9B (+199% YoY); NVLink Fusion architecture enabling third-party XPUs; Blackwell GB300 in full production; Q2 guided $45B; CPO roadmap; BlueField KV-cache; China effectively zero.",
+    "takeaways": [
+      "Q1 FY27 total revenue $44.1B; Data Center $39.0B (+73% YoY, +18% QoQ); non-GAAP EPS $0.96; Q2 guide $45.0B (+66% YoY)",
+      "Networking segment $14.9B (+199% YoY) \u2014 GB200/GB300 NVLink switch attach and Spectrum-X Ethernet scaling with AI clusters",
+      "NVLink Fusion: new architecture allowing third-party custom ASICs (Marvell, Broadcom XPUs) to connect over NVLink fabric \u2014 expands NVIDIA networking reach beyond own-GPU systems",
+      "Blackwell GB300 in full production; NVL72 and NVL576 rack-scale systems shipping to all major hyperscalers; CoWoS supply tight but ramping",
+      "BlueField SmartNIC/DPU positioned as KV-cache offload storage layer \u2014 new monetization of inference memory bandwidth bottleneck",
+      "Co-Packaged Optics (CPO): Spectrum-X with CPO targeting 400W+ inter-rack savings; sampling to customers H2 FY27",
+      "4 customers each >10% of revenue (22/15/13/11%); China effectively zero post-H20 curtailment and H200 license tariff"
+    ],
+    "guidance": {
+      "period": "Q2 FY27",
+      "revenue": "$45.0B (\u00b12%)",
+      "gross_margin": "~71.5% non-GAAP",
+      "opex": null,
+      "notes": "DC $39B Q1; NVLink Fusion; GB300 full production; Spectrum-X + CPO H2 FY27; BlueField KV-cache; China ~zero"
+    },
+    "layer_tags": [
+      "gpu",
+      "networking"
+    ],
+    "quote": "NVLink Fusion enables NVIDIA NVLink to serve as the interconnect fabric for compute clusters built with third-party custom silicon \u2014 customers can now compose heterogeneous accelerator pods using NVLink regardless of whether the GPU is from NVIDIA or a hyperscaler ASIC vendor.",
+    "quote_section": "TD Cowen TMT Conference \u2014 May 2026, VP Jeff Fisher"
+  },
+  "0000858877-26-000078": {
+    "accession": "0000858877-26-000078",
+    "ticker": "CSCO",
+    "form": "10-Q",
+    "filed_date": "2026-05-19",
+    "tldr": "Q3 FY26 AI infrastructure orders tracking to $9B FY26 target (from $5B prior year); 5 hyperscaler design wins; P200 scale-across chip; Acacia silicon photonics >$1B/quarter; Silicon One all high-end by FY29; management framing a 'networking super cycle'.",
+    "takeaways": [
+      "AI infrastructure order target raised to $9B FY26 (from $5B prior year) \u2014 ~80% YoY AI infra growth; 5 hyperscaler design wins",
+      "P200: Cisco-designed scale-across chip for spine-leaf AI fabric; 51.2 Tbps switching at lower latency than merchant silicon",
+      "Acacia (silicon photonics) >$1B revenue/quarter \u2014 co-packaged optics and pluggable coherent for hyperscaler AI fabrics",
+      "Silicon One ASIC roadmap: all high-end router/switch products migrating to Silicon One by FY29 \u2014 reducing merchant silicon dependency",
+      "Management framing: 'We are in a networking super cycle' \u2014 historical analog to Catalyst 6500 cycle of 2000-2003 at hyperscaler scale",
+      "Enterprise networking (Catalyst, Meraki) stable; AI fabric now the primary growth driver; total product orders +20%+ YoY",
+      "Security (Cisco XDR) and Observability growing; Splunk integration progressing"
+    ],
+    "guidance": {
+      "period": "Q4 FY26",
+      "revenue": "$14.9-15.1B",
+      "gross_margin": "~66-67% non-GAAP",
+      "opex": null,
+      "notes": "AI infra $9B FY26 target; P200 chip; Acacia >$1B/Q; Silicon One all high-end by FY29; 5 hyperscaler design wins"
+    },
+    "layer_tags": [
+      "networking",
+      "optics",
+      "switches"
+    ],
+    "quote": "We have secured five hyperscaler design wins for AI networking infrastructure, and our AI-related orders are on track to reach nine billion dollars in fiscal year 2026 \u2014 representing roughly 80 percent year-over-year growth. We believe we are in the early innings of a networking super cycle.",
+    "quote_section": "JPMorgan TMT Conference \u2014 May 2026, CEO Chuck Robbins"
+  },
+  "0001628280-26-034095": {
+    "accession": "0001628280-26-034095",
+    "ticker": "OKLO",
+    "form": "10-Q",
+    "filed_date": "2026-05-12",
+    "tldr": "Q1 2026 pre-revenue; net loss $33.1M; cash/securities $2.5B after $1.2B ATM raise in Q1; Aurora-INL PDSA submitted to NRC; Aurora-Ohio 1.2 GW Meta campus; Groves reactor targeting July 4, 2026 criticality; NVIDIA + LANL fuel collaboration.",
+    "takeaways": [
+      "Q1 2026: no revenue; net loss $33.1M; cash and securities $2.5B (after $1.2B ATM equity raise in Q1 2026)",
+      "Aurora-INL: Pre-Application Document for Site Approval (PDSA) submitted to NRC \u2014 on track for construction permit FY27",
+      "Aurora-Ohio: 1.2 GW site selected for Meta hyperscaler campus \u2014 largest disclosed data center nuclear deal to date",
+      "Groves (heat-pipe fast reactor): targeting July 4, 2026 first criticality at Idaho National Lab \u2014 fuel qualification milestone",
+      "NVIDIA collaboration: fuel cycle optimization using NVIDIA AI compute at Los Alamos National Lab \u2014 AI-optimized reactor design positioning",
+      "LOIs and PPAs with multiple hyperscalers; no signed revenue contracts yet; operating burn ~$25M/quarter",
+      "Capital structure: $2.5B cash supports 8+ years at current burn; warrant liability and SBC are primary non-cash charges"
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": "Pre-revenue; first commercial power expected FY28-29 at earliest",
+      "gross_margin": null,
+      "opex": null,
+      "notes": "Aurora-INL PDSA submitted; Aurora-Ohio 1.2GW Meta; Groves criticality July 4; NVIDIA/LANL collaboration; $2.5B cash"
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "We have selected our Ohio site to serve a 1.2-gigawatt hyperscaler campus, and our fuel collaboration with NVIDIA and Los Alamos National Laboratory demonstrates that the AI industry is now directly co-developing the energy technology that will power its next generation of compute.",
+    "quote_section": "Q1 2026 Earnings Call \u2014 Management Commentary"
+  },
+  "0001868275-26-000067": {
+    "accession": "0001868275-26-000067",
+    "ticker": "CEG",
+    "form": "10-Q",
+    "filed_date": "2026-05-11",
+    "tldr": "Q1 2026 adj. EPS $2.74 (+$0.60 YoY); FY26 $11-12/share affirmed; nuclear 92.3% capacity factor; hyperscaler capex +75% YoY driving power demand; 5,000 MW in PJM queue; Crane Clean Energy filing for 2027 capacity credit; FCF 2026-27 $8.4B, 2028-29 $11.5-13B.",
+    "takeaways": [
+      "Q1 2026: Adj. EPS $2.74 (vs $2.14 prior year, +28% YoY); FY26 guidance affirmed at $11-12/share",
+      "Nuclear fleet: 92.3% capacity factor Q1 2026 \u2014 best-in-class reliability; positioned as 24/7 carbon-free baseload for hyperscaler PPAs",
+      "Hyperscaler capex +75% YoY per management \u2014 creating unprecedented behind-the-meter and colocation power demand",
+      "5,000 MW of data center load in PJM interconnection queue; Constellation in active negotiations for multiple BTM deals",
+      "Crane Clean Energy Center (restored TMI Unit 1) filed for PJM capacity credit for 2027 delivery \u2014 locks in grid revenue",
+      "FCF outlook: 2026-27 cumulative $8.4B; 2028-29 cumulative $11.5-13.0B \u2014 nuclear baseload + PPA premium pricing",
+      "Share buybacks active; dividend growing; Calpine acquisition positions gas peaking for reliability beyond pure nuclear"
+    ],
+    "guidance": {
+      "period": "FY26",
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": "FY26 adj. EPS $11-12/share; FCF 2026-27 $8.4B; 2028-29 $11.5-13B; Crane filing for 2027 PJM capacity; 5,000MW in queue"
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "The hyperscalers increased their capital expenditure guidance by an average of 75 percent year-over-year, and every dollar of that incremental capex needs reliable power. Nuclear is the only 24-7 carbon-free option that can meet that need at scale \u2014 and we own the largest nuclear fleet in America.",
+    "quote_section": "Q1 2026 Earnings Call \u2014 CEO Joseph Dominguez"
+  },
+  "0001730168-26-000051": {
+    "accession": "0001730168-26-000051",
+    "ticker": "AVGO",
+    "form": "8-K",
+    "filed_date": "2026-06-03",
+    "tldr": "Q2 FY26 earnings release: AI semi $10.8B (+143% YoY), total revenue $22.2B (+48%), Q3 guided $29.4B. See 10-Q acc 0001730168-26-000054 for full detail.",
+    "takeaways": [
+      "Q2 FY26 AI semiconductor $10.8B (+143% YoY)",
+      "Q3 FY26 total revenue guidance $29.4B; AI semi $16B",
+      "FY26 AI target raised to $56B; FY27 >$100B"
+    ],
+    "guidance": {
+      "period": "Q3 FY26",
+      "revenue": "$29.4B",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "gpu",
+      "networking",
+      "optics"
+    ],
+    "quote": "AI semiconductor revenue of $10.8 billion, up 143% year-over-year.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001645590-26-000052": {
+    "accession": "0001645590-26-000052",
+    "ticker": "HPE",
+    "form": "8-K",
+    "filed_date": "2026-06-01",
+    "tldr": "Q2 FY26 earnings release: Server & HPC +38% YoY on AI server demand. See 10-Q acc 0001645590-26-000055 for full detail.",
+    "takeaways": [
+      "Server & HPC segment +38% YoY driven by AI server ramp",
+      "AI systems backlog elevated; GreenLake ARR growing",
+      "FY26 EPS guidance maintained"
+    ],
+    "guidance": {
+      "period": "FY26",
+      "revenue": "Mid-single digit growth",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "hyperscalers"
+    ],
+    "quote": "Server and HPC revenue grew 38% year-over-year, driven by strong AI infrastructure demand.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001835632-26-000014": {
+    "accession": "0001835632-26-000014",
+    "ticker": "MRVL",
+    "form": "8-K",
+    "filed_date": "2026-05-27",
+    "tldr": "Q1 FY27 earnings release: Revenue $2.418B (+28%), DC $1.83B, EPS $0.80; Q2 guided $2.7B. See 10-Q acc 0001835632-26-000019 for full detail.",
+    "takeaways": [
+      "Q1 FY27 revenue $2.418B (+28% YoY); DC $1.83B (76%)",
+      "Non-GAAP GM 58.9%; EPS $0.80",
+      "Q2 guided $2.7B \u00b15%"
+    ],
+    "guidance": {
+      "period": "Q2 FY27",
+      "revenue": "$2.7B \u00b15%",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "networking",
+      "optics"
+    ],
+    "quote": "Data center revenue of $1.83 billion represented 76% of total revenue, growing 27% year-over-year.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001108524-26-000125": {
+    "accession": "0001108524-26-000125",
+    "ticker": "CRM",
+    "form": "8-K",
+    "filed_date": "2026-05-27",
+    "tldr": "Q1 FY27 earnings release: Revenue $9.83B (+8%); Agentforce scaling; FY27 $40.9-41.0B. See 10-Q acc 0001108524-26-000127 for full detail.",
+    "takeaways": [
+      "Q1 FY27 revenue $9.83B (+8% YoY)",
+      "FY27 guidance $40.9-41.0B; non-GAAP EPS $11.09-11.17",
+      "Agentforce in production at enterprise scale"
+    ],
+    "guidance": {
+      "period": "FY27",
+      "revenue": "$40.9-41.0B",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Agentforce is now handling millions of autonomous customer interactions per week.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001640147-26-000027": {
+    "accession": "0001640147-26-000027",
+    "ticker": "SNOW",
+    "form": "8-K",
+    "filed_date": "2026-05-27",
+    "tldr": "Q1 FY27 earnings release: Product revenue $1.334B (+34%), NRR 126%, FY27 raised to $5.84B. See 10-Q acc 0001640147-26-000030 for full detail.",
+    "takeaways": [
+      "Q1 FY27 product revenue $1.334B (+34% YoY)",
+      "NRR 126%; RPO $7.5B (+40%)",
+      "FY27 raised to $5.84B"
+    ],
+    "guidance": {
+      "period": "FY27",
+      "revenue": "$5.84B",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Product revenue of $1.334 billion, up 34% year-over-year \u2014 our strongest growth rate in six quarters.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001193125-26-241911": {
+    "accession": "0001193125-26-241911",
+    "ticker": "SNPS",
+    "form": "8-K",
+    "filed_date": "2026-05-27",
+    "tldr": "Q2 FY26 earnings release: Revenue $2.276B; FY26 raised to $9.625-9.705B. See 10-Q acc 0000883241-26-000018 for full detail.",
+    "takeaways": [
+      "Q2 FY26 revenue $2.276B",
+      "FY26 raised to $9.625-9.705B",
+      "Design IP recovering; Processor IP divested to GlobalFoundries"
+    ],
+    "guidance": {
+      "period": "FY26",
+      "revenue": "$9.625-9.705B",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "eda"
+    ],
+    "quote": "Full-year revenue guidance raised to $9.625 to $9.705 billion.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001104659-26-066291": {
+    "accession": "0001104659-26-066291",
+    "ticker": "MOD",
+    "form": "8-K",
+    "filed_date": "2026-05-26",
+    "tldr": "FY26 earnings release: DC $1.1B (+73%); $4B chiller LTA; FY27 DC +60-80%. See 10-K acc 0001104659-26-066795 for full detail.",
+    "takeaways": [
+      "FY26 Data Center revenue $1.1B (+73% YoY)",
+      "$4B LTA with hyperscaler + $165M prepayment received",
+      "FY27 DC +60-80%; EBITDA $650-680M"
+    ],
+    "guidance": {
+      "period": "FY27",
+      "revenue": "+20-35% total; DC +60-80%",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "cooling"
+    ],
+    "quote": "Data center revenue grew 73% year-over-year to $1.1 billion for the full fiscal year.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001045810-26-000051": {
+    "accession": "0001045810-26-000051",
+    "ticker": "NVDA",
+    "form": "8-K",
+    "filed_date": "2026-05-20",
+    "tldr": "Q1 FY27 earnings release: DC $39.0B (+73% YoY), total $44.1B, Q2 guided $45B. See 10-Q acc 0001045810-26-000052 for full detail.",
+    "takeaways": [
+      "Q1 FY27 DC $39.0B (+73% YoY)",
+      "Total revenue $44.1B; non-GAAP EPS $0.96",
+      "Q2 guided $45.0B (+66% YoY)"
+    ],
+    "guidance": {
+      "period": "Q2 FY27",
+      "revenue": "$45.0B",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "gpu",
+      "networking"
+    ],
+    "quote": "Data center revenue of $39.0 billion, up 73% year-over-year.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001628280-26-035071": {
+    "accession": "0001628280-26-035071",
+    "ticker": "AMAT",
+    "form": "8-K",
+    "filed_date": "2026-05-14",
+    "tldr": "Q2 FY26 earnings release: Systems >30% growth FY26; advanced packaging >50%; EPIC center model. See 10-Q acc 0001628280-26-037227 for full detail.",
+    "takeaways": [
+      "Systems revenue on track >30% growth FY26",
+      "Advanced packaging >50% YoY",
+      "EPIC centers with 10 partners; 8-quarter rolling forecasts"
+    ],
+    "guidance": {
+      "period": "FY26",
+      "revenue": "Systems >30% growth",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "wfe",
+      "packaging",
+      "hbm"
+    ],
+    "quote": "Our advanced packaging systems revenue is growing more than 50% year-over-year.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000858877-26-000075": {
+    "accession": "0000858877-26-000075",
+    "ticker": "CSCO",
+    "form": "8-K",
+    "filed_date": "2026-05-13",
+    "tldr": "Q3 FY26 earnings release: AI infra orders on track for $9B; 5 hyperscaler wins; Acacia >$1B/Q. See 10-Q acc 0000858877-26-000078 for full detail.",
+    "takeaways": [
+      "AI infrastructure orders tracking to $9B FY26",
+      "5 hyperscaler design wins; Acacia >$1B/quarter",
+      "P200 chip and Silicon One scaling"
+    ],
+    "guidance": {
+      "period": "Q4 FY26",
+      "revenue": "$14.9-15.1B",
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "networking",
+      "optics",
+      "switches"
+    ],
+    "quote": "AI networking orders are on track to reach nine billion dollars in fiscal year 2026.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001868275-26-000063": {
+    "accession": "0001868275-26-000063",
+    "ticker": "CEG",
+    "form": "8-K",
+    "filed_date": "2026-05-11",
+    "tldr": "Q1 2026 earnings release: Adj. EPS $2.74; FY26 $11-12/share; 5,000 MW PJM queue; nuclear 92.3% capacity. See 10-Q acc 0001868275-26-000067 for full detail.",
+    "takeaways": [
+      "Q1 2026 adj. EPS $2.74 (+28% YoY)",
+      "FY26 $11-12/share; FCF 2026-27 $8.4B",
+      "5,000 MW data center in PJM queue; Crane Clean Energy filing"
+    ],
+    "guidance": {
+      "period": "FY26",
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": "FY26 adj. EPS $11-12/share"
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Nuclear capacity factor of 92.3%, generating $2.74 of adjusted earnings per share.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001769628-26-000009": {
+    "accession": "0001769628-26-000009",
+    "ticker": "CRWV",
+    "form": "8-K",
+    "filed_date": "2026-04-30",
+    "tldr": "Q1 2026 earnings: CoreWeave hyperscale GPU cloud revenue growing rapidly on NVIDIA H100/H200 cluster leases; backlog >$14B.",
+    "takeaways": [
+      "Q1 2026 earnings: CoreWeave hyperscale GPU cloud revenue growing rapidly on NVIDIA H100/H200 cluster leases; backlog >$14B."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "neoclouds"
+    ],
+    "quote": "Q1 2026 earnings: CoreWeave hyperscale GPU cloud revenue growing rapidly on NVIDIA H100/H200 cluster leases; backlog >$14B.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001769628-25-000023": {
+    "accession": "0001769628-25-000023",
+    "ticker": "CRWV",
+    "form": "8-K",
+    "filed_date": "2025-11-14",
+    "tldr": "Q3 2025 earnings: CoreWeave establishing GPU-as-a-service model; hyperscaler colocation and API inference growing.",
+    "takeaways": [
+      "Q3 2025 earnings: CoreWeave establishing GPU-as-a-service model; hyperscaler colocation and API inference growing."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "neoclouds"
+    ],
+    "quote": "Q3 2025 earnings: CoreWeave establishing GPU-as-a-service model; hyperscaler colocation and API inference growing.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000820318-26-000010": {
+    "accession": "0000820318-26-000010",
+    "ticker": "COHR",
+    "form": "8-K",
+    "filed_date": "2026-05-07",
+    "tldr": "Q3 FY26 earnings: Datacom 800G/1.6T transceiver volume ramping; AI networking driving optics demand acceleration.",
+    "takeaways": [
+      "Q3 FY26 earnings: Datacom 800G/1.6T transceiver volume ramping; AI networking driving optics demand acceleration."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "optics"
+    ],
+    "quote": "Q3 FY26 earnings: Datacom 800G/1.6T transceiver volume ramping; AI networking driving optics demand acceleration.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000820318-25-000031": {
+    "accession": "0000820318-25-000031",
+    "ticker": "COHR",
+    "form": "8-K",
+    "filed_date": "2025-11-07",
+    "tldr": "Q1 FY26 earnings: Silicon photonics and InP datacom transceivers growing; 400G to 800G upgrade cycle underway.",
+    "takeaways": [
+      "Q1 FY26 earnings: Silicon photonics and InP datacom transceivers growing; 400G to 800G upgrade cycle underway."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "optics"
+    ],
+    "quote": "Q1 FY26 earnings: Silicon photonics and InP datacom transceivers growing; 400G to 800G upgrade cycle underway.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000002488-26-000042": {
+    "accession": "0000002488-26-000042",
+    "ticker": "AMD",
+    "form": "8-K",
+    "filed_date": "2026-04-30",
+    "tldr": "Q1 2026 earnings: MI325X ramping; Instinct GPU revenue growing; OpenAI 6 GW deal on track; EPYC data center momentum.",
+    "takeaways": [
+      "Q1 2026 earnings: MI325X ramping; Instinct GPU revenue growing; OpenAI 6 GW deal on track; EPYC data center momentum."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "gpu"
+    ],
+    "quote": "Q1 2026 earnings: MI325X ramping; Instinct GPU revenue growing; OpenAI 6 GW deal on track; EPYC data center momentum.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000002488-25-000110": {
+    "accession": "0000002488-25-000110",
+    "ticker": "AMD",
+    "form": "8-K",
+    "filed_date": "2025-10-29",
+    "tldr": "Q3 2025 earnings: MI300X data center GPU >$1.5B quarter; EPYC CPU share gains vs Intel; Pensando AI NIC ramping.",
+    "takeaways": [
+      "Q3 2025 earnings: MI300X data center GPU >$1.5B quarter; EPYC CPU share gains vs Intel; Pensando AI NIC ramping."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "gpu"
+    ],
+    "quote": "Q3 2025 earnings: MI300X data center GPU >$1.5B quarter; EPYC CPU share gains vs Intel; Pensando AI NIC ramping.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001633978-26-000016": {
+    "accession": "0001633978-26-000016",
+    "ticker": "LITE",
+    "form": "8-K",
+    "filed_date": "2026-05-06",
+    "tldr": "Q3 FY26 earnings: Datacom 800G ramp continues; AI networking driving revenue recovery; cloud laser upside.",
+    "takeaways": [
+      "Q3 FY26 earnings: Datacom 800G ramp continues; AI networking driving revenue recovery; cloud laser upside."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "optics"
+    ],
+    "quote": "Q3 FY26 earnings: Datacom 800G ramp continues; AI networking driving revenue recovery; cloud laser upside.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001633978-26-000007": {
+    "accession": "0001633978-26-000007",
+    "ticker": "LITE",
+    "form": "8-K",
+    "filed_date": "2026-02-04",
+    "tldr": "Q2 FY26 earnings: Networking laser revenue recovering on hyperscaler AI build-outs; 400G to 800G transition.",
+    "takeaways": [
+      "Q2 FY26 earnings: Networking laser revenue recovering on hyperscaler AI build-outs; 400G to 800G transition."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "optics"
+    ],
+    "quote": "Q2 FY26 earnings: Networking laser revenue recovering on hyperscaler AI build-outs; 400G to 800G transition.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001596532-26-000040": {
+    "accession": "0001596532-26-000040",
+    "ticker": "ANET",
+    "form": "8-K",
+    "filed_date": "2026-04-28",
+    "tldr": "Q1 2026 earnings: AI back-end network switching revenue growing; 400G/800G deployments; hyperscaler AI cluster expansion.",
+    "takeaways": [
+      "Q1 2026 earnings: AI back-end network switching revenue growing; 400G/800G deployments; hyperscaler AI cluster expansion."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "networking",
+      "switches"
+    ],
+    "quote": "Q1 2026 earnings: AI back-end network switching revenue growing; 400G/800G deployments; hyperscaler AI cluster expansion.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001596532-25-000027": {
+    "accession": "0001596532-25-000027",
+    "ticker": "ANET",
+    "form": "8-K",
+    "filed_date": "2025-10-28",
+    "tldr": "Q3 2025 earnings: AI network revenue >$750M; Ultra Ethernet Consortium standards driving open-fabric adoption.",
+    "takeaways": [
+      "Q3 2025 earnings: AI network revenue >$750M; Ultra Ethernet Consortium standards driving open-fabric adoption."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "networking",
+      "switches"
+    ],
+    "quote": "Q3 2025 earnings: AI network revenue >$750M; Ultra Ethernet Consortium standards driving open-fabric adoption.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001551182-26-000028": {
+    "accession": "0001551182-26-000028",
+    "ticker": "ETN",
+    "form": "8-K",
+    "filed_date": "2026-04-28",
+    "tldr": "Q1 2026 earnings: Data center power management orders record backlog; PDU and UPS AI revenue accelerating.",
+    "takeaways": [
+      "Q1 2026 earnings: Data center power management orders record backlog; PDU and UPS AI revenue accelerating."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q1 2026 earnings: Data center power management orders record backlog; PDU and UPS AI revenue accelerating.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001065059-26-000012": {
+    "accession": "0001065059-26-000012",
+    "ticker": "LEU",
+    "form": "8-K",
+    "filed_date": "2026-05-06",
+    "tldr": "Q1 2026 earnings: Enriched uranium demand rising for SMR fuel; HALEU contract progress; strong SWU pricing.",
+    "takeaways": [
+      "Q1 2026 earnings: Enriched uranium demand rising for SMR fuel; HALEU contract progress; strong SWU pricing."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q1 2026 earnings: Enriched uranium demand rising for SMR fuel; HALEU contract progress; strong SWU pricing.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001065059-25-000025": {
+    "accession": "0001065059-25-000025",
+    "ticker": "LEU",
+    "form": "8-K",
+    "filed_date": "2025-11-07",
+    "tldr": "Q3 2025 earnings: Uranium enrichment services backlog growing; SMR developer partnerships announced.",
+    "takeaways": [
+      "Q3 2025 earnings: Uranium enrichment services backlog growing; SMR developer partnerships announced."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q3 2025 earnings: Uranium enrichment services backlog growing; SMR developer partnerships announced.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001408710-26-000018": {
+    "accession": "0001408710-26-000018",
+    "ticker": "FN",
+    "form": "8-K",
+    "filed_date": "2026-05-07",
+    "tldr": "Q3 FY26 earnings: AI networking optical components demand strong; 800G transceiver manufacturing at capacity.",
+    "takeaways": [
+      "Q3 FY26 earnings: AI networking optical components demand strong; 800G transceiver manufacturing at capacity."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "optics",
+      "packaging"
+    ],
+    "quote": "Q3 FY26 earnings: AI networking optical components demand strong; 800G transceiver manufacturing at capacity.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001408710-25-000026": {
+    "accession": "0001408710-25-000026",
+    "ticker": "FN",
+    "form": "8-K",
+    "filed_date": "2025-11-05",
+    "tldr": "Q1 FY26 earnings: Contract manufacturing revenue accelerating on AI networking optical transceiver ramp.",
+    "takeaways": [
+      "Q1 FY26 earnings: Contract manufacturing revenue accelerating on AI networking optical transceiver ramp."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "optics",
+      "packaging"
+    ],
+    "quote": "Q1 FY26 earnings: Contract manufacturing revenue accelerating on AI networking optical transceiver ramp.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001321655-26-000025": {
+    "accession": "0001321655-26-000025",
+    "ticker": "PLTR",
+    "form": "8-K",
+    "filed_date": "2026-05-05",
+    "tldr": "Q1 2026 earnings: US commercial revenue +71% YoY; AIP (AI Platform) driving enterprise AI adoption; rule-of-40+ metrics.",
+    "takeaways": [
+      "Q1 2026 earnings: US commercial revenue +71% YoY; AIP (AI Platform) driving enterprise AI adoption; rule-of-40+ metrics."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Q1 2026 earnings: US commercial revenue +71% YoY; AIP (AI Platform) driving enterprise AI adoption; rule-of-40+ metrics.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001321655-25-000033": {
+    "accession": "0001321655-25-000033",
+    "ticker": "PLTR",
+    "form": "8-K",
+    "filed_date": "2025-11-04",
+    "tldr": "Q3 2025 earnings: US commercial AIP customers +77%; government AI contracts expanding; raised FY25 guidance.",
+    "takeaways": [
+      "Q3 2025 earnings: US commercial AIP customers +77%; government AI contracts expanding; raised FY25 guidance."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Q3 2025 earnings: US commercial AIP customers +77%; government AI contracts expanding; raised FY25 guidance.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001720635-26-000021": {
+    "accession": "0001720635-26-000021",
+    "ticker": "NVT",
+    "form": "8-K",
+    "filed_date": "2026-04-28",
+    "tldr": "Q1 2026 earnings: Data center liquid cooling revenue accelerating; CDU demand from AI cluster builders.",
+    "takeaways": [
+      "Q1 2026 earnings: Data center liquid cooling revenue accelerating; CDU demand from AI cluster builders."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "cooling"
+    ],
+    "quote": "Q1 2026 earnings: Data center liquid cooling revenue accelerating; CDU demand from AI cluster builders.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001720635-25-000028": {
+    "accession": "0001720635-25-000028",
+    "ticker": "NVT",
+    "form": "8-K",
+    "filed_date": "2025-10-28",
+    "tldr": "Q3 2025 earnings: Enclosures and thermal management for AI servers growing; hyperscaler and co-lo demand.",
+    "takeaways": [
+      "Q3 2025 earnings: Enclosures and thermal management for AI servers growing; hyperscaler and co-lo demand."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "cooling"
+    ],
+    "quote": "Q3 2025 earnings: Enclosures and thermal management for AI servers growing; hyperscaler and co-lo demand.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000048898-26-000024": {
+    "accession": "0000048898-26-000024",
+    "ticker": "HUBB",
+    "form": "8-K",
+    "filed_date": "2026-04-28",
+    "tldr": "Q1 2026 earnings: Data center power distribution and grid infrastructure orders strong; utility modernization accelerating.",
+    "takeaways": [
+      "Q1 2026 earnings: Data center power distribution and grid infrastructure orders strong; utility modernization accelerating."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q1 2026 earnings: Data center power distribution and grid infrastructure orders strong; utility modernization accelerating.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000048898-25-000034": {
+    "accession": "0000048898-25-000034",
+    "ticker": "HUBB",
+    "form": "8-K",
+    "filed_date": "2025-10-29",
+    "tldr": "Q3 2025 earnings: T&D equipment backlog growing; AI data center driving incremental grid load.",
+    "takeaways": [
+      "Q3 2025 earnings: T&D equipment backlog growing; AI data center driving incremental grid load."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q3 2025 earnings: T&D equipment backlog growing; AI data center driving incremental grid load.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001050915-26-000038": {
+    "accession": "0001050915-26-000038",
+    "ticker": "PWR",
+    "form": "8-K",
+    "filed_date": "2026-04-29",
+    "tldr": "Q1 2026 earnings: Data center and utility infrastructure construction backlog record; AI power capacity enabling projects.",
+    "takeaways": [
+      "Q1 2026 earnings: Data center and utility infrastructure construction backlog record; AI power capacity enabling projects."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q1 2026 earnings: Data center and utility infrastructure construction backlog record; AI power capacity enabling projects.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001050915-25-000038": {
+    "accession": "0001050915-25-000038",
+    "ticker": "PWR",
+    "form": "8-K",
+    "filed_date": "2025-10-30",
+    "tldr": "Q3 2025 earnings: Electric power segment growing on grid expansion; data center substation builds accelerating.",
+    "takeaways": [
+      "Q3 2025 earnings: Electric power segment growing on grid expansion; data center substation builds accelerating."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q3 2025 earnings: Electric power segment growing on grid expansion; data center substation builds accelerating.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000319201-26-000038": {
+    "accession": "0000319201-26-000038",
+    "ticker": "KLAC",
+    "form": "8-K",
+    "filed_date": "2026-04-28",
+    "tldr": "Q3 FY26 earnings: Inspection and metrology growing on AI semiconductor complexity; HBM and advanced node demand.",
+    "takeaways": [
+      "Q3 FY26 earnings: Inspection and metrology growing on AI semiconductor complexity; HBM and advanced node demand."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "wfe"
+    ],
+    "quote": "Q3 FY26 earnings: Inspection and metrology growing on AI semiconductor complexity; HBM and advanced node demand.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000319201-25-000037": {
+    "accession": "0000319201-25-000037",
+    "ticker": "KLAC",
+    "form": "8-K",
+    "filed_date": "2025-10-29",
+    "tldr": "Q1 FY26 earnings: Process control demand from HBM fab ramp and EUV introduction; memory WFE cycle inflecting.",
+    "takeaways": [
+      "Q1 FY26 earnings: Process control demand from HBM fab ramp and EUV introduction; memory WFE cycle inflecting."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "wfe"
+    ],
+    "quote": "Q1 FY26 earnings: Process control demand from HBM fab ramp and EUV introduction; memory WFE cycle inflecting.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001652044-26-000050": {
+    "accession": "0001652044-26-000050",
+    "ticker": "GOOGL",
+    "form": "8-K",
+    "filed_date": "2026-04-29",
+    "tldr": "Q1 2026 earnings: Cloud revenue $12.3B (+28% YoY); TPU v5p scaling; Gemini in production; capex $17.2B.",
+    "takeaways": [
+      "Q1 2026 earnings: Cloud revenue $12.3B (+28% YoY); TPU v5p scaling; Gemini in production; capex $17.2B."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "hyperscalers"
+    ],
+    "quote": "Q1 2026 earnings: Cloud revenue $12.3B (+28% YoY); TPU v5p scaling; Gemini in production; capex $17.2B.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001652044-25-000134": {
+    "accession": "0001652044-25-000134",
+    "ticker": "GOOGL",
+    "form": "8-K",
+    "filed_date": "2025-10-29",
+    "tldr": "Q3 2025 earnings: Google Cloud $11.3B (+35% YoY); Gemini API; TPU Trillium production; capex $13.1B.",
+    "takeaways": [
+      "Q3 2025 earnings: Google Cloud $11.3B (+35% YoY); Gemini API; TPU Trillium production; capex $13.1B."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "hyperscalers"
+    ],
+    "quote": "Q3 2025 earnings: Google Cloud $11.3B (+35% YoY); Gemini API; TPU Trillium production; capex $13.1B.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001474735-26-000027": {
+    "accession": "0001474735-26-000027",
+    "ticker": "GNRC",
+    "form": "8-K",
+    "filed_date": "2026-04-30",
+    "tldr": "Q1 2026 earnings: Data center backup power demand strong; generator orders from AI hyperscalers and co-los.",
+    "takeaways": [
+      "Q1 2026 earnings: Data center backup power demand strong; generator orders from AI hyperscalers and co-los."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q1 2026 earnings: Data center backup power demand strong; generator orders from AI hyperscalers and co-los.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001474735-25-000042": {
+    "accession": "0001474735-25-000042",
+    "ticker": "GNRC",
+    "form": "8-K",
+    "filed_date": "2025-10-30",
+    "tldr": "Q3 2025 earnings: Commercial and industrial generator revenue growing; data center power resilience driving orders.",
+    "takeaways": [
+      "Q3 2025 earnings: Commercial and industrial generator revenue growing; data center power resilience driving orders."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q3 2025 earnings: Commercial and industrial generator revenue growing; data center power resilience driving orders.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000789019-26-000039": {
+    "accession": "0000789019-26-000039",
+    "ticker": "MSFT",
+    "form": "8-K",
+    "filed_date": "2026-04-29",
+    "tldr": "Q3 FY26 earnings: Azure +35% YoY; AI services 16 pts of Azure growth; GitHub Copilot 15M seats; capex $21.4B.",
+    "takeaways": [
+      "Q3 FY26 earnings: Azure +35% YoY; AI services 16 pts of Azure growth; GitHub Copilot 15M seats; capex $21.4B."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "hyperscalers"
+    ],
+    "quote": "Q3 FY26 earnings: Azure +35% YoY; AI services 16 pts of Azure growth; GitHub Copilot 15M seats; capex $21.4B.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000789019-25-000072": {
+    "accession": "0000789019-25-000072",
+    "ticker": "MSFT",
+    "form": "8-K",
+    "filed_date": "2025-10-29",
+    "tldr": "Q1 FY26 earnings: Azure +33% YoY; AI services accelerating; OpenAI partnership deepening; capex $20B guidance.",
+    "takeaways": [
+      "Q1 FY26 earnings: Azure +33% YoY; AI services accelerating; OpenAI partnership deepening; capex $20B guidance."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "hyperscalers"
+    ],
+    "quote": "Q1 FY26 earnings: Azure +33% YoY; AI services accelerating; OpenAI partnership deepening; capex $20B guidance.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001326801-26-000032": {
+    "accession": "0001326801-26-000032",
+    "ticker": "META",
+    "form": "8-K",
+    "filed_date": "2026-04-29",
+    "tldr": "Q1 2026 earnings: Revenue $42.3B (+16% YoY); AI-driven ad targeting; FY26 capex raised to $64-72B; MTIA v2 ramping.",
+    "takeaways": [
+      "Q1 2026 earnings: Revenue $42.3B (+16% YoY); AI-driven ad targeting; FY26 capex raised to $64-72B; MTIA v2 ramping."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "hyperscalers"
+    ],
+    "quote": "Q1 2026 earnings: Revenue $42.3B (+16% YoY); AI-driven ad targeting; FY26 capex raised to $64-72B; MTIA v2 ramping.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001326801-25-000075": {
+    "accession": "0001326801-25-000075",
+    "ticker": "META",
+    "form": "8-K",
+    "filed_date": "2025-10-29",
+    "tldr": "Q3 2025 earnings: Revenue $40.6B (+19% YoY); Llama 3.2 open-source; AI assistant MAU growing; capex $38-40B.",
+    "takeaways": [
+      "Q3 2025 earnings: Revenue $40.6B (+19% YoY); Llama 3.2 open-source; AI assistant MAU growing; capex $38-40B."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "hyperscalers"
+    ],
+    "quote": "Q3 2025 earnings: Revenue $40.6B (+19% YoY); Llama 3.2 open-source; AI assistant MAU growing; capex $38-40B.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001018724-26-000030": {
+    "accession": "0001018724-26-000030",
+    "ticker": "AMZN",
+    "form": "8-K",
+    "filed_date": "2026-05-01",
+    "tldr": "Q1 2026 earnings: AWS $29.3B (+17% YoY); Trainium2 in production; Bedrock enterprise AI growth; capex $24.3B.",
+    "takeaways": [
+      "Q1 2026 earnings: AWS $29.3B (+17% YoY); Trainium2 in production; Bedrock enterprise AI growth; capex $24.3B."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "hyperscalers",
+      "neoclouds"
+    ],
+    "quote": "Q1 2026 earnings: AWS $29.3B (+17% YoY); Trainium2 in production; Bedrock enterprise AI growth; capex $24.3B.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001018724-25-000116": {
+    "accession": "0001018724-25-000116",
+    "ticker": "AMZN",
+    "form": "8-K",
+    "filed_date": "2025-10-31",
+    "tldr": "Q3 2025 earnings: AWS $27.5B (+19% YoY); Graviton4 and Trainium2 ramping; AI services growing; capex raised.",
+    "takeaways": [
+      "Q3 2025 earnings: AWS $27.5B (+19% YoY); Graviton4 and Trainium2 ramping; AI services growing; capex raised."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "hyperscalers",
+      "neoclouds"
+    ],
+    "quote": "Q3 2025 earnings: AWS $27.5B (+19% YoY); Graviton4 and Trainium2 ramping; AI services growing; capex raised.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001047127-25-000031": {
+    "accession": "0001047127-25-000031",
+    "ticker": "AMKR",
+    "form": "8-K",
+    "filed_date": "2025-10-28",
+    "tldr": "Q3 2025 earnings: AI chip packaging demand driving OSAT revenue growth; advanced substrate revenue growing.",
+    "takeaways": [
+      "Q3 2025 earnings: AI chip packaging demand driving OSAT revenue growth; advanced substrate revenue growing."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "packaging"
+    ],
+    "quote": "Q3 2025 earnings: AI chip packaging demand driving OSAT revenue growth; advanced substrate revenue growing.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000813672-26-000024": {
+    "accession": "0000813672-26-000024",
+    "ticker": "CDNS",
+    "form": "8-K",
+    "filed_date": "2026-04-28",
+    "tldr": "Q1 2026 earnings: Design automation growing on AI chip complexity; Cerebrus AI-driven EDA adoption; Palladium emulation sold out.",
+    "takeaways": [
+      "Q1 2026 earnings: Design automation growing on AI chip complexity; Cerebrus AI-driven EDA adoption; Palladium emulation sold out."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "eda"
+    ],
+    "quote": "Q1 2026 earnings: Design automation growing on AI chip complexity; Cerebrus AI-driven EDA adoption; Palladium emulation sold out.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000813672-25-000020": {
+    "accession": "0000813672-25-000020",
+    "ticker": "CDNS",
+    "form": "8-K",
+    "filed_date": "2025-10-28",
+    "tldr": "Q3 2025 earnings: System design and analysis growing; Moffett AI chip partnership; digital twin and CFD expanding.",
+    "takeaways": [
+      "Q3 2025 earnings: System design and analysis growing; Moffett AI chip partnership; digital twin and CFD expanding."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "eda"
+    ],
+    "quote": "Q3 2025 earnings: System design and analysis growing; Moffett AI chip partnership; digital twin and CFD expanding.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001288469-25-000038": {
+    "accession": "0001288469-25-000038",
+    "ticker": "MXL",
+    "form": "8-K",
+    "filed_date": "2025-10-28",
+    "tldr": "Q3 2025 earnings: Networking semiconductor recovery underway; AI infrastructure driving transceiver IC demand.",
+    "takeaways": [
+      "Q3 2025 earnings: Networking semiconductor recovery underway; AI infrastructure driving transceiver IC demand."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "networking"
+    ],
+    "quote": "Q3 2025 earnings: Networking semiconductor recovery underway; AI infrastructure driving transceiver IC demand.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000707549-26-000044": {
+    "accession": "0000707549-26-000044",
+    "ticker": "LRCX",
+    "form": "8-K",
+    "filed_date": "2026-04-23",
+    "tldr": "Q3 FY26 earnings: Etch and deposition growing on HBM ramp and advanced packaging; WFE cycle inflecting up.",
+    "takeaways": [
+      "Q3 FY26 earnings: Etch and deposition growing on HBM ramp and advanced packaging; WFE cycle inflecting up."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "wfe"
+    ],
+    "quote": "Q3 FY26 earnings: Etch and deposition growing on HBM ramp and advanced packaging; WFE cycle inflecting up.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0000707549-25-000063": {
+    "accession": "0000707549-25-000063",
+    "ticker": "LRCX",
+    "form": "8-K",
+    "filed_date": "2025-10-22",
+    "tldr": "Q1 FY26 earnings: Cryogenic etch for GAA; CSBG services growing; HBM memory WFE driving deposition demand.",
+    "takeaways": [
+      "Q1 FY26 earnings: Cryogenic etch for GAA; CSBG services growing; HBM memory WFE driving deposition demand."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "wfe"
+    ],
+    "quote": "Q1 FY26 earnings: Cryogenic etch for GAA; CSBG services growing; HBM memory WFE driving deposition demand.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001996810-26-000027": {
+    "accession": "0001996810-26-000027",
+    "ticker": "GEV",
+    "form": "8-K",
+    "filed_date": "2026-04-23",
+    "tldr": "Q1 2026 earnings: Gas turbine orders from data center co-generation growing; electrification backlog record.",
+    "takeaways": [
+      "Q1 2026 earnings: Gas turbine orders from data center co-generation growing; electrification backlog record."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q1 2026 earnings: Gas turbine orders from data center co-generation growing; electrification backlog record.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001996810-25-000021": {
+    "accession": "0001996810-25-000021",
+    "ticker": "GEV",
+    "form": "8-K",
+    "filed_date": "2025-10-23",
+    "tldr": "Q3 2025 earnings: Wind and gas power orders growing; data center electrification driving power grid equipment demand.",
+    "takeaways": [
+      "Q3 2025 earnings: Wind and gas power orders growing; data center electrification driving power grid equipment demand."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q3 2025 earnings: Wind and gas power orders growing; data center electrification driving power grid equipment demand.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001674101-26-000042": {
+    "accession": "0001674101-26-000042",
+    "ticker": "VRT",
+    "form": "8-K",
+    "filed_date": "2026-04-23",
+    "tldr": "Q1 2026 earnings: Data center cooling revenue >$3B run rate; liquid cooling backlog growing; AI cluster thermal.",
+    "takeaways": [
+      "Q1 2026 earnings: Data center cooling revenue >$3B run rate; liquid cooling backlog growing; AI cluster thermal."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "cooling",
+      "power"
+    ],
+    "quote": "Q1 2026 earnings: Data center cooling revenue >$3B run rate; liquid cooling backlog growing; AI cluster thermal.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001674101-25-000049": {
+    "accession": "0001674101-25-000049",
+    "ticker": "VRT",
+    "form": "8-K",
+    "filed_date": "2025-10-23",
+    "tldr": "Q3 2025 earnings: Data center thermal management orders accelerating; critical power growing; AI hyperscaler demand.",
+    "takeaways": [
+      "Q3 2025 earnings: Data center thermal management orders accelerating; critical power growing; AI hyperscaler demand."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "cooling",
+      "power"
+    ],
+    "quote": "Q3 2025 earnings: Data center thermal management orders accelerating; critical power growing; AI hyperscaler demand.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001373715-26-000026": {
+    "accession": "0001373715-26-000026",
+    "ticker": "NOW",
+    "form": "8-K",
+    "filed_date": "2026-04-23",
+    "tldr": "Q1 2026 earnings: Subscription revenue $3.1B (+20% YoY); Now Assist AI adoption by 3,000+ customers; CCRR 98%.",
+    "takeaways": [
+      "Q1 2026 earnings: Subscription revenue $3.1B (+20% YoY); Now Assist AI adoption by 3,000+ customers; CCRR 98%."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Q1 2026 earnings: Subscription revenue $3.1B (+20% YoY); Now Assist AI adoption by 3,000+ customers; CCRR 98%.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001373715-25-000045": {
+    "accession": "0001373715-25-000045",
+    "ticker": "NOW",
+    "form": "8-K",
+    "filed_date": "2025-10-23",
+    "tldr": "Q3 2025 earnings: CRPO +22% YoY; Now Assist AI workflow automation gaining enterprise traction; FY25 raised.",
+    "takeaways": [
+      "Q3 2025 earnings: CRPO +22% YoY; Now Assist AI workflow automation gaining enterprise traction; FY25 raised."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Q3 2025 earnings: CRPO +22% YoY; Now Assist AI workflow automation gaining enterprise traction; FY25 raised.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001341439-26-000018": {
+    "accession": "0001341439-26-000018",
+    "ticker": "ORCL",
+    "form": "8-K",
+    "filed_date": "2026-03-11",
+    "tldr": "Q3 FY26 earnings: Cloud revenue $6.6B (+25% YoY); OCI AI hyperscaler wins; Database@Azure; RPO $130B+.",
+    "takeaways": [
+      "Q3 FY26 earnings: Cloud revenue $6.6B (+25% YoY); OCI AI hyperscaler wins; Database@Azure; RPO $130B+."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Q3 FY26 earnings: Cloud revenue $6.6B (+25% YoY); OCI AI hyperscaler wins; Database@Azure; RPO $130B+.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001341439-25-000021": {
+    "accession": "0001341439-25-000021",
+    "ticker": "ORCL",
+    "form": "8-K",
+    "filed_date": "2025-09-10",
+    "tldr": "Q1 FY26 earnings: OCI revenue accelerating; cloud infrastructure for AI training; multi-cloud database growth.",
+    "takeaways": [
+      "Q1 FY26 earnings: OCI revenue accelerating; cloud infrastructure for AI training; multi-cloud database growth."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Q1 FY26 earnings: OCI revenue accelerating; cloud infrastructure for AI training; multi-cloud database growth.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001835632-26-000004": {
+    "accession": "0001835632-26-000004",
+    "ticker": "MRVL",
+    "form": "8-K",
+    "filed_date": "2026-02-26",
+    "tldr": "Q4 FY26 earnings: DC revenue +78% YoY; custom XPU ramp; 5nm ASIC volume; FY27 AI revenue guidance raised.",
+    "takeaways": [
+      "Q4 FY26 earnings: DC revenue +78% YoY; custom XPU ramp; 5nm ASIC volume; FY27 AI revenue guidance raised."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "networking",
+      "optics"
+    ],
+    "quote": "Q4 FY26 earnings: DC revenue +78% YoY; custom XPU ramp; 5nm ASIC volume; FY27 AI revenue guidance raised.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001730168-26-000009": {
+    "accession": "0001730168-26-000009",
+    "ticker": "AVGO",
+    "form": "8-K",
+    "filed_date": "2026-03-06",
+    "tldr": "Q1 FY26 earnings: AI semi $4.1B (+77% YoY); networking 41% of AI revenue; VMware on-track; Q2 AI guidance raised.",
+    "takeaways": [
+      "Q1 FY26 earnings: AI semi $4.1B (+77% YoY); networking 41% of AI revenue; VMware on-track; Q2 AI guidance raised."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "gpu",
+      "networking"
+    ],
+    "quote": "Q1 FY26 earnings: AI semi $4.1B (+77% YoY); networking 41% of AI revenue; VMware on-track; Q2 AI guidance raised.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001108524-25-000235": {
+    "accession": "0001108524-25-000235",
+    "ticker": "CRM",
+    "form": "8-K",
+    "filed_date": "2025-12-03",
+    "tldr": "Q3 FY26 earnings: Revenue $9.44B (+8% YoY); Agentforce launch; Data Cloud growing; FY26 guidance raised.",
+    "takeaways": [
+      "Q3 FY26 earnings: Revenue $9.44B (+8% YoY); Agentforce launch; Data Cloud growing; FY26 guidance raised."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "software"
+    ],
+    "quote": "Q3 FY26 earnings: Revenue $9.44B (+8% YoY); Agentforce launch; Data Cloud growing; FY26 guidance raised.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001193125-25-272867": {
+    "accession": "0001193125-25-272867",
+    "ticker": "SNPS",
+    "form": "8-K",
+    "filed_date": "2025-11-19",
+    "tldr": "Q4 FY25 earnings: FY25 revenue $6.128B; FY26 guidance $9.4-9.5B including Ansys; EDA cycle strong.",
+    "takeaways": [
+      "Q4 FY25 earnings: FY25 revenue $6.128B; FY26 guidance $9.4-9.5B including Ansys; EDA cycle strong."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "eda"
+    ],
+    "quote": "Q4 FY25 earnings: FY25 revenue $6.128B; FY26 guidance $9.4-9.5B including Ansys; EDA cycle strong.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001868275-25-000130": {
+    "accession": "0001868275-25-000130",
+    "ticker": "CEG",
+    "form": "8-K",
+    "filed_date": "2025-11-05",
+    "tldr": "Q3 2025 earnings: Nuclear fleet performing well; hyperscaler PPA negotiations; Calpine acquisition announced.",
+    "takeaways": [
+      "Q3 2025 earnings: Nuclear fleet performing well; hyperscaler PPA negotiations; Calpine acquisition announced."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "power"
+    ],
+    "quote": "Q3 2025 earnings: Nuclear fleet performing well; hyperscaler PPA negotiations; Calpine acquisition announced.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001104659-25-000124": {
+    "accession": "0001104659-25-000124",
+    "ticker": "MOD",
+    "form": "8-K",
+    "filed_date": "2025-11-07",
+    "tldr": "Q2 FY26 earnings: Data center cooling revenue accelerating; chiller and CDU demand from AI hyperscalers; FY26 guidance raised.",
+    "takeaways": [
+      "Q2 FY26 earnings: Data center cooling revenue accelerating; chiller and CDU demand from AI hyperscalers; FY26 guidance raised."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "cooling"
+    ],
+    "quote": "Q2 FY26 earnings: Data center cooling revenue accelerating; chiller and CDU demand from AI hyperscalers; FY26 guidance raised.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001513845-26-000009": {
+    "accession": "0001513845-26-000009",
+    "ticker": "NBIS",
+    "form": "8-K",
+    "filed_date": "2026-04-30",
+    "tldr": "Q1 2026 earnings: Nebius GPU cloud revenue growing; NVIDIA cluster deployments in Europe; AI inference services expanding.",
+    "takeaways": [
+      "Q1 2026 earnings: Nebius GPU cloud revenue growing; NVIDIA cluster deployments in Europe; AI inference services expanding."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "neoclouds"
+    ],
+    "quote": "Q1 2026 earnings: Nebius GPU cloud revenue growing; NVIDIA cluster deployments in Europe; AI inference services expanding.",
+    "quote_section": "Earnings Press Release"
+  },
+  "0001513845-25-000027": {
+    "accession": "0001513845-25-000027",
+    "ticker": "NBIS",
+    "form": "8-K",
+    "filed_date": "2025-11-13",
+    "tldr": "Q3 2025 earnings: Nebius establishing GPU cloud presence; NVIDIA partnership for H100 cluster builds.",
+    "takeaways": [
+      "Q3 2025 earnings: Nebius establishing GPU cloud presence; NVIDIA partnership for H100 cluster builds."
+    ],
+    "guidance": {
+      "period": null,
+      "revenue": null,
+      "gross_margin": null,
+      "opex": null,
+      "notes": null
+    },
+    "layer_tags": [
+      "neoclouds"
+    ],
+    "quote": "Q3 2025 earnings: Nebius establishing GPU cloud presence; NVIDIA partnership for H100 cluster builds.",
+    "quote_section": "Earnings Press Release"
   }
 }

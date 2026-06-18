@@ -509,10 +509,28 @@ def _resolve_reference_dates(today: date) -> dict[str, date]:
 # HTTP helpers
 # ---------------------------------------------------------------------------
 
-def _get_json(url: str) -> Any:
-    req = Request(url, headers={"User-Agent": "inference-dashboard/1.0"})
-    with urlopen(req, timeout=TIMEOUT) as r:
-        return json.loads(r.read().decode("utf-8", errors="replace"))
+def _get_json(url: str, retries: int = 2, backoff: float = 2.0) -> Any:
+    """GET + parse JSON, retrying on transient network / malformed-response errors.
+
+    The TWSE/TPEx endpoints intermittently fail, time out, or return a non-JSON
+    rate-limit page from cloud IPs (e.g. GitHub Actions). A couple of retries
+    with short backoff materially cuts how often a daily run degrades to the
+    stale-fallback path. Callers still catch the same exception types on the
+    final failure, so behaviour on a hard outage is unchanged.
+    """
+    last_err: Exception | None = None
+    for attempt in range(retries + 1):
+        try:
+            req = Request(url, headers={"User-Agent": "inference-dashboard/1.0"})
+            with urlopen(req, timeout=TIMEOUT) as r:
+                return json.loads(r.read().decode("utf-8", errors="replace"))
+        except (URLError, HTTPError, json.JSONDecodeError) as e:
+            last_err = e
+            if attempt < retries:
+                LOG.debug("GET %s failed (attempt %d/%d): %s — retrying in %.1fs",
+                          url, attempt + 1, retries + 1, e, backoff * (attempt + 1))
+                time.sleep(backoff * (attempt + 1))
+    raise last_err  # type: ignore[misc]
 
 
 def _sleep():
@@ -1046,6 +1064,34 @@ def fetch(existing: dict | None = None) -> dict:
         raise RuntimeError(
             f"tw_universe: only {len(stocks)} names assembled vs prior {prior_count} "
             f"(<50%) — likely a partial exchange fetch; preserving prior file"
+        )
+
+    # Market-cap coverage guard: market cap = issued shares (company-info fetch)
+    # × close. The full row count can stay intact while a company-info fetch for
+    # an entire exchange comes back empty, nulling mktcap for ~half the universe
+    # — which then vanishes under the page's default size floor. Good days are
+    # ~100% covered, degraded days ~45%, so an absolute 80% floor separates them
+    # cleanly. Absolute (not prior-relative) on purpose: the prior file may
+    # itself be degraded, which would set a uselessly low bar.
+    mktcap_ok = sum(1 for s in stocks if s.get("mktcap") is not None)
+    if stocks and mktcap_ok < 0.8 * len(stocks):
+        raise RuntimeError(
+            f"tw_universe: market cap resolved for only {mktcap_ok}/{len(stocks)} names "
+            f"(<80%) — a company-info (issued-shares) fetch likely failed; preserving prior file"
+        )
+
+    # Long-window anchor guard: the 1m/3m/6m/1y reference dates each need their
+    # own historical snapshot fetch, which intermittently fails from cloud IPs;
+    # when it does, those returns all come back null (3m is the page's default
+    # sort). The near windows (latest/1w/1d) share earlier successful fetches and
+    # are not a reliable failure signal, so guard only on the four long windows.
+    long_windows = ("m1", "m3", "m6", "y1")
+    unresolved = [w for w in long_windows if resolved_dates.get(w) is None]
+    if len(unresolved) >= 2:
+        raise RuntimeError(
+            f"tw_universe: {len(unresolved)}/4 long-window anchors unresolved "
+            f"({', '.join(unresolved)}) — historical snapshot fetches likely failed; "
+            f"preserving prior file"
         )
 
     # Sort by ret_3m descending (primary wave-1 signal window), nulls last

@@ -1,8 +1,8 @@
 {
   "hbm": {
     "tightness_score": 63,
-    "signal_count_90d": 13,
-    "tightness_language_hits_per_signal": 0.231,
+    "signal_count_90d": 12,
+    "tightness_language_hits_per_signal": 0.25,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Manish Bhatia, Executives] I think what's the demand is supply constrained, right, for both right now. And so we're just continuing to work very hard on enhancing supply, but I mentioned persistent structural factors earlier in my comments",
@@ -14,12 +14,12 @@
       "language_pct": 0.867,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "foundry": {
     "tightness_score": 63,
-    "signal_count_90d": 29,
-    "tightness_language_hits_per_signal": 0.069,
+    "signal_count_90d": 33,
+    "tightness_language_hits_per_signal": 0.061,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "Google weighs Samsung's role in next AI chip as TSMC capacity tightens digitimes",
@@ -27,14 +27,14 @@
       "[INTC] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.8,
-      "language_pct": 0.267,
+      "density_pct": 0.867,
+      "language_pct": 0.2,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "packaging": {
-    "tightness_score": 35,
+    "tightness_score": 32,
     "signal_count_90d": 17,
     "tightness_language_hits_per_signal": 0.118,
     "cross_quarter_supply_tight": false,
@@ -43,25 +43,25 @@
     ],
     "components": {
       "density_pct": 0.333,
-      "language_pct": 0.533,
+      "language_pct": 0.467,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "wfe": {
-    "tightness_score": 37,
-    "signal_count_90d": 18,
-    "tightness_language_hits_per_signal": 0.111,
+    "tightness_score": 32,
+    "signal_count_90d": 17,
+    "tightness_language_hits_per_signal": 0.118,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Douglas Bettinger, Executives] Everybody wants to know the answer to that question. And frankly, I don't have a specific number for you, except I would tell you, the industry is undersupplied right now. You're seeing it in memory pricing, "
     ],
     "components": {
-      "density_pct": 0.467,
+      "density_pct": 0.333,
       "language_pct": 0.467,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "gpu": {
     "tightness_score": 63,
@@ -78,7 +78,7 @@
       "language_pct": 0.333,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "networking": {
     "tightness_score": 43,
@@ -94,10 +94,10 @@
       "language_pct": 0.4,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "optics": {
-    "tightness_score": 39,
+    "tightness_score": 41,
     "signal_count_90d": 18,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
@@ -105,16 +105,16 @@
       "[LITE] Supply-tightness language present in both latest filings"
     ],
     "components": {
-      "density_pct": 0.467,
+      "density_pct": 0.533,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "switches": {
     "tightness_score": 73,
-    "signal_count_90d": 21,
-    "tightness_language_hits_per_signal": 0.19,
+    "signal_count_90d": 19,
+    "tightness_language_hits_per_signal": 0.211,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Robert Mionis, Executives] Good question. We are experiencing more component shortages now than 90 days ago, two main factors. One is the demand really continues to grow. -- as a result of the suppliers are a little bit behind on adding ca",
@@ -126,7 +126,7 @@
       "language_pct": 0.733,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "power": {
     "tightness_score": 64,
@@ -143,7 +143,7 @@
       "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "cooling": {
     "tightness_score": 48,
@@ -160,28 +160,28 @@
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "hyperscalers": {
     "tightness_score": 43,
-    "signal_count_90d": 31,
-    "tightness_language_hits_per_signal": 0.065,
+    "signal_count_90d": 29,
+    "tightness_language_hits_per_signal": 0.069,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Gary Corona, Executives] M&A is a big part of capital allocation. As we talked about our capital allocation strategy at our Investor Day, we made it very clear that the first priority is growth organic growth, and you're seeing that on the",
       "Google Cloud has entered into a limited number of agreements to supply multiple gigawatts of TPU hardware to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. Revenues for these transactions "
     ],
     "components": {
-      "density_pct": 0.867,
-      "language_pct": 0.2,
+      "density_pct": 0.8,
+      "language_pct": 0.267,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "neoclouds": {
     "tightness_score": 27,
-    "signal_count_90d": 8,
-    "tightness_language_hits_per_signal": 0.125,
+    "signal_count_90d": 7,
+    "tightness_language_hits_per_signal": 0.143,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Nitin Agrawal, Executives] Thanks, Mike, and good afternoon, everyone. Q1 marks another historic quarter for CoreWeave. Record customer commitments, bringing backlog to nearly $100 billion, more than $2 billion of early revenue and more th"
@@ -191,7 +191,7 @@
       "language_pct": 0.6,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "software": {
     "tightness_score": 13,
@@ -204,7 +204,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "eda": {
     "tightness_score": 37,
@@ -220,7 +220,7 @@
       "language_pct": 0.8,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -233,6 +233,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-06-20T11:15:41.470869+00:00"
+    "updated_at": "2026-06-20T23:16:51.971120+00:00"
   }
 }

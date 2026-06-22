@@ -45,6 +45,23 @@
     "arch_risk": false
   },
   {
+    "id": "rss-0c625acc41906983",
+    "date": "2026-06-22",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Available Is Not In Control: Balancing Output, Quality, and Risk in High-Volume Fabs",
+    "quote": "A deposition chamber drops out of production at 2 a.m. Forty minutes later it is back, the dashboard flips from red to green, and two people want opposite things. The operations-center operator has a step starving downstream and wants the tool dispatched now. The module’s shift group leader wants test wafers run and confirmed… Read More The post Available Is Not In Control: Balancing Output, Quality, and Risk in High-Volume Fabs appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/370465-available-is-not-in-control-balancing-output-quality-and-risk-in-high-volume-fabs/",
+    "layer_ids": [
+      "gpu",
+      "software"
+    ],
+    "tickers": [
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-6041341e11157a94",
     "date": "2026-06-22",
     "source": "SemiWiki",
@@ -56,6 +73,24 @@
       "packaging"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ORCL-0001193125-26-277521",
+    "accession": "0001193125-26-277521",
+    "form": "10-K",
+    "date": "2026-06-22",
+    "source": "SEC EDGAR (ORCL)",
+    "source_type": "filing",
+    "headline": "ORCL files 10-K: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [
+      "ORCL"
+    ],
     "arch_risk": false
   },
   {
@@ -99,6 +134,22 @@
     ],
     "tickers": [
       "8035.T"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-d8821ed2a288f560",
+    "date": "2026-06-18",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Samsung, SK Hynix weigh first chip packaging plants in South Korea's Honam region - digitimes",
+    "quote": "Samsung, SK Hynix weigh first chip packaging plants in South Korea's Honam region digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX1JfaGhRYWFsU3JIQkoxOU4yZXFkUmo5aHQ1bUJib2F0SVRacGI5ZkNjd2tmVnpqY0dHb0tDNjFmZm9jVUFTMnAyQTB6ZERKYjRHSjdMdHRrdmFHcGxvODNaelZqMjg0UGRNX1NBbVNlS2dhazRpYnIwaTZKY0dDOU5QNFNLYS1KeUpsYU5neWFkYVZnVWQtRUt1Zw?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "000660.KS"
     ],
     "arch_risk": false
   },
@@ -161,22 +212,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-36f5e264ce0fc4af",
-    "date": "2026-06-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Apple's Siri AI push drives 12GB DRAM demand for Samsung and SK Hynix - digitimes",
-    "quote": "Apple's Siri AI push drives 12GB DRAM demand for Samsung and SK Hynix digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb0ZSUTVSZTFMY1E5VjdBRnJTUGZQa3NORXFTblFITE5mWjRDbWlDUFRMRGdKcDhNSzhNZmQ0MkEtYkZnX0xFRnoxMFBXaXBISjhndGh1LVI1QjUzZEJXaVFyTnNodmxQN0dKdzBfSmxoSUVYN25PSmIySFBzak16TGNoeFJPVGRM?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [
-      "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-003a013e7eaf9b52",
     "date": "2026-06-16",
     "source": "DigiTimes",
@@ -219,23 +254,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-e5317bf4e7105ac8",
-    "date": "2026-06-15",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Foxconn, Schneider Electric team up in AI data center equipment - Nikkei Asia",
-    "quote": "Foxconn, Schneider Electric team up in AI data center equipment Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYlNXWlo2QU1ad2VyeUx5REpicFZ0Z25ZUnZCQWp0YlVyaXNnaFB0Z0gzTUFhQ1R0TjlJMFFoaklnVkZ2MHR1NDdvS1Z0S20wYVJtNUN5cTRrMV9nTmlNU1RwNENuSjhZOGVfcGc0VmZxMHNJcVdHa2hibXljNUVJTnRVQ1BLQ1phcmlzZ05PblMzekJRZ05CSWdHSjFnQVktaFlUY2pwZnEtUQ?oc=5",
-    "layer_ids": [
-      "cooling",
-      "power"
-    ],
-    "tickers": [
-      "SU.PA"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-b832a670770cddaf",
     "date": "2026-06-11",
     "source": "The Next Platform",
@@ -247,6 +265,24 @@
       "hyperscalers"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ORCL-0001193125-26-265848",
+    "accession": "0001193125-26-265848",
+    "form": "8-K",
+    "date": "2026-06-10",
+    "source": "SEC EDGAR (ORCL)",
+    "source_type": "filing",
+    "headline": "ORCL files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/orcl-20260610.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [
+      "ORCL"
+    ],
     "arch_risk": false
   },
   {
@@ -1128,20 +1164,6 @@
     "tickers": [
       "HPE"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-29a7946ad499beb4",
-    "date": "2026-05-30",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC's test arm Xintec ramps wafer testing capacity for 2H26 growth - digitimes",
-    "quote": "TSMC's test arm Xintec ramps wafer testing capacity for 2H26 growth digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQkZTWXpuN2VKMWpxa2sxNDRQMnlmSDQ0RHplNUtXekZQWHFrVC0xLXpjUE1DVjBVZ01Db0JJbEZqdUxVLVI3SUVma3VuYXRncFBKMEhvc3l3bzl3ZDBzb2RBaFY1bjRudlBTZ28xbmZWTmJNUEdOUUpMN1NwaXpTQ2N4MU9Kd2dTTkpHc3hUdw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -7873,63 +7895,6 @@
     ],
     "tickers": [
       "MU"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-ORCL-0001193125-25-315925",
-    "accession": "0001193125-25-315925",
-    "form": "10-Q",
-    "date": "2025-12-11",
-    "source": "SEC EDGAR (ORCL)",
-    "source_type": "filing",
-    "headline": "ORCL files 10-Q: periodic report",
-    "quote": "Remaining performance obligations were $523.3 billion and $97.3 billion as of November 30, 2025 and 2024, respectively. The increase in remaining performance obligations as of November 30, 2025 in comparison to November 30, 2024 was primarily attributable to certain significant cloud contracts that were entered into during the period.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525315925/orcl-20251130.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "ORCL"
-    ],
-    "summary": {
-      "tldr": "Q2 FY26 cloud infrastructure +68% to $4.08B; total RPO leaps to $523.3B vs $97.3B YoY on massive cloud contract signings; H1 capex $20.5B vs $6.3B last year.",
-      "takeaways": [
-        "Q2 FY26 (Nov 30 2025) total revenue $16.06B (+14%); cloud and software $13.85B",
-        "Cloud infrastructure revenue $4.08B (+68% YoY) - the OCI/AI workload bucket; cloud apps $3.90B (+11%)",
-        "RPO $523.3B at Nov 30 2025 vs $97.3B at Nov 30 2024 - 5.4x leap from cloud contract signings",
-        "H1 FY26 capex $20.5B vs $6.3B H1 FY25; trend expected to continue through FY26 and 'next few fiscal years'",
-        "Issued $17.9B senior notes Sept 2025 to fund capex; sold Ampere stake for $4.3B",
-        "Cloud and software segment expenses +49% on infrastructure spending; margin pressure",
-        "Stock repurchases minimal ($95M) - cash deployed to capex"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Capex expected to keep increasing through FY26 and next few fiscal years to expand data center capacity",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Remaining performance obligations were $523.3 billion and $97.3 billion as of November 30, 2025 and 2024, respectively. The increase in remaining performance obligations as of November 30, 2025 in comparison to November 30, 2024 was primarily attributable to certain significant cloud contracts that were entered into during the period.",
-      "quote_section": "Item 2 MD&A - Remaining Performance Obligations"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-ORCL-0001193125-25-314207",
-    "accession": "0001193125-25-314207",
-    "form": "8-K",
-    "date": "2025-12-10",
-    "source": "SEC EDGAR (ORCL)",
-    "source_type": "filing",
-    "headline": "ORCL files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525314207/orcl-20251210.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "ORCL"
     ],
     "arch_risk": false
   },

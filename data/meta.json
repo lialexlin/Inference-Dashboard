@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-06-24T11:42:06.110499+00:00",
+  "last_refresh_at": "2026-06-24T23:07:55.638583+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-06-24T11:42:52.099035+00:00"
+      "ts": "2026-06-24T23:08:50.136496+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,13 +24,13 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-06-24T11:42:56.909726+00:00"
+      "ts": "2026-06-24T23:08:55.148307+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 71,
       "errors": {},
-      "ts": "2026-06-24T11:43:07.944649+00:00"
+      "ts": "2026-06-24T23:09:06.944017+00:00"
     },
     "ciq": {
       "ok": 62,
@@ -39,13 +39,13 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-06-24T11:42:22.262200+00:00"
+      "ts": "2026-06-24T23:08:10.724250+00:00"
     },
     "scoring": {
       "ok": 63,
       "quadrant_counts": {
-        "priced-in": 15,
-        "fair": 29,
+        "priced-in": 14,
+        "fair": 30,
         "avoid": 8,
         "value-trap": 10,
         "unscored": 1
@@ -54,7 +54,7 @@
       "manual_estimates_total": 63,
       "component_coverage": {
         "biz_revenue_yoy_z": 61,
-        "biz_accel_z": 60,
+        "biz_accel_z": 61,
         "biz_margin_z": 61,
         "biz_signal_density_z": 63,
         "val_vs_own_pe_z": 58,
@@ -63,7 +63,7 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-06-24T11:45:16.693734+00:00"
+      "ts": "2026-06-24T23:15:06.094131+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -81,14 +81,14 @@
           "tightness_score": 63
         }
       ],
-      "ts": "2026-06-24T11:45:16.645434+00:00"
+      "ts": "2026-06-24T23:15:06.045148+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-06-24T11:45:16.634131+00:00"
+      "ts": "2026-06-24T23:15:06.034326+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -99,12 +99,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-06-24T11:45:16.701513+00:00"
+      "ts": "2026-06-24T23:15:06.101732+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 46,
+      "cached": 0,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -125,10 +125,56 @@
         "8046.TW"
       ],
       "errors": {
-        "SIEGY": "not found on earningscalls.dev"
+        "MU": "http 500",
+        "TSM": "http 500",
+        "INTC": "http 500",
+        "GFS": "http 500",
+        "ASX": "http 500",
+        "AMKR": "http 500",
+        "ASML": "http 500",
+        "AMAT": "http 500",
+        "LRCX": "http 500",
+        "KLAC": "http 500",
+        "NVDA": "http 500",
+        "AMD": "http 500",
+        "AVGO": "http 500",
+        "MRVL": "http 500",
+        "GOOGL": "http 500",
+        "LITE": "http 500",
+        "COHR": "http 500",
+        "FN": "http 500",
+        "MXL": "http 500",
+        "ANET": "http 500",
+        "CSCO": "http 500",
+        "HPE": "http 500",
+        "CLS": "http 500",
+        "GEV": "http 500",
+        "ETN": "http 500",
+        "VRT": "http 500",
+        "GNRC": "http 500",
+        "HUBB": "http 500",
+        "PWR": "http 500",
+        "CEG": "http 500",
+        "OKLO": "http 500",
+        "LEU": "http 500",
+        "NVT": "http 500",
+        "MOD": "http 500",
+        "MSFT": "http 500",
+        "META": "http 500",
+        "AMZN": "http 500",
+        "ORCL": "http 500",
+        "CRWV": "http 500",
+        "NBIS": "http 500",
+        "CRM": "http 500",
+        "NOW": "http 500",
+        "SNOW": "http 500",
+        "PLTR": "http 500",
+        "CDNS": "http 500",
+        "SNPS": "http 500",
+        "SIEGY": "http 500"
       },
       "total_calls_on_disk": 109,
-      "ts": "2026-06-24T11:45:15.385645+00:00"
+      "ts": "2026-06-24T23:15:04.813037+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -141,32 +187,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-06-24T11:45:15.976725+00:00"
+      "ts": "2026-06-24T23:15:05.381141+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-06-24T11:45:16.639524+00:00"
+      "ts": "2026-06-24T23:15:06.039363+00:00"
     },
     "tw_universe": {
-      "ok": 1954,
-      "stock_count": 1954,
-      "sector_count": 71,
-      "latest_date": "2026-06-24",
-      "ts": "2026-06-24T11:46:26.393769+00:00"
+      "ok": 0,
+      "errors": {
+        "__stage__": "IncompleteRead(802424 bytes read, 268240 more expected)"
+      },
+      "ts": "2026-06-24T23:17:10.735175+00:00"
     },
     "us_universe": {
-      "ok": 982,
-      "stock_count": 982,
+      "ok": 984,
+      "stock_count": 984,
       "sector_count": 78,
-      "latest_date": "2026-06-23",
-      "ts": "2026-06-24T11:47:33.529477+00:00"
+      "latest_date": "2026-06-24",
+      "ts": "2026-06-24T23:18:37.693381+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 300,
-    "total": 326
+    "discovered_kept": 307,
+    "total": 333
   }
 }

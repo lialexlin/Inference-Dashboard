@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-06-25T23:21:45.148102+00:00",
+  "last_refresh_at": "2026-06-26T11:42:21.096533+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-06-25T23:22:35.796652+00:00"
+      "ts": "2026-06-26T11:43:06.230948+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,13 +24,13 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-06-25T23:22:40.855794+00:00"
+      "ts": "2026-06-26T11:43:10.997783+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 69,
       "errors": {},
-      "ts": "2026-06-25T23:22:52.469731+00:00"
+      "ts": "2026-06-26T11:43:22.370737+00:00"
     },
     "ciq": {
       "ok": 62,
@@ -39,7 +39,7 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-06-25T23:22:00.213197+00:00"
+      "ts": "2026-06-26T11:42:34.298913+00:00"
     },
     "scoring": {
       "ok": 63,
@@ -63,7 +63,7 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-06-25T23:26:19.661043+00:00"
+      "ts": "2026-06-26T11:45:28.224738+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -81,14 +81,14 @@
           "tightness_score": 63
         }
       ],
-      "ts": "2026-06-25T23:26:19.615940+00:00"
+      "ts": "2026-06-26T11:45:28.175696+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-06-25T23:26:19.604817+00:00"
+      "ts": "2026-06-26T11:45:28.164787+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -99,12 +99,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-06-25T23:26:19.668568+00:00"
+      "ts": "2026-06-26T11:45:28.232546+00:00"
     },
     "transcripts": {
       "ok": 48,
-      "fetched_this_run": 0,
-      "cached": 31,
+      "fetched_this_run": 1,
+      "cached": 45,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -125,30 +125,15 @@
         "8046.TW"
       ],
       "errors": {
-        "MU": "transcript page http 500",
-        "TSM": "http 500",
-        "INTC": "http 500",
-        "GFS": "http 500",
-        "ASX": "http 500",
-        "AMKR": "http 500",
-        "ASML": "http 500",
-        "AMAT": "http 500",
-        "LRCX": "http 500",
-        "KLAC": "http 500",
-        "NVDA": "http 500",
-        "AMD": "http 500",
-        "AVGO": "http 500",
-        "MRVL": "http 500",
-        "GOOGL": "http 500",
         "SIEGY": "not found on earningscalls.dev"
       },
-      "total_calls_on_disk": 109,
-      "ts": "2026-06-25T23:26:18.368932+00:00"
+      "total_calls_on_disk": 110,
+      "ts": "2026-06-26T11:45:26.908497+00:00"
     },
     "narrative": {
       "ok": 48,
-      "calls_analyzed": 109,
-      "total_mentions": 5165,
+      "calls_analyzed": 110,
+      "total_mentions": 5230,
       "themes": [
         "supply",
         "demand",
@@ -156,32 +141,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-06-25T23:26:18.949666+00:00"
+      "ts": "2026-06-26T11:45:27.490598+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-06-25T23:26:19.610156+00:00"
+      "ts": "2026-06-26T11:45:28.169919+00:00"
     },
     "tw_universe": {
-      "ok": 1954,
-      "stock_count": 1954,
+      "ok": 1955,
+      "stock_count": 1955,
       "sector_count": 71,
-      "latest_date": "2026-06-25",
-      "ts": "2026-06-25T23:27:39.649788+00:00"
+      "latest_date": "2026-06-26",
+      "ts": "2026-06-26T11:46:20.872423+00:00"
     },
     "us_universe": {
       "ok": 987,
       "stock_count": 987,
       "sector_count": 78,
       "latest_date": "2026-06-25",
-      "ts": "2026-06-25T23:28:53.478598+00:00"
+      "ts": "2026-06-26T11:47:44.702555+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 306,
-    "total": 332
+    "discovered_kept": 309,
+    "total": 335
   }
 }

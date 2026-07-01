@@ -1,8 +1,8 @@
 {
   "hbm": {
-    "tightness_score": 65,
-    "signal_count_90d": 17,
-    "tightness_language_hits_per_signal": 0.235,
+    "tightness_score": 68,
+    "signal_count_90d": 19,
+    "tightness_language_hits_per_signal": 0.211,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Manish Bhatia, Executives] I think what's the demand is supply constrained, right, for both right now. And so we're just continuing to work very hard on enhancing supply, but I mentioned persistent structural factors earlier in my comments",
@@ -10,42 +10,42 @@
       "HBM4 demand exceeds capacity for the next three years; full 2026 sold out, 3-year DDR5 LTA signed with Microsoft. Op margin 72%, revenue +198% YoY."
     ],
     "components": {
-      "density_pct": 0.267,
-      "language_pct": 0.867,
+      "density_pct": 0.467,
+      "language_pct": 0.733,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "foundry": {
-    "tightness_score": 57,
-    "signal_count_90d": 23,
-    "tightness_language_hits_per_signal": 0.043,
+    "tightness_score": 55,
+    "signal_count_90d": 22,
+    "tightness_language_hits_per_signal": 0.045,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "TSMC 3nm lead times surpass one year as Samsung faces Intel in foundry push digitimes",
       "[INTC] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.733,
+      "density_pct": 0.667,
       "language_pct": 0.2,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "packaging": {
-    "tightness_score": 35,
-    "signal_count_90d": 18,
-    "tightness_language_hits_per_signal": 0.111,
+    "tightness_score": 32,
+    "signal_count_90d": 16,
+    "tightness_language_hits_per_signal": 0.125,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Douglas Bettinger, Executives] Everybody wants to know the answer to that question. And frankly, I don't have a specific number for you, except I would tell you, the industry is undersupplied right now. You're seeing it in memory pricing, "
     ],
     "components": {
-      "density_pct": 0.4,
-      "language_pct": 0.467,
+      "density_pct": 0.267,
+      "language_pct": 0.533,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "wfe": {
     "tightness_score": 32,
@@ -56,11 +56,11 @@
       "[Douglas Bettinger, Executives] Everybody wants to know the answer to that question. And frankly, I don't have a specific number for you, except I would tell you, the industry is undersupplied right now. You're seeing it in memory pricing, "
     ],
     "components": {
-      "density_pct": 0.267,
-      "language_pct": 0.533,
+      "density_pct": 0.333,
+      "language_pct": 0.467,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "gpu": {
     "tightness_score": 65,
@@ -77,7 +77,7 @@
       "language_pct": 0.333,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "networking": {
     "tightness_score": 43,
@@ -93,7 +93,7 @@
       "language_pct": 0.4,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "optics": {
     "tightness_score": 36,
@@ -108,10 +108,10 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "switches": {
-    "tightness_score": 73,
+    "tightness_score": 68,
     "signal_count_90d": 19,
     "tightness_language_hits_per_signal": 0.211,
     "cross_quarter_supply_tight": true,
@@ -121,14 +121,14 @@
       "[Shannon Cross, Executives] Well, we have long-term agreements. I mean we've been in this business for a very long time going back to Compaq. And I mean, I'm sure some of the components probably go back to oscillators, if you go back 80 yea"
     ],
     "components": {
-      "density_pct": 0.533,
-      "language_pct": 0.8,
+      "density_pct": 0.467,
+      "language_pct": 0.733,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "power": {
-    "tightness_score": 67,
+    "tightness_score": 64,
     "signal_count_90d": 39,
     "tightness_language_hits_per_signal": 0.205,
     "cross_quarter_supply_tight": false,
@@ -139,10 +139,10 @@
     ],
     "components": {
       "density_pct": 0.933,
-      "language_pct": 0.733,
+      "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "cooling": {
     "tightness_score": 45,
@@ -159,12 +159,12 @@
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "hyperscalers": {
     "tightness_score": 45,
-    "signal_count_90d": 29,
-    "tightness_language_hits_per_signal": 0.069,
+    "signal_count_90d": 30,
+    "tightness_language_hits_per_signal": 0.067,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Gary Corona, Executives] M&A is a big part of capital allocation. As we talked about our capital allocation strategy at our Investor Day, we made it very clear that the first priority is growth organic growth, and you're seeing that on the",
@@ -175,7 +175,7 @@
       "language_pct": 0.267,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "neoclouds": {
     "tightness_score": 27,
@@ -190,25 +190,25 @@
       "language_pct": 0.6,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "software": {
-    "tightness_score": 21,
+    "tightness_score": 19,
     "signal_count_90d": 19,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.533,
+      "density_pct": 0.467,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "eda": {
-    "tightness_score": 32,
-    "signal_count_90d": 10,
-    "tightness_language_hits_per_signal": 0.2,
+    "tightness_score": 40,
+    "signal_count_90d": 9,
+    "tightness_language_hits_per_signal": 0.222,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Sassine Ghazi, Executives] The demand for IP is there. Actually, the -- actually, the fundamental demand for IP is chip start. And in semiconductor right now, there is no shortage in excitement or the need to deliver customized silicon for",
@@ -216,10 +216,10 @@
     ],
     "components": {
       "density_pct": 0.133,
-      "language_pct": 0.667,
+      "language_pct": 0.867,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -232,6 +232,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-01T11:59:36.335992+00:00"
+    "updated_at": "2026-07-01T23:22:48.933211+00:00"
   }
 }

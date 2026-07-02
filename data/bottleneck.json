@@ -14,12 +14,12 @@
       "language_pct": 0.733,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "foundry": {
     "tightness_score": 55,
-    "signal_count_90d": 21,
-    "tightness_language_hits_per_signal": 0.048,
+    "signal_count_90d": 22,
+    "tightness_language_hits_per_signal": 0.045,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "TSMC 3nm lead times surpass one year as Samsung faces Intel in foundry push digitimes",
@@ -30,7 +30,7 @@
       "language_pct": 0.2,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "packaging": {
     "tightness_score": 29,
@@ -41,31 +41,31 @@
       "[Douglas Bettinger, Executives] Everybody wants to know the answer to that question. And frankly, I don't have a specific number for you, except I would tell you, the industry is undersupplied right now. You're seeing it in memory pricing, "
     ],
     "components": {
-      "density_pct": 0.267,
-      "language_pct": 0.467,
+      "density_pct": 0.2,
+      "language_pct": 0.533,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "wfe": {
-    "tightness_score": 29,
-    "signal_count_90d": 16,
-    "tightness_language_hits_per_signal": 0.125,
+    "tightness_score": 32,
+    "signal_count_90d": 17,
+    "tightness_language_hits_per_signal": 0.118,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Douglas Bettinger, Executives] Everybody wants to know the answer to that question. And frankly, I don't have a specific number for you, except I would tell you, the industry is undersupplied right now. You're seeing it in memory pricing, "
     ],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.333,
       "language_pct": 0.467,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "gpu": {
     "tightness_score": 65,
-    "signal_count_90d": 28,
-    "tightness_language_hits_per_signal": 0.071,
+    "signal_count_90d": 26,
+    "tightness_language_hits_per_signal": 0.077,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Ashish Saran, Executives] Yes. I mean supply has been tight. I mean that's worst-kept secret out there. But having said that, I mean, just look at the upside we're driving this year and next year. So I think we've got -- done a pretty good",
@@ -77,10 +77,10 @@
       "language_pct": 0.333,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "networking": {
-    "tightness_score": 45,
+    "tightness_score": 43,
     "signal_count_90d": 22,
     "tightness_language_hits_per_signal": 0.091,
     "cross_quarter_supply_tight": false,
@@ -89,11 +89,11 @@
       "[Ashish Saran, Executives] Yes. I mean supply has been tight. I mean that's worst-kept secret out there. But having said that, I mean, just look at the upside we're driving this year and next year. So I think we've got -- done a pretty good"
     ],
     "components": {
-      "density_pct": 0.733,
+      "density_pct": 0.667,
       "language_pct": 0.4,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "optics": {
     "tightness_score": 36,
@@ -108,7 +108,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "switches": {
     "tightness_score": 68,
@@ -125,29 +125,29 @@
       "language_pct": 0.733,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "power": {
     "tightness_score": 64,
-    "signal_count_90d": 40,
-    "tightness_language_hits_per_signal": 0.2,
+    "signal_count_90d": 38,
+    "tightness_language_hits_per_signal": 0.184,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "Revenue $2.65B (+30% YoY), backlog ~$15B (+109% YoY), book-to-bill 2.9x, op margin 20.8%. Raised FY26 to $13.5–14B.",
       "Gas turbine slots sold out through 2028; transformers similar. Backlog $163B; 2026 DC orders $2.4B already exceed all of 2025.",
-      "Gas turbine backlogs prompted Advanced Power Services to seek changes to its project in PJM’s fast-track Reliability Resource Initiative interconnection review, but the grid operator said granting such a waiver would be unfair to other deve"
+      "[Beth Wozniak, Executives] Good morning, everyone. I am pleased to share with you our outstanding first quarter results and cover some key business highlights. We had a tremendous start to the year with record sales, orders and backlog exce"
     ],
     "components": {
       "density_pct": 0.933,
       "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "cooling": {
     "tightness_score": 45,
-    "signal_count_90d": 15,
-    "tightness_language_hits_per_signal": 0.333,
+    "signal_count_90d": 16,
+    "tightness_language_hits_per_signal": 0.312,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "Revenue $2.65B (+30% YoY), backlog ~$15B (+109% YoY), book-to-bill 2.9x, op margin 20.8%. Raised FY26 to $13.5–14B.",
@@ -159,12 +159,12 @@
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "hyperscalers": {
     "tightness_score": 45,
-    "signal_count_90d": 30,
-    "tightness_language_hits_per_signal": 0.067,
+    "signal_count_90d": 31,
+    "tightness_language_hits_per_signal": 0.065,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Gary Corona, Executives] M&A is a big part of capital allocation. As we talked about our capital allocation strategy at our Investor Day, we made it very clear that the first priority is growth organic growth, and you're seeing that on the",
@@ -175,7 +175,7 @@
       "language_pct": 0.267,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "neoclouds": {
     "tightness_score": 27,
@@ -190,7 +190,7 @@
       "language_pct": 0.6,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "software": {
     "tightness_score": 19,
@@ -203,7 +203,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "eda": {
     "tightness_score": 40,
@@ -219,7 +219,7 @@
       "language_pct": 0.867,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -232,6 +232,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-02T11:33:10.741959+00:00"
+    "updated_at": "2026-07-02T23:16:39.871560+00:00"
   }
 }

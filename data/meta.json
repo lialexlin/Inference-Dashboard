@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-07-07T11:43:10.896440+00:00",
+  "last_refresh_at": "2026-07-07T23:05:17.242825+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,30 +7,32 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-07-07T11:43:53.797767+00:00"
+      "ts": "2026-07-07T23:06:05.604069+00:00"
     },
     "rss": {
-      "ok": 9,
-      "total_entries": 136,
+      "ok": 8,
+      "total_entries": 111,
       "per_source_counts": {
         "TrendForce": 20,
         "Nikkei Asia": 25,
         "DigiTimes": 25,
         "ServeTheHome": 6,
-        "The Next Platform": 25,
+        "The Next Platform": 0,
         "SemiAnalysis": 10,
         "Utility Dive": 10,
         "SemiWiki": 5,
         "Stratechery": 10
       },
-      "errors": {},
-      "ts": "2026-07-07T11:43:58.334206+00:00"
+      "errors": {
+        "The Next Platform": "bozo: <unknown>:8:22: not well-formed (invalid token)"
+      },
+      "ts": "2026-07-07T23:06:10.389397+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 69,
       "errors": {},
-      "ts": "2026-07-07T11:44:10.487057+00:00"
+      "ts": "2026-07-07T23:06:23.452687+00:00"
     },
     "ciq": {
       "ok": 62,
@@ -39,13 +41,13 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-07-07T11:43:24.020006+00:00"
+      "ts": "2026-07-07T23:05:31.518593+00:00"
     },
     "scoring": {
       "ok": 63,
       "quadrant_counts": {
-        "priced-in": 13,
-        "fair": 32,
+        "priced-in": 14,
+        "fair": 31,
         "avoid": 7,
         "value-trap": 10,
         "unscored": 1
@@ -63,32 +65,32 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-07-07T11:46:23.200053+00:00"
+      "ts": "2026-07-07T23:12:16.049147+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "switches",
-          "tightness_score": 73
-        },
-        {
-          "layer_id": "gpu",
-          "tightness_score": 65
+          "tightness_score": 71
         },
         {
           "layer_id": "power",
           "tightness_score": 64
+        },
+        {
+          "layer_id": "hbm",
+          "tightness_score": 63
         }
       ],
-      "ts": "2026-07-07T11:46:23.151723+00:00"
+      "ts": "2026-07-07T23:12:16.001401+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-07-07T11:46:23.140794+00:00"
+      "ts": "2026-07-07T23:12:15.990503+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -99,12 +101,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-07-07T11:46:23.208253+00:00"
+      "ts": "2026-07-07T23:12:16.057209+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 45,
+      "cached": 36,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -125,10 +127,19 @@
         "8046.TW"
       ],
       "errors": {
+        "MU": "http 500",
+        "TSM": "http 500",
+        "INTC": "http 500",
+        "GFS": "http 500",
+        "ASX": "http 500",
+        "AMD": "http 500",
+        "GOOGL": "http 500",
+        "FN": "http 500",
+        "CEG": "http 500",
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-07-07T11:46:21.893464+00:00"
+      "ts": "2026-07-07T23:12:14.721645+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -141,32 +152,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-07-07T11:46:22.479515+00:00"
+      "ts": "2026-07-07T23:12:15.302168+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-07-07T11:46:23.146236+00:00"
+      "ts": "2026-07-07T23:12:15.995649+00:00"
     },
     "tw_universe": {
       "ok": 0,
       "errors": {
         "__stage__": "tw_universe: market cap resolved for only 877/1959 names (<80%) — a company-info (issued-shares) fetch likely failed; preserving prior file"
       },
-      "ts": "2026-07-07T11:50:06.977944+00:00"
+      "ts": "2026-07-07T23:17:09.345454+00:00"
     },
     "us_universe": {
-      "ok": 995,
-      "stock_count": 995,
+      "ok": 990,
+      "stock_count": 990,
       "sector_count": 78,
-      "latest_date": "2026-07-06",
-      "ts": "2026-07-07T11:51:35.680607+00:00"
+      "latest_date": "2026-07-07",
+      "ts": "2026-07-07T23:18:49.463236+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 295,
-    "total": 321
+    "discovered_kept": 294,
+    "total": 320
   }
 }

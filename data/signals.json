@@ -14,6 +14,34 @@
     "arch_risk": false
   },
   {
+    "id": "rss-06c92265a9ede6d2",
+    "date": "2026-07-07",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Walmart signs nuclear PPA with Constellation to support Illinois operations",
+    "quote": "The companies said the deal marks Walmart’s first nuclear power purchase agreement and is “among the first of its kind between a large retailer and a nuclear energy facility in the United States.”",
+    "url": "https://www.utilitydive.com/news/walmart-signs-nuclear-ppa-with-constellation-to-support-illinois-operations/824604/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-d2748ef97e7f1acc",
+    "date": "2026-07-07",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "The Packaging PDK Is the Missing Layer for Co-Packaged Optics",
+    "quote": "From Photonic Device Design to Electro-Optical Realization Co-packaged optics will not scale through photonic device performance alone. As AI infrastructure pushes bandwidth, power, latency, and reach to new limits, optics is moving closer to the compute engine. The industry is no longer asking only whether a photonic device… Read More The post The Packaging PDK Is the Missing Layer for Co-Packaged Optics appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/3dic/370709-the-packaging-pdk-is-the-missing-layer-for-co-packaged-optics/",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-77fd4e2aafa96e6c",
     "date": "2026-07-06",
     "source": "DigiTimes",
@@ -28,20 +56,6 @@
     "tickers": [
       "META"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-391a59ef3a0f1b8a",
-    "date": "2026-07-06",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "China advanced packaging maker SJ Semiconductor starts US$1.5bn 3DIC project for AI chips - digitimes",
-    "quote": "China advanced packaging maker SJ Semiconductor starts US$1.5bn 3DIC project for AI chips digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2JTNDZocjczQTRma2pKQmpaSzE5eUdCVEwtWDJjOGNaNHhFSVlqNnJOTXVjaDZZamRjVGdaaFVuY1NpLTVWNnVwY2JKMWgxcnBJMm9tdldZaUhha3kxSE1SOEV6Z091YWRaNU1DTzdkWG14by1QX2hXbWlQS21jcTRjTU5JN1pDU1lUbTBLaDNDaXY5S3VBeXpCRXd6cEpwaTdz?oc=5",
-    "layer_ids": [
-      "packaging"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -97,20 +111,6 @@
     "layer_ids": [
       "packaging",
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-aa12b64927922f36",
-    "date": "2026-07-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Qualcomm's Dragonfly raises the stakes, but MediaTek's TPU and ASIC ties keep it in the race - digitimes",
-    "quote": "Qualcomm's Dragonfly raises the stakes, but MediaTek's TPU and ASIC ties keep it in the race digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWGVSTzB4R1BwQkQ2WUpPNDJPeXNDRGo1ZzdXVHpzTW5PaVJZMmhwMEh0S3RkbnhuYXlsVVljSHc5UWw5VTk1Vl9fb3YtVG1ZaEMzNlRfYktpaFdCNUp3dURqT0tLTnpXYllpZkRSLVYzdy1uY045Ni1wdVlnTzlEUEdTaUV5T2pKVkE?oc=5",
-    "layer_ids": [
-      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -172,36 +172,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-b369d36f1b4d9461",
-    "date": "2026-07-01",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Of Course Meta Platforms Is Going To Be A Cloud",
-    "quote": "",
-    "url": "https://www.nextplatform.com/cloud/2026/07/01/of-course-meta-platforms-is-going-to-be-a-cloud/5265392",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "META"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-2e891e9827247aa2",
-    "date": "2026-07-01",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Eversource launches targeted load management pilots in Massachusetts",
-    "quote": "The programs address specific substations with high solar penetration or summer-peak congestion issues. They could expand in the coming years, a spokesperson said.",
-    "url": "https://www.utilitydive.com/news/eversource-launches-targeted-load-management-pilots-in-massachusetts/824248/",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-2604a524325024eb",
     "date": "2026-06-30",
     "source": "TrendForce",
@@ -245,6 +215,21 @@
     "quote": "On June 22, a 12-inch transparent-substrate wafer facility dedicated to AR micro-nano optical products in Shanghai’s Lingang area has officially commenced operations, emerging as China’s first large-scale manufacturing base for 12-inch AR micro-nano optical wafers, according to an announcement released … Continue reading →",
     "url": "https://www.trendforce.com/news/2026/06/30/news-goertek-backed-12-inch-ar-optical-wafer-fab-commenced-production/",
     "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-c6b970883782ad00",
+    "date": "2026-06-30",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC fast-tracks CoPoS—whole supply chain under gag order - digitimes",
+    "quote": "TSMC fast-tracks CoPoS—whole supply chain under gag order digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbWY0Yy1XdEZPaEdHOUZHaDRwLUtBV2NZdVB2dVlCNmVkSlA4bzE5VnRQaWFCNmlHcnRmSnlDRklaUGRYMXBla2VBYklwLVdVZmRFR0toS2JkWGszSHh5UmxLTTFEY0N3czdmZTVfbkR2cWZqRUI2ZmstaG9FOXhnMmcwR01YNy1aX2xBWWhFSGlMeE5JaDdWQWVB?oc=5",
+    "layer_ids": [
+      "packaging",
       "foundry"
     ],
     "tickers": [],
@@ -313,23 +298,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-ae9c93480479530c",
-    "date": "2026-06-29",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "AMD Stretches Server DRAM With Flash Extended Memory",
-    "quote": "",
-    "url": "https://www.nextplatform.com/store/2026/06/29/amd-stretches-server-dram-with-flash-extended-memory/5263848",
-    "layer_ids": [
-      "hbm",
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-264bb50c8666c9e5",
     "date": "2026-06-28",
     "source": "TrendForce",
@@ -343,6 +311,20 @@
     "tickers": [
       "000660.KS"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a144eae5da9b477d",
+    "date": "2026-06-25",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC 3nm lead times surpass one year as Samsung faces Intel in foundry push - digitimes",
+    "quote": "TSMC 3nm lead times surpass one year as Samsung faces Intel in foundry push digitimes",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT3p3OGZPQUptWUJ6UnNFT1ZRa0EzUmk4YjBTMGp4cHN6Q1I4Mjh5enZWZXhJNm1MUWRldTdUQ2tKQ1dmdUpoV3c3dHFxcU1Ca1lmeERGWDdVZXZpd2ZtWmw4SXlFYVFXeXZaaDRnZmd1dmZZWnhwdE5RSEM3bk9HU1R4aDFLR01ZTDJ6ZkQwRTl3OUJveGtmR0FkWEo0X0NYWTJmLWNUMA?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -361,20 +343,6 @@
     "tickers": [
       "MU"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-60a630175b783bed",
-    "date": "2026-06-24",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC glass substrate rollout unlikely before 2030 - digitimes",
-    "quote": "TSMC glass substrate rollout unlikely before 2030 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNlBxMGpkZVZGcE92TF95R2JBcWNCT1dzZV90VDVjaEFxZDhhWDEyc0daWnNfQUp1LTk0ZFV1cXVxVEYyS0dQdFk3Y0x4VTdzeVlDMUtGanhCNzhBd1JZcHk2VWdveW5SQ09IZ09pRHdhZjlGQXlCRlg1R0NtRXBtbVNQWEI1UVFUaUJkZ05oeEFEeTNRQXVr?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -456,6 +424,23 @@
     "arch_risk": false
   },
   {
+    "id": "rss-5ddfeffcbb5f87f5",
+    "date": "2026-06-18",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC, ASML and Imec push 2D transistors toward manufacturing - digitimes",
+    "quote": "TSMC, ASML and Imec push 2D transistors toward manufacturing digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZzBlOUNrdF9vaU5KRHVkOVhvLU5Wd0NXZl9nbENkOF9hWjMwenM1TW1NSHpGb2FlU0hGandDMlBINzFmZ084eWFtNXJrai1QcUhGYW42ZEE1c1Q2b0NCUFBJS2p1V2VDMmMtMTJSWXFmTENDc216b29QV2tVaUt1Q21OU1lIbWtyc3FnbUI5blBTZ0NP?oc=5",
+    "layer_ids": [
+      "wfe",
+      "foundry"
+    ],
+    "tickers": [
+      "ASML"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-39f63b23f1928f97",
     "date": "2026-06-17",
     "source": "DigiTimes",
@@ -525,20 +510,6 @@
     "tickers": [
       "AMAT"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b832a670770cddaf",
-    "date": "2026-06-11",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "AWS Tunes Up Graviton5 For Agentic AI, Boosts Bang For The Buck Bigtime",
-    "quote": "",
-    "url": "https://www.nextplatform.com/compute/2026/06/11/aws-tunes-up-graviton5-for-agentic-ai-boosts-bang-for-the-buck-bigtime/5254538",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -4813,6 +4784,20 @@
     "tickers": [
       "TSM"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-17c7337a5ee601e9",
+    "date": "2026-04-16",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC 1Q26 earnings: AI demand sends profit up 58%, gross margin to all-time high - digitimes",
+    "quote": "TSMC 1Q26 earnings: AI demand sends profit up 58%, gross margin to all-time high digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdkM5SWZSa0FSUmhnS25nbXBGSFhXMUxWbU5YZFFpNW8xN21aWTlMMHJkTFhKU1htSUxpNXk2U05MQmJXNHZhbFdkemRQQ0FVSmZ2WFFQejhXT25lNC1iR0NUclB6VGNCQjgzOTFpdFFMMGhNRFVOTmJwNFh1Z1JvWGYxZGpnVXBTUmI5Y20wWjFFMjZSdnZVc2xhZjlTdUU5OFE?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {

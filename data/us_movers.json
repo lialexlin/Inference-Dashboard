@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-07",
+  "as_of": "2026-07-08",
   "dates": {
     "latest": "2026-07-07",
     "d1": "2026-07-06",
@@ -9,7 +9,7 @@
     "m6": "2026-01-06",
     "y1": "2025-07-07"
   },
-  "count": 990,
+  "count": 989,
   "min_mktcap": 10000000000.0,
   "stocks": [
     {
@@ -603,7 +603,7 @@
       "ret_1m": 4.0,
       "ret_3m": 70.6,
       "ret_6m": 142.7,
-      "ret_1y": 718.1,
+      "ret_1y": 717.9,
       "tracked": false
     },
     {
@@ -2971,12 +2971,12 @@
       "industry": "Banks",
       "industry_en": "Banks",
       "nasdaq_industry": "Major Banks",
-      "close": 146.005,
+      "close": 146.01,
       "mktcap": 11093274036,
       "pe": null,
       "ret_1d": 1.1,
       "ret_1w": 2.3,
-      "ret_1m": 12.7,
+      "ret_1m": 12.8,
       "ret_3m": 26.0,
       "ret_6m": 21.1,
       "ret_1y": 35.9,
@@ -3145,24 +3145,6 @@
       "tracked": false
     },
     {
-      "symbol": "GPC",
-      "name": "Genuine Parts Company",
-      "sector": "Consumer Cyclical",
-      "industry": "Auto Parts",
-      "industry_en": "Auto Parts",
-      "nasdaq_industry": "Automotive Aftermarket",
-      "close": 128.67,
-      "mktcap": 17708150205,
-      "pe": null,
-      "ret_1d": 0.0,
-      "ret_1w": 9.1,
-      "ret_1m": 31.1,
-      "ret_3m": 25.3,
-      "ret_6m": 5.4,
-      "ret_1y": 6.2,
-      "tracked": false
-    },
-    {
       "symbol": "MCHP",
       "name": "Microchip Technology Incorporated",
       "sector": "Technology",
@@ -3217,24 +3199,6 @@
       "tracked": false
     },
     {
-      "symbol": "NTRS",
-      "name": "Northern Trust Corporation",
-      "sector": "Financial Services",
-      "industry": "Asset Management",
-      "industry_en": "Asset Management",
-      "nasdaq_industry": "Major Banks",
-      "close": 181.39,
-      "mktcap": 33565722129,
-      "pe": null,
-      "ret_1d": 0.1,
-      "ret_1w": 4.3,
-      "ret_1m": 6.4,
-      "ret_3m": 25.1,
-      "ret_6m": 27.2,
-      "ret_1y": 44.4,
-      "tracked": false
-    },
-    {
       "symbol": "BROS",
       "name": "Dutch Bros Inc.",
       "sector": "Consumer Cyclical",
@@ -3268,24 +3232,6 @@
       "ret_3m": 25.0,
       "ret_6m": 108.4,
       "ret_1y": 257.8,
-      "tracked": false
-    },
-    {
-      "symbol": "KMB",
-      "name": "Kimberly-Clark Corporation",
-      "sector": "Consumer Defensive",
-      "industry": "Household Products",
-      "industry_en": "Household Products",
-      "nasdaq_industry": "Containers/Packaging",
-      "close": 114.74,
-      "mktcap": 38086836562,
-      "pe": null,
-      "ret_1d": 1.5,
-      "ret_1w": 4.5,
-      "ret_1m": 15.9,
-      "ret_3m": 25.0,
-      "ret_6m": 20.6,
-      "ret_1y": -8.6,
       "tracked": false
     },
     {
@@ -3358,6 +3304,42 @@
       "ret_3m": 24.6,
       "ret_6m": 11.5,
       "ret_1y": 14.8,
+      "tracked": false
+    },
+    {
+      "symbol": "NTRS",
+      "name": "Northern Trust Corporation",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "industry_en": "Asset Management",
+      "nasdaq_industry": "Major Banks",
+      "close": 181.39,
+      "mktcap": 33565722129,
+      "pe": null,
+      "ret_1d": 0.1,
+      "ret_1w": 4.3,
+      "ret_1m": 6.4,
+      "ret_3m": 24.6,
+      "ret_6m": 26.6,
+      "ret_1y": 43.7,
+      "tracked": false
+    },
+    {
+      "symbol": "BNS",
+      "name": "Bank Nova Scotia Halifax Pfd 3",
+      "sector": "Financial Services",
+      "industry": "Banks",
+      "industry_en": "Banks",
+      "nasdaq_industry": "Major Banks",
+      "close": 86.2,
+      "mktcap": 105749070432,
+      "pe": null,
+      "ret_1d": -0.1,
+      "ret_1w": 0.2,
+      "ret_1m": 8.0,
+      "ret_3m": 24.5,
+      "ret_6m": 20.5,
+      "ret_1y": 58.6,
       "tracked": false
     },
     {
@@ -3457,7 +3439,7 @@
       "industry": "Instruments",
       "industry_en": "Instruments",
       "nasdaq_industry": "Industrial Machinery/Components",
-      "close": 64.205,
+      "close": 64.21,
       "mktcap": 10684960851,
       "pe": null,
       "ret_1d": -7.6,
@@ -3595,6 +3577,24 @@
       "tracked": false
     },
     {
+      "symbol": "GPC",
+      "name": "Genuine Parts Company",
+      "sector": "Consumer Cyclical",
+      "industry": "Auto Parts",
+      "industry_en": "Auto Parts",
+      "nasdaq_industry": "Automotive Aftermarket",
+      "close": 128.67,
+      "mktcap": 17708150205,
+      "pe": null,
+      "ret_1d": 0.0,
+      "ret_1w": 9.1,
+      "ret_1m": 31.1,
+      "ret_3m": 23.9,
+      "ret_6m": 4.3,
+      "ret_1y": 5.0,
+      "tracked": false
+    },
+    {
       "symbol": "LII",
       "name": "Lennox International Inc.",
       "sector": "Industrials",
@@ -3721,21 +3721,21 @@
       "tracked": true
     },
     {
-      "symbol": "BNS",
-      "name": "Bank Nova Scotia Halifax Pfd 3",
-      "sector": "Financial Services",
-      "industry": "Banks",
-      "industry_en": "Banks",
-      "nasdaq_industry": "Major Banks",
-      "close": 86.2,
-      "mktcap": 105749070432,
+      "symbol": "KMB",
+      "name": "Kimberly-Clark Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Household Products",
+      "industry_en": "Household Products",
+      "nasdaq_industry": "Containers/Packaging",
+      "close": 114.74,
+      "mktcap": 38086836562,
       "pe": null,
-      "ret_1d": -1.0,
-      "ret_1w": -0.7,
-      "ret_1m": 7.0,
+      "ret_1d": 1.5,
+      "ret_1w": 4.5,
+      "ret_1m": 15.9,
       "ret_3m": 23.3,
-      "ret_6m": 19.4,
-      "ret_1y": 57.2,
+      "ret_6m": 19.0,
+      "ret_1y": -9.8,
       "tracked": false
     },
     {
@@ -4286,7 +4286,7 @@
       "industry_en": "Banks",
       "nasdaq_industry": "Commercial Banks",
       "close": 21.29,
-      "mktcap": 252663565487,
+      "mktcap": 240312327851,
       "pe": null,
       "ret_1d": 0.6,
       "ret_1w": 7.0,
@@ -4528,24 +4528,6 @@
       "ret_3m": 19.8,
       "ret_6m": 26.1,
       "ret_1y": 53.1,
-      "tracked": false
-    },
-    {
-      "symbol": "BAC",
-      "name": "Bank of America Corporation",
-      "sector": "Financial Services",
-      "industry": "Banks",
-      "industry_en": "Banks",
-      "nasdaq_industry": "Major Banks",
-      "close": 59.86,
-      "mktcap": 424801916369,
-      "pe": null,
-      "ret_1d": -0.1,
-      "ret_1w": 5.1,
-      "ret_1m": 11.2,
-      "ret_3m": 19.7,
-      "ret_6m": 5.7,
-      "ret_1y": 25.7,
       "tracked": false
     },
     {
@@ -4816,6 +4798,24 @@
       "ret_3m": 19.1,
       "ret_6m": 7.8,
       "ret_1y": 8.6,
+      "tracked": false
+    },
+    {
+      "symbol": "BAC",
+      "name": "Bank of America Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks",
+      "industry_en": "Banks",
+      "nasdaq_industry": "Major Banks",
+      "close": 59.86,
+      "mktcap": 424801916369,
+      "pe": null,
+      "ret_1d": -0.1,
+      "ret_1w": 5.1,
+      "ret_1m": 11.2,
+      "ret_3m": 19.1,
+      "ret_6m": 5.1,
+      "ret_1y": 25.0,
       "tracked": false
     },
     {
@@ -5107,24 +5107,6 @@
       "tracked": false
     },
     {
-      "symbol": "ONB",
-      "name": "Old National Bancorp",
-      "sector": "Financial Services",
-      "industry": "Banks",
-      "industry_en": "Banks",
-      "nasdaq_industry": "Major Banks",
-      "close": 26.43,
-      "mktcap": 10211838390,
-      "pe": null,
-      "ret_1d": -0.1,
-      "ret_1w": 2.0,
-      "ret_1m": 10.3,
-      "ret_3m": 18.1,
-      "ret_6m": 15.1,
-      "ret_1y": 20.0,
-      "tracked": false
-    },
-    {
       "symbol": "RJF",
       "name": "Raymond James Financial Inc.",
       "sector": "Financial Services",
@@ -5341,24 +5323,6 @@
       "tracked": false
     },
     {
-      "symbol": "AJG",
-      "name": "Arthur J. Gallagher & Co.",
-      "sector": "Financial Services",
-      "industry": "Insurance",
-      "industry_en": "Insurance",
-      "nasdaq_industry": "Specialty Insurers",
-      "close": 254.67,
-      "mktcap": 65424723000,
-      "pe": null,
-      "ret_1d": 2.0,
-      "ret_1w": 10.9,
-      "ret_1m": 17.8,
-      "ret_3m": 17.4,
-      "ret_6m": -2.5,
-      "ret_1y": -18.5,
-      "tracked": false
-    },
-    {
       "symbol": "CFG",
       "name": "Citizens Financial Group Inc.",
       "sector": "Financial Services",
@@ -5374,6 +5338,24 @@
       "ret_3m": 17.4,
       "ret_6m": 17.2,
       "ret_1y": 57.5,
+      "tracked": false
+    },
+    {
+      "symbol": "ONB",
+      "name": "Old National Bancorp",
+      "sector": "Financial Services",
+      "industry": "Banks",
+      "industry_en": "Banks",
+      "nasdaq_industry": "Major Banks",
+      "close": 26.43,
+      "mktcap": 10211838390,
+      "pe": null,
+      "ret_1d": -0.1,
+      "ret_1w": 2.0,
+      "ret_1m": 10.3,
+      "ret_3m": 17.4,
+      "ret_6m": 14.4,
+      "ret_1y": 19.2,
       "tracked": false
     },
     {
@@ -5467,6 +5449,24 @@
       "tracked": false
     },
     {
+      "symbol": "AJG",
+      "name": "Arthur J. Gallagher & Co.",
+      "sector": "Financial Services",
+      "industry": "Insurance",
+      "industry_en": "Insurance",
+      "nasdaq_industry": "Specialty Insurers",
+      "close": 254.67,
+      "mktcap": 65424723000,
+      "pe": null,
+      "ret_1d": 2.0,
+      "ret_1w": 10.9,
+      "ret_1m": 17.8,
+      "ret_3m": 17.1,
+      "ret_6m": -2.8,
+      "ret_1y": -18.8,
+      "tracked": false
+    },
+    {
       "symbol": "BIIB",
       "name": "Biogen Inc.",
       "sector": "Healthcare",
@@ -5482,24 +5482,6 @@
       "ret_3m": 17.1,
       "ret_6m": 12.6,
       "ret_1y": 58.1,
-      "tracked": false
-    },
-    {
-      "symbol": "NTES",
-      "name": "NetEase Inc.",
-      "sector": "Communication Services",
-      "industry": "Media & Entertainment",
-      "industry_en": "Media & Entertainment",
-      "nasdaq_industry": "Computer Software: Prepackaged Software",
-      "close": 130.82,
-      "mktcap": 83479918696,
-      "pe": null,
-      "ret_1d": -0.1,
-      "ret_1w": 2.1,
-      "ret_1m": 9.5,
-      "ret_3m": 17.0,
-      "ret_6m": -9.0,
-      "ret_1y": 0.7,
       "tracked": false
     },
     {
@@ -5752,6 +5734,24 @@
       "ret_3m": 16.4,
       "ret_6m": 35.3,
       "ret_1y": 32.0,
+      "tracked": false
+    },
+    {
+      "symbol": "NTES",
+      "name": "NetEase Inc.",
+      "sector": "Communication Services",
+      "industry": "Media & Entertainment",
+      "industry_en": "Media & Entertainment",
+      "nasdaq_industry": "Computer Software: Prepackaged Software",
+      "close": 130.82,
+      "mktcap": 83479918696,
+      "pe": null,
+      "ret_1d": -0.1,
+      "ret_1w": 2.1,
+      "ret_1m": 9.5,
+      "ret_3m": 16.3,
+      "ret_6m": -9.6,
+      "ret_1y": 0.1,
       "tracked": false
     },
     {
@@ -6061,24 +6061,6 @@
       "tracked": false
     },
     {
-      "symbol": "CHRW",
-      "name": "C.H. Robinson Worldwide Inc.",
-      "sector": "Industrials",
-      "industry": "Transportation & Logistics",
-      "industry_en": "Transportation & Logistics",
-      "nasdaq_industry": "Integrated Freight & Logistics",
-      "close": 190.95,
-      "mktcap": 22507857370,
-      "pe": null,
-      "ret_1d": 1.3,
-      "ret_1w": 1.4,
-      "ret_1m": 3.7,
-      "ret_3m": 15.4,
-      "ret_6m": 14.7,
-      "ret_1y": 100.5,
-      "tracked": false
-    },
-    {
       "symbol": "MAA",
       "name": "Mid-America Apartment Communities Inc.",
       "sector": "Real Estate",
@@ -6202,6 +6184,24 @@
       "ret_3m": 15.1,
       "ret_6m": 23.4,
       "ret_1y": 35.2,
+      "tracked": false
+    },
+    {
+      "symbol": "CHRW",
+      "name": "C.H. Robinson Worldwide Inc.",
+      "sector": "Industrials",
+      "industry": "Transportation & Logistics",
+      "industry_en": "Transportation & Logistics",
+      "nasdaq_industry": "Integrated Freight & Logistics",
+      "close": 190.95,
+      "mktcap": 22507857370,
+      "pe": null,
+      "ret_1d": 1.3,
+      "ret_1w": 1.4,
+      "ret_1m": 3.7,
+      "ret_3m": 15.0,
+      "ret_6m": 14.3,
+      "ret_1y": 99.8,
       "tracked": false
     },
     {
@@ -6562,24 +6562,6 @@
       "ret_3m": 14.0,
       "ret_6m": 6.5,
       "ret_1y": 36.4,
-      "tracked": false
-    },
-    {
-      "symbol": "EGP",
-      "name": "EastGroup Properties Inc.",
-      "sector": "Real Estate",
-      "industry": "Real Estate",
-      "industry_en": "Real Estate",
-      "nasdaq_industry": "Real Estate Investment Trusts",
-      "close": 214.62,
-      "mktcap": 11409009803,
-      "pe": null,
-      "ret_1d": 1.1,
-      "ret_1w": 6.0,
-      "ret_1m": 9.1,
-      "ret_3m": 14.0,
-      "ret_6m": 20.5,
-      "ret_1y": 32.7,
       "tracked": false
     },
     {
@@ -6997,24 +6979,6 @@
       "tracked": false
     },
     {
-      "symbol": "KIM",
-      "name": "Kimco Realty Corporation",
-      "sector": "Real Estate",
-      "industry": "Real Estate",
-      "industry_en": "Real Estate",
-      "nasdaq_industry": "Real Estate Investment Trusts",
-      "close": 25.29,
-      "mktcap": 17055317840,
-      "pe": null,
-      "ret_1d": 1.0,
-      "ret_1w": -0.2,
-      "ret_1m": 4.4,
-      "ret_3m": 12.9,
-      "ret_6m": 27.1,
-      "ret_1y": 24.8,
-      "tracked": false
-    },
-    {
       "symbol": "CIB",
       "name": "Grupo Cibest S.A.",
       "sector": "Financial Services",
@@ -7339,6 +7303,24 @@
       "tracked": false
     },
     {
+      "symbol": "KIM",
+      "name": "Kimco Realty Corporation",
+      "sector": "Real Estate",
+      "industry": "Real Estate",
+      "industry_en": "Real Estate",
+      "nasdaq_industry": "Real Estate Investment Trusts",
+      "close": 25.29,
+      "mktcap": 17055317840,
+      "pe": null,
+      "ret_1d": 1.0,
+      "ret_1w": -0.2,
+      "ret_1m": 4.4,
+      "ret_3m": 11.7,
+      "ret_6m": 25.7,
+      "ret_1y": 23.5,
+      "tracked": false
+    },
+    {
       "symbol": "MSCI",
       "name": "MSCI Inc.",
       "sector": "Financial Services",
@@ -7480,24 +7462,6 @@
       "ret_3m": 11.2,
       "ret_6m": 14.1,
       "ret_1y": 45.7,
-      "tracked": false
-    },
-    {
-      "symbol": "KHC",
-      "name": "The Kraft Heinz Company",
-      "sector": "Consumer Defensive",
-      "industry": "Food & Beverage",
-      "industry_en": "Food & Beverage",
-      "nasdaq_industry": "Packaged Foods",
-      "close": 25.3,
-      "mktcap": 30000174241,
-      "pe": null,
-      "ret_1d": 1.9,
-      "ret_1w": 7.1,
-      "ret_1m": 12.0,
-      "ret_3m": 11.1,
-      "ret_6m": 11.4,
-      "ret_1y": 3.5,
       "tracked": false
     },
     {
@@ -7771,24 +7735,6 @@
       "tracked": false
     },
     {
-      "symbol": "TT",
-      "name": "Trane Technologies plc",
-      "sector": "Industrials",
-      "industry": "Building Products",
-      "industry_en": "Building Products",
-      "nasdaq_industry": "Auto Parts:O.E.M.",
-      "close": 475.74,
-      "mktcap": 105164932628,
-      "pe": null,
-      "ret_1d": -2.4,
-      "ret_1w": -3.1,
-      "ret_1m": 4.1,
-      "ret_3m": 10.4,
-      "ret_6m": 25.4,
-      "ret_1y": 10.2,
-      "tracked": false
-    },
-    {
       "symbol": "WCC",
       "name": "WESCO International Inc.",
       "sector": "Industrials",
@@ -7876,6 +7822,24 @@
       "ret_3m": 10.2,
       "ret_6m": null,
       "ret_1y": null,
+      "tracked": false
+    },
+    {
+      "symbol": "TT",
+      "name": "Trane Technologies plc",
+      "sector": "Industrials",
+      "industry": "Building Products",
+      "industry_en": "Building Products",
+      "nasdaq_industry": "Auto Parts:O.E.M.",
+      "close": 475.74,
+      "mktcap": 105164932628,
+      "pe": null,
+      "ret_1d": -2.4,
+      "ret_1w": -3.1,
+      "ret_1m": 4.1,
+      "ret_3m": 10.2,
+      "ret_6m": 25.1,
+      "ret_1y": 10.0,
       "tracked": false
     },
     {
@@ -8236,6 +8200,24 @@
       "ret_3m": 9.1,
       "ret_6m": 13.1,
       "ret_1y": 29.4,
+      "tracked": false
+    },
+    {
+      "symbol": "KHC",
+      "name": "The Kraft Heinz Company",
+      "sector": "Consumer Defensive",
+      "industry": "Food & Beverage",
+      "industry_en": "Food & Beverage",
+      "nasdaq_industry": "Packaged Foods",
+      "close": 25.3,
+      "mktcap": 30000174241,
+      "pe": null,
+      "ret_1d": 1.9,
+      "ret_1w": 7.1,
+      "ret_1m": 12.0,
+      "ret_3m": 9.1,
+      "ret_6m": 9.4,
+      "ret_1y": 1.7,
       "tracked": false
     },
     {
@@ -9589,24 +9571,6 @@
       "tracked": false
     },
     {
-      "symbol": "BLK",
-      "name": "BlackRock Inc.",
-      "sector": "Financial Services",
-      "industry": "Asset Management",
-      "industry_en": "Asset Management",
-      "nasdaq_industry": "Investment Bankers/Brokers/Service",
-      "close": 1009.43,
-      "mktcap": 156697845516,
-      "pe": null,
-      "ret_1d": -0.2,
-      "ret_1w": 5.0,
-      "ret_1m": 1.4,
-      "ret_3m": 5.9,
-      "ret_6m": -8.2,
-      "ret_1y": -4.2,
-      "tracked": false
-    },
-    {
       "symbol": "JCI",
       "name": "Johnson Controls International plc Ordinary Share",
       "sector": "Industrials",
@@ -9787,6 +9751,24 @@
       "tracked": false
     },
     {
+      "symbol": "EIX",
+      "name": "Edison International",
+      "sector": "Utilities",
+      "industry": "Utilities",
+      "industry_en": "Utilities",
+      "nasdaq_industry": "Electric Utilities: Central",
+      "close": 75.74,
+      "mktcap": 29144293091,
+      "pe": null,
+      "ret_1d": 2.4,
+      "ret_1w": 2.9,
+      "ret_1m": 4.5,
+      "ret_3m": 5.5,
+      "ret_6m": 30.1,
+      "ret_1y": 58.2,
+      "tracked": false
+    },
+    {
       "symbol": "GMAB",
       "name": "Genmab A/S",
       "sector": "Healthcare",
@@ -9895,6 +9877,24 @@
       "tracked": false
     },
     {
+      "symbol": "BLK",
+      "name": "BlackRock Inc.",
+      "sector": "Financial Services",
+      "industry": "Asset Management",
+      "industry_en": "Asset Management",
+      "nasdaq_industry": "Investment Bankers/Brokers/Service",
+      "close": 1009.43,
+      "mktcap": 156697845516,
+      "pe": null,
+      "ret_1d": -0.2,
+      "ret_1w": 5.0,
+      "ret_1m": 1.4,
+      "ret_3m": 5.3,
+      "ret_6m": -8.7,
+      "ret_1y": -4.8,
+      "tracked": false
+    },
+    {
       "symbol": "ITW",
       "name": "Illinois Tool Works Inc.",
       "sector": "Industrials",
@@ -9928,24 +9928,6 @@
       "ret_3m": 5.3,
       "ret_6m": 34.9,
       "ret_1y": 37.8,
-      "tracked": false
-    },
-    {
-      "symbol": "BKNG",
-      "name": "Booking Holdings Inc.",
-      "sector": "Consumer Cyclical",
-      "industry": "Travel & Leisure",
-      "industry_en": "Travel & Leisure",
-      "nasdaq_industry": "Transportation Services",
-      "close": 181.95,
-      "mktcap": 140989131430,
-      "pe": null,
-      "ret_1d": 0.5,
-      "ret_1w": 2.1,
-      "ret_1m": 9.7,
-      "ret_3m": 5.2,
-      "ret_6m": -14.5,
-      "ret_1y": -21.1,
       "tracked": false
     },
     {
@@ -10201,6 +10183,24 @@
       "tracked": false
     },
     {
+      "symbol": "BKNG",
+      "name": "Booking Holdings Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel & Leisure",
+      "industry_en": "Travel & Leisure",
+      "nasdaq_industry": "Transportation Services",
+      "close": 181.95,
+      "mktcap": 140989131430,
+      "pe": null,
+      "ret_1d": 0.5,
+      "ret_1w": 2.1,
+      "ret_1m": 9.7,
+      "ret_3m": 4.9,
+      "ret_6m": -14.8,
+      "ret_1y": -21.3,
+      "tracked": false
+    },
+    {
       "symbol": "EC",
       "name": "Ecopetrol S.A.",
       "sector": "Energy",
@@ -10270,24 +10270,6 @@
       "ret_3m": 4.7,
       "ret_6m": -40.8,
       "ret_1y": null,
-      "tracked": false
-    },
-    {
-      "symbol": "GM",
-      "name": "General Motors Company",
-      "sector": "Consumer Cyclical",
-      "industry": "Automakers",
-      "industry_en": "Automakers",
-      "nasdaq_industry": "Auto Manufacturing",
-      "close": 76.03,
-      "mktcap": 68553604776,
-      "pe": null,
-      "ret_1d": -2.3,
-      "ret_1w": -1.4,
-      "ret_1m": -7.4,
-      "ret_3m": 4.7,
-      "ret_6m": -7.1,
-      "ret_1y": 48.1,
       "tracked": false
     },
     {
@@ -10381,24 +10363,6 @@
       "tracked": false
     },
     {
-      "symbol": "TPR",
-      "name": "Tapestry Inc.",
-      "sector": "Consumer Cyclical",
-      "industry": "Apparel & Luxury",
-      "industry_en": "Apparel & Luxury",
-      "nasdaq_industry": "Apparel",
-      "close": 146.3,
-      "mktcap": 29559141658,
-      "pe": null,
-      "ret_1d": 0.6,
-      "ret_1w": -0.1,
-      "ret_1m": 4.4,
-      "ret_3m": 4.6,
-      "ret_6m": 10.5,
-      "ret_1y": 60.3,
-      "tracked": false
-    },
-    {
       "symbol": "CI",
       "name": "The Cigna Group",
       "sector": "Healthcare",
@@ -10417,6 +10381,24 @@
       "tracked": false
     },
     {
+      "symbol": "GM",
+      "name": "General Motors Company",
+      "sector": "Consumer Cyclical",
+      "industry": "Automakers",
+      "industry_en": "Automakers",
+      "nasdaq_industry": "Auto Manufacturing",
+      "close": 76.03,
+      "mktcap": 68553604776,
+      "pe": null,
+      "ret_1d": -2.3,
+      "ret_1w": -1.4,
+      "ret_1m": -7.4,
+      "ret_3m": 4.5,
+      "ret_6m": -7.3,
+      "ret_1y": 47.7,
+      "tracked": false
+    },
+    {
       "symbol": "TXT",
       "name": "Textron Inc.",
       "sector": "Industrials",
@@ -10432,6 +10414,24 @@
       "ret_3m": 4.5,
       "ret_6m": 1.7,
       "ret_1y": 12.6,
+      "tracked": false
+    },
+    {
+      "symbol": "TPR",
+      "name": "Tapestry Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Apparel & Luxury",
+      "industry_en": "Apparel & Luxury",
+      "nasdaq_industry": "Apparel",
+      "close": 146.3,
+      "mktcap": 29559141658,
+      "pe": null,
+      "ret_1d": 0.6,
+      "ret_1w": -0.1,
+      "ret_1m": 4.4,
+      "ret_3m": 4.4,
+      "ret_6m": 10.1,
+      "ret_1y": 59.8,
       "tracked": false
     },
     {
@@ -10468,24 +10468,6 @@
       "ret_3m": 4.3,
       "ret_6m": 9.5,
       "ret_1y": 15.2,
-      "tracked": false
-    },
-    {
-      "symbol": "EIX",
-      "name": "Edison International",
-      "sector": "Utilities",
-      "industry": "Utilities",
-      "industry_en": "Utilities",
-      "nasdaq_industry": "Electric Utilities: Central",
-      "close": 75.74,
-      "mktcap": 29144293091,
-      "pe": null,
-      "ret_1d": 1.2,
-      "ret_1w": 1.7,
-      "ret_1m": 3.3,
-      "ret_3m": 4.3,
-      "ret_6m": 28.5,
-      "ret_1y": 56.4,
       "tracked": false
     },
     {
@@ -10558,24 +10540,6 @@
       "ret_3m": 4.2,
       "ret_6m": 14.4,
       "ret_1y": 17.4,
-      "tracked": false
-    },
-    {
-      "symbol": "ORI",
-      "name": "Old Republic International Corporation",
-      "sector": "Financial Services",
-      "industry": "Insurance",
-      "industry_en": "Insurance",
-      "nasdaq_industry": "Property-Casualty Insurers",
-      "close": 41.85,
-      "mktcap": 10162302208,
-      "pe": null,
-      "ret_1d": 0.7,
-      "ret_1w": 2.3,
-      "ret_1m": 9.7,
-      "ret_3m": 4.2,
-      "ret_6m": -0.1,
-      "ret_1y": 20.7,
       "tracked": false
     },
     {
@@ -10759,6 +10723,24 @@
       "tracked": false
     },
     {
+      "symbol": "ERIE",
+      "name": "Erie Indemnity Company",
+      "sector": "Financial Services",
+      "industry": "Insurance",
+      "industry_en": "Insurance",
+      "nasdaq_industry": "Specialty Insurers",
+      "close": 256.37,
+      "mktcap": 11842143056,
+      "pe": null,
+      "ret_1d": 0.3,
+      "ret_1w": 7.5,
+      "ret_1m": 13.5,
+      "ret_3m": 3.7,
+      "ret_6m": -9.2,
+      "ret_1y": -23.0,
+      "tracked": false
+    },
+    {
       "symbol": "MRSH",
       "name": "Marsh",
       "sector": "Financial Services",
@@ -10885,6 +10867,24 @@
       "tracked": false
     },
     {
+      "symbol": "ORI",
+      "name": "Old Republic International Corporation",
+      "sector": "Financial Services",
+      "industry": "Insurance",
+      "industry_en": "Insurance",
+      "nasdaq_industry": "Property-Casualty Insurers",
+      "close": 41.85,
+      "mktcap": 10162302208,
+      "pe": null,
+      "ret_1d": 0.7,
+      "ret_1w": 2.3,
+      "ret_1m": 9.7,
+      "ret_3m": 3.4,
+      "ret_6m": -0.9,
+      "ret_1y": 19.7,
+      "tracked": false
+    },
+    {
       "symbol": "WTW",
       "name": "Willis Towers Watson Public Limited Company",
       "sector": "Financial Services",
@@ -10927,7 +10927,7 @@
       "industry": "Other",
       "industry_en": "Other",
       "nasdaq_industry": "Building operators",
-      "close": 15.3599,
+      "close": 15.36,
       "mktcap": 23159610587,
       "pe": null,
       "ret_1d": -0.1,
@@ -10954,24 +10954,6 @@
       "ret_3m": 3.2,
       "ret_6m": -14.7,
       "ret_1y": -1.9,
-      "tracked": false
-    },
-    {
-      "symbol": "ERIE",
-      "name": "Erie Indemnity Company",
-      "sector": "Financial Services",
-      "industry": "Insurance",
-      "industry_en": "Insurance",
-      "nasdaq_industry": "Specialty Insurers",
-      "close": 256.37,
-      "mktcap": 11842143056,
-      "pe": null,
-      "ret_1d": -0.3,
-      "ret_1w": 6.9,
-      "ret_1m": 12.8,
-      "ret_3m": 3.2,
-      "ret_6m": -9.7,
-      "ret_1y": -23.4,
       "tracked": false
     },
     {
@@ -11056,7 +11038,7 @@
       "close": 66.5,
       "mktcap": 237659127755,
       "pe": null,
-      "ret_1d": null,
+      "ret_1d": 0.0,
       "ret_1w": 0.7,
       "ret_1m": 4.5,
       "ret_3m": 3.0,
@@ -11161,7 +11143,7 @@
       "industry": "Banks",
       "industry_en": "Banks",
       "nasdaq_industry": "Major Banks",
-      "close": 24.9701,
+      "close": 24.97,
       "mktcap": 50617653470,
       "pe": null,
       "ret_1d": -0.1,
@@ -11425,24 +11407,6 @@
       "tracked": false
     },
     {
-      "symbol": "WM",
-      "name": "Waste Management Inc.",
-      "sector": "Industrials",
-      "industry": "Waste & Environmental",
-      "industry_en": "Waste & Environmental",
-      "nasdaq_industry": "Environmental Services",
-      "close": 237.21,
-      "mktcap": 95257784132,
-      "pe": null,
-      "ret_1d": 3.6,
-      "ret_1w": 6.4,
-      "ret_1m": 7.6,
-      "ret_3m": 2.1,
-      "ret_6m": 9.2,
-      "ret_1y": 6.2,
-      "tracked": false
-    },
-    {
       "symbol": "MTD",
       "name": "Mettler-Toledo International Inc.",
       "sector": "Healthcare",
@@ -11674,6 +11638,24 @@
       "ret_3m": 1.7,
       "ret_6m": -23.4,
       "ret_1y": -39.8,
+      "tracked": false
+    },
+    {
+      "symbol": "WM",
+      "name": "Waste Management Inc.",
+      "sector": "Industrials",
+      "industry": "Waste & Environmental",
+      "industry_en": "Waste & Environmental",
+      "nasdaq_industry": "Environmental Services",
+      "close": 237.21,
+      "mktcap": 95257784132,
+      "pe": null,
+      "ret_1d": 3.6,
+      "ret_1w": 6.4,
+      "ret_1m": 7.6,
+      "ret_3m": 1.7,
+      "ret_6m": 8.7,
+      "ret_1y": 5.8,
       "tracked": false
     },
     {
@@ -12403,7 +12385,7 @@
       "industry": "Other",
       "industry_en": "Other",
       "nasdaq_industry": "Electric Utilities: Central",
-      "close": 25.5189,
+      "close": 25.519,
       "mktcap": 19599153198,
       "pe": null,
       "ret_1d": -0.0,
@@ -13153,24 +13135,6 @@
       "tracked": false
     },
     {
-      "symbol": "WY",
-      "name": "Weyerhaeuser Company",
-      "sector": "Real Estate",
-      "industry": "Real Estate",
-      "industry_en": "Real Estate",
-      "nasdaq_industry": "Real Estate Investment Trusts",
-      "close": 23.29,
-      "mktcap": 16793091470,
-      "pe": null,
-      "ret_1d": -0.5,
-      "ret_1w": -2.7,
-      "ret_1m": -4.9,
-      "ret_3m": -2.2,
-      "ret_6m": -1.2,
-      "ret_1y": -6.0,
-      "tracked": false
-    },
-    {
       "symbol": "HBANZ",
       "name": "Huntington Bancshares Incorporated Depositary Shares Each Representing a 1/1000th Interest in a Share of 5.50% Series L Non-Cumulative Perpetual Preferred Stock",
       "sector": "Financial Services",
@@ -13420,6 +13384,24 @@
       "ret_3m": -3.0,
       "ret_6m": 9.4,
       "ret_1y": 13.1,
+      "tracked": false
+    },
+    {
+      "symbol": "WY",
+      "name": "Weyerhaeuser Company",
+      "sector": "Real Estate",
+      "industry": "Real Estate",
+      "industry_en": "Real Estate",
+      "nasdaq_industry": "Real Estate Investment Trusts",
+      "close": 23.29,
+      "mktcap": 16793091470,
+      "pe": null,
+      "ret_1d": -0.5,
+      "ret_1w": -2.7,
+      "ret_1m": -4.9,
+      "ret_3m": -3.0,
+      "ret_6m": -2.1,
+      "ret_1y": -6.8,
       "tracked": false
     },
     {
@@ -13891,6 +13873,24 @@
       "tracked": false
     },
     {
+      "symbol": "DG",
+      "name": "Dollar General Corporation",
+      "sector": "Consumer Defensive",
+      "industry": "Retail",
+      "industry_en": "Retail",
+      "nasdaq_industry": "Department/Specialty Retail Stores",
+      "close": 115.43,
+      "mktcap": 25462316663,
+      "pe": null,
+      "ret_1d": -0.2,
+      "ret_1w": 0.8,
+      "ret_1m": 11.9,
+      "ret_3m": -4.3,
+      "ret_6m": -19.4,
+      "ret_1y": 1.8,
+      "tracked": false
+    },
+    {
       "symbol": "AMRZ",
       "name": "Amrize Ltd",
       "sector": "Basic Materials",
@@ -13906,24 +13906,6 @@
       "ret_3m": -4.4,
       "ret_6m": -7.9,
       "ret_1y": 1.8,
-      "tracked": false
-    },
-    {
-      "symbol": "PEP",
-      "name": "PepsiCo Inc.",
-      "sector": "Consumer Defensive",
-      "industry": "Food & Beverage",
-      "industry_en": "Food & Beverage",
-      "nasdaq_industry": "Beverages (Production/Distribution)",
-      "close": 144.98,
-      "mktcap": 198154070309,
-      "pe": null,
-      "ret_1d": 1.2,
-      "ret_1w": 7.1,
-      "ret_1m": 2.2,
-      "ret_3m": -4.4,
-      "ret_6m": 6.4,
-      "ret_1y": 12.1,
       "tracked": false
     },
     {
@@ -13963,21 +13945,21 @@
       "tracked": false
     },
     {
-      "symbol": "DG",
-      "name": "Dollar General Corporation",
-      "sector": "Consumer Defensive",
-      "industry": "Retail",
-      "industry_en": "Retail",
-      "nasdaq_industry": "Department/Specialty Retail Stores",
-      "close": 115.43,
-      "mktcap": 25462316663,
+      "symbol": "BBD",
+      "name": "Banco Bradesco Sa",
+      "sector": "Financial Services",
+      "industry": "Banks",
+      "industry_en": "Banks",
+      "nasdaq_industry": "Major Banks",
+      "close": 3.4,
+      "mktcap": 35961840895,
       "pe": null,
-      "ret_1d": -0.7,
-      "ret_1w": 0.3,
-      "ret_1m": 11.3,
-      "ret_3m": -4.8,
-      "ret_6m": -19.8,
-      "ret_1y": 1.3,
+      "ret_1d": -1.0,
+      "ret_1w": 0.0,
+      "ret_1m": 3.3,
+      "ret_3m": -4.9,
+      "ret_6m": -0.3,
+      "ret_1y": 16.5,
       "tracked": false
     },
     {
@@ -13996,24 +13978,6 @@
       "ret_3m": -4.9,
       "ret_6m": -11.7,
       "ret_1y": 1.4,
-      "tracked": false
-    },
-    {
-      "symbol": "NEE",
-      "name": "NextEra Energy Inc.",
-      "sector": "Utilities",
-      "industry": "Utilities",
-      "industry_en": "Utilities",
-      "nasdaq_industry": "EDP Services",
-      "close": 88.47,
-      "mktcap": 184490158612,
-      "pe": null,
-      "ret_1d": 1.2,
-      "ret_1w": 0.8,
-      "ret_1m": 3.1,
-      "ret_3m": -4.9,
-      "ret_6m": 10.7,
-      "ret_1y": 21.8,
       "tracked": false
     },
     {
@@ -14197,6 +14161,24 @@
       "tracked": false
     },
     {
+      "symbol": "PEP",
+      "name": "PepsiCo Inc.",
+      "sector": "Consumer Defensive",
+      "industry": "Food & Beverage",
+      "industry_en": "Food & Beverage",
+      "nasdaq_industry": "Beverages (Production/Distribution)",
+      "close": 144.98,
+      "mktcap": 198154070309,
+      "pe": null,
+      "ret_1d": 1.2,
+      "ret_1w": 7.1,
+      "ret_1m": 2.2,
+      "ret_3m": -5.4,
+      "ret_6m": 5.3,
+      "ret_1y": 10.9,
+      "tracked": false
+    },
+    {
       "symbol": "SQM",
       "name": "Sociedad Quimica y Minera S.A.",
       "sector": "Basic Materials",
@@ -14212,6 +14194,24 @@
       "ret_3m": -5.5,
       "ret_6m": -0.4,
       "ret_1y": 106.5,
+      "tracked": false
+    },
+    {
+      "symbol": "NEE",
+      "name": "NextEra Energy Inc.",
+      "sector": "Utilities",
+      "industry": "Utilities",
+      "industry_en": "Utilities",
+      "nasdaq_industry": "EDP Services",
+      "close": 88.47,
+      "mktcap": 184490158612,
+      "pe": null,
+      "ret_1d": 1.2,
+      "ret_1w": 0.8,
+      "ret_1m": 3.1,
+      "ret_3m": -5.6,
+      "ret_6m": 9.9,
+      "ret_1y": 20.9,
       "tracked": false
     },
     {
@@ -14503,24 +14503,6 @@
       "tracked": false
     },
     {
-      "symbol": "BBD",
-      "name": "Banco Bradesco Sa",
-      "sector": "Financial Services",
-      "industry": "Banks",
-      "industry_en": "Banks",
-      "nasdaq_industry": "Major Banks",
-      "close": 3.4,
-      "mktcap": 35961840895,
-      "pe": null,
-      "ret_1d": -2.9,
-      "ret_1w": -1.9,
-      "ret_1m": 1.3,
-      "ret_3m": -6.7,
-      "ret_6m": -2.2,
-      "ret_1y": 14.3,
-      "tracked": false
-    },
-    {
       "symbol": "COIN",
       "name": "Coinbase Global Inc.",
       "sector": "Financial Services",
@@ -14644,6 +14626,24 @@
       "ret_3m": -6.9,
       "ret_6m": -25.1,
       "ret_1y": -12.9,
+      "tracked": false
+    },
+    {
+      "symbol": "BBDO",
+      "name": "Banco Bradesco Sa",
+      "sector": "Financial Services",
+      "industry": "Banks",
+      "industry_en": "Banks",
+      "nasdaq_industry": "Major Banks",
+      "close": 2.99,
+      "mktcap": 31625265964,
+      "pe": null,
+      "ret_1d": 2.8,
+      "ret_1w": 1.9,
+      "ret_1m": 5.0,
+      "ret_3m": -7.0,
+      "ret_6m": 0.5,
+      "ret_1y": 16.8,
       "tracked": false
     },
     {
@@ -14914,24 +14914,6 @@
       "ret_3m": -8.8,
       "ret_6m": -2.1,
       "ret_1y": 13.2,
-      "tracked": false
-    },
-    {
-      "symbol": "BBDO",
-      "name": "Banco Bradesco Sa",
-      "sector": "Financial Services",
-      "industry": "Banks",
-      "industry_en": "Banks",
-      "nasdaq_industry": "Major Banks",
-      "close": 2.99,
-      "mktcap": 31625265964,
-      "pe": null,
-      "ret_1d": 0.7,
-      "ret_1w": -0.2,
-      "ret_1m": 2.9,
-      "ret_3m": -8.9,
-      "ret_6m": -1.6,
-      "ret_1y": 14.4,
       "tracked": false
     },
     {
@@ -15727,24 +15709,6 @@
       "tracked": false
     },
     {
-      "symbol": "VOD",
-      "name": "Vodafone Group Plc",
-      "sector": "Communication Services",
-      "industry": "Telecom",
-      "industry_en": "Telecom",
-      "nasdaq_industry": "Telecommunications Equipment",
-      "close": 13.05,
-      "mktcap": 31005505936,
-      "pe": null,
-      "ret_1d": -0.2,
-      "ret_1w": -1.4,
-      "ret_1m": -11.2,
-      "ret_3m": -13.2,
-      "ret_6m": -1.7,
-      "ret_1y": 24.4,
-      "tracked": false
-    },
-    {
       "symbol": "AR",
       "name": "Antero Resources Corporation",
       "sector": "Energy",
@@ -16177,6 +16141,24 @@
       "tracked": false
     },
     {
+      "symbol": "VOD",
+      "name": "Vodafone Group Plc",
+      "sector": "Communication Services",
+      "industry": "Telecom",
+      "industry_en": "Telecom",
+      "nasdaq_industry": "Telecommunications Equipment",
+      "close": 13.05,
+      "mktcap": 31005505936,
+      "pe": null,
+      "ret_1d": -0.2,
+      "ret_1w": -1.4,
+      "ret_1m": -11.2,
+      "ret_3m": -14.8,
+      "ret_6m": -3.5,
+      "ret_1y": 22.1,
+      "tracked": false
+    },
+    {
       "symbol": "AEIS",
       "name": "Advanced Energy Industries Inc.",
       "sector": "Industrials",
@@ -16267,24 +16249,6 @@
       "tracked": true
     },
     {
-      "symbol": "LHX",
-      "name": "L3Harris Technologies Inc.",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "industry_en": "Aerospace & Defense",
-      "nasdaq_industry": "Industrial Machinery/Components",
-      "close": 295.4,
-      "mktcap": 55031528525,
-      "pe": null,
-      "ret_1d": -1.9,
-      "ret_1w": 1.7,
-      "ret_1m": -4.0,
-      "ret_3m": -16.2,
-      "ret_6m": -5.4,
-      "ret_1y": 17.1,
-      "tracked": false
-    },
-    {
       "symbol": "CNQ",
       "name": "Canadian Natural Resources Limited",
       "sector": "Energy",
@@ -16354,6 +16318,24 @@
       "ret_3m": -16.6,
       "ret_6m": 28.3,
       "ret_1y": 49.2,
+      "tracked": false
+    },
+    {
+      "symbol": "LHX",
+      "name": "L3Harris Technologies Inc.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "industry_en": "Aerospace & Defense",
+      "nasdaq_industry": "Industrial Machinery/Components",
+      "close": 295.4,
+      "mktcap": 55031528525,
+      "pe": null,
+      "ret_1d": -1.9,
+      "ret_1w": 1.7,
+      "ret_1m": -4.0,
+      "ret_3m": -16.6,
+      "ret_6m": -5.7,
+      "ret_1y": 16.6,
       "tracked": false
     },
     {
@@ -17590,8 +17572,8 @@
       "close": 84.7,
       "mktcap": 48243156569,
       "pe": null,
-      "ret_1d": -1.8,
-      "ret_1w": 4.5,
+      "ret_1d": -1.5,
+      "ret_1w": 4.8,
       "ret_1m": null,
       "ret_3m": null,
       "ret_6m": null,
@@ -17854,7 +17836,7 @@
       "median_1m": 3.9,
       "median_3m": 102.2,
       "median_6m": 162.2,
-      "median_1y": 701.0
+      "median_1y": 700.8
     },
     {
       "industry": "Foundry",
@@ -18073,8 +18055,8 @@
       "median_1w": -3.8,
       "median_1m": -2.7,
       "median_3m": 19.7,
-      "median_6m": 5.4,
-      "median_1y": 6.2
+      "median_6m": 4.3,
+      "median_1y": 5.0
     },
     {
       "industry": "Advertising",
@@ -18107,7 +18089,7 @@
       "median_1m": 1.9,
       "median_3m": 15.8,
       "median_6m": -2.2,
-      "median_1y": -4.2
+      "median_1y": -4.4
     },
     {
       "industry": "Auto Retail",
@@ -18124,9 +18106,9 @@
       "industry": "Banks",
       "industry_en": "Banks",
       "n": 62,
-      "median_1d": -0.3,
+      "median_1d": -0.2,
       "median_1w": 2.0,
-      "median_1m": 7.6,
+      "median_1m": 7.8,
       "median_3m": 15.2,
       "median_6m": 12.4,
       "median_1y": 35.3
@@ -18206,7 +18188,7 @@
       "median_1m": 3.2,
       "median_3m": 12.0,
       "median_6m": 21.2,
-      "median_1y": 10.2
+      "median_1y": 10.0
     },
     {
       "industry": "Tobacco",
@@ -18231,17 +18213,6 @@
       "median_1y": -3.2
     },
     {
-      "industry": "Food & Beverage",
-      "industry_en": "Food & Beverage",
-      "n": 26,
-      "median_1d": 0.7,
-      "median_1w": 2.5,
-      "median_1m": 4.2,
-      "median_3m": 11.2,
-      "median_6m": 18.2,
-      "median_1y": 12.9
-    },
-    {
       "industry": "Cloud & Internet",
       "industry_en": "Cloud & Internet",
       "n": 6,
@@ -18262,17 +18233,6 @@
       "median_3m": 11.0,
       "median_6m": -13.4,
       "median_1y": -19.0
-    },
-    {
-      "industry": "Real Estate",
-      "industry_en": "Real Estate",
-      "n": 51,
-      "median_1d": 0.8,
-      "median_1w": 2.0,
-      "median_1m": 3.0,
-      "median_3m": 10.5,
-      "median_6m": 8.5,
-      "median_1y": 10.5
     },
     {
       "industry": "E-commerce",
@@ -18297,6 +18257,17 @@
       "median_1y": 14.8
     },
     {
+      "industry": "Food & Beverage",
+      "industry_en": "Food & Beverage",
+      "n": 26,
+      "median_1d": 0.7,
+      "median_1w": 2.5,
+      "median_1m": 4.2,
+      "median_3m": 10.2,
+      "median_6m": 18.2,
+      "median_1y": 12.9
+    },
+    {
       "industry": "Conglomerates",
       "industry_en": "Conglomerates",
       "n": 3,
@@ -18317,6 +18288,17 @@
       "median_3m": 9.7,
       "median_6m": -10.4,
       "median_1y": 5.7
+    },
+    {
+      "industry": "Real Estate",
+      "industry_en": "Real Estate",
+      "n": 50,
+      "median_1d": 0.8,
+      "median_1w": 2.0,
+      "median_1m": 2.9,
+      "median_3m": 9.6,
+      "median_6m": 7.8,
+      "median_1y": 10.5
     },
     {
       "industry": "Capital Markets",
@@ -18393,7 +18375,7 @@
       "median_1m": -0.5,
       "median_3m": 5.9,
       "median_6m": 0.8,
-      "median_1y": 0.7
+      "median_1y": 0.1
     },
     {
       "industry": "Apparel & Luxury",
@@ -18448,7 +18430,7 @@
       "median_1m": 5.9,
       "median_3m": 5.2,
       "median_6m": 3.0,
-      "median_1y": 17.1
+      "median_1y": 16.6
     },
     {
       "industry": "Building Materials",
@@ -18522,10 +18504,10 @@
       "n": 38,
       "median_1d": 1.1,
       "median_1w": 1.1,
-      "median_1m": 4.1,
+      "median_1m": 4.2,
       "median_3m": 0.9,
       "median_6m": 11.1,
-      "median_1y": 21.9
+      "median_1y": 21.6
     },
     {
       "industry": "Mortgage Finance",
@@ -18565,7 +18547,7 @@
       "industry_en": "Retail",
       "n": 20,
       "median_1d": 0.4,
-      "median_1w": 0.4,
+      "median_1w": 0.7,
       "median_1m": 3.1,
       "median_3m": -2.7,
       "median_6m": 0.1,
@@ -18623,7 +18605,7 @@
       "median_1w": -0.1,
       "median_1m": -1.9,
       "median_3m": -11.1,
-      "median_6m": -1.7,
+      "median_6m": -3.5,
       "median_1y": 5.0
     },
     {
@@ -18645,7 +18627,7 @@
       "median_1w": -0.5,
       "median_1m": -9.0,
       "median_3m": -11.9,
-      "median_6m": -7.1,
+      "median_6m": -7.3,
       "median_1y": -2.1
     },
     {

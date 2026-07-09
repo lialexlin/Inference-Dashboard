@@ -30,6 +30,23 @@
     "arch_risk": false
   },
   {
+    "id": "rss-4a2c38770852a7d0",
+    "date": "2026-07-09",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC, ASML, and Imec target 2D chip mass production in Taiwan within five years - digitimes",
+    "quote": "TSMC, ASML, and Imec target 2D chip mass production in Taiwan within five years digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTUU1cUNzNDVhWUtfcXJtaVh6Q2ZLNXpiMFpJRldSRlZMaUZDZEdlbE9sa2tBODh6ZUgzNUpTaDJiV3JTdklTSFA0eTM3U1JWVW10TlNBcUoxVWEyU1FlUUMxWG5DQWZTemxDbEx3VldoQzkyUTZXWmc2aHotQWhuc2FmLXU0R3pEWkRxYXpIM090QQ?oc=5",
+    "layer_ids": [
+      "wfe",
+      "foundry"
+    ],
+    "tickers": [
+      "ASML"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-dd47393625da00dd",
     "date": "2026-07-09",
     "source": "DigiTimes",
@@ -39,6 +56,34 @@
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZkVEdEk1dV9KbkZsWEZodWF3WUZTY3BRTVNWeG1sWE9oS0xyaHN0VjdRdmpMM2hkTlkxTmNnM3Rabmo5ZGtBckFVVlotMlhnUDlFSnBvSGhJaGZRYnpHODU2bm02M3BQUjlLVDYyMlo5TzJPUDlubW42Uk42ajZ1RzZOTHNUTnBEOGc?oc=5",
     "layer_ids": [
       "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a70899c1af175bd8",
+    "date": "2026-07-09",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Consolidation and Competition: Who is Winning the $4.5 Billion Interface IP Race?",
+    "quote": "The semiconductor landscape is currently undergoing a structural transformation as the “Data-Centric Shift” moves the industry’s center of gravity from smartphones toward High-Performance Computing (HPC) and AI infrastructure. This transition is clearly validated by TSMC’s 2025 filings, which show… Read More The post Consolidation and Competition: Who is Winning the $4.5 Billion Interface IP Race? appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/ip/370809-consolidation-and-competition-who-is-winning-the-4-5-billion-interface-ip-race/",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-8d190b73783ea2f1",
+    "date": "2026-07-09",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "SemiAnalysis EDA Market Primer – Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise",
+    "quote": "Electronic Design Automation, or EDA, is the software infrastructure that transforms a hardware specification into a manufacturable integrated circuit. At advanced process nodes, the problem is no longer simply drawing transistors or connecting gates. A modern system-on-chip contains billions of standard cells, hundreds… Read More The post SemiAnalysis EDA Market Primer – Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/371026-semianalysis-eda-market-primer-market-dynamics-cadence-synopsys-siemens-china-eda-rise/",
+    "layer_ids": [
+      "eda"
     ],
     "tickers": [],
     "arch_risk": false
@@ -67,34 +112,6 @@
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeFB6cm12d3c0NXA1UTVhNzhQWDVkUkEyRGtCcUJLZXhXUDJ2LVBxWU1hQ3Y3MlZFdU5xWWVrYkdXMG4wSy1RZzJGWnhBZEx3MUs0cVFtVm1wZnVVTGxqTUZNMVh0eXgwMmJVTFJuTVdGMGZrbTBkU1VrR1dSenhnZm1DMUdVZk5ITEY2RUh5QXEyNGRCMVFn?oc=5",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-06c92265a9ede6d2",
-    "date": "2026-07-07",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Walmart signs nuclear PPA with Constellation to support Illinois operations",
-    "quote": "The companies said the deal marks Walmart’s first nuclear power purchase agreement and is “among the first of its kind between a large retailer and a nuclear energy facility in the United States.”",
-    "url": "https://www.utilitydive.com/news/walmart-signs-nuclear-ppa-with-constellation-to-support-illinois-operations/824604/",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-d2748ef97e7f1acc",
-    "date": "2026-07-07",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "The Packaging PDK Is the Missing Layer for Co-Packaged Optics",
-    "quote": "From Photonic Device Design to Electro-Optical Realization Co-packaged optics will not scale through photonic device performance alone. As AI infrastructure pushes bandwidth, power, latency, and reach to new limits, optics is moving closer to the compute engine. The industry is no longer asking only whether a photonic device… Read More The post The Packaging PDK Is the Missing Layer for Co-Packaged Optics appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/3dic/370709-the-packaging-pdk-is-the-missing-layer-for-co-packaged-optics/",
-    "layer_ids": [
-      "optics"
     ],
     "tickers": [],
     "arch_risk": false
@@ -131,20 +148,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-85c09f3ad12069c8",
-    "date": "2026-07-04",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Japan's MinebeaMitsumi to boost bearings output for AI data centers - Nikkei Asia",
-    "quote": "Japan's MinebeaMitsumi to boost bearings output for AI data centers Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY1ZhSnplLXZITkVyclphMTF2WkZzOFNFYlFnUF9ERXJsUjBFNTNwYWM5R0hxUnpCUHVOakJDTEsxWTNHS3ZOOWdzc3FZUF8tUlhlS2N5RUIxYlI2V0NpdFB4TGRBb3Eya3IwLWJZMVJheDJubGxnWEFoRnhVMndoTTVqbkVUWHpPZlFwTlhod2stM1BNazRZNmZ1eGhBazZlVkptWWpCcXpybk5Yb1I4ZGlB?oc=5",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-222eaa6dde49a745",
     "date": "2026-07-03",
     "source": "DigiTimes",
@@ -152,20 +155,6 @@
     "headline": "TSMC wins approval for US$20 billion Arizona expansion - digitimes",
     "quote": "TSMC wins approval for US$20 billion Arizona expansion digitimes",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWNjUWx0TGVfQ0wtcDI0b0k3dko3Y1dmM1Y1dEphVEpHeU1MWThvd19mNi1zTndacEZHeFFxdS04RVNyeVFYak82SlgwNDZrOWlGZklQOGR4Z1hxUUprWVpjeFVtbkUxWEh5TEhCVi1RZW55WWY4dkdEV21Ed09KaGRhTVBmZG9jTlNmTHN0UFZ1VWFMWTZN?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b4f489e4692fb11d",
-    "date": "2026-07-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "How TSMC quietly turned its supply chain into a 'second fleet' - digitimes",
-    "quote": "How TSMC quietly turned its supply chain into a 'second fleet' digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUFY4UHQ0Z2l4ZlctcVJLYTRUYkNid09acUNWZlBwaHRkU2QxUHZPbDJNS2dXX01tanh2RzBVSHdVQmZXYVJ1STlvN3JxNnZNUzA3QkFZak0yc2lSbzl0OGpMX3VNWmNhcExxd0trY3pBa2RwSE12a1lZZVFpODlFUjF6eE9reWFFeVZRbVFXcUdQeDdrenZINWp2YnNQRmdaWWc?oc=5",
     "layer_ids": [
       "foundry"
     ],

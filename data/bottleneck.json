@@ -1,24 +1,24 @@
 {
   "hbm": {
-    "tightness_score": 63,
-    "signal_count_90d": 15,
-    "tightness_language_hits_per_signal": 0.267,
+    "tightness_score": 65,
+    "signal_count_90d": 16,
+    "tightness_language_hits_per_signal": 0.312,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Manish Bhatia, Executives] I think what's the demand is supply constrained, right, for both right now. And so we're just continuing to work very hard on enhancing supply, but I mentioned persistent structural factors earlier in my comments",
-      "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t",
-      "HBM4 demand exceeds capacity for the next three years; full 2026 sold out, 3-year DDR5 LTA signed with Microsoft. Op margin 72%, revenue +198% YoY."
+      "HBM prices set to double in 2027 as AI demand and supply deals tighten the memory market digitimes",
+      "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t"
     ],
     "components": {
-      "density_pct": 0.2,
+      "density_pct": 0.267,
       "language_pct": 0.867,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "foundry": {
     "tightness_score": 52,
-    "signal_count_90d": 28,
+    "signal_count_90d": 27,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -29,22 +29,22 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "packaging": {
-    "tightness_score": 40,
-    "signal_count_90d": 19,
-    "tightness_language_hits_per_signal": 0.105,
+    "tightness_score": 37,
+    "signal_count_90d": 18,
+    "tightness_language_hits_per_signal": 0.111,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Douglas Bettinger, Executives] Everybody wants to know the answer to that question. And frankly, I don't have a specific number for you, except I would tell you, the industry is undersupplied right now. You're seeing it in memory pricing, "
     ],
     "components": {
-      "density_pct": 0.467,
+      "density_pct": 0.4,
       "language_pct": 0.533,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "wfe": {
     "tightness_score": 43,
@@ -59,7 +59,7 @@
       "language_pct": 0.467,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "gpu": {
     "tightness_score": 63,
@@ -76,7 +76,7 @@
       "language_pct": 0.333,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "networking": {
     "tightness_score": 43,
@@ -92,7 +92,7 @@
       "language_pct": 0.4,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "optics": {
     "tightness_score": 36,
@@ -107,10 +107,10 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "switches": {
-    "tightness_score": 71,
+    "tightness_score": 73,
     "signal_count_90d": 19,
     "tightness_language_hits_per_signal": 0.211,
     "cross_quarter_supply_tight": true,
@@ -120,11 +120,11 @@
       "[Shannon Cross, Executives] Well, we have long-term agreements. I mean we've been in this business for a very long time going back to Compaq. And I mean, I'm sure some of the components probably go back to oscillators, if you go back 80 yea"
     ],
     "components": {
-      "density_pct": 0.467,
+      "density_pct": 0.533,
       "language_pct": 0.8,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "power": {
     "tightness_score": 64,
@@ -141,7 +141,7 @@
       "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "cooling": {
     "tightness_score": 45,
@@ -158,7 +158,7 @@
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "hyperscalers": {
     "tightness_score": 45,
@@ -174,7 +174,7 @@
       "language_pct": 0.267,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "neoclouds": {
     "tightness_score": 27,
@@ -189,7 +189,7 @@
       "language_pct": 0.6,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "software": {
     "tightness_score": 13,
@@ -202,7 +202,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "eda": {
     "tightness_score": 35,
@@ -218,7 +218,7 @@
       "language_pct": 0.733,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -231,6 +231,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-10T11:49:28.052614+00:00"
+    "updated_at": "2026-07-10T23:04:08.375102+00:00"
   }
 }

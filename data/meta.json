@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-07-13T11:56:33.871938+00:00",
+  "last_refresh_at": "2026-07-13T22:58:02.997362+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-07-13T11:57:24.755830+00:00"
+      "ts": "2026-07-13T22:58:50.865001+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,13 +24,13 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-07-13T11:57:29.317291+00:00"
+      "ts": "2026-07-13T22:58:55.277305+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 69,
       "errors": {},
-      "ts": "2026-07-13T11:57:41.853946+00:00"
+      "ts": "2026-07-13T22:59:10.467076+00:00"
     },
     "ciq": {
       "ok": 62,
@@ -39,7 +39,7 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-07-13T11:56:48.868465+00:00"
+      "ts": "2026-07-13T22:58:17.029546+00:00"
     },
     "scoring": {
       "ok": 63,
@@ -63,32 +63,32 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-07-13T11:59:53.239030+00:00"
+      "ts": "2026-07-13T23:01:21.006222+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "switches",
-          "tightness_score": 71
+          "tightness_score": 73
         },
         {
           "layer_id": "hbm",
-          "tightness_score": 65
+          "tightness_score": 68
         },
         {
           "layer_id": "power",
           "tightness_score": 64
         }
       ],
-      "ts": "2026-07-13T11:59:53.194236+00:00"
+      "ts": "2026-07-13T23:01:20.957804+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-07-13T11:59:53.182249+00:00"
+      "ts": "2026-07-13T23:01:20.947007+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -99,7 +99,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-07-13T11:59:53.247130+00:00"
+      "ts": "2026-07-13T23:01:21.014471+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -128,7 +128,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-07-13T11:59:51.865650+00:00"
+      "ts": "2026-07-13T23:01:19.602915+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -141,32 +141,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-07-13T11:59:52.473863+00:00"
+      "ts": "2026-07-13T23:01:20.193789+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-07-13T11:59:53.188118+00:00"
+      "ts": "2026-07-13T23:01:20.952151+00:00"
     },
     "tw_universe": {
-      "ok": 0,
-      "errors": {
-        "__stage__": "IncompleteRead(556669 bytes read, 515142 more expected)"
-      },
-      "ts": "2026-07-13T12:06:01.644459+00:00"
+      "ok": 1956,
+      "stock_count": 1956,
+      "sector_count": 71,
+      "latest_date": "2026-07-13",
+      "ts": "2026-07-13T23:02:25.632547+00:00"
     },
     "us_universe": {
-      "ok": 992,
-      "stock_count": 992,
+      "ok": 990,
+      "stock_count": 990,
       "sector_count": 78,
-      "latest_date": "2026-07-10",
-      "ts": "2026-07-13T12:07:11.770106+00:00"
+      "latest_date": "2026-07-13",
+      "ts": "2026-07-13T23:03:25.747274+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 303,
-    "total": 329
+    "discovered_kept": 304,
+    "total": 330
   }
 }

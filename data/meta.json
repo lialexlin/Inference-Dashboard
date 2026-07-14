@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-07-14T10:40:32.292991+00:00",
+  "last_refresh_at": "2026-07-14T22:59:08.205070+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-07-14T10:41:09.564579+00:00"
+      "ts": "2026-07-14T22:59:57.554229+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,13 +24,13 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-07-14T10:41:13.761328+00:00"
+      "ts": "2026-07-14T23:00:01.913585+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 69,
       "errors": {},
-      "ts": "2026-07-14T10:41:25.073655+00:00"
+      "ts": "2026-07-14T23:00:15.863684+00:00"
     },
     "ciq": {
       "ok": 0,
@@ -41,39 +41,39 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-07-14T10:40:33.715999+00:00"
+      "ts": "2026-07-14T22:59:10.531618+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-07-14T10:43:34.250845+00:00"
+      "ts": "2026-07-14T23:05:06.000378+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "switches",
-          "tightness_score": 73
+          "tightness_score": 76
         },
         {
           "layer_id": "hbm",
-          "tightness_score": 71
+          "tightness_score": 73
         },
         {
           "layer_id": "power",
           "tightness_score": 64
         }
       ],
-      "ts": "2026-07-14T10:43:34.236667+00:00"
+      "ts": "2026-07-14T23:05:05.977005+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-07-14T10:43:34.229180+00:00"
+      "ts": "2026-07-14T23:05:05.966226+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,12 +84,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-07-14T10:43:34.255073+00:00"
+      "ts": "2026-07-14T23:05:06.007935+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 45,
+      "cached": 24,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -110,10 +110,32 @@
         "8046.TW"
       ],
       "errors": {
+        "MU": "http 500",
+        "TSM": "http 500",
+        "INTC": "http 500",
+        "GFS": "http 500",
+        "ASX": "http 500",
+        "AMKR": "http 500",
+        "ASML": "http 500",
+        "AMAT": "http 500",
+        "LRCX": "http 500",
+        "KLAC": "http 500",
+        "NVDA": "http 500",
+        "AMD": "http 500",
+        "AVGO": "http 500",
+        "MRVL": "http 500",
+        "GOOGL": "http 500",
+        "LITE": "http 500",
+        "COHR": "http 500",
+        "FN": "http 500",
+        "MXL": "http 500",
+        "ANET": "http 500",
+        "CSCO": "http 500",
+        "NBIS": "http 500",
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-07-14T10:43:33.244697+00:00"
+      "ts": "2026-07-14T23:05:04.633095+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -126,32 +148,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-07-14T10:43:33.617942+00:00"
+      "ts": "2026-07-14T23:05:05.214909+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-07-14T10:43:34.233044+00:00"
+      "ts": "2026-07-14T23:05:05.971239+00:00"
     },
     "tw_universe": {
       "ok": 1953,
       "stock_count": 1953,
       "sector_count": 71,
       "latest_date": "2026-07-14",
-      "ts": "2026-07-14T10:45:25.427020+00:00"
+      "ts": "2026-07-14T23:05:54.658756+00:00"
     },
     "us_universe": {
-      "ok": 990,
-      "stock_count": 990,
+      "ok": 991,
+      "stock_count": 991,
       "sector_count": 78,
-      "latest_date": "2026-07-13",
-      "ts": "2026-07-14T10:47:12.816788+00:00"
+      "latest_date": "2026-07-14",
+      "ts": "2026-07-14T23:07:55.190696+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 302,
-    "total": 328
+    "discovered_kept": 307,
+    "total": 333
   }
 }

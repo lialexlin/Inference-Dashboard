@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-07-13T22:58:02.997362+00:00",
+  "last_refresh_at": "2026-07-14T10:40:32.292991+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-07-13T22:58:50.865001+00:00"
+      "ts": "2026-07-14T10:41:09.564579+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,46 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-07-13T22:58:55.277305+00:00"
+      "ts": "2026-07-14T10:41:13.761328+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 69,
       "errors": {},
-      "ts": "2026-07-13T22:59:10.467076+00:00"
+      "ts": "2026-07-14T10:41:25.073655+00:00"
     },
     "ciq": {
-      "ok": 62,
-      "history_tickers": 61,
-      "errors": {},
+      "ok": 0,
+      "history_tickers": 0,
+      "errors": {
+        "__connection__": "250001 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified."
+      },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-07-13T22:58:17.029546+00:00"
+      "ts": "2026-07-14T10:40:33.715999+00:00"
     },
     "scoring": {
-      "ok": 63,
-      "quadrant_counts": {
-        "fair": 33,
-        "priced-in": 12,
-        "avoid": 7,
-        "value-trap": 10,
-        "unscored": 1
+      "ok": 0,
+      "errors": {
+        "__stage__": "'revenue_yoy'"
       },
-      "manual_estimates_coverage": 0,
-      "manual_estimates_total": 63,
-      "component_coverage": {
-        "biz_revenue_yoy_z": 61,
-        "biz_accel_z": 61,
-        "biz_margin_z": 61,
-        "biz_signal_density_z": 63,
-        "val_vs_own_pe_z": 58,
-        "val_vs_peer_pe_z": 62,
-        "val_vs_peer_ev_z": 61,
-        "val_price_run_z": 62
-      },
-      "tickers_scored": 63,
-      "ts": "2026-07-13T23:01:21.006222+00:00"
+      "ts": "2026-07-14T10:43:34.250845+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -74,21 +59,21 @@
         },
         {
           "layer_id": "hbm",
-          "tightness_score": 68
+          "tightness_score": 71
         },
         {
           "layer_id": "power",
           "tightness_score": 64
         }
       ],
-      "ts": "2026-07-13T23:01:20.957804+00:00"
+      "ts": "2026-07-14T10:43:34.236667+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-07-13T23:01:20.947007+00:00"
+      "ts": "2026-07-14T10:43:34.229180+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -99,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-07-13T23:01:21.014471+00:00"
+      "ts": "2026-07-14T10:43:34.255073+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -128,7 +113,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-07-13T23:01:19.602915+00:00"
+      "ts": "2026-07-14T10:43:33.244697+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -141,32 +126,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-07-13T23:01:20.193789+00:00"
+      "ts": "2026-07-14T10:43:33.617942+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-07-13T23:01:20.952151+00:00"
+      "ts": "2026-07-14T10:43:34.233044+00:00"
     },
     "tw_universe": {
-      "ok": 1956,
-      "stock_count": 1956,
+      "ok": 1953,
+      "stock_count": 1953,
       "sector_count": 71,
-      "latest_date": "2026-07-13",
-      "ts": "2026-07-13T23:02:25.632547+00:00"
+      "latest_date": "2026-07-14",
+      "ts": "2026-07-14T10:45:25.427020+00:00"
     },
     "us_universe": {
       "ok": 990,
       "stock_count": 990,
       "sector_count": 78,
       "latest_date": "2026-07-13",
-      "ts": "2026-07-13T23:03:25.747274+00:00"
+      "ts": "2026-07-14T10:47:12.816788+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 304,
-    "total": 330
+    "discovered_kept": 302,
+    "total": 328
   }
 }

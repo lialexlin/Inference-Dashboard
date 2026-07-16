@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-07-15T22:59:49.787871+00:00",
+  "last_refresh_at": "2026-07-16T10:53:35.792450+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,50 +7,48 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-07-15T23:00:45.392798+00:00"
+      "ts": "2026-07-16T10:54:24.496980+00:00"
     },
     "rss": {
-      "ok": 8,
-      "total_entries": 111,
+      "ok": 9,
+      "total_entries": 136,
       "per_source_counts": {
         "TrendForce": 20,
         "Nikkei Asia": 25,
         "DigiTimes": 25,
         "ServeTheHome": 6,
-        "The Next Platform": 0,
+        "The Next Platform": 25,
         "SemiAnalysis": 10,
         "Utility Dive": 10,
         "SemiWiki": 5,
         "Stratechery": 10
       },
-      "errors": {
-        "The Next Platform": "bozo: <unknown>:8:22: not well-formed (invalid token)"
-      },
-      "ts": "2026-07-15T23:00:50.271470+00:00"
+      "errors": {},
+      "ts": "2026-07-16T10:54:28.685000+00:00"
     },
     "edgar": {
       "entries": 159,
       "summarized": 69,
       "errors": {},
-      "ts": "2026-07-15T23:01:02.385319+00:00"
+      "ts": "2026-07-16T10:54:41.423927+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "250001 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified."
+        "__connection__": "250001 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked."
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-07-15T22:59:51.645127+00:00"
+      "ts": "2026-07-16T10:53:38.304060+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-07-15T23:07:05.915062+00:00"
+      "ts": "2026-07-16T10:56:51.359296+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -68,14 +66,14 @@
           "tightness_score": 64
         }
       ],
-      "ts": "2026-07-15T23:07:05.890604+00:00"
+      "ts": "2026-07-16T10:56:51.335402+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-07-15T23:07:05.879888+00:00"
+      "ts": "2026-07-16T10:56:51.324954+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -86,12 +84,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-07-15T23:07:05.922911+00:00"
+      "ts": "2026-07-16T10:56:51.366889+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 0,
+      "cached": 44,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -112,56 +110,10 @@
         "8046.TW"
       ],
       "errors": {
-        "MU": "http 500",
-        "TSM": "http 500",
-        "INTC": "http 500",
-        "GFS": "http 500",
-        "ASX": "http 500",
-        "AMKR": "http 500",
-        "ASML": "http 500",
-        "AMAT": "http 500",
-        "LRCX": "http 500",
-        "KLAC": "http 500",
-        "NVDA": "http 500",
-        "AMD": "http 500",
-        "AVGO": "http 500",
-        "MRVL": "http 500",
-        "GOOGL": "http 500",
-        "LITE": "http 500",
-        "COHR": "http 500",
-        "FN": "http 500",
-        "MXL": "http 500",
-        "ANET": "http 500",
-        "CSCO": "http 500",
-        "HPE": "http 500",
-        "CLS": "http 500",
-        "GEV": "http 500",
-        "ETN": "http 500",
-        "VRT": "http 500",
-        "GNRC": "http 500",
-        "HUBB": "http 500",
-        "PWR": "http 500",
-        "CEG": "http 500",
-        "OKLO": "http 500",
-        "LEU": "http 500",
-        "NVT": "http 500",
-        "MOD": "http 500",
-        "MSFT": "http 500",
-        "META": "http 500",
-        "AMZN": "http 500",
-        "ORCL": "http 500",
-        "CRWV": "http 500",
-        "NBIS": "http 500",
-        "CRM": "http 500",
-        "NOW": "http 500",
-        "SNOW": "http 500",
-        "PLTR": "http 500",
-        "CDNS": "http 500",
-        "SNPS": "http 500",
-        "SIEGY": "http 500"
+        "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-07-15T23:07:04.519985+00:00"
+      "ts": "2026-07-16T10:56:49.991369+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -174,32 +126,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-07-15T23:07:05.097542+00:00"
+      "ts": "2026-07-16T10:56:50.571568+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-07-15T23:07:05.885013+00:00"
+      "ts": "2026-07-16T10:56:51.329937+00:00"
     },
     "tw_universe": {
-      "ok": 1954,
-      "stock_count": 1954,
+      "ok": 1951,
+      "stock_count": 1951,
       "sector_count": 71,
-      "latest_date": "2026-07-15",
-      "ts": "2026-07-15T23:07:57.612611+00:00"
+      "latest_date": "2026-07-16",
+      "ts": "2026-07-16T10:58:20.076923+00:00"
     },
     "us_universe": {
-      "ok": 987,
-      "stock_count": 987,
+      "ok": 986,
+      "stock_count": 986,
       "sector_count": 77,
       "latest_date": "2026-07-15",
-      "ts": "2026-07-15T23:10:55.131296+00:00"
+      "ts": "2026-07-16T11:00:09.935771+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 307,
-    "total": 333
+    "discovered_kept": 309,
+    "total": 335
   }
 }

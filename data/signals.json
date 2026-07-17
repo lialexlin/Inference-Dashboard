@@ -58,6 +58,69 @@
     "arch_risk": false
   },
   {
+    "id": "rss-48c26d97e6553b6d",
+    "date": "2026-07-17",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC says A14 process on track for 2028 volume production - digitimes",
+    "quote": "TSMC says A14 process on track for 2028 volume production digitimes",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWkI3OTkzbktCVDMxdE5hY1gyd0MxTVRZNnMwdkwtYVB6NURPRmpJZF9FQlROSmhqTXhhY1Vza1pfcU5rUnJPdXhERXVtOUY4RUdsaVpvTGpmSlB3aTFHNklfa056dlA1c2Q0b0JQWmc4TjNlQ1F3MFpWdVNkbnVsSFhCWGd6UEJOTjExRnd0dGJuMGluVGs3eFo1MWxmd0Mw?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a394ceabf8f4707f",
+    "date": "2026-07-17",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "The AMD Instinct MI350P is a HBM PCIe AI Accelerator That Has Been All Over",
+    "quote": "We have been seeing the AMD Instinct MI350P 144GB HBM3E PCIe accelerator everywhere over the past few weeks as this appears to be a popular GPU The post The AMD Instinct MI350P is a HBM PCIe AI Accelerator That Has Been All Over appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/the-amd-instinct-mi350p-is-a-hbm-pcie-accelerator-that-has-been-all-over/",
+    "layer_ids": [
+      "gpu",
+      "hbm"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-409d996205b4bb2d",
+    "date": "2026-07-17",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "TSMC CoWoS versus Intel EMIB Semiconductor Packaging",
+    "quote": "There has been talk at the latest conferences about TSMC customers taking wafers to Intel for packaging. The question is why? Is it competitive pricing? Capacity? Supply chain diversity? CC Wei was asked about this during the last investor call and his perfect response was: Jeff Su: I guess very simply put, EMIB-T, in his view, is … Read More The post TSMC CoWoS versus Intel EMIB Semiconductor Packaging appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/371412-tsmc-cowos-versus-intel-emib-semiconductor-packaging/",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [
+      "SU.PA"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-5da17f85188ca2fd",
+    "date": "2026-07-17",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "TSMC’s Raises the Bar on CAPEX!",
+    "quote": "On the latest investor call the big story was the increase in CAPEX for 2026 and the expected CAPEX for 2027. TSMC raised the CAPEX ceiling for 2026 from US$56 billion to US$64 billion. My guess would be US$64 billion will be spent if not more. We have been discussing this in the SemiWiki Forum and my guess for 2027 TSMC CAPEX is and incredible… Read More The post TSMC’s Raises the Bar on CAPEX! appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/371192-tsmcs-raises-the-bar-on-capex/",
+    "layer_ids": [
+      "hyperscalers",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-a1e29505047df323",
     "date": "2026-07-16",
     "source": "Nikkei Asia",
@@ -138,20 +201,6 @@
     "url": "https://www.nextplatform.com/ai/2026/07/16/ai-chips-drive-around-a-third-of-tsmc-revenues/5273929",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-886b0f2637c1c8db",
-    "date": "2026-07-16",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "PCIe 7 Switch IP with Time Division Multiplexing: Powering the Next Generation of AI Connectivity",
-    "quote": "PCI Express (PCIe), PCIe switches, Time Division Multiplexing (TDM), Network Interface Cards (NICs), and SmartNICs are all well-established technologies that have formed the backbone of computing and networking systems for years. More recently, SuperNICs have emerged as the next generation of networking devices optimized… Read More The post PCIe 7 Switch IP with Time Division Multiplexing: Powering the Next Generation of AI Connectivity appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/artificial-intelligence/371185-pcie-7-switch-ip-with-time-division-multiplexing-powering-the-next-generation-of-ai-connectivity/",
-    "layer_ids": [
-      "networking"
     ],
     "tickers": [],
     "arch_risk": false
@@ -241,20 +290,6 @@
     "url": "https://www.utilitydive.com/news/sunrun-distributed-data-center-pilot-taps-its-home-solar-and-battery-netw/825314/",
     "layer_ids": [
       "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-abafafb39f4f0ce5",
-    "date": "2026-07-15",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "DAC 2026 See Analog Bits TSMC N2P IP portfolio and meet with its engineering experts!",
-    "quote": "Analog Bits , Inc. is an established provider of mixed-signal semiconductor IP that integrates into advanced system-on-chip (SoC) designs to enable intelligent energy and power management. Its full portfolio of IP blocks includes precision clocking macros, power and temperature sensors including LDO and regulators, programmable… Read More The post DAC 2026 See Analog Bits TSMC N2P IP portfolio and meet with its engineering experts! appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ip/analog-bits/371049-dac-2026-see-analog-bits-tsmc-n2p-ip-portfolio-and-meet-with-its-engineering-experts/",
-    "layer_ids": [
-      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -350,21 +385,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-777109fcd52f8952",
-    "date": "2026-07-11",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
-    "quote": "In preparation for the Rubin Vera era, AIC was showing off its F2032-01-G6, a 2U JBOF storage system that can house up to 32 E3 SSDs. The box is designed to be paired with BlueField-4 DPUs, allowing it to be used as a key value caching appliance The post AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/aic-gets-flashy-with-32-ssd-bay-jbof-server-for-key-value-caching/",
-    "layer_ids": [
-      "gpu",
-      "networking"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-4a2c38770852a7d0",
     "date": "2026-07-09",
     "source": "DigiTimes",
@@ -391,20 +411,6 @@
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeFB6cm12d3c0NXA1UTVhNzhQWDVkUkEyRGtCcUJLZXhXUDJ2LVBxWU1hQ3Y3MlZFdU5xWWVrYkdXMG4wSy1RZzJGWnhBZEx3MUs0cVFtVm1wZnVVTGxqTUZNMVh0eXgwMmJVTFJuTVdGMGZrbTBkU1VrR1dSenhnZm1DMUdVZk5ITEY2RUh5QXEyNGRCMVFn?oc=5",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-391a59ef3a0f1b8a",
-    "date": "2026-07-06",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "China advanced packaging maker SJ Semiconductor starts US$1.5bn 3DIC project for AI chips - digitimes",
-    "quote": "China advanced packaging maker SJ Semiconductor starts US$1.5bn 3DIC project for AI chips digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ2JTNDZocjczQTRma2pKQmpaSzE5eUdCVEwtWDJjOGNaNHhFSVlqNnJOTXVjaDZZamRjVGdaaFVuY1NpLTVWNnVwY2JKMWgxcnBJMm9tdldZaUhha3kxSE1SOEV6Z091YWRaNU1DTzdkWG14by1QX2hXbWlQS21jcTRjTU5JN1pDU1lUbTBLaDNDaXY5S3VBeXpCRXd6cEpwaTdz?oc=5",
-    "layer_ids": [
-      "packaging"
     ],
     "tickers": [],
     "arch_risk": false

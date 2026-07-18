@@ -36,31 +36,27 @@
     }
   },
   "MU": {
-    "market_cap": 958798299136.0,
-    "market_cap_usd": 958798299136.0,
-    "pe_trailing": 19.268044,
+    "market_cap": null,
+    "market_cap_usd": null,
+    "pe_trailing": 19.193987,
     "pe_forward": 5.630772,
     "revenue_growth": 3.457,
     "profit_margin": 0.55906,
     "free_cashflow": 7639499776.0,
     "sector": "Technology",
     "industry": "Semiconductors",
-    "long_name": "Micron Technology, Inc.",
+    "long_name": null,
     "currency": "USD",
-    "next_earnings": {
-      "date": "2026-09-23",
-      "range_end": null,
-      "confirmed": true
-    }
+    "next_earnings": null
   },
   "TSM": {
     "market_cap": 2066135646208.0,
     "market_cap_usd": 2066135646208.0,
-    "pe_trailing": 30.667437,
+    "pe_trailing": 29.840448,
     "pe_forward": 18.759014,
-    "revenue_growth": 0.351,
-    "profit_margin": 0.46505,
-    "free_cashflow": 719158444032.0,
+    "revenue_growth": 0.36,
+    "profit_margin": 0.49923,
+    "free_cashflow": 739057991680.0,
     "sector": "Technology",
     "industry": "Semiconductors",
     "long_name": "Taiwan Semiconductor Manufacturing Company Limited",
@@ -110,7 +106,7 @@
   "ASX": {
     "market_cap": 84269457408.0,
     "market_cap_usd": 84269457408.0,
-    "pe_trailing": 61.95161,
+    "pe_trailing": 60.015625,
     "pe_forward": 19.284258,
     "revenue_growth": 0.172,
     "profit_margin": 0.07043,
@@ -164,11 +160,11 @@
   "ASML": {
     "market_cap": 671245467648.0,
     "market_cap_usd": 671245467648.0,
-    "pe_trailing": 56.813393,
-    "pe_forward": 30.308468,
+    "pe_trailing": 60.240604,
+    "pe_forward": 30.32463,
     "revenue_growth": 0.213,
     "profit_margin": 0.30114,
-    "free_cashflow": 8437074944.0,
+    "free_cashflow": 8437675008.0,
     "sector": "Technology",
     "industry": "Semiconductor Equipment & Materials",
     "long_name": "ASML Holding N.V.",
@@ -182,7 +178,7 @@
   "AMAT": {
     "market_cap": 420528521216.0,
     "market_cap_usd": 420528521216.0,
-    "pe_trailing": 52.650093,
+    "pe_trailing": 49.733334,
     "pe_forward": 31.62976,
     "revenue_growth": 0.114,
     "profit_margin": 0.29314,
@@ -200,7 +196,7 @@
   "LRCX": {
     "market_cap": 391803895808.0,
     "market_cap_usd": 391803895808.0,
-    "pe_trailing": 60.59961,
+    "pe_trailing": 59.224953,
     "pe_forward": 38.766644,
     "revenue_growth": 0.238,
     "profit_margin": 0.30938998,
@@ -218,7 +214,7 @@
   "KLAC": {
     "market_cap": 277910061056.0,
     "market_cap_usd": 277910061056.0,
-    "pe_trailing": 62.026237,
+    "pe_trailing": 60.269123,
     "pe_forward": 41.513813,
     "revenue_growth": 0.115,
     "profit_margin": 0.35661998,
@@ -254,7 +250,7 @@
   "NVDA": {
     "market_cap": 4912260841472.0,
     "market_cap_usd": 4912260841472.0,
-    "pe_trailing": 31.738655,
+    "pe_trailing": 31.058191,
     "pe_forward": 15.80593,
     "revenue_growth": 0.852,
     "profit_margin": 0.62966,
@@ -270,16 +266,16 @@
     }
   },
   "AMD": {
-    "market_cap": 808386560000.0,
-    "market_cap_usd": 808386560000.0,
-    "pe_trailing": 166.92256,
+    "market_cap": null,
+    "market_cap_usd": null,
+    "pe_trailing": 164.15895,
     "pe_forward": 36.81913,
     "revenue_growth": 0.378,
     "profit_margin": 0.13374,
     "free_cashflow": 7173374976.0,
     "sector": "Technology",
     "industry": "Semiconductors",
-    "long_name": "Advanced Micro Devices, Inc.",
+    "long_name": null,
     "currency": "USD",
     "next_earnings": {
       "date": "2026-08-04",
@@ -290,7 +286,7 @@
   "AVGO": {
     "market_cap": 1764229775360.0,
     "market_cap_usd": 1764229775360.0,
-    "pe_trailing": 62.114746,
+    "pe_trailing": 61.701332,
     "pe_forward": 19.098053,
     "revenue_growth": 0.479,
     "profit_margin": 0.38848,
@@ -308,7 +304,7 @@
   "MRVL": {
     "market_cap": 169348677632.0,
     "market_cap_usd": 169348677632.0,
-    "pe_trailing": 64.61643,
+    "pe_trailing": 64.838486,
     "pe_forward": 30.435202,
     "revenue_growth": 0.276,
     "profit_margin": 0.28986,
@@ -326,8 +322,8 @@
   "GOOGL": {
     "market_cap": 4231485980672.0,
     "market_cap_usd": 4231485980672.0,
-    "pe_trailing": 27.028059,
-    "pe_forward": 23.691233,
+    "pe_trailing": 26.4508,
+    "pe_forward": 23.67202,
     "revenue_growth": 0.218,
     "profit_margin": 0.37919,
     "free_cashflow": 27921750016.0,
@@ -344,7 +340,7 @@
   "LITE": {
     "market_cap": 57013395456.0,
     "market_cap_usd": 57013395456.0,
-    "pe_trailing": 129.70265,
+    "pe_trailing": 128.11539,
     "pe_forward": 40.041878,
     "revenue_growth": 0.901,
     "profit_margin": 0.17678,
@@ -376,20 +372,20 @@
   "FN": {
     "market_cap": 17140589568.0,
     "market_cap_usd": 17140589568.0,
-    "pe_trailing": 39.53636,
+    "pe_trailing": 41.169537,
     "pe_forward": 27.714052,
     "revenue_growth": 0.393,
     "profit_margin": 0.0994,
     "free_cashflow": -79178376.0,
     "sector": "Technology",
     "industry": "Electronic Components",
-    "long_name": "Fabrinet",
+    "long_name": null,
     "currency": "USD",
     "next_earnings": null
   },
   "300308.SZ": {
     "market_cap": 1092327768064.0,
-    "market_cap_usd": 161186362734.18298,
+    "market_cap_usd": 161403096552.73694,
     "pe_trailing": 72.9851,
     "pe_forward": 15.665846,
     "revenue_growth": 1.921,
@@ -403,7 +399,7 @@
   },
   "300502.SZ": {
     "market_cap": 673258668032.0,
-    "market_cap_usd": 99347575931.0557,
+    "market_cap_usd": 99481160305.8773,
     "pe_trailing": 66.69614,
     "pe_forward": 11.530361,
     "revenue_growth": 1.058,
@@ -454,7 +450,7 @@
   "CSCO": {
     "market_cap": 441204211712.0,
     "market_cap_usd": 441204211712.0,
-    "pe_trailing": 36.462543,
+    "pe_trailing": 37.313335,
     "pe_forward": 23.359718,
     "revenue_growth": 0.12,
     "profit_margin": 0.19685,
@@ -472,7 +468,7 @@
   "HPE": {
     "market_cap": 60675006464.0,
     "market_cap_usd": 60675006464.0,
-    "pe_trailing": 42.036697,
+    "pe_trailing": 42.822426,
     "pe_forward": 11.4589815,
     "revenue_growth": 0.4,
     "profit_margin": 0.040110003,
@@ -484,28 +480,24 @@
     "next_earnings": null
   },
   "CLS": {
-    "market_cap": 34645995520.0,
-    "market_cap_usd": 34645995520.0,
-    "pe_trailing": 36.74878,
+    "market_cap": null,
+    "market_cap_usd": null,
+    "pe_trailing": 36.48184,
     "pe_forward": 19.97893,
     "revenue_growth": 0.528,
     "profit_margin": 0.069520004,
     "free_cashflow": 646862528.0,
     "sector": "Technology",
     "industry": "Electronic Components",
-    "long_name": "Celestica Inc.",
+    "long_name": null,
     "currency": "USD",
-    "next_earnings": {
-      "date": "2026-07-27",
-      "range_end": null,
-      "confirmed": true
-    }
+    "next_earnings": null
   },
   "2345.TW": {
-    "market_cap": 1168117727232.0,
-    "market_cap_usd": 36092002677.36048,
-    "pe_trailing": 39.839878,
-    "pe_forward": 19.847849,
+    "market_cap": 1179295940608.0,
+    "market_cap_usd": 36437382340.46234,
+    "pe_trailing": 40.221123,
+    "pe_forward": 20.03778,
     "revenue_growth": 0.64,
     "profit_margin": 0.107209995,
     "free_cashflow": 18759366656.0,
@@ -522,8 +514,8 @@
   "GEV": {
     "market_cap": 284262760448.0,
     "market_cap_usd": 284262760448.0,
-    "pe_trailing": 30.301918,
-    "pe_forward": 42.98824,
+    "pe_trailing": 30.95815,
+    "pe_forward": 42.98347,
     "revenue_growth": 0.163,
     "profit_margin": 0.23809999,
     "free_cashflow": 9315624960.0,
@@ -538,16 +530,16 @@
     }
   },
   "ETN": {
-    "market_cap": 155316109312.0,
-    "market_cap_usd": 155316109312.0,
-    "pe_trailing": 38.75872,
+    "market_cap": null,
+    "market_cap_usd": null,
+    "pe_trailing": 39.061523,
     "pe_forward": 25.352713,
     "revenue_growth": 0.168,
     "profit_margin": 0.13986,
     "free_cashflow": 2646500096.0,
     "sector": "Industrials",
     "industry": "Specialty Industrial Machinery",
-    "long_name": "Eaton Corporation plc",
+    "long_name": null,
     "currency": "USD",
     "next_earnings": {
       "date": "2026-07-31",
@@ -558,7 +550,7 @@
   "VRT": {
     "market_cap": 111222546432.0,
     "market_cap_usd": 111222546432.0,
-    "pe_trailing": 74.05627,
+    "pe_trailing": 72.93703,
     "pe_forward": 32.63328,
     "revenue_growth": 0.301,
     "profit_margin": 0.14372,
@@ -594,8 +586,8 @@
   "HUBB": {
     "market_cap": 25822191616.0,
     "market_cap_usd": 25822191616.0,
-    "pe_trailing": 28.49388,
-    "pe_forward": 21.775671,
+    "pe_trailing": 28.898287,
+    "pe_forward": 21.771664,
     "revenue_growth": 0.111,
     "profit_margin": 0.15105,
     "free_cashflow": 541449984.0,
@@ -630,7 +622,7 @@
   "CEG": {
     "market_cap": 90128973824.0,
     "market_cap_usd": 90128973824.0,
-    "pe_trailing": 21.889853,
+    "pe_trailing": 21.927889,
     "pe_forward": 18.581274,
     "revenue_growth": 0.638,
     "profit_margin": 0.12693,
@@ -666,7 +658,7 @@
   "LEU": {
     "market_cap": 3069939456.0,
     "market_cap_usd": 3069939456.0,
-    "pe_trailing": 53.44178,
+    "pe_trailing": 56.745457,
     "pe_forward": 39.573154,
     "revenue_growth": 0.049,
     "profit_margin": 0.13397999,
@@ -684,7 +676,7 @@
   "NVT": {
     "market_cap": 25053730816.0,
     "market_cap_usd": 25053730816.0,
-    "pe_trailing": 52.337837,
+    "pe_trailing": 52.693874,
     "pe_forward": 26.999144,
     "revenue_growth": 0.535,
     "profit_margin": 0.11371,
@@ -702,7 +694,7 @@
   "MOD": {
     "market_cap": 12179600384.0,
     "market_cap_usd": 12179600384.0,
-    "pe_trailing": 100.14847,
+    "pe_trailing": 101.03084,
     "pe_forward": 20.240425,
     "revenue_growth": 0.475,
     "profit_margin": 0.03819,
@@ -732,10 +724,10 @@
     "next_earnings": null
   },
   "3017.TW": {
-    "market_cap": 863594610688.0,
-    "market_cap_usd": 26682977472.625004,
-    "pe_trailing": 36.630035,
-    "pe_forward": 16.079645,
+    "market_cap": 873408167936.0,
+    "market_cap_usd": 26986192573.47665,
+    "pe_trailing": 37.046288,
+    "pe_forward": 16.26237,
     "revenue_growth": 1.102,
     "profit_margin": 0.14448,
     "free_cashflow": 37729456128.0,
@@ -750,10 +742,10 @@
     }
   },
   "3653.TW": {
-    "market_cap": 471012278272.0,
-    "market_cap_usd": 14553136222.618385,
-    "pe_trailing": 88.50289,
-    "pe_forward": 26.008142,
+    "market_cap": 477615259648.0,
+    "market_cap_usd": 14757152321.291822,
+    "pe_trailing": 89.74359,
+    "pe_forward": 26.372742,
     "revenue_growth": 0.116,
     "profit_margin": 0.25467,
     "free_cashflow": 3682283520.0,
@@ -768,10 +760,10 @@
     }
   },
   "3324.TWO": {
-    "market_cap": 83607781376.0,
-    "market_cap_usd": 2583277523.252107,
-    "pe_trailing": 33.115707,
-    "pe_forward": 12.3587265,
+    "market_cap": 81959436288.0,
+    "market_cap_usd": 2532347660.668578,
+    "pe_trailing": 32.462822,
+    "pe_forward": 12.115071,
     "revenue_growth": 0.937,
     "profit_margin": 0.11765,
     "free_cashflow": -3978821376.0,
@@ -784,7 +776,7 @@
   "MSFT": {
     "market_cap": 2925466222592.0,
     "market_cap_usd": 2925466222592.0,
-    "pe_trailing": 23.86788,
+    "pe_trailing": 23.469606,
     "pe_forward": 20.324642,
     "revenue_growth": 0.183,
     "profit_margin": 0.39341998,
@@ -802,7 +794,7 @@
   "META": {
     "market_cap": 1639846903808.0,
     "market_cap_usd": 1639846903808.0,
-    "pe_trailing": 24.15894,
+    "pe_trailing": 23.474201,
     "pe_forward": 17.782232,
     "revenue_growth": 0.331,
     "profit_margin": 0.32837,
@@ -820,7 +812,7 @@
   "AMZN": {
     "market_cap": 2659480240128.0,
     "market_cap_usd": 2659480240128.0,
-    "pe_trailing": 29.858696,
+    "pe_trailing": 29.572968,
     "pe_forward": 24.94745,
     "revenue_growth": 0.166,
     "profit_margin": 0.12224,
@@ -838,7 +830,7 @@
   "ORCL": {
     "market_cap": 364120342528.0,
     "market_cap_usd": 364120342528.0,
-    "pe_trailing": 21.317034,
+    "pe_trailing": 21.682676,
     "pe_forward": 11.574311,
     "revenue_growth": 0.206,
     "profit_margin": 0.25368,
@@ -870,7 +862,7 @@
   "NBIS": {
     "market_cap": 45120249856.0,
     "market_cap_usd": 45120249856.0,
-    "pe_trailing": 66.3097,
+    "pe_trailing": 68.61391,
     "pe_forward": 491.97168,
     "revenue_growth": 6.839,
     "profit_margin": 0.93086,
@@ -886,27 +878,23 @@
     }
   },
   "CRM": {
-    "market_cap": 139860639744.0,
-    "market_cap_usd": 139860639744.0,
-    "pe_trailing": 19.996489,
+    "market_cap": null,
+    "market_cap_usd": null,
+    "pe_trailing": 19.810905,
     "pe_forward": 10.999522,
     "revenue_growth": 0.133,
     "profit_margin": 0.18733,
     "free_cashflow": 16552999936.0,
     "sector": "Technology",
     "industry": "Software - Application",
-    "long_name": "Salesforce, Inc.",
+    "long_name": null,
     "currency": "USD",
-    "next_earnings": {
-      "date": "2026-09-02",
-      "range_end": null,
-      "confirmed": true
-    }
+    "next_earnings": null
   },
   "NOW": {
     "market_cap": 106472235008.0,
     "market_cap_usd": 106472235008.0,
-    "pe_trailing": 61.82036,
+    "pe_trailing": 61.45238,
     "pe_forward": 20.557055,
     "revenue_growth": 0.221,
     "profit_margin": 0.12586,
@@ -960,7 +948,7 @@
   "CDNS": {
     "market_cap": 91049615360.0,
     "market_cap_usd": 91049615360.0,
-    "pe_trailing": 84.643585,
+    "pe_trailing": 76.948715,
     "pe_forward": 35.146538,
     "revenue_growth": 0.187,
     "profit_margin": 0.21180001,
@@ -978,7 +966,7 @@
   "SNPS": {
     "market_cap": 73580716032.0,
     "market_cap_usd": 73580716032.0,
-    "pe_trailing": 95.35359,
+    "pe_trailing": 87.73402,
     "pe_forward": 22.249273,
     "revenue_growth": 0.419,
     "profit_margin": 0.089090005,
@@ -992,7 +980,7 @@
   "SIEGY": {
     "market_cap": 233139961856.0,
     "market_cap_usd": 233139961856.0,
-    "pe_trailing": 28.066666,
+    "pe_trailing": 27.556364,
     "pe_forward": 22.682272,
     "revenue_growth": -0.0,
     "profit_margin": 0.09688,

@@ -71,21 +71,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-786c1d799321d5a9",
-    "date": "2026-07-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC welcomes EMIB relief as MediaTek pressure eases - digitimes",
-    "quote": "TSMC welcomes EMIB relief as MediaTek pressure eases digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVm9LRzZQRklCRml3MGVCTVZvZzVfckx4clU0UWNSbHlYSFNxU01KU2xvZmpXZi1NN2VOQ1ZQb3daV3JPeno5blF6UzlJc3Q4MlhWdDVXWTV6NFh5N0VjNVNFeWFSNEpoUVdDbDlTeXlrNTFXS0VxYjZTY1B6bXR0NUxuSFJIRjRCVnBfbmV4VHc4ZnIzY0E?oc=5",
-    "layer_ids": [
-      "foundry",
-      "packaging"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-48c26d97e6553b6d",
     "date": "2026-07-17",
     "source": "DigiTimes",
@@ -233,15 +218,16 @@
     "arch_risk": false
   },
   {
-    "id": "rss-1e1f28bfd29ed3c8",
+    "id": "rss-e2781d2b5a53510a",
     "date": "2026-07-16",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "AI Chips Drive Around A Third Of TSMC Revenues",
-    "quote": "",
-    "url": "https://www.nextplatform.com/ai/2026/07/16/ai-chips-drive-around-a-third-of-tsmc-revenues/5273929",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "C.C. Wei on EMIB, memory envy, and why TSMC won't squeeze its customers - digitimes",
+    "quote": "C.C. Wei on EMIB, memory envy, and why TSMC won't squeeze its customers digitimes",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ2I0d0FVYjM1WTZRM2JIaFFrQ0N0bjl6eHJjUTBValljSy1KZWRJUWhQVklINmFjaEVTMzlzYnZQU0poaFFDbHNtQVJMS0tSSWdwRkZsc09WSjlxdHU3eklWLV8yc2FtdW9UYmpRZXN0SEpCamtCZjk1aGxkajM2OF9NamtLcENCeXF3ZG5nY3Z3OVVJWFE2VGQyV3hEdUx5dHdxTzFESQ?oc=5",
     "layer_ids": [
-      "foundry"
+      "foundry",
+      "packaging"
     ],
     "tickers": [],
     "arch_risk": false
@@ -401,15 +387,16 @@
     "arch_risk": false
   },
   {
-    "id": "rss-937fabfb71b42afd",
+    "id": "rss-8bf248e41888e008",
     "date": "2026-07-13",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "ASRock Rack Built an Edge Server Based on NVIDIA’s Thor Industrial SoC",
-    "quote": "ASRock Rack has developed an unlikely edge server based on NVIDIA's industrial SoC, Thor. The Blackwell-era chip is being used to power the 2UXGI-THOR, a server aimed at the industrial and medical markets The post ASRock Rack Built an Edge Server Based on NVIDIA’s Thor Industrial SoC appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/asrock-rack-built-an-edge-server-based-on-nvidias-thor-industrial-soc/",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Samsung develops glass interposer as TSMC expands packaging capacity - digitimes",
+    "quote": "Samsung develops glass interposer as TSMC expands packaging capacity digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVEY0d2d5LUxnNWk0Mm83QkFWOUFEdktzVzZUM2VTRGs0bU52VG9zRzFkaDdnU0h2OWNLWTR3eHYySVVDX2xJRHR4MFFKNGFJRmhVUmgwSms2SjlEd2lodVdOMVN3THJxVzN2SkpzMmZ4ZDdFaWF3Vkh1dXNqcmVDUDlHdzlva2FpVmRsczBybHJjeFBjQjhQOA?oc=5",
     "layer_ids": [
-      "gpu"
+      "packaging",
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -500,22 +487,6 @@
       "wfe"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b369d36f1b4d9461",
-    "date": "2026-07-01",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Of Course Meta Platforms Is Going To Be A Cloud",
-    "quote": "",
-    "url": "https://www.nextplatform.com/cloud/2026/07/01/of-course-meta-platforms-is-going-to-be-a-cloud/5265392",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "META"
-    ],
     "arch_risk": false
   },
   {
@@ -627,23 +598,6 @@
       "optics"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ae9c93480479530c",
-    "date": "2026-06-29",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "AMD Stretches Server DRAM With Flash Extended Memory",
-    "quote": "",
-    "url": "https://www.nextplatform.com/store/2026/06/29/amd-stretches-server-dram-with-flash-extended-memory/5263848",
-    "layer_ids": [
-      "hbm",
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
-    ],
     "arch_risk": false
   },
   {

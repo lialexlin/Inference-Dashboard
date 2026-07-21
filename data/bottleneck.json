@@ -1,25 +1,25 @@
 {
   "hbm": {
-    "tightness_score": 73,
-    "signal_count_90d": 18,
-    "tightness_language_hits_per_signal": 0.278,
+    "tightness_score": 71,
+    "signal_count_90d": 19,
+    "tightness_language_hits_per_signal": 0.211,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Manish Bhatia, Executives] I think what's the demand is supply constrained, right, for both right now. And so we're just continuing to work very hard on enhancing supply, but I mentioned persistent structural factors earlier in my comments",
-      "Hanmi Semiconductor speeds up HBM tool output and plants US flag as equipment shortage looms digitimes",
-      "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t"
+      "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t",
+      "HBM4 demand exceeds capacity for the next three years; full 2026 sold out, 3-year DDR5 LTA signed with Microsoft. Op margin 72%, revenue +198% YoY."
     ],
     "components": {
-      "density_pct": 0.467,
-      "language_pct": 0.867,
+      "density_pct": 0.533,
+      "language_pct": 0.733,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "foundry": {
     "tightness_score": 60,
-    "signal_count_90d": 30,
-    "tightness_language_hits_per_signal": 0.033,
+    "signal_count_90d": 26,
+    "tightness_language_hits_per_signal": 0.038,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "TSMC's CoWoS capacity remains 'extremely tight' as OSAT partners ramp expansion digitimes",
@@ -30,10 +30,10 @@
       "language_pct": 0.2,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "packaging": {
-    "tightness_score": 40,
+    "tightness_score": 45,
     "signal_count_90d": 14,
     "tightness_language_hits_per_signal": 0.214,
     "cross_quarter_supply_tight": false,
@@ -42,46 +42,46 @@
       "TSMC's CoWoS capacity remains 'extremely tight' as OSAT partners ramp expansion digitimes"
     ],
     "components": {
-      "density_pct": 0.2,
-      "language_pct": 0.8,
+      "density_pct": 0.267,
+      "language_pct": 0.867,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "wfe": {
-    "tightness_score": 32,
-    "signal_count_90d": 16,
-    "tightness_language_hits_per_signal": 0.125,
+    "tightness_score": 29,
+    "signal_count_90d": 14,
+    "tightness_language_hits_per_signal": 0.143,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Douglas Bettinger, Executives] Everybody wants to know the answer to that question. And frankly, I don't have a specific number for you, except I would tell you, the industry is undersupplied right now. You're seeing it in memory pricing, "
     ],
     "components": {
-      "density_pct": 0.333,
+      "density_pct": 0.267,
       "language_pct": 0.467,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "gpu": {
-    "tightness_score": 65,
-    "signal_count_90d": 25,
-    "tightness_language_hits_per_signal": 0.12,
+    "tightness_score": 63,
+    "signal_count_90d": 23,
+    "tightness_language_hits_per_signal": 0.087,
     "cross_quarter_supply_tight": true,
     "evidence": [
-      "Hanmi Semiconductor speeds up HBM tool output and plants US flag as equipment shortage looms digitimes",
       "[Ashish Saran, Executives] Yes. I mean supply has been tight. I mean that's worst-kept secret out there. But having said that, I mean, just look at the upside we're driving this year and next year. So I think we've got -- done a pretty good",
-      "Google Cloud has entered into a limited number of agreements to supply multiple gigawatts of TPU hardware to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. Revenues for these transactions "
+      "Google Cloud has entered into a limited number of agreements to supply multiple gigawatts of TPU hardware to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. Revenues for these transactions ",
+      "[NVDA] Both filings cite data-center / energy / capital availability as the gating constraint on customer deployments — no easing language added"
     ],
     "components": {
       "density_pct": 0.733,
-      "language_pct": 0.4,
+      "language_pct": 0.333,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "networking": {
-    "tightness_score": 40,
+    "tightness_score": 43,
     "signal_count_90d": 22,
     "tightness_language_hits_per_signal": 0.091,
     "cross_quarter_supply_tight": false,
@@ -91,10 +91,10 @@
     ],
     "components": {
       "density_pct": 0.667,
-      "language_pct": 0.333,
+      "language_pct": 0.4,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "optics": {
     "tightness_score": 39,
@@ -109,10 +109,10 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "switches": {
-    "tightness_score": 73,
+    "tightness_score": 71,
     "signal_count_90d": 19,
     "tightness_language_hits_per_signal": 0.211,
     "cross_quarter_supply_tight": true,
@@ -122,16 +122,16 @@
       "[Shannon Cross, Executives] Well, we have long-term agreements. I mean we've been in this business for a very long time going back to Compaq. And I mean, I'm sure some of the components probably go back to oscillators, if you go back 80 yea"
     ],
     "components": {
-      "density_pct": 0.6,
+      "density_pct": 0.533,
       "language_pct": 0.733,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "power": {
     "tightness_score": 59,
-    "signal_count_90d": 36,
-    "tightness_language_hits_per_signal": 0.139,
+    "signal_count_90d": 30,
+    "tightness_language_hits_per_signal": 0.167,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "Revenue $2.65B (+30% YoY), backlog ~$15B (+109% YoY), book-to-bill 2.9x, op margin 20.8%. Raised FY26 to $13.5–14B.",
@@ -139,16 +139,16 @@
       "Data center orders +30%+ for 4 consecutive quarters; electrical Americas backlog at record."
     ],
     "components": {
-      "density_pct": 0.933,
-      "language_pct": 0.533,
+      "density_pct": 0.867,
+      "language_pct": 0.6,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "cooling": {
-    "tightness_score": 48,
-    "signal_count_90d": 15,
-    "tightness_language_hits_per_signal": 0.333,
+    "tightness_score": 45,
+    "signal_count_90d": 12,
+    "tightness_language_hits_per_signal": 0.417,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "Revenue $2.65B (+30% YoY), backlog ~$15B (+109% YoY), book-to-bill 2.9x, op margin 20.8%. Raised FY26 to $13.5–14B.",
@@ -156,30 +156,30 @@
       "[Gary Corona, Executives] M&A is a big part of capital allocation. As we talked about our capital allocation strategy at our Investor Day, we made it very clear that the first priority is growth organic growth, and you're seeing that on the"
     ],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.2,
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "hyperscalers": {
-    "tightness_score": 45,
-    "signal_count_90d": 31,
-    "tightness_language_hits_per_signal": 0.065,
+    "tightness_score": 48,
+    "signal_count_90d": 32,
+    "tightness_language_hits_per_signal": 0.062,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Gary Corona, Executives] M&A is a big part of capital allocation. As we talked about our capital allocation strategy at our Investor Day, we made it very clear that the first priority is growth organic growth, and you're seeing that on the",
       "Google Cloud has entered into a limited number of agreements to supply multiple gigawatts of TPU hardware to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. Revenues for these transactions "
     ],
     "components": {
-      "density_pct": 0.867,
+      "density_pct": 0.933,
       "language_pct": 0.267,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "neoclouds": {
-    "tightness_score": 27,
+    "tightness_score": 21,
     "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.143,
     "cross_quarter_supply_tight": false,
@@ -188,14 +188,14 @@
     ],
     "components": {
       "density_pct": 0.067,
-      "language_pct": 0.6,
+      "language_pct": 0.467,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "software": {
     "tightness_score": 16,
-    "signal_count_90d": 17,
+    "signal_count_90d": 16,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -204,7 +204,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "eda": {
     "tightness_score": 32,
@@ -220,7 +220,7 @@
       "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -233,6 +233,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-07-20T23:06:12.477863+00:00"
+    "updated_at": "2026-07-21T11:06:26.723173+00:00"
   }
 }

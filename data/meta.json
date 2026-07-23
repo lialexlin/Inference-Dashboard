@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-07-23T11:05:24.313924+00:00",
+  "last_refresh_at": "2026-07-23T22:59:08.957791+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-07-23T11:06:16.558900+00:00"
+      "ts": "2026-07-23T22:59:54.108837+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,56 +24,56 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-07-23T11:06:21.030984+00:00"
+      "ts": "2026-07-23T22:59:58.250577+00:00"
     },
     "edgar": {
       "entries": 159,
-      "summarized": 66,
+      "summarized": 65,
       "errors": {},
-      "ts": "2026-07-23T11:06:35.222945+00:00"
+      "ts": "2026-07-23T23:00:07.590215+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "250001 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified."
+        "__connection__": "250001 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked."
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-07-23T11:05:26.951137+00:00"
+      "ts": "2026-07-23T22:59:11.710988+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-07-23T11:08:47.944706+00:00"
+      "ts": "2026-07-23T23:02:23.922847+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "switches",
-          "tightness_score": 71
+          "tightness_score": 76
         },
         {
           "layer_id": "hbm",
-          "tightness_score": 65
+          "tightness_score": 68
         },
         {
           "layer_id": "gpu",
           "tightness_score": 65
         }
       ],
-      "ts": "2026-07-23T11:08:47.922535+00:00"
+      "ts": "2026-07-23T23:02:23.901138+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-07-23T11:08:47.912015+00:00"
+      "ts": "2026-07-23T23:02:23.890814+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,12 +84,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-07-23T11:08:47.951894+00:00"
+      "ts": "2026-07-23T23:02:23.930029+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 42,
+      "cached": 38,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -113,7 +113,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-07-23T11:08:46.449410+00:00"
+      "ts": "2026-07-23T23:02:22.592180+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -126,32 +126,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-07-23T11:08:47.041515+00:00"
+      "ts": "2026-07-23T23:02:23.173254+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-07-23T11:08:47.917266+00:00"
+      "ts": "2026-07-23T23:02:23.895959+00:00"
     },
     "tw_universe": {
       "ok": 1946,
       "stock_count": 1946,
       "sector_count": 71,
       "latest_date": "2026-07-23",
-      "ts": "2026-07-23T11:09:36.076980+00:00"
+      "ts": "2026-07-23T23:03:10.958560+00:00"
     },
     "us_universe": {
       "ok": 981,
       "stock_count": 981,
       "sector_count": 77,
-      "latest_date": "2026-07-22",
-      "ts": "2026-07-23T11:11:47.258722+00:00"
+      "latest_date": "2026-07-23",
+      "ts": "2026-07-23T23:05:13.829777+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 308,
-    "total": 334
+    "discovered_kept": 303,
+    "total": 329
   }
 }

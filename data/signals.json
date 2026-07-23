@@ -15,6 +15,24 @@
     "arch_risk": false
   },
   {
+    "id": "rss-534293e3fe800a2d",
+    "date": "2026-07-23",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "GE Vernova gas turbine backlog climbs to 116 GW",
+    "quote": "GE Vernova is taking reservations for 2031 deliveries now, said CEO Scott Strazik. He spoke of an increasingly diverse customer base, including data centers.",
+    "url": "https://www.utilitydive.com/news/ge-vernova-gas-turbine-backlog-climbs-to-116-gw/826039/",
+    "layer_ids": [
+      "power",
+      "software"
+    ],
+    "tickers": [
+      "GEV",
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-GOOGL-0001652044-26-000071",
     "accession": "0001652044-26-000071",
     "form": "10-Q",
@@ -30,6 +48,42 @@
     ],
     "tickers": [
       "GOOGL"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MXL-0001288469-26-000051",
+    "accession": "0001288469-26-000051",
+    "form": "10-Q",
+    "date": "2026-07-23",
+    "source": "SEC EDGAR (MXL)",
+    "source_type": "filing",
+    "headline": "MXL files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000051/mxl-20260630.htm",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [
+      "MXL"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MXL-0001288469-26-000050",
+    "accession": "0001288469-26-000050",
+    "form": "8-K",
+    "date": "2026-07-23",
+    "source": "SEC EDGAR (MXL)",
+    "source_type": "filing",
+    "headline": "MXL files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000050/mxl-20260723.htm",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [
+      "MXL"
     ],
     "arch_risk": false
   },
@@ -91,34 +145,6 @@
     "url": "https://www.nextplatform.com/connect/2026/07/22/salience-labs-wants-to-scale-up-ai-with-silicon-photonics-optical-switch/5276643",
     "layer_ids": [
       "optics"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-3ccf8d5fd451aa6c",
-    "date": "2026-07-22",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "CEO Interview with Dan Fritchman of Generation Alpha Transistor",
-    "quote": "Dan Fritchman is an electrical engineer and semiconductor-software entrepreneur. He is the founder and CEO of Generation Alpha Transistor , a San Francisco startup developing AI-based tools for integrated-circuit design. He earned a Ph.D. in Electrical Engineering and Computer Sciences from UC Berkeley in 2023. His dissertation,… Read More The post CEO Interview with Dan Fritchman of Generation Alpha Transistor appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ceo-interviews/371551-ceo-interview-with-dan-fritchman-of-generation-alpha-transistor/",
-    "layer_ids": [
-      "switches"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-caeca66a0411b58d",
-    "date": "2026-07-22",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "RISC-V Advantage in Accelerator Control Highlights System Verification Challenges",
-    "quote": "When considering best-fit applications for RISC-V, the appeal of extending the instruction set and competitive pricing for storage and edge applications has been pretty clear. But I have always struggled to understand the appeal in head-on competition with Arm in premium applications such as servers and infrastructure systems.… Read More The post RISC-V Advantage in Accelerator Control Highlights System Verification Challenges appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/artificial-intelligence/371319-risc-v-advantage-in-accelerator-control-highlights-system-verification-challenges/",
-    "layer_ids": [
-      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -225,20 +251,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-c80f456c94447044",
-    "date": "2026-07-21",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "China's EUV gap keeps semiconductor catch-up in check - digitimes",
-    "quote": "China's EUV gap keeps semiconductor catch-up in check digitimes",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOXVQX2psS1hKd1p2OUJMaGZEcXlrYTY0OVVTcHd3QnNjd3Y4VE1fUGxlUUZrVWt0RFJidUEtV0ZSc0JiVUNGc210aUJWN1lSNXhvRFNZcEFtNnEyekNySG5iSURJOVc0X01EZHVxVks1Y2xEa0cwR3BVSjZrRFkyc1BuR3FRMGFObXFYbzZzS3NaSEE4cHdBRHJYTTNfdw?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-7b48e3e2a9f08043",
     "date": "2026-07-21",
     "source": "DigiTimes",
@@ -279,20 +291,6 @@
     "url": "https://www.utilitydive.com/news/srp-marigold-project-board-energy-storage/825813/",
     "layer_ids": [
       "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-a307449dffa17361",
-    "date": "2026-07-21",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Silicon Creations at DAC 2026: Solutions for clocking, SerDes, and sensing in 2nm (and beyond)",
-    "quote": "Silicon Creations provides world-class IP for precision and general-purpose timing (PLLs and oscillators), high-performance multi-protocol, latency optimized and protocol-specific SerDes, high-speed I/Os, and accurate VT sensors. Applications include high-performance computing for AI, smart phones, wearables,… Read More The post Silicon Creations at DAC 2026: Solutions for clocking, SerDes, and sensing in 2nm (and beyond) appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ip/silicon-creations/371418-silicon-creations-at-dac-2026-solutions-for-clocking-serdes-and-sensing-in-2nm-and-beyond/",
-    "layer_ids": [
-      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -399,20 +397,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-e74c54e91654286e",
-    "date": "2026-07-18",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "Next Gen Server Memory On Display: DDR5-8000 RDIMMs and MRDIMM Gen2 Hits DDR5-12800",
-    "quote": "The next generation of server memory is slated to get even faster. At Computex 2026 Micron was showing off DDR5-8000 RDIMMs, while Samsung had uber-fast 12,800 MT/s second-gen MRDIMMs The post Next Gen Server Memory On Display: DDR5-8000 RDIMMs and MRDIMM Gen2 Hits DDR5-12800 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/next-gen-server-memory-on-display-ddr5-8000-rdimms-and-mrdimm-gen2-hits-ddr5-12800/",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-56b8d45aa40537be",
     "date": "2026-07-17",
     "source": "Nikkei Asia",
@@ -450,34 +434,6 @@
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRUlXR1dVLUNSYmxUaEIzMmNPaVZDbkczdzRIcnZIdVNYWmxxVUpBT0xLY3EtUzJyOWk1UWpQcEdyVlptQW5DX1NQT2RjZWx4RGxVV3lZRGkzX28yUERKZUx6LUJ5M1dfV1VLa0RiSTh6T0VUVlJ3YkZLVXZSMlRvQzNUWGxiSDRfTksxbjhQbw?oc=5",
     "layer_ids": [
       "packaging",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-a1e29505047df323",
-    "date": "2026-07-16",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "TSMC plans further $100bn US investment to feed AI demand - Nikkei Asia",
-    "quote": "TSMC plans further $100bn US investment to feed AI demand Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTzJuRkoyNUFiN2R0UG02Nzl6MHAweUZHblNaZldONEczT1g1dnNyVjZpdUVPa29maWdxVmxRZnRUN0VsNFp6aFRDRV83RXBSbVZlTTR3cGJHR0l0b1RpdHNiaXNlVmd4bnhqTFdUdDI5M0tJd3pTNmJoVkJQcllGLU1hQ25qQ2hBckxmVWpqek9teDhHSVZUMHN4aFh4LVpOYjhWdlQ2NEF3eENZUmc?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-4e799c0dafa242c4",
-    "date": "2026-07-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC says 2nm has four times as many tape-outs as 3nm at the same stage - digitimes",
-    "quote": "TSMC says 2nm has four times as many tape-outs as 3nm at the same stage digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaTJlaUh0ZkZsMml6QlY2OTk2RGNNZ1dxUHdXSkFsQTRCczlzNkNzemFDX3lHWE1MdWxESzFiQ05lZWtMSWlOR0RKOThXeWZHMFZFcXJyM0NGeHRzbkNlX01DTXpjLV9jSVhFcS15VFRZdUVzbmlLV3hnQzBBQVNLSFpUeHdIN2cw?oc=5",
-    "layer_ids": [
       "foundry"
     ],
     "tickers": [],
@@ -5116,6 +5072,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-ee4644f98a920e55",
+    "date": "2026-04-16",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC guides over 15% 2Q26 revenue growth, N3 margins set to top average - digitimes",
+    "quote": "TSMC guides over 15% 2Q26 revenue growth, N3 margins set to top average digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM2xQYWNlQlZDUlRRMlFkZXBQbXNwSDNOc2wyRGYwcmlzb2d0Mml2Q1ZfTWdDOHJUYm9UYW9lZUJZLXVYbHhDSWE3MXlsa2FxWnpZa0lsYTl6MUNOaGdDTHAxbm9seWxXN05mYUJiQmtiaWtVd2Y1NmlHcDdVcmMyd3ZtMThGYjN2UWdz?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "transcript-ASML-25198",
     "date": "2026-04-15",
     "headline": "ASML Q1 2026 Earnings Call",
@@ -7574,63 +7544,6 @@
     ],
     "tickers": [
       "KLAC"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-MXL-0001288469-26-000011",
-    "accession": "0001288469-26-000011",
-    "form": "10-K",
-    "date": "2026-01-29",
-    "source": "SEC EDGAR (MXL)",
-    "source_type": "filing",
-    "headline": "MXL files 10-K: periodic report",
-    "quote": "Currently, while server connections are transitioning from 10Gbps to 25Gbps or 100Gbps speeds, router and switch connections are moving from 400G to 800 and 1600Gbps (1.6T) interconnections, with the next generation of switch connections (under development) targeting 1600Gbps.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000011/mxl-20251231.htm",
-    "layer_ids": [
-      "optics",
-      "networking"
-    ],
-    "tickers": [
-      "MXL"
-    ],
-    "summary": {
-      "tldr": "FY25 revenue $467.6M +30% YoY recovery led by broadband (+$87.6M) and infrastructure (+$34.3M including optical DSPs); explicitly cites 800G to 1.6T switch transition as the next-gen optical driver.",
-      "takeaways": [
-        "FY25 revenue $467.6M +30% YoY; gross margin 57% (+3pts) on mix and lower intangible amortization; cost of revenue $201.8M",
-        "Broadband +$87.6M (+59%, now 44% of revenue vs 32%); Infrastructure +$34.3M on high-performance analog, wireless backhaul, and optical interconnect chips",
-        "Industrial/multi-market -$37.0M as the cyclical category retraced; Connectivity +$22.2M on Wi-Fi/MoCA recovery",
-        "10-K explicitly describes the 400G to 800G to 1.6T (1600Gbps) switch interconnect transition as the optical DSP roadmap",
-        "Customer concentration: top 10 customers = 65% of revenue (vs 60% prior year); 82% of shipments to Asia (49% Hong Kong, 12% Vietnam)",
-        "R&D -7% to $208.6M on workforce reductions; mgmt notes R&D will need to re-expand for next-gen products"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Mgmt expects revenue to fluctuate consistent with industry cyclicality; no point guidance in 10-K",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Currently, while server connections are transitioning from 10Gbps to 25Gbps or 100Gbps speeds, router and switch connections are moving from 400G to 800 and 1600Gbps (1.6T) interconnections, with the next generation of switch connections (under development) targeting 1600Gbps.",
-      "quote_section": "Item 1 Business — Data Center Infrastructure"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-MXL-0001288469-26-000009",
-    "accession": "0001288469-26-000009",
-    "form": "8-K",
-    "date": "2026-01-29",
-    "source": "SEC EDGAR (MXL)",
-    "source_type": "filing",
-    "headline": "MXL files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000009/mxl-20260129.htm",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [
-      "MXL"
     ],
     "arch_risk": false
   },

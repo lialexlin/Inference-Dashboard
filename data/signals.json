@@ -187,20 +187,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-a411a93b25e91679",
-    "date": "2026-07-22",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Salience Labs Wants To Scale Up AI With Silicon Photonics Optical Switch",
-    "quote": "",
-    "url": "https://www.nextplatform.com/connect/2026/07/22/salience-labs-wants-to-scale-up-ai-with-silicon-photonics-optical-switch/5276643",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-GOOGL-0001652044-26-000066",
     "accession": "0001652044-26-000066",
     "form": "8-K",
@@ -302,19 +288,17 @@
     "arch_risk": false
   },
   {
-    "id": "rss-7b48e3e2a9f08043",
+    "id": "rss-2e261565c57af8e6",
     "date": "2026-07-21",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Samsung, SK Hynix and Micron pull back on in-house CXL controller plans - digitimes",
-    "quote": "Samsung, SK Hynix and Micron pull back on in-house CXL controller plans digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMENjTHBfZjh4QWRzcXZWYlZwX1pkQTRZd2QwV3hKMldXV0lkZXBTa0V6eHlmY0ZEMTV5dWp1X1dMb2lhZ1Q3b2pDaFRpeDVmSUJuTmtqRDA4T0lXVzc2bjFfc2dvZ2c4WEtjekd2UnVwWlNtRlY0ckVHak5ZYlJxN182eUpKU1V1Ml9GazVrSnpncVhqQjBv?oc=5",
+    "headline": "TSMC weighs margin hit against long-term AI payoff in US push - digitimes",
+    "quote": "TSMC weighs margin hit against long-term AI payoff in US push digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSk41cWRqTXRsRVotM2JDd3dFSVNKZVhjVXUzeWZlRHZvbU9kbTV1Mzd0aGxLQlhUTTJ0MHVsRHVWTVV4NS00UnR4R3kwNDBUaDlFdGtnMTc1enhqWGhaZDdaQ3lSbXY5d0ZLMmRIcFhnb04wRVQ2d24xXzQ0SnphMkxTMWg3eWpPczlGR0MyVmYzenhmS2c?oc=5",
     "layer_ids": [
-      "hbm"
+      "foundry"
     ],
-    "tickers": [
-      "000660.KS"
-    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -447,13 +431,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-1e1f28bfd29ed3c8",
+    "id": "rss-a1e29505047df323",
     "date": "2026-07-16",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "AI Chips Drive Around A Third Of TSMC Revenues",
-    "quote": "",
-    "url": "https://www.nextplatform.com/ai/2026/07/16/ai-chips-drive-around-a-third-of-tsmc-revenues/5273929",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "TSMC plans further $100bn US investment to feed AI demand - Nikkei Asia",
+    "quote": "TSMC plans further $100bn US investment to feed AI demand Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTzJuRkoyNUFiN2R0UG02Nzl6MHAweUZHblNaZldONEczT1g1dnNyVjZpdUVPa29maWdxVmxRZnRUN0VsNFp6aFRDRV83RXBSbVZlTTR3cGJHR0l0b1RpdHNiaXNlVmd4bnhqTFdUdDI5M0tJd3pTNmJoVkJQcllGLU1hQ25qQ2hBckxmVWpqek9teDhHSVZUMHN4aFh4LVpOYjhWdlQ2NEF3eENZUmc?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -474,6 +458,22 @@
     ],
     "tickers": [
       "META"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-3f7f1a8c16ea22c6",
+    "date": "2026-07-11",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "SK Hynix rallies in biggest-ever foreign share sale in US - Nikkei Asia",
+    "quote": "SK Hynix rallies in biggest-ever foreign share sale in US Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaS16REM4UkxXai1nd2RPaWR5dTZPTzlQVkhEak41bnFjUDVKc2Y0NjlhMFM1dTNxN0pkNjBGZkQxVGhRMUpHSzRUREN1RUNTbVl3dnA0b3NFNzdOVEN1N3ZDcEFLaWg1U1AwNWZodHMxeGJtVjRYYzN3MmNyaEJzd1hOYUo1T1l0QVZxZGEyVTlua2JkX3E3YWdUdldjaWs?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "000660.KS"
     ],
     "arch_risk": false
   },
@@ -534,22 +534,6 @@
       "wfe"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b369d36f1b4d9461",
-    "date": "2026-07-01",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Of Course Meta Platforms Is Going To Be A Cloud",
-    "quote": "",
-    "url": "https://www.nextplatform.com/cloud/2026/07/01/of-course-meta-platforms-is-going-to-be-a-cloud/5265392",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "META"
-    ],
     "arch_risk": false
   },
   {
@@ -661,23 +645,6 @@
       "optics"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ae9c93480479530c",
-    "date": "2026-06-29",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "AMD Stretches Server DRAM With Flash Extended Memory",
-    "quote": "",
-    "url": "https://www.nextplatform.com/store/2026/06/29/amd-stretches-server-dram-with-flash-extended-memory/5263848",
-    "layer_ids": [
-      "hbm",
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
-    ],
     "arch_risk": false
   },
   {

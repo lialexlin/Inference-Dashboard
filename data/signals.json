@@ -1,7 +1,38 @@
 [
   {
+    "id": "rss-f363c6f99bbd8734",
+    "date": "2026-07-27",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Trump’s ‘vindictive’ use of energy, other grants sparks backlash",
+    "quote": "The administration nixed $7.6 billion in clean energy grants last year “based solely on the political identity of the grant recipient’s state,” the U.S Department of Energy said in court documents.",
+    "url": "https://www.utilitydive.com/news/backlash-trumps-vindictive-grant-cancellations-doe-energy/826226/",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-15d17043a71e5e76",
+    "date": "2026-07-27",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "CEO Interview with Ann Wu and Akash Levy of Silimate",
+    "quote": "Ann Wu is Co-founder & CEO of Silimate. Before Silimate, Ann designed several generations of custom silicon at Apple, helped manage inference ASIC programs at Meta, and led product strategy and execution at Celestial AI. Ann has a M.S. in Electrical Engineering from Stanford University and a B.S. in Electrical Engineering… Read More The post CEO Interview with Ann Wu and Akash Levy of Silimate appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/371696-ceo-interview-with-ann-wu-and-akash-levy-of-silimate/",
+    "layer_ids": [
+      "gpu",
+      "hyperscalers"
+    ],
+    "tickers": [
+      "META"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-f904e21b9d678194",
-    "date": "2026-07-26",
+    "date": "2026-07-27",
     "source": "SemiWiki",
     "source_type": "analyst",
     "headline": "Five Myths about the Current Memory Boom",
@@ -10,6 +41,56 @@
     "layer_ids": [
       "hbm",
       "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CLS-0001030894-26-000044",
+    "accession": "0001030894-26-000044",
+    "form": "10-Q",
+    "date": "2026-07-27",
+    "source": "SEC EDGAR (CLS)",
+    "source_type": "filing",
+    "headline": "CLS files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000044/cls-20260630.htm",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [
+      "CLS"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CLS-0001030894-26-000043",
+    "accession": "0001030894-26-000043",
+    "form": "8-K",
+    "date": "2026-07-27",
+    "source": "SEC EDGAR (CLS)",
+    "source_type": "filing",
+    "headline": "CLS files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000043/cls-20260727.htm",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [
+      "CLS"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-dd8ce57cb4c1c45f",
+    "date": "2026-07-26",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Mitsui Fudosan to build physical AI hub near TSMC's Kumamoto base - Nikkei Asia",
+    "quote": "Mitsui Fudosan to build physical AI hub near TSMC's Kumamoto base Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTGtDbGpIcGJ0bi0zQlQyX2lFVzNKNEQtMTdEWFJwN2dZQURaQVU0b0lCLXkxMEZEX3NZUEl4Mmg0RWpkVmlqemszcjJlaDgwNVRuZHZrLWx0ZEFKaW5xblA0T3FSUVFHR2dpdFFUOEdfM2ZTeTNoaFU2bkxMYUxkU3RCa250ZEVNSm52NUdpdmFaVWg2TzhVWFZmcFpnM243elI1NkNwZjJIOG1pczdpQVpZcHVUSUJBMU91elFkTEZqUGpsanR1YXdhVExxUQ?oc=5",
+    "layer_ids": [
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -40,21 +121,6 @@
     "quote": "TSMC's Arizona expansion moves past initial hurdles as fabs and packaging ramp up digitimes",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOYnFldy1WUWJiTjl3ZjU5ZkxTS0tSc3lYaVY2M0dQOXc1UzRRekZUS3RucHJ3a2k5VmhVLVJiaTNMc2FNWTZtNFpGUW83SVhIanZuNy1WUV9UNE1RMDhvZjdLSHVOUV91b1hQM1ZPN0h1Q2R0azcyLUZwWE1tRjNHSzVLOUN6YVRicUl5Sm9aM1E?oc=5",
     "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-0260225ac4d7ade7",
-    "date": "2026-07-24",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "TSMC CoPoS Versus Intel EMIB Semiconductor Packaging",
-    "quote": "TSMC’s CoPoS, generally described as Chip-on-Panel-on-Substrate, and Intel’s EMIB, or Embedded Multi-die Interconnect Bridge, address the same strategic problem: integrating increasingly large, heterogeneous chiplet systems. However, they attack different physical constraints. CoPoS is an emerging panel-level … Read More The post TSMC CoPoS Versus Intel EMIB Semiconductor Packaging appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/371548-tsmc-copos-versus-intel-emib-semiconductor-packaging/",
-    "layer_ids": [
-      "packaging",
       "foundry"
     ],
     "tickers": [],
@@ -216,6 +282,20 @@
     "tickers": [
       "NOW"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-3bc91653e2ed2a1a",
+    "date": "2026-07-22",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Haesung DS lands CXMT as DDR5 substrate customer, weighs panel production for DDR6 - digitimes",
+    "quote": "Haesung DS lands CXMT as DDR5 substrate customer, weighs panel production for DDR6 digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSW1adDNKeG5EaldCLVBoQWludkJ3VHNyZTIzdERveUd1bUh1NHdOZ3pyTkNMT09UdUV5VV9jMHR5ZW9qVHZlckRqdVpWVzBIbGdUS3pFcEJJS0JlNUdDN0JBMWlhMy1fRkVRd0g4WGJRdTl3NmZGVlVDQ1lZMkxNWkNEUU51VENYVzZQZTF1b2E?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -390,35 +470,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-8ef80bbeb59db666",
-    "date": "2026-07-20",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC sees structural AI growth, expands Arizona capex - digitimes",
-    "quote": "TSMC sees structural AI growth, expands Arizona capex digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQWlnWnRSTUJUanAzdlhER1dYQ2F0c2J5YjdtYkNiVlZsQkFGUEJJMnJkZmpPTDZqUFRHN3ctdFZELTA4TXhTWWRHbzZaR0NlVk4zWmNyMER2OTJydDFHVktnZjRzT283Z2E0ck85V1loa2RfUW1pbHJVLVRzdFhqX1RGbXZ4S0o4ek9xN0NQUVg?oc=5",
-    "layer_ids": [
-      "hyperscalers",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-48c26d97e6553b6d",
-    "date": "2026-07-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC says A14 process on track for 2028 volume production - digitimes",
-    "quote": "TSMC says A14 process on track for 2028 volume production digitimes",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWkI3OTkzbktCVDMxdE5hY1gyd0MxTVRZNnMwdkwtYVB6NURPRmpJZF9FQlROSmhqTXhhY1Vza1pfcU5rUnJPdXhERXVtOUY4RUdsaVpvTGpmSlB3aTFHNklfa056dlA1c2Q0b0JQWmc4TjNlQ1F3MFpWdVNkbnVsSFhCWGd6UEJOTjExRnd0dGJuMGluVGs3eFo1MWxmd0Mw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-ce5d09e0f3b607b9",
     "date": "2026-07-17",
     "source": "DigiTimes",
@@ -447,18 +498,19 @@
     "arch_risk": false
   },
   {
-    "id": "rss-3f7f1a8c16ea22c6",
-    "date": "2026-07-11",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "SK Hynix rallies in biggest-ever foreign share sale in US - Nikkei Asia",
-    "quote": "SK Hynix rallies in biggest-ever foreign share sale in US Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaS16REM4UkxXai1nd2RPaWR5dTZPTzlQVkhEak41bnFjUDVKc2Y0NjlhMFM1dTNxN0pkNjBGZkQxVGhRMUpHSzRUREN1RUNTbVl3dnA0b3NFNzdOVEN1N3ZDcEFLaWg1U1AwNWZodHMxeGJtVjRYYzN3MmNyaEJzd1hOYUo1T1l0QVZxZGEyVTlua2JkX3E3YWdUdldjaWs?oc=5",
+    "id": "rss-c52c7b3b4c769302",
+    "date": "2026-07-13",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Meta, MediaTek, TSMC push AI chips to challenge Google - digitimes",
+    "quote": "Meta, MediaTek, TSMC push AI chips to challenge Google digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWkFuS2JfdGUyS2V1ei1nM0xtMnVXRXowa1VsWVNvY3E3U09td2txcF9fZkpnLUptY3A4eDFKc1FNSnRkTklVSFBOUVYxQjVLRmJUT3BkOGVEODBYOVZDeGd5NzQyMzBMRjFXNUQzdGFTQnBKc3RtZFVLSWRqNVZjTUJVenZaLTVlMFE?oc=5",
     "layer_ids": [
-      "hbm"
+      "foundry",
+      "hyperscalers"
     ],
     "tickers": [
-      "000660.KS"
+      "META"
     ],
     "arch_risk": false
   },
@@ -6015,45 +6067,6 @@
       },
       "quote": "Total remaining performance obligation, which represents all future revenue under contract yet to be recognized, as of January 31, 2026 was approximately $72.4 billion, an increase of 14 percent year-over-year. Current remaining performance obligation... was approximately $35.1 billion, an increase of 16 percent year-over-year.",
       "quote_section": "Item 7 MD&A - Highlights from Fiscal 2026"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CLS-0001030894-26-000011",
-    "accession": "0001030894-26-000011",
-    "form": "10-K",
-    "date": "2026-02-27",
-    "source": "SEC EDGAR (CLS)",
-    "source_type": "filing",
-    "headline": "CLS files 10-K: periodic report",
-    "quote": "HPS revenue for 2025 increased 81% (to $5.0 billion) compared to 2024, and accounted for 41% of our total 2025 revenue (compared to 29% of our total 2024 revenue), driven by accelerating volumes in our ramping networking switch programs with hyperscaler customers.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000011/cls-20251231.htm",
-    "layer_ids": [
-      "switches",
-      "hyperscalers"
-    ],
-    "tickers": [
-      "CLS"
-    ],
-    "summary": {
-      "tldr": "FY25 revenue $12.2B with CCS +42% to $9.19B and HPS +81% to $5.0B (41% of total) on hyperscaler networking switch ramps; FY26 capex stepping up to ~$1B (6% of revenue, vs historical 1.5-2.0%).",
-      "takeaways": [
-        "CCS segment +42% to $9.19B; Communications end-market +81% on data-center networking and switch program ramps",
-        "HPS revenue +81% to $5.0B, now 41% of total (vs 29% in 2024); Q4 HPS alone hit ~$1.4B (+72% YoY)",
-        "Customer concentration tightened: 3 CCS customers each over 10% of revenue (32%, 14%, 12%); top 10 = 79% of revenue",
-        "Enterprise end-market revenue -19% on a hyperscaler AI/ML compute program technology transition; Q4 already inflecting back with +33% on next-gen ramp",
-        "FY26 capex guided ~$1B (~6% of revenue) vs historical 1.5-2.0%, supporting hyperscaler capacity additions",
-        "Q4 gross margin 11.8% (vs 11.7% Q4 2024); CCS segment margin 8.4% in Q4 on improved operating leverage"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "FY26 capex of approximately $1 billion (~6% of currently anticipated revenue) to support hyperscaler-driven demand; long-term margin profile expected to benefit from HPS mix",
-        "opex": null,
-        "period": "FY26",
-        "revenue": null
-      },
-      "quote": "HPS revenue for 2025 increased 81% (to $5.0 billion) compared to 2024, and accounted for 41% of our total 2025 revenue (compared to 29% of our total 2024 revenue), driven by accelerating volumes in our ramping networking switch programs with hyperscaler customers.",
-      "quote_section": "Item 7 MD&A — Recent Developments"
     },
     "arch_risk": false
   },

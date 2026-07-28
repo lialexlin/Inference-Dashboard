@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-07-28T11:12:15.463521+00:00",
+  "last_refresh_at": "2026-07-28T23:02:39.018912+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-07-28T11:12:47.796362+00:00"
+      "ts": "2026-07-28T23:03:08.135609+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,13 +24,13 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-07-28T11:12:52.196763+00:00"
+      "ts": "2026-07-28T23:03:12.935503+00:00"
     },
     "edgar": {
       "entries": 160,
-      "summarized": 63,
+      "summarized": 62,
       "errors": {},
-      "ts": "2026-07-28T11:13:00.995478+00:00"
+      "ts": "2026-07-28T23:03:21.745750+00:00"
     },
     "ciq": {
       "ok": 0,
@@ -41,39 +41,39 @@
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-07-28T11:12:17.635450+00:00"
+      "ts": "2026-07-28T23:02:41.405384+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-07-28T11:15:23.027302+00:00"
+      "ts": "2026-07-28T23:06:04.458729+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
+          "layer_id": "power",
+          "tightness_score": 67
+        },
+        {
           "layer_id": "hbm",
-          "tightness_score": 71
+          "tightness_score": 63
         },
         {
           "layer_id": "gpu",
-          "tightness_score": 71
-        },
-        {
-          "layer_id": "power",
-          "tightness_score": 64
+          "tightness_score": 63
         }
       ],
-      "ts": "2026-07-28T11:15:22.932791+00:00"
+      "ts": "2026-07-28T23:06:04.437474+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-07-28T11:15:22.922427+00:00"
+      "ts": "2026-07-28T23:06:04.427151+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,12 +84,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-07-28T11:15:23.034021+00:00"
+      "ts": "2026-07-28T23:06:04.465178+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 37,
+      "cached": 32,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -110,10 +110,12 @@
         "8046.TW"
       ],
       "errors": {
+        "TSM": "http 500",
+        "INTC": "http 500",
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-07-28T11:15:21.679857+00:00"
+      "ts": "2026-07-28T23:06:03.127430+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -126,32 +128,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-07-28T11:15:22.264081+00:00"
+      "ts": "2026-07-28T23:06:03.711255+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-07-28T11:15:22.927739+00:00"
+      "ts": "2026-07-28T23:06:04.432452+00:00"
     },
     "tw_universe": {
       "ok": 0,
       "errors": {
-        "__stage__": "IncompleteRead(261752 bytes read, 810083 more expected)"
+        "__stage__": "IncompleteRead(278136 bytes read, 793699 more expected)"
       },
-      "ts": "2026-07-28T11:16:20.109319+00:00"
+      "ts": "2026-07-28T23:06:54.475982+00:00"
     },
     "us_universe": {
-      "ok": 987,
-      "stock_count": 987,
+      "ok": 988,
+      "stock_count": 988,
       "sector_count": 77,
-      "latest_date": "2026-07-27",
-      "ts": "2026-07-28T11:17:43.162176+00:00"
+      "latest_date": "2026-07-28",
+      "ts": "2026-07-28T23:08:26.373827+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 305,
-    "total": 331
+    "discovered_kept": 304,
+    "total": 330
   }
 }

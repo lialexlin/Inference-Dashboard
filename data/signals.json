@@ -17,6 +17,34 @@
     "arch_risk": false
   },
   {
+    "id": "rss-478a14ebde6a88e0",
+    "date": "2026-07-30",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Equinix sees big business beyond hyperscalers in data center boom - Nikkei Asia",
+    "quote": "Equinix sees big business beyond hyperscalers in data center boom Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTJ4ckdjZVRKWkpYRDc1dExMTUFkbG1xU2dpeGlTc29pOFBOdmNDQWVnUHVEYUcyVWRzLVBTSXhONWF6YWFDY2hlbFFRVjZGbmVEOW4zYktEYjBHWGtnOVcxNllXM0FpWWNpSE9nWUNKQTJBVzEwb21hNEJ5NUVPTURhdGxPSlhHeDVsbTZiQlVwSFlLenNfenNuMFVrWUJyUmF0U2JOZFB6OHg5WTY4aTAweTQ?oc=5",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a7c15b87fbd9a72b",
+    "date": "2026-07-30",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "AI supplier Innolight slides after Asia's second-biggest listing of 2026 - Nikkei Asia",
+    "quote": "AI supplier Innolight slides after Asia's second-biggest listing of 2026 Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUUdIcU5PR2xxSW45dENUT1k2SWpUNTdndTdfeW9yYjNVMFAxYmcyd3lEakFxRU0xNEtRZ2llOEJlVE5pVkZ6RjM2V1h2UGFmVmZZVnFQcTFjTkNaMmFvdEhhZ1UyQVJhd2FXc1B4OXl0ODNwZERCVUR2UFFZSjQzQ2RiU3gya3h3d2pYTEQtUklvRjM1RkkwWnBXaGVKa00xenIycTZNeU9ZU1UtSFNzS29BVERMeWlr?oc=5",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-410529cd78b5a624",
     "date": "2026-07-30",
     "source": "DigiTimes",
@@ -47,17 +75,103 @@
     "arch_risk": false
   },
   {
-    "id": "rss-55a7a11f21104103",
-    "date": "2026-07-29",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Kumamoto quake disrupts TSMC, Toyota operations in southern Japan - Nikkei Asia",
-    "quote": "Kumamoto quake disrupts TSMC, Toyota operations in southern Japan Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWVQ2U0RRU2JHRUcxempfR21wSmNvNlYwb0ZqT29FMG5OeU5KZkhwbXBRbGFTZjduaTM3czQwTFZuTnk3Qkl4ODA5WWhVMHNfdUZxdmtMUzJ1cW9yckpQR3UxcjRwQ1BMc1dnc3BXLTQ4ZU5IdG56bTZ1NnJZeEk0WXIteF9mSy1OSkJCb0lZTTEtQzc5MElscUg5VklDelZhY0sxaHU2cmxDSmtOYzFUWHRWM0g?oc=5",
+    "id": "rss-2554fcb715fcdefd",
+    "date": "2026-07-30",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "From Photonics Precision to Repeatable Evidence",
+    "quote": "Why Optical Probing Is Becoming a Manufacturing Boundary for Silicon Photonics Silicon photonics has already shown that extremely precise optical alignment is possible. In controlled laboratory environments, engineers can align fibers, waveguides, grating couplers, edge couplers, modulators, detectors, and electrical… Read More The post From Photonics Precision to Repeatable Evidence appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/photonics/371218-from-photonics-precision-to-repeatable-evidence/",
     "layer_ids": [
-      "foundry"
+      "optics"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-864c890939b6cc1c",
+    "date": "2026-07-30",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Formal Acceleration on FPGA. Innovation in Verification",
+    "quote": "Extending hardware acceleration to formal verification is a powerful idea to extend hardware acceleration to a verification domain that has not got much attention for acceleration. Paul Cunningham (GM, Verification at Cadence), Raúl Camposano (Silicon Catalyst, entrepreneur, former Synopsys CTO and lecturer at Stanford,… Read More The post Formal Acceleration on FPGA. Innovation in Verification appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/371437-formal-acceleration-on-fpga-innovation-in-verification/",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-PWR-0001050915-26-000025",
+    "accession": "0001050915-26-000025",
+    "form": "10-Q",
+    "date": "2026-07-30",
+    "source": "SEC EDGAR (PWR)",
+    "source_type": "filing",
+    "headline": "PWR files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000025/pwr-20260630.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "PWR"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-PWR-0001193125-26-324855",
+    "accession": "0001193125-26-324855",
+    "form": "8-K",
+    "date": "2026-07-30",
+    "source": "SEC EDGAR (PWR)",
+    "source_type": "filing",
+    "headline": "PWR files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853d8k.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "PWR"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MOD-0001104659-26-088569",
+    "accession": "0001104659-26-088569",
+    "form": "10-Q",
+    "date": "2026-07-30",
+    "source": "SEC EDGAR (MOD)",
+    "source_type": "filing",
+    "headline": "MOD files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926088569/mod-20260630x10q.htm",
+    "layer_ids": [
+      "cooling"
+    ],
+    "tickers": [
+      "MOD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-META-0001628280-26-050705",
+    "accession": "0001628280-26-050705",
+    "form": "10-Q",
+    "date": "2026-07-30",
+    "source": "SEC EDGAR (META)",
+    "source_type": "filing",
+    "headline": "META files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [
+      "META"
+    ],
     "arch_risk": false
   },
   {
@@ -176,6 +290,24 @@
     "arch_risk": false
   },
   {
+    "id": "edgar-MOD-0001104659-26-088230",
+    "accession": "0001104659-26-088230",
+    "form": "8-K",
+    "date": "2026-07-29",
+    "source": "SEC EDGAR (MOD)",
+    "source_type": "filing",
+    "headline": "MOD files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729x8k.htm",
+    "layer_ids": [
+      "cooling"
+    ],
+    "tickers": [
+      "MOD"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-MSFT-0001193125-26-323660",
     "accession": "0001193125-26-323660",
     "form": "10-K",
@@ -208,6 +340,24 @@
     ],
     "tickers": [
       "MSFT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-META-0001628280-26-050596",
+    "accession": "0001628280-26-050596",
+    "form": "8-K",
+    "date": "2026-07-29",
+    "source": "SEC EDGAR (META)",
+    "source_type": "filing",
+    "headline": "META files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [
+      "META"
     ],
     "arch_risk": false
   },
@@ -261,20 +411,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-973e4401c7c5a431",
-    "date": "2026-07-28",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Takaichi's $2.3tn plan draws mixed response from Japan businesses - Nikkei Asia",
-    "quote": "Takaichi's $2.3tn plan draws mixed response from Japan businesses Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWUs5U1dQT1FPeVNVUUNoY2tYWEpRbk9vQWN4N19xYXFhaHNHb3lQNVJZLXI4WHhoUmwzWVRuZVRINUdzYkgtU1kxcEFfNU52N0RXZTZ4MzRhblVha0tfVFlGSTljWWFOeTk1aURGd2FMbi1sLVlpWmxJU1UxZEdCME8zZUVnNlg1M1FCVzNXSU5rUUFsanBkd3BxRWdNQQ?oc=5",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-6a6a446277990496",
     "date": "2026-07-28",
     "source": "DigiTimes",
@@ -300,20 +436,6 @@
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOakN2a3lYTUJidnFNWGZ1ekV1Qmx2bkFRLW1OMTlKTldQYnpvMEZiTkZxMzZPZFRIREhkckNSWW4tcHdDR3FpU0E4ZG5mWjdrTldrYWM2dVFtN3g5QU43eXJOc2pnMmxMZlI2Qk1YbEZfcGdGUGpiX3NMZW1rZ2VEYk0xcERXWFh5T25xYkFzZTRscmpw?oc=5",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-0476fde24d77467d",
-    "date": "2026-07-28",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Interview with Simon Davidmann, AI + EDA Researcher and Former CEO of Imperas",
-    "quote": "Simon Davidmann is a renowned EDA industry pioneer and serial technology entrepreneur with more than 40 years of experience in simulation and verification. After Synopsys acquired Imperas, which he founded in 2005, he was Synopsys Vice President responsible for Processor Modeling and Simulation. He left Synopsys in 2025 and… Read More The post Interview with Simon Davidmann, AI + EDA Researcher and Former CEO of Imperas appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ceo-interviews/371200-interview-with-simon-davidmann-ai-eda-researcher-and-former-ceo-of-imperas/",
-    "layer_ids": [
-      "eda"
     ],
     "tickers": [],
     "arch_risk": false
@@ -699,6 +821,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-c80f456c94447044",
+    "date": "2026-07-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "China's EUV gap keeps semiconductor catch-up in check - digitimes",
+    "quote": "China's EUV gap keeps semiconductor catch-up in check digitimes",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOXVQX2psS1hKd1p2OUJMaGZEcXlrYTY0OVVTcHd3QnNjd3Y4VE1fUGxlUUZrVWt0RFJidUEtV0ZSc0JiVUNGc210aUJWN1lSNXhvRFNZcEFtNnEyekNySG5iSURJOVc0X01EZHVxVks1Y2xEa0cwR3BVSjZrRFkyc1BuR3FRMGFObXFYbzZzS3NaSEE4cHdBRHJYTTNfdw?oc=5",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-2838d154b01b3fbf",
     "date": "2026-07-21",
     "source": "DigiTimes",
@@ -722,6 +858,20 @@
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRUlXR1dVLUNSYmxUaEIzMmNPaVZDbkczdzRIcnZIdVNYWmxxVUpBT0xLY3EtUzJyOWk1UWpQcEdyVlptQW5DX1NQT2RjZWx4RGxVV3lZRGkzX28yUERKZUx6LUJ5M1dfV1VLa0RiSTh6T0VUVlJ3YkZLVXZSMlRvQzNUWGxiSDRfTksxbjhQbw?oc=5",
     "layer_ids": [
       "packaging",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-e9783953826c5b43",
+    "date": "2026-07-17",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "CPU demand rebounds in AI data centers as TSMC stands to benefit across architectures - digitimes",
+    "quote": "CPU demand rebounds in AI data centers as TSMC stands to benefit across architectures digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcXBWVm5kTXNfWmZxZlgzd3RfaEw5Szg1OXBMWEk5WEdLMV8tdkJmUE5YZXpLeGZpdmFVQnUtUC13eE9YY0RWejFUUVRxRl9uczRVMkRzT2J3Y3VleFVWb1VMY3QwVl9iTXJwTFd4NVRINzFfbXRyUWNLbTJXV0FKaTNCTFc?oc=5",
+    "layer_ids": [
       "foundry"
     ],
     "tickers": [],
@@ -6614,63 +6764,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-PWR-0001050915-26-000006",
-    "accession": "0001050915-26-000006",
-    "form": "10-K",
-    "date": "2026-02-19",
-    "source": "SEC EDGAR (PWR)",
-    "source_type": "filing",
-    "headline": "PWR files 10-K: periodic report",
-    "quote": "The investment of capital into the build out of data centers by technology customers in order to, among other things, expand cloud-based services and develop artificial intelligence (AI) training and inference, increases demand for our solutions offerings. In particular, we believe Quanta is well positioned to provide turnkey infrastructure solutions for these facilities...",
-    "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000006/pwr-20251231.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "PWR"
-    ],
-    "summary": {
-      "tldr": "Backlog reached $43.98B (+27.3% YoY); RPO $23.76B (+41.8%); Electric segment +21% on data-center-driven utility demand; acquired DSI for $1.7B exposure to hyperscaler infrastructure.",
-      "takeaways": [
-        "Consolidated revenues $28.5B (+20.3%); Electric segment $23.0B (+21.0%); Underground & Infrastructure $5.5B (+17.5%)",
-        "Remaining performance obligations $23.76B (+41.8%) and backlog $43.98B (+27.3%) at YE25",
-        "Electric segment operating income $2.36B (+20.5%), margin 10.3% flat; Underground $398M (+50.3%), margin expanded to 7.3% from 5.7%",
-        "Operating cash flow $2.23B (+7.1%); $3.30B deployed on acquisitions/investments in 2025",
-        "July 2025: acquired Dynamic Systems (DSI) for mechanical/plumbing/process infrastructure for technology/semi/healthcare load centers (Underground segment)",
-        "First mention: Quanta well positioned to provide turnkey DC infrastructure — low-voltage inside DC (advanced manufactured/modular), HV substation/transformer interconnection, and generation infrastructure to power facilities",
-        "2024 CEI acquisition continues to drive critical-path electrical solutions demand from tech/data center customers"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": null,
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "The investment of capital into the build out of data centers by technology customers in order to, among other things, expand cloud-based services and develop artificial intelligence (AI) training and inference, increases demand for our solutions offerings. In particular, we believe Quanta is well positioned to provide turnkey infrastructure solutions for these facilities...",
-      "quote_section": "Item 1 Business — Industry Trends"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-PWR-0001193125-26-058069",
-    "accession": "0001193125-26-058069",
-    "form": "8-K",
-    "date": "2026-02-19",
-    "source": "SEC EDGAR (PWR)",
-    "source_type": "filing",
-    "headline": "PWR files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526058069/d101511d8k.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "PWR"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-GNRC-0001437749-26-004568",
     "accession": "0001437749-26-004568",
     "form": "10-K",
@@ -7097,44 +7190,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-MOD-0001104659-26-010790",
-    "accession": "0001104659-26-010790",
-    "form": "10-Q",
-    "date": "2026-02-05",
-    "source": "SEC EDGAR (MOD)",
-    "source_type": "filing",
-    "headline": "MOD files 10-Q: periodic report",
-    "quote": "The transaction is intended to establish Gentherm as a scaled leader in thermal management. The Company will retain its Climate Solutions segment businesses, creating a pure-play climate solutions company focused on the data center and commercial HVAC and refrigeration markets.",
-    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926010790/mod-20251231x10q.htm",
-    "layer_ids": [
-      "cooling"
-    ],
-    "tickers": [
-      "MOD"
-    ],
-    "summary": {
-      "tldr": "Q3 FY26 Climate Solutions +51% on $130M data center growth; Modine announces Performance Tech spin/merge with Gentherm (RMT, ~$1B value), reshaping into pure-play data center cooling co.",
-      "takeaways": [
-        "Q3 FY26 (Dec-25) consolidated net sales $805.0M +31%; Climate Solutions $544.6M +51% (data center +$130.0M, HVAC +$34.6M, heat transfer +$16.7M)",
-        "9M FY26 Climate Solutions data center product sales up $221.7M YoY; hyperscale/colocation in NA and Europe cited",
-        "Jan 2026 announced Reverse Morris Trust to spin Performance Technologies and merge with Gentherm; MOD keeps Climate Solutions as pure-play data center + commercial HVAC/refrigeration co",
-        "Transaction value ~$1.0B; MOD shareholders get ~40% of combined Gentherm; $210M cash to MOD at close; targeted to close end of CY26",
-        "Climate Solutions Q3 operating margin 15.3% (vs 17.3%) still pressured by data center capacity ramp inefficiencies, partially offset by SG&A leverage",
-        "$116.1M non-cash US pension termination charge in Q3 FY26 (tax benefit $13.1M); incremental data center manufacturing lease signed in Q3"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Reverse Morris Trust spin-off with Gentherm expected to close by end of calendar 2026; $30-40M transaction costs anticipated",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "The transaction is intended to establish Gentherm as a scaled leader in thermal management. The Company will retain its Climate Solutions segment businesses, creating a pure-play climate solutions company focused on the data center and commercial HVAC and refrigeration markets.",
-      "quote_section": "Item 2 MD&A - Subsequent Events / Gentherm Transaction"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-AMZN-0001018724-26-000002",
     "accession": "0001018724-26-000002",
     "form": "8-K",
@@ -7325,24 +7380,6 @@
     ],
     "tickers": [
       "COHR"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-MOD-0001104659-26-010338",
-    "accession": "0001104659-26-010338",
-    "form": "8-K",
-    "date": "2026-02-04",
-    "source": "SEC EDGAR (MOD)",
-    "source_type": "filing",
-    "headline": "MOD files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926010338/mod-20260204x8k.htm",
-    "layer_ids": [
-      "cooling"
-    ],
-    "tickers": [
-      "MOD"
     ],
     "arch_risk": false
   },
@@ -7584,46 +7621,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-META-0001628280-26-003942",
-    "accession": "0001628280-26-003942",
-    "form": "10-K",
-    "date": "2026-01-29",
-    "source": "SEC EDGAR (META)",
-    "source_type": "filing",
-    "headline": "META files 10-K: periodic report",
-    "quote": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "META"
-    ],
-    "summary": {
-      "tldr": "FY25 revenue $201.0B (+22%), capex $72.2B; 2026 capex guided to $115-135B to fund AI/superintelligence; Reality Labs op loss $19.2B with similar losses expected in 2026.",
-      "takeaways": [
-        "FY25 revenue $201.0B (+22%); FoA operating income $102.5B (+18%); total income from ops $83.3B",
-        "Capex $72.2B in 2025; guided $115-135B for 2026 - implies +60-87% growth to support AI and core business",
-        "Reality Labs operating loss $19.2B in 2025; full-year 2026 RL loss expected similar to 2025",
-        "Ad impressions +12% YoY, price per ad +9% YoY",
-        "Issued $29.9B fixed-rate senior unsecured notes in Nov 2025 to help fund capex",
-        "OBBBA July 2025 tax law caused $15.93B Q3 charge ($14.0B valuation allowance on US deferred tax assets)",
-        "Effective tax rate jumped to 30% in 2025 vs 12% in 2024; 13-16% expected for 2026",
-        "Mgmt frames AI as primary investment driver; AI initiatives require 'significantly increased' infrastructure investment"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "2026 capex $115-135B to support AI efforts and core business; 2026 effective tax rate 13-16%; RL op losses to remain similar to 2025's $19.2B",
-        "opex": null,
-        "period": "FY 2026",
-        "revenue": null
-      },
-      "quote": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business.",
-      "quote_section": "Item 7 MD&A - Liquidity and Capital Resources"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-LRCX-0000707549-26-000006",
     "accession": "0000707549-26-000006",
     "form": "8-K",
@@ -7638,24 +7635,6 @@
     ],
     "tickers": [
       "LRCX"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-META-0001628280-26-003832",
-    "accession": "0001628280-26-003832",
-    "form": "8-K",
-    "date": "2026-01-28",
-    "source": "SEC EDGAR (META)",
-    "source_type": "filing",
-    "headline": "META files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-20260128.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "META"
     ],
     "arch_risk": false
   },

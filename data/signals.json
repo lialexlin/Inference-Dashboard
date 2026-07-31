@@ -30,6 +30,95 @@
     "arch_risk": false
   },
   {
+    "id": "rss-f708f7fa82d769e5",
+    "date": "2026-07-31",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "The Difference Between CoWoS-S and CoWoS-R",
+    "quote": "CoWoS-S and CoWoS-R are two versions of TSMC’s Chip-on-Wafer-on-Substrate advanced packaging platform. Both technologies are designed to combine high-performance processors, chiplets and high-bandwidth memory, or HBM, within a single package. This shortens the electrical connections between computing and memory components,… Read More The post The Difference Between CoWoS-S and CoWoS-R appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/371759-the-difference-between-cowos-s-and-cowos-r/",
+    "layer_ids": [
+      "packaging",
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ETN-0001551182-26-000030",
+    "accession": "0001551182-26-000030",
+    "form": "10-Q",
+    "date": "2026-07-31",
+    "source": "SEC EDGAR (ETN)",
+    "source_type": "filing",
+    "headline": "ETN files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000030/etn-20260630.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "ETN"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ETN-0001551182-26-000027",
+    "accession": "0001551182-26-000027",
+    "form": "8-K",
+    "date": "2026-07-31",
+    "source": "SEC EDGAR (ETN)",
+    "source_type": "filing",
+    "headline": "ETN files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000027/etn-20260731.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "ETN"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-NVT-0001628280-26-051428",
+    "accession": "0001628280-26-051428",
+    "form": "10-Q",
+    "date": "2026-07-31",
+    "source": "SEC EDGAR (NVT)",
+    "source_type": "filing",
+    "headline": "NVT files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051428/nvt-20260630.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "NVT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-NVT-0001628280-26-051203",
+    "accession": "0001628280-26-051203",
+    "form": "8-K",
+    "date": "2026-07-31",
+    "source": "SEC EDGAR (NVT)",
+    "source_type": "filing",
+    "headline": "NVT files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026051203/nvt-20260731.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "NVT"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-AMZN-0001018724-26-000026",
     "accession": "0001018724-26-000026",
     "form": "10-Q",
@@ -250,20 +339,6 @@
     "url": "https://www.utilitydive.com/news/doe-mulls-changes-to-biden-era-transformer-rule-raising-utility-concerns/826440/",
     "layer_ids": [
       "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-8637bc1f5d8b0c0a",
-    "date": "2026-07-29",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "ASIC-to-FPGA Turnkey Prototyping Bundle: A Practical Path to Earlier Hardware Validation",
-    "quote": "For ASIC design teams, the gap between RTL simulation and first silicon remains one of the most consequential stages of the development cycle. Simulation provides controllability and visibility, but it cannot always reproduce the software workloads, interface behavior, clock interactions, and sustained system activity… Read More The post ASIC-to-FPGA Turnkey Prototyping Bundle: A Practical Path to Earlier Hardware Validation appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/prototyping/s2c-eda/371556-asic-to-fpga-turnkey-prototyping-bundle-a-practical-path-to-earlier-hardware-validation/",
-    "layer_ids": [
-      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -634,21 +709,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-24f653274370ad6b",
-    "date": "2026-07-23",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Kyushu chip output jumps 60% amid TSMC expansion, but local suppliers see limited gains - digitimes",
-    "quote": "Kyushu chip output jumps 60% amid TSMC expansion, but local suppliers see limited gains digitimes",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMGNwUTNvcTFEVGdDb2JFcThHWDJzMnBNRVAzMmVYVF9ZcmlHSHVPdVMwUGhtM1Z3UnNKTERrZ3IyRFV6dlNrR1ROSWM1WVRaTUg0WDlkTTJRWmdMWkZ0V08tZTJNcDlHMjRWNVc1S2tLSFJralRUdTcteDZ2bEFxV2tjWldjSi1fd010MUxQTHdEbUR5bWktWE5B?oc=5",
-    "layer_ids": [
-      "foundry",
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-INTC-0000050863-26-000155",
     "accession": "0000050863-26-000155",
     "form": "8-K",
@@ -870,13 +930,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-e9783953826c5b43",
-    "date": "2026-07-17",
+    "id": "rss-fadc5cbb5ac39140",
+    "date": "2026-07-20",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "CPU demand rebounds in AI data centers as TSMC stands to benefit across architectures - digitimes",
-    "quote": "CPU demand rebounds in AI data centers as TSMC stands to benefit across architectures digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcXBWVm5kTXNfWmZxZlgzd3RfaEw5Szg1OXBMWEk5WEdLMV8tdkJmUE5YZXpLeGZpdmFVQnUtUC13eE9YY0RWejFUUVRxRl9uczRVMkRzT2J3Y3VleFVWb1VMY3QwVl9iTXJwTFd4NVRINzFfbXRyUWNLbTJXV0FKaTNCTFc?oc=5",
+    "headline": "TSMC expansion strengthens Arizona's talent pull as advanced manufacturing shifts west - digitimes",
+    "quote": "TSMC expansion strengthens Arizona's talent pull as advanced manufacturing shifts west digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjUtWDBtUHpNNC0tcEM4WjZ4NDdCbnktUXdqVXhtRGltUjh3cHkwbDFkakxjYjhwX2dfWFJSMVRrLWxEdFZPVnlFMURUT01GamhkRmJnX29sXzF3U01wZjBhTldPdmprYjhaeVVncC1zcHN6Vk03eUdBejBERk5RZ2xqZXNaRFFjelJBOURfWUgwME5CZFdfSTVB?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -1126,23 +1186,6 @@
       "optics"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ae9c93480479530c",
-    "date": "2026-06-29",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "AMD Stretches Server DRAM With Flash Extended Memory",
-    "quote": "",
-    "url": "https://www.nextplatform.com/store/2026/06/29/amd-stretches-server-dram-with-flash-extended-memory/5263848",
-    "layer_ids": [
-      "hbm",
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
-    ],
     "arch_risk": false
   },
   {
@@ -6485,45 +6528,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-ETN-0001551182-26-000007",
-    "accession": "0001551182-26-000007",
-    "form": "10-K",
-    "date": "2026-02-26",
-    "source": "SEC EDGAR (ETN)",
-    "source_type": "filing",
-    "headline": "ETN files 10-K: periodic report",
-    "quote": "The agreement to acquire Boyd Thermal expands Eaton's existing portfolio of solutions for data center customers to include critical liquid cooling technology, enabling the Company to serve hyperscale and colocation customers from the chip to the grid.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000007/etn-20251231.htm",
-    "layer_ids": [
-      "power",
-      "cooling"
-    ],
-    "tickers": [
-      "ETN"
-    ],
-    "summary": {
-      "tldr": "Total backlog $19.8B at YE25; Electrical Americas +16% on data-center end-markets; announced $9.5B Boyd Thermal acquisition for liquid cooling exposure.",
-      "takeaways": [
-        "Total backlog $19.8B at YE25, 69% targeted for delivery in next 12 months",
-        "Electrical Americas: sales $13.3B (+16%), backlog $13.2B (+31% YoY, +19% organic), book-to-bill 1.2x; data center strength was primary growth driver",
-        "Electrical Global: sales $6.8B (+9%), backlog $2.0B (+19%); data center strength in both segments",
-        "Nov 2025: signed agreement to acquire Boyd Thermal for $9.5B — liquid cooling + thermal solutions for hyperscale/colocation data centers (chip to grid)",
-        "2025 acquisitions: Fibrebond (modular DC power enclosures), Resilient (solid-state transformers for DC), Ultra PCS (aerospace)",
-        "Electrical Americas operating margin 29.9% (vs 30.2%) compressed by 380bps from commodity/wage inflation"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Boyd Thermal acquisition expected to close Q2 2026",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "The agreement to acquire Boyd Thermal expands Eaton's existing portfolio of solutions for data center customers to include critical liquid cooling technology, enabling the Company to serve hyperscale and colocation customers from the chip to the grid.",
-      "quote_section": "Item 7 MD&A — Overview"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-CRWV-0001769628-26-000094",
     "accession": "0001769628-26-000094",
     "form": "8-K",
@@ -6887,45 +6891,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-NVT-0001628280-26-008608",
-    "accession": "0001628280-26-008608",
-    "form": "10-K",
-    "date": "2026-02-17",
-    "source": "SEC EDGAR (NVT)",
-    "source_type": "filing",
-    "headline": "NVT files 10-K: periodic report",
-    "quote": "We are an enclosures and liquid cooling leader in the U.S. and globally. We believe that trends like electrification, sustainability and digitalization, including increased use of artificial intelligence, are helping to drive the need for our products.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026008608/nvt-20251231.htm",
-    "layer_ids": [
-      "cooling",
-      "power"
-    ],
-    "tickers": [
-      "NVT"
-    ],
-    "summary": {
-      "tldr": "FY25 revenue $3.89B +30% (organic 13%); backlog $2.3B with data center cited as primary driver; Systems Protection segment (enclosures + liquid cooling) +42% on $1.0B Avail EPG acquisition.",
-      "takeaways": [
-        "FY25 net sales $3,893.1M +29.5% (organic +12.6%, acquisition +16.3%); Systems Protection +42.2% to $2,592.9M; Electrical Connections +9.9% to $1,300.2M",
-        "Backlog $2.3B at 12/31/25 driven by Electrical Products Group acquisition and data center growth; firm orders expected to ship in 2026",
-        "Closed $1.0B Avail Infrastructure Solutions (EPG) acquisition May 2025; divested Thermal Management to Brookfield for $1.6B net cash (Jan 2025)",
-        "Systems Protection organic growth ~17% with ~16pt contribution from infrastructure vertical (incl. data centers); segment margin slipped 1.4pts to 20.7% on capacity investment and tariffs",
-        "Gross margin 37.7% (-2.5pts) on tariffs, raw mat'l, labor; operating margin 15.8% (-1.7pts); intangible amortization rose to $147.1M from $94.7M",
-        "Returned ~$383M to shareholders in FY25: $253.1M repurchases + $130.4M dividends; $146.9M remaining on $500M authorization; Q1 2026 dividend raised to $0.21/share"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Expect AI/data center megatrends to continue driving Systems Protection sales growth in 2026 and beyond; inflationary cost pressure including tariffs expected to continue",
-        "opex": null,
-        "period": "FY26",
-        "revenue": null
-      },
-      "quote": "We are an enclosures and liquid cooling leader in the U.S. and globally. We believe that trends like electrification, sustainability and digitalization, including increased use of artificial intelligence, are helping to drive the need for our products.",
-      "quote_section": "Item 1 Business - Systems Protection"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-PLTR-0001321655-26-000011",
     "accession": "0001321655-26-000011",
     "form": "10-K",
@@ -7135,25 +7100,6 @@
     ],
     "tickers": [
       "LEU"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-NVT-0001628280-26-005930",
-    "accession": "0001628280-26-005930",
-    "form": "8-K",
-    "date": "2026-02-06",
-    "source": "SEC EDGAR (NVT)",
-    "source_type": "filing",
-    "headline": "NVT files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026005930/nvt-20260206.htm",
-    "layer_ids": [
-      "cooling",
-      "power"
-    ],
-    "tickers": [
-      "NVT"
     ],
     "arch_risk": false
   },

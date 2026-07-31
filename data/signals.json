@@ -1,18 +1,49 @@
 [
   {
-    "id": "rss-a5b787f10526201c",
-    "date": "2026-07-30",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Samsung Electronics profit hits all-time high on device and memory sales - Nikkei Asia",
-    "quote": "Samsung Electronics profit hits all-time high on device and memory sales Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQmVUU2dFRHJKT3MzYTJObElIZkoxUzIteFdVeFVtamdKZ25qM2V5ZFkwNk9lSFdIWjZXQ2NpaklUd1pGZjhXLVAyMkJGZ1pQQ3k2UzFUV2h2Vy1WRkJWNTFZZmZ5akxNX1o4dDdnSUNMWl9Fbkw0Nm1mdm50dEV0NGV2cDE5RG10d3hTX3BNZ1pJVW1ZQnhHSTZRemI2LTJoNmdYQkZkaUltbk1CQmxOT2RGUDJiQQ?oc=5",
+    "id": "rss-597c25589fa7ca3b",
+    "date": "2026-07-31",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC reportedly develops EMIB-like packaging to counter Intel - digitimes",
+    "quote": "TSMC reportedly develops EMIB-like packaging to counter Intel digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQkZjeVBjSm1ldXdlbVh0cW1FT0FybHZrOXI1NV9UYXV3OUhtaEpveGItcWZSenczTjFxRThuY3hDSVo3WG54WENFaFYxbUkwWkw2dXNvSjVzc1lvdTRKay1GWVRpdkZZbzFRQjlzZ0NzQzU4VjdTV1BPXzc2SFRJa0FtSE1XOEhGZHg2RW04X2M5Um80VUE?oc=5",
+    "layer_ids": [
+      "foundry",
+      "packaging"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-040aae3915af0717",
+    "date": "2026-07-31",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Analysis: Samsung's HBM4 base die is the foundry weapon TSMC and Intel can't copy - digitimes",
+    "quote": "Analysis: Samsung's HBM4 base die is the foundry weapon TSMC and Intel can't copy digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNGwzazdId0dVUXl0WjVvSWNZYTVpcnQ2RE5IcHVnakdjcU5meXRLOXNFcGk0bEtzOWJ3eWZqcDMzUGpmT0NRVGQ2RExmNExCcmhKbXVGenFuVVFYT1ljX2ZxX29SSFpsY1Q1RDlhY2pSeU5xVE01dFlVRDRvNk1Ca3lDOUdYODYwSVdR?oc=5",
     "layer_ids": [
       "hbm",
       "foundry"
     ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AMZN-0001018724-26-000026",
+    "accession": "0001018724-26-000026",
+    "form": "10-Q",
+    "date": "2026-07-31",
+    "source": "SEC EDGAR (AMZN)",
+    "source_type": "filing",
+    "headline": "AMZN files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
     "tickers": [
-      "005930.KS"
+      "AMZN"
     ],
     "arch_risk": false
   },
@@ -26,20 +57,6 @@
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTJ4ckdjZVRKWkpYRDc1dExMTUFkbG1xU2dpeGlTc29pOFBOdmNDQWVnUHVEYUcyVWRzLVBTSXhONWF6YWFDY2hlbFFRVjZGbmVEOW4zYktEYjBHWGtnOVcxNllXM0FpWWNpSE9nWUNKQTJBVzEwb21hNEJ5NUVPTURhdGxPSlhHeDVsbTZiQlVwSFlLenNfenNuMFVrWUJyUmF0U2JOZFB6OHg5WTY4aTAweTQ?oc=5",
     "layer_ids": [
       "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-a7c15b87fbd9a72b",
-    "date": "2026-07-30",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "AI supplier Innolight slides after Asia's second-biggest listing of 2026 - Nikkei Asia",
-    "quote": "AI supplier Innolight slides after Asia's second-biggest listing of 2026 Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQUUdIcU5PR2xxSW45dENUT1k2SWpUNTdndTdfeW9yYjNVMFAxYmcyd3lEakFxRU0xNEtRZ2llOEJlVE5pVkZ6RjM2V1h2UGFmVmZZVnFQcTFjTkNaMmFvdEhhZ1UyQVJhd2FXc1B4OXl0ODNwZERCVUR2UFFZSjQzQ2RiU3gya3h3d2pYTEQtUklvRjM1RkkwWnBXaGVKa00xenIycTZNeU9ZU1UtSFNzS29BVERMeWlr?oc=5",
-    "layer_ids": [
-      "optics"
     ],
     "tickers": [],
     "arch_risk": false
@@ -171,6 +188,24 @@
     ],
     "tickers": [
       "META"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AMZN-0001018724-26-000024",
+    "accession": "0001018724-26-000024",
+    "form": "8-K",
+    "date": "2026-07-30",
+    "source": "SEC EDGAR (AMZN)",
+    "source_type": "filing",
+    "headline": "AMZN files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [
+      "AMZN"
     ],
     "arch_risk": false
   },
@@ -563,20 +598,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-dd8ce57cb4c1c45f",
-    "date": "2026-07-26",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Mitsui Fudosan to build physical AI hub near TSMC's Kumamoto base - Nikkei Asia",
-    "quote": "Mitsui Fudosan to build physical AI hub near TSMC's Kumamoto base Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTGtDbGpIcGJ0bi0zQlQyX2lFVzNKNEQtMTdEWFJwN2dZQURaQVU0b0lCLXkxMEZEX3NZUEl4Mmg0RWpkVmlqemszcjJlaDgwNVRuZHZrLWx0ZEFKaW5xblA0T3FSUVFHR2dpdFFUOEdfM2ZTeTNoaFU2bkxMYUxkU3RCa250ZEVNSm52NUdpdmFaVWg2TzhVWFZmcFpnM243elI1NkNwZjJIOG1pczdpQVpZcHVUSUJBMU91elFkTEZqUGpsanR1YXdhVExxUQ?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-d9d5b4b594c40878",
     "date": "2026-07-25",
     "source": "DigiTimes",
@@ -843,21 +864,6 @@
     "quote": "Taiwan indicts ex-TSMC employees in first China-linked national core tech espionage case digitimes",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY0xQTHZDOFIySGxsV3djOE1NNW5fMWlQRlkzQlNNVk42RGZPenhTSk5ZSFNLZF9rTkFwZTNGV080a09yb1AwQS1QR1NISUpqSU1NLUhQbXVUOFdYb19RWk1pVWVoMDN4UkMyQnJ2NGVVNHhaS2lYTkxUQmhQSC1FYTdGRVUyR3lWc1QySlhaaGlsMGR6?oc=5",
     "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-973d7705452def63",
-    "date": "2026-07-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC's CoWoS capacity remains 'extremely tight' as OSAT partners ramp expansion - digitimes",
-    "quote": "TSMC's CoWoS capacity remains 'extremely tight' as OSAT partners ramp expansion digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRUlXR1dVLUNSYmxUaEIzMmNPaVZDbkczdzRIcnZIdVNYWmxxVUpBT0xLY3EtUzJyOWk1UWpQcEdyVlptQW5DX1NQT2RjZWx4RGxVV3lZRGkzX28yUERKZUx6LUJ5M1dfV1VLa0RiSTh6T0VUVlJ3YkZLVXZSMlRvQzNUWGxiSDRfTksxbjhQbw?oc=5",
-    "layer_ids": [
-      "packaging",
       "foundry"
     ],
     "tickers": [],
@@ -7148,62 +7154,6 @@
     ],
     "tickers": [
       "NVT"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-AMZN-0001018724-26-000004",
-    "accession": "0001018724-26-000004",
-    "form": "10-K",
-    "date": "2026-02-06",
-    "source": "SEC EDGAR (AMZN)",
-    "source_type": "filing",
-    "headline": "AMZN files 10-K: periodic report",
-    "quote": "Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth)... both of which we expect to increase in 2026.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "AMZN"
-    ],
-    "summary": {
-      "tldr": "AWS revenue $128.7B (+20%) and $244B AWS-related RPO; cash capex hit $128.3B in 2025 vs $77.7B in 2024 and management expects 2026 capex to increase further.",
-      "takeaways": [
-        "AWS revenue +20% YoY to $128.7B; AWS operating income $45.6B (35.4% margin) up from $39.8B",
-        "Cash capex $128.3B in 2025 vs $77.7B in 2024 - majority for AWS technical infrastructure; 2026 capex expected to increase further",
-        "Performance obligations primarily AWS commitments not yet recognized = $244B at Dec 31 2025 (weighted avg life 4.1 years)",
-        "Technology and infrastructure expense $108.5B (+23%) reflecting depreciation and infrastructure for AI/ML",
-        "Anthropic convertible notes investment totals $8.0B (2023-2025); commercial AWS chip deal in place",
-        "Q3 2025 took $2.5B FTC settlement charge and $2.7B severance for planned role eliminations"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Mgmt expects both AWS technical-infrastructure capex and fulfillment-network capex to increase in 2026; AI/ML investments to keep rising",
-        "opex": null,
-        "period": "FY 2026",
-        "revenue": null
-      },
-      "quote": "Cash capital expenditures were $77.7 billion, and $128.3 billion in 2024 and 2025, which primarily reflect investments in technology infrastructure (the majority of which is to support AWS business growth)... both of which we expect to increase in 2026.",
-      "quote_section": "Item 7 MD&A - Liquidity and Capital Resources"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-AMZN-0001018724-26-000002",
-    "accession": "0001018724-26-000002",
-    "form": "8-K",
-    "date": "2026-02-05",
-    "source": "SEC EDGAR (AMZN)",
-    "source_type": "filing",
-    "headline": "AMZN files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20260205.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "AMZN"
     ],
     "arch_risk": false
   },

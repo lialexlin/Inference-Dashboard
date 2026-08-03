@@ -60,6 +60,64 @@
     "arch_risk": false
   },
   {
+    "id": "rss-8e7f8f5b851b0147",
+    "date": "2026-08-03",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "AMD Helios Architecture Deep Dive: The Power of AMD’s Hardware Combined",
+    "quote": "The Helios rackscale system is the culmination of AMD's server hardware, as well as their AI datacenter ambitions. For Advancing AI 2026, the company dove into the architecture of their first rackscale systems, outlining how they have scaled up 72 Instinct MI455X accelerators to act as a single system The post AMD Helios Architecture Deep Dive: The Power of AMD’s Hardware Combined appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/amd-helios-architecture-deep-dive-amd-broadcom-hardware-combined/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-fa39326e7da87592",
+    "date": "2026-08-03",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "AEP secures 13 GW of gas turbines as generation ‘central’ to growth plans",
+    "quote": "Turbines are “a scarce resource and will become increasingly more valuable,” AEP’s Bill Fehrman said. “We're going to continue to be aggressive in our positions on this.”",
+    "url": "https://www.utilitydive.com/news/aep-secures-13-gw-of-gas-turbines-as-generation-central-to-growth-plans/826808/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-cb551c43928a2e83",
+    "date": "2026-08-03",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Executive Interview with James Huang of AlChip",
+    "quote": "I had a chance sit down with James Huang, Director of Engineering at Alchip Technologies, to discuss the company’s recent multi-die packaging achievements and learn about Alchip’s next steps in pushing the boundaries of innovation for next generation AI ASIC. James is acknowledged as a leading light in advanced node ASICs, based… Read More The post Executive Interview with James Huang of AlChip appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-services/alchip/371680-executive-interview-with-james-huang-of-alchip/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-6ffddde19e2f1468",
+    "date": "2026-08-03",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Synopsys Demonstrates Leadership in AI-Powered Engineering at 2026 DAC Chips to Systems Conference",
+    "quote": "Purple was in fashion at the 2026 Design Automation Conference, where Synopsys reinforced its position at the forefront of AI-powered engineering. Under the conference’s “Chips to Systems” theme, the company showcased intelligent, end-to-end technologies designed to help the semiconductor industry manage unprecedented… Read More The post Synopsys Demonstrates Leadership in AI-Powered Engineering at 2026 DAC Chips to Systems Conference appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/synopsys/371800-synopsys-demonstrates-leadership-in-ai-powered-engineering-at-2026-dac-chips-to-systems-conference/",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-8b0e2b942191f768",
     "date": "2026-08-02",
     "source": "Nikkei Asia",
@@ -114,21 +172,6 @@
     "layer_ids": [
       "hbm",
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-9fba059c4fef94a1",
-    "date": "2026-07-31",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "The Difference Between TSMC CoWoS-S and CoWoS-R",
-    "quote": "CoWoS-S and CoWoS-R are two versions of TSMC’s Chip-on-Wafer-on-Substrate advanced packaging platform. Both technologies are designed to combine high-performance processors, chiplets and high-bandwidth memory, or HBM, within a single package. This shortens the electrical connections between computing and memory components,… Read More The post The Difference Between TSMC CoWoS-S and CoWoS-R appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/371759-the-difference-between-cowos-s-and-cowos-r/",
-    "layer_ids": [
-      "packaging",
-      "hbm"
     ],
     "tickers": [],
     "arch_risk": false
@@ -256,20 +299,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-2554fcb715fcdefd",
-    "date": "2026-07-30",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "From Photonics Precision to Repeatable Evidence",
-    "quote": "Why Optical Probing Is Becoming a Manufacturing Boundary for Silicon Photonics Silicon photonics has already shown that extremely precise optical alignment is possible. In controlled laboratory environments, engineers can align fibers, waveguides, grating couplers, edge couplers, modulators, detectors, and electrical… Read More The post From Photonics Precision to Repeatable Evidence appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/photonics/371218-from-photonics-precision-to-repeatable-evidence/",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-PWR-0001050915-26-000025",
     "accession": "0001050915-26-000025",
     "form": "10-Q",
@@ -360,6 +389,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-7234ce7b74ffeb47",
+    "date": "2026-07-29",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC: JASM utilities back to normal, equipment calibration underway; construction resumes - digitimes",
+    "quote": "TSMC: JASM utilities back to normal, equipment calibration underway; construction resumes digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRW1lNGY4LTg0MzZwUWpIeUJJb3ZqWVl0UXpMM04zOXdHbW9QX0tZR1A4VHR0YkN6Wm9mcUhCamdVNF9WcjBLbzdVdTVESHhpRXlEOThuMU5qa2xmNXQzeHhFWHBTMVVJVUxEY3ItT0ZvdEM3VllkTWZ5dVdhdF9FbDl2MGVVVkUyNnhoV1Rn?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-6b452dbaf2ee4a56",
     "date": "2026-07-29",
     "source": "DigiTimes",
@@ -374,20 +417,6 @@
     "tickers": [
       "TSM"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-7234ce7b74ffeb47",
-    "date": "2026-07-29",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC: JASM utilities back to normal, equipment calibration underway; construction resumes - digitimes",
-    "quote": "TSMC: JASM utilities back to normal, equipment calibration underway; construction resumes digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRW1lNGY4LTg0MzZwUWpIeUJJb3ZqWVl0UXpMM04zOXdHbW9QX0tZR1A4VHR0YkN6Wm9mcUhCamdVNF9WcjBLbzdVdTVESHhpRXlEOThuMU5qa2xmNXQzeHhFWHBTMVVJVUxEY3ItT0ZvdEM3VllkTWZ5dVdhdF9FbDl2MGVVVkUyNnhoV1Rn?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -709,6 +738,21 @@
     "arch_risk": false
   },
   {
+    "id": "rss-24f653274370ad6b",
+    "date": "2026-07-23",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Kyushu chip output jumps 60% amid TSMC expansion, but local suppliers see limited gains - digitimes",
+    "quote": "Kyushu chip output jumps 60% amid TSMC expansion, but local suppliers see limited gains digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMGNwUTNvcTFEVGdDb2JFcThHWDJzMnBNRVAzMmVYVF9ZcmlHSHVPdVMwUGhtM1Z3UnNKTERrZ3IyRFV6dlNrR1ROSWM1WVRaTUg0WDlkTTJRWmdMWkZ0V08tZTJNcDlHMjRWNVc1S2tLSFJralRUdTcteDZ2bEFxV2tjWldjSi1fd010MUxQTHdEbUR5bWktWE5B?oc=5",
+    "layer_ids": [
+      "foundry",
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-INTC-0000050863-26-000155",
     "accession": "0000050863-26-000155",
     "form": "8-K",
@@ -913,6 +957,23 @@
       "foundry"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-c52c7b3b4c769302",
+    "date": "2026-07-13",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Meta, MediaTek, TSMC push AI chips to challenge Google - digitimes",
+    "quote": "Meta, MediaTek, TSMC push AI chips to challenge Google digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWkFuS2JfdGUyS2V1ei1nM0xtMnVXRXowa1VsWVNvY3E3U09td2txcF9fZkpnLUptY3A4eDFKc1FNSnRkTklVSFBOUVYxQjVLRmJUT3BkOGVEODBYOVZDeGd5NzQyMzBMRjFXNUQzdGFTQnBKc3RtZFVLSWRqNVZjTUJVenZaLTVlMFE?oc=5",
+    "layer_ids": [
+      "foundry",
+      "hyperscalers"
+    ],
+    "tickers": [
+      "META"
+    ],
     "arch_risk": false
   },
   {

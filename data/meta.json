@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-08-03T23:04:09.639023+00:00",
+  "last_refresh_at": "2026-08-04T11:19:11.546711+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,75 +7,73 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-08-03T23:04:40.022524+00:00"
+      "ts": "2026-08-04T11:19:42.748314+00:00"
     },
     "rss": {
-      "ok": 8,
-      "total_entries": 111,
+      "ok": 9,
+      "total_entries": 136,
       "per_source_counts": {
         "TrendForce": 20,
         "Nikkei Asia": 25,
         "DigiTimes": 25,
         "ServeTheHome": 6,
-        "The Next Platform": 0,
+        "The Next Platform": 25,
         "SemiAnalysis": 10,
         "Utility Dive": 10,
         "SemiWiki": 5,
         "Stratechery": 10
       },
-      "errors": {
-        "The Next Platform": "bozo: <unknown>:8:22: not well-formed (invalid token)"
-      },
-      "ts": "2026-08-03T23:04:44.621114+00:00"
+      "errors": {},
+      "ts": "2026-08-04T11:19:47.050317+00:00"
     },
     "edgar": {
       "entries": 161,
-      "summarized": 52,
+      "summarized": 51,
       "errors": {},
-      "ts": "2026-08-03T23:04:52.828099+00:00"
+      "ts": "2026-08-04T11:19:56.628082+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "250001 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [90b94d64-7262-4ab7-92a7-acee286100fb]"
+        "__connection__": "250001 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [e611cdc6-30ee-40de-8482-67e2893c5076]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-08-03T23:04:11.657748+00:00"
+      "ts": "2026-08-04T11:19:13.913447+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-08-03T23:07:58.416939+00:00"
+      "ts": "2026-08-04T11:32:11.326390+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "hbm",
-          "tightness_score": 68
+          "tightness_score": 76
         },
         {
           "layer_id": "gpu",
-          "tightness_score": 65
+          "tightness_score": 68
         },
         {
           "layer_id": "switches",
-          "tightness_score": 65
+          "tightness_score": 63
         }
       ],
-      "ts": "2026-08-03T23:07:58.399050+00:00"
+      "ts": "2026-08-04T11:32:11.307336+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-08-03T23:07:58.389403+00:00"
+      "ts": "2026-08-04T11:32:11.297732+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -86,12 +84,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-08-03T23:07:58.422037+00:00"
+      "ts": "2026-08-04T11:32:11.331238+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 23,
+      "cached": 14,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -112,10 +110,42 @@
         "8046.TW"
       ],
       "errors": {
+        "MU": "http 500",
+        "TSM": "http 500",
+        "INTC": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
+        "ASX": "http 500",
+        "AMKR": "transcript page http 500",
+        "ASML": "transcript page http 500",
+        "AMAT": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
+        "LRCX": "http 500",
+        "KLAC": "transcript page http 500",
+        "AMD": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
+        "GOOGL": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
+        "LITE": "http 500",
+        "COHR": "http 500",
+        "MXL": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
+        "ANET": "http 500",
+        "CLS": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
+        "GEV": "http 500",
+        "ETN": "transcript page http 500",
+        "VRT": "transcript page http 500",
+        "GNRC": "transcript page http 500",
+        "HUBB": "transcript page http 500",
+        "PWR": "transcript page http 500",
+        "OKLO": "http 500",
+        "NVT": "transcript page http 500",
+        "MOD": "http 500",
+        "MSFT": "transcript page http 500",
+        "META": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
+        "AMZN": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
+        "NBIS": "http 500",
+        "NOW": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
+        "CDNS": "transcript page http 500",
+        "SNPS": "http 500",
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-08-03T23:07:57.034568+00:00"
+      "ts": "2026-08-04T11:32:10.060460+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -128,32 +158,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-08-03T23:07:57.614040+00:00"
+      "ts": "2026-08-04T11:32:10.643048+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-08-03T23:07:58.394609+00:00"
+      "ts": "2026-08-04T11:32:11.302951+00:00"
     },
     "tw_universe": {
-      "ok": 1942,
-      "stock_count": 1942,
+      "ok": 1946,
+      "stock_count": 1946,
       "sector_count": 71,
-      "latest_date": "2026-08-03",
-      "ts": "2026-08-03T23:09:05.983652+00:00"
+      "latest_date": "2026-08-04",
+      "ts": "2026-08-04T11:33:10.380146+00:00"
     },
     "us_universe": {
       "ok": 992,
       "stock_count": 992,
       "sector_count": 77,
-      "latest_date": "2026-08-03",
-      "ts": "2026-08-03T23:10:21.685999+00:00"
+      "latest_date": "2026-07-31",
+      "ts": "2026-08-04T11:34:27.939242+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 304,
-    "total": 330
+    "discovered_kept": 306,
+    "total": 332
   }
 }

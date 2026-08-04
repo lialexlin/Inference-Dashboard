@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-08-04T11:19:11.546711+00:00",
+  "last_refresh_at": "2026-08-04T23:05:30.093545+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-08-04T11:19:42.748314+00:00"
+      "ts": "2026-08-04T23:05:52.030245+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,56 +24,56 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-08-04T11:19:47.050317+00:00"
+      "ts": "2026-08-04T23:05:57.155854+00:00"
     },
     "edgar": {
       "entries": 161,
-      "summarized": 51,
+      "summarized": 50,
       "errors": {},
-      "ts": "2026-08-04T11:19:56.628082+00:00"
+      "ts": "2026-08-04T23:06:07.886781+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "250001 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [e611cdc6-30ee-40de-8482-67e2893c5076]"
+        "__connection__": "250001 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [1f518362-1674-41da-b7a5-06ddc05a0ed2]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-08-04T11:19:13.913447+00:00"
+      "ts": "2026-08-04T23:05:32.595853+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-08-04T11:32:11.326390+00:00"
+      "ts": "2026-08-04T23:09:01.470138+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "hbm",
-          "tightness_score": 76
+          "tightness_score": 73
         },
         {
           "layer_id": "gpu",
-          "tightness_score": 68
+          "tightness_score": 65
         },
         {
           "layer_id": "switches",
           "tightness_score": 63
         }
       ],
-      "ts": "2026-08-04T11:32:11.307336+00:00"
+      "ts": "2026-08-04T23:09:01.452464+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-08-04T11:32:11.297732+00:00"
+      "ts": "2026-08-04T23:09:01.442318+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,12 +84,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-08-04T11:32:11.331238+00:00"
+      "ts": "2026-08-04T23:09:01.475256+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 14,
+      "cached": 22,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -110,42 +110,10 @@
         "8046.TW"
       ],
       "errors": {
-        "MU": "http 500",
-        "TSM": "http 500",
-        "INTC": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
-        "ASX": "http 500",
-        "AMKR": "transcript page http 500",
-        "ASML": "transcript page http 500",
-        "AMAT": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
-        "LRCX": "http 500",
-        "KLAC": "transcript page http 500",
-        "AMD": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
-        "GOOGL": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
-        "LITE": "http 500",
-        "COHR": "http 500",
-        "MXL": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
-        "ANET": "http 500",
-        "CLS": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
-        "GEV": "http 500",
-        "ETN": "transcript page http 500",
-        "VRT": "transcript page http 500",
-        "GNRC": "transcript page http 500",
-        "HUBB": "transcript page http 500",
-        "PWR": "transcript page http 500",
-        "OKLO": "http 500",
-        "NVT": "transcript page http 500",
-        "MOD": "http 500",
-        "MSFT": "transcript page http 500",
-        "META": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
-        "AMZN": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
-        "NBIS": "http 500",
-        "NOW": "parse failed: HTTPSConnectionPool(host='earningscalls.dev', port=443): Read timed out. (read timeout=20)",
-        "CDNS": "transcript page http 500",
-        "SNPS": "http 500",
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-08-04T11:32:10.060460+00:00"
+      "ts": "2026-08-04T23:09:00.139404+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -158,27 +126,27 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-08-04T11:32:10.643048+00:00"
+      "ts": "2026-08-04T23:09:00.727444+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-08-04T11:32:11.302951+00:00"
+      "ts": "2026-08-04T23:09:01.447861+00:00"
     },
     "tw_universe": {
       "ok": 1946,
       "stock_count": 1946,
       "sector_count": 71,
       "latest_date": "2026-08-04",
-      "ts": "2026-08-04T11:33:10.380146+00:00"
+      "ts": "2026-08-04T23:09:53.474787+00:00"
     },
     "us_universe": {
-      "ok": 992,
-      "stock_count": 992,
+      "ok": 1002,
+      "stock_count": 1002,
       "sector_count": 77,
-      "latest_date": "2026-07-31",
-      "ts": "2026-08-04T11:34:27.939242+00:00"
+      "latest_date": "2026-08-04",
+      "ts": "2026-08-04T23:11:00.821966+00:00"
     }
   },
   "signals": {

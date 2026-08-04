@@ -1,24 +1,24 @@
 {
   "hbm": {
-    "tightness_score": 76,
-    "signal_count_90d": 14,
-    "tightness_language_hits_per_signal": 0.286,
+    "tightness_score": 73,
+    "signal_count_90d": 13,
+    "tightness_language_hits_per_signal": 0.231,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Manish Bhatia, Executives] I think what's the demand is supply constrained, right, for both right now. And so we're just continuing to work very hard on enhancing supply, but I mentioned persistent structural factors earlier in my comments",
-      "Hanmi Semiconductor speeds up HBM tool output and plants US flag as equipment shortage looms digitimes",
-      "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t"
+      "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t",
+      "[MU] 'Supply allocation decisions may impact certain customers' (Q1) → 'Industry supply allocation decisions continue' (Q2) — no easing language added"
     ],
     "components": {
-      "density_pct": 0.467,
+      "density_pct": 0.4,
       "language_pct": 0.933,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "foundry": {
     "tightness_score": 49,
-    "signal_count_90d": 19,
+    "signal_count_90d": 20,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -29,10 +29,10 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "packaging": {
-    "tightness_score": 43,
+    "tightness_score": 40,
     "signal_count_90d": 12,
     "tightness_language_hits_per_signal": 0.167,
     "cross_quarter_supply_tight": false,
@@ -41,42 +41,41 @@
     ],
     "components": {
       "density_pct": 0.267,
-      "language_pct": 0.8,
+      "language_pct": 0.733,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "wfe": {
     "tightness_score": 40,
-    "signal_count_90d": 13,
-    "tightness_language_hits_per_signal": 0.154,
+    "signal_count_90d": 12,
+    "tightness_language_hits_per_signal": 0.167,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Douglas Bettinger, Executives] Everybody wants to know the answer to that question. And frankly, I don't have a specific number for you, except I would tell you, the industry is undersupplied right now. You're seeing it in memory pricing, "
     ],
     "components": {
-      "density_pct": 0.333,
-      "language_pct": 0.667,
+      "density_pct": 0.267,
+      "language_pct": 0.733,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "gpu": {
-    "tightness_score": 68,
+    "tightness_score": 65,
     "signal_count_90d": 22,
-    "tightness_language_hits_per_signal": 0.091,
+    "tightness_language_hits_per_signal": 0.045,
     "cross_quarter_supply_tight": true,
     "evidence": [
-      "Hanmi Semiconductor speeds up HBM tool output and plants US flag as equipment shortage looms digitimes",
       "[Ashish Saran, Executives] Yes. I mean supply has been tight. I mean that's worst-kept secret out there. But having said that, I mean, just look at the upside we're driving this year and next year. So I think we've got -- done a pretty good",
       "[NVDA] Both filings cite data-center / energy / capital availability as the gating constraint on customer deployments — no easing language added"
     ],
     "components": {
       "density_pct": 0.8,
-      "language_pct": 0.4,
+      "language_pct": 0.333,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "networking": {
     "tightness_score": 45,
@@ -92,7 +91,7 @@
       "language_pct": 0.467,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "optics": {
     "tightness_score": 25,
@@ -107,7 +106,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "switches": {
     "tightness_score": 63,
@@ -124,23 +123,23 @@
       "language_pct": 0.533,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "power": {
-    "tightness_score": 32,
-    "signal_count_90d": 22,
+    "tightness_score": 37,
+    "signal_count_90d": 24,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.8,
+      "density_pct": 0.933,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "cooling": {
-    "tightness_score": 40,
+    "tightness_score": 43,
     "signal_count_90d": 13,
     "tightness_language_hits_per_signal": 0.154,
     "cross_quarter_supply_tight": false,
@@ -149,11 +148,11 @@
       "[Gary Corona, Executives] M&A is a big part of capital allocation. As we talked about our capital allocation strategy at our Investor Day, we made it very clear that the first priority is growth organic growth, and you're seeing that on the"
     ],
     "components": {
-      "density_pct": 0.333,
+      "density_pct": 0.4,
       "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "hyperscalers": {
     "tightness_score": 45,
@@ -168,7 +167,7 @@
       "language_pct": 0.333,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "neoclouds": {
     "tightness_score": 27,
@@ -183,7 +182,7 @@
       "language_pct": 0.6,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "software": {
     "tightness_score": 21,
@@ -196,7 +195,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "eda": {
     "tightness_score": 43,
@@ -212,7 +211,7 @@
       "language_pct": 0.867,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -225,6 +224,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-04T11:32:11.303274+00:00"
+    "updated_at": "2026-08-04T23:09:01.448205+00:00"
   }
 }

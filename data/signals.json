@@ -1,5 +1,70 @@
 [
   {
+    "id": "rss-8726e4af0d3a0e33",
+    "date": "2026-08-05",
+    "source": "Stratechery",
+    "source_type": "analyst",
+    "headline": "Google Earnings, The Frontier Case, Amazon Earnings",
+    "quote": "Google's earnings seemed to confirm the Anthropic hedge; it was Andy Jassy who explained why their — and Amazon's — capex was justifiable.",
+    "url": "https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AMD-0000002488-26-000123",
+    "accession": "0000002488-26-000123",
+    "form": "10-Q",
+    "date": "2026-08-05",
+    "source": "SEC EDGAR (AMD)",
+    "source_type": "filing",
+    "headline": "AMD files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ANET-0001596532-26-000175",
+    "accession": "0001596532-26-000175",
+    "form": "10-Q",
+    "date": "2026-08-05",
+    "source": "SEC EDGAR (ANET)",
+    "source_type": "filing",
+    "headline": "ANET files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000175/anet-20260630.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "ANET"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-4c8ef903f31726fc",
+    "date": "2026-08-04",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Samsung Foundry nears full utilization, but 2nm yields remain a hurdle - digitimes",
+    "quote": "Samsung Foundry nears full utilization, but 2nm yields remain a hurdle digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSnBrWFg0VkxRTlBtcXVEc1U5Q2swSkFweHlQcFYyVDFxcWVyRi1xdE4tNjhRVmZKX25zb1dyaDd4U0FwdjZqLV9nNVFZWmhGcExFY3FnTmZqR2dVb1dMZmluXzI1TVZidlhyM01oR0dGdmtKWi05VVNSaXdESmVpQXl4YzVxRkd4NzB3dmNLa0hFR182VmxITG9lM2ZEVVE?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-789e62a590423b0f",
     "date": "2026-08-04",
     "source": "DigiTimes",
@@ -44,15 +109,15 @@
     "arch_risk": false
   },
   {
-    "id": "rss-17e5dd3a2a6a9a4e",
+    "id": "rss-7a2ff4b2fa8c00a8",
     "date": "2026-08-04",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Why Shouldn’t Amazon Spinoff AWS And Annapurna Labs?",
-    "quote": "",
-    "url": "https://www.nextplatform.com/cloud/2026/08/04/why-shouldnt-amazon-spinoff-aws-and-annapurna-labs/5282586",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "China's chip output jumps nearly 350% in a decade as semiconductor supply chain expands - digitimes",
+    "quote": "China's chip output jumps nearly 350% in a decade as semiconductor supply chain expands digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNclJWMUFBd0xscVA1WWlqN0JsSDc2dkRWQ2h3TklGRDM1OXpwRmV4ZzktN2FQRER3eXNYejZuY052Skh1ZzVMVF96VlkwU3JPWEJuYWFlbi03OVlJLWZhaDV5R3UxUnRNX0pPc2pxN2w1alYxWkJBS0pPdUd2SmdJVElxUnNRSHFzbWhxTUVNUk1jWUJiT2pWcERYRHg?oc=5",
     "layer_ids": [
-      "hyperscalers"
+      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -69,6 +134,43 @@
       "gpu"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AMD-0000002488-26-000121",
+    "accession": "0000002488-26-000121",
+    "form": "8-K",
+    "date": "2026-08-04",
+    "source": "SEC EDGAR (AMD)",
+    "source_type": "filing",
+    "headline": "AMD files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ANET-0001596532-26-000174",
+    "accession": "0001596532-26-000174",
+    "form": "8-K",
+    "date": "2026-08-04",
+    "source": "SEC EDGAR (ANET)",
+    "source_type": "filing",
+    "headline": "ANET files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/anet-20260804.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "ANET"
+    ],
     "arch_risk": false
   },
   {
@@ -170,21 +272,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-b23ca4d54962257a",
-    "date": "2026-08-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp - digitimes",
-    "quote": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEUxSFl1V0VIZWZoU0lBYmxqMUM1QmdGZEtiQ09UVGY5MWo2RXZSdEJPVEpQbXJ1NlBJaWxUcHJMNzdRTXRwU293UkRpTUdOc1dQa0RQS2lpRmYyNXltUVBoOXFGLXhRVGtuLXVqLThrYWxlUzFvTlBobF9RX3VwN0EwN0lObmI4OEl0aHVJZw?oc=5",
-    "layer_ids": [
-      "packaging",
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-79f625a95ce7b71b",
     "date": "2026-08-03",
     "source": "DigiTimes",
@@ -198,6 +285,21 @@
     "tickers": [
       "000660.KS"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-b23ca4d54962257a",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp - digitimes",
+    "quote": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEUxSFl1V0VIZWZoU0lBYmxqMUM1QmdGZEtiQ09UVGY5MWo2RXZSdEJPVEpQbXJ1NlBJaWxUcHJMNzdRTXRwU293UkRpTUdOc1dQa0RQS2lpRmYyNXltUVBoOXFGLXhRVGtuLXVqLThrYWxlUzFvTlBobF9RX3VwN0EwN0lObmI4OEl0aHVJZw?oc=5",
+    "layer_ids": [
+      "packaging",
+      "gpu"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -222,20 +324,6 @@
     "headline": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured - digitimes",
     "quote": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured digitimes",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVTEtTi1CVGFucnF0NFk1elNrN0hoYkdaelVfdVp4WUZuM1NFdjNNeUVNc1lHMkV0SGJ2Si1hVmYwR2tLNVE4cXhMWm5BUzlPMWRLVjJNYzhyZTBLa3d1enZIS2I5X0ZmblVQbGJYMG5FSkdHNEVLeFJzNENzbDM1VFdKZWVqY3FFT29RWTRzdw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-3631cd544642e584",
-    "date": "2026-08-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Weekly news roundup: Intel revives DDR4, Samsung challenges TSMC at 2nm, Qualcomm raises chip prices - digitimes",
-    "quote": "Weekly news roundup: Intel revives DDR4, Samsung challenges TSMC at 2nm, Qualcomm raises chip prices digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeTJ4U05EUEZUZUNYYzFrOE9scG8xbmhQVTNxcWppU3VQRVlPNXRSSTVKMmVkYnRaWU5lRUlnampwcEt5NGktMnE2N1MtT0tYZ3BDbkhrdzZVaE10eE4zSnVJVTJ4UGVfTzZ6MGszNWdlS0xoWUJMWjY5QVNwVmVfSkpUT3g?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -453,20 +541,6 @@
     "tickers": [
       "AMZN"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-410529cd78b5a624",
-    "date": "2026-07-30",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "South Korean chip exports increasingly flow to Taiwan for TSMC packaging amid rising AI demand - digitimes",
-    "quote": "South Korean chip exports increasingly flow to Taiwan for TSMC packaging amid rising AI demand digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT0JvWVNvdVZGb3Y1ajFNUEVHdGhCbUVTTTlxZERlanJMZk8wODJRZ2R4bWUtVEhlVHhZSHNHTG1fdWRScTVtWWl6ZWlWRzZRdklRZGlRS1BVSnZDMzhlVmZqdjJ4TlJPYmsxaDY3dFlvdkgtT21ZeWlRR3JwUEp1bW1MWk5QVk5la1cwS0JR?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -738,21 +812,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-d0e9b792149f2fac",
-    "date": "2026-07-28",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "AI chip boom shifts bottleneck to advanced packaging, says AT&S CEO - asia.nikkei.com",
-    "quote": "AI chip boom shifts bottleneck to advanced packaging, says AT&S CEO asia.nikkei.com",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZjhVV3dMWU1TWjlETXVKZE53cFp6V29nODB5X2t3cVdXZXBjcmp1UWd4cTZyRXBSUG1wZWVJRS1XcVgwR0g5UXRpNXo1dzc2N0ZTdVpmemo4Q2laY1h6RXFZUEZuQ2hoM1VONThRQi1sQjQ5LXluMU9VUVBkWmx6b3pZZkE5WnVIYmV3c0VlbUZwa0gtYmk4SGpfTk9fOFZwNDdXbExQUVFvWHpXU0p5alV4ZndoTlpVUnZz?oc=5",
-    "layer_ids": [
-      "packaging",
-      "substrates"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-AMKR-0001047127-26-000046",
     "accession": "0001047127-26-000046",
     "form": "10-Q",
@@ -972,20 +1031,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-a411a93b25e91679",
-    "date": "2026-07-22",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Salience Labs Wants To Scale Up AI With Silicon Photonics Optical Switch",
-    "quote": "",
-    "url": "https://www.nextplatform.com/connect/2026/07/22/salience-labs-wants-to-scale-up-ai-with-silicon-photonics-optical-switch/5276643",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-GOOGL-0001652044-26-000066",
     "accession": "0001652044-26-000066",
     "form": "8-K",
@@ -1059,20 +1104,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-1e1f28bfd29ed3c8",
-    "date": "2026-07-16",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "AI Chips Drive Around A Third Of TSMC Revenues",
-    "quote": "",
-    "url": "https://www.nextplatform.com/ai/2026/07/16/ai-chips-drive-around-a-third-of-tsmc-revenues/5273929",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-d1ef2a874be69ef4",
     "date": "2026-07-01",
     "source": "TrendForce",
@@ -1112,22 +1143,6 @@
       "wfe"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b369d36f1b4d9461",
-    "date": "2026-07-01",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Of Course Meta Platforms Is Going To Be A Cloud",
-    "quote": "",
-    "url": "https://www.nextplatform.com/cloud/2026/07/01/of-course-meta-platforms-is-going-to-be-a-cloud/5265392",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "META"
-    ],
     "arch_risk": false
   },
   {
@@ -6827,45 +6842,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-ANET-0001596532-26-000013",
-    "accession": "0001596532-26-000013",
-    "form": "10-K",
-    "date": "2026-02-17",
-    "source": "SEC EDGAR (ANET)",
-    "source_type": "filing",
-    "headline": "ANET files 10-K: periodic report",
-    "quote": "Sales to one end customer represented 16%, 15%, and 21% of our total revenue, and sales to the other end customer represented 26%, 20%, and 18% of our total revenue for the years ended December 31, 2025, 2024, and 2023, respectively.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "ANET"
-    ],
-    "summary": {
-      "tldr": "FY25 revenue $9.0B +28.6% YoY with Cloud and AI Titans at 48% of revenue; product deferred revenue swelled to $5.37B as AI Ethernet trials accumulate acceptance-period contracts.",
-      "takeaways": [
-        "FY25 revenue $9.0B +28.6%; product $7.58B +28.8%, services $1.43B +27.7%; gross margin held at 64.1%",
-        "Customer mix: Cloud and AI Titans 48%, Enterprise 32%, AI and Specialty Providers 20%; two end customers were 26% and 16% of revenue",
-        "Deferred revenue ballooned from $2.79B to $5.37B; $6.1B total remaining performance obligations, 90% to recognize in next 2 years",
-        "Etherlink portfolio of 20+ products spans 800G AI Spine/Leaf and 7700R4 Distributed Etherlink Switch for AI Scale-Out, Scale-Up, Scale-Across",
-        "Memory market tightening flagged as gross-margin pressure; flags AI Ethernet acceptance-period contracts as source of revenue volatility",
-        "R&D +24.1% to $1.24B; operating cash flow $4.4B; large customer pricing discounts continue to compress GM on big orders"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "10-K does not provide point guidance; mgmt flags variability from AI Ethernet trials, memory supply tightening, and tariff/trade exposure as the dominant near-term swing factors",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Sales to one end customer represented 16%, 15%, and 21% of our total revenue, and sales to the other end customer represented 26%, 20%, and 18% of our total revenue for the years ended December 31, 2025, 2024, and 2023, respectively.",
-      "quote_section": "Item 7 MD&A — Overview"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-CSCO-0000858877-26-000021",
     "accession": "0000858877-26-000021",
     "form": "10-Q",
@@ -6936,25 +6912,6 @@
     ],
     "tickers": [
       "AMAT"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-ANET-0001596532-26-000010",
-    "accession": "0001596532-26-000010",
-    "form": "8-K",
-    "date": "2026-02-12",
-    "source": "SEC EDGAR (ANET)",
-    "source_type": "filing",
-    "headline": "ANET files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000010/anet-20260212.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "ANET"
     ],
     "arch_risk": false
   },
@@ -7105,45 +7062,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-AMD-0000002488-26-000018",
-    "accession": "0000002488-26-000018",
-    "form": "10-K",
-    "date": "2026-02-04",
-    "source": "SEC EDGAR (AMD)",
-    "source_type": "filing",
-    "headline": "AMD files 10-K: periodic report",
-    "quote": "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
-    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
-    "layer_ids": [
-      "gpu",
-      "networking"
-    ],
-    "tickers": [
-      "AMD"
-    ],
-    "summary": {
-      "tldr": "FY25 Data Center $16.6B (+32% YoY) driven by MI350 GPUs and EPYC; October 2025 OpenAI deal commits 6 GW of AMD GPU deployments starting with MI450, with a 160M-share warrant tied to milestones.",
-      "takeaways": [
-        "FY25 revenue $34.6B (+34% YoY); Data Center $16.6B (+32%), Client+Gaming $14.6B (+51%), Embedded $3.5B (-3%)",
-        "Data Center operating income only $3.6B (~22% margin) vs $3.5B prior year - hit by $440M net MI308 China export charges; gross margin 50% vs 49%",
-        "OpenAI 6 GW multi-year purchase agreement signed Oct 2025; first GW on MI450; warrant for up to 160M shares at $0.01 vests on purchase + stock-price milestones through Oct 2030",
-        "MI308 China business: $800M Q2 inventory charge, $360M reversed in Q4 after partial licenses; Feb 2026 MI325 China licenses carry 25% US re-import tariff",
-        "ZT Systems closed for $3.2B + 8.3M shares in March 2025; manufacturing arm sold to Sanmina for $2.4B in October, retained design IP for Helios rack-scale platform",
-        "No customer >10% of FY25 revenue (one Client+Gaming customer was 18% in FY23); China geo 22% of revenue ($7.8B), US 33%, Taiwan 15%"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "FY26 to feature annual Instinct cadence (MI350 -> MI355X -> MI450); Helios AI rack platform previewed combining CPUs, GPUs and Pensando AI NICs",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
-      "quote_section": "Item 7 MD&A - Overview"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-LITE-0001628280-26-005129",
     "accession": "0001628280-26-005129",
     "form": "10-Q",
@@ -7250,24 +7168,6 @@
     ],
     "tickers": [
       "LITE"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-AMD-0000002488-26-000014",
-    "accession": "0000002488-26-000014",
-    "form": "8-K",
-    "date": "2026-02-03",
-    "source": "SEC EDGAR (AMD)",
-    "source_type": "filing",
-    "headline": "AMD files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000014/amd-20260203.htm",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
     ],
     "arch_risk": false
   },

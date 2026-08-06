@@ -1,7 +1,22 @@
 # Claude.ai routine: SEC filing summaries
 
-Paste the prompt below into the **Instructions** field when creating a routine
-at <https://claude.ai/agents>. Settings:
+> ⚠️ **This file is a stale hand-copy. Do not trust it as the routine's configuration.**
+> Verified against the live routine 2026-08-06: the settings block below was wrong on every
+> line that describes *how* the routine runs. The prose from "Instructions" down still matches
+> the live prompt closely, but it has never been re-synced and no one has diffed it since.
+>
+> **Live, as of 2026-08-06** — routine `Investment dashboard daily update`,
+> `trig_01UzHb3jYBCp3BhkcHwprqnZ`, cron `30 23 * * *` UTC (07:30 Taipei), **no model pinned**
+> (inherits), env `env_011CUMn2UvpSGNwqexiNMoJx` (Default), tools Bash/Read/Write/Edit/Glob/Grep/
+> WebFetch/WebSearch. **Disabled since 2026-08-05**, one day after its last run on 08-04.
+>
+> **Before re-enabling:** re-dump the live prompt over this file (`RemoteTrigger {action: "get"}`),
+> then treat the file as the source of record and the routine as a deploy target — per
+> `~/alexthegreat/CLAUDE.md` › Where things go. The routines API keeps no version history, so an
+> untracked prompt has nothing to restore from, and a copy nobody re-syncs is worse than none
+> because the next reader believes it. This header is the proof.
+
+Original setup note, kept for context (its schedule and model lines are the wrong ones):
 
 - **Name**: `Inference Dashboard — daily SEC filing summaries`
 - **Repository**: `lialexlin/Inference-Dashboard`

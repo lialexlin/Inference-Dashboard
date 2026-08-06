@@ -1,5 +1,399 @@
 [
   {
+    "id": "rss-9728ff7648d8feb1",
+    "date": "2026-08-05",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Imec Unlocks System-Level III-V Chiplet Integration on Si-CMOS with Advanced 300mm RF Silicon Interposer Platform",
+    "quote": "As wireless communication systems evolve toward 6G, satellite connectivity, advanced radar, and high-performance sensing applications, the integration of heterogeneous semiconductor technologies has become a critical challenge. Silicon CMOS remains the dominant platform for digital processing and system control,… Read More The post Imec Unlocks System-Level III-V Chiplet Integration on Si-CMOS with Advanced 300mm RF Silicon Interposer Platform appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/chiplet/370236-imec-unlocks-system-level-iii-v-chiplet-integration-on-si-cmos-with-advanced-300mm-rf-silicon-interposer-platform/",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-8726e4af0d3a0e33",
+    "date": "2026-08-05",
+    "source": "Stratechery",
+    "source_type": "analyst",
+    "headline": "Google Earnings, The Frontier Case, Amazon Earnings",
+    "quote": "Google's earnings seemed to confirm the Anthropic hedge; it was Andy Jassy who explained why their — and Amazon's — capex was justifiable.",
+    "url": "https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AMD-0000002488-26-000123",
+    "accession": "0000002488-26-000123",
+    "form": "10-Q",
+    "date": "2026-08-05",
+    "source": "SEC EDGAR (AMD)",
+    "source_type": "filing",
+    "headline": "AMD files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ANET-0001596532-26-000175",
+    "accession": "0001596532-26-000175",
+    "form": "10-Q",
+    "date": "2026-08-05",
+    "source": "SEC EDGAR (ANET)",
+    "source_type": "filing",
+    "headline": "ANET files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000175/anet-20260630.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "ANET"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-4c8ef903f31726fc",
+    "date": "2026-08-04",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Samsung Foundry nears full utilization, but 2nm yields remain a hurdle - digitimes",
+    "quote": "Samsung Foundry nears full utilization, but 2nm yields remain a hurdle digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSnBrWFg0VkxRTlBtcXVEc1U5Q2swSkFweHlQcFYyVDFxcWVyRi1xdE4tNjhRVmZKX25zb1dyaDd4U0FwdjZqLV9nNVFZWmhGcExFY3FnTmZqR2dVb1dMZmluXzI1TVZidlhyM01oR0dGdmtKWi05VVNSaXdESmVpQXl4YzVxRkd4NzB3dmNLa0hFR182VmxITG9lM2ZEVVE?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-789e62a590423b0f",
+    "date": "2026-08-04",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Sandisk and SK Hynix release HBF spec to advance AI memory standard - digitimes",
+    "quote": "Sandisk and SK Hynix release HBF spec to advance AI memory standard digitimes",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeXVwX1c5SjF5VVhka3BsY0NzQVljQ0dhemQ5RjlBSHppcGxybno2OC1BU0wtUl84MmlEQjBxakxKeVBrdl90UjRGVmF6eTM5VUR6S09QMWMyWnVRdDg2dmNMRERSU21aOC1IMzl6LU1qTU1yQjB4VmZlSUY5eWJ2M3gzeV9XNGg5NVR0Q3VUdXJXalFXOURKLUxaQm5wWmpq?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-ddefb4cd63f4183c",
+    "date": "2026-08-04",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Nvidia RTX 50 graphics card prices climb as TSMC and memory costs rise - digitimes",
+    "quote": "Nvidia RTX 50 graphics card prices climb as TSMC and memory costs rise digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2UzQS1yamZOQVlEdU5pVUFFc0twRjdyVHdiOG1tWlR2RUUtWEpBSDQ0NjJqbXhuN0UwbXdEdlRuTGUwcGdXT2tIdzdvRGsxWldldGZlc3lia05CXzVicmRmTEl3YVZBbi14eFNETS1ZY0tRNnVCWDhLc3Fxc0FGQk1VbEN1dWsxdUJSdVhMakw0dw?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-4faf2aa07070ef3b",
+    "date": "2026-08-04",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Kumamoto semiconductor production recovers, TSMC's Japan subsidiary returns to normal operations - digitimes",
+    "quote": "Kumamoto semiconductor production recovers, TSMC's Japan subsidiary returns to normal operations digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd0FGRldWQ05KOXRmMmdmN2lwa0Y5LW96b01ENjRjRzRraHljd19HUlBEREpkWDRCQ1JfbTVwRjdMMUhWcmduUnFfTzY0Q3BKaVl5TnA3RmdYWElhSDl1VmdxMldndENfdGlCSUtqVXZQTldsMXA2ZEYyd3pVSkluaHM5SFhnNU9iNVBKaU5XcDFNbDQzc3c?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7a2ff4b2fa8c00a8",
+    "date": "2026-08-04",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "China's chip output jumps nearly 350% in a decade as semiconductor supply chain expands - digitimes",
+    "quote": "China's chip output jumps nearly 350% in a decade as semiconductor supply chain expands digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNclJWMUFBd0xscVA1WWlqN0JsSDc2dkRWQ2h3TklGRDM1OXpwRmV4ZzktN2FQRER3eXNYejZuY052Skh1ZzVMVF96VlkwU3JPWEJuYWFlbi03OVlJLWZhaDV5R3UxUnRNX0pPc2pxN2w1alYxWkJBS0pPdUd2SmdJVElxUnNRSHFzbWhxTUVNUk1jWUJiT2pWcERYRHg?oc=5",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-17e5dd3a2a6a9a4e",
+    "date": "2026-08-04",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Why Shouldn’t Amazon Spinoff AWS And Annapurna Labs?",
+    "quote": "",
+    "url": "https://www.nextplatform.com/cloud/2026/08/04/why-shouldnt-amazon-spinoff-aws-and-annapurna-labs/5282586",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AMD-0000002488-26-000121",
+    "accession": "0000002488-26-000121",
+    "form": "8-K",
+    "date": "2026-08-04",
+    "source": "SEC EDGAR (AMD)",
+    "source_type": "filing",
+    "headline": "AMD files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ANET-0001596532-26-000174",
+    "accession": "0001596532-26-000174",
+    "form": "8-K",
+    "date": "2026-08-04",
+    "source": "SEC EDGAR (ANET)",
+    "source_type": "filing",
+    "headline": "ANET files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/anet-20260804.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "ANET"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-GNRC-0001437749-26-025669",
+    "accession": "0001437749-26-025669",
+    "form": "10-Q",
+    "date": "2026-08-04",
+    "source": "SEC EDGAR (GNRC)",
+    "source_type": "filing",
+    "headline": "GNRC files 10-Q: FORM 10-Q",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926025669/gnrc20260630_10q.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "GNRC"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-PLTR-0001321655-26-000041",
+    "accession": "0001321655-26-000041",
+    "form": "10-Q",
+    "date": "2026-08-04",
+    "source": "SEC EDGAR (PLTR)",
+    "source_type": "filing",
+    "headline": "PLTR files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000041/pltr-20260630.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "PLTR"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-5c1bdab676e16d3a",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography - digitimes",
+    "quote": "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography digitimes",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sZ1ZiVXJxT0NjZGF4a3V0Z3Z6RlFHb3RvbENaamg2S1BrbjZFWFhpLXEyYUNVVDZ0d3QwY1RtS1RMa1Z6MzBDbmNTbzJzazhKNDRhdW1Ba2E5SGFSZnczREt1SkE3RW5ielhvQXZKUjBBYlZZdkJjYnlRWQ?oc=5",
+    "layer_ids": [
+      "wfe",
+      "gpu"
+    ],
+    "tickers": [
+      "ASML"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a67a62581bb5bf5e",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Pat Gelsinger joins xLight in bid to bring TSMC into US-made lithography project - digitimes",
+    "quote": "Pat Gelsinger joins xLight in bid to bring TSMC into US-made lithography project digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWldJQXd5YW84cHZicGJyR2FUSnNHZ09LNlNacXUxOW5BcTl0WVdZTGNCd01yYUJKMmtoT3dRbFlHY3hadG50R1pEV1k2VDFySGZOOFNwdnEtdWNDbGlNaDItd3lTWV84ajlhcWlXZU82aG9sMENkVVVsbkxHMHo1aEpiZUx5QUMwcnh0aXlzYTVNb0RTcmEwNEV2VG8?oc=5",
+    "layer_ids": [
+      "wfe",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-ed855599a598d5a1",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "xLight bets on EUV light source, eyes ASML deal - digitimes",
+    "quote": "xLight bets on EUV light source, eyes ASML deal digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWVliMll2T3YxMV9wQlhZTDNRNkt0N3VYdFp6blZlcF8yVHB0NHpjQ0s5aHZNWWxfcHZVOElMUUtxbWpzbnZUZXQ5TnR3c05LTVZObmZCalFoOEcySEw2aDZiVmFmYnJUbHNYSTJObDdvYU9hRkpCVmdiYWZqVHRCWjNhc2c0OXMybnlaaXg1NWxqZEVWemdKRFlnbw?oc=5",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [
+      "ASML"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-ff20e2fbb4998d49",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Intel offers bonuses to speed up Ohio fab construction and reaches EMIB-T yields of 90% - digitimes",
+    "quote": "Intel offers bonuses to speed up Ohio fab construction and reaches EMIB-T yields of 90% digitimes",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPekJUZmRBUjRFTjRfLUdrZ0t6SmJ0dGpWY1doUzMxeXFpVzhIeXNuQ3duc3RHVWFKYkJyVkZ5WUlkcmdRVmVaXzU3d3NvcTRnLWpJczNuUk1vZGJfZXlXYVFpTHloLW44dmNJM3RPeHFzVDZTYWpfanotN25zdk5hRElkOF9Ib2U3UHUtQVF1NTZ2aHZBdWhUTlV4UnJVUQ?oc=5",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-79f625a95ce7b71b",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "CXMT closes in on LPDDR6 mass production, challenging Samsung, SK Hynix - digitimes",
+    "quote": "CXMT closes in on LPDDR6 mass production, challenging Samsung, SK Hynix digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVGh0TXNkTTBEWlBfMmxObU1VeTZubmJtel9YYTdWeE9kdVZ3cDk0VjdmRWJZc1pBZDBUaW5MMmJzN3BoamVYMktyY2Q0aFl3WjFyNXFNSjBndFBZNlBjTVdGYUpfZ0tJTm5CZUtRb05UTzFYMXkxUWJZYW1qLTlJVFNUcW01N2M0T0dfYXhfRlg5akdnSlFfSnJjZWZPaXlETjRz?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-b23ca4d54962257a",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp - digitimes",
+    "quote": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEUxSFl1V0VIZWZoU0lBYmxqMUM1QmdGZEtiQ09UVGY5MWo2RXZSdEJPVEpQbXJ1NlBJaWxUcHJMNzdRTXRwU293UkRpTUdOc1dQa0RQS2lpRmYyNXltUVBoOXFGLXhRVGtuLXVqLThrYWxlUzFvTlBobF9RX3VwN0EwN0lObmI4OEl0aHVJZw?oc=5",
+    "layer_ids": [
+      "packaging",
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-b5a82fb8c8328efa",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Memory makers lift capex as Kioxia holds spending to defend NAND lead - digitimes",
+    "quote": "Memory makers lift capex as Kioxia holds spending to defend NAND lead digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdzhwamtsdElmbURZUHRSQnlYdWs0ZjRoSG1XSTJaXzQ5clhfRHZBQWR5aElibmdZai1xZ25nR3dGNFF6c0paYWNCTk1UWVRJZ1JUbFRVOTVjVEpJQkZhVUJxLVpTbEdkQy1ROUJHNXdxVl84aGQ2NmZlbEZNNFpodGw1RmczQQ?oc=5",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-20255dda2d02b44f",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured - digitimes",
+    "quote": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVTEtTi1CVGFucnF0NFk1elNrN0hoYkdaelVfdVp4WUZuM1NFdjNNeUVNc1lHMkV0SGJ2Si1hVmYwR2tLNVE4cXhMWm5BUzlPMWRLVjJNYzhyZTBLa3d1enZIS2I5X0ZmblVQbGJYMG5FSkdHNEVLeFJzNENzbDM1VFdKZWVqY3FFT29RWTRzdw?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-8e7f8f5b851b0147",
+    "date": "2026-08-03",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "AMD Helios Architecture Deep Dive: The Power of AMD’s Hardware Combined",
+    "quote": "The Helios rackscale system is the culmination of AMD's server hardware, as well as their AI datacenter ambitions. For Advancing AI 2026, the company dove into the architecture of their first rackscale systems, outlining how they have scaled up 72 Instinct MI455X accelerators to act as a single system The post AMD Helios Architecture Deep Dive: The Power of AMD’s Hardware Combined appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/amd-helios-architecture-deep-dive-amd-broadcom-hardware-combined/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-PLTR-0001321655-26-000039",
+    "accession": "0001321655-26-000039",
+    "form": "8-K",
+    "date": "2026-08-03",
+    "source": "SEC EDGAR (PLTR)",
+    "source_type": "filing",
+    "headline": "PLTR files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/pltr-20260803.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "PLTR"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-16432324ff5a1464",
+    "date": "2026-07-31",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Unimicron says Intel's EMIB-T will not reach mass production until 2027, sharpening advanced packaging rivalry - digitimes",
+    "quote": "Unimicron says Intel's EMIB-T will not reach mass production until 2027, sharpening advanced packaging rivalry digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWE5KeEtJSTBWenEwWmtmVnBuR2VELThhVl9TbkZEcXJqbFJaSG9rT1labmZJU2pwY1VTOUY1eEpsSElZV0s0Rkg0a3NXT1hjREFtUEZ4Wk11ak1kLW1JM2RzZGN2cmcteFdKUndyRjU1c3JoM1hCWll1clNPRmRiY0ozVlV2cTlUeC1qbVVLdDBBN3pzZ0E4?oc=5",
+    "layer_ids": [
+      "packaging",
+      "substrates"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-597c25589fa7ca3b",
     "date": "2026-07-31",
     "source": "DigiTimes",
@@ -25,21 +419,6 @@
     "layer_ids": [
       "hbm",
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-f708f7fa82d769e5",
-    "date": "2026-07-31",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "The Difference Between CoWoS-S and CoWoS-R",
-    "quote": "CoWoS-S and CoWoS-R are two versions of TSMC’s Chip-on-Wafer-on-Substrate advanced packaging platform. Both technologies are designed to combine high-performance processors, chiplets and high-bandwidth memory, or HBM, within a single package. This shortens the electrical connections between computing and memory components,… Read More The post The Difference Between CoWoS-S and CoWoS-R appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/371759-the-difference-between-cowos-s-and-cowos-r/",
-    "layer_ids": [
-      "packaging",
-      "hbm"
     ],
     "tickers": [],
     "arch_risk": false
@@ -137,78 +516,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-478a14ebde6a88e0",
-    "date": "2026-07-30",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Equinix sees big business beyond hyperscalers in data center boom - Nikkei Asia",
-    "quote": "Equinix sees big business beyond hyperscalers in data center boom Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcTJ4ckdjZVRKWkpYRDc1dExMTUFkbG1xU2dpeGlTc29pOFBOdmNDQWVnUHVEYUcyVWRzLVBTSXhONWF6YWFDY2hlbFFRVjZGbmVEOW4zYktEYjBHWGtnOVcxNllXM0FpWWNpSE9nWUNKQTJBVzEwb21hNEJ5NUVPTURhdGxPSlhHeDVsbTZiQlVwSFlLenNfenNuMFVrWUJyUmF0U2JOZFB6OHg5WTY4aTAweTQ?oc=5",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-410529cd78b5a624",
-    "date": "2026-07-30",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "South Korean chip exports increasingly flow to Taiwan for TSMC packaging amid rising AI demand - digitimes",
-    "quote": "South Korean chip exports increasingly flow to Taiwan for TSMC packaging amid rising AI demand digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT0JvWVNvdVZGb3Y1ajFNUEVHdGhCbUVTTTlxZERlanJMZk8wODJRZ2R4bWUtVEhlVHhZSHNHTG1fdWRScTVtWWl6ZWlWRzZRdklRZGlRS1BVSnZDMzhlVmZqdjJ4TlJPYmsxaDY3dFlvdkgtT21ZeWlRR3JwUEp1bW1MWk5QVk5la1cwS0JR?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-43fdd1d238e4c524",
-    "date": "2026-07-30",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Lam Research raises outlook as AI-driven semiconductor demand fuels record revenue and margin expansion - digitimes",
-    "quote": "Lam Research raises outlook as AI-driven semiconductor demand fuels record revenue and margin expansion digitimes",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOemxzeVJoV3BNbEhoa1lkajhPUE5uTEo4NkNCLWwwMEU3LTVjelBER1Z3TnliaVBxY2JVaVN3UnFnTFFOLUJ3N0RGcWpOelFMRXpjZ3VfQmtZajhkUFhjV19zNzVJNVBYS3pKckx1cEFMOHFEZEVGWXR1ZDBiNGdkWkVuSUFhQlN0UnNxNWFhaGdnRWI2dm9JRXdIcEU?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "LRCX"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-2554fcb715fcdefd",
-    "date": "2026-07-30",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "From Photonics Precision to Repeatable Evidence",
-    "quote": "Why Optical Probing Is Becoming a Manufacturing Boundary for Silicon Photonics Silicon photonics has already shown that extremely precise optical alignment is possible. In controlled laboratory environments, engineers can align fibers, waveguides, grating couplers, edge couplers, modulators, detectors, and electrical… Read More The post From Photonics Precision to Repeatable Evidence appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/photonics/371218-from-photonics-precision-to-repeatable-evidence/",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-864c890939b6cc1c",
-    "date": "2026-07-30",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Formal Acceleration on FPGA. Innovation in Verification",
-    "quote": "Extending hardware acceleration to formal verification is a powerful idea to extend hardware acceleration to a verification domain that has not got much attention for acceleration. Paul Cunningham (GM, Verification at Cadence), Raúl Camposano (Silicon Catalyst, entrepreneur, former Synopsys CTO and lecturer at Stanford,… Read More The post Formal Acceleration on FPGA. Innovation in Verification appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/371437-formal-acceleration-on-fpga-innovation-in-verification/",
-    "layer_ids": [
-      "eda"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-PWR-0001050915-26-000025",
     "accession": "0001050915-26-000025",
     "form": "10-Q",
@@ -299,23 +606,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-6b452dbaf2ee4a56",
-    "date": "2026-07-29",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Taiwan semiconductor power demand is set to reach 52 billion kWh in 2026 - digitimes",
-    "quote": "Taiwan semiconductor power demand is set to reach 52 billion kWh in 2026 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUTBBb0x3d3NiSWZtbFNjMlZMd3poMHh2eFA2dXFjMnpxMkdSaHF5ZWVtc2lSRGIySnMxVno1Y2RWNEJQclhiNDdiZTdkWTZMejdwSldGQnBEeThPSTAyVFRRbzBHYTBZSmlVc0dITHhscXp0ejd1YjJDLVBHSTVZTkx2M2NRNThrMTl2aE5YYlRVdjNsZnc?oc=5",
-    "layer_ids": [
-      "foundry",
-      "packaging"
-    ],
-    "tickers": [
-      "TSM"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-7234ce7b74ffeb47",
     "date": "2026-07-29",
     "source": "DigiTimes",
@@ -364,6 +654,24 @@
     ],
     "tickers": [
       "VRT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-GNRC-0001437749-26-024731",
+    "accession": "0001437749-26-024731",
+    "form": "8-K",
+    "date": "2026-07-29",
+    "source": "SEC EDGAR (GNRC)",
+    "source_type": "filing",
+    "headline": "GNRC files 8-K: FORM 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926024731/gnrc20260728_8k.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "GNRC"
     ],
     "arch_risk": false
   },
@@ -476,51 +784,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-f107670cf707cdcd",
-    "date": "2026-07-28",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "AI chip boom shifts bottleneck to advanced packaging, says AT&S CEO - Nikkei Asia",
-    "quote": "AI chip boom shifts bottleneck to advanced packaging, says AT&S CEO Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZjhVV3dMWU1TWjlETXVKZE53cFp6V29nODB5X2t3cVdXZXBjcmp1UWd4cTZyRXBSUG1wZWVJRS1XcVgwR0g5UXRpNXo1dzc2N0ZTdVpmemo4Q2laY1h6RXFZUEZuQ2hoM1VONThRQi1sQjQ5LXluMU9VUVBkWmx6b3pZZkE5WnVIYmV3c0VlbUZwa0gtYmk4SGpfTk9fOFZwNDdXbExQUVFvWHpXU0p5alV4ZndoTlpVUnZz?oc=5",
-    "layer_ids": [
-      "packaging",
-      "substrates"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-5066cb3071b0f27d",
-    "date": "2026-07-28",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "SK Hynix Q2 profit surges but misses market forecast; shares slide - Nikkei Asia",
-    "quote": "SK Hynix Q2 profit surges but misses market forecast; shares slide Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYjJxbzQwbE5mc0dZQlNya0Vjc0d0RGxwQWU2WlA5V0NCUVVOZ1FfY3pDZWpJSkRWYnpPSnVoRWJOZm5ONHNYNmd1bHlYTF9rYktnRndjeUxNaHljLTYtWkc1aTh5amdaeGhvUzZTM1JzcmdBTXlrQ2xFMUJQREdlZGlnelZWRTN3VF85cE5DM3FURmhRT1RGUDBlSGlzQk9jdW9fQkdfeWhRS3RQX3Y1bi1TVjBoOUdUVnc?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [
-      "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ae314ca3ffc83f56",
-    "date": "2026-07-28",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Magnitude 7.1 quake strikes Japan's Kumamoto; TSMC says JASM staff safe, recovery underway - digitimes",
-    "quote": "Magnitude 7.1 quake strikes Japan's Kumamoto; TSMC says JASM staff safe, recovery underway digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOakN2a3lYTUJidnFNWGZ1ekV1Qmx2bkFRLW1OMTlKTldQYnpvMEZiTkZxMzZPZFRIREhkckNSWW4tcHdDR3FpU0E4ZG5mWjdrTldrYWM2dVFtN3g5QU43eXJOc2pnMmxMZlI2Qk1YbEZfcGdGUGpiX3NMZW1rZ2VEYk0xcERXWFh5T25xYkFzZTRscmpw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-AMKR-0001047127-26-000046",
     "accession": "0001047127-26-000046",
     "form": "10-Q",
@@ -554,20 +817,6 @@
     "tickers": [
       "HUBB"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-89551223041e4deb",
-    "date": "2026-07-27",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Memory module maker Apacer warns 2027 DRAM supply could fall 70% - digitimes",
-    "quote": "Memory module maker Apacer warns 2027 DRAM supply could fall 70% digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNG44RF9Kc2p5cnRvdGVwemNLQTVMOXhWa3R1dExnMmxIaFZkVGxQQ0pYdlJEbVZaaUVxWTB3TmdHU3h1WEtSbFFXN1dWek9JWFZpbkdVTXd3LWMweDJ0SENuNUhIMVhzTXBIbXRBTE55dUlMVFo5YUI4ZGIzYnZRajlUYUtCeW8?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -643,23 +892,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-d9d5b4b594c40878",
-    "date": "2026-07-25",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Podcast: TSMC, SK Hynix, Intel face AI chip and cash flow inflection - digitimes",
-    "quote": "Podcast: TSMC, SK Hynix, Intel face AI chip and cash flow inflection digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeWU1OERKTDRYMS1DOEwwVzdVeGh1d1I1RTZpSUtRdm1kZXJqVUZSSXFlSER3SmVRbkQ5TTg2RjhmTklCQThrcU5Eb2p2VG1ENUNrNEktb0R4RVFvUXdHalNzeV9ZWUNjbFk3V19TcFRuTVk5cWtjZVFjXzBlYVZRYUF1WHNNV20wNnpEcDJISERqOEx0?oc=5",
-    "layer_ids": [
-      "foundry",
-      "hbm"
-    ],
-    "tickers": [
-      "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-INTC-0000050863-26-000157",
     "accession": "0000050863-26-000157",
     "form": "10-Q",
@@ -676,21 +908,6 @@
     "tickers": [
       "INTC"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-24f653274370ad6b",
-    "date": "2026-07-23",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Kyushu chip output jumps 60% amid TSMC expansion, but local suppliers see limited gains - digitimes",
-    "quote": "Kyushu chip output jumps 60% amid TSMC expansion, but local suppliers see limited gains digitimes",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMGNwUTNvcTFEVGdDb2JFcThHWDJzMnBNRVAzMmVYVF9ZcmlHSHVPdVMwUGhtM1Z3UnNKTERrZ3IyRFV6dlNrR1ROSWM1WVRaTUg0WDlkTTJRWmdMWkZ0V08tZTJNcDlHMjRWNVc1S2tLSFJralRUdTcteDZ2bEFxV2tjWldjSi1fd010MUxQTHdEbUR5bWktWE5B?oc=5",
-    "layer_ids": [
-      "foundry",
-      "gpu"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -786,20 +1003,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-ab4c1b49cb8c9e89",
-    "date": "2026-07-22",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC raises 2027 chip prices, giving Intel fresh pricing room - digitimes",
-    "quote": "TSMC raises 2027 chip prices, giving Intel fresh pricing room digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQnloNlpLZUxjR0xaSFo4dGhqd0FnbUJlbmh2ejFyODNhdkRmQURQUnpKeVBRLUpHMWlyYUpubzV4a2FuelpJRENSUUh3VElTM0xvRlhySG1raDBDWmlPdXdXWVNaOTdtZkxDQXZTZHY0QXN4WFJELVlrc193QjVJNG9MNG4?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-a411a93b25e91679",
     "date": "2026-07-22",
     "source": "The Next Platform",
@@ -887,48 +1090,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-c80f456c94447044",
-    "date": "2026-07-21",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "China's EUV gap keeps semiconductor catch-up in check - digitimes",
-    "quote": "China's EUV gap keeps semiconductor catch-up in check digitimes",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOXVQX2psS1hKd1p2OUJMaGZEcXlrYTY0OVVTcHd3QnNjd3Y4VE1fUGxlUUZrVWt0RFJidUEtV0ZSc0JiVUNGc210aUJWN1lSNXhvRFNZcEFtNnEyekNySG5iSURJOVc0X01EZHVxVks1Y2xEa0cwR3BVSjZrRFkyc1BuR3FRMGFObXFYbzZzS3NaSEE4cHdBRHJYTTNfdw?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-fadc5cbb5ac39140",
-    "date": "2026-07-20",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC expansion strengthens Arizona's talent pull as advanced manufacturing shifts west - digitimes",
-    "quote": "TSMC expansion strengthens Arizona's talent pull as advanced manufacturing shifts west digitimes",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjUtWDBtUHpNNC0tcEM4WjZ4NDdCbnktUXdqVXhtRGltUjh3cHkwbDFkakxjYjhwX2dfWFJSMVRrLWxEdFZPVnlFMURUT01GamhkRmJnX29sXzF3U01wZjBhTldPdmprYjhaeVVncC1zcHN6Vk03eUdBejBERk5RZ2xqZXNaRFFjelJBOURfWUgwME5CZFdfSTVB?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-e9783953826c5b43",
-    "date": "2026-07-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "CPU demand rebounds in AI data centers as TSMC stands to benefit across architectures - digitimes",
-    "quote": "CPU demand rebounds in AI data centers as TSMC stands to benefit across architectures digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcXBWVm5kTXNfWmZxZlgzd3RfaEw5Szg1OXBMWEk5WEdLMV8tdkJmUE5YZXpLeGZpdmFVQnUtUC13eE9YY0RWejFUUVRxRl9uczRVMkRzT2J3Y3VleFVWb1VMY3QwVl9iTXJwTFd4NVRINzFfbXRyUWNLbTJXV0FKaTNCTFc?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-1e1f28bfd29ed3c8",
     "date": "2026-07-16",
     "source": "The Next Platform",
@@ -936,82 +1097,6 @@
     "headline": "AI Chips Drive Around A Third Of TSMC Revenues",
     "quote": "",
     "url": "https://www.nextplatform.com/ai/2026/07/16/ai-chips-drive-around-a-third-of-tsmc-revenues/5273929",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-c52c7b3b4c769302",
-    "date": "2026-07-13",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Meta, MediaTek, TSMC push AI chips to challenge Google - digitimes",
-    "quote": "Meta, MediaTek, TSMC push AI chips to challenge Google digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWkFuS2JfdGUyS2V1ei1nM0xtMnVXRXowa1VsWVNvY3E3U09td2txcF9fZkpnLUptY3A4eDFKc1FNSnRkTklVSFBOUVYxQjVLRmJUT3BkOGVEODBYOVZDeGd5NzQyMzBMRjFXNUQzdGFTQnBKc3RtZFVLSWRqNVZjTUJVenZaLTVlMFE?oc=5",
-    "layer_ids": [
-      "foundry",
-      "hyperscalers"
-    ],
-    "tickers": [
-      "META"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-4a2c38770852a7d0",
-    "date": "2026-07-10",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC, ASML, and Imec target 2D chip mass production in Taiwan within five years - digitimes",
-    "quote": "TSMC, ASML, and Imec target 2D chip mass production in Taiwan within five years digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTUU1cUNzNDVhWUtfcXJtaVh6Q2ZLNXpiMFpJRldSRlZMaUZDZEdlbE9sa2tBODh6ZUgzNUpTaDJiV3JTdklTSFA0eTM3U1JWVW10TlNBcUoxVWEyU1FlUUMxWG5DQWZTemxDbEx3VldoQzkyUTZXWmc2aHotQWhuc2FmLXU0R3pEWkRxYXpIM090QQ?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-e7739cbacb232561",
-    "date": "2026-07-07",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC's AI bottleneck spills demand across the semiconductor supply chain - digitimes",
-    "quote": "TSMC's AI bottleneck spills demand across the semiconductor supply chain digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeFB6cm12d3c0NXA1UTVhNzhQWDVkUkEyRGtCcUJLZXhXUDJ2LVBxWU1hQ3Y3MlZFdU5xWWVrYkdXMG4wSy1RZzJGWnhBZEx3MUs0cVFtVm1wZnVVTGxqTUZNMVh0eXgwMmJVTFJuTVdGMGZrbTBkU1VrR1dSenhnZm1DMUdVZk5ITEY2RUh5QXEyNGRCMVFn?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-222eaa6dde49a745",
-    "date": "2026-07-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC wins approval for US$20 billion Arizona expansion - digitimes",
-    "quote": "TSMC wins approval for US$20 billion Arizona expansion digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUWNjUWx0TGVfQ0wtcDI0b0k3dko3Y1dmM1Y1dEphVEpHeU1MWThvd19mNi1zTndacEZHeFFxdS04RVNyeVFYak82SlgwNDZrOWlGZklQOGR4Z1hxUUprWVpjeFVtbkUxWEh5TEhCVi1RZW55WWY4dkdEV21Ed09KaGRhTVBmZG9jTlNmTHN0UFZ1VWFMWTZN?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b4f489e4692fb11d",
-    "date": "2026-07-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "How TSMC quietly turned its supply chain into a 'second fleet' - digitimes",
-    "quote": "How TSMC quietly turned its supply chain into a 'second fleet' digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUFY4UHQ0Z2l4ZlctcVJLYTRUYkNid09acUNWZlBwaHRkU2QxUHZPbDJNS2dXX01tanh2RzBVSHdVQmZXYVJ1STlvN3JxNnZNUzA3QkFZak0yc2lSbzl0OGpMX3VNWmNhcExxd0trY3pBa2RwSE12a1lZZVFpODlFUjF6eE9reWFFeVZRbVFXcUdQeDdrenZINWp2YnNQRmdaWWc?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -1058,22 +1143,6 @@
       "wfe"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b369d36f1b4d9461",
-    "date": "2026-07-01",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Of Course Meta Platforms Is Going To Be A Cloud",
-    "quote": "",
-    "url": "https://www.nextplatform.com/cloud/2026/07/01/of-course-meta-platforms-is-going-to-be-a-cloud/5265392",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "META"
-    ],
     "arch_risk": false
   },
   {
@@ -6773,84 +6842,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-GNRC-0001437749-26-004568",
-    "accession": "0001437749-26-004568",
-    "form": "10-K",
-    "date": "2026-02-18",
-    "source": "SEC EDGAR (GNRC)",
-    "source_type": "filing",
-    "headline": "GNRC files 10-K: FORM 10-K",
-    "quote": "Massive capital investment into hyperscale and edge data centers has created a very large market for back-up power that is supply-constrained, providing a significant growth opportunity for our newly introduced large-megawatt C&I products.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926004568/gnrc20251231_10k.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "GNRC"
-    ],
-    "summary": {
-      "tldr": "Launched large-megawatt diesel gensets in 2025 for data centers; FY25 sales -2% to $4.21B as residential softness from quiet outage season offset C&I + data center growth.",
-      "takeaways": [
-        "FY25 sales $4.21B (-2%) — residential -6.8% on quiet outage season + tough 2024 hurricane comp; C&I +4.9% on data center, telecom, industrial",
-        "FY25 net income $159.6M vs $316.3M; adjusted EBITDA $716M (margin 17.0%) vs $789M (18.4%)",
-        "Domestic adjusted EBITDA margin 17.1% (vs 19.1%) from unfavorable mix + higher costs + operating deleverage",
-        "International segment +6.0% to $738M driven by data center revenue, controls solutions growth, FX",
-        "Major 2025 product launches: large-megawatt diesel generators (data center entry), next-gen home standby, PWRcell 2 storage, Generac branded microinverters",
-        "First mention: large-megawatt backup generator market is 'significantly supply-constrained' creating massive incremental opportunity",
-        "Liquidity $1.34B; net secured leverage 1.32x; new $500M buyback authorized Feb 2026"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "OBBBA accelerated phaseout of solar tax credits will negatively impact solar/storage in near term but mega-trends expected to persist",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Massive capital investment into hyperscale and edge data centers has created a very large market for back-up power that is supply-constrained, providing a significant growth opportunity for our newly introduced large-megawatt C&I products.",
-      "quote_section": "Item 1 Business — Key Mega-Trends"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-ANET-0001596532-26-000013",
-    "accession": "0001596532-26-000013",
-    "form": "10-K",
-    "date": "2026-02-17",
-    "source": "SEC EDGAR (ANET)",
-    "source_type": "filing",
-    "headline": "ANET files 10-K: periodic report",
-    "quote": "Sales to one end customer represented 16%, 15%, and 21% of our total revenue, and sales to the other end customer represented 26%, 20%, and 18% of our total revenue for the years ended December 31, 2025, 2024, and 2023, respectively.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000013/anet-20251231.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "ANET"
-    ],
-    "summary": {
-      "tldr": "FY25 revenue $9.0B +28.6% YoY with Cloud and AI Titans at 48% of revenue; product deferred revenue swelled to $5.37B as AI Ethernet trials accumulate acceptance-period contracts.",
-      "takeaways": [
-        "FY25 revenue $9.0B +28.6%; product $7.58B +28.8%, services $1.43B +27.7%; gross margin held at 64.1%",
-        "Customer mix: Cloud and AI Titans 48%, Enterprise 32%, AI and Specialty Providers 20%; two end customers were 26% and 16% of revenue",
-        "Deferred revenue ballooned from $2.79B to $5.37B; $6.1B total remaining performance obligations, 90% to recognize in next 2 years",
-        "Etherlink portfolio of 20+ products spans 800G AI Spine/Leaf and 7700R4 Distributed Etherlink Switch for AI Scale-Out, Scale-Up, Scale-Across",
-        "Memory market tightening flagged as gross-margin pressure; flags AI Ethernet acceptance-period contracts as source of revenue volatility",
-        "R&D +24.1% to $1.24B; operating cash flow $4.4B; large customer pricing discounts continue to compress GM on big orders"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "10-K does not provide point guidance; mgmt flags variability from AI Ethernet trials, memory supply tightening, and tariff/trade exposure as the dominant near-term swing factors",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Sales to one end customer represented 16%, 15%, and 21% of our total revenue, and sales to the other end customer represented 26%, 20%, and 18% of our total revenue for the years ended December 31, 2025, 2024, and 2023, respectively.",
-      "quote_section": "Item 7 MD&A — Overview"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-CSCO-0000858877-26-000021",
     "accession": "0000858877-26-000021",
     "form": "10-Q",
@@ -6890,44 +6881,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-PLTR-0001321655-26-000011",
-    "accession": "0001321655-26-000011",
-    "form": "10-K",
-    "date": "2026-02-17",
-    "source": "SEC EDGAR (PLTR)",
-    "source_type": "filing",
-    "headline": "PLTR files 10-K: periodic report",
-    "quote": "Of the $4.5 billion in revenue that we generated in 2025, 54% came from customers in the government segment, and 46% came from customers in the commercial segment.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm",
-    "layer_ids": [
-      "software"
-    ],
-    "tickers": [
-      "PLTR"
-    ],
-    "summary": {
-      "tldr": "FY25 revenue $4.5B (+53% commercial growth, +56% gov); income from ops $1.41B (4.5x YoY); gov 54% / commercial 46% mix; AIP/Foundry/Gotham power both sides.",
-      "takeaways": [
-        "FY25 revenue $4.5B; government $2.40B (+53% YoY) + commercial $2.07B (+60% YoY)",
-        "Income from operations $1.41B vs $310M prior year (4.5x growth); total contribution margin 66%",
-        "Government contribution $1.58B (66% margin) vs $948M (60%); commercial $1.37B (66%) vs $772M (60%)",
-        "74% US revenue, 26% international; deepening US commercial penetration via AIP bootcamps",
-        "AIP positioned as primary AI/LLM orchestration layer; integrated with Foundry/Gotham ontology",
-        "Founders + affiliates ~22% voting power (excluding Class F); Founders Excluded Shares dynamic"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "10-K does not provide explicit guidance",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Of the $4.5 billion in revenue that we generated in 2025, 54% came from customers in the government segment, and 46% came from customers in the commercial segment.",
-      "quote_section": "Item 1 Business - Customer Base"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "intel-emib-cowos",
     "date": "2026-02-15",
     "source": "Tom's Hardware",
@@ -6963,25 +6916,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-ANET-0001596532-26-000010",
-    "accession": "0001596532-26-000010",
-    "form": "8-K",
-    "date": "2026-02-12",
-    "source": "SEC EDGAR (ANET)",
-    "source_type": "filing",
-    "headline": "ANET files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000010/anet-20260212.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "ANET"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-CSCO-0000858877-26-000006",
     "accession": "0000858877-26-000006",
     "form": "8-K",
@@ -6997,24 +6931,6 @@
     ],
     "tickers": [
       "CSCO"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-GNRC-0001437749-26-003700",
-    "accession": "0001437749-26-003700",
-    "form": "8-K",
-    "date": "2026-02-11",
-    "source": "SEC EDGAR (GNRC)",
-    "source_type": "filing",
-    "headline": "GNRC files 8-K: FORM 8-K",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926003700/gnrc20260211_8k.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "GNRC"
     ],
     "arch_risk": false
   },
@@ -7146,45 +7062,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-AMD-0000002488-26-000018",
-    "accession": "0000002488-26-000018",
-    "form": "10-K",
-    "date": "2026-02-04",
-    "source": "SEC EDGAR (AMD)",
-    "source_type": "filing",
-    "headline": "AMD files 10-K: periodic report",
-    "quote": "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
-    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
-    "layer_ids": [
-      "gpu",
-      "networking"
-    ],
-    "tickers": [
-      "AMD"
-    ],
-    "summary": {
-      "tldr": "FY25 Data Center $16.6B (+32% YoY) driven by MI350 GPUs and EPYC; October 2025 OpenAI deal commits 6 GW of AMD GPU deployments starting with MI450, with a 160M-share warrant tied to milestones.",
-      "takeaways": [
-        "FY25 revenue $34.6B (+34% YoY); Data Center $16.6B (+32%), Client+Gaming $14.6B (+51%), Embedded $3.5B (-3%)",
-        "Data Center operating income only $3.6B (~22% margin) vs $3.5B prior year - hit by $440M net MI308 China export charges; gross margin 50% vs 49%",
-        "OpenAI 6 GW multi-year purchase agreement signed Oct 2025; first GW on MI450; warrant for up to 160M shares at $0.01 vests on purchase + stock-price milestones through Oct 2030",
-        "MI308 China business: $800M Q2 inventory charge, $360M reversed in Q4 after partial licenses; Feb 2026 MI325 China licenses carry 25% US re-import tariff",
-        "ZT Systems closed for $3.2B + 8.3M shares in March 2025; manufacturing arm sold to Sanmina for $2.4B in October, retained design IP for Helios rack-scale platform",
-        "No customer >10% of FY25 revenue (one Client+Gaming customer was 18% in FY23); China geo 22% of revenue ($7.8B), US 33%, Taiwan 15%"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "FY26 to feature annual Instinct cadence (MI350 -> MI355X -> MI450); Helios AI rack platform previewed combining CPUs, GPUs and Pensando AI NICs",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "In October 2025, we entered into a product purchase agreement with OpenAI OpCo, LLC, (OpenAI) to deploy 6 gigawatts of AMD GPUs, with the deployment of the first gigawatt of capacity powered by our AMD Instinct MI450 series products.",
-      "quote_section": "Item 7 MD&A - Overview"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-LITE-0001628280-26-005129",
     "accession": "0001628280-26-005129",
     "form": "10-Q",
@@ -7295,24 +7172,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-AMD-0000002488-26-000014",
-    "accession": "0000002488-26-000014",
-    "form": "8-K",
-    "date": "2026-02-03",
-    "source": "SEC EDGAR (AMD)",
-    "source_type": "filing",
-    "headline": "AMD files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000014/amd-20260203.htm",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-LITE-0001628280-26-005005",
     "accession": "0001628280-26-005005",
     "form": "8-K",
@@ -7383,24 +7242,6 @@
     ],
     "tickers": [
       "FN"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-PLTR-0001321655-26-000004",
-    "accession": "0001321655-26-000004",
-    "form": "8-K",
-    "date": "2026-02-02",
-    "source": "SEC EDGAR (PLTR)",
-    "source_type": "filing",
-    "headline": "PLTR files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/pltr-20260202.htm",
-    "layer_ids": [
-      "software"
-    ],
-    "tickers": [
-      "PLTR"
     ],
     "arch_risk": false
   },

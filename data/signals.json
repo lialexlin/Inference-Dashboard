@@ -1,30 +1,118 @@
 [
   {
-    "id": "rss-d42574b84cf4b997",
+    "id": "rss-3e8a7bb64472d05a",
     "date": "2026-08-06",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC's CoW outsourcing spurs OSAT capacity push amid AI packaging bottleneck - digitimes",
-    "quote": "TSMC's CoW outsourcing spurs OSAT capacity push amid AI packaging bottleneck digitimes",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOXQ3R1dBMGxtaThNSUg0dXFCWW5YRTBKaHNoTzZoV1gzSVdHdGdKNkl0UGZzSWhMZzE5aTg3djMxR1J4cHEycllHTmM5OTRNZFhyc1A0TjZENWp4aVg2eEJWczB3QmFQVTJDZWJ4MXdfZVgwdXF3c0QxLWk4MFExVlRaYThVR3EtcmRKSEFRQzhodDFMb1l1NUc0TlJzeXBHM1BZZk94OA?oc=5",
+    "headline": "Apple scrambles to secure DRAM as US$1 billion worth of iPhone 18 chips reportedly await packaging - digitimes.com",
+    "quote": "Apple scrambles to secure DRAM as US$1 billion worth of iPhone 18 chips reportedly await packaging digitimes.com",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZERicXhkLTNrZU9YOFF3VkNoanRCZ2pyQ1NZYkpnblpQczFfZnp2QXNBcVlvZ2E1OV9lTjNPRFpkc2VUcnlidzdJMUU4N0dCc0FYa3RZNmVmeHNIRjhva0oxM3VRUzNMUVUyVTY5SXpyblNiU2JTT3MyQ3hqamgxNzRtV1pEQnFPQ3d3TjA1Z1c4UTR0RmZJ?oc=5",
     "layer_ids": [
-      "foundry"
+      "hbm"
     ],
     "tickers": [],
     "arch_risk": false
   },
   {
-    "id": "rss-9728ff7648d8feb1",
-    "date": "2026-08-05",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Imec Unlocks System-Level III-V Chiplet Integration on Si-CMOS with Advanced 300mm RF Silicon Interposer Platform",
-    "quote": "As wireless communication systems evolve toward 6G, satellite connectivity, advanced radar, and high-performance sensing applications, the integration of heterogeneous semiconductor technologies has become a critical challenge. Silicon CMOS remains the dominant platform for digital processing and system control,… Read More The post Imec Unlocks System-Level III-V Chiplet Integration on Si-CMOS with Advanced 300mm RF Silicon Interposer Platform appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/chiplet/370236-imec-unlocks-system-level-iii-v-chiplet-integration-on-si-cmos-with-advanced-300mm-rf-silicon-interposer-platform/",
+    "id": "rss-98086ce5010acdf6",
+    "date": "2026-08-06",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "DRAM price surge lifts Samsung and Micron as SK Hynix loses share - digitimes.com",
+    "quote": "DRAM price surge lifts Samsung and Micron as SK Hynix loses share digitimes.com",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVHhqdWZjRmVuc1N1RzJwcUhiQzVzTVJCb2Z4QjdzdXE5OVBLTXhZaGg5OFQxR2Y2R2s2WnN5c0FiUGREamtIbnkyY3lmajMtWFR3WU50dXZ3cEFiZF9rR09xRmtvdWdVSDZLeFIxc3pDSjVCNm1JdWFJRjVPVkg3N3d1RHRkMFY5R1hRWHdn?oc=5",
     "layer_ids": [
-      "packaging"
+      "hbm"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-561ddabfde20ffd6",
+    "date": "2026-08-06",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "NRG nears 1.2-GW hyperscaler deal amid Texas data center pause",
+    "quote": "President and CEO Robert Gaudette said NRG’s approach to delivering customer-backed capacity would thrive in a more restrictive environment for data center development.",
+    "url": "https://www.utilitydive.com/news/nrg-nears-12-gw-hyperscaler-deal-amid-texas-data-center-pause/827212/",
+    "layer_ids": [
+      "hyperscalers"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-KLAC-0000319201-26-000027",
+    "accession": "0000319201-26-000027",
+    "form": "10-K",
+    "date": "2026-08-06",
+    "source": "SEC EDGAR (KLAC)",
+    "source_type": "filing",
+    "headline": "KLAC files 10-K: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [
+      "KLAC"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CEG-0001868275-26-000104",
+    "accession": "0001868275-26-000104",
+    "form": "10-Q",
+    "date": "2026-08-06",
+    "source": "SEC EDGAR (CEG)",
+    "source_type": "filing",
+    "headline": "CEG files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000104/ceg-20260630.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CEG"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CEG-0001868275-26-000097",
+    "accession": "0001868275-26-000097",
+    "form": "8-K",
+    "date": "2026-08-06",
+    "source": "SEC EDGAR (CEG)",
+    "source_type": "filing",
+    "headline": "CEG files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CEG"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-LEU-0001628280-26-053863",
+    "accession": "0001628280-26-053863",
+    "form": "10-Q",
+    "date": "2026-08-06",
+    "source": "SEC EDGAR (LEU)",
+    "source_type": "filing",
+    "headline": "LEU files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026053863/leu-20260630.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "LEU"
+    ],
     "arch_risk": false
   },
   {
@@ -79,12 +167,30 @@
     "arch_risk": false
   },
   {
-    "id": "rss-4c8ef903f31726fc",
+    "id": "edgar-LEU-0001628280-26-053433",
+    "accession": "0001628280-26-053433",
+    "form": "8-K",
+    "date": "2026-08-05",
+    "source": "SEC EDGAR (LEU)",
+    "source_type": "filing",
+    "headline": "LEU files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026053433/leu-20260805.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "LEU"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-8aa9dfe1e1bba279",
     "date": "2026-08-04",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Samsung Foundry nears full utilization, but 2nm yields remain a hurdle - digitimes",
-    "quote": "Samsung Foundry nears full utilization, but 2nm yields remain a hurdle digitimes",
+    "headline": "Samsung Foundry nears full utilization, but 2nm yields remain a hurdle - digitimes.com",
+    "quote": "Samsung Foundry nears full utilization, but 2nm yields remain a hurdle digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSnBrWFg0VkxRTlBtcXVEc1U5Q2swSkFweHlQcFYyVDFxcWVyRi1xdE4tNjhRVmZKX25zb1dyaDd4U0FwdjZqLV9nNVFZWmhGcExFY3FnTmZqR2dVb1dMZmluXzI1TVZidlhyM01oR0dGdmtKWi05VVNSaXdESmVpQXl4YzVxRkd4NzB3dmNLa0hFR182VmxITG9lM2ZEVVE?oc=5",
     "layer_ids": [
       "foundry"
@@ -93,12 +199,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-789e62a590423b0f",
+    "id": "rss-2269a3f4202a0fe8",
     "date": "2026-08-04",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Sandisk and SK Hynix release HBF spec to advance AI memory standard - digitimes",
-    "quote": "Sandisk and SK Hynix release HBF spec to advance AI memory standard digitimes",
+    "headline": "Sandisk and SK Hynix release HBF spec to advance AI memory standard - digitimes.com",
+    "quote": "Sandisk and SK Hynix release HBF spec to advance AI memory standard digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeXVwX1c5SjF5VVhka3BsY0NzQVljQ0dhemQ5RjlBSHppcGxybno2OC1BU0wtUl84MmlEQjBxakxKeVBrdl90UjRGVmF6eTM5VUR6S09QMWMyWnVRdDg2dmNMRERSU21aOC1IMzl6LU1qTU1yQjB4VmZlSUY5eWJ2M3gzeV9XNGg5NVR0Q3VUdXJXalFXOURKLUxaQm5wWmpq?oc=5",
     "layer_ids": [
       "hbm"
@@ -109,12 +215,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-ddefb4cd63f4183c",
+    "id": "rss-0e470e12234ace07",
     "date": "2026-08-04",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Nvidia RTX 50 graphics card prices climb as TSMC and memory costs rise - digitimes",
-    "quote": "Nvidia RTX 50 graphics card prices climb as TSMC and memory costs rise digitimes",
+    "headline": "Nvidia RTX 50 graphics card prices climb as TSMC and memory costs rise - digitimes.com",
+    "quote": "Nvidia RTX 50 graphics card prices climb as TSMC and memory costs rise digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU2UzQS1yamZOQVlEdU5pVUFFc0twRjdyVHdiOG1tWlR2RUUtWEpBSDQ0NjJqbXhuN0UwbXdEdlRuTGUwcGdXT2tIdzdvRGsxWldldGZlc3lia05CXzVicmRmTEl3YVZBbi14eFNETS1ZY0tRNnVCWDhLc3Fxc0FGQk1VbEN1dWsxdUJSdVhMakw0dw?oc=5",
     "layer_ids": [
       "foundry"
@@ -123,12 +229,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-4faf2aa07070ef3b",
+    "id": "rss-a0cf639abf9f53b9",
     "date": "2026-08-04",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Kumamoto semiconductor production recovers, TSMC's Japan subsidiary returns to normal operations - digitimes",
-    "quote": "Kumamoto semiconductor production recovers, TSMC's Japan subsidiary returns to normal operations digitimes",
+    "headline": "Kumamoto semiconductor production recovers, TSMC's Japan subsidiary returns to normal operations - digitimes.com",
+    "quote": "Kumamoto semiconductor production recovers, TSMC's Japan subsidiary returns to normal operations digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd0FGRldWQ05KOXRmMmdmN2lwa0Y5LW96b01ENjRjRzRraHljd19HUlBEREpkWDRCQ1JfbTVwRjdMMUhWcmduUnFfTzY0Q3BKaVl5TnA3RmdYWElhSDl1VmdxMldndENfdGlCSUtqVXZQTldsMXA2ZEYyd3pVSkluaHM5SFhnNU9iNVBKaU5XcDFNbDQzc3c?oc=5",
     "layer_ids": [
       "foundry"
@@ -137,12 +243,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-7a2ff4b2fa8c00a8",
+    "id": "rss-165ce5ec57718c71",
     "date": "2026-08-04",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "China's chip output jumps nearly 350% in a decade as semiconductor supply chain expands - digitimes",
-    "quote": "China's chip output jumps nearly 350% in a decade as semiconductor supply chain expands digitimes",
+    "headline": "China's chip output jumps nearly 350% in a decade as semiconductor supply chain expands - digitimes.com",
+    "quote": "China's chip output jumps nearly 350% in a decade as semiconductor supply chain expands digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNclJWMUFBd0xscVA1WWlqN0JsSDc2dkRWQ2h3TklGRDM1OXpwRmV4ZzktN2FQRER3eXNYejZuY052Skh1ZzVMVF96VlkwU3JPWEJuYWFlbi03OVlJLWZhaDV5R3UxUnRNX0pPc2pxN2w1alYxWkJBS0pPdUd2SmdJVElxUnNRSHFzbWhxTUVNUk1jWUJiT2pWcERYRHg?oc=5",
     "layer_ids": [
       "gpu"
@@ -238,12 +344,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-5c1bdab676e16d3a",
+    "id": "rss-ff48de8f7c30ce60",
     "date": "2026-08-03",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography - digitimes",
-    "quote": "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography digitimes",
+    "headline": "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography - digitimes.com",
+    "quote": "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sZ1ZiVXJxT0NjZGF4a3V0Z3Z6RlFHb3RvbENaamg2S1BrbjZFWFhpLXEyYUNVVDZ0d3QwY1RtS1RMa1Z6MzBDbmNTbzJzazhKNDRhdW1Ba2E5SGFSZnczREt1SkE3RW5ielhvQXZKUjBBYlZZdkJjYnlRWQ?oc=5",
     "layer_ids": [
       "wfe",
@@ -255,28 +361,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-ed855599a598d5a1",
+    "id": "rss-5e3e5768815b2ce4",
     "date": "2026-08-03",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "xLight bets on EUV light source, eyes ASML deal - digitimes",
-    "quote": "xLight bets on EUV light source, eyes ASML deal digitimes",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWVliMll2T3YxMV9wQlhZTDNRNkt0N3VYdFp6blZlcF8yVHB0NHpjQ0s5aHZNWWxfcHZVOElMUUtxbWpzbnZUZXQ5TnR3c05LTVZObmZCalFoOEcySEw2aDZiVmFmYnJUbHNYSTJObDdvYU9hRkpCVmdiYWZqVHRCWjNhc2c0OXMybnlaaXg1NWxqZEVWemdKRFlnbw?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b23ca4d54962257a",
-    "date": "2026-08-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp - digitimes",
-    "quote": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp digitimes",
+    "headline": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp - digitimes.com",
+    "quote": "Intel EMIB yields hit target, MediaTek eyes 2028 ASIC ramp digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEUxSFl1V0VIZWZoU0lBYmxqMUM1QmdGZEtiQ09UVGY5MWo2RXZSdEJPVEpQbXJ1NlBJaWxUcHJMNzdRTXRwU293UkRpTUdOc1dQa0RQS2lpRmYyNXltUVBoOXFGLXhRVGtuLXVqLThrYWxlUzFvTlBobF9RX3VwN0EwN0lObmI4OEl0aHVJZw?oc=5",
     "layer_ids": [
       "packaging",
@@ -286,12 +376,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-b5a82fb8c8328efa",
+    "id": "rss-aaee9f150b11362d",
     "date": "2026-08-03",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Memory makers lift capex as Kioxia holds spending to defend NAND lead - digitimes",
-    "quote": "Memory makers lift capex as Kioxia holds spending to defend NAND lead digitimes",
+    "headline": "Memory makers lift capex as Kioxia holds spending to defend NAND lead - digitimes.com",
+    "quote": "Memory makers lift capex as Kioxia holds spending to defend NAND lead digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdzhwamtsdElmbURZUHRSQnlYdWs0ZjRoSG1XSTJaXzQ5clhfRHZBQWR5aElibmdZai1xZ25nR3dGNFF6c0paYWNCTk1UWVRJZ1JUbFRVOTVjVEpJQkZhVUJxLVpTbEdkQy1ROUJHNXdxVl84aGQ2NmZlbEZNNFpodGw1RmczQQ?oc=5",
     "layer_ids": [
       "hyperscalers"
@@ -300,12 +390,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-20255dda2d02b44f",
+    "id": "rss-0dd33234722616f5",
     "date": "2026-08-03",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured - digitimes",
-    "quote": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured digitimes",
+    "headline": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured - digitimes.com",
+    "quote": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVTEtTi1CVGFucnF0NFk1elNrN0hoYkdaelVfdVp4WUZuM1NFdjNNeUVNc1lHMkV0SGJ2Si1hVmYwR2tLNVE4cXhMWm5BUzlPMWRLVjJNYzhyZTBLa3d1enZIS2I5X0ZmblVQbGJYMG5FSkdHNEVLeFJzNENzbDM1VFdKZWVqY3FFT29RWTRzdw?oc=5",
     "layer_ids": [
       "foundry"
@@ -314,12 +404,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-a67a62581bb5bf5e",
+    "id": "rss-5563288c9bf6691e",
     "date": "2026-08-03",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Pat Gelsinger joins xLight in bid to bring TSMC into US-made lithography project - digitimes",
-    "quote": "Pat Gelsinger joins xLight in bid to bring TSMC into US-made lithography project digitimes",
+    "headline": "Pat Gelsinger joins xLight in bid to bring TSMC into US-made lithography project - digitimes.com",
+    "quote": "Pat Gelsinger joins xLight in bid to bring TSMC into US-made lithography project digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWldJQXd5YW84cHZicGJyR2FUSnNHZ09LNlNacXUxOW5BcTl0WVdZTGNCd01yYUJKMmtoT3dRbFlHY3hadG50R1pEV1k2VDFySGZOOFNwdnEtdWNDbGlNaDItd3lTWV84ajlhcWlXZU82aG9sMENkVVVsbkxHMHo1aEpiZUx5QUMwcnh0aXlzYTVNb0RTcmEwNEV2VG8?oc=5",
     "layer_ids": [
       "wfe",
@@ -363,12 +453,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-16432324ff5a1464",
+    "id": "rss-d572f0c9ef8165ef",
     "date": "2026-07-31",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Unimicron says Intel's EMIB-T will not reach mass production until 2027, sharpening advanced packaging rivalry - digitimes",
-    "quote": "Unimicron says Intel's EMIB-T will not reach mass production until 2027, sharpening advanced packaging rivalry digitimes",
+    "headline": "Unimicron says Intel's EMIB-T will not reach mass production until 2027, sharpening advanced packaging rivalry - digitimes.com",
+    "quote": "Unimicron says Intel's EMIB-T will not reach mass production until 2027, sharpening advanced packaging rivalry digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWE5KeEtJSTBWenEwWmtmVnBuR2VELThhVl9TbkZEcXJqbFJaSG9rT1labmZJU2pwY1VTOUY1eEpsSElZV0s0Rkg0a3NXT1hjREFtUEZ4Wk11ak1kLW1JM2RzZGN2cmcteFdKUndyRjU1c3JoM1hCWll1clNPRmRiY0ozVlV2cTlUeC1qbVVLdDBBN3pzZ0E4?oc=5",
     "layer_ids": [
       "packaging",
@@ -378,12 +468,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-597c25589fa7ca3b",
+    "id": "rss-47af4c002cbe0127",
     "date": "2026-07-31",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC reportedly develops EMIB-like packaging to counter Intel - digitimes",
-    "quote": "TSMC reportedly develops EMIB-like packaging to counter Intel digitimes",
+    "headline": "TSMC reportedly develops EMIB-like packaging to counter Intel - digitimes.com",
+    "quote": "TSMC reportedly develops EMIB-like packaging to counter Intel digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQkZjeVBjSm1ldXdlbVh0cW1FT0FybHZrOXI1NV9UYXV3OUhtaEpveGItcWZSenczTjFxRThuY3hDSVo3WG54WENFaFYxbUkwWkw2dXNvSjVzc1lvdTRKay1GWVRpdkZZbzFRQjlzZ0NzQzU4VjdTV1BPXzc2SFRJa0FtSE1XOEhGZHg2RW04X2M5Um80VUE?oc=5",
     "layer_ids": [
       "foundry",
@@ -393,12 +483,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-040aae3915af0717",
+    "id": "rss-f63432ac4d09fb9c",
     "date": "2026-07-31",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Analysis: Samsung's HBM4 base die is the foundry weapon TSMC and Intel can't copy - digitimes",
-    "quote": "Analysis: Samsung's HBM4 base die is the foundry weapon TSMC and Intel can't copy digitimes",
+    "headline": "Analysis: Samsung's HBM4 base die is the foundry weapon TSMC and Intel can't copy - digitimes.com",
+    "quote": "Analysis: Samsung's HBM4 base die is the foundry weapon TSMC and Intel can't copy digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNGwzazdId0dVUXl0WjVvSWNZYTVpcnQ2RE5IcHVnakdjcU5meXRLOXNFcGk0bEtzOWJ3eWZqcDMzUGpmT0NRVGQ2RExmNExCcmhKbXVGenFuVVFYT1ljX2ZxX29SSFpsY1Q1RDlhY2pSeU5xVE01dFlVRDRvNk1Ca3lDOUdYODYwSVdR?oc=5",
     "layer_ids": [
       "hbm",
@@ -772,6 +862,24 @@
     "arch_risk": false
   },
   {
+    "id": "edgar-KLAC-0000319201-26-000024",
+    "accession": "0000319201-26-000024",
+    "form": "8-K",
+    "date": "2026-07-28",
+    "source": "SEC EDGAR (KLAC)",
+    "source_type": "filing",
+    "headline": "KLAC files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000024/klac-20260728.htm",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [
+      "KLAC"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-HUBB-0001628280-26-049934",
     "accession": "0001628280-26-049934",
     "form": "8-K",
@@ -1057,20 +1165,6 @@
     "tickers": [
       "NOW"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-c80f456c94447044",
-    "date": "2026-07-21",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "China's EUV gap keeps semiconductor catch-up in check - digitimes",
-    "quote": "China's EUV gap keeps semiconductor catch-up in check digitimes",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOXVQX2psS1hKd1p2OUJMaGZEcXlrYTY0OVVTcHd3QnNjd3Y4VE1fUGxlUUZrVWt0RFJidUEtV0ZSc0JiVUNGc210aUJWN1lSNXhvRFNZcEFtNnEyekNySG5iSURJOVc0X01EZHVxVks1Y2xEa0cwR3BVSjZrRFkyc1BuR3FRMGFObXFYbzZzS3NaSEE4cHdBRHJYTTNfdw?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -6730,63 +6824,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-CEG-0001868275-26-000032",
-    "accession": "0001868275-26-000032",
-    "form": "10-K",
-    "date": "2026-02-24",
-    "source": "SEC EDGAR (CEG)",
-    "source_type": "filing",
-    "headline": "CEG files 10-K: periodic report",
-    "quote": "Recently, we have benefited from increased demand for our generation as a result of the developing data economy, including demand driven by data centers and AI and other high-performance computing applications, evidenced by the execution of long-term contracts with technology companies as well as increased interest in prospective contracts from our customers.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000032/ceg-20251231.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "CEG"
-    ],
-    "summary": {
-      "tldr": "Closed $22B Calpine acquisition Jan 7, 2026 — now world's largest private power producer at 55 GW; Crane (TMI) restart secured DOE $1B loan guarantee Nov 2025.",
-      "takeaways": [
-        "Jan 7, 2026: closed Calpine acquisition for ~$22B (50M shares + $4.5B cash); 23 GW post-divestitures including 21 GW natural gas, 730 MW geothermal Geysers Assets, 800 MW battery",
-        "Combined company: 55 GW of generation, ~10% of US clean energy, 2.5M retail accounts incl 75% of Fortune 100",
-        "Crane Clean Energy Center (TMI Unit 1, 835 MW, Microsoft 20-yr PPA) received $1.0B DOE Office of Energy Dominance loan guarantee Nov 2025; loan matures 2055 at +37.5bps to UST",
-        "Operating revenues $25.5B FY25 vs $23.6B; GAAP net income $2.32B vs $3.75B (lower nuclear PTC YoY drove decline)",
-        "Adjusted operating EPS $9.39 FY25 vs $8.67 FY24",
-        "NY PSC approved 20-year ZEC extension Jan 2026 sustaining state's nuclear through 2049",
-        "Mgmt explicitly flags AI/data-center driven baseload demand as multi-decade tailwind for nuclear fleet"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Intends to file 80-year license extension applications across nuclear fleet; expects nuclear PTC under IRA/OBBBA to support long-term economics",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Recently, we have benefited from increased demand for our generation as a result of the developing data economy, including demand driven by data centers and AI and other high-performance computing applications, evidenced by the execution of long-term contracts with technology companies as well as increased interest in prospective contracts from our customers.",
-      "quote_section": "Item 1A Risk Factors"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CEG-0001868275-26-000029",
-    "accession": "0001868275-26-000029",
-    "form": "8-K",
-    "date": "2026-02-24",
-    "source": "SEC EDGAR (CEG)",
-    "source_type": "filing",
-    "headline": "CEG files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000029/ceg-20260224.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "CEG"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-AMAT-0001628280-26-009694",
     "accession": "0001628280-26-009694",
     "form": "10-Q",
@@ -6919,45 +6956,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-LEU-0001628280-26-007117",
-    "accession": "0001628280-26-007117",
-    "form": "10-K",
-    "date": "2026-02-11",
-    "source": "SEC EDGAR (LEU)",
-    "source_type": "filing",
-    "headline": "LEU files 10-K: periodic report",
-    "quote": "Centrus plans to leverage its multi-billion-dollar uranium enrichment expansion to meet its growing backlog of $2.3 billion in contingent LEU sales to U.S. and international customer contracts, and targets future commercial-scale production of HALEU, as well.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026007117/leu-20251231.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "LEU"
-    ],
-    "summary": {
-      "tldr": "Jan 5, 2026 won $900M DOE task order for commercial-scale HALEU production at Piketon; backlog $3.8B with $2.3B in contingent LEU sales pending capacity build.",
-      "takeaways": [
-        "Jan 5, 2026: ACO selected for $900M HALEU Production task order from DOE for commercial-scale HALEU expansion at Piketon, plus options for up to $170M to deliver HALEU to DOE",
-        "Total backlog $3.8B at YE25 (vs $3.7B YE24), extending to 2040; LEU segment $2.9B (incl $2.3B contingent contracts pending new capacity); Technical Solutions $0.9B",
-        "Centrus is only company with NRC license actively enriching up to 20% U-235 HALEU; produced/delivered 900 kg HALEU under Phase 2 by June 2025",
-        "Sept 2025: announced major Piketon expansion for LEU + HALEU; Dec 2025 began domestic centrifuge manufacturing in Oak Ridge ($560M+ multi-year investment) — first new centrifuges expected online in Ohio 2029",
-        "LEU 77% of FY25 revenue; majority of customer contracts are utilities; backlog includes Russian TENEX supply through 2028 subject to Import Ban Act waivers",
-        "$62.4M IRS §48C credit allocation granted Jan 2025 for Oak Ridge centrifuge manufacturing facility",
-        "Russian supply represents 43% of global enrichment capacity; non-Russian market is undersupplied"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Total LEU + HALEU deployment depends on continued public and private funding; FY27 DOE budget proposal does not include HALEU Operation Contract cascade funding",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Centrus plans to leverage its multi-billion-dollar uranium enrichment expansion to meet its growing backlog of $2.3 billion in contingent LEU sales to U.S. and international customer contracts, and targets future commercial-scale production of HALEU, as well.",
-      "quote_section": "Item 1 Business — Overview"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "transcript-ASX-18228",
     "date": "2026-02-11",
     "headline": "ASX H1 2026 Earnings Call",
@@ -6982,24 +6980,6 @@
       "speaker": "Andrew Tobin",
       "role": "Executives"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-LEU-0001628280-26-006909",
-    "accession": "0001628280-26-006909",
-    "form": "8-K",
-    "date": "2026-02-10",
-    "source": "SEC EDGAR (LEU)",
-    "source_type": "filing",
-    "headline": "LEU files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026006909/leu-20260210.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "LEU"
-    ],
     "arch_risk": false
   },
   {
@@ -7246,45 +7226,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-KLAC-0000319201-26-000008",
-    "accession": "0000319201-26-000008",
-    "form": "10-Q",
-    "date": "2026-01-30",
-    "source": "SEC EDGAR (KLAC)",
-    "source_type": "filing",
-    "headline": "KLAC files 10-Q: periodic report",
-    "quote": "Demand for advanced semiconductor technologies, particularly evident in the 2-nanometer node, which is seeing higher levels of investment and process control intensity, continues to drive investments in AI. Increasing complexity and value of semiconductor packages, particularly for AI and high-performance computing applications, is also driving significant growth in our advanced packaging business.",
-    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000008/klac-20251231.htm",
-    "layer_ids": [
-      "wfe",
-      "packaging"
-    ],
-    "tickers": [
-      "KLAC"
-    ],
-    "summary": {
-      "tldr": "Q2 FY26 revenue $3.30B (+7% YoY), services +18%; memory/DRAM-led-by-HBM and advanced packaging the growth drivers as China dropped to 30% of revenue from 36%.",
-      "takeaways": [
-        "Total revenue $3.30B (+7% YoY); Product $2.51B (+4%), Service $786M (+18%) — services now 24% of revenue",
-        "Semiconductor Process Control segment $3.00B (+9%); Specialty Semi Process -12% and PCB/Component -6% on China weakness",
-        "Memory customer DRAM spend (led by HBM) plus advanced packaging adoption cited as primary growth drivers",
-        "China revenue $995M (30.2% of total) down 9% YoY on US export-control effects, partially offset by legacy node demand",
-        "Korea +34%, North America +38% on memory/legacy node investment; gross margin 61.4% (+1.1pts) despite DRAM input cost pressure on image-computer DRAM",
-        "Q2 FY26 capital returns: $548M repurchases + $250M dividends; 16th consecutive annual dividend increase"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Expects continued revenue growth in CY2026 but escalating DRAM costs for image computers will negatively impact gross margin going forward",
-        "opex": null,
-        "period": "FY26",
-        "revenue": null
-      },
-      "quote": "Demand for advanced semiconductor technologies, particularly evident in the 2-nanometer node, which is seeing higher levels of investment and process control intensity, continues to drive investments in AI. Increasing complexity and value of semiconductor packages, particularly for AI and high-performance computing applications, is also driving significant growth in our advanced packaging business.",
-      "quote_section": "Item 2 MD&A — Executive Summary"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-LRCX-0000707549-26-000009",
     "accession": "0000707549-26-000009",
     "form": "10-Q",
@@ -7320,24 +7261,6 @@
       "quote": "The decrease in the foundry market segment for the December 2025 quarter compared to the September 2025 quarter was primarily driven by mature node investments, while the memory market segment saw strengthened DRAM investments offset by lower non-volatile memory spending.",
       "quote_section": "Item 2 MD&A — Results of Operations"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-KLAC-0000319201-26-000006",
-    "accession": "0000319201-26-000006",
-    "form": "8-K",
-    "date": "2026-01-29",
-    "source": "SEC EDGAR (KLAC)",
-    "source_type": "filing",
-    "headline": "KLAC files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000006/klac-20260129.htm",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "KLAC"
-    ],
     "arch_risk": false
   },
   {

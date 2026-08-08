@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-07",
+  "as_of": "2026-08-08",
   "dates": {
     "latest": "2026-08-07",
     "d1": "2026-08-06",
@@ -2125,7 +2125,7 @@
       "industry": "Pharmaceuticals",
       "industry_en": "Pharmaceuticals",
       "nasdaq_industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
-      "close": 410.945,
+      "close": 410.95,
       "mktcap": 222170019295,
       "pe": null,
       "ret_1d": 1.5,
@@ -3235,6 +3235,24 @@
       "tracked": false
     },
     {
+      "symbol": "BCS",
+      "name": "Barclays PLC",
+      "sector": "Financial Services",
+      "industry": "Banks",
+      "industry_en": "Banks",
+      "nasdaq_industry": "Commercial Banks",
+      "close": 27.93,
+      "mktcap": 97099288395,
+      "pe": null,
+      "ret_1d": 0.2,
+      "ret_1w": 2.7,
+      "ret_1m": 5.4,
+      "ret_3m": 19.1,
+      "ret_6m": 8.2,
+      "ret_1y": 45.9,
+      "tracked": false
+    },
+    {
       "symbol": "SYK",
       "name": "Stryker Corporation",
       "sector": "Healthcare",
@@ -3343,6 +3361,24 @@
       "tracked": false
     },
     {
+      "symbol": "MT",
+      "name": "Arcelor Mittal NY Registry Shares NEW",
+      "sector": "Basic Materials",
+      "industry": "Metals & Mining",
+      "industry_en": "Metals & Mining",
+      "nasdaq_industry": "Steel/Iron Ore",
+      "close": 73.29,
+      "mktcap": 55782911275,
+      "pe": null,
+      "ret_1d": 0.3,
+      "ret_1w": 4.7,
+      "ret_1m": 16.2,
+      "ret_3m": 18.7,
+      "ret_6m": 20.4,
+      "ret_1y": 129.6,
+      "tracked": false
+    },
+    {
       "symbol": "SAP",
       "name": "SAP  SE",
       "sector": "Technology",
@@ -3394,24 +3430,6 @@
       "ret_3m": 18.5,
       "ret_6m": 22.4,
       "ret_1y": 53.7,
-      "tracked": false
-    },
-    {
-      "symbol": "MT",
-      "name": "Arcelor Mittal NY Registry Shares NEW",
-      "sector": "Basic Materials",
-      "industry": "Metals & Mining",
-      "industry_en": "Metals & Mining",
-      "nasdaq_industry": "Steel/Iron Ore",
-      "close": 73.29,
-      "mktcap": 55782911275,
-      "pe": null,
-      "ret_1d": 0.1,
-      "ret_1w": 4.5,
-      "ret_1m": 15.9,
-      "ret_3m": 18.4,
-      "ret_6m": 20.1,
-      "ret_1y": 129.1,
       "tracked": false
     },
     {
@@ -3592,24 +3610,6 @@
       "ret_3m": 18.0,
       "ret_6m": 28.1,
       "ret_1y": 35.9,
-      "tracked": false
-    },
-    {
-      "symbol": "BCS",
-      "name": "Barclays PLC",
-      "sector": "Financial Services",
-      "industry": "Banks",
-      "industry_en": "Banks",
-      "nasdaq_industry": "Commercial Banks",
-      "close": 27.93,
-      "mktcap": 97099288395,
-      "pe": null,
-      "ret_1d": -0.9,
-      "ret_1w": 1.6,
-      "ret_1m": 4.3,
-      "ret_3m": 17.8,
-      "ret_6m": 7.0,
-      "ret_1y": 44.3,
       "tracked": false
     },
     {
@@ -4225,6 +4225,24 @@
       "tracked": false
     },
     {
+      "symbol": "WFC",
+      "name": "Wells Fargo & Company",
+      "sector": "Financial Services",
+      "industry": "Banks",
+      "industry_en": "Banks",
+      "nasdaq_industry": "Major Banks",
+      "close": 87.25,
+      "mktcap": 263843942066,
+      "pe": null,
+      "ret_1d": 0.2,
+      "ret_1w": 1.5,
+      "ret_1m": 2.6,
+      "ret_3m": 16.0,
+      "ret_6m": -6.1,
+      "ret_1y": 16.4,
+      "tracked": false
+    },
+    {
       "symbol": "YPF",
       "name": "YPF Sociedad Anonima",
       "sector": "Energy",
@@ -4420,24 +4438,6 @@
       "ret_3m": 15.4,
       "ret_6m": 3.8,
       "ret_1y": 32.1,
-      "tracked": false
-    },
-    {
-      "symbol": "WFC",
-      "name": "Wells Fargo & Company",
-      "sector": "Financial Services",
-      "industry": "Banks",
-      "industry_en": "Banks",
-      "nasdaq_industry": "Major Banks",
-      "close": 87.25,
-      "mktcap": 263843942066,
-      "pe": null,
-      "ret_1d": -0.4,
-      "ret_1w": 0.9,
-      "ret_1m": 2.0,
-      "ret_3m": 15.3,
-      "ret_6m": -6.6,
-      "ret_1y": 15.7,
       "tracked": false
     },
     {
@@ -4915,7 +4915,7 @@
       "industry": "Healthcare Services",
       "industry_en": "Healthcare Services",
       "nasdaq_industry": "Medical/Nursing Services",
-      "close": 206.6618,
+      "close": 206.662,
       "mktcap": 40890980201,
       "pe": null,
       "ret_1d": 1.1,
@@ -5359,6 +5359,24 @@
       "tracked": false
     },
     {
+      "symbol": "SSB",
+      "name": "SouthState Bank Corporation",
+      "sector": "Financial Services",
+      "industry": "Banks",
+      "industry_en": "Banks",
+      "nasdaq_industry": "Major Banks",
+      "close": 108.12,
+      "mktcap": 10484886616,
+      "pe": null,
+      "ret_1d": 0.2,
+      "ret_1w": 3.5,
+      "ret_1m": 11.4,
+      "ret_3m": 13.0,
+      "ret_6m": 1.5,
+      "ret_1y": 21.6,
+      "tracked": false
+    },
+    {
       "symbol": "HD",
       "name": "Home Depot Inc.",
       "sector": "Consumer Cyclical",
@@ -5647,24 +5665,6 @@
       "tracked": false
     },
     {
-      "symbol": "SSB",
-      "name": "SouthState Bank Corporation",
-      "sector": "Financial Services",
-      "industry": "Banks",
-      "industry_en": "Banks",
-      "nasdaq_industry": "Major Banks",
-      "close": 108.12,
-      "mktcap": 10484886616,
-      "pe": null,
-      "ret_1d": -0.4,
-      "ret_1w": 2.9,
-      "ret_1m": 10.8,
-      "ret_3m": 12.3,
-      "ret_6m": 0.9,
-      "ret_1y": 20.8,
-      "tracked": false
-    },
-    {
       "symbol": "EW",
       "name": "Edwards Lifesciences Corporation",
       "sector": "Healthcare",
@@ -5717,6 +5717,24 @@
       "ret_6m": 14.2,
       "ret_1y": 33.3,
       "tracked": false
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton Corporation PLC",
+      "sector": "Industrials",
+      "industry": "Power & Grid",
+      "industry_en": "Power & Grid",
+      "nasdaq_industry": "Industrial Machinery/Components",
+      "close": 448.68,
+      "mktcap": 174267312000,
+      "pe": null,
+      "ret_1d": 0.4,
+      "ret_1w": 8.3,
+      "ret_1m": 12.6,
+      "ret_3m": 12.0,
+      "ret_6m": 21.0,
+      "ret_1y": 26.0,
+      "tracked": true
     },
     {
       "symbol": "BX",
@@ -5879,24 +5897,6 @@
       "ret_6m": 26.0,
       "ret_1y": 8.8,
       "tracked": false
-    },
-    {
-      "symbol": "ETN",
-      "name": "Eaton Corporation PLC",
-      "sector": "Industrials",
-      "industry": "Power & Grid",
-      "industry_en": "Power & Grid",
-      "nasdaq_industry": "Industrial Machinery/Components",
-      "close": 448.68,
-      "mktcap": 174267312000,
-      "pe": null,
-      "ret_1d": 0.1,
-      "ret_1w": 8.1,
-      "ret_1m": 12.3,
-      "ret_3m": 11.7,
-      "ret_6m": 20.7,
-      "ret_1y": 25.7,
-      "tracked": true
     },
     {
       "symbol": "KO",
@@ -6187,6 +6187,42 @@
       "tracked": false
     },
     {
+      "symbol": "CCL",
+      "name": "Carnival Corporation Ltd.",
+      "sector": "Consumer Cyclical",
+      "industry": "Travel & Leisure",
+      "industry_en": "Travel & Leisure",
+      "nasdaq_industry": "Marine Transportation",
+      "close": 28.99,
+      "mktcap": 39706127960,
+      "pe": null,
+      "ret_1d": 1.2,
+      "ret_1w": 4.8,
+      "ret_1m": 13.7,
+      "ret_3m": 11.1,
+      "ret_6m": -13.3,
+      "ret_1y": 1.5,
+      "tracked": false
+    },
+    {
+      "symbol": "MPLX",
+      "name": "MPLX LP Common Units Representing Limited Partner Interests",
+      "sector": "Energy",
+      "industry": "Oil & Gas",
+      "industry_en": "Oil & Gas",
+      "nasdaq_industry": "Natural Gas Distribution",
+      "close": 58.85,
+      "mktcap": 59665558071,
+      "pe": null,
+      "ret_1d": -0.8,
+      "ret_1w": 2.5,
+      "ret_1m": 4.3,
+      "ret_3m": 11.0,
+      "ret_6m": 11.2,
+      "ret_1y": 25.8,
+      "tracked": false
+    },
+    {
       "symbol": "PGR",
       "name": "Progressive Corporation",
       "sector": "Financial Services",
@@ -6382,24 +6418,6 @@
       "ret_3m": 10.6,
       "ret_6m": 6.6,
       "ret_1y": 28.7,
-      "tracked": false
-    },
-    {
-      "symbol": "CCL",
-      "name": "Carnival Corporation Ltd.",
-      "sector": "Consumer Cyclical",
-      "industry": "Travel & Leisure",
-      "industry_en": "Travel & Leisure",
-      "nasdaq_industry": "Marine Transportation",
-      "close": 28.99,
-      "mktcap": 39706127960,
-      "pe": null,
-      "ret_1d": 0.7,
-      "ret_1w": 4.2,
-      "ret_1m": 13.1,
-      "ret_3m": 10.6,
-      "ret_6m": -13.8,
-      "ret_1y": 1.0,
       "tracked": false
     },
     {
@@ -6979,6 +6997,24 @@
       "tracked": false
     },
     {
+      "symbol": "UL",
+      "name": "Unilever PLC",
+      "sector": "Consumer Defensive",
+      "industry": "Household Products",
+      "industry_en": "Household Products",
+      "nasdaq_industry": "Package Goods/Cosmetics",
+      "close": 62.96,
+      "mktcap": 137580522351,
+      "pe": null,
+      "ret_1d": -0.3,
+      "ret_1w": 0.1,
+      "ret_1m": 2.7,
+      "ret_3m": 9.8,
+      "ret_6m": -10.4,
+      "ret_1y": -4.8,
+      "tracked": false
+    },
+    {
       "symbol": "NDSN",
       "name": "Nordson Corporation",
       "sector": "Industrials",
@@ -7012,6 +7048,24 @@
       "ret_3m": 9.6,
       "ret_6m": 2.7,
       "ret_1y": 13.1,
+      "tracked": false
+    },
+    {
+      "symbol": "JBHT",
+      "name": "J.B. Hunt Transport Services Inc.",
+      "sector": "Industrials",
+      "industry": "Transportation & Logistics",
+      "industry_en": "Transportation & Logistics",
+      "nasdaq_industry": "Trucking Freight/Courier Services",
+      "close": 268.52,
+      "mktcap": 25218039420,
+      "pe": null,
+      "ret_1d": 0.6,
+      "ret_1w": -1.0,
+      "ret_1m": -2.7,
+      "ret_3m": 9.6,
+      "ret_6m": 18.2,
+      "ret_1y": 93.5,
       "tracked": false
     },
     {
@@ -7120,24 +7174,6 @@
       "ret_3m": 9.5,
       "ret_6m": 23.8,
       "ret_1y": 15.3,
-      "tracked": false
-    },
-    {
-      "symbol": "JBHT",
-      "name": "J.B. Hunt Transport Services Inc.",
-      "sector": "Industrials",
-      "industry": "Transportation & Logistics",
-      "industry_en": "Transportation & Logistics",
-      "nasdaq_industry": "Trucking Freight/Courier Services",
-      "close": 268.52,
-      "mktcap": 25218039420,
-      "pe": null,
-      "ret_1d": 0.5,
-      "ret_1w": -1.2,
-      "ret_1m": -2.9,
-      "ret_3m": 9.4,
-      "ret_6m": 18.0,
-      "ret_1y": 93.2,
       "tracked": false
     },
     {
@@ -7393,24 +7429,6 @@
       "tracked": false
     },
     {
-      "symbol": "MPLX",
-      "name": "MPLX LP Common Units Representing Limited Partner Interests",
-      "sector": "Energy",
-      "industry": "Oil & Gas",
-      "industry_en": "Oil & Gas",
-      "nasdaq_industry": "Natural Gas Distribution",
-      "close": 58.85,
-      "mktcap": 59665558071,
-      "pe": null,
-      "ret_1d": -2.6,
-      "ret_1w": 0.7,
-      "ret_1m": 2.5,
-      "ret_3m": 9.0,
-      "ret_6m": 9.2,
-      "ret_1y": 23.6,
-      "tracked": false
-    },
-    {
       "symbol": "PCG",
       "name": "Pacific Gas & Electric Co.",
       "sector": "Utilities",
@@ -7534,24 +7552,6 @@
       "ret_3m": 8.8,
       "ret_6m": 11.7,
       "ret_1y": 50.1,
-      "tracked": false
-    },
-    {
-      "symbol": "UL",
-      "name": "Unilever PLC",
-      "sector": "Consumer Defensive",
-      "industry": "Household Products",
-      "industry_en": "Household Products",
-      "nasdaq_industry": "Package Goods/Cosmetics",
-      "close": 62.96,
-      "mktcap": 137580522351,
-      "pe": null,
-      "ret_1d": -1.1,
-      "ret_1w": -0.7,
-      "ret_1m": 1.8,
-      "ret_3m": 8.8,
-      "ret_6m": -11.2,
-      "ret_1y": -5.6,
       "tracked": false
     },
     {
@@ -7771,6 +7771,24 @@
       "tracked": false
     },
     {
+      "symbol": "FE",
+      "name": "FirstEnergy Corp.",
+      "sector": "Utilities",
+      "industry": "Utilities",
+      "industry_en": "Utilities",
+      "nasdaq_industry": "Electric Utilities: Central",
+      "close": 47.47,
+      "mktcap": 27468037572,
+      "pe": null,
+      "ret_1d": 1.2,
+      "ret_1w": -0.8,
+      "ret_1m": -0.3,
+      "ret_3m": 8.1,
+      "ret_6m": 3.9,
+      "ret_1y": 13.7,
+      "tracked": false
+    },
+    {
       "symbol": "GGG",
       "name": "Graco Inc.",
       "sector": "Industrials",
@@ -7951,6 +7969,24 @@
       "tracked": false
     },
     {
+      "symbol": "NSC",
+      "name": "Norfolk Southern Corporation",
+      "sector": "Industrials",
+      "industry": "Transportation & Logistics",
+      "industry_en": "Transportation & Logistics",
+      "nasdaq_industry": "Railroads",
+      "close": 334.36,
+      "mktcap": 75100055596,
+      "pe": null,
+      "ret_1d": -2.0,
+      "ret_1w": 0.1,
+      "ret_1m": 5.2,
+      "ret_3m": 7.6,
+      "ret_6m": 10.0,
+      "ret_1y": 21.3,
+      "tracked": false
+    },
+    {
       "symbol": "RSG",
       "name": "Republic Services Inc.",
       "sector": "Industrials",
@@ -8059,6 +8095,24 @@
       "tracked": false
     },
     {
+      "symbol": "PNFP",
+      "name": "Pinnacle Financial Partners Inc.",
+      "sector": "Financial Services",
+      "industry": "Banks",
+      "industry_en": "Banks",
+      "nasdaq_industry": "Major Banks",
+      "close": 104.68,
+      "mktcap": 15818471155,
+      "pe": null,
+      "ret_1d": -1.2,
+      "ret_1w": -0.1,
+      "ret_1m": 7.5,
+      "ret_3m": 7.4,
+      "ret_6m": 3.4,
+      "ret_1y": 21.4,
+      "tracked": false
+    },
+    {
       "symbol": "RNR",
       "name": "RenaissanceRe Holdings Ltd.",
       "sector": "Financial Services",
@@ -8131,24 +8185,6 @@
       "tracked": false
     },
     {
-      "symbol": "NSC",
-      "name": "Norfolk Southern Corporation",
-      "sector": "Industrials",
-      "industry": "Transportation & Logistics",
-      "industry_en": "Transportation & Logistics",
-      "nasdaq_industry": "Railroads",
-      "close": 334.36,
-      "mktcap": 75100055596,
-      "pe": null,
-      "ret_1d": -2.4,
-      "ret_1w": -0.3,
-      "ret_1m": 4.7,
-      "ret_3m": 7.2,
-      "ret_6m": 9.6,
-      "ret_1y": 20.8,
-      "tracked": false
-    },
-    {
       "symbol": "CL",
       "name": "Colgate-Palmolive Company",
       "sector": "Consumer Defensive",
@@ -8164,24 +8200,6 @@
       "ret_3m": 7.1,
       "ret_6m": -0.0,
       "ret_1y": 12.9,
-      "tracked": false
-    },
-    {
-      "symbol": "FE",
-      "name": "FirstEnergy Corp.",
-      "sector": "Utilities",
-      "industry": "Utilities",
-      "industry_en": "Utilities",
-      "nasdaq_industry": "Electric Utilities: Central",
-      "close": 47.47,
-      "mktcap": 27468037572,
-      "pe": null,
-      "ret_1d": 0.2,
-      "ret_1w": -1.7,
-      "ret_1m": -1.3,
-      "ret_3m": 7.1,
-      "ret_6m": 2.9,
-      "ret_1y": 12.6,
       "tracked": false
     },
     {
@@ -8275,24 +8293,6 @@
       "tracked": false
     },
     {
-      "symbol": "PNFP",
-      "name": "Pinnacle Financial Partners Inc.",
-      "sector": "Financial Services",
-      "industry": "Banks",
-      "industry_en": "Banks",
-      "nasdaq_industry": "Major Banks",
-      "close": 104.68,
-      "mktcap": 15818471155,
-      "pe": null,
-      "ret_1d": -1.6,
-      "ret_1w": -0.5,
-      "ret_1m": 7.0,
-      "ret_3m": 6.9,
-      "ret_6m": 2.9,
-      "ret_1y": 20.8,
-      "tracked": false
-    },
-    {
       "symbol": "ENSG",
       "name": "The Ensign Group Inc.",
       "sector": "Healthcare",
@@ -8380,6 +8380,24 @@
       "ret_3m": 6.8,
       "ret_6m": 21.8,
       "ret_1y": 38.2,
+      "tracked": false
+    },
+    {
+      "symbol": "SUN",
+      "name": "Sunoco LP Common Units representing limited partner interests",
+      "sector": "Energy",
+      "industry": "Oil & Gas",
+      "industry_en": "Oil & Gas",
+      "nasdaq_industry": "Integrated oil Companies",
+      "close": 70.57,
+      "mktcap": 14454421141,
+      "pe": null,
+      "ret_1d": -2.8,
+      "ret_1w": -6.7,
+      "ret_1m": 2.8,
+      "ret_3m": 6.8,
+      "ret_6m": 26.0,
+      "ret_1y": 46.1,
       "tracked": false
     },
     {
@@ -8542,6 +8560,24 @@
       "ret_3m": 6.6,
       "ret_6m": 16.7,
       "ret_1y": 20.5,
+      "tracked": false
+    },
+    {
+      "symbol": "RELX",
+      "name": "RELX PLC PLC",
+      "sector": "Industrials",
+      "industry": "Business Services",
+      "industry_en": "Business Services",
+      "nasdaq_industry": "Business Services",
+      "close": 35.52,
+      "mktcap": 64787680622,
+      "pe": null,
+      "ret_1d": 0.1,
+      "ret_1w": 1.1,
+      "ret_1m": 11.7,
+      "ret_3m": 6.6,
+      "ret_6m": 24.2,
+      "ret_1y": -25.6,
       "tracked": false
     },
     {
@@ -8941,21 +8977,21 @@
       "tracked": false
     },
     {
-      "symbol": "RELX",
-      "name": "RELX PLC PLC",
-      "sector": "Industrials",
-      "industry": "Business Services",
-      "industry_en": "Business Services",
-      "nasdaq_industry": "Business Services",
-      "close": 35.52,
-      "mktcap": 64787680622,
+      "symbol": "ET",
+      "name": "Energy Transfer LP Common Units",
+      "sector": "Energy",
+      "industry": "Oil & Gas",
+      "industry_en": "Oil & Gas",
+      "nasdaq_industry": "Natural Gas Distribution",
+      "close": 20.13,
+      "mktcap": 69270536246,
       "pe": null,
-      "ret_1d": -0.6,
-      "ret_1w": 0.3,
-      "ret_1m": 10.8,
+      "ret_1d": -1.0,
+      "ret_1w": 0.5,
+      "ret_1m": 3.1,
       "ret_3m": 5.8,
-      "ret_6m": 23.3,
-      "ret_1y": -26.2,
+      "ret_6m": 16.1,
+      "ret_1y": 25.1,
       "tracked": false
     },
     {
@@ -9139,24 +9175,6 @@
       "tracked": false
     },
     {
-      "symbol": "SUN",
-      "name": "Sunoco LP Common Units representing limited partner interests",
-      "sector": "Energy",
-      "industry": "Oil & Gas",
-      "industry_en": "Oil & Gas",
-      "nasdaq_industry": "Integrated oil Companies",
-      "close": 70.57,
-      "mktcap": 14454421141,
-      "pe": null,
-      "ret_1d": -4.1,
-      "ret_1w": -8.0,
-      "ret_1m": 1.4,
-      "ret_3m": 5.4,
-      "ret_6m": 24.3,
-      "ret_1y": 44.1,
-      "tracked": false
-    },
-    {
       "symbol": "UPS",
       "name": "United Parcel Service Inc.",
       "sector": "Industrials",
@@ -9280,6 +9298,24 @@
       "ret_3m": 5.3,
       "ret_6m": 0.9,
       "ret_1y": 9.3,
+      "tracked": false
+    },
+    {
+      "symbol": "CQP",
+      "name": "Cheniere Energy Partners LP Common Units",
+      "sector": "Energy",
+      "industry": "Oil & Gas",
+      "industry_en": "Oil & Gas",
+      "nasdaq_industry": "Oil/Gas Transmission",
+      "close": 64.71,
+      "mktcap": 31323142299,
+      "pe": null,
+      "ret_1d": -0.8,
+      "ret_1w": -0.6,
+      "ret_1m": 0.1,
+      "ret_3m": 5.1,
+      "ret_6m": 16.8,
+      "ret_1y": 25.3,
       "tracked": false
     },
     {
@@ -9693,7 +9729,7 @@
       "ret_1m": 3.8,
       "ret_3m": 4.2,
       "ret_6m": 26.4,
-      "ret_1y": 55.6,
+      "ret_1y": 55.7,
       "tracked": false
     },
     {
@@ -9730,24 +9766,6 @@
       "ret_3m": 4.1,
       "ret_6m": 11.0,
       "ret_1y": 31.2,
-      "tracked": false
-    },
-    {
-      "symbol": "ET",
-      "name": "Energy Transfer LP Common Units",
-      "sector": "Energy",
-      "industry": "Oil & Gas",
-      "industry_en": "Oil & Gas",
-      "nasdaq_industry": "Natural Gas Distribution",
-      "close": 20.13,
-      "mktcap": 69270536246,
-      "pe": null,
-      "ret_1d": -2.6,
-      "ret_1w": -1.1,
-      "ret_1m": 1.4,
-      "ret_3m": 4.1,
-      "ret_6m": 14.1,
-      "ret_1y": 23.1,
       "tracked": false
     },
     {
@@ -9928,24 +9946,6 @@
       "ret_3m": 3.8,
       "ret_6m": -3.9,
       "ret_1y": -11.1,
-      "tracked": false
-    },
-    {
-      "symbol": "CQP",
-      "name": "Cheniere Energy Partners LP Common Units",
-      "sector": "Energy",
-      "industry": "Oil & Gas",
-      "industry_en": "Oil & Gas",
-      "nasdaq_industry": "Oil/Gas Transmission",
-      "close": 64.71,
-      "mktcap": 31323142299,
-      "pe": null,
-      "ret_1d": -2.0,
-      "ret_1w": -1.8,
-      "ret_1m": -1.2,
-      "ret_3m": 3.8,
-      "ret_6m": 15.3,
-      "ret_1y": 23.8,
       "tracked": false
     },
     {
@@ -10720,6 +10720,24 @@
       "ret_3m": 2.5,
       "ret_6m": 15.8,
       "ret_1y": 78.8,
+      "tracked": false
+    },
+    {
+      "symbol": "BNJ",
+      "name": "Brookfield Finance Inc. 4.50% Perpetual Subordinated Notes",
+      "sector": null,
+      "industry": "Other",
+      "industry_en": "Other",
+      "nasdaq_industry": "Building operators",
+      "close": 15.08,
+      "mktcap": 22737578217,
+      "pe": null,
+      "ret_1d": 0.2,
+      "ret_1w": -0.2,
+      "ret_1m": -1.2,
+      "ret_3m": 2.4,
+      "ret_6m": 1.8,
+      "ret_1y": 5.4,
       "tracked": false
     },
     {
@@ -11569,24 +11587,6 @@
       "tracked": false
     },
     {
-      "symbol": "BNJ",
-      "name": "Brookfield Finance Inc. 4.50% Perpetual Subordinated Notes",
-      "sector": null,
-      "industry": "Other",
-      "industry_en": "Other",
-      "nasdaq_industry": "Building operators",
-      "close": 15.08,
-      "mktcap": 22737578217,
-      "pe": null,
-      "ret_1d": -1.6,
-      "ret_1w": -2.0,
-      "ret_1m": -3.0,
-      "ret_3m": 0.5,
-      "ret_6m": -0.1,
-      "ret_1y": 3.4,
-      "tracked": false
-    },
-    {
       "symbol": "CNH",
       "name": "CNH Industrial N.V.",
       "sector": "Industrials",
@@ -12172,7 +12172,7 @@
       "close": 64.0,
       "mktcap": 227112740672,
       "pe": null,
-      "ret_1d": null,
+      "ret_1d": 0.0,
       "ret_1w": -3.0,
       "ret_1m": -3.8,
       "ret_3m": -0.4,
@@ -12649,6 +12649,24 @@
       "tracked": false
     },
     {
+      "symbol": "CMS",
+      "name": "CMS Energy Corporation",
+      "sector": "Utilities",
+      "industry": "Utilities",
+      "industry_en": "Utilities",
+      "nasdaq_industry": "Power Generation",
+      "close": 71.03,
+      "mktcap": 22273383970,
+      "pe": null,
+      "ret_1d": 0.6,
+      "ret_1w": -0.5,
+      "ret_1m": -6.0,
+      "ret_3m": -1.4,
+      "ret_6m": -0.2,
+      "ret_1y": -1.0,
+      "tracked": false
+    },
+    {
       "symbol": "STRC",
       "name": "Strategy Inc Variable Rate Series A Perpetual Stretch Preferred Stock",
       "sector": "Technology",
@@ -12991,24 +13009,6 @@
       "tracked": false
     },
     {
-      "symbol": "CMS",
-      "name": "CMS Energy Corporation",
-      "sector": "Utilities",
-      "industry": "Utilities",
-      "industry_en": "Utilities",
-      "nasdaq_industry": "Power Generation",
-      "close": 71.03,
-      "mktcap": 22273383970,
-      "pe": null,
-      "ret_1d": -0.2,
-      "ret_1w": -1.3,
-      "ret_1m": -6.8,
-      "ret_3m": -2.2,
-      "ret_6m": -1.0,
-      "ret_1y": -1.8,
-      "tracked": false
-    },
-    {
       "symbol": "EQIX",
       "name": "Equinix Inc.",
       "sector": "Real Estate",
@@ -13087,11 +13087,11 @@
       "industry": "Asset Management",
       "industry_en": "Asset Management",
       "nasdaq_industry": "Real Estate",
-      "close": 16.1199,
+      "close": 16.12,
       "mktcap": 18747677664,
       "pe": null,
       "ret_1d": -1.6,
-      "ret_1w": 0.7,
+      "ret_1w": 0.8,
       "ret_1m": 1.9,
       "ret_3m": -2.6,
       "ret_6m": 7.5,
@@ -13405,6 +13405,24 @@
       "tracked": false
     },
     {
+      "symbol": "BKR",
+      "name": "Baker Hughes Company",
+      "sector": "Energy",
+      "industry": "Oil & Gas",
+      "industry_en": "Oil & Gas",
+      "nasdaq_industry": "Oil and Gas Field Machinery",
+      "close": 61.55,
+      "mktcap": 61099089070,
+      "pe": null,
+      "ret_1d": -1.6,
+      "ret_1w": 2.1,
+      "ret_1m": 7.3,
+      "ret_3m": -3.3,
+      "ret_6m": 5.6,
+      "ret_1y": 45.6,
+      "tracked": false
+    },
+    {
       "symbol": "AEP",
       "name": "American Electric Power Company Inc.",
       "sector": "Utilities",
@@ -13546,24 +13564,6 @@
       "ret_3m": -3.6,
       "ret_6m": 14.5,
       "ret_1y": 81.9,
-      "tracked": false
-    },
-    {
-      "symbol": "BKR",
-      "name": "Baker Hughes Company",
-      "sector": "Energy",
-      "industry": "Oil & Gas",
-      "industry_en": "Oil & Gas",
-      "nasdaq_industry": "Oil and Gas Field Machinery",
-      "close": 61.55,
-      "mktcap": 61099089070,
-      "pe": null,
-      "ret_1d": -1.9,
-      "ret_1w": 1.8,
-      "ret_1m": 6.9,
-      "ret_3m": -3.7,
-      "ret_6m": 5.2,
-      "ret_1y": 45.0,
       "tracked": false
     },
     {
@@ -14409,7 +14409,7 @@
       "ret_1m": -10.8,
       "ret_3m": -5.6,
       "ret_6m": -31.9,
-      "ret_1y": -11.0,
+      "ret_1y": -11.1,
       "tracked": false
     },
     {
@@ -14437,7 +14437,7 @@
       "industry": "Banks",
       "industry_en": "Banks",
       "nasdaq_industry": "Major Banks",
-      "close": 20.8897,
+      "close": 20.89,
       "mktcap": 42205859591,
       "pe": null,
       "ret_1d": 0.0,
@@ -16039,7 +16039,7 @@
       "industry": "Transportation & Logistics",
       "industry_en": "Transportation & Logistics",
       "nasdaq_industry": "Integrated Freight & Logistics",
-      "close": 149.345,
+      "close": 149.35,
       "mktcap": 17451151126,
       "pe": null,
       "ret_1d": 1.8,
@@ -18070,7 +18070,7 @@
       "median_1m": 7.9,
       "median_3m": 30.2,
       "median_6m": 13.5,
-      "median_1y": 25.0
+      "median_1y": 24.9
     },
     {
       "industry": "Servers",
@@ -18164,11 +18164,11 @@
       "industry": "Banks",
       "industry_en": "Banks",
       "n": 64,
-      "median_1d": 0.0,
-      "median_1w": 1.0,
+      "median_1d": 0.1,
+      "median_1w": 1.1,
       "median_1m": 4.7,
       "median_3m": 14.3,
-      "median_6m": 6.8,
+      "median_6m": 7.1,
       "median_1y": 40.4
     },
     {
@@ -18249,6 +18249,17 @@
       "median_1y": -9.0
     },
     {
+      "industry": "Household Products",
+      "industry_en": "Household Products",
+      "n": 8,
+      "median_1d": 0.1,
+      "median_1w": 1.6,
+      "median_1m": 1.8,
+      "median_3m": 10.2,
+      "median_6m": -3.5,
+      "median_1y": -3.5
+    },
+    {
       "industry": "Asset Management",
       "industry_en": "Asset Management",
       "n": 25,
@@ -18258,17 +18269,6 @@
       "median_3m": 9.9,
       "median_6m": 8.4,
       "median_1y": 5.0
-    },
-    {
-      "industry": "Household Products",
-      "industry_en": "Household Products",
-      "n": 8,
-      "median_1d": 0.1,
-      "median_1w": 1.6,
-      "median_1m": 1.3,
-      "median_3m": 9.7,
-      "median_6m": -3.5,
-      "median_1y": -3.9
     },
     {
       "industry": "Retail",
@@ -18293,6 +18293,17 @@
       "median_1y": 33.3
     },
     {
+      "industry": "Business Services",
+      "industry_en": "Business Services",
+      "n": 12,
+      "median_1d": 0.8,
+      "median_1w": 1.5,
+      "median_1m": 6.5,
+      "median_3m": 8.5,
+      "median_6m": 6.0,
+      "median_1y": -11.3
+    },
+    {
       "industry": "Auto Retail",
       "industry_en": "Auto Retail",
       "n": 2,
@@ -18304,15 +18315,15 @@
       "median_1y": 13.4
     },
     {
-      "industry": "Business Services",
-      "industry_en": "Business Services",
-      "n": 12,
-      "median_1d": 0.8,
-      "median_1w": 1.1,
-      "median_1m": 6.5,
-      "median_3m": 8.1,
-      "median_6m": 6.0,
-      "median_1y": -11.3
+      "industry": "Transportation & Logistics",
+      "industry_en": "Transportation & Logistics",
+      "n": 18,
+      "median_1d": 0.4,
+      "median_1w": 0.8,
+      "median_1m": 1.3,
+      "median_3m": 7.6,
+      "median_6m": 10.0,
+      "median_1y": 44.6
     },
     {
       "industry": "Waste & Environmental",
@@ -18335,17 +18346,6 @@
       "median_3m": 7.4,
       "median_6m": -16.0,
       "median_1y": -19.2
-    },
-    {
-      "industry": "Transportation & Logistics",
-      "industry_en": "Transportation & Logistics",
-      "n": 18,
-      "median_1d": 0.4,
-      "median_1w": 0.8,
-      "median_1m": 1.3,
-      "median_3m": 7.2,
-      "median_6m": 9.6,
-      "median_1y": 44.6
     },
     {
       "industry": "Homebuilding",
@@ -18494,11 +18494,11 @@
       "industry": "Oil & Gas",
       "industry_en": "Oil & Gas",
       "n": 55,
-      "median_1d": -1.2,
+      "median_1d": -1.1,
       "median_1w": -3.8,
-      "median_1m": 2.6,
+      "median_1m": 3.0,
       "median_3m": 3.1,
-      "median_6m": 15.3,
+      "median_6m": 16.1,
       "median_1y": 36.1
     },
     {
@@ -18593,8 +18593,8 @@
       "industry": "Utilities",
       "industry_en": "Utilities",
       "n": 37,
-      "median_1d": 0.3,
-      "median_1w": -1.3,
+      "median_1d": 0.4,
+      "median_1w": -0.8,
       "median_1m": -3.5,
       "median_3m": -0.5,
       "median_6m": 4.5,
@@ -18681,8 +18681,8 @@
       "industry": "Other",
       "industry_en": "Other",
       "n": 22,
-      "median_1d": -0.2,
-      "median_1w": -0.9,
+      "median_1d": -0.1,
+      "median_1w": -0.8,
       "median_1m": -1.3,
       "median_3m": -4.0,
       "median_6m": -5.7,

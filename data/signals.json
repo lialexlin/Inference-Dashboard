@@ -14,6 +14,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-8be6492a07489108",
+    "date": "2026-08-08",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Delta’s GoCool-150 Goes Big To Enable 150kW Liquid-To-Air Cooling for ASRock Rack’s NVIDIA VR NVL72",
+    "quote": "How do you cool a giant rack of AI hardware? With an even bigger heat exchanger. Delta's GoCool-150 is a liquid-to-air CDU that is designed to dissipate 150kW of heat from NVL72 and other high-density liquid cooled racks The post Delta’s GoCool-150 Goes Big To Enable 150kW Liquid-To-Air Cooling for ASRock Rack’s NVIDIA VR NVL72 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/deltas-gocool-150-goes-big-to-enable-150kw-liquid-to-air-cooling-for-asrock-racks-vr-nvl72/",
+    "layer_ids": [
+      "cooling"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-22f77fdf8916e382",
     "date": "2026-08-07",
     "source": "DigiTimes",
@@ -26,22 +40,6 @@
       "packaging"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-9657c9a402a0ba91",
-    "date": "2026-08-07",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Existing power plants are ‘bedrock’ in supplying data centers: Constellation CEO",
-    "quote": "Constellation Energy expects Texas’ Batch Zero large load interconnection process will resume without “meaningful delay.”",
-    "url": "https://www.utilitydive.com/news/existing-power-plants-supply-data-centers-constellation/827326/",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "CEG"
-    ],
     "arch_risk": false
   },
   {
@@ -154,15 +152,15 @@
     "arch_risk": false
   },
   {
-    "id": "rss-b39bcb17fa1fda49",
+    "id": "rss-dbb22affa8a5e5d9",
     "date": "2026-08-06",
-    "source": "Utility Dive",
+    "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Data center power sales drive $220M increase in TVA’s net income",
-    "quote": "The federal utility’s total operating revenue was $10 billion over the first nine months of the fiscal year, up 3% year over year, with a net income of $965 million.",
-    "url": "https://www.utilitydive.com/news/data-center-tva-income-earnings-cumberland/827282/",
+    "headline": "Elite Semiconductor rides niche DRAM price hikes - digitimes",
+    "quote": "Elite Semiconductor rides niche DRAM price hikes digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcTYzOEVFOVk1UTVNYTRua1FUNDQzbW1XV24xbDcyV1BxVVNySUxnSFJKVU5yTko2MEM2OHhtRlBsTmp1ajZSS2w4bERxdDZkWjhOZ3k1Ul81bzVCdHhNcS01Qmk0Yy1RVDJlRFlNV205WHlmNUZ6aHdnQjNYdEN1M1cxVHdiQQ?oc=5",
     "layer_ids": [
-      "power"
+      "hbm"
     ],
     "tickers": [],
     "arch_risk": false
@@ -464,23 +462,6 @@
     ],
     "tickers": [
       "PLTR"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-5c1bdab676e16d3a",
-    "date": "2026-08-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography - digitimes",
-    "quote": "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography digitimes",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sZ1ZiVXJxT0NjZGF4a3V0Z3Z6RlFHb3RvbENaamg2S1BrbjZFWFhpLXEyYUNVVDZ0d3QwY1RtS1RMa1Z6MzBDbmNTbzJzazhKNDRhdW1Ba2E5SGFSZnczREt1SkE3RW5ielhvQXZKUjBBYlZZdkJjYnlRWQ?oc=5",
-    "layer_ids": [
-      "wfe",
-      "gpu"
-    ],
-    "tickers": [
-      "ASML"
     ],
     "arch_risk": false
   },
@@ -1248,6 +1229,20 @@
     "tickers": [
       "NOW"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-ed58f4b8f9c1973b",
+    "date": "2026-07-16",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC 2Q26 profit surges 77% to a record on AI demand, first 2nm revenue - digitimes",
+    "quote": "TSMC 2Q26 profit surges 77% to a record on AI demand, first 2nm revenue digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWXNnWnM4Ql91QUJzZmpDQVg0ZUJpQm5lNEFISEc5bGVLbmR2cFhmOWZEYzBVZFUtM3lCTHJLeTIteHFnMzdkM3RYVHJoeTRzMEVibi1pVF94dW4xZER3SkZUWHlQVnFISUJ3ZVc2UEN6N3l2ZldjV1pURElVT0d3XzdOMDRTVUQ2?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {

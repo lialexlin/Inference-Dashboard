@@ -36,9 +36,9 @@
     }
   },
   "MU": {
-    "market_cap": null,
-    "market_cap_usd": null,
-    "pe_trailing": 19.922134,
+    "market_cap": 991121571840.0,
+    "market_cap_usd": 991121571840.0,
+    "pe_trailing": 19.841059,
     "pe_forward": 5.659457,
     "revenue_growth": 3.457,
     "profit_margin": 0.55906,
@@ -90,13 +90,13 @@
     }
   },
   "GFS": {
-    "market_cap": 29591437312.0,
-    "market_cap_usd": 29591437312.0,
-    "pe_trailing": 39.364964,
+    "market_cap": 29594146816.0,
+    "market_cap_usd": 29594146816.0,
+    "pe_trailing": 42.132812,
     "pe_forward": 20.599459,
     "revenue_growth": 0.058,
-    "profit_margin": 0.10334,
-    "free_cashflow": 879249984.0,
+    "profit_margin": 0.103199996,
+    "free_cashflow": 758249984.0,
     "sector": "Technology",
     "industry": "Semiconductors",
     "long_name": "GLOBALFOUNDRIES Inc.",
@@ -122,9 +122,9 @@
     }
   },
   "AMKR": {
-    "market_cap": 13731969024.0,
-    "market_cap_usd": 13731969024.0,
-    "pe_trailing": 24.241228,
+    "market_cap": 13699913728.0,
+    "market_cap_usd": 13699913728.0,
+    "pe_trailing": 24.784754,
     "pe_forward": 19.584429,
     "revenue_growth": 0.256,
     "profit_margin": 0.07448,
@@ -151,12 +151,16 @@
     "industry": "Semiconductors",
     "long_name": "King Yuan Electronics Co., Ltd.",
     "currency": "TWD",
-    "next_earnings": null
+    "next_earnings": {
+      "date": "2026-11-06",
+      "range_end": null,
+      "confirmed": true
+    }
   },
   "ASML": {
     "market_cap": 668714270720.0,
     "market_cap_usd": 668714270720.0,
-    "pe_trailing": 58.129883,
+    "pe_trailing": 59.17709,
     "pe_forward": 29.378746,
     "revenue_growth": 0.213,
     "profit_margin": 0.30114,
@@ -174,7 +178,7 @@
   "AMAT": {
     "market_cap": 428055298048.0,
     "market_cap_usd": 428055298048.0,
-    "pe_trailing": 49.507805,
+    "pe_trailing": 50.76648,
     "pe_forward": 31.619184,
     "revenue_growth": 0.114,
     "profit_margin": 0.29314,
@@ -192,7 +196,7 @@
   "LRCX": {
     "market_cap": 389585403904.0,
     "market_cap_usd": 389585403904.0,
-    "pe_trailing": 53.222225,
+    "pe_trailing": 54.053818,
     "pe_forward": 27.01467,
     "revenue_growth": 0.3,
     "profit_margin": 0.31272,
@@ -210,11 +214,11 @@
   "KLAC": {
     "market_cap": 258839986176.0,
     "market_cap_usd": 258839986176.0,
-    "pe_trailing": 52.97059,
+    "pe_trailing": 53.980927,
     "pe_forward": 30.249126,
     "revenue_growth": 0.152,
     "profit_margin": 0.35574,
-    "free_cashflow": null,
+    "free_cashflow": 2624587520.0,
     "sector": "Technology",
     "industry": "Semiconductor Equipment & Materials",
     "long_name": "KLA Corporation",
@@ -246,7 +250,7 @@
   "NVDA": {
     "market_cap": 5424535306240.0,
     "market_cap_usd": 5424535306240.0,
-    "pe_trailing": 33.577213,
+    "pe_trailing": 34.244648,
     "pe_forward": 17.37413,
     "revenue_growth": 0.852,
     "profit_margin": 0.62966,
@@ -264,7 +268,7 @@
   "AMD": {
     "market_cap": 789073100800.0,
     "market_cap_usd": 789073100800.0,
-    "pe_trailing": 124.89922,
+    "pe_trailing": 123.306114,
     "pe_forward": 31.265461,
     "revenue_growth": 0.501,
     "profit_margin": 0.15577,
@@ -282,7 +286,7 @@
   "AVGO": {
     "market_cap": 2035102646272.0,
     "market_cap_usd": 2035102646272.0,
-    "pe_trailing": 69.89543,
+    "pe_trailing": 71.41236,
     "pe_forward": 21.94546,
     "revenue_growth": 0.479,
     "profit_margin": 0.38848,
@@ -300,7 +304,7 @@
   "MRVL": {
     "market_cap": 196310925312.0,
     "market_cap_usd": 196310925312.0,
-    "pe_trailing": 72.42384,
+    "pe_trailing": 75.16151,
     "pe_forward": 35.046,
     "revenue_growth": 0.276,
     "profit_margin": 0.28986,
@@ -354,7 +358,7 @@
   "COHR": {
     "market_cap": 74172735488.0,
     "market_cap_usd": 74172735488.0,
-    "pe_trailing": 158.63179,
+    "pe_trailing": 181.40192,
     "pe_forward": 45.289967,
     "revenue_growth": 0.205,
     "profit_margin": 0.07102,
@@ -370,9 +374,9 @@
     }
   },
   "FN": {
-    "market_cap": null,
-    "market_cap_usd": null,
-    "pe_trailing": 46.74813,
+    "market_cap": 20149929984.0,
+    "market_cap_usd": 20149929984.0,
+    "pe_trailing": 48.31443,
     "pe_forward": 32.468983,
     "revenue_growth": 0.393,
     "profit_margin": 0.0994,
@@ -389,7 +393,7 @@
   },
   "300308.SZ": {
     "market_cap": 1025870921728.0,
-    "market_cap_usd": 152021417695.18802,
+    "market_cap_usd": 152269630517.2761,
     "pe_trailing": 68.49367,
     "pe_forward": 14.747533,
     "revenue_growth": 1.921,
@@ -403,7 +407,7 @@
   },
   "300502.SZ": {
     "market_cap": 586912366592.0,
-    "market_cap_usd": 86973173858.81657,
+    "market_cap_usd": 87115179223.96017,
     "pe_trailing": 58.14227,
     "pe_forward": 10.051577,
     "revenue_growth": 1.058,
@@ -436,7 +440,7 @@
   "ANET": {
     "market_cap": 237955268608.0,
     "market_cap_usd": 237955268608.0,
-    "pe_trailing": 61.058254,
+    "pe_trailing": 59.895237,
     "pe_forward": 36.688168,
     "revenue_growth": 0.377,
     "profit_margin": 0.38371,
@@ -472,7 +476,7 @@
   "HPE": {
     "market_cap": 70474113024.0,
     "market_cap_usd": 70474113024.0,
-    "pe_trailing": 48.825687,
+    "pe_trailing": 49.738316,
     "pe_forward": 13.265767,
     "revenue_growth": 0.4,
     "profit_margin": 0.040110003,
@@ -497,7 +501,7 @@
     "free_cashflow": 729075008.0,
     "sector": "Technology",
     "industry": "Electronic Components",
-    "long_name": "Celestica, Inc.",
+    "long_name": "Celestica Inc.",
     "currency": "USD",
     "next_earnings": {
       "date": "2026-10-26",
@@ -510,9 +514,9 @@
     "market_cap_usd": 38404880037.70813,
     "pe_trailing": 42.190475,
     "pe_forward": 19.993128,
-    "revenue_growth": 0.64,
-    "profit_margin": 0.107209995,
-    "free_cashflow": 18759366656.0,
+    "revenue_growth": 0.576,
+    "profit_margin": 0.11453,
+    "free_cashflow": 3502497792.0,
     "sector": "Technology",
     "industry": "Communication Equipment",
     "long_name": "Accton Technology Corporation",
@@ -526,7 +530,7 @@
   "GEV": {
     "market_cap": 263755481088.0,
     "market_cap_usd": 263755481088.0,
-    "pe_trailing": 28.655092,
+    "pe_trailing": 28.408491,
     "pe_forward": 39.869144,
     "revenue_growth": 0.219,
     "profit_margin": 0.23035,
@@ -542,8 +546,8 @@
     }
   },
   "ETN": {
-    "market_cap": 174267301888.0,
-    "market_cap_usd": 174267301888.0,
+    "market_cap": 174222442496.0,
+    "market_cap_usd": 174222442496.0,
     "pe_trailing": 45.643948,
     "pe_forward": 28.004206,
     "revenue_growth": 0.214,
@@ -551,7 +555,7 @@
     "free_cashflow": 3106125056.0,
     "sector": "Industrials",
     "industry": "Specialty Industrial Machinery",
-    "long_name": "Eaton Corporation, PLC",
+    "long_name": "Eaton Corporation plc",
     "currency": "USD",
     "next_earnings": {
       "date": "2026-11-03",
@@ -562,7 +566,7 @@
   "VRT": {
     "market_cap": 104870772736.0,
     "market_cap_usd": 104870772736.0,
-    "pe_trailing": 62.050114,
+    "pe_trailing": 61.768707,
     "pe_forward": 29.942753,
     "revenue_growth": 0.241,
     "profit_margin": 0.15088001,
@@ -578,9 +582,9 @@
     }
   },
   "GNRC": {
-    "market_cap": 12522330112.0,
-    "market_cap_usd": 12522330112.0,
-    "pe_trailing": 48.56293,
+    "market_cap": 12522176512.0,
+    "market_cap_usd": 12522176512.0,
+    "pe_trailing": 48.78621,
     "pe_forward": 17.953966,
     "revenue_growth": 0.106,
     "profit_margin": 0.05817,
@@ -596,9 +600,9 @@
     }
   },
   "HUBB": {
-    "market_cap": 27155412992.0,
-    "market_cap_usd": 27155412992.0,
-    "pe_trailing": 30.022778,
+    "market_cap": 27160143872.0,
+    "market_cap_usd": 27160143872.0,
+    "pe_trailing": 30.395624,
     "pe_forward": 22.473291,
     "revenue_growth": 0.153,
     "profit_margin": 0.14491999,
@@ -634,11 +638,11 @@
   "CEG": {
     "market_cap": 95624028160.0,
     "market_cap_usd": 95624028160.0,
-    "pe_trailing": 25.509453,
-    "pe_forward": 20.20135,
+    "pe_trailing": 26.382212,
+    "pe_forward": 20.263474,
     "revenue_growth": 0.23,
     "profit_margin": 0.110810004,
-    "free_cashflow": -6315250176.0,
+    "free_cashflow": -6625124864.0,
     "sector": "Utilities",
     "industry": "Utilities - Independent Power Producers",
     "long_name": "Constellation Energy Corporation",
@@ -663,7 +667,7 @@
     "market_cap": 3818378240.0,
     "market_cap_usd": 3818378240.0,
     "pe_trailing": null,
-    "pe_forward": 52.73513,
+    "pe_forward": 53.15213,
     "revenue_growth": 0.14,
     "profit_margin": 0.102340005,
     "free_cashflow": -127300000.0,
@@ -680,7 +684,7 @@
   "NVT": {
     "market_cap": 26656382976.0,
     "market_cap_usd": 26656382976.0,
-    "pe_trailing": 45.494476,
+    "pe_trailing": 45.620502,
     "pe_forward": 25.599974,
     "revenue_growth": 0.528,
     "profit_margin": 0.12377,
@@ -698,7 +702,7 @@
   "MOD": {
     "market_cap": 10388845568.0,
     "market_cap_usd": 10388845568.0,
-    "pe_trailing": 71.911766,
+    "pe_trailing": 72.98508,
     "pe_forward": 17.492273,
     "revenue_growth": 0.28,
     "profit_margin": 0.04276,
@@ -716,7 +720,7 @@
   "SU.PA": {
     "market_cap": 170731749376.0,
     "market_cap_usd": 197400567428.71234,
-    "pe_trailing": 35.813683,
+    "pe_trailing": 35.85596,
     "pe_forward": 25.207796,
     "revenue_growth": 0.098,
     "profit_margin": 0.11270001,
@@ -767,7 +771,7 @@
     "market_cap": 92948414464.0,
     "market_cap_usd": 2883462469.4919863,
     "pe_trailing": 29.58321,
-    "pe_forward": 13.6281595,
+    "pe_forward": 13.528656,
     "revenue_growth": 0.937,
     "profit_margin": 0.11765,
     "free_cashflow": -3978821376.0,
@@ -780,7 +784,7 @@
   "MSFT": {
     "market_cap": 3712698548224.0,
     "market_cap_usd": 3712698548224.0,
-    "pe_trailing": 27.870121,
+    "pe_trailing": 27.854595,
     "pe_forward": 21.299555,
     "revenue_growth": 0.177,
     "profit_margin": 0.40305,
@@ -798,7 +802,7 @@
   "META": {
     "market_cap": 1508378279936.0,
     "market_cap_usd": 1508378279936.0,
-    "pe_trailing": 22.225975,
+    "pe_trailing": 22.318129,
     "pe_forward": 16.851542,
     "revenue_growth": 0.28,
     "profit_margin": 0.29834998,
@@ -816,7 +820,7 @@
   "AMZN": {
     "market_cap": 2960627335168.0,
     "market_cap_usd": 2960627335168.0,
-    "pe_trailing": 21.88836,
+    "pe_trailing": 22.08206,
     "pe_forward": 26.569765,
     "revenue_growth": 0.196,
     "profit_margin": 0.1744,
@@ -834,7 +838,7 @@
   "ORCL": {
     "market_cap": 423486849024.0,
     "market_cap_usd": 423486849024.0,
-    "pe_trailing": 24.626467,
+    "pe_trailing": 25.174658,
     "pe_forward": 13.500274,
     "revenue_growth": 0.206,
     "profit_margin": 0.25368,
@@ -870,7 +874,7 @@
   "NBIS": {
     "market_cap": 47725244416.0,
     "market_cap_usd": 47725244416.0,
-    "pe_trailing": 73.42578,
+    "pe_trailing": 72.575294,
     "pe_forward": -86.965576,
     "revenue_growth": 6.839,
     "profit_margin": 0.93086,
@@ -886,9 +890,9 @@
     }
   },
   "CRM": {
-    "market_cap": null,
-    "market_cap_usd": null,
-    "pe_trailing": 21.656181,
+    "market_cap": 157854056448.0,
+    "market_cap_usd": 157854056448.0,
+    "pe_trailing": 22.33372,
     "pe_forward": 12.424987,
     "revenue_growth": 0.133,
     "profit_margin": 0.18733,
@@ -906,7 +910,7 @@
   "NOW": {
     "market_cap": 129108688896.0,
     "market_cap_usd": 129108688896.0,
-    "pe_trailing": 73.45882,
+    "pe_trailing": 78.049995,
     "pe_forward": 24.945118,
     "revenue_growth": 0.24,
     "profit_margin": 0.11336,
@@ -942,7 +946,7 @@
   "PLTR": {
     "market_cap": 413350068224.0,
     "market_cap_usd": 413350068224.0,
-    "pe_trailing": 133.34108,
+    "pe_trailing": 147.01709,
     "pe_forward": 74.794754,
     "revenue_growth": 0.928,
     "profit_margin": 0.49005002,
@@ -958,9 +962,9 @@
     }
   },
   "CDNS": {
-    "market_cap": 93424312320.0,
-    "market_cap_usd": 93424312320.0,
-    "pe_trailing": 67.17623,
+    "market_cap": 93567819776.0,
+    "market_cap_usd": 93567819776.0,
+    "pe_trailing": 67.57769,
     "pe_forward": 35.570488,
     "revenue_growth": 0.242,
     "profit_margin": 0.23605,
@@ -978,7 +982,7 @@
   "SNPS": {
     "market_cap": 79653486592.0,
     "market_cap_usd": 79653486592.0,
-    "pe_trailing": 92.64811,
+    "pe_trailing": 95.19222,
     "pe_forward": 24.072784,
     "revenue_growth": 0.419,
     "profit_margin": 0.089090005,
@@ -996,11 +1000,11 @@
   "SIEGY": {
     "market_cap": 249122570240.0,
     "market_cap_usd": 249122570240.0,
-    "pe_trailing": 28.165216,
+    "pe_trailing": 28.01903,
     "pe_forward": 21.915283,
-    "revenue_growth": null,
-    "profit_margin": 0.0,
-    "free_cashflow": null,
+    "revenue_growth": 0.073,
+    "profit_margin": 0.097959995,
+    "free_cashflow": 6503750144.0,
     "sector": "Industrials",
     "industry": "Specialty Industrial Machinery",
     "long_name": "Siemens Aktiengesellschaft",
@@ -1046,7 +1050,7 @@
   "ATS.VI": {
     "market_cap": 5578860032.0,
     "market_cap_usd": 6450294921.402424,
-    "pe_trailing": null,
+    "pe_trailing": 105.58824,
     "pe_forward": 16.859407,
     "revenue_growth": 0.375,
     "profit_margin": 0.03665,

@@ -56,6 +56,63 @@
     "arch_risk": false
   },
   {
+    "id": "rss-473b27dc369b1da2",
+    "date": "2026-08-10",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "As AI Networks Scale In Three Directions, So Does Arista",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/08/10/as-ai-networks-scale-in-three-directions-so-does-arista/5285500",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-9e23a0aef99f0944",
+    "date": "2026-08-10",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "PPL-Blackstone joint venture secures 5 GW of gas turbines for data centers in Pennsylvania",
+    "quote": "Although the PJM Interconnection aims to hold a backstop reliability auction in late September, CEO Vincent Sorgi said he expects bilateral contracting will be the main pathway for adding generation in the region.",
+    "url": "https://www.utilitydive.com/news/ppl-blackstone-joint-venture-secures-5-gw-of-gas-turbines-for-data-centers/827408/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-2d71975ea90548e7",
+    "date": "2026-08-10",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Siemens’ gas turbine backlog nears 70 GW as company expands manufacturing",
+    "quote": "The company booked 15 GW in new orders this quarter, executives said, with lead times running three years or more. It also plans to expand its transformer manufacturing capacity 50% by 2030.",
+    "url": "https://www.utilitydive.com/news/siemens-gas-turbine-backlog-nears-70-gw-as-company-expands-manufacturing/827390/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-f329a553d9e97b8e",
+    "date": "2026-08-10",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Synopsys and Intel Foundry Enable System-Level Design on Intel 14A",
+    "quote": "Synopsys and Intel Foundry are expanding their collaboration to accelerate customer adoption of Intel 14A, connecting advanced process technology with production-ready electronic design automation, silicon intellectual property, multiphysics analysis, and multi-die integration. Announced at the 2026 DAC Chips to … Read More The post Synopsys and Intel Foundry Enable System-Level Design on Intel 14A appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/ip/371846-synopsys-and-intel-foundry-enable-system-level-design-on-intel-14a/",
+    "layer_ids": [
+      "foundry",
+      "eda"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-54648b679f790df8",
     "date": "2026-08-09",
     "source": "Nikkei Asia",
@@ -113,11 +170,11 @@
     "arch_risk": false
   },
   {
-    "id": "rss-9657c9a402a0ba91",
+    "id": "rss-4c59bf288bf50647",
     "date": "2026-08-07",
     "source": "Utility Dive",
     "source_type": "industry",
-    "headline": "Existing power plants are ‘bedrock’ in supplying data centers: Constellation CEO",
+    "headline": "Constellation CEO: Existing power plants are ‘bedrock’ in supplying data centers",
     "quote": "Constellation Energy expects Texas’ Batch Zero large load interconnection process will resume without “meaningful delay.”",
     "url": "https://www.utilitydive.com/news/existing-power-plants-supply-data-centers-constellation/827326/",
     "layer_ids": [
@@ -126,35 +183,6 @@
     "tickers": [
       "CEG"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-915b6f328876c531",
-    "date": "2026-08-07",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Intel and TSMC Take Different Paths to High-NA EUV",
-    "quote": "Intel and TSMC are pursuing the same objective—manufacturing smaller, faster, and more energy-efficient semiconductors—but they have adopted different strategies for advanced lithography. Intel moved early to develop High-Numerical-Aperture Extreme Ultraviolet lithography, commonly called High-NA EUV, while TSMC… Read More The post Intel and TSMC Take Different Paths to High-NA EUV appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/371838-intel-and-tsmc-take-different-paths-to-high-na-euv/",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-89f48872ac3b9583",
-    "date": "2026-08-07",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Intel Foundry and the DAC2026 Ecosystem",
-    "quote": "The Design Automation Conference in Long Beach was a pleasant surprise. It drew strong attendance from leading companies across the semiconductor ecosystem, along with an impressive number of newcomers. AI-focused EDA companies came out in force—and delivered. Intel Foundry also made its presence felt, reminding everyone… Read More The post Intel Foundry and the DAC2026 Ecosystem appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/372019-intel-foundry-and-the-dac2026-ecosystem/",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -247,20 +275,6 @@
     "url": "https://www.utilitydive.com/news/data-center-tva-income-earnings-cumberland/827282/",
     "layer_ids": [
       "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-561ddabfde20ffd6",
-    "date": "2026-08-06",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "NRG nears 1.2-GW hyperscaler deal amid Texas data center pause",
-    "quote": "President and CEO Robert Gaudette said NRG’s approach to delivering customer-backed capacity would thrive in a more restrictive environment for data center development.",
-    "url": "https://www.utilitydive.com/news/nrg-nears-12-gw-hyperscaler-deal-amid-texas-data-center-pause/827212/",
-    "layer_ids": [
-      "hyperscalers"
     ],
     "tickers": [],
     "arch_risk": false
@@ -508,20 +522,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-3631cd544642e584",
-    "date": "2026-08-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Weekly news roundup: Intel revives DDR4, Samsung challenges TSMC at 2nm, Qualcomm raises chip prices - digitimes",
-    "quote": "Weekly news roundup: Intel revives DDR4, Samsung challenges TSMC at 2nm, Qualcomm raises chip prices digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeTJ4U05EUEZUZUNYYzFrOE9scG8xbmhQVTNxcWppU3VQRVlPNXRSSTVKMmVkYnRaWU5lRUlnampwcEt5NGktMnE2N1MtT0tYZ3BDbkhrdzZVaE10eE4zSnVJVTJ4UGVfTzZ6MGszNWdlS0xoWUJMWjY5QVNwVmVfSkpUT3g?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-a67a62581bb5bf5e",
     "date": "2026-08-03",
     "source": "DigiTimes",
@@ -531,6 +531,20 @@
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWldJQXd5YW84cHZicGJyR2FUSnNHZ09LNlNacXUxOW5BcTl0WVdZTGNCd01yYUJKMmtoT3dRbFlHY3hadG50R1pEV1k2VDFySGZOOFNwdnEtdWNDbGlNaDItd3lTWV84ajlhcWlXZU82aG9sMENkVVVsbkxHMHo1aEpiZUx5QUMwcnh0aXlzYTVNb0RTcmEwNEV2VG8?oc=5",
     "layer_ids": [
       "wfe",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-20255dda2d02b44f",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured - digitimes",
+    "quote": "TSMC Kumamoto fab faces first major quake test with chip-material supplies secured digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVTEtTi1CVGFucnF0NFk1elNrN0hoYkdaelVfdVp4WUZuM1NFdjNNeUVNc1lHMkV0SGJ2Si1hVmYwR2tLNVE4cXhMWm5BUzlPMWRLVjJNYzhyZTBLa3d1enZIS2I5X0ZmblVQbGJYMG5FSkdHNEVLeFJzNENzbDM1VFdKZWVqY3FFT29RWTRzdw?oc=5",
+    "layer_ids": [
       "foundry"
     ],
     "tickers": [],
@@ -676,20 +690,6 @@
     "tickers": [
       "TSM"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-410529cd78b5a624",
-    "date": "2026-07-30",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "South Korean chip exports increasingly flow to Taiwan for TSMC packaging amid rising AI demand - digitimes",
-    "quote": "South Korean chip exports increasingly flow to Taiwan for TSMC packaging amid rising AI demand digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT0JvWVNvdVZGb3Y1ajFNUEVHdGhCbUVTTTlxZERlanJMZk8wODJRZ2R4bWUtVEhlVHhZSHNHTG1fdWRScTVtWWl6ZWlWRzZRdklRZGlRS1BVSnZDMzhlVmZqdjJ4TlJPYmsxaDY3dFlvdkgtT21ZeWlRR3JwUEp1bW1MWk5QVk5la1cwS0JR?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {

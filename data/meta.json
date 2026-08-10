@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-08-10T10:11:58.634288+00:00",
+  "last_refresh_at": "2026-08-10T22:40:31.258172+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-08-10T10:12:31.193680+00:00"
+      "ts": "2026-08-10T22:41:16.596234+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,38 +24,38 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-08-10T10:12:35.736758+00:00"
+      "ts": "2026-08-10T22:41:21.748101+00:00"
     },
     "edgar": {
       "entries": 161,
       "summarized": 43,
       "errors": {},
-      "ts": "2026-08-10T10:12:43.705241+00:00"
+      "ts": "2026-08-10T22:41:31.072670+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [7f7ed6e6-5084-4742-9d97-1601817f31d9]"
+        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [245440d1-b8e2-4f9d-9064-c6b0835bbbae]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-08-10T10:12:00.544011+00:00"
+      "ts": "2026-08-10T22:40:33.402735+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-08-10T10:15:59.920987+00:00"
+      "ts": "2026-08-10T22:44:24.334720+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "hbm",
-          "tightness_score": 68
+          "tightness_score": 71
         },
         {
           "layer_id": "switches",
@@ -63,17 +63,17 @@
         },
         {
           "layer_id": "gpu",
-          "tightness_score": 65
+          "tightness_score": 60
         }
       ],
-      "ts": "2026-08-10T10:15:59.905041+00:00"
+      "ts": "2026-08-10T22:44:24.317960+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-08-10T10:15:59.894733+00:00"
+      "ts": "2026-08-10T22:44:24.308369+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,12 +84,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-08-10T10:15:59.925711+00:00"
+      "ts": "2026-08-10T22:44:24.339260+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 17,
+      "cached": 16,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -113,7 +113,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-08-10T10:15:58.571063+00:00"
+      "ts": "2026-08-10T22:44:22.974083+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -126,27 +126,27 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-08-10T10:15:59.201142+00:00"
+      "ts": "2026-08-10T22:44:23.560022+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-08-10T10:15:59.900565+00:00"
+      "ts": "2026-08-10T22:44:24.313673+00:00"
     },
     "tw_universe": {
-      "ok": 0,
-      "errors": {
-        "__stage__": "tw_universe: market cap resolved for only 874/1958 names (<80%) — a company-info (issued-shares) fetch likely failed; preserving prior file"
-      },
-      "ts": "2026-08-10T10:17:51.470519+00:00"
+      "ok": 1958,
+      "stock_count": 1958,
+      "sector_count": 71,
+      "latest_date": "2026-08-10",
+      "ts": "2026-08-10T22:45:39.762370+00:00"
     },
     "us_universe": {
-      "ok": 1002,
-      "stock_count": 1002,
+      "ok": 1001,
+      "stock_count": 1001,
       "sector_count": 77,
-      "latest_date": "2026-08-07",
-      "ts": "2026-08-10T10:19:04.874517+00:00"
+      "latest_date": "2026-08-10",
+      "ts": "2026-08-10T22:47:10.044157+00:00"
     }
   },
   "signals": {

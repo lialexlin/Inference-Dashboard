@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-08-11T09:55:40.577970+00:00",
+  "last_refresh_at": "2026-08-11T22:46:14.482582+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-08-11T09:56:06.356606+00:00"
+      "ts": "2026-08-11T22:46:49.236014+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-08-11T09:56:10.695153+00:00"
+      "ts": "2026-08-11T22:46:53.687080+00:00"
     },
     "edgar": {
       "entries": 161,
       "summarized": 43,
       "errors": {},
-      "ts": "2026-08-11T09:56:20.519765+00:00"
+      "ts": "2026-08-11T22:47:02.010370+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [235fc889-9e5c-420c-b5cc-e7a307b0ce8f]"
+        "__connection__": "390102 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [c050624c-3a57-46e2-ad4f-4c51b46fca52]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-08-11T09:55:42.747311+00:00"
+      "ts": "2026-08-11T22:46:17.407591+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-08-11T09:59:19.365963+00:00"
+      "ts": "2026-08-11T22:49:12.315152+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -66,14 +66,14 @@
           "tightness_score": 63
         }
       ],
-      "ts": "2026-08-11T09:59:19.349911+00:00"
+      "ts": "2026-08-11T22:49:12.299481+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-08-11T09:59:19.340240+00:00"
+      "ts": "2026-08-11T22:49:12.289875+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,12 +84,12 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-08-11T09:59:19.370509+00:00"
+      "ts": "2026-08-11T22:49:12.319785+00:00"
     },
     "transcripts": {
       "ok": 48,
       "fetched_this_run": 0,
-      "cached": 16,
+      "cached": 0,
       "rate_limited": [],
       "unmapped": [
         "000660.KS",
@@ -110,10 +110,56 @@
         "8046.TW"
       ],
       "errors": {
+        "MU": "http 301",
+        "TSM": "http 301",
+        "INTC": "http 301",
+        "GFS": "http 301",
+        "ASX": "http 301",
+        "AMKR": "http 301",
+        "ASML": "http 301",
+        "AMAT": "http 301",
+        "LRCX": "http 301",
+        "KLAC": "http 301",
+        "NVDA": "http 301",
+        "AMD": "http 301",
+        "AVGO": "http 301",
+        "MRVL": "http 301",
+        "GOOGL": "http 301",
+        "LITE": "http 301",
+        "COHR": "http 301",
+        "FN": "http 301",
+        "MXL": "http 301",
+        "ANET": "http 301",
+        "CSCO": "http 301",
+        "HPE": "http 301",
+        "CLS": "http 301",
+        "GEV": "http 301",
+        "ETN": "http 301",
+        "VRT": "http 301",
+        "GNRC": "http 301",
+        "HUBB": "http 301",
+        "PWR": "http 301",
+        "CEG": "http 301",
+        "OKLO": "http 301",
+        "LEU": "http 301",
+        "NVT": "http 301",
+        "MOD": "http 301",
+        "MSFT": "http 301",
+        "META": "http 301",
+        "AMZN": "http 301",
+        "ORCL": "http 301",
+        "CRWV": "http 301",
+        "NBIS": "http 301",
+        "CRM": "http 301",
+        "NOW": "http 301",
+        "SNOW": "http 301",
+        "PLTR": "http 301",
+        "CDNS": "http 301",
+        "SNPS": "http 301",
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-08-11T09:59:18.024514+00:00"
+      "ts": "2026-08-11T22:49:11.026830+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -126,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-08-11T09:59:18.617653+00:00"
+      "ts": "2026-08-11T22:49:11.609695+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-08-11T09:59:19.345422+00:00"
+      "ts": "2026-08-11T22:49:12.295082+00:00"
     },
     "tw_universe": {
       "ok": 1959,
       "stock_count": 1959,
       "sector_count": 71,
       "latest_date": "2026-08-11",
-      "ts": "2026-08-11T10:01:37.517549+00:00"
+      "ts": "2026-08-11T22:50:39.698014+00:00"
     },
     "us_universe": {
-      "ok": 1001,
-      "stock_count": 1001,
+      "ok": 1000,
+      "stock_count": 1000,
       "sector_count": 77,
-      "latest_date": "2026-08-10",
-      "ts": "2026-08-11T10:02:51.896907+00:00"
+      "latest_date": "2026-08-11",
+      "ts": "2026-08-11T22:51:43.291604+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 308,
-    "total": 334
+    "discovered_kept": 306,
+    "total": 332
   }
 }

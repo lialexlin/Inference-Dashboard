@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-08-11T22:46:14.482582+00:00",
+  "last_refresh_at": "2026-08-12T09:56:04.383185+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,55 +7,57 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-08-11T22:46:49.236014+00:00"
+      "ts": "2026-08-12T09:56:47.371816+00:00"
     },
     "rss": {
-      "ok": 9,
-      "total_entries": 136,
+      "ok": 8,
+      "total_entries": 111,
       "per_source_counts": {
         "TrendForce": 20,
         "Nikkei Asia": 25,
         "DigiTimes": 25,
         "ServeTheHome": 6,
-        "The Next Platform": 25,
+        "The Next Platform": 0,
         "SemiAnalysis": 10,
         "Utility Dive": 10,
         "SemiWiki": 5,
         "Stratechery": 10
       },
-      "errors": {},
-      "ts": "2026-08-11T22:46:53.687080+00:00"
+      "errors": {
+        "The Next Platform": "bozo: <unknown>:8:22: not well-formed (invalid token)"
+      },
+      "ts": "2026-08-12T09:56:51.308920+00:00"
     },
     "edgar": {
       "entries": 161,
       "summarized": 43,
       "errors": {},
-      "ts": "2026-08-11T22:47:02.010370+00:00"
+      "ts": "2026-08-12T09:56:59.649993+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390102 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [c050624c-3a57-46e2-ad4f-4c51b46fca52]"
+        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [ca9beae5-b807-42b5-bb3d-08c612c15b02]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-08-11T22:46:17.407591+00:00"
+      "ts": "2026-08-12T09:56:06.976436+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-08-11T22:49:12.315152+00:00"
+      "ts": "2026-08-12T09:59:08.200836+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "hbm",
-          "tightness_score": 71
+          "tightness_score": 68
         },
         {
           "layer_id": "switches",
@@ -63,17 +65,17 @@
         },
         {
           "layer_id": "gpu",
-          "tightness_score": 63
+          "tightness_score": 65
         }
       ],
-      "ts": "2026-08-11T22:49:12.299481+00:00"
+      "ts": "2026-08-12T09:59:08.189302+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-08-11T22:49:12.289875+00:00"
+      "ts": "2026-08-12T09:59:08.182211+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +86,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-08-11T22:49:12.319785+00:00"
+      "ts": "2026-08-12T09:59:08.203391+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +161,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-08-11T22:49:11.026830+00:00"
+      "ts": "2026-08-12T09:59:07.219752+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +174,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-08-11T22:49:11.609695+00:00"
+      "ts": "2026-08-12T09:59:07.603273+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-08-11T22:49:12.295082+00:00"
+      "ts": "2026-08-12T09:59:08.186274+00:00"
     },
     "tw_universe": {
-      "ok": 1959,
-      "stock_count": 1959,
+      "ok": 1955,
+      "stock_count": 1955,
       "sector_count": 71,
-      "latest_date": "2026-08-11",
-      "ts": "2026-08-11T22:50:39.698014+00:00"
+      "latest_date": "2026-08-12",
+      "ts": "2026-08-12T10:01:58.892558+00:00"
     },
     "us_universe": {
       "ok": 1000,
       "stock_count": 1000,
       "sector_count": 77,
       "latest_date": "2026-08-11",
-      "ts": "2026-08-11T22:51:43.291604+00:00"
+      "ts": "2026-08-12T10:03:24.677954+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 306,
-    "total": 332
+    "discovered_kept": 303,
+    "total": 329
   }
 }

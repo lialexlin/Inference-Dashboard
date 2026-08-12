@@ -11,5 +11,15 @@ uv.lock
 
 # Local dev / tooling artifacts — not part of the site
 .playwright-mcp/
-.claude/
 *-after-fix.png
+
+# .claude/ is local-only EXCEPT committed skills (e.g. run-inference-dashboard).
+# Screenshots the skill generates stay out of git.
+.claude/*
+!.claude/skills/
+!.claude/skills/**
+.claude/skills/**/screenshots/
+
+# memory store travels with the repo (agent OS)
+!.claude/memory/
+!.claude/memory/**

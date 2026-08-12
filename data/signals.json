@@ -14,12 +14,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-f3b7365f2428203f",
+    "id": "rss-944f7bf3b64867fc",
     "date": "2026-08-12",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year - digitimes",
-    "quote": "TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year digitimes",
+    "headline": "OCP APAC 2026: TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year - digitimes",
+    "quote": "OCP APAC 2026: TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year digitimes",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRkZGSWRNR295dlQwOFN1VmF4TzJfc0lPcURPYjQxdkFMbGNfWXpxam95azFnRkRxZkFLMUk2dXZPVXNESG9NakdydElTX0NucmJZNld2ZmxDWTV6dWRPaUFBblFtdmRRb2dkdDJmRjNISHlId1liTWVpc3AwSHpCX3NfbWstbGw2Z1oyQk1oX0hrSVZT?oc=5",
     "layer_ids": [
       "packaging",
@@ -43,12 +43,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-946ac340cfafe010",
+    "id": "rss-d4515be24b7d3bae",
     "date": "2026-08-12",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC says AI advanced packaging enters system-level battle - digitimes",
-    "quote": "TSMC says AI advanced packaging enters system-level battle digitimes",
+    "headline": "OCP APAC 2026: TSMC says AI advanced packaging enters system-level battle - digitimes",
+    "quote": "OCP APAC 2026: TSMC says AI advanced packaging enters system-level battle digitimes",
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZTdVZXQ4VnZaWVE5N1ZRdkpJZlVwV2xOTzFUNkpvQ1hPZmd4UW1HbTFiYUFRSUdGUlBUYy1sakxhdWwxQ0VhdEd1MTdwaXdmTmJ6ZzgwSEgyV2p6SFN0aC10UGNIZVJ0NDFpb2QweWNseC1DWkp5Y19uT1JwYUxPbWxRVjVidGQwWmphWm0xRHprZ0JZR1E?oc=5",
     "layer_ids": [
       "packaging",
@@ -69,6 +69,83 @@
       "foundry"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-b670c6cf3ad8bffc",
+    "date": "2026-08-12",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
+    "quote": "We are taking a deep dive look into AMD's Instinct MI455X accelerator and its CDNA 5 architecture, the backbone of AMD's next-gen AI server offerings and their massive Helios rackscale system The post AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/amd-instinct-mi455x-deep-dive-cdna-5-marks-the-next-era-of-instinct/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-325d5bac2c614beb",
+    "date": "2026-08-12",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "ConEd plans 28 new substations by 2035",
+    "quote": "The New York-based utility company is pursuing growth through electrification, in alignment with city and state climate policies, it said last week.",
+    "url": "https://www.utilitydive.com/news/coned-plans-28-new-substations-by-2035/827700/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-20d3fdbc9c9f06bf",
+    "date": "2026-08-12",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Micron Advanced Memory Portfolio Positioned for AI Infrastructure Expansion",
+    "quote": "Micron Technology has emerged as a critical supplier in the AI compute ecosystem, leveraging its leadership in advanced DRAM, High Bandwidth Memory (HBM), and NAND flash technologies to address rapidly growing demand from hyperscale data centers and AI accelerator platforms. The company’s strategic focus on leading-edge… Read More The post Micron Advanced Memory Portfolio Positioned for AI Infrastructure Expansion appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/369794-micron-advanced-memory-portfolio-positioned-for-ai-infrastructure-expansion/",
+    "layer_ids": [
+      "hbm",
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a3062749d641c491",
+    "date": "2026-08-12",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Comparing Intel EMIB and Intel Foveros",
+    "quote": "Intel EMIB and Intel Foveros are advanced semiconductor-packaging technologies designed to combine multiple silicon dies, or chiplets, within one processor package. Both support heterogeneous integration: manufacturers can build different functions using the process technology best suited to each one, then connect … Read More The post Comparing Intel EMIB and Intel Foveros appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/372086-comparing-intel-emib-and-intel-foveros/",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CRWV-0001769628-26-000366",
+    "accession": "0001769628-26-000366",
+    "form": "10-Q",
+    "date": "2026-08-12",
+    "source": "SEC EDGAR (CRWV)",
+    "source_type": "filing",
+    "headline": "CRWV files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm",
+    "layer_ids": [
+      "neoclouds"
+    ],
+    "tickers": [
+      "CRWV"
+    ],
     "arch_risk": false
   },
   {
@@ -112,6 +189,24 @@
       "foundry"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CRWV-0001769628-26-000362",
+    "accession": "0001769628-26-000362",
+    "form": "8-K",
+    "date": "2026-08-11",
+    "source": "SEC EDGAR (CRWV)",
+    "source_type": "filing",
+    "headline": "CRWV files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000362/crwv-20260811.htm",
+    "layer_ids": [
+      "neoclouds"
+    ],
+    "tickers": [
+      "CRWV"
+    ],
     "arch_risk": false
   },
   {
@@ -215,44 +310,15 @@
     "arch_risk": false
   },
   {
-    "id": "rss-9e23a0aef99f0944",
+    "id": "rss-473b27dc369b1da2",
     "date": "2026-08-10",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "PPL-Blackstone joint venture secures 5 GW of gas turbines for data centers in Pennsylvania",
-    "quote": "Although the PJM Interconnection aims to hold a backstop reliability auction in late September, Vincent Sorgi, PPL president and CEO, said he expects bilateral contracting will be the main pathway for adding generation in the region.",
-    "url": "https://www.utilitydive.com/news/ppl-blackstone-joint-venture-secures-5-gw-of-gas-turbines-for-data-centers/827408/",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-6c8f6ffb2b397705",
-    "date": "2026-08-10",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
-    "quote": "The company booked 15 GW in new orders this quarter, executives said, with lead times running three years or more. It also plans to expand its transformer manufacturing capacity 50% by 2030.",
-    "url": "https://www.utilitydive.com/news/siemens-gas-turbine-backlog-nears-70-gw-as-company-expands-manufacturing/827390/",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-f329a553d9e97b8e",
-    "date": "2026-08-10",
-    "source": "SemiWiki",
+    "source": "The Next Platform",
     "source_type": "analyst",
-    "headline": "Synopsys and Intel Foundry Enable System-Level Design on Intel 14A",
-    "quote": "Synopsys and Intel Foundry are expanding their collaboration to accelerate customer adoption of Intel 14A, connecting advanced process technology with production-ready electronic design automation, silicon intellectual property, multiphysics analysis, and multi-die integration. Announced at the 2026 DAC Chips to … Read More The post Synopsys and Intel Foundry Enable System-Level Design on Intel 14A appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ip/371846-synopsys-and-intel-foundry-enable-system-level-design-on-intel-14a/",
+    "headline": "As AI Networks Scale In Three Directions, So Does Arista",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/08/10/as-ai-networks-scale-in-three-directions-so-does-arista/5285500",
     "layer_ids": [
-      "foundry",
-      "eda"
+      "switches"
     ],
     "tickers": [],
     "arch_risk": false
@@ -295,21 +361,6 @@
     "url": "https://www.servethehome.com/deltas-gocool-150-goes-big-to-enable-150kw-liquid-to-air-cooling-for-asrock-racks-vr-nvl72/",
     "layer_ids": [
       "cooling"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-22f77fdf8916e382",
-    "date": "2026-08-07",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Analysis: TSMC expands Japan footprint with 3nm fab, advanced packaging push - digitimes",
-    "quote": "Analysis: TSMC expands Japan footprint with 3nm fab, advanced packaging push digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSmpSeDdQTWo2N2RzQm5pN0JURkI1d1Rya0x2NjdhS0toUVhuMlZHbndET2w0Mmd1aUkwUC1nZkM5RkxGdmJENkZNcWlkZEdwc0xnU2xINGd3Z29zOU5vRElzTGdGSHB5cHFaZk82QVJKNERPM0R1SFNkT25mM3pUcUN5NFNxcDRKX3h3NHFEejhpZw?oc=5",
-    "layer_ids": [
-      "foundry",
-      "packaging"
     ],
     "tickers": [],
     "arch_risk": false
@@ -506,6 +557,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-17e5dd3a2a6a9a4e",
+    "date": "2026-08-04",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Why Shouldn’t Amazon Spinoff AWS And Annapurna Labs?",
+    "quote": "",
+    "url": "https://www.nextplatform.com/cloud/2026/08/04/why-shouldnt-amazon-spinoff-aws-and-annapurna-labs/5282586",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-AMD-0000002488-26-000121",
     "accession": "0000002488-26-000121",
     "form": "8-K",
@@ -576,6 +641,21 @@
     "tickers": [
       "PLTR"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a67a62581bb5bf5e",
+    "date": "2026-08-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Pat Gelsinger joins xLight in bid to bring TSMC into US-made lithography project - digitimes",
+    "quote": "Pat Gelsinger joins xLight in bid to bring TSMC into US-made lithography project digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWldJQXd5YW84cHZicGJyR2FUSnNHZ09LNlNacXUxOW5BcTl0WVdZTGNCd01yYUJKMmtoT3dRbFlHY3hadG50R1pEV1k2VDFySGZOOFNwdnEtdWNDbGlNaDItd3lTWV84ajlhcWlXZU82aG9sMENkVVVsbkxHMHo1aEpiZUx5QUMwcnh0aXlzYTVNb0RTcmEwNEV2VG8?oc=5",
+    "layer_ids": [
+      "wfe",
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1198,6 +1278,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-a411a93b25e91679",
+    "date": "2026-07-22",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Salience Labs Wants To Scale Up AI With Silicon Photonics Optical Switch",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/07/22/salience-labs-wants-to-scale-up-ai-with-silicon-photonics-optical-switch/5276643",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-GOOGL-0001652044-26-000066",
     "accession": "0001652044-26-000066",
     "form": "8-K",
@@ -1268,6 +1362,20 @@
     "tickers": [
       "NOW"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-ed58f4b8f9c1973b",
+    "date": "2026-07-16",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC 2Q26 profit surges 77% to a record on AI demand, first 2nm revenue - digitimes",
+    "quote": "TSMC 2Q26 profit surges 77% to a record on AI demand, first 2nm revenue digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWXNnWnM4Ql91QUJzZmpDQVg0ZUJpQm5lNEFISEc5bGVLbmR2cFhmOWZEYzBVZFUtM3lCTHJLeTIteHFnMzdkM3RYVHJoeTRzMEVibi1pVF94dW4xZER3SkZUWHlQVnFISUJ3ZVc2UEN6N3l2ZldjV1pURElVT0d3XzdOMDRTVUQ2?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -6645,46 +6753,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-CRWV-0001769628-26-000104",
-    "accession": "0001769628-26-000104",
-    "form": "10-K",
-    "date": "2026-03-02",
-    "source": "SEC EDGAR (CRWV)",
-    "source_type": "filing",
-    "headline": "CRWV files 10-K: periodic report",
-    "quote": "We recognized an aggregate of approximately 67% of our revenue from our top customer, Microsoft, for the year ended December 31, 2025... In May 2025, we entered into a master services agreement with OpenAI OpCo, LLC... pursuant to which OpenAI has committed to pay us up to approximately $6.5 billion through May 31, 2031.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
-    "layer_ids": [
-      "neoclouds",
-      "gpu"
-    ],
-    "tickers": [
-      "CRWV"
-    ],
-    "summary": {
-      "tldr": "Revenue $5.1B (+168%) with Microsoft 67% of it; RPO $60.7B vs $15.1B prior year; 850 MW active power (3.1 GW contracted); $21.6B total debt at avg ~10%.",
-      "takeaways": [
-        "FY25 revenue $5.1B (+168% YoY); net loss $1.2B; >98% of revenue from take-or-pay committed contracts",
-        "Microsoft = 67% of 2025 revenue (down from 77% top-2 in 2024); OpenAI committed $11.9B through Oct 2030 + $6.5B Sept 2025 order through May 2031",
-        "Meta committed $14.2B through Dec 2031 (Sept 2025 order under existing MSA)",
-        "RPO $60.7B at Dec 31 2025 vs $15.1B at Dec 31 2024; weighted-avg contract duration ~5 years",
-        "Operating footprint 850 MW active (vs 360 MW prior year) across 43 data centers; 3.1 GW total contracted power",
-        "Total debt $21.6B (vs $8.0B prior year) at effective rates 9-15%; $6.7B current; $107M sensitivity per 100bps",
-        "Capex $10.3B for 2025; deploying NVIDIA GB200/GB300 NVL72 first-to-market"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "10-K does not provide point guidance; mgmt expects continued substantial growing capex and reliance on debt/equity financing",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "We recognized an aggregate of approximately 67% of our revenue from our top customer, Microsoft, for the year ended December 31, 2025... In May 2025, we entered into a master services agreement with OpenAI OpCo, LLC... pursuant to which OpenAI has committed to pay us up to approximately $6.5 billion through May 31, 2031.",
-      "quote_section": "Item 1A Risk Factors - Customer Concentration"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-CRM-0001108524-26-000060",
     "accession": "0001108524-26-000060",
     "form": "10-K",
@@ -6720,24 +6788,6 @@
       "quote": "Total remaining performance obligation, which represents all future revenue under contract yet to be recognized, as of January 31, 2026 was approximately $72.4 billion, an increase of 14 percent year-over-year. Current remaining performance obligation... was approximately $35.1 billion, an increase of 16 percent year-over-year.",
       "quote_section": "Item 7 MD&A - Highlights from Fiscal 2026"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CRWV-0001769628-26-000094",
-    "accession": "0001769628-26-000094",
-    "form": "8-K",
-    "date": "2026-02-26",
-    "source": "SEC EDGAR (CRWV)",
-    "source_type": "filing",
-    "headline": "CRWV files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000094/crwv-20260226.htm",
-    "layer_ids": [
-      "neoclouds"
-    ],
-    "tickers": [
-      "CRWV"
-    ],
     "arch_risk": false
   },
   {

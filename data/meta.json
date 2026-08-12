@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-08-12T09:56:04.383185+00:00",
+  "last_refresh_at": "2026-08-12T22:44:09.349258+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,50 +7,48 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-08-12T09:56:47.371816+00:00"
+      "ts": "2026-08-12T22:44:44.143429+00:00"
     },
     "rss": {
-      "ok": 8,
-      "total_entries": 111,
+      "ok": 9,
+      "total_entries": 136,
       "per_source_counts": {
         "TrendForce": 20,
         "Nikkei Asia": 25,
         "DigiTimes": 25,
         "ServeTheHome": 6,
-        "The Next Platform": 0,
+        "The Next Platform": 25,
         "SemiAnalysis": 10,
         "Utility Dive": 10,
         "SemiWiki": 5,
         "Stratechery": 10
       },
-      "errors": {
-        "The Next Platform": "bozo: <unknown>:8:22: not well-formed (invalid token)"
-      },
-      "ts": "2026-08-12T09:56:51.308920+00:00"
+      "errors": {},
+      "ts": "2026-08-12T22:44:48.680391+00:00"
     },
     "edgar": {
       "entries": 161,
-      "summarized": 43,
+      "summarized": 42,
       "errors": {},
-      "ts": "2026-08-12T09:56:59.649993+00:00"
+      "ts": "2026-08-12T22:44:56.463370+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [ca9beae5-b807-42b5-bb3d-08c612c15b02]"
+        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [73c102f5-6423-46b8-bec9-fb310b5eb0b1]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-08-12T09:56:06.976436+00:00"
+      "ts": "2026-08-12T22:44:11.694386+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-08-12T09:59:08.200836+00:00"
+      "ts": "2026-08-12T22:47:03.317427+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -60,22 +58,22 @@
           "tightness_score": 68
         },
         {
-          "layer_id": "switches",
+          "layer_id": "gpu",
           "tightness_score": 68
         },
         {
-          "layer_id": "gpu",
-          "tightness_score": 65
+          "layer_id": "switches",
+          "tightness_score": 68
         }
       ],
-      "ts": "2026-08-12T09:59:08.189302+00:00"
+      "ts": "2026-08-12T22:47:03.300075+00:00"
     },
     "openrouter": {
       "ok": 0,
       "errors": {
         "__stage__": "openrouter rankings: no ranking records parsed"
       },
-      "ts": "2026-08-12T09:59:08.182211+00:00"
+      "ts": "2026-08-12T22:47:03.290678+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -86,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-08-12T09:59:08.203391+00:00"
+      "ts": "2026-08-12T22:47:03.322049+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -113,7 +111,7 @@
       ],
       "errors": {
         "MU": "http 301",
-        "TSM": "http 301",
+        "TSM": "not found on earningscalls.dev",
         "INTC": "http 301",
         "GFS": "http 301",
         "ASX": "http 301",
@@ -161,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-08-12T09:59:07.219752+00:00"
+      "ts": "2026-08-12T22:47:02.036706+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -174,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-08-12T09:59:07.603273+00:00"
+      "ts": "2026-08-12T22:47:02.618330+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-08-12T09:59:08.186274+00:00"
+      "ts": "2026-08-12T22:47:03.295738+00:00"
     },
     "tw_universe": {
-      "ok": 1955,
-      "stock_count": 1955,
-      "sector_count": 71,
-      "latest_date": "2026-08-12",
-      "ts": "2026-08-12T10:01:58.892558+00:00"
+      "ok": 0,
+      "errors": {
+        "__stage__": "tw_universe: market cap resolved for only 870/1955 names (<80%) — a company-info (issued-shares) fetch likely failed; preserving prior file"
+      },
+      "ts": "2026-08-12T22:52:08.618985+00:00"
     },
     "us_universe": {
-      "ok": 1000,
-      "stock_count": 1000,
+      "ok": 1006,
+      "stock_count": 1006,
       "sector_count": 77,
-      "latest_date": "2026-08-11",
-      "ts": "2026-08-12T10:03:24.677954+00:00"
+      "latest_date": "2026-08-12",
+      "ts": "2026-08-12T22:53:09.973194+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 303,
-    "total": 329
+    "discovered_kept": 308,
+    "total": 334
   }
 }

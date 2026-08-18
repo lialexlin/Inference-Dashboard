@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-17T22:30:50.640547+00:00",
+  "as_of": "2026-08-18T09:29:48.893426+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -281,13 +281,83 @@
           "requests": 25156491
         }
       ]
+    },
+    {
+      "date": "2026-08-17",
+      "total_tokens_b": 61841.117,
+      "total_prompt_tokens_b": 60420.945,
+      "total_completion_tokens_b": 1420.171,
+      "total_reasoning_tokens_b": 0.0,
+      "total_requests": 1878642886,
+      "top_models": [
+        {
+          "model": "deepseek/deepseek-v4-flash-20260731",
+          "tokens_b": 11295.22,
+          "share": 0.1826,
+          "requests": 386782971
+        },
+        {
+          "model": "tencent/hy3-20260706",
+          "tokens_b": 9704.304,
+          "share": 0.1569,
+          "requests": 123772835
+        },
+        {
+          "model": "openai/gpt-5.6-luna-20260709",
+          "tokens_b": 5568.029,
+          "share": 0.09,
+          "requests": 250699299
+        },
+        {
+          "model": "xiaomi/mimo-v2.5-20260422",
+          "tokens_b": 4992.337,
+          "share": 0.0807,
+          "requests": 73743148
+        },
+        {
+          "model": "deepseek/deepseek-v4-flash-20260423",
+          "tokens_b": 4773.538,
+          "share": 0.0772,
+          "requests": 502476297
+        },
+        {
+          "model": "z-ai/glm-5.2-20260616",
+          "tokens_b": 4407.785,
+          "share": 0.0713,
+          "requests": 81095484
+        },
+        {
+          "model": "google/gemini-3.6-flash-20260721",
+          "tokens_b": 2768.644,
+          "share": 0.0448,
+          "requests": 32751038
+        },
+        {
+          "model": "anthropic/claude-opus-5-20260723",
+          "tokens_b": 2699.901,
+          "share": 0.0437,
+          "requests": 32036762
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro-20260423",
+          "tokens_b": 2656.665,
+          "share": 0.043,
+          "requests": 101211900
+        },
+        {
+          "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+          "tokens_b": 2390.512,
+          "share": 0.0387,
+          "requests": 26938283
+        }
+      ]
     }
   ],
   "summary": {
-    "latest_date": "2026-08-16",
-    "latest_total_tokens_b": 59802.909,
-    "latest_total_requests": 2124290663,
-    "dod_pct": 1.3118,
+    "latest_date": "2026-08-17",
+    "latest_total_tokens_b": 61841.117,
+    "latest_total_requests": 1878642886,
+    "dod_pct": 0.0341,
     "wow_pct": null
   }
 }

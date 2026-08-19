@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-08-18T22:29:31.999171+00:00",
+  "as_of": "2026-08-19T09:30:30.898439+00:00",
   "triggers": {
     "token_growth": {
       "state": "amber",
       "evidence": [
-        "Awaiting WoW history (latest snapshot 2026-08-17, need 7d+ to compute)."
+        "Awaiting WoW history (latest snapshot 2026-08-18, need 7d+ to compute)."
       ],
       "rule": "Frontier inference WoW token growth: GREEN ≥+5% / AMBER 0–5% / RED negative or history insufficient."
     },

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-20T22:33:18.501525+00:00",
+  "as_of": "2026-08-21T09:33:16.618764+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -491,13 +491,83 @@
           "requests": 91289263
         }
       ]
+    },
+    {
+      "date": "2026-08-20",
+      "total_tokens_b": 64817.575,
+      "total_prompt_tokens_b": 63400.65,
+      "total_completion_tokens_b": 1416.924,
+      "total_reasoning_tokens_b": 0.0,
+      "total_requests": 1909260316,
+      "top_models": [
+        {
+          "model": "deepseek/deepseek-v4-flash-20260731",
+          "tokens_b": 11424.834,
+          "share": 0.1763,
+          "requests": 415949907
+        },
+        {
+          "model": "tencent/hy3-20260706",
+          "tokens_b": 9223.887,
+          "share": 0.1423,
+          "requests": 116783791
+        },
+        {
+          "model": "xiaomi/mimo-v2.5-20260422",
+          "tokens_b": 6924.736,
+          "share": 0.1068,
+          "requests": 91875385
+        },
+        {
+          "model": "openai/gpt-5.6-luna-20260709",
+          "tokens_b": 5598.181,
+          "share": 0.0864,
+          "requests": 235311270
+        },
+        {
+          "model": "deepseek/deepseek-v4-flash-20260423",
+          "tokens_b": 5060.045,
+          "share": 0.0781,
+          "requests": 511153441
+        },
+        {
+          "model": "z-ai/glm-5.2-20260616",
+          "tokens_b": 4271.917,
+          "share": 0.0659,
+          "requests": 78824971
+        },
+        {
+          "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+          "tokens_b": 3752.029,
+          "share": 0.0579,
+          "requests": 35577578
+        },
+        {
+          "model": "anthropic/claude-opus-5-20260723",
+          "tokens_b": 2572.935,
+          "share": 0.0397,
+          "requests": 29986256
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro-20260423",
+          "tokens_b": 2108.133,
+          "share": 0.0325,
+          "requests": 84816443
+        },
+        {
+          "model": "google/gemini-3.6-flash-20260721",
+          "tokens_b": 2004.183,
+          "share": 0.0309,
+          "requests": 22969555
+        }
+      ]
     }
   ],
   "summary": {
-    "latest_date": "2026-08-19",
-    "latest_total_tokens_b": 63932.917,
-    "latest_total_requests": 1840143431,
-    "dod_pct": 0.0126,
+    "latest_date": "2026-08-20",
+    "latest_total_tokens_b": 64817.575,
+    "latest_total_requests": 1909260316,
+    "dod_pct": 0.0138,
     "wow_pct": null
   }
 }

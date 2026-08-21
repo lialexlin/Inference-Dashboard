@@ -31,6 +31,52 @@
     "arch_risk": false
   },
   {
+    "id": "rss-5a3fd4af3f113b62",
+    "date": "2026-08-21",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review",
+    "quote": "We tested the Bosgame M5, an AMD Ryzen AI Max+ 395 system that is one of the lowest cost 128GB LPDDR5X local AI systems out there The post Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/bosgame-m5-amd-ryzen-ai-max-395-128gb-ai-desktop-review/",
+    "layer_ids": [
+      "hbm",
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-1592558e5306f9c4",
+    "date": "2026-08-21",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "How TSMC Is Wiring the AI Era With Light",
+    "quote": "TSMC’s photonics strategy is centered on integrating optical input-output with advanced logic, rather than selling conventional optical transceivers as standalone products. The company is developing a silicon-photonics foundry platform and a packaging architecture called TSMC-COUPE , or Compact Universal Photonic … Read More The post How TSMC Is Wiring the AI Era With Light appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/372488-how-tsmc-is-wiring-the-ai-era-with-light/",
+    "layer_ids": [
+      "optics",
+      "cooling"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-3c2d9280524b6696",
+    "date": "2026-08-21",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Intel Eyes a Memory Comeback as AI Rewrites Chip Economics",
+    "quote": "Intel is considering a return to memory technology decades after abandoning mainstream DRAM and, more recently, selling its NAND business. Chief executive Lip-Bu Tan has argued that memory should no longer be viewed simply as a low-margin commodity. Artificial intelligence is turning bandwidth, latency and data movement … Read More The post Intel Eyes a Memory Comeback as AI Rewrites Chip Economics appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/372371-intel-eyes-a-memory-comeback-as-ai-rewrites-chip-economics/",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-ebf6739472d9b18d",
     "date": "2026-08-20",
     "source": "Nikkei Asia",
@@ -153,36 +199,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-5394490eb2e0b02d",
-    "date": "2026-08-19",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "SK Hynix to cancel record KRW40tn in shares, signalling confidence in a long AI memory cycle - digitimes",
-    "quote": "SK Hynix to cancel record KRW40tn in shares, signalling confidence in a long AI memory cycle digitimes",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAxdDk2YjhwQ0s0WUxhSzNRSlVqT0dmbVVlc29lMjVHM1JvbTlNTDU2Mkx3X2lqeU9ZUHFIcjBTb2psZkplM2NQX2NNQlpfbk1ocUZRcUIydDh0S1NfcWs2Ynd2bXdPMUUtbUl0bXRjM1Jrb1ZXejB3NG53b1ZyUQ?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [
-      "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-7698771a114b3023",
-    "date": "2026-08-18",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Samsung faces tougher HBM4E test after HBM4 comeback - digitimes",
-    "quote": "Samsung faces tougher HBM4E test after HBM4 comeback digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZ2dLWDVCTUFpUVp2VW9vQmJ6eTZVU3JraVdRcEc5U0d2NVY4Vmo1a0Z1VG5mZVBNWnRleHJKTFVtazVaSzIxSEtBTHFSOW13THUzaGp2VVc2Y3JMTGFHQ0UxNXBtX3kxNFNOX0RzWHFhYlBpdHA2ZERhbklXR1dfcDNVd2RXYjRrQ3gxWXlmRQ?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-93fcafb3483c2d7a",
     "date": "2026-08-18",
     "source": "DigiTimes",
@@ -215,15 +231,15 @@
     "arch_risk": false
   },
   {
-    "id": "rss-59c7e82e93431dca",
+    "id": "rss-3905e7a6a3ed099c",
     "date": "2026-08-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "MediaTek widens ASIC services as market share surges - digitimes",
-    "quote": "MediaTek widens ASIC services as market share surges digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTGxONHhBeUpoQ1MyYlplUXZzSmQyTzZ6SERKMHBETUQ1N1pDUDA5M01aVnYxRHZBT2llWUtYeEtieEFNYXZrQlBvdE1jOUJDVzN6cVVJZUFubE9ncjN3R0VEeERhSUJGSU9PYnA2LU45eTRETXZsZTBOQzl4b2daZ3F1ZmdaUmMtUllVdUltWnJ0d2IzTWc?oc=5",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Cisco Can Finally Sell Lots Of Supercomputers And Their Networks",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/08/17/cisco-can-finally-sell-lots-of-supercomputers-and-their-networks/5288804",
     "layer_ids": [
-      "gpu"
+      "switches"
     ],
     "tickers": [],
     "arch_risk": false
@@ -275,6 +291,20 @@
     "layer_ids": [
       "foundry",
       "optics"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-03175daeaa37ca56",
+    "date": "2026-08-14",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "The Neoclouds Build Cash Hoards Faster Than Revenues",
+    "quote": "",
+    "url": "https://www.nextplatform.com/cloud/2026/08/14/the-neoclouds-build-cash-hoards-faster-than-revenues/5288040",
+    "layer_ids": [
+      "neoclouds"
     ],
     "tickers": [],
     "arch_risk": false
@@ -344,6 +374,21 @@
     "arch_risk": false
   },
   {
+    "id": "rss-944f7bf3b64867fc",
+    "date": "2026-08-12",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "OCP APAC 2026: TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year - digitimes",
+    "quote": "OCP APAC 2026: TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRkZGSWRNR295dlQwOFN1VmF4TzJfc0lPcURPYjQxdkFMbGNfWXpxam95azFnRkRxZkFLMUk2dXZPVXNESG9NakdydElTX0NucmJZNld2ZmxDWTV6dWRPaUFBblFtdmRRb2dkdDJmRjNISHlId1liTWVpc3AwSHpCX3NfbWstbGw2Z1oyQk1oX0hrSVZT?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-COHR-0001193125-26-346860",
     "accession": "0001193125-26-346860",
     "form": "8-K",
@@ -394,21 +439,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-d71753deb51fb086",
-    "date": "2026-08-11",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "OCP APAC 2026: TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year - digitimes",
-    "quote": "OCP APAC 2026: TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZy1KMGJJQTRTRWFOWEJMQ25ERDYzYk5Za1AwR0tqNkxOUDJvRm1OdXhnTzRGSkhGSFJyOGdNemZtbnVuU0hZdE13dmZ5SXpLYy1TOVhzZWNKcUJTenZnSjNNSDd0ZXpHd2JDTGxJVkcxSDdjNkFuOUtZQk1TY0NtRVp2M0hOTzRBWDhPRDdBT3E?oc=5",
-    "layer_ids": [
-      "packaging",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-LITE-0001628280-26-055726",
     "accession": "0001628280-26-055726",
     "form": "8-K",
@@ -442,6 +472,34 @@
     "tickers": [
       "CRWV"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-495babd65170bfee",
+    "date": "2026-08-10",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Semiconductor material prices surge across silicon wafers, specialty gases and advanced packaging - digitimes",
+    "quote": "Semiconductor material prices surge across silicon wafers, specialty gases and advanced packaging digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQmRpeHRvRlU0N0t2MExDeTNsY3p6ZmtfMS1KU0hSQTFIYmRVLVlNS3docWhqQnVCODdTR0w1ZDdUYXZwRjkxUlRLd2Jrc3FzTHFPMmVKLWl1alVDOURfTGhleGh0WXNjVDR0NnVtZE9halF5OWViZGk5bTJpXzZWLUN6TFRLRzFPN1A5bmFxaUZJaXhGa1E?oc=5",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-473b27dc369b1da2",
+    "date": "2026-08-10",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "As AI Networks Scale In Three Directions, So Does Arista",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/08/10/as-ai-networks-scale-in-three-directions-so-does-arista/5285500",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -619,6 +677,20 @@
     "tickers": [
       "LEU"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-17e5dd3a2a6a9a4e",
+    "date": "2026-08-04",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Why Shouldn’t Amazon Spinoff AWS And Annapurna Labs?",
+    "quote": "",
+    "url": "https://www.nextplatform.com/cloud/2026/08/04/why-shouldnt-amazon-spinoff-aws-and-annapurna-labs/5282586",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -802,6 +874,37 @@
     "tickers": [
       "AMZN"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-6b452dbaf2ee4a56",
+    "date": "2026-07-30",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Taiwan semiconductor power demand is set to reach 52 billion kWh in 2026 - digitimes",
+    "quote": "Taiwan semiconductor power demand is set to reach 52 billion kWh in 2026 digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUTBBb0x3d3NiSWZtbFNjMlZMd3poMHh2eFA2dXFjMnpxMkdSaHF5ZWVtc2lSRGIySnMxVno1Y2RWNEJQclhiNDdiZTdkWTZMejdwSldGQnBEeThPSTAyVFRRbzBHYTBZSmlVc0dITHhscXp0ejd1YjJDLVBHSTVZTkx2M2NRNThrMTl2aE5YYlRVdjNsZnc?oc=5",
+    "layer_ids": [
+      "foundry",
+      "packaging"
+    ],
+    "tickers": [
+      "TSM"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-410529cd78b5a624",
+    "date": "2026-07-30",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "South Korean chip exports increasingly flow to Taiwan for TSMC packaging amid rising AI demand - digitimes",
+    "quote": "South Korean chip exports increasingly flow to Taiwan for TSMC packaging amid rising AI demand digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOT0JvWVNvdVZGb3Y1ajFNUEVHdGhCbUVTTTlxZERlanJMZk8wODJRZ2R4bWUtVEhlVHhZSHNHTG1fdWRScTVtWWl6ZWlWRzZRdklRZGlRS1BVSnZDMzhlVmZqdjJ4TlJPYmsxaDY3dFlvdkgtT21ZeWlRR3JwUEp1bW1MWk5QVk5la1cwS0JR?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {

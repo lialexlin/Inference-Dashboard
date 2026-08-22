@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-21T22:31:12.404424+00:00",
+  "as_of": "2026-08-22T09:24:25.167483+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -561,13 +561,83 @@
           "requests": 22969555
         }
       ]
+    },
+    {
+      "date": "2026-08-21",
+      "total_tokens_b": 66531.504,
+      "total_prompt_tokens_b": 65117.69,
+      "total_completion_tokens_b": 1413.814,
+      "total_reasoning_tokens_b": 0.0,
+      "total_requests": 1938478807,
+      "top_models": [
+        {
+          "model": "deepseek/deepseek-v4-flash-20260731",
+          "tokens_b": 11655.618,
+          "share": 0.1752,
+          "requests": 424432559
+        },
+        {
+          "model": "tencent/hy3-20260706",
+          "tokens_b": 8927.609,
+          "share": 0.1342,
+          "requests": 112687698
+        },
+        {
+          "model": "xiaomi/mimo-v2.5-20260422",
+          "tokens_b": 8183.927,
+          "share": 0.123,
+          "requests": 104942730
+        },
+        {
+          "model": "openai/gpt-5.6-luna-20260709",
+          "tokens_b": 5407.426,
+          "share": 0.0813,
+          "requests": 232724448
+        },
+        {
+          "model": "deepseek/deepseek-v4-flash-20260423",
+          "tokens_b": 5196.875,
+          "share": 0.0781,
+          "requests": 520604180
+        },
+        {
+          "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+          "tokens_b": 4079.647,
+          "share": 0.0613,
+          "requests": 37662012
+        },
+        {
+          "model": "z-ai/glm-5.2-20260616",
+          "tokens_b": 3792.262,
+          "share": 0.057,
+          "requests": 75080073
+        },
+        {
+          "model": "anthropic/claude-opus-5-20260723",
+          "tokens_b": 2467.612,
+          "share": 0.0371,
+          "requests": 27517920
+        },
+        {
+          "model": "stealth/ox-alpha",
+          "tokens_b": 2002.782,
+          "share": 0.0301,
+          "requests": 27449106
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro-20260423",
+          "tokens_b": 1962.921,
+          "share": 0.0295,
+          "requests": 80061507
+        }
+      ]
     }
   ],
   "summary": {
-    "latest_date": "2026-08-20",
-    "latest_total_tokens_b": 64817.575,
-    "latest_total_requests": 1909260316,
-    "dod_pct": 0.0138,
+    "latest_date": "2026-08-21",
+    "latest_total_tokens_b": 66531.504,
+    "latest_total_requests": 1938478807,
+    "dod_pct": 0.0264,
     "wow_pct": null
   }
 }

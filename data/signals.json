@@ -1,5 +1,65 @@
 [
   {
+    "id": "rss-898cc0b1759347ad",
+    "date": "2026-08-23",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
+    "quote": "At Hot Chips 2026, d-Matrix showed off its Raptor 3D-DRAM accelerator for AI breaking free of using HBM for memory by stacking DRAM and logic The post d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/",
+    "layer_ids": [
+      "hbm",
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-dfcfc19e2efc338b",
+    "date": "2026-08-23",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "SK hynix HBM Packaging at Hot Chips 2026",
+    "quote": "At Hot Chips 2026 SK hynix presented some of the challenges around HBM and packaging the memory for AI accelerators The post SK hynix HBM Packaging at Hot Chips 2026 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/sk-hynix-hbm-packaging-at-hot-chips-2026/",
+    "layer_ids": [
+      "hbm",
+      "gpu"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-b53f6a70e87c5ed7",
+    "date": "2026-08-23",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Samsung Evolving HBM Base Die at Hot Chips 2026",
+    "quote": "At Hot Chips 2026, Samsung discussed how it plans to evolve the HBM base die to free up more package area for mroe efficient compute The post Samsung Evolving HBM Base Die at Hot Chips 2026 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/samsung-evolving-hbm-base-die-at-hot-chips-2026/",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-cd0e18e251ae0b29",
+    "date": "2026-08-23",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Reducing EUV Exposure Dose Through Underlayer Engineering",
+    "quote": "Extreme-ultraviolet lithography is essential for manufacturing advanced semiconductor devices, but its continued scaling presents a difficult materials problem. Photoresists must simultaneously provide high resolution, low exposure dose, limited line-edge or linewidth roughness, and extremely low defectivity. … Read More The post Reducing EUV Exposure Dose Through Underlayer Engineering appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/lithography/372293-reducing-euv-exposure-dose-through-underlayer-engineering/",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-cf1a78d93df1394d",
     "date": "2026-08-21",
     "source": "DigiTimes",
@@ -63,20 +123,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-3c2d9280524b6696",
-    "date": "2026-08-21",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Intel Eyes a Memory Comeback as AI Rewrites Chip Economics",
-    "quote": "Intel is considering a return to memory technology decades after abandoning mainstream DRAM and, more recently, selling its NAND business. Chief executive Lip-Bu Tan has argued that memory should no longer be viewed simply as a low-margin commodity. Artificial intelligence is turning bandwidth, latency and data movement … Read More The post Intel Eyes a Memory Comeback as AI Rewrites Chip Economics appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/372371-intel-eyes-a-memory-comeback-as-ai-rewrites-chip-economics/",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-ebf6739472d9b18d",
     "date": "2026-08-20",
     "source": "Nikkei Asia",
@@ -91,20 +137,6 @@
     "tickers": [
       "005930.KS"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-bb02e0b00b546aef",
-    "date": "2026-08-20",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Rising demand for CPO, SiPh reshapes semiconductor testing - digitimes",
-    "quote": "Rising demand for CPO, SiPh reshapes semiconductor testing digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVlBWRVQ3bTVNVWktM2NQU3lzdkVySEdSZTlNSE5WblF1Uk9rdi1JOXVSYWhXM3BNbUVTMG4weVBLQjdaRkVkOUJQZi1DUlZGMllxa0NFcEh6Um9yeWczb1BXWU5KUzBhekJrcGdfQ0FQSW5oVHM0WUl6R1h4YVNKS3AweU92RVRqMlF3aEpLY2E?oc=5",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -131,35 +163,6 @@
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZHBBSW1VMTMycjE3M0MzRWN2NHA3RXZQb0dfNngzTjY5RFZ1YmxhX3pGSGhvYTg4OGRib2tjMEplLWpGTEtBOWR1bGlRLU5ka0dZN0ZOLVZpaU1YdHVkaWhJX3U4Nkd5bnR1R0xVakhFM28taXMydEhBRHhmeGhpWmlNUU5sd2dmbXVkbw?oc=5",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-f83287ae49b969a7",
-    "date": "2026-08-20",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Chroma's Proprietary ASIC Technology Reshapes the Semiconductor Test Landscape - digitimes",
-    "quote": "Chroma's Proprietary ASIC Technology Reshapes the Semiconductor Test Landscape digitimes",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1CQnUyc3ZiQVlrbjNsT3dGbmRfc1FxOTFkUkJ5UDlWZDBlNXFKRi1tazB4Rkx6Z0ltUWFCNmlCVThMam8wX1ZiR1RId25nZ0tqek9NZmRSRkNQZ2NDbS1YVlRuaTR5RDhSQ1ByOWYyZ0Q0dw?oc=5",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-d1ea6c7d0631ea77",
-    "date": "2026-08-20",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Questa One Updated at DAC 2026",
-    "quote": "Abhi Kolpekwar, VP & General Manager, Digital Verification Technologies at Siemens EDA met with me at #DAC2026 to provide the big picture on smart verification tools, something they call Questa One . Their verification tools are infused with AI to improve productivity on projects like SoCs, 3D IC and chiplets. Abhi shared… Read More The post Questa One Updated at DAC 2026 appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/372370-questa-one-updated-at-dac-2026/",
-    "layer_ids": [
-      "eda",
-      "packaging"
     ],
     "tickers": [],
     "arch_risk": false
@@ -7483,6 +7486,34 @@
     "headline": "TSMC says quake impact minimal - digitimes",
     "quote": "TSMC says quake impact minimal digitimes",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwSlBKNzlpVHJSR2tDNE5reG1jaG1OM1A0SlVlTmFicElGLXhEeERJNXJ5bU1sRko0dDcxb2YzY09SRHA2X2lLVnpxdzhtTU9YLU5MT0oxdHM5NVhFM2NUOVBMS3Y0N0RHdElnTURkUzdoTGoy?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-d09474e2a17866ca",
+    "date": "2006-01-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC damaged wafer total said to reach NT$300 million - digitimes",
+    "quote": "TSMC damaged wafer total said to reach NT$300 million digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoUEFJbFdzOGh4SjFzblFWQ3dGU2pvTlZ6TnMteWdFZU1vZ3NjeXNTSFNHNjhrWEtkQVlJZmFMU2pjcEpwQkV6a3NzTi1uUVo5c3lCMnVMNEtfRGlNWU94eEFDX01uSmVM?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-f187b8e2bfe6c720",
+    "date": "2004-01-15",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Nvidia and ATI produce new chipsets with 0.11-micron process at TSMC - digitimes",
+    "quote": "Nvidia and ATI produce new chipsets with 0.11-micron process at TSMC digitimes",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQZzBoSWF4TjQxem1fa0lqeFFPS2RLYUdCTGNtVk9oSDgyS3JVeGpmb0UxLVNuWWNmc3ZfaVptQjcyM2dvZm1oREFnall1WldLelRSeFZKakNyajNFM04wYXBLRFRPTkRrVlV1Q1VYSTA?oc=5",
     "layer_ids": [
       "foundry"
     ],

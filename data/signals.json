@@ -1,5 +1,22 @@
 [
   {
+    "id": "rss-5aaeb3e69a19a7dc",
+    "date": "2026-08-24",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Samsung Electronics faces internal divide over huge bonus gap - Nikkei Asia",
+    "quote": "Samsung Electronics faces internal divide over huge bonus gap Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMUZXU2wzUG5pbFdWNmtGbTdPdExYUndCemtFaGhXaGxFZEVSM0FXdGxsVHNlRTVGX1ZKR0NLRmVGdUVSSjZMSE5DRWZmenNwaW1jRy1GSmJpTnVlQ1FOOXdIV21TSzdsMTRyazZBbkpUUWhGeUJ4dVNMSXBnb3ZWRjhQc2NNci1BU2c1ZTRmOXZKQnRyLUl5NFZUamlUUXIwcnV2RjVsSQ?oc=5",
+    "layer_ids": [
+      "hbm",
+      "foundry"
+    ],
+    "tickers": [
+      "005930.KS"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-d39bc0c4f9db3850",
     "date": "2026-08-24",
     "source": "DigiTimes",
@@ -34,6 +51,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-5caca2009ef9637a",
+    "date": "2026-08-24",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving - digitimes",
+    "quote": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd1Nnd1VHU2RybFJON1o1YXk2eGtJcU5YWXI1OWZiWUVWLTlKWFc1Z0xkQ3JhWHBITHhsdTdiT3A4d19IU1BfeWtORzVtZE9CN3VIU3pIemxpVFVTeXVXS2FKTnRpbmFMVm90WXhlMWpaeVNZWjNlOHBoaElISmZpWS02WkNUcHI0YnliUWJ5SXQwbHJUdkJ0Q3JtckFWdVE?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-b8b176d3477edefc",
     "date": "2026-08-24",
     "source": "DigiTimes",
@@ -50,61 +81,76 @@
     "arch_risk": false
   },
   {
-    "id": "rss-898cc0b1759347ad",
-    "date": "2026-08-23",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
-    "quote": "At Hot Chips 2026, d-Matrix showed off its Raptor 3D-DRAM accelerator for AI breaking free of using HBM for memory by stacking DRAM and logic The post d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/",
-    "layer_ids": [
-      "hbm",
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-dfcfc19e2efc338b",
-    "date": "2026-08-23",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "SK hynix HBM Packaging at Hot Chips 2026",
-    "quote": "At Hot Chips 2026 SK hynix presented some of the challenges around HBM and packaging the memory for AI accelerators The post SK hynix HBM Packaging at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/sk-hynix-hbm-packaging-at-hot-chips-2026/",
-    "layer_ids": [
-      "hbm",
-      "gpu"
-    ],
-    "tickers": [
-      "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b53f6a70e87c5ed7",
-    "date": "2026-08-23",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "Samsung Evolving HBM Base Die at Hot Chips 2026",
-    "quote": "At Hot Chips 2026, Samsung discussed how it plans to evolve the HBM base die to free up more package area for mroe efficient compute The post Samsung Evolving HBM Base Die at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/samsung-evolving-hbm-base-die-at-hot-chips-2026/",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-cd0e18e251ae0b29",
-    "date": "2026-08-23",
+    "id": "rss-618cd9ceee0c2354",
+    "date": "2026-08-24",
     "source": "SemiWiki",
     "source_type": "analyst",
-    "headline": "Reducing EUV Exposure Dose Through Underlayer Engineering",
-    "quote": "Extreme-ultraviolet lithography is essential for manufacturing advanced semiconductor devices, but its continued scaling presents a difficult materials problem. Photoresists must simultaneously provide high resolution, low exposure dose, limited line-edge or linewidth roughness, and extremely low defectivity. … Read More The post Reducing EUV Exposure Dose Through Underlayer Engineering appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/lithography/372293-reducing-euv-exposure-dose-through-underlayer-engineering/",
+    "headline": "Avestra: Agentic AI for SystemVerilog Assertion Generation",
+    "quote": "Modern ASIC, SoC, CPU, and GPU development depends on verification processes that detect subtle functional defects before tapeout. SystemVerilog Assertions (SVA) are particularly important because they encode temporal design intent: how signals, states, and transactions must behave across clock cycles. Unlike conventional… Read More The post Avestra: Agentic AI for SystemVerilog Assertion Generation appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/372299-avestra-agentic-ai-for-systemverilog-assertion-generation/",
     "layer_ids": [
-      "wfe"
+      "cooling",
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-512c09962cda9cc9",
+    "date": "2026-08-24",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "RISC-V at Sixteen: From Modular ISA to Standardized Platforms at Hot Chips 2026",
+    "quote": "RISC-V has evolved from a Berkeley research architecture into a global instruction-set standard spanning embedded controllers, application processors, accelerators, and emerging servers. Its defining technical characteristic is not merely openness, but disciplined modularity. Four ratified base ISAs—RV32I, RV64I,… Read More The post RISC-V at Sixteen: From Modular ISA to Standardized Platforms at Hot Chips 2026 appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/ip/sifive/372639-risc-v-at-sixteen-from-modular-isa-to-standardized-platforms-at-hot-chips-2026/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-97505c62d121c71b",
+    "date": "2026-08-24",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Hot Chips: Evolving Memory Architectures for Artificial Intelligence",
+    "quote": "Artificial intelligence performance is increasingly constrained by memory rather than arithmetic throughput. Scaling laws show that model quality improves when parameter count, training data, and compute grow together, but this balance fails when processors cannot obtain operands quickly enough. Contemporary accelerators… Read More The post Hot Chips: Evolving Memory Architectures for Artificial Intelligence appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/372632-hot-chips-evolving-memory-architectures-for-artificial-intelligence/",
+    "layer_ids": [
+      "gpu",
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-63994336e8700a73",
+    "date": "2026-08-24",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Synopsys Cloud at DAC 2026",
+    "quote": "Cloud-based EDA has been around for awhile now, so at #DAC2026 I met with Vikram Bhatia, Executive Director of Synopsys Cloud to see what’s new with their offering. His background includes stints at Sun, IBM, Microsoft, HP, Oracle and NetApp. The Synopsys Cloud FlexEDA lets designs teams run their EDA solutions inside of a web browser,… Read More The post Synopsys Cloud at DAC 2026 appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/synopsys/372498-synopsys-cloud-at-dac-2026/",
+    "layer_ids": [
+      "eda",
+      "software"
+    ],
+    "tickers": [
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-e0c7a0959f3fceb7",
+    "date": "2026-08-24",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "The Sky’s the Limit: SiFive’s BigSky Brings RISC-V to the Datacenter",
+    "quote": "SiFive is bringing RISC-V closer to mainstream datacenter deployment with the BigSky SF-2U870, an enterprise-grade development server designed for hyperscalers, semiconductor companies, software vendors, and ecosystem partners. Announced in Santa Clara on August 24, 2026, alongside Hot Chips, the rackable 2U platform… Read More The post The Sky’s the Limit: SiFive’s BigSky Brings RISC-V to the Datacenter appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/ip/sifive/372506-the-skys-the-limit-sifives-bigsky-brings-risc-v-to-the-datacenter/",
+    "layer_ids": [
+      "hyperscalers"
     ],
     "tickers": [],
     "arch_risk": false
@@ -138,23 +184,6 @@
       "foundry"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-5a3fd4af3f113b62",
-    "date": "2026-08-21",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review",
-    "quote": "We tested the Bosgame M5, an AMD Ryzen AI Max+ 395 system that is one of the lowest cost 128GB LPDDR5X local AI systems out there The post Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/bosgame-m5-amd-ryzen-ai-max-395-128gb-ai-desktop-review/",
-    "layer_ids": [
-      "hbm",
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
-    ],
     "arch_risk": false
   },
   {
@@ -475,20 +504,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-dd9aa119bb848f7f",
-    "date": "2026-08-11",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC commits JPY282 billion to Sony sensor JV as AI demand outruns Sony's 40nm process - digitimes",
-    "quote": "TSMC commits JPY282 billion to Sony sensor JV as AI demand outruns Sony's 40nm process digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObFJnTGV1OVJpU2RuN0t2bGJ5X0hWZXBUMVJwUm9ZczJuYWxtODE3QWxHa2pPOE42Q3A0cjA1clF0S1NjdXBJcS1QYWdINWlTdm5wbS13SDhXb1gwS1RwNHNZc0RpWC1WRkt3WVpveEhUelI5Z19tMFZxTGJTeW5ON1VLRGJ1M2IwaGNPMTJjTmF1Y1k?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-LITE-0001628280-26-055726",
     "accession": "0001628280-26-055726",
     "form": "8-K",
@@ -644,20 +659,6 @@
     "tickers": [
       "LEU"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-8726e4af0d3a0e33",
-    "date": "2026-08-05",
-    "source": "Stratechery",
-    "source_type": "analyst",
-    "headline": "Google Earnings, The Frontier Case, Amazon Earnings",
-    "quote": "Google's earnings seemed to confirm the Anthropic hedge; it was Andy Jassy who explained why their — and Amazon's — capex was justifiable.",
-    "url": "https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {

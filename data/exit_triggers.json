@@ -1,10 +1,11 @@
 {
-  "as_of": "2026-08-23T22:27:58.460080+00:00",
+  "as_of": "2026-08-24T09:43:07.179999+00:00",
   "triggers": {
     "token_growth": {
-      "state": "amber",
+      "state": "green",
       "evidence": [
-        "Awaiting WoW history (latest snapshot 2026-08-22, need 7d+ to compute)."
+        "WoW token-throughput change: +26.7% (snapshot 2026-08-23)",
+        "Top WoW share gainers: ox-alpha +15.3pp, mimo-v2.5-20260422 +6.8pp"
       ],
       "rule": "Frontier inference WoW token growth: GREEN ≥+5% / AMBER 0–5% / RED negative or history insufficient."
     },
@@ -31,5 +32,5 @@
       "manual": true
     }
   },
-  "overall": "amber"
+  "overall": "green"
 }

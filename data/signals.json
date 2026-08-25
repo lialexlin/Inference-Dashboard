@@ -14,6 +14,36 @@
     "arch_risk": false
   },
   {
+    "id": "rss-b7916dcb95181be4",
+    "date": "2026-08-25",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Anthropic bets on in-house chips, reshaping ASIC orders - digitimes",
+    "quote": "Anthropic bets on in-house chips, reshaping ASIC orders digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcGJ1ZmZkSUhMV2Q0WVR0ZDJ2eGZEamJhVzhZTFZjOWdJUEg3ZG1pb0ppV0xvUnB4X2l2RFBfa3hrQXZ5MlhUOEJQTmtRRmdaUFFrMVpjTmlhU3RadGtXSVpyODFYcHg3VGpDZkFfVEZHS2pQb1pTVFBjRHdXaFRTcG55c0VfR21kWGoyNW9oUQ?oc=5",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-d31b7b641c1074aa",
+    "date": "2026-08-25",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Samsung, SK Hynix step up China NAND upgrades as US tool risks grow - digitimes",
+    "quote": "Samsung, SK Hynix step up China NAND upgrades as US tool risks grow digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR3ozMzc3RldzRllWa1lCamVHTTVYeGlOd2p6cW12QVQyajFXeEhkTG1KZjE2b1d6d0oxTzEtWGE3bHVBZmRoNTE4LS02MzFaMThEZ09CRy1lTU54SWh3UGMySkxJcUl6N29mNTBjNGliX252OWpCVEttRUxyNEJ3RHlsdmttcUFJakVwczZGZGpzSU1nWEd6TQ?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-e67269f7669f1830",
     "date": "2026-08-25",
     "source": "DigiTimes",
@@ -28,61 +58,103 @@
     "arch_risk": false
   },
   {
-    "id": "rss-24e091ca12f8b843",
+    "id": "rss-d170a3baecc873d7",
     "date": "2026-08-25",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026",
-    "quote": "We learned more about the new 160GB to 480GB LPDDR5X Intel Crescent Island GPU focused on memory capacity at Hot Chips 2026 The post Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC, Intel, and Samsung battle over backside power delivery below 2nm - digitimes",
+    "quote": "TSMC, Intel, and Samsung battle over backside power delivery below 2nm digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZUUtcGZpajZzSEthVHlBS0hDTERDTVZxdFlEQjlzR2x0VUZMZGtyVUdXWDV2NGVROXVCeHVxaXJkNEFqMExXUWlpSkFGaWpYRUIyWFpHSzVsSjVSdUE2MkIzLWphVHBJa2R5VFhmeFlYT3NvRXh6c3c2VnRMMURNd2lNVHlsZk8yT3Rib09vYjJMYUl0bzNhNjlycw?oc=5",
     "layer_ids": [
-      "hbm"
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
   },
   {
-    "id": "rss-85896cea66d7087f",
+    "id": "rss-bcf15b67c7320c53",
     "date": "2026-08-25",
     "source": "ServeTheHome",
     "source_type": "news",
-    "headline": "AMD Helios MI400 System Architecture at Hot Chips 2026",
-    "quote": "AMD showed off its MI400 Helios AI rack-scale infrastructure at Hot Chips 2026 going into some detail around how the rack operates The post AMD Helios MI400 System Architecture at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/amd-helios-mi400-system-architecture-at-hot-chips-2026/",
+    "headline": "NVIDIA’s Groq 3 LPU Accelerators for Heterogeneous AI Compute at Hot Chips 2026",
+    "quote": "The newest member of NVIDIA's AI hardware family, at Hot Chips 2026 NVIDIA is diving into the use of LPUs as part of Vera Rubin clusters. The specialized chips from acquihire Groq are being tapped to offer significantly lower latency in the decode phase of inference The post NVIDIA’s Groq 3 LPU Accelerators for Heterogeneous AI Compute at Hot Chips 2026 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/nvidias-groq-3-lpu-accelerators-for-heterogeneous-ai-compute-at-hot-chips-2026/",
     "layer_ids": [
       "gpu"
     ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7d87724461aa5a14",
+    "date": "2026-08-25",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Meta’s MTIA Custom AI Silicon at Hot Chips 2026",
+    "quote": "For Hot Chips 2026, Meta is at the show to discuss their AI inference accelerators. The MTIA family, the company has an ambitious roadmap to release 4 accelerators over the next couple of years The post Meta’s MTIA Custom AI Silicon at Hot Chips 2026 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/metas-mtia-custom-ai-silicon-at-hot-chips-2026/",
+    "layer_ids": [
+      "gpu",
+      "hyperscalers"
+    ],
     "tickers": [
-      "AMD"
+      "META"
     ],
     "arch_risk": false
   },
   {
-    "id": "rss-33b2770622963464",
+    "id": "rss-f0557b04ad46f7ca",
     "date": "2026-08-25",
     "source": "ServeTheHome",
     "source_type": "news",
-    "headline": "AMD MI400 GPU at Hot Chips 2026",
-    "quote": "AMD showed off its MI400 architecture at Hot Chips 2026 going into how they made a giant GPU for its Helios racks The post AMD MI400 GPU at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/amd-mi400-gpu-at-hot-chips-2026/",
+    "headline": "NVIDIA Spectrum-X Ethernet Multiplane Network Architecture at Hot Chips 2026",
+    "quote": "At Hot Chips 2026, NVIDIA showed how Spectrum-X and a multiplane network is its vision for AI Factory networks The post NVIDIA Spectrum-X Ethernet Multiplane Network Architecture at Hot Chips 2026 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/nvidia-spectrum-x-ethernet-multiplane-network-architecture-at-hot-chips-2026/",
     "layer_ids": [
-      "gpu"
+      "networking"
     ],
-    "tickers": [
-      "AMD"
-    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
-    "id": "rss-945ebc996eb8f511",
+    "id": "rss-2aef9210b4eee417",
     "date": "2026-08-25",
     "source": "ServeTheHome",
     "source_type": "news",
-    "headline": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026",
-    "quote": "At Hot Chips 2026 NVIDIA went into the NVIDIA Vera Rubin NVL72 rack design as part of its AI Factory design The post NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/nvidia-vera-rubin-nvl72-rack-at-hot-chips-2026/",
+    "headline": "NVIDIA BlueField-4 DPU at Hot Chips 2026",
+    "quote": "At Hot Chips 2026, NVIDIA is detailing the huge upgrades in its BlueField-4 DPU along with the reasons behind it and its scale-in networking The post NVIDIA BlueField-4 DPU at Hot Chips 2026 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/nvidia-bluefield-4-processor-at-hot-chips-2026/",
     "layer_ids": [
-      "gpu"
+      "networking"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-fd64d4601d2961a9",
+    "date": "2026-08-25",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Broadcom Thor Ultra Ethernet NIC at Hot Chips 2026",
+    "quote": "At Hot Chips 2026, we got a lot of detail on how the Broadcom Thor Ultra 800GbE NIC works and some of the performance views The post Broadcom Thor Ultra Ethernet NIC at Hot Chips 2026 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/broadcom-thor-ultra-ethernet-nic-at-hot-chips-2026/",
+    "layer_ids": [
+      "networking",
+      "optics"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-86aba804ff03562d",
+    "date": "2026-08-25",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Webinar: Warpage has a Timing Problem",
+    "quote": "In advanced packaging, warpage is rarely a modeling problem. It is a timing problem. JOHN BRUGGEMAN By the time many advanced packages undergo high-fidelity thermo-mechanical analysis, a long chain of decisions has already been made. Stackup. Materials. Die placement. Package architecture. Each decision constrains the … Read More The post Webinar: Warpage has a Timing Problem appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/vinci/372476-webinar-warpage-has-a-timing-problem/",
+    "layer_ids": [
+      "packaging"
     ],
     "tickers": [],
     "arch_risk": false
@@ -102,6 +174,20 @@
     "tickers": [
       "005930.KS"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-79c5730b8664646b",
+    "date": "2026-08-24",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Advanced packaging substrates hit limits; ceramic cores rise to challenge glass materials - digitimes",
+    "quote": "Advanced packaging substrates hit limits; ceramic cores rise to challenge glass materials digitimes",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWmM2YzNRRlRzLUxlMXlRZ05DdTBBdmRRa3R6emgycmFVaTd3N2NmMEdhb0R3ZlBvZDB2WUxSUVFsZk04NnNDRXZUN2VhYjA3U0JCN1dhUFB4V1JXVFhJU3dRNnJObGlCYm5lVEcyZ29oY3pHWlg2Qmw0Zi1TY0VIdGo5dlRQTE81QWx6SXZ6bWg4bTFIMXAwLTNiRlVVTlNwVmYxWW0xTUlaUHJzMDV6SDRQLVQxR25kN04xSEFlUEtjSGx4N1E?oc=5",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -139,20 +225,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-5caca2009ef9637a",
-    "date": "2026-08-24",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving - digitimes",
-    "quote": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving digitimes",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd1Nnd1VHU2RybFJON1o1YXk2eGtJcU5YWXI1OWZiWUVWLTlKWFc1Z0xkQ3JhWHBITHhsdTdiT3A4d19IU1BfeWtORzVtZE9CN3VIU3pIemxpVFVTeXVXS2FKTnRpbmFMVm90WXhlMWpaeVNZWjNlOHBoaElISmZpWS02WkNUcHI0YnliUWJ5SXQwbHJUdkJ0Q3JtckFWdVE?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-b8b176d3477edefc",
     "date": "2026-08-24",
     "source": "DigiTimes",
@@ -166,6 +238,20 @@
     "tickers": [
       "AMAT"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-af5d98bfebf43510",
+    "date": "2026-08-24",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving - digitimes",
+    "quote": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving digitimes",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc0VVQTZPUW1XQllXdFZxMWVuSGJUbDlRVUw3ajZ3cllqTDFEcnBKaWpWUmNNLWgwYlRXUzlNaXNQQ0FwQkFDWjltcEMyZkM1a3Z6bVk3TW40MGk4NWcxWnM1TWFzdVFCNHJpaDBvc1VYWGZ2eE1Dc3JuLW9iSWxnZ3hkMEN0ZFpfeUozV1FWNm1KR1d5dGVQaFVxck1xbVpI?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -207,52 +293,6 @@
     "url": "https://semiwiki.com/ip/sifive/372639-risc-v-at-sixteen-from-modular-isa-to-standardized-platforms-at-hot-chips-2026/",
     "layer_ids": [
       "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-97505c62d121c71b",
-    "date": "2026-08-24",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Hot Chips: Evolving Memory Architectures for Artificial Intelligence",
-    "quote": "Artificial intelligence performance is increasingly constrained by memory rather than arithmetic throughput. Scaling laws show that model quality improves when parameter count, training data, and compute grow together, but this balance fails when processors cannot obtain operands quickly enough. Contemporary accelerators… Read More The post Hot Chips: Evolving Memory Architectures for Artificial Intelligence appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/372632-hot-chips-evolving-memory-architectures-for-artificial-intelligence/",
-    "layer_ids": [
-      "gpu",
-      "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-63994336e8700a73",
-    "date": "2026-08-24",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Synopsys Cloud at DAC 2026",
-    "quote": "Cloud-based EDA has been around for awhile now, so at #DAC2026 I met with Vikram Bhatia, Executive Director of Synopsys Cloud to see what’s new with their offering. His background includes stints at Sun, IBM, Microsoft, HP, Oracle and NetApp. The Synopsys Cloud FlexEDA lets designs teams run their EDA solutions inside of a web browser,… Read More The post Synopsys Cloud at DAC 2026 appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/synopsys/372498-synopsys-cloud-at-dac-2026/",
-    "layer_ids": [
-      "eda",
-      "software"
-    ],
-    "tickers": [
-      "NOW"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-e0c7a0959f3fceb7",
-    "date": "2026-08-24",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "The Sky’s the Limit: SiFive’s BigSky Brings RISC-V to the Datacenter",
-    "quote": "SiFive is bringing RISC-V closer to mainstream datacenter deployment with the BigSky SF-2U870, an enterprise-grade development server designed for hyperscalers, semiconductor companies, software vendors, and ecosystem partners. Announced in Santa Clara on August 24, 2026, alongside Hot Chips, the rackable 2U platform… Read More The post The Sky’s the Limit: SiFive’s BigSky Brings RISC-V to the Datacenter appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ip/sifive/372506-the-skys-the-limit-sifives-bigsky-brings-risc-v-to-the-datacenter/",
-    "layer_ids": [
-      "hyperscalers"
     ],
     "tickers": [],
     "arch_risk": false
@@ -303,20 +343,6 @@
     "tickers": [
       "005930.KS"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-bb02e0b00b546aef",
-    "date": "2026-08-20",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Rising demand for CPO, SiPh reshapes semiconductor testing - digitimes",
-    "quote": "Rising demand for CPO, SiPh reshapes semiconductor testing digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVlBWRVQ3bTVNVWktM2NQU3lzdkVySEdSZTlNSE5WblF1Uk9rdi1JOXVSYWhXM3BNbUVTMG4weVBLQjdaRkVkOUJQZi1DUlZGMllxa0NFcEh6Um9yeWczb1BXWU5KUzBhekJrcGdfQ0FQSW5oVHM0WUl6R1h4YVNKS3AweU92RVRqMlF3aEpLY2E?oc=5",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -496,6 +522,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-3ec26827c12f6bfc",
+    "date": "2026-08-13",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "TSMC and Sony team up, China's AI stocks swing - Nikkei Asia",
+    "quote": "TSMC and Sony team up, China's AI stocks swing Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeWtpZmxScG93SjdDS3h2MkxVdmhod3ZRVzRlRnlFNzBWeTYwTDUtTmFiY0pwYjRNSEZEa3pzaUI0OVRrcFVpaWtqcWlZdWRKRVBxallfc1FKV0c3dVhzbnBOM0VJMXhraFZ0UDFpV2U1OHBRaE1ERWJoUDNCcVVzMTJwemI?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-AMAT-0001628280-26-056699",
     "accession": "0001628280-26-056699",
     "form": "8-K",
@@ -511,20 +551,6 @@
     "tickers": [
       "AMAT"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-fcc674e9ac87b069",
-    "date": "2026-08-12",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC-Sony's US$4.69B sensor venture is a defensive play against Samsung and China - digitimes",
-    "quote": "TSMC-Sony's US$4.69B sensor venture is a defensive play against Samsung and China digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0dpT2Nnek5CNGljaG5TVmx4cVdHc2N5SWIyWV94ZjZjMlZqWmwyU21WZjZyaEpPRDhIcEw0Y0RUeUtBNVhNQWluNWZLQ1lpNkFFTXlOWU9kcFlRSXlFQ1BjbWk2ejNXeHNIbFgwZGVnZDJlaEtkcmlQaTFTc1F5VmhOWS1hNGFFWmFsV3lLZ014d2c?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -561,6 +587,20 @@
     "tickers": [
       "CRWV"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-bfb1a021c443277b",
+    "date": "2026-08-11",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "TSMC takes rare step of teaming with Sony as Samsung, China rivals loom - Nikkei Asia",
+    "quote": "TSMC takes rare step of teaming with Sony as Samsung, China rivals loom Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMEgtS2dZYXNNTzJqOW0zQUZBM1YydTBDdmxaU0I0Ti1FMEtaR05jU2VpU2g2djJWRnJyRXZlZDRtREdTUWRkT21aM3hNdVQ3Zk04RDJMMjZOOVdtYlk1OV9OUTB6VmxFMEs0NWVsYjMyNmdGZVUwWlVNMGJNWWFFMHh0aWZvRDVhcmFxQW1TSzRJdHJaOUUxM0FMRHZab3RScG0yUkJhaUU1NnlnR1Z4UkJGWnc0WVVjdFc4dWdVUWM?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {

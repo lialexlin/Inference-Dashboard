@@ -1,5 +1,36 @@
 [
   {
+    "id": "rss-084164f11d8f167a",
+    "date": "2026-08-26",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Backlash presents biggest hurdle to data centers: AirTrunk boss - Nikkei Asia",
+    "quote": "Backlash presents biggest hurdle to data centers: AirTrunk boss Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWE90UzNfTHFjZnZ6bGdWeGVaQ2NYWkx0bndVVzROckhEZWtXS1J4d203V2lMVmE3RWJDN3E5OGEycFlvZUdONEVtcVIwbjJVMXl0anYzUGxPRkN0cE9vWS1STThtVjQ4MWtRU3JxcEUwTVJaU1FiSkw2MjJGdFB3NWdXWF83TUJ1OWRJZkd6bHZ4dkVmdGhKQXpKMkREZkphSmJ6OWlNbEJOZw?oc=5",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-6bd3f4e517a88c6d",
+    "date": "2026-08-26",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC packaging shift could boost AMD CoWoS share and trim Nvidia's allocation - digitimes",
+    "quote": "TSMC packaging shift could boost AMD CoWoS share and trim Nvidia's allocation digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNLXhDWEMzc0kyQXE3R1o2WEtWc2taeXZQRWQtamJhdm42elI5VThLOURmRlRtMm12QVFiRHhSUlh1MVRKVEh1TDdxdGd1ZDluejFxd0lOYS0yQVluQ0p6QURhak9PeTRfNXFTZEgzTkxLbUVZWmt1N1BsdVRYdDhuT2tBT0N6dw?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-91dda5ef8f2e4477",
     "date": "2026-08-26",
     "source": "DigiTimes",
@@ -54,6 +85,108 @@
       "gpu"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-3425198e7209a894",
+    "date": "2026-08-26",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Harbert acquires cogenerating heat, power plant in Georgia",
+    "quote": "In addition to acting as a peaker plant for Georgia Power under a long-term power purchase agreement, Mid-Georgia Cogen also supplies thermal output to an adjacent Frito-Lay manufacturing facility for frying and cooking food.",
+    "url": "https://www.utilitydive.com/news/harbert-acquires-cogenerating-heat-power-plant-in-georgia/828833/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-71ce7cbbec9a2f20",
+    "date": "2026-08-26",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Intel Diamond Rapids: Building Xeon Up, Out, and Through Silicon",
+    "quote": "Akhilesh Kumar & Krishnakanth Sistla, Intel Diamond Rapids is Intel’s next-generation Xeon processor, designed around the proposition that hyperscale performance increasingly depends on moving, processing, and protecting data as efficiently as executing instructions. The architecture replaces the conventional… Read More The post Intel Diamond Rapids: Building Xeon Up, Out, and Through Silicon appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/372661-intel-diamond-rapids-building-xeon-up-out-and-through-silicon/",
+    "layer_ids": [
+      "cooling"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-NVDA-0001045810-26-000075",
+    "accession": "0001045810-26-000075",
+    "form": "10-Q",
+    "date": "2026-08-26",
+    "source": "SEC EDGAR (NVDA)",
+    "source_type": "filing",
+    "headline": "NVDA files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+    "layer_ids": [
+      "gpu",
+      "networking"
+    ],
+    "tickers": [
+      "NVDA"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-NVDA-0001045810-26-000073",
+    "accession": "0001045810-26-000073",
+    "form": "8-K",
+    "date": "2026-08-26",
+    "source": "SEC EDGAR (NVDA)",
+    "source_type": "filing",
+    "headline": "NVDA files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
+    "layer_ids": [
+      "gpu",
+      "networking"
+    ],
+    "tickers": [
+      "NVDA"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-SNPS-0000883241-26-000025",
+    "accession": "0000883241-26-000025",
+    "form": "10-Q",
+    "date": "2026-08-26",
+    "source": "SEC EDGAR (SNPS)",
+    "source_type": "filing",
+    "headline": "SNPS files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [
+      "SNPS"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-SNPS-0001193125-26-368620",
+    "accession": "0001193125-26-368620",
+    "form": "8-K",
+    "date": "2026-08-26",
+    "source": "SEC EDGAR (SNPS)",
+    "source_type": "filing",
+    "headline": "SNPS files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312526368620/d157153d8k.htm",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [
+      "SNPS"
+    ],
     "arch_risk": false
   },
   {
@@ -199,20 +332,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-bcf15b67c7320c53",
-    "date": "2026-08-25",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "NVIDIA’s Groq 3 LPU Accelerators for Heterogeneous AI Compute at Hot Chips 2026",
-    "quote": "The newest member of NVIDIA's AI hardware family, at Hot Chips 2026 NVIDIA is diving into the use of LPUs as part of Vera Rubin clusters. The specialized chips from acquihire Groq are being tapped to offer significantly lower latency in the decode phase of inference The post NVIDIA’s Groq 3 LPU Accelerators for Heterogeneous AI Compute at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/nvidias-groq-3-lpu-accelerators-for-heterogeneous-ai-compute-at-hot-chips-2026/",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-ceb2579b294d389b",
     "date": "2026-08-25",
     "source": "SemiWiki",
@@ -222,20 +341,6 @@
     "url": "https://semiwiki.com/eda/372693-synopsys-wins-the-silicon-brain-drain/",
     "layer_ids": [
       "eda"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-86aba804ff03562d",
-    "date": "2026-08-25",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Webinar: Warpage has a Timing Problem",
-    "quote": "In advanced packaging, warpage is rarely a modeling problem. It is a timing problem. JOHN BRUGGEMAN By the time many advanced packages undergo high-fidelity thermo-mechanical analysis, a long chain of decisions has already been made. Stackup. Materials. Die placement. Package architecture. Each decision constrains the … Read More The post Webinar: Warpage has a Timing Problem appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/vinci/372476-webinar-warpage-has-a-timing-problem/",
-    "layer_ids": [
-      "packaging"
     ],
     "tickers": [],
     "arch_risk": false
@@ -322,42 +427,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-af5d98bfebf43510",
-    "date": "2026-08-24",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving - digitimes",
-    "quote": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving digitimes",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc0VVQTZPUW1XQllXdFZxMWVuSGJUbDlRVUw3ajZ3cllqTDFEcnBKaWpWUmNNLWgwYlRXUzlNaXNQQ0FwQkFDWjltcEMyZkM1a3Z6bVk3TW40MGk4NWcxWnM1TWFzdVFCNHJpaDBvc1VYWGZ2eE1Dc3JuLW9iSWxnZ3hkMEN0ZFpfeUozV1FWNm1KR1d5dGVQaFVxck1xbVpI?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-29bcced77290320a",
-    "date": "2026-08-24",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Avestra: Agentic AI for SystemVerilog Assertion Generation",
-    "quote": "Modern ASIC, SoC, CPU, and GPU development depends on verification processes that detect subtle functional defects before tapeout. SystemVerilog Assertions (SVA) are particularly important because they encode temporal design intent: how signals, states, and transactions must behave across clock cycles. Unlike conventional… Read More The post Avestra: Agentic AI for SystemVerilog Assertion Generation appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-services/372299-avestra-agentic-ai-for-systemverilog-assertion-generation/",
-    "layer_ids": [
-      "cooling",
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-1d57f7e90fec5412",
+    "id": "rss-cf1a78d93df1394d",
     "date": "2026-08-21",
     "source": "DigiTimes",
     "source_type": "industry",
     "headline": "CoWoS boom lifts Taiwan semiconductor equipment makers, Bosch Rexroth targets 2027 volume growth - digitimes",
     "quote": "CoWoS boom lifts Taiwan semiconductor equipment makers, Bosch Rexroth targets 2027 volume growth digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdkY2cmhBTW5WanJTd21mVkQ5c1Z1dXFSejRzaDFFMFVqWWRrd2E5U0g5dGl0VWs0ZXlSNktoanphNklvR2M0MnJPcmp0TGFfUzRvXzNQbTlma1V6UGNFNXpUUnlQMUk2dU5UNF9vMktMbEpydm1yTkVpYUNFRWEyN1ZOelIzSV9wcWc2UnRFNHc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUURjdnNsLVFObm8zTlFkOWFHdzRlUldUdjZQSDExaHllYTlNWFNYR2c4Z1U5QVF4OVVNVm5FSzRReWZxeTUzMlN0SGFUZHdESHlDNm1RNnhZX1NxeHlHRGJiLVdHLVZVMlJyendxSGxFRDdhdXdSdXhlcHFEb1hlLUo1cWRhb2lEZFVpX3YxYw?oc=5",
     "layer_ids": [
       "packaging",
       "foundry"
@@ -365,6 +441,20 @@
     "tickers": [
       "TSM"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-4eca74c454f7996b",
+    "date": "2026-08-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Xiaomi's Xring O3 nears launch on TSMC N3P, testing its in-house chip strategy - digitimes",
+    "quote": "Xiaomi's Xring O3 nears launch on TSMC N3P, testing its in-house chip strategy digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSHVMMGxxX0tVNWlEWXR4SndDWmlkeWVhOHQ5VGUzWjd1MnBhQW5HWjREZlJ5OWtjMkdOdzBRQWZtUmlaV3pQM1ZPbFlFcFI3SDVzd3FTR25Pbk0yVUM5S0lHMGlQX08ydlp5TUtDRS10SGRfNVhUZGloTGNyXzNnMmlxZVY1bVc0QTRFc0xYcE1GY2V2OEE?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -441,22 +531,6 @@
     ],
     "tickers": [
       "AMAT"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-8577f5401a2d6f13",
-    "date": "2026-08-19",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "SK Hynix announces $28.6bn buyback plan to boost stock price - Nikkei Asia",
-    "quote": "SK Hynix announces $28.6bn buyback plan to boost stock price Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTJwdVAyaEVJbjdzMTJTMWRUYlIwLUl2UFhrVUNjRmhLNkJMemprWlFkZVZkOURlVTgwa3pKZzZUcm1DTEMxY2prOEJUNVdvRjdYU2pPMldPWFNTTElnSnpiR3pITFliaHN2NE12ejBUWHVrZnR1ZFVRTTFuSFF5VUNSQXZwZ2J2Sk9TRHQ2NGViTDg0LXdvYmRjdzZfY29IRTh0NHVqb0F3aHJySjNzb0xn?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [
-      "000660.KS"
     ],
     "arch_risk": false
   },
@@ -662,20 +736,6 @@
     "tickers": [
       "CRWV"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-495babd65170bfee",
-    "date": "2026-08-10",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Semiconductor material prices surge across silicon wafers, specialty gases and advanced packaging - digitimes",
-    "quote": "Semiconductor material prices surge across silicon wafers, specialty gases and advanced packaging digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQmRpeHRvRlU0N0t2MExDeTNsY3p6ZmtfMS1KU0hSQTFIYmRVLVlNS3docWhqQnVCODdTR0w1ZDdUYXZwRjkxUlRLd2Jrc3FzTHFPMmVKLWl1alVDOURfTGhleGh0WXNjVDR0NnVtZE9halF5OWViZGk5bTJpXzZWLUN6TFRLRzFPN1A5bmFxaUZJaXhGa1E?oc=5",
-    "layer_ids": [
-      "packaging"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -7061,64 +7121,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-NVDA-0001045810-26-000021",
-    "accession": "0001045810-26-000021",
-    "form": "10-K",
-    "date": "2026-02-25",
-    "source": "SEC EDGAR (NVDA)",
-    "source_type": "filing",
-    "headline": "NVDA files 10-K: periodic report",
-    "quote": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
-    "layer_ids": [
-      "gpu",
-      "networking"
-    ],
-    "tickers": [
-      "NVDA"
-    ],
-    "summary": {
-      "tldr": "Data Center +68% YoY for FY26; Blackwell is now the majority of DC revenue. Rubin announced as next platform on annual cadence. H20 China business effectively zero after $4.5B Q1 inventory charge.",
-      "takeaways": [
-        "Data Center +68% YoY, Gaming +41%, ProViz +70%, Auto +39%",
-        "Blackwell Ultra/GB300 shipped in Q2 FY26; Rubin next on annual cadence",
-        "Q1 FY26 $4.5B H20 inventory charge from China export controls; Feb 2026 H200 license carries 25% US import tariff",
-        "Mgmt explicitly flags data center, energy, and capital availability as constraints on customer deployments",
-        "$17.5B invested in private cos / infra funds + $3.5B in land/power/shell guarantees to early-stage AI customers",
-        "Gross margin compressed YoY due to Hopper HGX -> Blackwell full-system transition"
-      ],
-      "guidance": {
-        "gross_margin": "73.5% non-GAAP",
-        "notes": "Gaming supply constraints expected to be a Q1 FY27 headwind",
-        "opex": null,
-        "period": "Q1 FY27",
-        "revenue": "$43.0B ± 2%"
-      },
-      "quote": "The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial.",
-      "quote_section": "Item 7 Recent Developments"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-NVDA-0001045810-26-000019",
-    "accession": "0001045810-26-000019",
-    "form": "8-K",
-    "date": "2026-02-25",
-    "source": "SEC EDGAR (NVDA)",
-    "source_type": "filing",
-    "headline": "NVDA files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000019/nvda-20260225.htm",
-    "layer_ids": [
-      "gpu",
-      "networking"
-    ],
-    "tickers": [
-      "NVDA"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-CRM-0001108524-26-000056",
     "accession": "0001108524-26-000056",
     "form": "8-K",
@@ -7133,62 +7135,6 @@
     ],
     "tickers": [
       "CRM"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-SNPS-0000883241-26-000014",
-    "accession": "0000883241-26-000014",
-    "form": "10-Q",
-    "date": "2026-02-25",
-    "source": "SEC EDGAR (SNPS)",
-    "source_type": "filing",
-    "headline": "SNPS files 10-Q: periodic report",
-    "quote": "Revenues were $2.4 billion, an increase of $953.5 million or 66%, which includes revenues from Ansys of $885.6 million. The remaining growth came organically across a majority of products and geographies, offset by weakness in our Design IP segment.",
-    "url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000014/snps-20260131.htm",
-    "layer_ids": [
-      "eda"
-    ],
-    "tickers": [
-      "SNPS"
-    ],
-    "summary": {
-      "tldr": "Q1 FY26 revenue $2.41B +66% YoY ($885.6M from Ansys); Design Automation +96% but Design IP -6%; backlog steady at $11.3B; Processor IP business sold to GlobalFoundries.",
-      "takeaways": [
-        "Q1 FY26 revenue $2,408.8M +66% YoY; Design Automation $2,001.8M +96% (Ansys contributed $885.6M); Design IP $407M -6% YoY",
-        "Backlog $11.3B at 1/31/26 (vs $11.4B at YE25) incl. $1.9B non-cancelable FSA; 47% to recognize in next 12mo",
-        "Operating income $203M (vs $251.8M prior) compressed by $394.1M Ansys intangible amortization; cost of revenue + opex +83%",
-        "Q1 restructuring charge $118.3M under '2026 Plan' (total $300-350M) for post-Ansys workforce reduction",
-        "Jan 14, 2026: signed agreement to divest Processor IP business to GlobalFoundries as part of Design IP segment reallocation toward highest-growth opportunities",
-        "Paid off remaining $3.5B term loan in Q1 FY26 (had been used to fund Ansys cash consideration); $13.5B FY25-end debt being aggressively paid down before buyback resumes"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Expect growth across most geographies in fiscal 2026; challenging near-term environment in China due to macro and Trade Restrictions; continue to expect muted Design IP segment growth in fiscal 2026",
-        "opex": null,
-        "period": "FY26",
-        "revenue": null
-      },
-      "quote": "Revenues were $2.4 billion, an increase of $953.5 million or 66%, which includes revenues from Ansys of $885.6 million. The remaining growth came organically across a majority of products and geographies, offset by weakness in our Design IP segment.",
-      "quote_section": "Item 2 MD&A - Financial Performance Summary"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-SNPS-0001193125-26-071601",
-    "accession": "0001193125-26-071601",
-    "form": "8-K",
-    "date": "2026-02-25",
-    "source": "SEC EDGAR (SNPS)",
-    "source_type": "filing",
-    "headline": "SNPS files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/883241/000119312526071601/d921168d8k.htm",
-    "layer_ids": [
-      "eda"
-    ],
-    "tickers": [
-      "SNPS"
     ],
     "arch_risk": false
   },

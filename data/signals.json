@@ -1,5 +1,96 @@
 [
   {
+    "id": "rss-4c84223a56718a51",
+    "date": "2026-08-27",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "AMD, Broadcom book most of Powertech's FOPLP capacity ahead of 2027 ramp - digitimes",
+    "quote": "AMD, Broadcom book most of Powertech's FOPLP capacity ahead of 2027 ramp digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdnNWUFVEUUVYMlhEWnQ1Q0FkYTROQVlLTlJJeEhaa2hMQXIwLVV4ZWcxdFQxQzQwRnV4U3lvRGlFN0tLSmdsSjBIRmhNMnRrZU9SUHFBUk5UVkdmdW1ZRXJPVHhvVWVCS3hfLU5zM0tNMW9PbmQ0M2dfbnRIdWxLSUtsS1BJMXJRTGV0eg?oc=5",
+    "layer_ids": [
+      "packaging",
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-8849f79f35c8d7f5",
+    "date": "2026-08-27",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Oxmiq Labs HBF in AI Compute at Hot Chips 2026",
+    "quote": "At Hot Chips 2026, Oxmiq Labs went into an analysis of HBF versus HBM in AI compute and where the buzzworthy HBF fits in the ecosystem The post Oxmiq Labs HBF in AI Compute at Hot Chips 2026 appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/oxmiq-labs-hbf-in-ai-compute-at-hot-chips-2026/",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-ba47c3130084c4b3",
+    "date": "2026-08-27",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "US Army selects 5 companies to deploy microreactors at military installations",
+    "quote": "The $2.2B in federal funding is intended to boost the sites’ resilience and the commercial viability of next-generation nuclear power.",
+    "url": "https://www.utilitydive.com/news/us-army-selects-5-companies-to-deploy-microreactors-at-military-installatio/828974/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-717d4d5e6f3c89c9",
+    "date": "2026-08-27",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Duke Energy Florida asks to punt on rate for large load customers",
+    "quote": "Duke Energy Florida’s proposal “doesn't attempt to comply with the most basic provisions” of Florida’s new data center law, the state’s public counsel, Walt Trierweiler, said at a hearing.",
+    "url": "https://www.utilitydive.com/news/duke-energy-florida-psc-large-load-rate/828951/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-70ab30d27e462ded",
+    "date": "2026-08-27",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "AI-designed Chip Points Toward a Faster Future for Custom Silicon",
+    "quote": "Architect Labs says it has created Redwood, an AI accelerator designed and verified almost entirely by artificial intelligence in less than two weeks. If independently validated and successfully translated from a programmable prototype into manufactured silicon, the project could represent a major change in how computer… Read More The post AI-designed Chip Points Toward a Faster Future for Custom Silicon appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/372758-ai-designed-chip-points-toward-a-faster-future-for-custom-silicon/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CRM-0001108524-26-000190",
+    "accession": "0001108524-26-000190",
+    "form": "10-Q",
+    "date": "2026-08-27",
+    "source": "SEC EDGAR (CRM)",
+    "source_type": "filing",
+    "headline": "CRM files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "CRM"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-084164f11d8f167a",
     "date": "2026-08-26",
     "source": "Nikkei Asia",
@@ -150,6 +241,24 @@
     ],
     "tickers": [
       "NVDA"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CRM-0001108524-26-000187",
+    "accession": "0001108524-26-000187",
+    "form": "8-K",
+    "date": "2026-08-26",
+    "source": "SEC EDGAR (CRM)",
+    "source_type": "filing",
+    "headline": "CRM files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-20260826.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "CRM"
     ],
     "arch_risk": false
   },
@@ -318,34 +427,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-cb76ede7f93c0aa1",
-    "date": "2026-08-25",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "Cerebras Talks Going Rack-Scale with Their WSEs at Hot Chips 2026",
-    "quote": "At Hot Chips 2026, wafer scale engine developer Cerebras is talking about the next generation of their giant accelerators, as well as how the company is going rack-scale thanks to their Nexus platform architecture The post Cerebras Talks Going Rack-Scale with Their WSEs at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/cerebras-talks-going-rack-scale-with-their-wses-at-hot-chips-2026/",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ceb2579b294d389b",
-    "date": "2026-08-25",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Synopsys Wins the AI Silicon Brain Drain",
-    "quote": "The reported move of Amit Gupta, Jeff Dyck, and Ryan Silk from Siemens EDA to Synopsys matters because this is more than a routine transfer of experienced executives and engineers. Together, the three represent a concentrated body of expertise in applying artificial intelligence to semiconductor design—one of the most strategically… Read More The post Synopsys Wins the AI Silicon Brain Drain appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/372693-synopsys-wins-the-silicon-brain-drain/",
-    "layer_ids": [
-      "eda"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-5aaeb3e69a19a7dc",
     "date": "2026-08-24",
     "source": "Nikkei Asia",
@@ -453,37 +534,6 @@
     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSHVMMGxxX0tVNWlEWXR4SndDWmlkeWVhOHQ5VGUzWjd1MnBhQW5HWjREZlJ5OWtjMkdOdzBRQWZtUmlaV3pQM1ZPbFlFcFI3SDVzd3FTR25Pbk0yVUM5S0lHMGlQX08ydlp5TUtDRS10SGRfNVhUZGloTGNyXzNnMmlxZVY1bVc0QTRFc0xYcE1GY2V2OEE?oc=5",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ebf6739472d9b18d",
-    "date": "2026-08-20",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Samsung Electronics poised for $72bn shareholder return program - Nikkei Asia",
-    "quote": "Samsung Electronics poised for $72bn shareholder return program Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON2R1eFJOcGdRb0RmcU00SVNYN083ZFZJTnNkUl9hWnlvMlRPODF4MXNFbW5sWnE4OW9XVElBU3FSZGdBVThRTmtGRGVmdDMwVGlRNTktYlVURUhiTU5BSmZybktuTGx6M3NVTHFZQzhIaHNqTjVmeUt5cFJfek9tSTRRYm9KQnoxUXhwODZsMDhHSGNHRmFtSE5PZFh2eUpWN3N5SjJqYXJWd3ljM3dFU3ktRmpHZw?oc=5",
-    "layer_ids": [
-      "hbm",
-      "foundry"
-    ],
-    "tickers": [
-      "005930.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-bb02e0b00b546aef",
-    "date": "2026-08-20",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Rising demand for CPO, SiPh reshapes semiconductor testing - digitimes",
-    "quote": "Rising demand for CPO, SiPh reshapes semiconductor testing digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVlBWRVQ3bTVNVWktM2NQU3lzdkVySEdSZTlNSE5WblF1Uk9rdi1JOXVSYWhXM3BNbUVTMG4weVBLQjdaRkVkOUJQZi1DUlZGMllxa0NFcEh6Um9yeWczb1BXWU5KUzBhekJrcGdfQ0FQSW5oVHM0WUl6R1h4YVNKS3AweU92RVRqMlF3aEpLY2E?oc=5",
-    "layer_ids": [
-      "optics"
     ],
     "tickers": [],
     "arch_risk": false
@@ -7080,62 +7130,6 @@
       "speaker": "Sassine Ghazi",
       "role": "Executives"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CRM-0001108524-26-000060",
-    "accession": "0001108524-26-000060",
-    "form": "10-K",
-    "date": "2026-03-02",
-    "source": "SEC EDGAR (CRM)",
-    "source_type": "filing",
-    "headline": "CRM files 10-K: periodic report",
-    "quote": "Total remaining performance obligation, which represents all future revenue under contract yet to be recognized, as of January 31, 2026 was approximately $72.4 billion, an increase of 14 percent year-over-year. Current remaining performance obligation... was approximately $35.1 billion, an increase of 16 percent year-over-year.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm",
-    "layer_ids": [
-      "software"
-    ],
-    "tickers": [
-      "CRM"
-    ],
-    "summary": {
-      "tldr": "FY26 revenue $41.5B (+10%), op margin 20%, RPO $72.4B (+14%), cRPO $35.1B (+16%); closed $9.6B Informatica deal to power agentic AI data layer.",
-      "takeaways": [
-        "FY26 revenue $41.5B (+10% YoY); operating margin expanded to 20% from 19%; diluted EPS $7.80 vs $6.36",
-        "Total RPO $72.4B (+14% YoY); current RPO $35.1B (+16%) - cRPO outpacing total RPO signals near-term demand acceleration",
-        "Acquired Informatica for $9.6B (closed Nov 2025) to extend Data 360 with agentic data-management capabilities; contributed $0.4B revenue in FY26",
-        "Repurchased $12.7B of stock (50M shares) + $1.6B dividends; operating cash flow $15.0B (+15%)",
-        "Renamed service offerings to Agentforce branding in Q3 FY26; Agentforce 360 Platform is the unified AI/CRM stack",
-        "Attrition rate ~8% as of Jan 31 2026, unchanged YoY"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Mgmt frames AI products as primary growth vector; expects continued operating margin expansion through restructuring and AI/Data Cloud investments",
-        "opex": null,
-        "period": "FY 2027",
-        "revenue": null
-      },
-      "quote": "Total remaining performance obligation, which represents all future revenue under contract yet to be recognized, as of January 31, 2026 was approximately $72.4 billion, an increase of 14 percent year-over-year. Current remaining performance obligation... was approximately $35.1 billion, an increase of 16 percent year-over-year.",
-      "quote_section": "Item 7 MD&A - Highlights from Fiscal 2026"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CRM-0001108524-26-000056",
-    "accession": "0001108524-26-000056",
-    "form": "8-K",
-    "date": "2026-02-25",
-    "source": "SEC EDGAR (CRM)",
-    "source_type": "filing",
-    "headline": "CRM files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000056/crm-20260225.htm",
-    "layer_ids": [
-      "software"
-    ],
-    "tickers": [
-      "CRM"
-    ],
     "arch_risk": false
   },
   {

@@ -13,39 +13,39 @@
       "language_pct": 0.533,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "foundry": {
-    "tightness_score": 73,
-    "signal_count_90d": 23,
-    "tightness_language_hits_per_signal": 0.043,
+    "tightness_score": 71,
+    "signal_count_90d": 22,
+    "tightness_language_hits_per_signal": 0.045,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "TSMC packaging shift could boost AMD CoWoS share and trim Nvidia's allocation digitimes",
       "[INTC] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.933,
-      "language_pct": 0.4,
+      "density_pct": 0.8,
+      "language_pct": 0.467,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "packaging": {
-    "tightness_score": 51,
-    "signal_count_90d": 11,
-    "tightness_language_hits_per_signal": 0.273,
+    "tightness_score": 53,
+    "signal_count_90d": 12,
+    "tightness_language_hits_per_signal": 0.25,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Douglas Bettinger, Executives] Everybody wants to know the answer to that question. And frankly, I don't have a specific number for you, except I would tell you, the industry is undersupplied right now. You're seeing it in memory pricing, ",
       "TSMC packaging shift could boost AMD CoWoS share and trim Nvidia's allocation digitimes"
     ],
     "components": {
-      "density_pct": 0.333,
+      "density_pct": 0.4,
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "wfe": {
     "tightness_score": 51,
@@ -60,23 +60,23 @@
       "language_pct": 0.867,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "gpu": {
-    "tightness_score": 71,
-    "signal_count_90d": 22,
-    "tightness_language_hits_per_signal": 0.045,
+    "tightness_score": 73,
+    "signal_count_90d": 24,
+    "tightness_language_hits_per_signal": 0.042,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Ashish Saran, Executives] Yes. I mean supply has been tight. I mean that's worst-kept secret out there. But having said that, I mean, just look at the upside we're driving this year and next year. So I think we've got -- done a pretty good",
       "[NVDA] Both filings cite data-center / energy / capital availability as the gating constraint on customer deployments — no easing language added"
     ],
     "components": {
-      "density_pct": 0.8,
-      "language_pct": 0.467,
+      "density_pct": 0.933,
+      "language_pct": 0.4,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "networking": {
     "tightness_score": 56,
@@ -92,25 +92,25 @@
       "language_pct": 0.8,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "optics": {
-    "tightness_score": 36,
-    "signal_count_90d": 12,
+    "tightness_score": 33,
+    "signal_count_90d": 11,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[LITE] Supply-tightness language present in both latest filings"
     ],
     "components": {
-      "density_pct": 0.4,
+      "density_pct": 0.333,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "switches": {
-    "tightness_score": 76,
+    "tightness_score": 73,
     "signal_count_90d": 14,
     "tightness_language_hits_per_signal": 0.143,
     "cross_quarter_supply_tight": true,
@@ -121,26 +121,26 @@
     ],
     "components": {
       "density_pct": 0.667,
-      "language_pct": 0.733,
+      "language_pct": 0.667,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "power": {
-    "tightness_score": 32,
-    "signal_count_90d": 22,
+    "tightness_score": 35,
+    "signal_count_90d": 23,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.8,
+      "density_pct": 0.867,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "cooling": {
-    "tightness_score": 35,
+    "tightness_score": 32,
     "signal_count_90d": 9,
     "tightness_language_hits_per_signal": 0.111,
     "cross_quarter_supply_tight": false,
@@ -148,11 +148,11 @@
       "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t"
     ],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.2,
       "language_pct": 0.6,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "hyperscalers": {
     "tightness_score": 29,
@@ -165,7 +165,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "neoclouds": {
     "tightness_score": 3,
@@ -178,25 +178,25 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "software": {
-    "tightness_score": 5,
-    "signal_count_90d": 8,
+    "tightness_score": 11,
+    "signal_count_90d": 10,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.133,
+      "density_pct": 0.267,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "eda": {
     "tightness_score": 32,
-    "signal_count_90d": 8,
-    "tightness_language_hits_per_signal": 0.125,
+    "signal_count_90d": 7,
+    "tightness_language_hits_per_signal": 0.143,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Sassine Ghazi, Executives] The demand for IP is there. Actually, the -- actually, the fundamental demand for IP is chip start. And in semiconductor right now, there is no shortage in excitement or the need to deliver customized silicon for"
@@ -206,7 +206,7 @@
       "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -219,6 +219,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-27T03:03:09.787168+00:00"
+    "updated_at": "2026-08-27T19:26:05.765230+00:00"
   }
 }

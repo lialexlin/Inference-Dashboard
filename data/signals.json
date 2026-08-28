@@ -1,5 +1,33 @@
 [
   {
+    "id": "rss-b25f3d6fc779aad6",
+    "date": "2026-08-29",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Warm-Water Ready: Benchmarking Two-Phase Vs. Single-Phase Direct-to-Chip Cooling On An NVIDIA B200 Server",
+    "quote": "To cut energy costs, the cooling technology inside the server increasingly determines both compute performance and facility economics.",
+    "url": "https://intelligence.theregister.com/paper/view/20797",
+    "layer_ids": [
+      "cooling"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-649dfd71a22d00a0",
+    "date": "2026-08-28",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "India's private capex surges on data centers and renewables - Nikkei Asia",
+    "quote": "India's private capex surges on data centers and renewables Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZzdkYmRmWW1fOGRtWW5SUTJJRVBhZ2tKaFhKVXI0SUlFSjVZOHF4MjVqYkZmVDItckJpSFAxNWlLeWNJejMxSlBqSWZObmF6MzRZQlRQWTI2b1h6SnVrNkhoVW9JTmk2NUd4aGpmbjViUWFvS2owSm1EVktlTlRHdzhPRXREVEhveWVZUzhEd09WaGlhNW1v?oc=5",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-894038563508b13e",
     "date": "2026-08-28",
     "source": "DigiTimes",
@@ -12,6 +40,53 @@
       "packaging"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-d9cb3a4efd7fb2c2",
+    "date": "2026-08-28",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Will Agentic AI Help the Open-Source EDA Market?",
+    "quote": "Agentic artificial intelligence is likely to give the open-source electronic design automation market a meaningful boost. Its biggest contribution will not be the immediate replacement of established commercial platforms from Cadence, Synopsys, or Siemens. Instead, agentic AI can make open-source tools easier to use, … Read More The post Will Agentic AI Help the Open-Source EDA Market? appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/372107-will-agentic-ai-help-the-open-source-eda-market/",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-41df154e1fccf428",
+    "date": "2026-08-28",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "TSMC’s Overseas Fabs Are Paying Off",
+    "quote": "TSMC’s overseas fabrication strategy is beginning to deliver its intended return: not immediate cost parity with Taiwan, but manufacturable geographic redundancy, closer integration with major customers and access to subsidized capacity in strategically important markets. Arizona and Kumamoto are already producing … Read More The post TSMC’s Overseas Fabs Are Paying Off appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/372625-tsmcs-overseas-fabs-are-paying-off/",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MRVL-0001835632-26-000025",
+    "accession": "0001835632-26-000025",
+    "form": "10-Q",
+    "date": "2026-08-28",
+    "source": "SEC EDGAR (MRVL)",
+    "source_type": "filing",
+    "headline": "MRVL files 10-Q: FORM 10-Q",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
+    "layer_ids": [
+      "gpu",
+      "networking"
+    ],
+    "tickers": [
+      "MRVL"
+    ],
     "arch_risk": false
   },
   {
@@ -117,6 +192,25 @@
       "gpu"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MRVL-0001835632-26-000022",
+    "accession": "0001835632-26-000022",
+    "form": "8-K",
+    "date": "2026-08-27",
+    "source": "SEC EDGAR (MRVL)",
+    "source_type": "filing",
+    "headline": "MRVL files 8-K: FORM 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm",
+    "layer_ids": [
+      "gpu",
+      "networking"
+    ],
+    "tickers": [
+      "MRVL"
+    ],
     "arch_risk": false
   },
   {
@@ -332,20 +426,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-eea34313ead6accf",
-    "date": "2026-08-25",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Exclusive: TSMC supplier Nichias to build key chipmaking 'tubes' in Taiwan - Nikkei Asia",
-    "quote": "Exclusive: TSMC supplier Nichias to build key chipmaking 'tubes' in Taiwan Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNLVNMMFVYeS1nV0ZpOUQwbzJFTFVTMHR5eFhDeDZZaEJqU3ktM3gzU1VZcnhrYU1yTVljMFE0ckNlZm5oa1g2SGVlOVdVdGVJNmxud0t4bWdhUy1aNTdneUcwVUt6V3Y5WDNLemFET1E4dk5nUFZXUmRQQXZ2Xy10cklwMndxd2pmUEF4TGVzc1pBRVFja0dMU0s3NlZrYUhseGZUZ2FHRTcwVjQ1UFZVTmZ3R2l6QQ?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-35bd976cf65becaf",
     "date": "2026-08-25",
     "source": "Nikkei Asia",
@@ -355,20 +435,6 @@
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbWN3andqR2w1YXdJQThKcUJhYU5Tdjg4Q2RlQnNyQ21YQlhVa0laZ292OGFDR1RMUHRHNjhkMFp3YjI3MzF3WmZxeVVpbzk2aWdPQlFTS2JxbF8tUnJEOWxnSm54TlNXb1hFSTZMckhUYno4WC01Qi1wcG9BSEhjcmUxTXlXYk9GMDBTaUQzMHVueTRkQ1l5MTZrd1MxWDRjbU1DMTl5U1Q5cjhDRVE?oc=5",
     "layer_ids": [
       "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b7916dcb95181be4",
-    "date": "2026-08-25",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Anthropic bets on in-house chips, reshaping ASIC orders - digitimes",
-    "quote": "Anthropic bets on in-house chips, reshaping ASIC orders digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcGJ1ZmZkSUhMV2Q0WVR0ZDJ2eGZEamJhVzhZTFZjOWdJUEg3ZG1pb0ppV0xvUnB4X2l2RFBfa3hrQXZ5MlhUOEJQTmtRRmdaUFFrMVpjTmlhU3RadGtXSVpyODFYcHg3VGpDZkFfVEZHS2pQb1pTVFBjRHdXaFRTcG55c0VfR21kWGoyNW9oUQ?oc=5",
-    "layer_ids": [
-      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -444,51 +510,6 @@
     ],
     "tickers": [],
     "arch_risk": true
-  },
-  {
-    "id": "rss-ff809268a89f9127",
-    "date": "2026-08-25",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "Microsoft’s Maia 200 AI Accelerator at Hot Chips 2026",
-    "quote": "At Hot Chips 2026, Microsoft is going into new detail on Maia 200, their second-generation server AI inference processor The post Microsoft’s Maia 200 AI Accelerator at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/microsofts-maia-200-accelerator-at-hot-chips-2026/",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-5aaeb3e69a19a7dc",
-    "date": "2026-08-24",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Samsung Electronics faces internal divide over huge bonus gap - Nikkei Asia",
-    "quote": "Samsung Electronics faces internal divide over huge bonus gap Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMUZXU2wzUG5pbFdWNmtGbTdPdExYUndCemtFaGhXaGxFZEVSM0FXdGxsVHNlRTVGX1ZKR0NLRmVGdUVSSjZMSE5DRWZmenNwaW1jRy1GSmJpTnVlQ1FOOXdIV21TSzdsMTRyazZBbkpUUWhGeUJ4dVNMSXBnb3ZWRjhQc2NNci1BU2c1ZTRmOXZKQnRyLUl5NFZUamlUUXIwcnV2RjVsSQ?oc=5",
-    "layer_ids": [
-      "hbm",
-      "foundry"
-    ],
-    "tickers": [
-      "005930.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-79c5730b8664646b",
-    "date": "2026-08-24",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Advanced packaging substrates hit limits; ceramic cores rise to challenge glass materials - digitimes",
-    "quote": "Advanced packaging substrates hit limits; ceramic cores rise to challenge glass materials digitimes",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWmM2YzNRRlRzLUxlMXlRZ05DdTBBdmRRa3R6emgycmFVaTd3N2NmMEdhb0R3ZlBvZDB2WUxSUVFsZk04NnNDRXZUN2VhYjA3U0JCN1dhUFB4V1JXVFhJU3dRNnJObGlCYm5lVEcyZ29oY3pHWlg2Qmw0Zi1TY0VIdGo5dlRQTE81QWx6SXZ6bWg4bTFIMXAwLTNiRlVVTlNwVmYxWW0xTUlaUHJzMDV6SDRQLVQxR25kN04xSEFlUEtjSGx4N1E?oc=5",
-    "layer_ids": [
-      "packaging"
-    ],
-    "tickers": [],
-    "arch_risk": false
   },
   {
     "id": "rss-d39bc0c4f9db3850",
@@ -6674,45 +6695,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-MRVL-0001835632-26-000011",
-    "accession": "0001835632-26-000011",
-    "form": "10-K",
-    "date": "2026-03-11",
-    "source": "SEC EDGAR (MRVL)",
-    "source_type": "filing",
-    "headline": "MRVL files 10-K: FORM 10-K",
-    "quote": "Our net revenue for fiscal 2026 increased by $2.4 billion compared to net revenue for fiscal 2025. This was primarily due to a 46% increase in sales from the data center end market which benefited from strong AI-related demand.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm",
-    "layer_ids": [
-      "gpu",
-      "optics"
-    ],
-    "tickers": [
-      "MRVL"
-    ],
-    "summary": {
-      "tldr": "FY26 revenue $8.2B (+42% YoY); Data center end-market $6.1B (74% of mix, +46% YoY) on AI custom ASICs and electro-optics; closed Celestial AI and XConn acquisitions post year-end to extend photonic fabric and CXL/PCIe switching.",
-      "takeaways": [
-        "FY26 revenue $8.2B (+42% YoY); Data center $6.1B (74% of mix, +46% YoY); Communications & other $2.1B (+31%) recovering from inventory correction",
-        "Gross margin 51.0% vs 41.3% prior year (+9.7 pts) - prior year had $358M of restructuring impairments; cost absorption also improved on higher revenue",
-        "Customer concentration: Direct Customer A = 14% of revenue (vs 13%), Distributor A = 37% (vs 34%); top 10 customers historically ~81% of revenue",
-        "Post-year-end: closed Celestial AI (Feb 2, 2026) for ~$1.3B cash + 24.5M shares for Photonic Fabric scale-up interconnect; closed XConn (Feb 10, 2026) for $280M + 2.1M shares for PCIe/CXL switching",
-        "Beginning Q4 FY26, MRVL consolidated enterprise networking, carrier, consumer, and auto/industrial into single 'Communications and other' end market - data center now the only standalone segment disclosed",
-        "Roadmap explicit: custom AI ASIC platform leverages SerDes, ARM compute, silicon photonics, CPO, custom HBM; 5nm in production, 3nm in design, 2nm/1.4nm in development"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Expects U.S. export restrictions on certain Chinese customers to continue impacting revenue; flagged risk that Chinese customers may stockpile or move to indigenous suppliers",
-        "opex": null,
-        "period": "FY27",
-        "revenue": null
-      },
-      "quote": "Our net revenue for fiscal 2026 increased by $2.4 billion compared to net revenue for fiscal 2025. This was primarily due to a 46% increase in sales from the data center end market which benefited from strong AI-related demand.",
-      "quote_section": "Item 7 MD&A - Net Revenue"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-ORCL-0001193125-26-101045",
     "accession": "0001193125-26-101045",
     "form": "10-Q",
@@ -6921,25 +6903,6 @@
     ],
     "tickers": [
       "AVGO"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-MRVL-0001835632-26-000006",
-    "accession": "0001835632-26-000006",
-    "form": "8-K",
-    "date": "2026-03-05",
-    "source": "SEC EDGAR (MRVL)",
-    "source_type": "filing",
-    "headline": "MRVL files 8-K: FORM 8-K",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000006/mrvl-20260305.htm",
-    "layer_ids": [
-      "gpu",
-      "networking"
-    ],
-    "tickers": [
-      "MRVL"
     ],
     "arch_risk": false
   },

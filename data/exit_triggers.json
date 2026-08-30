@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-29T14:10:28.927554+00:00",
+  "as_of": "2026-08-30T00:00:11.587788+00:00",
   "triggers": {
     "token_growth": {
       "state": "green",
@@ -19,8 +19,7 @@
     "arch_risk": {
       "state": "green",
       "evidence": [
-        "1 arch-risk signals in last 30d — none claim a frontier-scale efficiency breakthrough.",
-        "Recent arch-risk headlines: SambaNova’s SN50 RDU for AI at Hot Chips 2026"
+        "0 arch-risk signals in last 30d — none claim a frontier-scale efficiency breakthrough."
       ],
       "rule": "Arch-risk signals (last 30d): GREEN none / AMBER mild 2–5× efficiency claim / RED ≥10× claim."
     },

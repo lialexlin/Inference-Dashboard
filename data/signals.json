@@ -1,5 +1,19 @@
 [
   {
+    "id": "rss-fb1fa4dba7e21111",
+    "date": "2026-08-30",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Five Billion Pulses Later: What DUV Optics Testing Reveals About Semiconductor Tool Uptime",
+    "quote": "By Dr. Sabina Kuprėnaitė Deep-ultraviolet optics used in semiconductor lithography may be exposed to billions of pulses over their service life. That creates a qualification challenge that initial reflectance specifications or laser-induced damage thresholds alone cannot answer. A mirror may meet its optical specification… Read More The post Five Billion Pulses Later: What DUV Optics Testing Reveals About Semiconductor Tool Uptime appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/lithography/372789-five-billion-pulses-later-what-duv-optics-testing-reveals-about-semiconductor-tool-uptime/",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-d8b0c1da2c5e7772",
     "date": "2026-08-29",
     "source": "Nikkei Asia",
@@ -208,20 +222,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-70ab30d27e462ded",
-    "date": "2026-08-27",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "AI-designed Chip Points Toward a Faster Future for Custom Silicon",
-    "quote": "Architect Labs says it has created Redwood, an AI accelerator designed and verified almost entirely by artificial intelligence in less than two weeks. If independently validated and successfully translated from a programmable prototype into manufactured silicon, the project could represent a major change in how computer… Read More The post AI-designed Chip Points Toward a Faster Future for Custom Silicon appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/372758-ai-designed-chip-points-toward-a-faster-future-for-custom-silicon/",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-MRVL-0001835632-26-000022",
     "accession": "0001835632-26-000022",
     "form": "8-K",
@@ -326,21 +326,6 @@
     "quote": "We got a deep-dive on OpenAI Jalapeño at Hot Chips 2026 as the company rapidly built its own competitive AI accelerator The post OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026 appeared first on ServeTheHome .",
     "url": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026/",
     "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-e1fae80e851df7f2",
-    "date": "2026-08-26",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "Google’s TPUv8s for Training and Inference at Hot Chips 2026",
-    "quote": "Hot Chips 2026 sees Google discussing its new eighth-generation TPU family for the technical crowd. One of the only hyperscalers to develop its own training hardware, the company has developed the TPU 8t for training, as well as the TPU 8i for inference The post Google’s TPUv8s for Training and Inference at Hot Chips 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/googles-tpuv8s-for-training-and-inference-at-hot-chips-2026/",
-    "layer_ids": [
-      "hyperscalers",
       "gpu"
     ],
     "tickers": [],
@@ -627,22 +612,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-8577f5401a2d6f13",
-    "date": "2026-08-19",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "SK Hynix announces $28.6bn buyback plan to boost stock price - Nikkei Asia",
-    "quote": "SK Hynix announces $28.6bn buyback plan to boost stock price Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMTJwdVAyaEVJbjdzMTJTMWRUYlIwLUl2UFhrVUNjRmhLNkJMemprWlFkZVZkOURlVTgwa3pKZzZUcm1DTEMxY2prOEJUNVdvRjdYU2pPMldPWFNTTElnSnpiR3pITFliaHN2NE12ejBUWHVrZnR1ZFVRTTFuSFF5VUNSQXZwZ2J2Sk9TRHQ2NGViTDg0LXdvYmRjdzZfY29IRTh0NHVqb0F3aHJySjNzb0xn?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [
-      "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-FN-0001408710-26-000028",
     "accession": "0001408710-26-000028",
     "form": "10-K",
@@ -658,6 +627,20 @@
     "tickers": [
       "FN"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-932cc1852f3e9d63",
+    "date": "2026-08-17",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC and Micron boom drives Taiwan 'fab five's 1H26 profits - digitimes",
+    "quote": "TSMC and Micron boom drives Taiwan 'fab five's 1H26 profits digitimes",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ2NwRWJXbWYzc21yNUxnRWRRUUp5dHlScXp3ZHhRNmNOYjJxRzJ6Zkp6azhsR1JJT2lYTFVYLUxuOUw1cXdETm5ibkwxUExiZWZsQmZMemhtTGRiazZKbGFUdVFPdDhLTnZuOWFLLTg3RDBJd2t4TVlNbXExaF81N1RKNA?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {

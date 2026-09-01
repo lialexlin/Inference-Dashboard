@@ -23,7 +23,7 @@ Inference-Dashboard store — memories specific to this repo, plus the universal
 - [feedback_explain_logic_not_code.md](feedback_explain_logic_not_code.md) — Alex is non-technical: explain infra/tooling as logic and outcome (what happens, why), never walk through code
 - [feedback_low_friction_launchers.md](feedback_low_friction_launchers.md) — Personal tools ship with a double-clickable launcher (.command), not just terminal instructions
 - [feedback_mock_before_pipeline.md](feedback_mock_before_pipeline.md) — Front-end / "show me the result" asks: build a shape-matching output mock and confirm it FIRST, before wiring the pipeline
-- [feedback_prioritization_by_time.md](feedback_prioritization_by_time.md) — Prioritization answers are time-gated: workday daytime (Mon–Fri ~09–18) → Axiom-only, drop Edgera/personal
+- [feedback_opus_executor_for_small_changes.md](feedback_opus_executor_for_small_changes.md) — already-specced small changes go to one Opus executor, never a Fable orchestrator with helpers; "touches production" is not a reason to orchestrate
 - [feedback_self_contained_html.md](feedback_self_contained_html.md) — Internal visual artifacts = one self-contained HTML file (no server/CDN deps); generator code lives separately
 - [feedback_visual_verification.md](feedback_visual_verification.md) — Verifying a render means scrutinizing against the chart's purpose, not narrating a flattering read of a defect
 - [reference_readback_verification.md](reference_readback_verification.md) — Wrapped-CLI writes: verify by read-back, never trust exit code / success message

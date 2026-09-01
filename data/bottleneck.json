@@ -1,19 +1,19 @@
 {
   "hbm": {
-    "tightness_score": 68,
-    "signal_count_90d": 13,
-    "tightness_language_hits_per_signal": 0.077,
+    "tightness_score": 73,
+    "signal_count_90d": 15,
+    "tightness_language_hits_per_signal": 0.067,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t",
       "[MU] 'Supply allocation decisions may impact certain customers' (Q1) → 'Industry supply allocation decisions continue' (Q2) — no easing language added"
     ],
     "components": {
-      "density_pct": 0.6,
+      "density_pct": 0.733,
       "language_pct": 0.6,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "foundry": {
     "tightness_score": 76,
@@ -29,10 +29,10 @@
       "language_pct": 0.533,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "packaging": {
-    "tightness_score": 45,
+    "tightness_score": 43,
     "signal_count_90d": 10,
     "tightness_language_hits_per_signal": 0.1,
     "cross_quarter_supply_tight": false,
@@ -40,130 +40,130 @@
       "TSMC packaging shift could boost AMD CoWoS share and trim Nvidia's allocation digitimes"
     ],
     "components": {
-      "density_pct": 0.333,
-      "language_pct": 0.8,
+      "density_pct": 0.4,
+      "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "wfe": {
-    "tightness_score": 16,
+    "tightness_score": 24,
     "signal_count_90d": 11,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.4,
+      "density_pct": 0.6,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "gpu": {
-    "tightness_score": 49,
-    "signal_count_90d": 17,
+    "tightness_score": 47,
+    "signal_count_90d": 12,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[NVDA] Both filings cite data-center / energy / capital availability as the gating constraint on customer deployments — no easing language added"
     ],
     "components": {
-      "density_pct": 0.733,
+      "density_pct": 0.667,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "networking": {
-    "tightness_score": 48,
-    "signal_count_90d": 13,
-    "tightness_language_hits_per_signal": 0.077,
+    "tightness_score": 43,
+    "signal_count_90d": 10,
+    "tightness_language_hits_per_signal": 0.1,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Peter Bailey, Executives] This is an opportunity right now. Like we are in many different consumer customers like so air defense as an example, a product we built for builders to safely build applications that's a product that's a little o"
     ],
     "components": {
-      "density_pct": 0.6,
-      "language_pct": 0.6,
+      "density_pct": 0.4,
+      "language_pct": 0.667,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "optics": {
-    "tightness_score": 41,
-    "signal_count_90d": 12,
+    "tightness_score": 36,
+    "signal_count_90d": 10,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[LITE] Supply-tightness language present in both latest filings"
     ],
     "components": {
-      "density_pct": 0.533,
+      "density_pct": 0.4,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "switches": {
     "tightness_score": 65,
-    "signal_count_90d": 11,
-    "tightness_language_hits_per_signal": 0.091,
+    "signal_count_90d": 9,
+    "tightness_language_hits_per_signal": 0.111,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[Peter Bailey, Executives] This is an opportunity right now. Like we are in many different consumer customers like so air defense as an example, a product we built for builders to safely build applications that's a product that's a little o",
       "[HPE] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.4,
-      "language_pct": 0.733,
+      "density_pct": 0.333,
+      "language_pct": 0.8,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "power": {
-    "tightness_score": 37,
-    "signal_count_90d": 24,
+    "tightness_score": 35,
+    "signal_count_90d": 23,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.933,
+      "density_pct": 0.867,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "cooling": {
-    "tightness_score": 43,
-    "signal_count_90d": 9,
-    "tightness_language_hits_per_signal": 0.111,
+    "tightness_score": 45,
+    "signal_count_90d": 8,
+    "tightness_language_hits_per_signal": 0.125,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t"
     ],
     "components": {
-      "density_pct": 0.2,
+      "density_pct": 0.267,
       "language_pct": 0.867,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "hyperscalers": {
-    "tightness_score": 29,
-    "signal_count_90d": 17,
+    "tightness_score": 32,
+    "signal_count_90d": 16,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.733,
+      "density_pct": 0.8,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "neoclouds": {
     "tightness_score": 3,
-    "signal_count_90d": 5,
+    "signal_count_90d": 3,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -172,11 +172,11 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "software": {
     "tightness_score": 5,
-    "signal_count_90d": 8,
+    "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -185,22 +185,22 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "eda": {
     "tightness_score": 43,
-    "signal_count_90d": 9,
-    "tightness_language_hits_per_signal": 0.111,
+    "signal_count_90d": 7,
+    "tightness_language_hits_per_signal": 0.143,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "[Sassine Ghazi, Executives] The demand for IP is there. Actually, the -- actually, the fundamental demand for IP is chip start. And in semiconductor right now, there is no shortage in excitement or the need to deliver customized silicon for"
     ],
     "components": {
-      "density_pct": 0.2,
-      "language_pct": 0.867,
+      "density_pct": 0.133,
+      "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -213,6 +213,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-08-31T16:45:46.974443+00:00"
+    "updated_at": "2026-09-01T01:07:44.617944+00:00"
   }
 }

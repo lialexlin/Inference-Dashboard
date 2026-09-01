@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-09-01T01:04:46.693624+00:00",
+  "last_refresh_at": "2026-09-01T13:51:58.959711+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-09-01T01:05:24.703983+00:00"
+      "ts": "2026-09-01T13:52:51.604639+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-09-01T01:05:29.459069+00:00"
+      "ts": "2026-09-01T13:52:56.955513+00:00"
     },
     "edgar": {
       "entries": 161,
       "summarized": 34,
       "errors": {},
-      "ts": "2026-09-01T01:05:37.849416+00:00"
+      "ts": "2026-09-01T13:53:08.457191+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [6e0a4d07-fad4-4ff8-87e1-e199fc0262e4]"
+        "__connection__": "390102 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [ef319584-a9ed-4c29-872e-9c30db1ecaf4]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-09-01T01:04:48.630535+00:00"
+      "ts": "2026-09-01T13:52:01.367339+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-09-01T01:07:44.711483+00:00"
+      "ts": "2026-09-01T13:55:20.301059+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -63,17 +63,17 @@
         },
         {
           "layer_id": "switches",
-          "tightness_score": 65
+          "tightness_score": 68
         }
       ],
-      "ts": "2026-09-01T01:07:44.620725+00:00"
+      "ts": "2026-09-01T13:55:20.223214+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 19,
       "latest_date": "2026-08-31",
-      "latest_total_tokens_b": 78932.894,
-      "ts": "2026-09-01T01:07:44.612276+00:00"
+      "latest_total_tokens_b": 78933.149,
+      "ts": "2026-09-01T13:55:20.216571+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-09-01T01:07:44.714154+00:00"
+      "ts": "2026-09-01T13:55:20.303110+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-09-01T01:07:43.060123+00:00"
+      "ts": "2026-09-01T13:55:18.864898+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-09-01T01:07:43.689471+00:00"
+      "ts": "2026-09-01T13:55:19.358830+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-09-01T01:07:44.617663+00:00"
+      "ts": "2026-09-01T13:55:20.220812+00:00"
     },
     "tw_universe": {
-      "ok": 1943,
-      "stock_count": 1943,
+      "ok": 1946,
+      "stock_count": 1946,
       "sector_count": 71,
-      "latest_date": "2026-08-31",
-      "ts": "2026-09-01T01:09:10.444887+00:00"
+      "latest_date": "2026-09-01",
+      "ts": "2026-09-01T13:56:28.807731+00:00"
     },
     "us_universe": {
-      "ok": 989,
-      "stock_count": 989,
+      "ok": 986,
+      "stock_count": 986,
       "sector_count": 77,
-      "latest_date": "2026-08-31",
-      "ts": "2026-09-01T01:10:32.404223+00:00"
+      "latest_date": "2026-09-01",
+      "ts": "2026-09-01T13:58:18.030876+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 321,
-    "total": 347
+    "discovered_kept": 318,
+    "total": 344
   }
 }

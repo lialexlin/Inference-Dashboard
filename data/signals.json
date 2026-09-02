@@ -15,6 +15,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-543a5c667067ea99",
+    "date": "2026-09-02",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Sandisk says HBF can match HBM bandwidth with up to 16x the capacity - digitimes",
+    "quote": "Sandisk says HBF can match HBM bandwidth with up to 16x the capacity digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNblhleDc4c2t2UUpEQUUtalI1aFlmUGgzUktRMDNXV1h4TUZYbFJYNkYyMlhVcFFQUF9JNllOdWpSdnV3Y3pkdmh0b2phS3ZsbDlBUU9uVmdLTzZ6THRFT3VYaHlvcjl6Z3pjT0ZERGYzVGRpTG1Zc3hkTzBwWTBNZkxFOU1feUJCWFZpUU9EUThwUnVC?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-21fe8253a4387c6d",
     "date": "2026-09-02",
     "source": "DigiTimes",
@@ -40,6 +54,40 @@
       "foundry"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-903a3069be103d20",
+    "date": "2026-09-02",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Intel 18A-P Pushes RibbonFET and Backside Power Beyond the First Generation",
+    "quote": "Intel Foundry has a blog on LinkedIn that is worth a look. The blogs are by trusted Intel Foundry technical experts and are filled with content. I will cherry pick write a bit about them but be sure and subscribe to this, absolutely. Intel 18A-P is not a new process node in the conventional sense. It is a performance-enhanced derivative… Read More The post Intel 18A-P Pushes RibbonFET and Backside Power Beyond the First Generation appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/372712-intel-18a-p-pushes-ribbonfet-and-backside-power-beyond-the-first-generation/",
+    "layer_ids": [
+      "foundry",
+      "cooling"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CSCO-0000858877-26-000132",
+    "accession": "0000858877-26-000132",
+    "form": "10-K",
+    "date": "2026-09-02",
+    "source": "SEC EDGAR (CSCO)",
+    "source_type": "filing",
+    "headline": "CSCO files 10-K: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "CSCO"
+    ],
     "arch_risk": false
   },
   {
@@ -130,16 +178,15 @@
     "arch_risk": false
   },
   {
-    "id": "rss-5807f8d0d348db0c",
+    "id": "rss-83f8864e544e3e52",
     "date": "2026-08-31",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Weekly news roundup: US pressures Korea chip investment, MediaTek wins Google TPU, Apple debuts 2nm M6 - digitimes",
-    "quote": "Weekly news roundup: US pressures Korea chip investment, MediaTek wins Google TPU, Apple debuts 2nm M6 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVHBnZkhmRTJoX1g0VjhkeTZjVENaRHYwR09VWFhKWDZKa3hqYUJxcENsSm51WGxtaGxyekhOVzJhVWFGR1laWUR3MGpycDhVX1ZtRFk0clJQblNsS1F0elpOa0RMWEIyVmdYT0xGalJBb1RjWEdBbmhLNk55R25IREU1WXY5UEJKZ0FmOUxSRDltODNmbURNell4aHFkaEpvNldHUWNLdW5pLWlGaGsyRQ?oc=5",
+    "headline": "TSMC tackles the AI I/O wall with two COUPE bandwidth paths and deeper heterogeneous integration - digitimes",
+    "quote": "TSMC tackles the AI I/O wall with two COUPE bandwidth paths and deeper heterogeneous integration digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWFdaTzdzSnNZUkJ3UF9iX0xvY2hvcnJ5T0hkTzJ6Y1kwYXNUbGVZSkR3bktOZHNUb09ldUNZR2ozbmJISGtxVkQ1emNrU1JLNzBMWHNZZDdwLV85Z2ExRTA1eDduMklnOXp6azNEa29DcUZ1TjJUNlc2VWRDX2wtcWl4VXBKT1dBeUdKUDVCU0ZXQQ?oc=5",
     "layer_ids": [
-      "foundry",
-      "gpu"
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -186,21 +233,6 @@
     "tickers": [
       "OKLO"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-0e735b9086d24f33",
-    "date": "2026-08-30",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Podcast highlights: Xiaomi's 3nm chip cap, HBM in Malaysia, and Nvidia's margin tradeoff - digitimes",
-    "quote": "Podcast highlights: Xiaomi's 3nm chip cap, HBM in Malaysia, and Nvidia's margin tradeoff digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUdJVXVxcUczX1YtVWxDaWV2dnhaVWhheU13eTlPN0g0T2lIUEpQTzZTelR1bkx4QUZCVklPQXNVN0tkdWUwcm9SYVhGZktTQTNfX2xHZWxlNW1tRVNENXg1czdaY2tUN2lmUFdCclFtSmRYbk5kbXdpTGhIRjMzQXlUbDdxeUJ2LTlwZXNld1ZfUQ?oc=5",
-    "layer_ids": [
-      "hbm",
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -334,23 +366,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-6bd3f4e517a88c6d",
-    "date": "2026-08-26",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC packaging shift could boost AMD CoWoS share and trim Nvidia's allocation - digitimes",
-    "quote": "TSMC packaging shift could boost AMD CoWoS share and trim Nvidia's allocation digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNLXhDWEMzc0kyQXE3R1o2WEtWc2taeXZQRWQtamJhdm42elI5VThLOURmRlRtMm12QVFiRHhSUlh1MVRKVEh1TDdxdGd1ZDluejFxd0lOYS0yQVluQ0p6QURhak9PeTRfNXFTZEgzTkxLbUVZWmt1N1BsdVRYdDhuT2tBT0N6dw?oc=5",
-    "layer_ids": [
-      "packaging",
-      "foundry"
-    ],
-    "tickers": [
-      "AMD"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-91dda5ef8f2e4477",
     "date": "2026-08-26",
     "source": "DigiTimes",
@@ -454,6 +469,79 @@
     "tickers": [
       "SNPS"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-e67269f7669f1830",
+    "date": "2026-08-25",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC suppliers reportedly plan Taiwan plant for critical chipmaking tubing - digitimes",
+    "quote": "TSMC suppliers reportedly plan Taiwan plant for critical chipmaking tubing digitimes",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLTV6c2NWWWpiTG1VbWhiTHgwVmdJT1FyTjdaa3N0RzdPOVY2TVN0UGZjbDhqeEhodHlBc0VNaURFSHN4TDZ2bHJXYXlVaHhOWGRobWNVQ09Fd3ZQeWQ1TUZfbU1tTWUtWXJtN2VjSGlKdXJWME54NU1oNUd4SnRCMFVVQU9OVWdFZHBvcXpzY3lXc182cFBnd3FudjcwdTV6a3l5dVNtRFJYLTRrQ0pRdFhn?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-d170a3baecc873d7",
+    "date": "2026-08-25",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC, Intel, and Samsung battle over backside power delivery below 2nm - digitimes",
+    "quote": "TSMC, Intel, and Samsung battle over backside power delivery below 2nm digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZUUtcGZpajZzSEthVHlBS0hDTERDTVZxdFlEQjlzR2x0VUZMZGtyVUdXWDV2NGVROXVCeHVxaXJkNEFqMExXUWlpSkFGaWpYRUIyWFpHSzVsSjVSdUE2MkIzLWphVHBJa2R5VFhmeFlYT3NvRXh6c3c2VnRMMURNd2lNVHlsZk8yT3Rib09vYjJMYUl0bzNhNjlycw?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-d39bc0c4f9db3850",
+    "date": "2026-08-24",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Taiwan semiconductor materials hit golden opportunity - digitimes",
+    "quote": "Taiwan semiconductor materials hit golden opportunity digitimes",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVVZIVXpTenJXVFI5dHJDYm5uei03M1YybjE4Smt3dGlEVFNiU2MxdFdPdXRqdU9xaXZWVlVhNmZBbkNsdDJTQ0p6alQ2bTJVa1E4bEZNSXNyOHJnM2lRSmMzQWxmQlpNUU8xWmV0MjR1U0pKb1dqZ0NIVlhpX0dDWmZqZmJnVVUzY3Y3ZG94Q2N0UlVIWnR2SDJaVE5fOHRW?oc=5",
+    "layer_ids": [
+      "foundry",
+      "packaging"
+    ],
+    "tickers": [
+      "TSM"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-5caca2009ef9637a",
+    "date": "2026-08-24",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving - digitimes",
+    "quote": "Xiaomi taps TSMC to make chips for foldables, AI and autonomous driving digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd1Nnd1VHU2RybFJON1o1YXk2eGtJcU5YWXI1OWZiWUVWLTlKWFc1Z0xkQ3JhWHBITHhsdTdiT3A4d19IU1BfeWtORzVtZE9CN3VIU3pIemxpVFVTeXVXS2FKTnRpbmFMVm90WXhlMWpaeVNZWjNlOHBoaElISmZpWS02WkNUcHI0YnliUWJ5SXQwbHJUdkJ0Q3JtckFWdVE?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-716b979178dac960",
+    "date": "2026-08-20",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Charts: TSMC's share of Taiwan chip manufacturing revenue falls to 81.8% as memory makers scale up - digitimes",
+    "quote": "Charts: TSMC's share of Taiwan chip manufacturing revenue falls to 81.8% as memory makers scale up digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZHBBSW1VMTMycjE3M0MzRWN2NHA3RXZQb0dfNngzTjY5RFZ1YmxhX3pGSGhvYTg4OGRib2tjMEplLWpGTEtBOWR1bGlRLU5ka0dZN0ZOLVZpaU1YdHVkaWhJX3U4Nkd5bnR1R0xVakhFM28taXMydEhBRHhmeGhpWmlNUU5sd2dmbXVkbw?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -611,6 +699,25 @@
     "arch_risk": false
   },
   {
+    "id": "edgar-CSCO-0000858877-26-000106",
+    "accession": "0000858877-26-000106",
+    "form": "8-K",
+    "date": "2026-08-12",
+    "source": "SEC EDGAR (CSCO)",
+    "source_type": "filing",
+    "headline": "CSCO files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000106/csco-20260812.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "CSCO"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-CRWV-0001769628-26-000366",
     "accession": "0001769628-26-000366",
     "form": "10-Q",
@@ -626,21 +733,6 @@
     "tickers": [
       "CRWV"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-d71753deb51fb086",
-    "date": "2026-08-11",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "OCP APAC 2026: TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year - digitimes",
-    "quote": "OCP APAC 2026: TSMC tackles CoWoS material risks while cutting 3DIC development cycle to one year digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZy1KMGJJQTRTRWFOWEJMQ25ERDYzYk5Za1AwR0tqNkxOUDJvRm1OdXhnTzRGSkhGSFJyOGdNemZtbnVuU0hZdE13dmZ5SXpLYy1TOVhzZWNKcUJTenZnSjNNSDd0ZXpHd2JDTGxJVkcxSDdjNkFuOUtZQk1TY0NtRVp2M0hOTzRBWDhPRDdBT3E?oc=5",
-    "layer_ids": [
-      "packaging",
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -677,20 +769,6 @@
     "tickers": [
       "CRWV"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-495babd65170bfee",
-    "date": "2026-08-10",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Semiconductor material prices surge across silicon wafers, specialty gases and advanced packaging - digitimes",
-    "quote": "Semiconductor material prices surge across silicon wafers, specialty gases and advanced packaging digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQmRpeHRvRlU0N0t2MExDeTNsY3p6ZmtfMS1KU0hSQTFIYmRVLVlNS3docWhqQnVCODdTR0w1ZDdUYXZwRjkxUlRLd2Jrc3FzTHFPMmVKLWl1alVDOURfTGhleGh0WXNjVDR0NnVtZE9halF5OWViZGk5bTJpXzZWLUN6TFRLRzFPN1A5bmFxaUZJaXhGa1E?oc=5",
-    "layer_ids": [
-      "packaging"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1646,23 +1724,6 @@
     ],
     "tickers": [
       "NOW"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-4a2c38770852a7d0",
-    "date": "2026-07-10",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC, ASML, and Imec target 2D chip mass production in Taiwan within five years - digitimes",
-    "quote": "TSMC, ASML, and Imec target 2D chip mass production in Taiwan within five years digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTUU1cUNzNDVhWUtfcXJtaVh6Q2ZLNXpiMFpJRldSRlZMaUZDZEdlbE9sa2tBODh6ZUgzNUpTaDJiV3JTdklTSFA0eTM3U1JWVW10TlNBcUoxVWEyU1FlUUMxWG5DQWZTemxDbEx3VldoQzkyUTZXWmc2aHotQWhuc2FmLXU0R3pEWkRxYXpIM090QQ?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "ASML"
     ],
     "arch_risk": false
   },
@@ -4175,20 +4236,6 @@
       "speaker": "Amir Vexler",
       "role": "Executives"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "rss-7089df8387ce751a",
-    "date": "2026-05-05",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Analysis: CoWoS crunch and MediaTek's hire raise a bigger question — can Intel deliver? - digitimes",
-    "quote": "Analysis: CoWoS crunch and MediaTek's hire raise a bigger question — can Intel deliver? digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTUh3RHFJaHczMkhXMUw1X216ajZBWEtCSlBhQmp3cXJaN09FM2Y1VmtHV041bUlqVVNDYWVkdWlOMy1vbXM1REFYYTZwbWs1XzdxTldJX2dIQkllb2FoYWdCVG5tYVR4emtRVG1qODA2SlVYVlE1Nlp5NVQwWV9ubzNSMUZQdzE4YUhkWDhuVTlNSkk?oc=5",
-    "layer_ids": [
-      "packaging"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -6997,45 +7044,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-CSCO-0000858877-26-000021",
-    "accession": "0000858877-26-000021",
-    "form": "10-Q",
-    "date": "2026-02-17",
-    "source": "SEC EDGAR (CSCO)",
-    "source_type": "filing",
-    "headline": "CSCO files 10-Q: periodic report",
-    "quote": "Revenue from the Networking product category increased by 21%, or $1.4 billion primarily driven by our AI Infrastructure and Campus Networking solutions. The increase was primarily driven by double digit revenue growth in Service Provider Routing, Data Center Switching, Campus Switching, Enterprise Routing, Wireless and Compute.",
-    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000021/csco-20260124.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "CSCO"
-    ],
-    "summary": {
-      "tldr": "Q2 FY26 revenue $15.35B +10% YoY with Networking +21% on AI Infrastructure and Campus; 1H FY26 product revenue +12% confirms cloud titan order momentum continuing.",
-      "takeaways": [
-        "Q2 FY26 revenue $15.35B +10% YoY; product +14%, services -1%; 1H FY26 revenue $30.23B +9%",
-        "Networking product category +21% (+$1.4B) in Q2, +18% (+$2.5B) 1H, led by AI Infrastructure plus Service Provider Routing, Data Center Switching, Campus",
-        "Security -4% on Splunk shift from on-prem to cloud subscriptions and prior-gen product declines; trend expected to continue 2H FY26",
-        "Service Provider and Cloud customer market led product growth in both Americas and EMEA segments, driven by AI Infrastructure",
-        "Product GM +0.2pts on productivity offsetting mix; diluted EPS +31%; effective tax rate 12.9% (vs 15.9% prior year)",
-        "Software revenue $5.7B (+2%); subscription revenue flat; ongoing inventory/purchase commitment buildup for Silicon One continues"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": null,
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Revenue from the Networking product category increased by 21%, or $1.4 billion primarily driven by our AI Infrastructure and Campus Networking solutions. The increase was primarily driven by double digit revenue growth in Service Provider Routing, Data Center Switching, Campus Switching, Enterprise Routing, Wireless and Compute.",
-      "quote_section": "Item 2 MD&A — Net Product Sales by Product Category"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "intel-emib-cowos",
     "date": "2026-02-15",
     "source": "Tom's Hardware",
@@ -7049,25 +7057,6 @@
     ],
     "tickers": [
       "INTC"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CSCO-0000858877-26-000006",
-    "accession": "0000858877-26-000006",
-    "form": "8-K",
-    "date": "2026-02-11",
-    "source": "SEC EDGAR (CSCO)",
-    "source_type": "filing",
-    "headline": "CSCO files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000006/csco-20260211.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "CSCO"
     ],
     "arch_risk": false
   },

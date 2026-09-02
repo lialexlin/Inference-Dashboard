@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-09-02T13:09:38.683635+00:00",
+  "last_refresh_at": "2026-09-02T23:54:47.593377+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-09-02T13:10:14.468812+00:00"
+      "ts": "2026-09-02T23:55:19.021260+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,56 +24,56 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-09-02T13:10:19.154165+00:00"
+      "ts": "2026-09-02T23:55:23.943827+00:00"
     },
     "edgar": {
       "entries": 161,
-      "summarized": 34,
+      "summarized": 33,
       "errors": {},
-      "ts": "2026-09-02T13:10:26.960781+00:00"
+      "ts": "2026-09-02T23:55:31.716487+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [c1bea1d3-b9f1-49a6-b892-92d738752065]"
+        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [39811196-686b-4f2b-82f5-56f8ce4f92c1]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-09-02T13:09:41.049297+00:00"
+      "ts": "2026-09-02T23:54:49.484074+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-09-02T13:12:32.852508+00:00"
+      "ts": "2026-09-02T23:57:38.088202+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
-          "layer_id": "foundry",
+          "layer_id": "hbm",
           "tightness_score": 81
         },
         {
-          "layer_id": "hbm",
-          "tightness_score": 79
+          "layer_id": "foundry",
+          "tightness_score": 55
         },
         {
-          "layer_id": "packaging",
+          "layer_id": "cooling",
           "tightness_score": 51
         }
       ],
-      "ts": "2026-09-02T13:12:32.839924+00:00"
+      "ts": "2026-09-02T23:57:38.075993+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 20,
       "latest_date": "2026-09-01",
       "latest_total_tokens_b": 82109.128,
-      "ts": "2026-09-02T13:12:32.832194+00:00"
+      "ts": "2026-09-02T23:57:38.068232+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-09-02T13:12:32.855105+00:00"
+      "ts": "2026-09-02T23:57:38.090763+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-09-02T13:12:31.512086+00:00"
+      "ts": "2026-09-02T23:57:36.774916+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-09-02T13:12:32.119267+00:00"
+      "ts": "2026-09-02T23:57:37.381800+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-09-02T13:12:32.837248+00:00"
+      "ts": "2026-09-02T23:57:38.073318+00:00"
     },
     "tw_universe": {
       "ok": 1941,
       "stock_count": 1941,
       "sector_count": 71,
       "latest_date": "2026-09-02",
-      "ts": "2026-09-02T13:13:23.990162+00:00"
+      "ts": "2026-09-02T23:58:33.843693+00:00"
     },
     "us_universe": {
-      "ok": 981,
-      "stock_count": 981,
+      "ok": 985,
+      "stock_count": 985,
       "sector_count": 77,
-      "latest_date": "2026-09-01",
-      "ts": "2026-09-02T13:14:33.360355+00:00"
+      "latest_date": "2026-09-02",
+      "ts": "2026-09-02T23:59:30.581245+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 308,
-    "total": 334
+    "discovered_kept": 309,
+    "total": 335
   }
 }

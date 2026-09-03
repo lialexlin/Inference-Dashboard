@@ -1,51 +1,39 @@
 {
   "hbm": {
-    "tightness_score": 76,
-    "signal_count_90d": 10,
-    "tightness_language_hits_per_signal": 0.1,
+    "tightness_score": 84,
+    "signal_count_90d": 12,
+    "tightness_language_hits_per_signal": 0.167,
     "cross_quarter_supply_tight": true,
     "evidence": [
+      "Micron says tightly coupled DRAM could deliver more than 10x HBM bandwidth digitimes",
       "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t",
       "[MU] 'Supply allocation decisions may impact certain customers' (Q1) → 'Industry supply allocation decisions continue' (Q2) — no easing language added"
     ],
     "components": {
-      "density_pct": 0.6,
-      "language_pct": 0.8,
+      "density_pct": 0.733,
+      "language_pct": 0.867,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "foundry": {
-    "tightness_score": 31,
-    "signal_count_90d": 7,
+    "tightness_score": 57,
+    "signal_count_90d": 22,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[INTC] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.933,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "packaging": {
-    "tightness_score": 5,
-    "signal_count_90d": 6,
-    "tightness_language_hits_per_signal": 0.0,
-    "cross_quarter_supply_tight": false,
-    "evidence": [],
-    "components": {
-      "density_pct": 0.133,
-      "language_pct": 0.0,
-      "supply_signal": 0.0
-    },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
-  },
-  "wfe": {
     "tightness_score": 11,
-    "signal_count_90d": 7,
+    "signal_count_90d": 8,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -54,10 +42,23 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
+  },
+  "wfe": {
+    "tightness_score": 11,
+    "signal_count_90d": 8,
+    "tightness_language_hits_per_signal": 0.0,
+    "cross_quarter_supply_tight": false,
+    "evidence": [],
+    "components": {
+      "density_pct": 0.267,
+      "language_pct": 0.0,
+      "supply_signal": 0.0
+    },
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "gpu": {
-    "tightness_score": 39,
+    "tightness_score": 36,
     "signal_count_90d": 9,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
@@ -65,28 +66,28 @@
       "[NVDA] Both filings cite data-center / energy / capital availability as the gating constraint on customer deployments — no easing language added"
     ],
     "components": {
-      "density_pct": 0.467,
+      "density_pct": 0.4,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "networking": {
-    "tightness_score": 24,
+    "tightness_score": 21,
     "signal_count_90d": 10,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.6,
+      "density_pct": 0.533,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "optics": {
     "tightness_score": 44,
-    "signal_count_90d": 10,
+    "signal_count_90d": 11,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -97,54 +98,26 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "switches": {
-    "tightness_score": 52,
-    "signal_count_90d": 12,
+    "tightness_score": 44,
+    "signal_count_90d": 11,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[HPE] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.8,
+      "density_pct": 0.6,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "power": {
-    "tightness_score": 37,
-    "signal_count_90d": 21,
-    "tightness_language_hits_per_signal": 0.0,
-    "cross_quarter_supply_tight": false,
-    "evidence": [],
-    "components": {
-      "density_pct": 0.933,
-      "language_pct": 0.0,
-      "supply_signal": 0.0
-    },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
-  },
-  "cooling": {
-    "tightness_score": 53,
-    "signal_count_90d": 9,
-    "tightness_language_hits_per_signal": 0.111,
-    "cross_quarter_supply_tight": false,
-    "evidence": [
-      "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t"
-    ],
-    "components": {
-      "density_pct": 0.467,
-      "language_pct": 0.867,
-      "supply_signal": 0.0
-    },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
-  },
-  "hyperscalers": {
     "tightness_score": 35,
-    "signal_count_90d": 14,
+    "signal_count_90d": 20,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -153,7 +126,35 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
+  },
+  "cooling": {
+    "tightness_score": 48,
+    "signal_count_90d": 9,
+    "tightness_language_hits_per_signal": 0.111,
+    "cross_quarter_supply_tight": false,
+    "evidence": [
+      "Recent geopolitical tensions have created another potential bottleneck for Korea’s semiconductor supply chain. The supply of high-purity carbon dioxide (CO₂) used in advanced semiconductor manufacturing has reportedly tightened. According t"
+    ],
+    "components": {
+      "density_pct": 0.4,
+      "language_pct": 0.8,
+      "supply_signal": 0.0
+    },
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
+  },
+  "hyperscalers": {
+    "tightness_score": 32,
+    "signal_count_90d": 15,
+    "tightness_language_hits_per_signal": 0.0,
+    "cross_quarter_supply_tight": false,
+    "evidence": [],
+    "components": {
+      "density_pct": 0.8,
+      "language_pct": 0.0,
+      "supply_signal": 0.0
+    },
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "neoclouds": {
     "tightness_score": 3,
@@ -166,23 +167,23 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "software": {
-    "tightness_score": 11,
+    "tightness_score": 8,
     "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.2,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "eda": {
-    "tightness_score": 43,
+    "tightness_score": 40,
     "signal_count_90d": 6,
     "tightness_language_hits_per_signal": 0.167,
     "cross_quarter_supply_tight": false,
@@ -191,14 +192,14 @@
     ],
     "components": {
       "density_pct": 0.133,
-      "language_pct": 0.933,
+      "language_pct": 0.867,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   },
   "substrates": {
     "tightness_score": 0,
-    "signal_count_90d": 0,
+    "signal_count_90d": 1,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -207,6 +208,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-03T13:13:59.757353+00:00"
+    "updated_at": "2026-09-03T23:54:07.854557+00:00"
   }
 }

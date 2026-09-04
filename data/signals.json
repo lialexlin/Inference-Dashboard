@@ -15,6 +15,55 @@
     "arch_risk": false
   },
   {
+    "id": "rss-b868ec7e309d445f",
+    "date": "2026-09-04",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "AMD Announces Threadripper Halo Station: A High-End AI-Centric Developer Workstation",
+    "quote": "At IFA 2026, AMD announced their Threadripper Halo Station, a high-end workstation for AI developers that combines AMD's Threadripper Pro CPU and Instinct MI350P accelerators The post AMD Announces Threadripper Halo Station: A High-End AI-Centric Developer Workstation appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/amd-announces-threadripper-halo-station/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [
+      "AMD"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-9baa93423f96a668",
+    "date": "2026-09-04",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Utilities eye small modular nuclear reactors for reliability as hyperscalers drive demand",
+    "quote": "Deep-pocketed tech companies and mission‑critical defense customers are emerging as the earliest adopters of advanced reactors, but utilities see potential if siting and cost recovery issues can be resolved.",
+    "url": "https://www.utilitydive.com/news/utilities-eye-small-modular-nuclear-reactors-for-reliability-as-hyperscaler/829681/",
+    "layer_ids": [
+      "power",
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-SNOW-0001640147-26-000037",
+    "accession": "0001640147-26-000037",
+    "form": "10-Q",
+    "date": "2026-09-04",
+    "source": "SEC EDGAR (SNOW)",
+    "source_type": "filing",
+    "headline": "SNOW files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/snow-20260731.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "SNOW"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-a9b15ccb56b95c1c",
     "date": "2026-09-03",
     "source": "Nikkei Asia",
@@ -48,15 +97,16 @@
     "arch_risk": false
   },
   {
-    "id": "rss-739c4c59f05d3dad",
+    "id": "rss-5f33cb4526c14405",
     "date": "2026-09-03",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "AUO unit eyes TSMC ecosystem as merger benefits emerge - digitimes",
-    "quote": "AUO unit eyes TSMC ecosystem as merger benefits emerge digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUEhYS2JFSXpReHJrcWN2cUhJVVhPNjNKc3h6WmJ1dzJYQjBTYlBXaXdUVkxLS3ppZ1dWRkFWOVcyY3dnczctRUU0ZFZ6MnFpQnZZa2VlUzFXZVJyVmRiZTJkSFUzQnBhRU9QbGZYMGRSM19VWEVweF94R211SmdGdXVVbmJTekt1dXJOUA?oc=5",
+    "headline": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs - digitimes",
+    "quote": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWkNaZ1RXSHplRHl1T3BlX0FwRHk2N2IyMkRTM1E3M2FzN1N1T2FOOFlEMHl2Zkd1UEdfSXE0Si1RVWtTTl9tV2NqVzd2T0ZPMmFNNHUyYUF4cTN3N0lQVXlZNHJVcGgxMERjazZPUDN1aHU3Sk1qMngtZVphRklHaFVLZ3FYS2ZEbm9SWg?oc=5",
     "layer_ids": [
-      "foundry"
+      "hbm",
+      "packaging"
     ],
     "tickers": [],
     "arch_risk": false
@@ -153,6 +203,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-9127a6ab169fb518",
+    "date": "2026-09-02",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "European chip ambitions hinge on more than subsidies, says TSMC - digitimes",
+    "quote": "European chip ambitions hinge on more than subsidies, says TSMC digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOX2pudDdSeE9STDFGWmFTd0VLWWFpTi13SzRtSHYwdWl3VjNSb1lmbGpqUjFNeFhUd0VvYlVfQXJJejYwWW9ESlFOVVhpaHJpV1R0bV94cnpQbkZmb1hkVkcxYW1OVTUzZG50a0RsX0ZtZjlRRXlBNk9zNUJ2alJ6OEdZZWRzUQ?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-7028dfcbda893670",
     "date": "2026-09-02",
     "source": "DigiTimes",
@@ -163,21 +227,6 @@
     "layer_ids": [
       "packaging",
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-903a3069be103d20",
-    "date": "2026-09-02",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Intel 18A-P Pushes RibbonFET and Backside Power Beyond the First Generation",
-    "quote": "Intel Foundry has a blog on LinkedIn that is worth a look. The blogs are by trusted Intel Foundry technical experts and are filled with content. I will cherry pick write a bit about them but be sure and subscribe to this, absolutely. Intel 18A-P is not a new process node in the conventional sense. It is a performance-enhanced derivative… Read More The post Intel 18A-P Pushes RibbonFET and Backside Power Beyond the First Generation appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/372712-intel-18a-p-pushes-ribbonfet-and-backside-power-beyond-the-first-generation/",
-    "layer_ids": [
-      "foundry",
-      "cooling"
     ],
     "tickers": [],
     "arch_risk": false
@@ -216,6 +265,24 @@
     ],
     "tickers": [
       "HPE"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-SNOW-0001640147-26-000033",
+    "accession": "0001640147-26-000033",
+    "form": "8-K",
+    "date": "2026-09-02",
+    "source": "SEC EDGAR (SNOW)",
+    "source_type": "filing",
+    "headline": "SNOW files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000033/snow-20260902.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "SNOW"
     ],
     "arch_risk": false
   },
@@ -405,17 +472,20 @@
     "arch_risk": false
   },
   {
-    "id": "rss-91dda5ef8f2e4477",
+    "id": "rss-6bd3f4e517a88c6d",
     "date": "2026-08-26",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Apple gives 2nm debut to Mac, not iPhone: M6 leads TSMC node transition - digitimes",
-    "quote": "Apple gives 2nm debut to Mac, not iPhone: M6 leads TSMC node transition digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVGRlSFZMYk0ySnVSWXZha2lQZkZfeVRpRFhpRVREWXNVejZEOVhKcjRGaVZXS2lySy1QQzhqTGt6eVJhcGhqUnhJNEZwc2JxSERCRF9TTUpOZXNjX1dIaktRVlg3bG9KQU5rckZYTENwUHR4T2RzakRiNmhXS3dmYnNIeWNFaXJDN1Fjeg?oc=5",
+    "headline": "TSMC packaging shift could boost AMD CoWoS share and trim Nvidia's allocation - digitimes",
+    "quote": "TSMC packaging shift could boost AMD CoWoS share and trim Nvidia's allocation digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNLXhDWEMzc0kyQXE3R1o2WEtWc2taeXZQRWQtamJhdm42elI5VThLOURmRlRtMm12QVFiRHhSUlh1MVRKVEh1TDdxdGd1ZDluejFxd0lOYS0yQVluQ0p6QURhak9PeTRfNXFTZEgzTkxLbUVZWmt1N1BsdVRYdDhuT2tBT0N6dw?oc=5",
     "layer_ids": [
+      "packaging",
       "foundry"
     ],
-    "tickers": [],
+    "tickers": [
+      "AMD"
+    ],
     "arch_risk": false
   },
   {
@@ -525,20 +595,6 @@
     "tickers": [
       "TSM"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-716b979178dac960",
-    "date": "2026-08-20",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Charts: TSMC's share of Taiwan chip manufacturing revenue falls to 81.8% as memory makers scale up - digitimes",
-    "quote": "Charts: TSMC's share of Taiwan chip manufacturing revenue falls to 81.8% as memory makers scale up digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZHBBSW1VMTMycjE3M0MzRWN2NHA3RXZQb0dfNngzTjY5RFZ1YmxhX3pGSGhvYTg4OGRib2tjMEplLWpGTEtBOWR1bGlRLU5ka0dZN0ZOLVZpaU1YdHVkaWhJX3U4Nkd5bnR1R0xVakhFM28taXMydEhBRHhmeGhpWmlNUU5sd2dmbXVkbw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -6350,45 +6406,6 @@
     "tickers": [
       "NVDA"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-SNOW-0001640147-26-000008",
-    "accession": "0001640147-26-000008",
-    "form": "10-K",
-    "date": "2026-03-20",
-    "source": "SEC EDGAR (SNOW)",
-    "source_type": "filing",
-    "headline": "SNOW files 10-K: periodic report",
-    "quote": "As of January 31, 2026, our remaining performance obligations were approximately $9.8 billion, of which we expect approximately 46% to be recognized as revenue in the 12 months ending January 31, 2027 based on historical customer consumption patterns.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/snow-20260131.htm",
-    "layer_ids": [
-      "software"
-    ],
-    "tickers": [
-      "SNOW"
-    ],
-    "summary": {
-      "tldr": "FY26 revenue $4.7B (vs $3.6B); RPO $9.8B (46% to recognize next 12 months); 13,328 customers (+21%); 733 $1M+ customers vs 576; NRR 125%.",
-      "takeaways": [
-        "FY26 revenue $4.7B vs $3.6B FY25 (+31%); product revenue $4.5B implied",
-        "Total customers 13,328 (+21% from 10,996); customers with >$1M trailing product revenue jumped to 733 from 576 (+27%)",
-        "790 Forbes Global 2000 customers contributed ~43% of revenue",
-        "RPO $9.8B at Jan 31 2026 (+24% from $7.9B at Oct 31 2025); 46% to recognize next 12 months",
-        "Net revenue retention rate 125% (vs 126%); weighted-avg contract life 2.7 years",
-        "Net loss $1.3B for fiscal 2026 (stock-based comp ~34% of revenue, down from 41%)",
-        "Operating cash flow $1.2B for FY26; deferred revenue +$755M; began ASC 985-20 self-hosted accounting for public sector"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "10-K provides no explicit guidance; expects NRR to decline long-term as install base matures",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "As of January 31, 2026, our remaining performance obligations were approximately $9.8 billion, of which we expect approximately 46% to be recognized as revenue in the 12 months ending January 31, 2027 based on historical customer consumption patterns.",
-      "quote_section": "Item 7 MD&A - Key Business Metrics"
-    },
     "arch_risk": false
   },
   {

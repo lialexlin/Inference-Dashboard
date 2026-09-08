@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-09-07T14:41:54.502867+00:00",
+  "last_refresh_at": "2026-09-08T00:03:32.041324+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-09-07T14:42:50.916290+00:00"
+      "ts": "2026-09-08T00:04:14.986026+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,56 +24,56 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-09-07T14:42:56.001851+00:00"
+      "ts": "2026-09-08T00:04:32.419694+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 31,
       "errors": {},
-      "ts": "2026-09-07T14:43:05.897214+00:00"
+      "ts": "2026-09-08T00:04:42.219650+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [52beacfe-acfa-4bad-948c-c94759cf9133]"
+        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [2da2d8e3-cc97-4b91-b33e-fd1866af68e0]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-09-07T14:41:57.713965+00:00"
+      "ts": "2026-09-08T00:03:35.134442+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-09-07T14:45:14.090672+00:00"
+      "ts": "2026-09-08T00:06:54.945551+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "hbm",
-          "tightness_score": 73
+          "tightness_score": 87
         },
         {
           "layer_id": "foundry",
-          "tightness_score": 57
+          "tightness_score": 55
         },
         {
           "layer_id": "switches",
-          "tightness_score": 49
+          "tightness_score": 47
         }
       ],
-      "ts": "2026-09-07T14:45:14.003467+00:00"
+      "ts": "2026-09-08T00:06:54.858665+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 25,
       "latest_date": "2026-09-06",
       "latest_total_tokens_b": 92237.395,
-      "ts": "2026-09-07T14:45:13.996708+00:00"
+      "ts": "2026-09-08T00:06:54.850581+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-09-07T14:45:14.093070+00:00"
+      "ts": "2026-09-08T00:06:54.948205+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-09-07T14:45:12.804663+00:00"
+      "ts": "2026-09-08T00:06:53.466806+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-09-07T14:45:13.286364+00:00"
+      "ts": "2026-09-08T00:06:54.063881+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-09-07T14:45:14.001282+00:00"
+      "ts": "2026-09-08T00:06:54.855926+00:00"
     },
     "tw_universe": {
-      "ok": 0,
-      "errors": {
-        "__stage__": "IncompleteRead(523896 bytes read, 546913 more expected)"
-      },
-      "ts": "2026-09-07T14:46:29.256047+00:00"
+      "ok": 1962,
+      "stock_count": 1962,
+      "sector_count": 71,
+      "latest_date": "2026-09-07",
+      "ts": "2026-09-08T00:07:51.412159+00:00"
     },
     "us_universe": {
       "ok": 988,
       "stock_count": 988,
       "sector_count": 77,
       "latest_date": "2026-09-04",
-      "ts": "2026-09-07T14:48:07.649848+00:00"
+      "ts": "2026-09-08T00:09:26.696339+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 307,
-    "total": 333
+    "discovered_kept": 308,
+    "total": 334
   }
 }

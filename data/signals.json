@@ -1,5 +1,67 @@
 [
   {
+    "id": "rss-69e8196599fa9415",
+    "date": "2026-09-10",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Samsung beats German city in lawsuit over schools' iPad procurement - Nikkei Asia",
+    "quote": "Samsung beats German city in lawsuit over schools' iPad procurement Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdlduTjJCMnVscDFSMXVKdjBZZnhRRGVnVDR6UGw0ckt1RTR2RDAwU0xaTHpSQnJKNW04YUhNT2tpVFZBU1lMT2Q5bm90NFU3RjAtLWhCbVZmMGl6ZGJJSEtlX3dJVWJfSkw4N2NDNzVnMUhZWkFibnBGNWZCbHVXYXZITzdzNmxOZXhtekREZTBNaklVMnVXQ1k0RklRUTdXUTdsS3hNZDFaOTNDT0ZV?oc=5",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-135745b28449c1e2",
+    "date": "2026-09-10",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "AUO matching glass substrate size stokes TSMC collab speculation - digitimes",
+    "quote": "AUO matching glass substrate size stokes TSMC collab speculation digitimes",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUm9ib1dFVHB3VTA2NlJzSG9fYkwza1FHNkVVT3ZhdEZzTV92SGdYVXNfemo5Tzg0OXdqQnNlcEs0Mk80aTljcmlyWnhHQndGQ2Naak9XRzVkM3JiUVl6TWg1M0hWUzZrSmMwY2ZxdkpYbmhpZDdXVVJkTkl5eEdqVWZHWEtjTW1tb29mTWdocm9vX1FvRDRZaThBS2w2ejdD?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-c7b6e50cf7dbda36",
+    "date": "2026-09-10",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "AI semiconductor equipment boom redraws Taiwan IPC market: Edge AI, advanced packaging lift high-end demand - digitimes",
+    "quote": "AI semiconductor equipment boom redraws Taiwan IPC market: Edge AI, advanced packaging lift high-end demand digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSmcxVG8tRmVoQWRBWWR2Nm5sWFgzRFdoSkZMczFqM21nVjh6dDNBZDVtVjdxNUJjeGlxNEd4ZXRXZGpaVVphNFhMd3JrdHRaU2VMZm9Db3FJa3Y0NVViY1U1S3BOX01GbEE5TjdqOTUySllkc1o3NzcyOFVKcUxUTjR2TVE5Ry01cmV1S1kxZFk4dw?oc=5",
+    "layer_ids": [
+      "packaging",
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AVGO-0001730168-26-000080",
+    "accession": "0001730168-26-000080",
+    "form": "10-Q",
+    "date": "2026-09-10",
+    "source": "SEC EDGAR (AVGO)",
+    "source_type": "filing",
+    "headline": "AVGO files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+    "layer_ids": [
+      "gpu",
+      "networking"
+    ],
+    "tickers": [
+      "AVGO"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-f28869ba6a8a4a44",
     "date": "2026-09-09",
     "source": "DigiTimes",
@@ -42,12 +104,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-b0280e72df7a989d",
+    "id": "rss-8a0c0de2a1365d13",
     "date": "2026-09-09",
     "source": "SemiWiki",
     "source_type": "analyst",
-    "headline": "Jalapeño Hot Chip, Cool Power Bill: OpenAI Turns Up the Heat on AI Inference",
-    "quote": "OpenAI’s Jalapeño is a custom accelerator designed specifically for AI inference, particularly the low-latency, multi-chip workloads behind interactive and agentic systems. Its central idea is that useful performance cannot be reduced to peak floating-point operations or memory bandwidth. What matters is how quickly … Read More The post Jalapeño Hot Chip, Cool Power Bill: OpenAI Turns Up the Heat on AI Inference appeared first on SemiWiki .",
+    "headline": "OpenAI Jalapeño Hot Chip, Cool Power Bill: OpenAI Turns Up the Heat on AI Inference",
+    "quote": "OpenAI’s Jalapeño is a custom accelerator designed specifically for AI inference, particularly the low-latency, multi-chip workloads behind interactive and agentic systems. Its central idea is that useful performance cannot be reduced to peak floating-point operations or memory bandwidth. What matters is how quickly … Read More The post OpenAI Jalapeño Hot Chip, Cool Power Bill: OpenAI Turns Up the Heat on AI Inference appeared first on SemiWiki .",
     "url": "https://semiwiki.com/semiconductor-manufacturers/373394-jalapeno-hot-chip-cool-power-bill-openai-turns-up-the-heat-on-ai-inference/",
     "layer_ids": [
       "gpu"
@@ -239,22 +301,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-b868ec7e309d445f",
-    "date": "2026-09-04",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "AMD Announces Threadripper Halo Station: A High-End AI-Centric Developer Workstation",
-    "quote": "At IFA 2026, AMD announced their Threadripper Halo Station, a high-end workstation for AI developers that combines AMD's Threadripper Pro CPU and Instinct MI350P accelerators The post AMD Announces Threadripper Halo Station: A High-End AI-Centric Developer Workstation appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/amd-announces-threadripper-halo-station/",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-SNOW-0001640147-26-000037",
     "accession": "0001640147-26-000037",
     "form": "10-Q",
@@ -273,29 +319,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-a9b15ccb56b95c1c",
-    "date": "2026-09-03",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC - Nikkei Asia",
-    "quote": "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY3pzdnFBb0tweU1jcnk5clBnRTR3OUVIXzBoblVJSzlHNnVOeGl3QjFCS3Z5a2NPV0w0X1RqZy1oaDY1QktiNGFiZXBJbXJhbjdvQ0U0SU9Kcy0yTlFvZlJQemlsTkF3T0NzT29IWVNwNDNtcjlmNFVtNlZaaF9TZlE4UXNtMW5XeVdSd3l3VV9zbTR0UENGYjM3anpTaFNBY2I1Y2JpWWlBVkxvUDJZWnl6OFpTa0VSX3RSRjBNX3E?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-48f1f6d1c21a7e6b",
+    "id": "rss-324a4b5a4d3aecf2",
     "date": "2026-09-03",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC doubles down on equipment purchase as AI demand is outpacing semiconductor supply chain planning - digitimes",
-    "quote": "TSMC doubles down on equipment purchase as AI demand is outpacing semiconductor supply chain planning digitimes",
+    "headline": "TSMC doubles down on equipment purchase as AI demand is outpacing semiconductor supply chain planning - apps.digitimes.com",
+    "quote": "TSMC doubles down on equipment purchase as AI demand is outpacing semiconductor supply chain planning apps.digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSzBjZGNvVUJfcnhIbXk0MFpvcXBFN0Y2Y0NEX01tX3J6V3NxWlNLajEtUFBTd0N2dFBIUllNdFFFRUdLM0NTMUJYU0JxMzhuVl9hNmU1aDNDRVBIODVfNXBYYzZFN2JuMlA4UUZ6bmRSb0dSX3FQUEFSY3NwbHJhQmNjMzRUMHdYOGEyZTYtRkU5ZWVGYVlEWQ?oc=5",
     "layer_ids": [
       "foundry"
@@ -337,17 +366,22 @@
     "arch_risk": false
   },
   {
-    "id": "rss-9127a6ab169fb518",
+    "id": "edgar-AVGO-0001730168-26-000076",
+    "accession": "0001730168-26-000076",
+    "form": "8-K",
     "date": "2026-09-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "European chip ambitions hinge on more than subsidies, says TSMC - digitimes",
-    "quote": "European chip ambitions hinge on more than subsidies, says TSMC digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOX2pudDdSeE9STDFGWmFTd0VLWWFpTi13SzRtSHYwdWl3VjNSb1lmbGpqUjFNeFhUd0VvYlVfQXJJejYwWW9ESlFOVVhpaHJpV1R0bV94cnpQbkZmb1hkVkcxYW1OVTUzZG50a0RsX0ZtZjlRRXlBNk9zNUJ2alJ6OEdZZWRzUQ?oc=5",
+    "source": "SEC EDGAR (AVGO)",
+    "source_type": "filing",
+    "headline": "AVGO files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm",
     "layer_ids": [
-      "foundry"
+      "gpu",
+      "networking"
     ],
-    "tickers": [],
+    "tickers": [
+      "AVGO"
+    ],
     "arch_risk": false
   },
   {
@@ -6300,12 +6334,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-b9efc2c14d1a73b8",
+    "id": "rss-186a2ecb624f21e2",
     "date": "2026-04-17",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC chairman C.C. Wei denies customer favoritism regarding tight 1Q26 capacity - digitimes",
-    "quote": "TSMC chairman C.C. Wei denies customer favoritism regarding tight 1Q26 capacity digitimes",
+    "headline": "TSMC chairman C.C. Wei denies customer favoritism regarding tight 1Q26 capacity - apps.digitimes.com",
+    "quote": "TSMC chairman C.C. Wei denies customer favoritism regarding tight 1Q26 capacity apps.digitimes.com",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdEdpZVJYV3dOcGtUcTdOOHpHSG1ZTGQtTGZwMDAyVTNOaU1QYlVvb0RyNGg2LVFMdWIzS1ZkNmRENEtuTnY2MnBOdmNSa3p3bDg3QlM0R2hzS3NRdEhVQU1WVWlQaGU4TnNxRzRsLVE2LUVnUFFBZUlZMWZra09KVUJrQ2JOUQ?oc=5",
     "layer_ids": [
       "foundry"
@@ -6584,45 +6618,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-AVGO-0001730168-26-000016",
-    "accession": "0001730168-26-000016",
-    "form": "10-Q",
-    "date": "2026-03-11",
-    "source": "SEC EDGAR (AVGO)",
-    "source_type": "filing",
-    "headline": "AVGO files 10-Q: periodic report",
-    "quote": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 50% and 40% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000016/avgo-20260201.htm",
-    "layer_ids": [
-      "gpu",
-      "networking"
-    ],
-    "tickers": [
-      "AVGO"
-    ],
-    "summary": {
-      "tldr": "Q1 FY26 revenue $19.3B (+29% YoY) with Semiconductor solutions $12.5B (+52%); customer concentration intensifying - top five end customers now ~50% of revenue (up from 40%) and one distributor 42%.",
-      "takeaways": [
-        "Q1 FY26 revenue $19.3B (+29% YoY); Semiconductor solutions $12.5B (+52%) on custom AI accelerators and AI networking; Infrastructure software $6.8B (+1%)",
-        "Top five end customers ~50% of Q1 FY26 revenue, up sharply from ~40% a year ago - AI XPU concentration tightening",
-        "One semi distributor customer = 42% of total revenue this quarter (vs 29% prior-year Q1) - implies one hyperscaler XPU customer effectively driving the print",
-        "Gross margin flat at 68% YoY despite higher semi mix; semi gross margin benefit offset by mix shift",
-        "Operating income $8.6B (44% margin) vs $6.3B (42%); R&D +32% to $3.0B on higher stock-comp from Two-Year Equity Awards",
-        "Semi solutions now 65% of revenue (vs 55% prior-year Q1) - AI semi ramp shifting mix away from software"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": null,
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "We believe aggregate sales to our top five end customers, through all channels, accounted for approximately 50% and 40% of our net revenue for the fiscal quarters ended February 1, 2026 and February 2, 2025, respectively.",
-      "quote_section": "Item 2 MD&A - Net Revenue"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-ORCL-0001193125-26-101045",
     "accession": "0001193125-26-101045",
     "form": "10-Q",
@@ -6847,25 +6842,6 @@
       "GEV",
       "ETN",
       "HUBB"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-AVGO-0001730168-26-000011",
-    "accession": "0001730168-26-000011",
-    "form": "8-K",
-    "date": "2026-03-04",
-    "source": "SEC EDGAR (AVGO)",
-    "source_type": "filing",
-    "headline": "AVGO files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000011/avgo-20260304.htm",
-    "layer_ids": [
-      "gpu",
-      "networking"
-    ],
-    "tickers": [
-      "AVGO"
     ],
     "arch_risk": false
   },

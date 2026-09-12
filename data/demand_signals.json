@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-12T00:01:34.515820+00:00",
+  "as_of": "2026-09-12T12:37:17.985161+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -2031,76 +2031,146 @@
           "requests": 48890347
         }
       ]
+    },
+    {
+      "date": "2026-09-11",
+      "total_tokens_b": 95175.617,
+      "total_prompt_tokens_b": 93031.339,
+      "total_completion_tokens_b": 2144.278,
+      "total_reasoning_tokens_b": 0.0,
+      "total_requests": 2743469268,
+      "top_models": [
+        {
+          "model": "tencent/hy4-preview-20260827",
+          "tokens_b": 17752.309,
+          "share": 0.1865,
+          "requests": 151867511
+        },
+        {
+          "model": "openai/gpt-5.6-luna-20260709",
+          "tokens_b": 14573.313,
+          "share": 0.1531,
+          "requests": 725422513
+        },
+        {
+          "model": "z-ai/glm-5.3-flash-20260826",
+          "tokens_b": 12077.355,
+          "share": 0.1269,
+          "requests": 305214864
+        },
+        {
+          "model": "deepseek/deepseek-v4-flash-20260731",
+          "tokens_b": 12030.139,
+          "share": 0.1264,
+          "requests": 533370162
+        },
+        {
+          "model": "xiaomi/mimo-v2.5-20260422",
+          "tokens_b": 6077.888,
+          "share": 0.0639,
+          "requests": 80853608
+        },
+        {
+          "model": "deepseek/deepseek-v4-flash-20260423",
+          "tokens_b": 4627.683,
+          "share": 0.0486,
+          "requests": 497290591
+        },
+        {
+          "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+          "tokens_b": 3570.529,
+          "share": 0.0375,
+          "requests": 28468755
+        },
+        {
+          "model": "tencent/hy3-20260706",
+          "tokens_b": 3510.965,
+          "share": 0.0369,
+          "requests": 62228507
+        },
+        {
+          "model": "z-ai/glm-5.3-20260816",
+          "tokens_b": 2788.683,
+          "share": 0.0293,
+          "requests": 39090695
+        },
+        {
+          "model": "google/gemini-3.8-flash-20260902",
+          "tokens_b": 2549.485,
+          "share": 0.0268,
+          "requests": 49410122
+        }
+      ]
     }
   ],
   "summary": {
-    "latest_date": "2026-09-10",
-    "latest_total_tokens_b": 95317.343,
-    "latest_total_requests": 2704618878,
-    "dod_pct": 0.0087,
-    "wow_pct": 0.0739,
+    "latest_date": "2026-09-11",
+    "latest_total_tokens_b": 95175.617,
+    "latest_total_requests": 2743469268,
+    "dod_pct": -0.0015,
+    "wow_pct": 0.0468,
     "top_movers_wow": [
       {
         "model": "tencent/hy4-preview-20260827",
-        "share_now": 0.2002,
-        "share_prev": 0.1236,
-        "share_delta": 0.0766
-      },
-      {
-        "model": "z-ai/glm-5.3-20260816",
-        "share_now": 0.0321,
-        "share_prev": 0.0,
-        "share_delta": 0.0321
-      },
-      {
-        "model": "google/gemini-3.8-flash-20260902",
-        "share_now": 0.0273,
-        "share_prev": 0.0,
-        "share_delta": 0.0273
-      },
-      {
-        "model": "openai/gpt-5.6-luna-20260709",
-        "share_now": 0.1485,
-        "share_prev": 0.1307,
-        "share_delta": 0.0178
+        "share_now": 0.1865,
+        "share_prev": 0.1492,
+        "share_delta": 0.0373
       },
       {
         "model": "xiaomi/mimo-v2.5-20260422",
-        "share_now": 0.0541,
-        "share_prev": 0.0507,
-        "share_delta": 0.0034
+        "share_now": 0.0639,
+        "share_prev": 0.0348,
+        "share_delta": 0.0291
+      },
+      {
+        "model": "openai/gpt-5.6-luna-20260709",
+        "share_now": 0.1531,
+        "share_prev": 0.1242,
+        "share_delta": 0.0289
+      },
+      {
+        "model": "google/gemini-3.8-flash-20260902",
+        "share_now": 0.0268,
+        "share_prev": 0.0,
+        "share_delta": 0.0268
+      },
+      {
+        "model": "z-ai/glm-5.3-20260816",
+        "share_now": 0.0293,
+        "share_prev": 0.0288,
+        "share_delta": 0.0005
       }
     ],
     "top_losers_wow": [
       {
         "model": "minimax/minimax-m3-20260531",
         "share_now": 0.0,
-        "share_prev": 0.0744,
-        "share_delta": -0.0744
-      },
-      {
-        "model": "google/gemini-3.7-flash-20260813",
-        "share_now": 0.0,
-        "share_prev": 0.0296,
-        "share_delta": -0.0296
+        "share_prev": 0.0763,
+        "share_delta": -0.0763
       },
       {
         "model": "tencent/hy3-20260706",
-        "share_now": 0.0351,
-        "share_prev": 0.0591,
-        "share_delta": -0.024
+        "share_now": 0.0369,
+        "share_prev": 0.0527,
+        "share_delta": -0.0158
       },
       {
         "model": "deepseek/deepseek-v4-flash-20260423",
-        "share_now": 0.0499,
-        "share_prev": 0.0584,
+        "share_now": 0.0486,
+        "share_prev": 0.0575,
+        "share_delta": -0.0089
+      },
+      {
+        "model": "z-ai/glm-5.3-flash-20260826",
+        "share_now": 0.1269,
+        "share_prev": 0.1354,
         "share_delta": -0.0085
       },
       {
         "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "share_now": 0.0381,
-        "share_prev": 0.0462,
-        "share_delta": -0.0081
+        "share_now": 0.0375,
+        "share_prev": 0.0426,
+        "share_delta": -0.0051
       }
     ]
   }

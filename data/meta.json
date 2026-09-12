@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-09-11T13:10:27.595588+00:00",
+  "last_refresh_at": "2026-09-11T23:57:50.756029+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-09-11T13:11:05.091363+00:00"
+      "ts": "2026-09-11T23:58:30.956933+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,38 +24,38 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-09-11T13:11:09.838942+00:00"
+      "ts": "2026-09-11T23:58:35.591460+00:00"
     },
     "edgar": {
       "entries": 162,
-      "summarized": 30,
+      "summarized": 29,
       "errors": {},
-      "ts": "2026-09-11T13:11:17.144586+00:00"
+      "ts": "2026-09-11T23:58:44.343408+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [66338117-0f03-45aa-803c-433d8641c880]"
+        "__connection__": "390102 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [964c068d-0b68-4671-87bd-7e85b8cae82d]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-09-11T13:10:29.628161+00:00"
+      "ts": "2026-09-11T23:57:52.654054+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-09-11T13:13:24.637443+00:00"
+      "ts": "2026-09-12T00:01:34.533046+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "hbm",
-          "tightness_score": 73
+          "tightness_score": 76
         },
         {
           "layer_id": "foundry",
@@ -63,17 +63,17 @@
         },
         {
           "layer_id": "gpu",
-          "tightness_score": 52
+          "tightness_score": 49
         }
       ],
-      "ts": "2026-09-11T13:13:24.624501+00:00"
+      "ts": "2026-09-12T00:01:34.524403+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 29,
       "latest_date": "2026-09-10",
       "latest_total_tokens_b": 95317.343,
-      "ts": "2026-09-11T13:13:24.616680+00:00"
+      "ts": "2026-09-12T00:01:34.518081+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-09-11T13:13:24.640151+00:00"
+      "ts": "2026-09-12T00:01:34.535069+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-09-11T13:13:23.167656+00:00"
+      "ts": "2026-09-12T00:01:33.336154+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-09-11T13:13:23.775097+00:00"
+      "ts": "2026-09-12T00:01:33.824453+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-09-11T13:13:24.621862+00:00"
+      "ts": "2026-09-12T00:01:34.522272+00:00"
     },
     "tw_universe": {
-      "ok": 1944,
-      "stock_count": 1944,
-      "sector_count": 71,
-      "latest_date": "2026-09-11",
-      "ts": "2026-09-11T13:14:20.978569+00:00"
+      "ok": 0,
+      "errors": {
+        "__stage__": "tw_universe: market cap resolved for only 862/1944 names (<80%) — a company-info (issued-shares) fetch likely failed; preserving prior file"
+      },
+      "ts": "2026-09-12T00:02:53.022191+00:00"
     },
     "us_universe": {
-      "ok": 977,
-      "stock_count": 977,
+      "ok": 981,
+      "stock_count": 981,
       "sector_count": 77,
       "latest_date": "2026-09-10",
-      "ts": "2026-09-11T13:15:30.806285+00:00"
+      "ts": "2026-09-12T00:04:14.728643+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 307,
-    "total": 333
+    "discovered_kept": 308,
+    "total": 334
   }
 }

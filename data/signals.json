@@ -105,6 +105,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-63deba64fb20c78e",
+    "date": "2026-09-10",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Broadcom Rides Rocketing Trend For Custom AI Accelerators",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/09/10/broadcom-rides-rocketing-trend-for-custom-ai-accelerators/5295681",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-bc78850ea0d1cca7",
     "date": "2026-09-10",
     "source": "SemiWiki",
@@ -179,20 +193,6 @@
     "url": "https://www.utilitydive.com/news/google-xcel-miso-zero-injection-large-load-ferc/829912/",
     "layer_ids": [
       "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b0280e72df7a989d",
-    "date": "2026-09-09",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Jalapeño Hot Chip, Cool Power Bill: OpenAI Turns Up the Heat on AI Inference",
-    "quote": "OpenAI’s Jalapeño is a custom accelerator designed specifically for AI inference, particularly the low-latency, multi-chip workloads behind interactive and agentic systems. Its central idea is that useful performance cannot be reduced to peak floating-point operations or memory bandwidth. What matters is how quickly … Read More The post Jalapeño Hot Chip, Cool Power Bill: OpenAI Turns Up the Heat on AI Inference appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/373394-jalapeno-hot-chip-cool-power-bill-openai-turns-up-the-heat-on-ai-inference/",
-    "layer_ids": [
-      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -306,6 +306,21 @@
     "arch_risk": false
   },
   {
+    "id": "rss-0d36f53dad5867d8",
+    "date": "2026-09-07",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Exclusive: Taipower's new green power sandbox could ease TSMC's surplus electricity problem - digitimes",
+    "quote": "Exclusive: Taipower's new green power sandbox could ease TSMC's surplus electricity problem digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOekZqWVdOdnQxQVQtYVN0VEZ3SXp0MkRKaHRmY3lzaUhqdmZBOFlOWDFkangwYmYxaTdsbnQwT3IwZ21mTU05enBpalZzeWlJMGEwZGdyTExSWjcxMGtpRUtrQzFTRF83Y2cxOVYxY3dVWDR2QWhQa2hlUWxXMEt1Y09SSlBiRGIyWFBheDNVVklmSG13WUFiUHk5cU1OckNyWUJ0WUFZSlRsM2ZCR1RNbXh5Y0w4NWZSejkzUllVdUk?oc=5",
+    "layer_ids": [
+      "foundry",
+      "software"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-8a2362a8001be3c7",
     "date": "2026-09-05",
     "source": "DigiTimes",
@@ -334,20 +349,6 @@
     "tickers": [
       "TSM"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-4d0a63f56c8b1e2e",
-    "date": "2026-09-04",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC's 3D packaging roadmap: engineering AI chips to think like the human brain - digitimes",
-    "quote": "TSMC's 3D packaging roadmap: engineering AI chips to think like the human brain digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNckg5ajNURGt4ZFg1TzNTS0FpUlVaUGgtbVJmRWJFSEd2NS1jNUI1eVBybmQ4WEtUMkhZS1Y1TEhDdmY1Y3Y2ZW9STGNDblJUTVhvMDhPeDZnbzE4dW9XODRKNlp6Uk5QWWJDamJsQTRIcU5MeWxYTmlZQXNiRlNaWVRscUpWdnd6enJFSVVlVTc?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -398,21 +399,6 @@
     "tickers": [
       "HPE"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-0b31a4182cc42abd",
-    "date": "2026-09-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Marvell sees silicon photonics scaling from late 2027, with Taiwan and TSMC at the center - digitimes",
-    "quote": "Marvell sees silicon photonics scaling from late 2027, with Taiwan and TSMC at the center digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbE1jR2dEOEZPb0FoV2NmM3oydEhzTlJNd2ZVbXQwbFluWk5ucDRNNEtidkJmSTBhZHh0ZzJIbFJWVmdRcHN4Y0lXdEdSZU82ZXJia2lnbS1Bejg5a2I4MFZqLTJuM1J5ZXF2b2o5bFY5bll1ZHBPQ053dmZKMklnMXo1d0pHdXhRNVpxQXFEblZGQQ?oc=5",
-    "layer_ids": [
-      "optics",
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -500,6 +486,20 @@
     "layer_ids": [
       "packaging",
       "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-4b8f4a8330e8d4ac",
+    "date": "2026-08-31",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "In The Long Run, Nvidia NVSwitch Is The InfiniBand Of Scale Up AI Networks",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/08/31/in-the-long-run-nvidia-nvswitch-is-the-infiniband-of-scale-up-ai-networks/5293474",
+    "layer_ids": [
+      "networking"
     ],
     "tickers": [],
     "arch_risk": false
@@ -702,6 +702,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-4491e4e13ad5826f",
+    "date": "2026-08-18",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Xintec readies 12-inch IVR backside copper for TSMC's next-gen AI chips - digitimes",
+    "quote": "Xintec readies 12-inch IVR backside copper for TSMC's next-gen AI chips digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSWRQdlFUWk9IOEZGdDctMGdPOEJvLTROMmljYUM1M1RTakRVUGtRaDJZWTI3WTZ0VmFBS0V3dlQ5Q2tmQWlFM1JuZWhYc3hBSEZFRHFTb1hGVEVXRG5fX1RPNk5yMW5OeUNwZzFnc1BTbDdmR1d1ZnNMd2JiSWQ3bklOX2NUdGlDYmFhcA?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-FN-0001408710-26-000028",
     "accession": "0001408710-26-000028",
     "form": "10-K",
@@ -717,6 +731,20 @@
     "tickers": [
       "FN"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-3905e7a6a3ed099c",
+    "date": "2026-08-17",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Cisco Can Finally Sell Lots Of Supercomputers And Their Networks",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/08/17/cisco-can-finally-sell-lots-of-supercomputers-and-their-networks/5288804",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -753,6 +781,20 @@
     "tickers": [
       "FN"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-03175daeaa37ca56",
+    "date": "2026-08-14",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "The Neoclouds Build Cash Hoards Faster Than Revenues",
+    "quote": "",
+    "url": "https://www.nextplatform.com/cloud/2026/08/14/the-neoclouds-build-cash-hoards-faster-than-revenues/5288040",
+    "layer_ids": [
+      "neoclouds"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -880,6 +922,20 @@
     "tickers": [
       "CRWV"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-473b27dc369b1da2",
+    "date": "2026-08-10",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "As AI Networks Scale In Three Directions, So Does Arista",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/08/10/as-ai-networks-scale-in-three-directions-so-does-arista/5285500",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {

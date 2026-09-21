@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-20T13:27:00.282873+00:00",
+  "as_of": "2026-09-21T00:00:32.733785+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -2598,7 +2598,7 @@
       "total_prompt_tokens_b": 99579.529,
       "total_completion_tokens_b": 1943.187,
       "total_reasoning_tokens_b": 0.0,
-      "total_requests": 2509547671,
+      "total_requests": 2509547672,
       "top_models": [
         {
           "model": "deepseek/deepseek-v4.1-flash-20260910",
@@ -2622,7 +2622,7 @@
           "model": "tencent/hy4-preview-20260827",
           "tokens_b": 11925.508,
           "share": 0.1175,
-          "requests": 104098258
+          "requests": 104098259
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260731",
@@ -2666,7 +2666,7 @@
   "summary": {
     "latest_date": "2026-09-19",
     "latest_total_tokens_b": 101522.716,
-    "latest_total_requests": 2509547671,
+    "latest_total_requests": 2509547672,
     "dod_pct": 0.003,
     "wow_pct": 0.026,
     "top_movers_wow": [

@@ -1,11 +1,55 @@
 [
   {
-    "id": "rss-5c99c442f6d61c04",
+    "id": "rss-c667df1c0a920568",
+    "date": "2026-09-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Leading Interconnect Semiconductor starts Shenzhen advanced packaging substrate plant - digitimes",
+    "quote": "Leading Interconnect Semiconductor starts Shenzhen advanced packaging substrate plant digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORkFVRjNPZ1pDb3E5VnRkUmNnM2g4ZS01cS1DUnJEUXRhdzNpUkdpVjFlZUt0LXBoQVR6WmoxWEt2d00xY0lTak5Qcnp3WWx0dFhfVU5vTElSRDlZbmI2RU1rVnRrNkE3a05SYlVsMmh1TnhtcWhsYzhreDVqeEQ3Mm43QkYtZjJFMnF1WEtsSDZkb3dqNE9wZHplT1lNaWc?oc=5",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-6157f323bb71941e",
+    "date": "2026-09-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC builds Kaohsiung hub to speed advanced packaging tests - digitimes",
+    "quote": "TSMC builds Kaohsiung hub to speed advanced packaging tests digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmY1ZDcFQ4bWpnek5XRnF1MnNhbm5UZzBfT0FrRklDMGtSUTBZY00waGs0aFU0NHBXN0R3ZjVPQXVsbGppNkhGcE5uZm9WRVFfdjM4NzZQNTVNVzlYTnhqbA?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-797837934d9fbfa6",
+    "date": "2026-09-21",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "The Future of CPO May Be a Glass Integration Platform",
+    "quote": "Co-packaged optics is usually described as a proximity problem. Move the optical engine closer to the switch ASIC or XPU. Shorten the electrical path. Reduce SerDes power. Increase bandwidth density. That direction is real. Optical functionality is moving progressively closer to compute. But proximity does not eliminate … Read More The post The Future of CPO May Be a Glass Integration Platform appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/3dic/373619-the-future-of-cpo-may-be-a-glass-integration-platform/",
+    "layer_ids": [
+      "optics",
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7d5ed3175b25bfb1",
     "date": "2026-09-18",
     "source": "Nikkei Asia",
     "source_type": "news",
-    "headline": "India's chip ambitions open door for Fujifilm, Tokyo Electron - Nikkei Asia",
-    "quote": "India's chip ambitions open door for Fujifilm, Tokyo Electron Nikkei Asia",
+    "headline": "India's chip ambitions open door for Fujifilm, Tokyo Electron - asia.nikkei.com",
+    "quote": "India's chip ambitions open door for Fujifilm, Tokyo Electron asia.nikkei.com",
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYW9FUlFiRk95QjdqT3MwSlFWVG1RQ2FSZ2VQYmlpaEVXdVQ3TFphM0sxbDMybWlXX24xU2xMSVFlX1BEY3JBdkVBdnNPUElRd0VnWEVudFFHNl9PQTNid25IX2l0amVvaWhPcVhJal8xR3gzZmJyYzBfNUxYaWZjWFZlTGVXWjllS01uTUVMSWFNTXFZM1lxOWhWX0tZVS0zNHVhd0E1S19tejR3TWc0RUFmOA?oc=5",
     "layer_ids": [
       "wfe"
@@ -13,6 +57,20 @@
     "tickers": [
       "8035.T"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-f7de3ec604447000",
+    "date": "2026-09-18",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "FIT hedges its AI optics bets with Corning EBO, TSMC co-packaging talks - digitimes",
+    "quote": "FIT hedges its AI optics bets with Corning EBO, TSMC co-packaging talks digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZTE1czFnUERuZDJOeHgxcjRVbVpRVmhGZnYxTTFVdHRTenZJbjNnaFZVQXJWV2xIWEV3OFdGeU01M0Q5NzBYMDFieTVkeWZUeDkxNGxmQjhMMURBTzZKSWVvanFXeUsxTURlVk9UTmtHNTZLRjNEOXVldU91R1lpRmQxLUVMVVl5OG5F?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -30,38 +88,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-98385b25bd1d7c5a",
-    "date": "2026-09-18",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "TSMC’s CoWoS Capacity to Double by 2028—and Rivals Will Still Win Orders",
-    "quote": "TSMC reportedly plans to double its Chip-on-Wafer-on-Substrate capacity from approximately 130,000 300mm-equivalent wafers per month at the end of 2026 to 260,000 by 2028. The estimate is not formal company guidance and should be treated as a supply-chain projection. Nevertheless, the direction is consistent with TSMC’s… Read More The post TSMC’s CoWoS Capacity to Double by 2028—and Rivals Will Still Win Orders appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/373574-tsmcs-cowos-capacity-to-double-by-2028-and-rivals-will-still-win-orders/",
-    "layer_ids": [
-      "packaging",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-e6c58013f9cf45b0",
-    "date": "2026-09-18",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "CEO Interview with Charlie Cheng of CEO of TeRAM",
-    "quote": "Charlie Cheng is CEO of TeRAM , with four decades of technology experience focused on microprocessor architecture and semiconductor memory. Before TeRAM, he worked on several AI processors, including multiple generations of Meta’s MTIA accelerators beginning in 2019. Previously, he served as CEO of Kilopass, a semiconductor… Read More The post CEO Interview with Charlie Cheng of CEO of TeRAM appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ip/teram/373367-ceo-interview-with-charlie-cheng-of-ceo-of-teram/",
-    "layer_ids": [
-      "gpu",
-      "hyperscalers"
-    ],
-    "tickers": [
-      "META"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-a0fb12e0fbe5075c",
     "date": "2026-09-18",
     "source": "Stratechery",
@@ -76,12 +102,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-6dbfd689998bf4f7",
+    "id": "rss-4edaa41e746592bc",
     "date": "2026-09-17",
     "source": "Nikkei Asia",
     "source_type": "news",
-    "headline": "Applied Materials to invest $5bn in India as country ups chip support - Nikkei Asia",
-    "quote": "Applied Materials to invest $5bn in India as country ups chip support Nikkei Asia",
+    "headline": "Applied Materials to invest $5bn in India as country ups chip support - asia.nikkei.com",
+    "quote": "Applied Materials to invest $5bn in India as country ups chip support asia.nikkei.com",
     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWGozV09KQUNmR0VLOXNOTHVrOXV5cThlZ3ludmFuR05NX1kyYW5sTFBVZ3RneXh0bUhfUmlyMThzZ1V0SlcySmF6VGNYV2lhQkhMUVZadWtaRWpLd29iNUR2bmFOYTNWc1VkQVBGZFZCRGQzVTF3a2Q5cTNJTFZQeUVnTFp4RTRkQlZjcFRFeEY4dnBCdDFHbnhjSnNaUEl2SklvenlXUm5BMG5YcEFuLWZOMGVvU0FDMVQ5REVR?oc=5",
     "layer_ids": [
       "wfe"
@@ -116,6 +142,21 @@
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSG5XUmpiY2NvQVU0T05YUHdOVUNpVnpDclc4WFVjMXpPdHR0SnVkRlZWcUU5d2k5QkQxZFMyZ2Yyb1RCOG9la1VUVFdDUVZuejlXODRObmNQSVZCaXBjUjRNbTY5enE0UUd4RWFEXzQzX084aTUwUE5yM09DZW83MUl2X241RmxkVy1xRURB?oc=5",
     "layer_ids": [
       "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-9580ca8543b997cf",
+    "date": "2026-09-17",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Exclusive: China's CAS institute charts DUV route to 3nm GAA without EUV - digitimes",
+    "quote": "Exclusive: China's CAS institute charts DUV route to 3nm GAA without EUV digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd00xYkIwV3lPV2psWW9fcTM5SXJnZjUtN2xMdDYzcnFOZGxjNXJELWdUV1RxLXhiamJfb3pxX0Nrd01LQUdMc3RxdlFlMDR2eHJ2REpFM3R3SnFrZ0ZBajdSOTdBM1J0Y2lVdVhKVTBLNjIxUjVTcnludVJULTNWc1FqNUtYZ05VOGpxZg?oc=5",
+    "layer_ids": [
+      "foundry",
+      "wfe"
     ],
     "tickers": [],
     "arch_risk": false
@@ -165,26 +206,12 @@
     "arch_risk": false
   },
   {
-    "id": "rss-9e007aeea5182a41",
-    "date": "2026-09-16",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "State-led planning could advance clean energy in deregulated markets: report",
-    "quote": "States should step in with new long-term planning processes to bolster nuclear, offshore wind and other technologies that face major barriers, according to the Clean Air Task Force.",
-    "url": "https://www.utilitydive.com/news/state-led-planning-could-advance-clean-energy-in-deregulated-markets-repor/830529/",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-2c959179a55d7934",
+    "id": "rss-04ab9a16c703f992",
     "date": "2026-09-15",
     "source": "Nikkei Asia",
     "source_type": "news",
-    "headline": "Hitachi Energy to invest $528m in new transformer factory in Mississippi - Nikkei Asia",
-    "quote": "Hitachi Energy to invest $528m in new transformer factory in Mississippi Nikkei Asia",
+    "headline": "Hitachi Energy to invest $528m in new transformer factory in Mississippi - asia.nikkei.com",
+    "quote": "Hitachi Energy to invest $528m in new transformer factory in Mississippi asia.nikkei.com",
     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNandqLXhCN1M5MWRMODd4cnFGOV8tVmVQcHU4czNmcng4TXZBaHgwclNSQzBnc0MyRXBNSFhWYkJfLUZMaG54TGxxblQ2Z1ctM2k1MHhadzlfZG43TG9pZmtqTzl3NGFpOHZYVVY1TU9wREhvOWdHTzZ0NzBMR1V6S09hbF9zVC1sMnhOS09UWU9ZRm9hYld0VVQzMzdVN2hhY3QtdGducldLQWZnNW51ag?oc=5",
     "layer_ids": [
       "power"
@@ -210,13 +237,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-cd7cd06094e79420",
+    "id": "rss-708a35d12aa26b72",
     "date": "2026-09-15",
     "source": "DigiTimes",
     "source_type": "industry",
     "headline": "TSMC 3nm, 2nm, and CoWoS stay tight as AWS, MediaTek, TPU shift capacity - digitimes",
     "quote": "TSMC 3nm, 2nm, and CoWoS stay tight as AWS, MediaTek, TPU shift capacity digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ER3d5dzBrZ04ySU5neFZ5TjdpWkJfOVZQNWFPemJybnBQNmplRGNVd0F1SE5YU3I2Mmxua09SdnN1WWw1cWMyR29GaU45OHRDSENaY0pvbS1fVGNNNXVr?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWlJSzVXejJINEpIdUVtNkFtendtcW9LYUFWUkpmbDF1WWpoNlJMRUhQNlA0RXhJZ0xDUS1MY0hyTmhsWUlXaUdqTmdPdlpMS0FFLVhtV2tndHZNRkhNdjBmd1pJeFBtX01DOE1PV1NmNjlIbklTaHhMUU9oeEFqSTdEZ1I?oc=5",
     "layer_ids": [
       "foundry",
       "packaging"
@@ -250,22 +277,6 @@
       "foundry"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-a9b0cac5a5071aa5",
-    "date": "2026-09-11",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "China's CXMT tops SK Hynix, Micron to take memory profit margin crown - Nikkei Asia",
-    "quote": "China's CXMT tops SK Hynix, Micron to take memory profit margin crown Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSXpUZ05aYzNzZHk5WnFXN3NFRkdHM3l5YUhzTnpGWWNnRExUM1JDYVFKcVhIc2lkR0R6NkhmOXYxRXZ6RFVqT25hVnBBR2VzR3NDcXREYl9oOG5XZXBZQWdaNXZCQ2FBWjBQSV9ZcmQ0Ny1UVkIwOV9GamxqbHFmQzQ4QVVQTTVFRHM4bE5sSGpjbHJYMGVxMFN3S2ItR3Z5LWN5YmZrOWZOc0JkRklvRmMtSjdxNDRRakZ5TVNR?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [
-      "000660.KS"
-    ],
     "arch_risk": false
   },
   {
@@ -352,43 +363,27 @@
     "arch_risk": false
   },
   {
-    "id": "rss-c059b3b41d65eacb",
-    "date": "2026-09-09",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Samsung opens Japan AI chip R&D hub for advanced packaging collaboration - Nikkei Asia",
-    "quote": "Samsung opens Japan AI chip R&D hub for advanced packaging collaboration Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUlFlUzVJMms0TWxjWFJyYWd2THpmQmJ3aHNXaFRFeURadThIMERGWE1jM0Y4THAybmo2SEtzT1M2YVI0b0g3cG9EZWZiQ0FWWmY4U2N0RFRZM3VmbWdaUUlQWmtEUVBVNjl2UkhuRkdHQUJzRmdUa2FNZXlrT0dUSmE3SlJjYVBQbnpDZnoyclJjYzBNeWstN0JPWktVQ2xhOVN0ckFxSi05UWxWb1JZVVNRYS1CZ1cxSHhObmZHWnRvbHM?oc=5",
+    "id": "rss-0147a77d6b3988cd",
+    "date": "2026-09-08",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Inside UC San Diego's 'Made with Taiwan' push to train TSMC's future engineers, reinvent chip packaging - digitimes",
+    "quote": "Inside UC San Diego's 'Made with Taiwan' push to train TSMC's future engineers, reinvent chip packaging digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVmNJUnVYOTdsUktoNjgzZnZOU2VPemhFZ0tNYzNUcGpCTUJzb1ZmTDJkOGVtU0QwdXFObmlrYVh2djl2RS1jZU95Q1RKYWRCVGxFdmVJSW94SFJsY1lobFpqSnVGclhMNGp5NnBTOTg1NjVva1Z5T2hKQVVoUE5BY0d1NHFkV1BXdF9vWjFqZzY3Zw?oc=5",
     "layer_ids": [
-      "packaging"
+      "cooling",
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
   },
   {
-    "id": "rss-d38964af03a8dad9",
-    "date": "2026-09-08",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
-    "quote": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-a9b15ccb56b95c1c",
+    "id": "rss-b35209987e7ccaba",
     "date": "2026-09-04",
     "source": "Nikkei Asia",
     "source_type": "news",
-    "headline": "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC - Nikkei Asia",
-    "quote": "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC Nikkei Asia",
+    "headline": "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC - asia.nikkei.com",
+    "quote": "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC asia.nikkei.com",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY3pzdnFBb0tweU1jcnk5clBnRTR3OUVIXzBoblVJSzlHNnVOeGl3QjFCS3Z5a2NPV0w0X1RqZy1oaDY1QktiNGFiZXBJbXJhbjdvQ0U0SU9Kcy0yTlFvZlJQemlsTkF3T0NzT29IWVNwNDNtcjlmNFVtNlZaaF9TZlE4UXNtMW5XeVdSd3l3VV9zbTR0UENGYjM3anpTaFNBY2I1Y2JpWWlBVkxvUDJZWnl6OFpTa0VSX3RSRjBNX3E?oc=5",
     "layer_ids": [
       "wfe",
@@ -396,23 +391,6 @@
     ],
     "tickers": [
       "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-8423c39bd9fa5579",
-    "date": "2026-09-04",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Taiwan semiconductor output targets NT$8 trillion - digitimes",
-    "quote": "Taiwan semiconductor output targets NT$8 trillion digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeFR6dEFfenB1bHFYTXNWMXBRaEZsWEVuTmpKUGZTZUJlalhkU0tkQ19iU1VZNGs5aUhwaEIzQjhMLU55RmRBVmtxMElHcTVPMzZtUTBtaENVQjVYUXVWcHduRHNVWWlscmRRWWNtWlJoZnRlU3p2NFl3SWpwaTNSVEZ6a3gyVHdsZkpBQ2UxRmJULTExQlQyU1U5WmpxUWExcUNCcXc4Q2hXUQ?oc=5",
-    "layer_ids": [
-      "gpu",
-      "foundry"
-    ],
-    "tickers": [
-      "TSM"
     ],
     "arch_risk": false
   },
@@ -450,21 +428,6 @@
     "tickers": [
       "HPE"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-0b31a4182cc42abd",
-    "date": "2026-09-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Marvell sees silicon photonics scaling from late 2027, with Taiwan and TSMC at the center - digitimes",
-    "quote": "Marvell sees silicon photonics scaling from late 2027, with Taiwan and TSMC at the center digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbE1jR2dEOEZPb0FoV2NmM3oydEhzTlJNd2ZVbXQwbFluWk5ucDRNNEtidkJmSTBhZHh0ZzJIbFJWVmdRcHN4Y0lXdEdSZU82ZXJia2lnbS1Bejg5a2I4MFZqLTJuM1J5ZXF2b2o5bFY5bll1ZHBPQ053dmZKMklnMXo1d0pHdXhRNVpxQXFEblZGQQ?oc=5",
-    "layer_ids": [
-      "optics",
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -718,20 +681,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-e67269f7669f1830",
-    "date": "2026-08-25",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC suppliers reportedly plan Taiwan plant for critical chipmaking tubing - digitimes",
-    "quote": "TSMC suppliers reportedly plan Taiwan plant for critical chipmaking tubing digitimes",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLTV6c2NWWWpiTG1VbWhiTHgwVmdJT1FyTjdaa3N0RzdPOVY2TVN0UGZjbDhqeEhodHlBc0VNaURFSHN4TDZ2bHJXYXlVaHhOWGRobWNVQ09Fd3ZQeWQ1TUZfbU1tTWUtWXJtN2VjSGlKdXJWME54NU1oNUd4SnRCMFVVQU9OVWdFZHBvcXpzY3lXc182cFBnd3FudjcwdTV6a3l5dVNtRFJYLTRrQ0pRdFhn?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-AMAT-0001628280-26-058235",
     "accession": "0001628280-26-058235",
     "form": "10-Q",
@@ -747,20 +696,6 @@
     "tickers": [
       "AMAT"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-4491e4e13ad5826f",
-    "date": "2026-08-18",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Xintec readies 12-inch IVR backside copper for TSMC's next-gen AI chips - digitimes",
-    "quote": "Xintec readies 12-inch IVR backside copper for TSMC's next-gen AI chips digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSWRQdlFUWk9IOEZGdDctMGdPOEJvLTROMmljYUM1M1RTakRVUGtRaDJZWTI3WTZ0VmFBS0V3dlQ5Q2tmQWlFM1JuZWhYc3hBSEZFRHFTb1hGVEVXRG5fX1RPNk5yMW5OeUNwZzFnc1BTbDdmR1d1ZnNMd2JiSWQ3bklOX2NUdGlDYmFhcA?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {

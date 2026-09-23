@@ -1,15 +1,57 @@
 [
   {
-    "id": "rss-5e8566b85c5b8eed",
+    "id": "rss-e4268b825f504b66",
     "date": "2026-09-22",
     "source": "DigiTimes",
     "source_type": "industry",
     "headline": "TSMC, ASE break ground on Taiwan's first advanced packaging cluster in Kaohsiung - digitimes",
     "quote": "TSMC, ASE break ground on Taiwan's first advanced packaging cluster in Kaohsiung digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOejFMaDM5eUtOT1NfOWNRVUVsQmlsOWptakg4RXB4NlYzQWgtVEVjSUs2eXg2cGFUNjB5d0tuaFlnYjJ1NFpIRXctdGR0LU9pU0o2WXdsU1NqZjF4Rmd4OXhXRmk2cFNSMEpFd3lUeDNQcnRLUWp4RkZIeVpHb3JNWkVrTWNlbjQ5ZGo0bFUzOA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UUjBYdDBlM1lIbE9zQWlpc0ZURk41em5VMjROczUxa2Ntem1zMTduN1djWm5naVdDbS15aXhjd0s3SnRab2o2VU56Snh6MFJQdHpXVEROVGIzd3I1SWpIdQ?oc=5",
     "layer_ids": [
       "packaging",
       "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-3ad2fc205a9a0f04",
+    "date": "2026-09-22",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
+    "quote": "NVIDIA this week has launched DSX Ready, a new qualification program for data center cooling and power hardware, for use with constructing AI data centers based on NVIDIA's DSX AI factory blueprint The post NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/nvidia-announces-dsx-ready-qualification-program-for-data-center-power-and-cooling-hardware/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-db673f1683e6800d",
+    "date": "2026-09-22",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "North Carolina regulators deny Duke Energy gas turbine request over ‘staggering’ cost, uncertain need",
+    "quote": "The order called out Duke’s commitment to the White House Ratepayer Protection Pledge, saying it had not established the specific extent to which the proposed facility is intended to serve data centers.",
+    "url": "https://www.utilitydive.com/news/north-carolina-regulators-deny-dukes-gas-turbine-request-over-staggering/831015/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7653ff489b0c0d9e",
+    "date": "2026-09-22",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Beyond the Accelerator: Why Silicon Challengers Must Transition to Full-System Infrastructure",
+    "quote": "The recent AI Infra Summit was exceptionally jam-packed, filled to the brim with compelling talks, overlapping tracks, and emerging technologies. Amid the noise of the event, there were many excellent presentations detailing the physical realities of scaling hardware. But one presentation in particular caught my attention… Read More The post Beyond the Accelerator: Why Silicon Challengers Must Transition to Full-System Infrastructure appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/artificial-intelligence/373912-beyond-the-accelerator-why-silicon-challengers-must-transition-to-full-system-infrastructure/",
+    "layer_ids": [
+      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -78,25 +120,10 @@
     "source": "Utility Dive",
     "source_type": "industry",
     "headline": "Newsom vetoes bill to create California PUC inspector general",
-    "quote": "Newsom signed several other bills with direct or indirect implications for electric utilities and power infrastructure stakeholders, including Assembly Bill 192 standing up the transmission infrastructure accelerator.",
+    "quote": "On Monday, Newsom signed a package of laws aimed at data centers, including strengthening energy reporting requirements and requiring regulators to create new rate structures.",
     "url": "https://www.utilitydive.com/news/newsom-vetoes-california-puc-bill/830864/",
     "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-797837934d9fbfa6",
-    "date": "2026-09-21",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "The Future of CPO May Be a Glass Integration Platform",
-    "quote": "Co-packaged optics is usually described as a proximity problem. Move the optical engine closer to the switch ASIC or XPU. Shorten the electrical path. Reduce SerDes power. Increase bandwidth density. That direction is real. Optical functionality is moving progressively closer to compute. But proximity does not eliminate … Read More The post The Future of CPO May Be a Glass Integration Platform appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/3dic/373619-the-future-of-cpo-may-be-a-glass-integration-platform/",
-    "layer_ids": [
-      "optics",
-      "gpu"
+      "hyperscalers"
     ],
     "tickers": [],
     "arch_risk": false
@@ -127,20 +154,6 @@
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZTE1czFnUERuZDJOeHgxcjRVbVpRVmhGZnYxTTFVdHRTenZJbjNnaFZVQXJWV2xIWEV3OFdGeU01M0Q5NzBYMDFieTVkeWZUeDkxNGxmQjhMMURBTzZKSWVvanFXeUsxTURlVk9UTmtHNTZLRjNEOXVldU91R1lpRmQxLUVMVVl5OG5F?oc=5",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-68d54811210d4fdc",
-    "date": "2026-09-18",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Hitachi to double US production of small and medium-sized power transformers",
-    "quote": "A Mississippi facility will produce transformers in the 10 MVA to 160 MVA range, designed for voltages up to 230 kV. The additional capacity “is expected to help alleviate industry-wide supply constraints,” a Hitachi official told Utility Dive.",
-    "url": "https://www.utilitydive.com/news/hitachi-to-double-us-production-of-small-and-medium-sized-power-transformer/830762/",
-    "layer_ids": [
-      "power"
     ],
     "tickers": [],
     "arch_risk": false
@@ -188,36 +201,6 @@
       "gpu"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b1d277e1441cea6a",
-    "date": "2026-09-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC reconsiders 12-inch equipment donation as Taiwan overhauls scope of research partnership - digitimes",
-    "quote": "TSMC reconsiders 12-inch equipment donation as Taiwan overhauls scope of research partnership digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSG5XUmpiY2NvQVU0T05YUHdOVUNpVnpDclc4WFVjMXpPdHR0SnVkRlZWcUU5d2k5QkQxZFMyZ2Yyb1RCOG9la1VUVFdDUVZuejlXODRObmNQSVZCaXBjUjRNbTY5enE0UUd4RWFEXzQzX084aTUwUE5yM09DZW83MUl2X241RmxkVy1xRURB?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-2f71c04eb353cf82",
-    "date": "2026-09-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Lam Research plans US$1 billion India manufacturing expansion - digitimes",
-    "quote": "Lam Research plans US$1 billion India manufacturing expansion digitimes",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdXh6ZlFEUnN4czRLWWM0eDdEOHhuWmpGUHFadFFIZC02M2NHX3o4dmNfZGJlVHctOVJabXowT3NNbjhOWTlNVUtpUG1zM29FSzJfeHVIMDJnM2ZubVRMYUd4TW9nSUdYU016UkxiZmtBNmtGdVB4U0prYzdGb0hjcDloYjd3Z2MySE5MdUxyUTFGbEVWOV9NaS1CaWU0ZXJSZjh5OFlNUQ?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "LRCX"
-    ],
     "arch_risk": false
   },
   {
@@ -329,6 +312,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-63deba64fb20c78e",
+    "date": "2026-09-10",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Broadcom Rides Rocketing Trend For Custom AI Accelerators",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/09/10/broadcom-rides-rocketing-trend-for-custom-ai-accelerators/5295681",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-AVGO-0001730168-26-000080",
     "accession": "0001730168-26-000080",
     "form": "10-Q",
@@ -380,13 +377,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-d38964af03a8dad9",
+    "id": "rss-1a31117fa2f9b9f5",
     "date": "2026-09-08",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
-    "quote": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "TSMC, Intel and Samsung all bet on ASML's latest chip tool in AI race - Nikkei Asia",
+    "quote": "TSMC, Intel and Samsung all bet on ASML's latest chip tool in AI race Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTzVIa0ptc0V5YzhTR3dtR3o5Z1hKYlBycW1OYjM2alZ1YmJlYW9WWmcteld4WEFQZWk5MzF5WlJ2Z01xdlhJOHNqOFFPVVJsYi1oT2JTRzUzVGpOWnhQc2d0MHNKODYxR1EwT25rRkU4MTRraWJ4YVJuWldCV2ZYZDFFaUc4VlFmTThDQ1RpSHViVEJrc2ZpQnZSUnJMUWRmMUlnVldrbmxIYmRwTmdWaEVDTWxmZERHQ2MyZEZB?oc=5",
     "layer_ids": [
       "wfe",
       "foundry"
@@ -397,13 +394,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-a9b15ccb56b95c1c",
-    "date": "2026-09-04",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC - Nikkei Asia",
-    "quote": "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQY3pzdnFBb0tweU1jcnk5clBnRTR3OUVIXzBoblVJSzlHNnVOeGl3QjFCS3Z5a2NPV0w0X1RqZy1oaDY1QktiNGFiZXBJbXJhbjdvQ0U0SU9Kcy0yTlFvZlJQemlsTkF3T0NzT29IWVNwNDNtcjlmNFVtNlZaaF9TZlE4UXNtMW5XeVdSd3l3VV9zbTR0UENGYjM3anpTaFNBY2I1Y2JpWWlBVkxvUDJZWnl6OFpTa0VSX3RSRjBNX3E?oc=5",
+    "id": "rss-d38964af03a8dad9",
+    "date": "2026-09-08",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
+    "quote": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
     "layer_ids": [
       "wfe",
       "foundry"
@@ -535,6 +532,36 @@
     ],
     "tickers": [
       "SNOW"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-4b8f4a8330e8d4ac",
+    "date": "2026-08-31",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "In The Long Run, Nvidia NVSwitch Is The InfiniBand Of Scale Up AI Networks",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/08/31/in-the-long-run-nvidia-nvswitch-is-the-infiniband-of-scale-up-ai-networks/5293474",
+    "layer_ids": [
+      "networking"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7aaa23833eee9a64",
+    "date": "2026-08-28",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "SK Hynix starts construction of first HBM chip packaging plant in US - Nikkei Asia",
+    "quote": "SK Hynix starts construction of first HBM chip packaging plant in US Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOREJWdDdGcGk5X2xiTWZlanlKZjlLc2Fad3MtdVlyZi0zSHFZMHdEWFhDTFhUcU1xOUhPX3I5T3RMakJ5U29aWEpCVUZmXzNzQnBXckE3cTExWVF0cG5GNFAyQmxwWXBRa0R1V0ZKQVpRMHZTdk5NLXdZYkYtOERNcmhZZ2Y2dHRsa0dfX2hRdWNoV3l3eUhNRldlRF9CTThKZnlWWTdjMUJ0bnhUQ2RJQUpRWjNZYVl0Zk16aHRrV0cyMGRkMWtsdmdCYkpVeld3YXc?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "000660.KS"
     ],
     "arch_risk": false
   },
@@ -716,6 +743,20 @@
     "tickers": [
       "AMAT"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-4491e4e13ad5826f",
+    "date": "2026-08-18",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Xintec readies 12-inch IVR backside copper for TSMC's next-gen AI chips - digitimes",
+    "quote": "Xintec readies 12-inch IVR backside copper for TSMC's next-gen AI chips digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSWRQdlFUWk9IOEZGdDctMGdPOEJvLTROMmljYUM1M1RTakRVUGtRaDJZWTI3WTZ0VmFBS0V3dlQ5Q2tmQWlFM1JuZWhYc3hBSEZFRHFTb1hGVEVXRG5fX1RPNk5yMW5OeUNwZzFnc1BTbDdmR1d1ZnNMd2JiSWQ3bklOX2NUdGlDYmFhcA?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -7304,6 +7345,20 @@
       "COHR",
       "FN"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-9a8a7a837c60da5f",
+    "date": "2023-04-13",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC plans JV fab in Germany, sources say - digitimes",
+    "quote": "TSMC plans JV fab in Germany, sources say digitimes",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA5V2RETmVwcUFXRi1sMnJaN0dVaFFFQlBsdDEtMnJJX0NKa2l1N1JjbE8tQ0ZSaXdnZVhjQzdEVFFTRV9EQUVTYW9feGdVN0tPUUc3LWhQNE9GYUFENUZxSTJVdzdJS1dzN01JclQwOEIzTHBScjBYZA?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {

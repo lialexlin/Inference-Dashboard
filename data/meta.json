@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-09-24T00:18:15.125985+00:00",
+  "last_refresh_at": "2026-09-24T13:57:51.548347+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-09-24T00:18:48.183251+00:00"
+      "ts": "2026-09-24T13:58:27.564150+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,38 +24,38 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-09-24T00:18:53.046280+00:00"
+      "ts": "2026-09-24T13:58:32.171129+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 29,
       "errors": {},
-      "ts": "2026-09-24T00:19:03.429516+00:00"
+      "ts": "2026-09-24T13:58:42.502749+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [df7513a4-75a0-486d-a51b-87ba82ab974d]"
+        "__connection__": "390102 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [2586eab4-85eb-4092-a33d-8a4890dcbcab]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-09-24T00:18:18.164491+00:00"
+      "ts": "2026-09-24T13:57:54.363097+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-09-24T00:21:09.693860+00:00"
+      "ts": "2026-09-24T14:00:49.955209+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "hbm",
-          "tightness_score": 63
+          "tightness_score": 65
         },
         {
           "layer_id": "foundry",
@@ -66,14 +66,14 @@
           "tightness_score": 49
         }
       ],
-      "ts": "2026-09-24T00:21:09.681407+00:00"
+      "ts": "2026-09-24T14:00:49.947328+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 42,
       "latest_date": "2026-09-23",
-      "latest_total_tokens_b": 105905.433,
-      "ts": "2026-09-24T00:21:09.673466+00:00"
+      "latest_total_tokens_b": 105905.501,
+      "ts": "2026-09-24T14:00:49.941009+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-09-24T00:21:09.696645+00:00"
+      "ts": "2026-09-24T14:00:49.957140+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-09-24T00:21:08.245370+00:00"
+      "ts": "2026-09-24T14:00:48.802609+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,27 +172,27 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-09-24T00:21:08.858109+00:00"
+      "ts": "2026-09-24T14:00:49.256019+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-09-24T00:21:09.678722+00:00"
+      "ts": "2026-09-24T14:00:49.945242+00:00"
     },
     "tw_universe": {
-      "ok": 1950,
-      "stock_count": 1950,
-      "sector_count": 71,
-      "latest_date": "2026-09-23",
-      "ts": "2026-09-24T00:22:06.611356+00:00"
+      "ok": 0,
+      "errors": {
+        "__stage__": "IncompleteRead(638584 bytes read, 435821 more expected)"
+      },
+      "ts": "2026-09-24T14:02:00.276725+00:00"
     },
     "us_universe": {
       "ok": 966,
       "stock_count": 966,
       "sector_count": 77,
-      "latest_date": "2026-09-21",
-      "ts": "2026-09-24T00:23:23.135946+00:00"
+      "latest_date": "2026-09-24",
+      "ts": "2026-09-24T14:03:32.537471+00:00"
     }
   },
   "signals": {

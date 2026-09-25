@@ -29,6 +29,48 @@
     "arch_risk": false
   },
   {
+    "id": "rss-a74de776b6ad5b95",
+    "date": "2026-09-24",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Advanced transmission projects get $1.9B in DOE funding",
+    "quote": "The department expects the projects will add 23 GW in grid capacity and will come online in “record time” to improve the existing transmission system.",
+    "url": "https://www.utilitydive.com/news/doe-advanced-transmission-projects-spark-funding/831259/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-04e3768c15866334",
+    "date": "2026-09-24",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Tokens Per Watt Over Peak Performance: Retrofitting Heterogeneous Silicon for Production Inference",
+    "quote": "👉 This is Part 2 of an editorial series on the evolving economics of AI inference. If you missed Part 1, where I broke down the shift toward full-system integration, the lessons from the AI Infra Summit, and the “no forks” open-source philosophy, you can read it HERE: Beyond the Accelerator: Why Silicon Challengers … Read More The post Tokens Per Watt Over Peak Performance: Retrofitting Heterogeneous Silicon for Production Inference appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/artificial-intelligence/373916-tokens-per-watt-over-peak-performance-retrofitting-heterogeneous-silicon-for-production-inference/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-30ff5c1b1d14ba17",
+    "date": "2026-09-24",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "S2C Prodigy Complete Prototyping Solutions—and Why They Matter",
+    "quote": "Modern system-on-chip (SoC) and application-specific integrated circuit (ASIC) designs are extraordinarily complex. They may combine processors, accelerators, memory controllers, high-speed interfaces, security functions, and millions—or even billions—of logic gates. Verifying these systems entirely through … Read More The post S2C Prodigy Complete Prototyping Solutions—and Why They Matter appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/prototyping/s2c-eda/373633-s2c-prodigy-complete-prototyping-solutions-and-why-they-matter/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-3a40d924588b3171",
     "date": "2026-09-23",
     "source": "Utility Dive",
@@ -54,36 +96,6 @@
       "foundry"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-259c6f50f84f3b9f",
-    "date": "2026-09-23",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "SEMICON West’s “Bridging design and Manufacturing with AI” Design Session Explores AI as Practical Lever Across Entire Lifecycle",
-    "quote": "By Julie Rogers, Executive Director, Electronic System Design Alliance 2026 is “Bridging Design and Manufacturing with AI” during a day-long session Tuesday, October 13, from 10:30 a.m. to 4:30 p.m. at San Francisco’s Moscone Center, North Hall, Lower Level, Room 20. The Design Session hosted and organized by the Electronic … Read More The post SEMICON West’s “Bridging design and Manufacturing with AI” Design Session Explores AI as Practical Lever Across Entire Lifecycle appeared first on SemiWi",
-    "url": "https://semiwiki.com/semiconductor-services/esd-alliance/373830-semicon-wests-bridging-design-and-manufacturing-with-ai-design-session-explores-ai-as-practical-lever-across-entire-lifecycle/",
-    "layer_ids": [
-      "switches"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-7f37fb1c9be4f0a8",
-    "date": "2026-09-23",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Why ASML Is Racing to Build 110 EUV Machines",
-    "quote": "ASML is exploring how to produce more than 110 extreme ultraviolet lithography machines in 2028, reflecting the extraordinary investment flowing into artificial intelligence infrastructure. The Dutch semiconductor-equipment company expects to manufacture at least 80 EUV systems in 2027 and is considering another production… Read More The post Why ASML Is Racing to Build 110 EUV Machines appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/lithography/373646-why-asml-is-racing-to-build-110-euv-machines/",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "ASML"
-    ],
     "arch_risk": false
   },
   {
@@ -116,15 +128,15 @@
     "arch_risk": false
   },
   {
-    "id": "rss-db673f1683e6800d",
-    "date": "2026-09-22",
-    "source": "Utility Dive",
+    "id": "rss-3b14d740645d9186",
+    "date": "2026-09-21",
+    "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "North Carolina regulators deny Duke Energy gas turbine request over ‘staggering’ cost, uncertain need",
-    "quote": "The order called out Duke’s commitment to the White House Ratepayer Protection Pledge, saying the utility had not established the specific extent to which the proposed facility is intended to serve data centers.",
-    "url": "https://www.utilitydive.com/news/north-carolina-regulators-deny-dukes-gas-turbine-request-over-staggering/831015/",
+    "headline": "Intel reportedly in talks with AUO on advanced packaging - digitimes",
+    "quote": "Intel reportedly in talks with AUO on advanced packaging digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbVZaS2JfckI2TWxPNmVsTUVlZ083WFpRZlFyVGUxMk92em9lVi1RZHBGUk4teVJGX3MyMjFhOEJPeTNBWVVza3JtMmNaZGNpWXNxbjFTeXljSHZjWEVMWmxEN242TmU3Q0NuREdZd3R6eEtQS2locWEtZHVvMG1UNVJpZXZDYTlheEE?oc=5",
     "layer_ids": [
-      "power"
+      "packaging"
     ],
     "tickers": [],
     "arch_risk": false
@@ -144,13 +156,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-6157f323bb71941e",
+    "id": "rss-131fede642ac527a",
     "date": "2026-09-21",
     "source": "DigiTimes",
     "source_type": "industry",
     "headline": "TSMC builds Kaohsiung hub to speed advanced packaging tests - digitimes",
     "quote": "TSMC builds Kaohsiung hub to speed advanced packaging tests digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmY1ZDcFQ4bWpnek5XRnF1MnNhbm5UZzBfT0FrRklDMGtSUTBZY00waGs0aFU0NHBXN0R3ZjVPQXVsbGppNkhGcE5uZm9WRVFfdjM4NzZQNTVNVzlYTnhqbA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORE5qcTlfZDJYNnRVMnFiaVlhUDZJMzlDX0JhWFFURVgyT09NU2VCR0JzYndrTTh3NkpxS3NrZ0ZfZ0MzTjloTXVmd3Rvc3pZQUdNaTBnZFhZRDR4UmUtNXJveWVJTjhYN2NZVlJkSVF2d05yOHJFNzJicW9tOGVadzVkZmpNVnpyNHJaMmdVeXY5eThjZ1ZBMm4xaXJBMUdjQlRSekRB?oc=5",
     "layer_ids": [
       "packaging",
       "foundry"
@@ -159,19 +171,17 @@
     "arch_risk": false
   },
   {
-    "id": "rss-5c99c442f6d61c04",
+    "id": "rss-3ba26a35daea75d2",
     "date": "2026-09-18",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "India's chip ambitions open door for Fujifilm, Tokyo Electron - Nikkei Asia",
-    "quote": "India's chip ambitions open door for Fujifilm, Tokyo Electron Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYW9FUlFiRk95QjdqT3MwSlFWVG1RQ2FSZ2VQYmlpaEVXdVQ3TFphM0sxbDMybWlXX24xU2xMSVFlX1BEY3JBdkVBdnNPUElRd0VnWEVudFFHNl9PQTNid25IX2l0amVvaWhPcVhJal8xR3gzZmJyYzBfNUxYaWZjWFZlTGVXWjllS01uTUVMSWFNTXFZM1lxOWhWX0tZVS0zNHVhd0E1S19tejR3TWc0RUFmOA?oc=5",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Charts: Taiwan's memory makers are outgrowing TSMC by a factor of eight - digitimes",
+    "quote": "Charts: Taiwan's memory makers are outgrowing TSMC by a factor of eight digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWTMyRmhoT1FDUEo1NjJYYmR6RTlpNXU2STVkaGw3TWRCOVNpY0VoZWxDOTJoRE53dWNOV29FcmRKOWJlZjBOemxaN1BGQUFod0lueWNxNF8yZkNUQ3h4cWR5eFlqU3BHV21ZRk5DcEJnVUFFT3RVWDVURnpjUDhNNnh2R2FDWWFVWWVNWXNCLThyeXk2X29PRjdXbWRTVjhFa0E?oc=5",
     "layer_ids": [
-      "wfe"
+      "foundry"
     ],
-    "tickers": [
-      "8035.T"
-    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -200,22 +210,6 @@
       "switches"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-6dbfd689998bf4f7",
-    "date": "2026-09-17",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Applied Materials to invest $5bn in India as country ups chip support - Nikkei Asia",
-    "quote": "Applied Materials to invest $5bn in India as country ups chip support Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWGozV09KQUNmR0VLOXNOTHVrOXV5cThlZ3ludmFuR05NX1kyYW5sTFBVZ3RneXh0bUhfUmlyMThzZ1V0SlcySmF6VGNYV2lhQkhMUVZadWtaRWpLd29iNUR2bmFOYTNWc1VkQVBGZFZCRGQzVTF3a2Q5cTNJTFZQeUVnTFp4RTRkQlZjcFRFeEY4dnBCdDFHbnhjSnNaUEl2SklvenlXUm5BMG5YcEFuLWZOMGVvU0FDMVQ5REVR?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "AMAT"
-    ],
     "arch_risk": false
   },
   {
@@ -293,6 +287,22 @@
     "arch_risk": false
   },
   {
+    "id": "rss-a9b0cac5a5071aa5",
+    "date": "2026-09-11",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "China's CXMT tops SK Hynix, Micron to take memory profit margin crown - Nikkei Asia",
+    "quote": "China's CXMT tops SK Hynix, Micron to take memory profit margin crown Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSXpUZ05aYzNzZHk5WnFXN3NFRkdHM3l5YUhzTnpGWWNnRExUM1JDYVFKcVhIc2lkR0R6NkhmOXYxRXZ6RFVqT25hVnBBR2VzR3NDcXREYl9oOG5XZXBZQWdaNXZCQ2FBWjBQSV9ZcmQ0Ny1UVkIwOV9GamxqbHFmQzQ4QVVQTTVFRHM4bE5sSGpjbHJYMGVxMFN3S2ItR3Z5LWN5YmZrOWZOc0JkRklvRmMtSjdxNDRRakZ5TVNR?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-ORCL-0001193125-26-389274",
     "accession": "0001193125-26-389274",
     "form": "10-Q",
@@ -358,6 +368,37 @@
     ],
     "tickers": [
       "ORCL"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-c059b3b41d65eacb",
+    "date": "2026-09-09",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Samsung opens Japan AI chip R&D hub for advanced packaging collaboration - Nikkei Asia",
+    "quote": "Samsung opens Japan AI chip R&D hub for advanced packaging collaboration Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUlFlUzVJMms0TWxjWFJyYWd2THpmQmJ3aHNXaFRFeURadThIMERGWE1jM0Y4THAybmo2SEtzT1M2YVI0b0g3cG9EZWZiQ0FWWmY4U2N0RFRZM3VmbWdaUUlQWmtEUVBVNjl2UkhuRkdHQUJzRmdUa2FNZXlrT0dUSmE3SlJjYVBQbnpDZnoyclJjYzBNeWstN0JPWktVQ2xhOVN0ckFxSi05UWxWb1JZVVNRYS1CZ1cxSHhObmZHWnRvbHM?oc=5",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-1a31117fa2f9b9f5",
+    "date": "2026-09-08",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "TSMC, Intel and Samsung all bet on ASML's latest chip tool in AI race - Nikkei Asia",
+    "quote": "TSMC, Intel and Samsung all bet on ASML's latest chip tool in AI race Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTzVIa0ptc0V5YzhTR3dtR3o5Z1hKYlBycW1OYjM2alZ1YmJlYW9WWmcteld4WEFQZWk5MzF5WlJ2Z01xdlhJOHNqOFFPVVJsYi1oT2JTRzUzVGpOWnhQc2d0MHNKODYxR1EwT25rRkU4MTRraWJ4YVJuWldCV2ZYZDFFaUc4VlFmTThDQ1RpSHViVEJrc2ZpQnZSUnJMUWRmMUlnVldrbmxIYmRwTmdWaEVDTWxmZERHQ2MyZEZB?oc=5",
+    "layer_ids": [
+      "wfe",
+      "foundry"
+    ],
+    "tickers": [
+      "ASML"
     ],
     "arch_risk": false
   },
@@ -515,6 +556,22 @@
       "networking"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7aaa23833eee9a64",
+    "date": "2026-08-28",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "SK Hynix starts construction of first HBM chip packaging plant in US - Nikkei Asia",
+    "quote": "SK Hynix starts construction of first HBM chip packaging plant in US Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOREJWdDdGcGk5X2xiTWZlanlKZjlLc2Fad3MtdVlyZi0zSHFZMHdEWFhDTFhUcU1xOUhPX3I5T3RMakJ5U29aWEpCVUZmXzNzQnBXckE3cTExWVF0cG5GNFAyQmxwWXBRa0R1V0ZKQVpRMHZTdk5NLXdZYkYtOERNcmhZZ2Y2dHRsa0dfX2hRdWNoV3l3eUhNRldlRF9CTThKZnlWWTdjMUJ0bnhUQ2RJQUpRWjNZYVl0Zk16aHRrV0cyMGRkMWtsdmdCYkpVeld3YXc?oc=5",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
     "arch_risk": false
   },
   {
@@ -7269,20 +7326,6 @@
       "COHR",
       "FN"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-3f25dfe61e311eab",
-    "date": "2018-11-01",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC opens 12-inch fab in Nanjing - digitimes",
-    "quote": "TSMC opens 12-inch fab in Nanjing digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96U2VZRG40Q3ZzanBwRTI4TVAzVnNnZDdWbV9mLW9tX21jNUxiUUl0a1F4Nk9mY3ZGcV9iNWFDSGpJaVVKZjNLWnNUTUg1aFVid3dnSkVfYkVmeEtOdTNj?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   }
 ]

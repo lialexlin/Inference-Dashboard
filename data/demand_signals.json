@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-28T00:26:54.041428+00:00",
+  "as_of": "2026-09-28T17:18:43.423651+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -3154,29 +3154,29 @@
     },
     {
       "date": "2026-09-27",
-      "total_tokens_b": 113948.909,
-      "total_prompt_tokens_b": 111571.295,
-      "total_completion_tokens_b": 2377.613,
+      "total_tokens_b": 113948.947,
+      "total_prompt_tokens_b": 111571.306,
+      "total_completion_tokens_b": 2377.641,
       "total_reasoning_tokens_b": 0.0,
-      "total_requests": 3485395456,
+      "total_requests": 3485395789,
       "top_models": [
         {
           "model": "deepseek/deepseek-v4.1-flash-20260910",
-          "tokens_b": 19575.663,
+          "tokens_b": 19575.671,
           "share": 0.1718,
-          "requests": 341608093
+          "requests": 341608163
         },
         {
           "model": "z-ai/glm-5.3-flash-20260826",
-          "tokens_b": 16316.677,
+          "tokens_b": 16316.687,
           "share": 0.1432,
-          "requests": 375622438
+          "requests": 375622515
         },
         {
           "model": "stealth/space-bunny-alpha",
-          "tokens_b": 13858.497,
+          "tokens_b": 13858.498,
           "share": 0.1216,
-          "requests": 170877247
+          "requests": 170877249
         },
         {
           "model": "tencent/hy4-preview-20260827",
@@ -3192,9 +3192,9 @@
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260731",
-          "tokens_b": 7824.079,
+          "tokens_b": 7824.085,
           "share": 0.0687,
-          "requests": 508288586
+          "requests": 508288635
         },
         {
           "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
@@ -3204,29 +3204,29 @@
         },
         {
           "model": "xiaomi/mimo-v2.6-flash-20260921",
-          "tokens_b": 5505.234,
+          "tokens_b": 5505.235,
           "share": 0.0483,
-          "requests": 68549282
+          "requests": 68549292
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260423",
-          "tokens_b": 3350.833,
+          "tokens_b": 3350.844,
           "share": 0.0294,
-          "requests": 338423915
+          "requests": 338424024
         },
         {
           "model": "openai/gpt-6-luna-20260922",
           "tokens_b": 2856.586,
           "share": 0.0251,
-          "requests": 126573246
+          "requests": 126573248
         }
       ]
     }
   ],
   "summary": {
     "latest_date": "2026-09-27",
-    "latest_total_tokens_b": 113948.909,
-    "latest_total_requests": 3485395456,
+    "latest_total_tokens_b": 113948.947,
+    "latest_total_requests": 3485395789,
     "dod_pct": 0.027,
     "wow_pct": 0.1189,
     "top_movers_wow": [

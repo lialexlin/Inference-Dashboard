@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-09-28T17:15:52.322650+00:00",
+  "last_refresh_at": "2026-09-29T01:35:27.261060+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-09-28T17:16:25.373390+00:00"
+      "ts": "2026-09-29T01:35:58.719983+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,56 +24,56 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-09-28T17:16:30.058346+00:00"
+      "ts": "2026-09-29T01:36:03.812924+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 29,
       "errors": {},
-      "ts": "2026-09-28T17:16:37.548135+00:00"
+      "ts": "2026-09-29T01:36:12.079007+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [fbb2ee28-2e32-4127-9fc7-357795791c63]"
+        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [d6a857df-fb8d-40c8-8f52-87ddf75db7d1]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-09-28T17:15:54.281682+00:00"
+      "ts": "2026-09-29T01:35:29.417583+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-09-28T17:18:43.445885+00:00"
+      "ts": "2026-09-29T01:38:19.595296+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "foundry",
-          "tightness_score": 89
+          "tightness_score": 92
         },
         {
           "layer_id": "packaging",
-          "tightness_score": 56
+          "tightness_score": 59
         },
         {
           "layer_id": "gpu",
           "tightness_score": 49
         }
       ],
-      "ts": "2026-09-28T17:18:43.435330+00:00"
+      "ts": "2026-09-29T01:38:19.583722+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 46,
-      "latest_date": "2026-09-27",
-      "latest_total_tokens_b": 113948.947,
-      "ts": "2026-09-28T17:18:43.427645+00:00"
+      "daily_rows": 47,
+      "latest_date": "2026-09-28",
+      "latest_total_tokens_b": 116767.316,
+      "ts": "2026-09-29T01:38:19.576333+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-09-28T17:18:43.448677+00:00"
+      "ts": "2026-09-29T01:38:19.599636+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-09-28T17:18:42.109795+00:00"
+      "ts": "2026-09-29T01:38:18.180080+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,27 +172,27 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-09-28T17:18:42.716644+00:00"
+      "ts": "2026-09-29T01:38:18.783220+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-09-28T17:18:43.432862+00:00"
+      "ts": "2026-09-29T01:38:19.581409+00:00"
     },
     "tw_universe": {
       "ok": 1949,
       "stock_count": 1949,
       "sector_count": 71,
       "latest_date": "2026-09-24",
-      "ts": "2026-09-28T17:21:22.555080+00:00"
+      "ts": "2026-09-29T01:40:40.767268+00:00"
     },
     "us_universe": {
       "ok": 970,
       "stock_count": 970,
       "sector_count": 77,
       "latest_date": "2026-09-28",
-      "ts": "2026-09-28T17:22:31.758551+00:00"
+      "ts": "2026-09-29T01:41:35.791643+00:00"
     }
   },
   "signals": {

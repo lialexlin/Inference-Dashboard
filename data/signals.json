@@ -1,5 +1,36 @@
 [
   {
+    "id": "rss-b65b983a6939faf9",
+    "date": "2026-09-29",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "SK Hynix tests HBM5 with TSMC as HBM4 enters Nvidia's next platform - digitimes",
+    "quote": "SK Hynix tests HBM5 with TSMC as HBM4 enters Nvidia's next platform digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWdxNDRkWjI1Qy1fN0F0SjJkU19RYmNBN2VQdm5oRXIzVHRPT0hNZ2w2bkgyaEllamd2b2I4UzlSYUFNTHJ4X21sTHduTVdSQzFONG91N25FaU9nSWNGS2JJX1dNbUZxRTcwSUNPYkVHZXhJUUJBZUxKcXZwOXpKR05qUXdBbTJKX25CS2g0TQ?oc=5",
+    "layer_ids": [
+      "hbm",
+      "foundry"
+    ],
+    "tickers": [
+      "000660.KS"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-0f7cd9f746190c55",
+    "date": "2026-09-29",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC helps VSMC build first Singapore fab in 22 months at lower cost than US - digitimes",
+    "quote": "TSMC helps VSMC build first Singapore fab in 22 months at lower cost than US digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY0gzdjRtUjRUck54R3Y3YWNyM2phblVRQmV0WW1SaGlWb0ZsTjdEdEk3LUJ4RlhnV3hpQVg4NnhqYW96RFJuY2t1U1ZBUkFiUGYwOUluOGJjUE9TajVBNkxsWHp4SEljVG5Ndkp6bnNHZjVXTUdPOXpsQkpBVEptRVR1VFI0R3Z1b2FfdWJB?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-b88812c62d4da5f8",
     "date": "2026-09-29",
     "source": "DigiTimes",
@@ -28,20 +59,32 @@
     "arch_risk": false
   },
   {
-    "id": "rss-b65b983a6939faf9",
+    "id": "rss-494ceb7ec1c0435e",
     "date": "2026-09-29",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "SK Hynix tests HBM5 with TSMC as HBM4 enters Nvidia's next platform - digitimes",
-    "quote": "SK Hynix tests HBM5 with TSMC as HBM4 enters Nvidia's next platform digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWdxNDRkWjI1Qy1fN0F0SjJkU19RYmNBN2VQdm5oRXIzVHRPT0hNZ2w2bkgyaEllamd2b2I4UzlSYUFNTHJ4X21sTHduTVdSQzFONG91N25FaU9nSWNGS2JJX1dNbUZxRTcwSUNPYkVHZXhJUUJBZUxKcXZwOXpKR05qUXdBbTJKX25CS2g0TQ?oc=5",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Why Advanced Chip Packaging Is Becoming a Design Problem",
+    "quote": "As chipmakers put more computing power into a single system, the challenge extends beyond making individual chips faster. They must connect multiple chips, memory stacks, power supplies, and sometimes optical components in a compact package. In the2026 TSMC OIP Forum talk “ Addressing Inter-Die Complexity for 3D Multi-Die … Read More The post Why Advanced Chip Packaging Is Becoming a Design Problem appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/374150-why-advanced-chip-packaging-is-becoming-a-design-problem/",
     "layer_ids": [
-      "hbm",
       "foundry"
     ],
-    "tickers": [
-      "000660.KS"
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a35b1d09c2a2dc47",
+    "date": "2026-09-29",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Managing Power, Performance and Reliability in the Chiplet Era",
+    "quote": "Next-gen AI accelerators, high-performance processors, and complex computing architectures depend heavily on advanced packaging. Bringing multiple dies, chiplets, high-bandwidth memory, and advanced interconnects together into a single 2.5D or 3D package yields massive performance gains. However, this design evolution… Read More The post Managing Power, Performance and Reliability in the Chiplet Era appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/3dic/374001-managing-power-performance-and-reliability-in-the-chiplet-era/",
+    "layer_ids": [
+      "packaging",
+      "hbm"
     ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -103,34 +146,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-e5935cb298a69879",
-    "date": "2026-09-28",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "TSMC OIP Ecosystem Forum 2026: Opening Remarks",
-    "quote": "The 2026 TSMC Open Innovation Platform (OIP) Ecosystem Forum was held on September 23, 2026, in Santa Clara, CA. This is the event where TSMC showcases the substantial progress made with its massive semiconductor ecosystem. As one would expect, AI was a key topic throughout the day, with some very impressive results reported and… Read More The post TSMC OIP Ecosystem Forum 2026: Opening Remarks appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/374143-tsmc-oip-ecosystem-forum-2026-opening-remarks/",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b68c87537c02380a",
-    "date": "2026-09-28",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "LLM-assisted schematic test-report analysis and root-cause investigation",
-    "quote": "By Piyush Bag Intro: In this AI era, building data centers has become crucial not just for hyperscalers, but for many companies as well, as they build the infrastructure for AI. At a high level, a data center includes compute, storage, networking, and other infrastructure. This article is about the design lifecycle of network hardware.… Read More The post LLM-assisted schematic test-report analysis and root-cause investigation appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/artificial-intelligence/373932-llm-assisted-schematic-test-report-analysis-and-root-cause-investigation/",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-5aeedcce1dc3baf3",
     "date": "2026-09-25",
     "source": "Utility Dive",
@@ -183,34 +198,6 @@
     "headline": "Qualcomm sticks with TSMC for both 2nm Snapdragon flagships as Samsung steps up foundry push - digitimes",
     "quote": "Qualcomm sticks with TSMC for both 2nm Snapdragon flagships as Samsung steps up foundry push digitimes",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdFBTdkc1Y1lmQ053bDNLNTZXRjhEMWZRZkhKbW1tU09RNUdrdXJyX2FmcnFtVGNJVzVWRzNwcDAyOTVVVkVFclFJZEZXdjhybjZJdjJLWEJwZEMtX2Y1cC03cmxZQUh6eXhmbFJ0cU8waHV6SHkyZ2VGblAyNHJodlFzMUdWb3M5LVplalFTUXo?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-6475d3f2d510c399",
-    "date": "2026-09-24",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "States sue Trump administration, developers over offshore wind lease buyouts",
-    "quote": "Attorneys general from California and a coalition of Northeastern states accused the federal government of violating several laws and the developers of colluding with the administration.",
-    "url": "https://www.utilitydive.com/news/states-sue-trump-administration-developers-over-offshore-wind-lease-buyout/831279/",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-3ba26a35daea75d2",
-    "date": "2026-09-19",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Charts: Taiwan's memory makers are outgrowing TSMC by a factor of eight - digitimes",
-    "quote": "Charts: Taiwan's memory makers are outgrowing TSMC by a factor of eight digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWTMyRmhoT1FDUEo1NjJYYmR6RTlpNXU2STVkaGw3TWRCOVNpY0VoZWxDOTJoRE53dWNOV29FcmRKOWJlZjBOemxaN1BGQUFod0lueWNxNF8yZkNUQ3h4cWR5eFlqU3BHV21ZRk5DcEJnVUFFT3RVWDVURnpjUDhNNnh2R2FDWWFVWWVNWXNCLThyeXk2X29PRjdXbWRTVjhFa0E?oc=5",
     "layer_ids": [
       "foundry"
     ],

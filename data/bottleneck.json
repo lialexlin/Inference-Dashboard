@@ -1,7 +1,7 @@
 {
   "hbm": {
     "tightness_score": 23,
-    "signal_count_90d": 2,
+    "signal_count_90d": 1,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -12,11 +12,11 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "foundry": {
     "tightness_score": 57,
-    "signal_count_90d": 21,
+    "signal_count_90d": 23,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -27,20 +27,20 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "packaging": {
-    "tightness_score": 27,
-    "signal_count_90d": 11,
+    "tightness_score": 19,
+    "signal_count_90d": 9,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.667,
+      "density_pct": 0.467,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "wfe": {
     "tightness_score": 8,
@@ -53,11 +53,11 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "gpu": {
     "tightness_score": 52,
-    "signal_count_90d": 12,
+    "signal_count_90d": 14,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -68,7 +68,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "networking": {
     "tightness_score": 27,
@@ -81,7 +81,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "optics": {
     "tightness_score": 39,
@@ -96,7 +96,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "switches": {
     "tightness_score": 39,
@@ -111,11 +111,11 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "power": {
     "tightness_score": 35,
-    "signal_count_90d": 20,
+    "signal_count_90d": 19,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -124,46 +124,46 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "cooling": {
-    "tightness_score": 8,
-    "signal_count_90d": 6,
+    "tightness_score": 13,
+    "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.2,
+      "density_pct": 0.333,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "hyperscalers": {
-    "tightness_score": 24,
-    "signal_count_90d": 10,
+    "tightness_score": 27,
+    "signal_count_90d": 11,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.6,
+      "density_pct": 0.667,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "neoclouds": {
-    "tightness_score": 3,
+    "tightness_score": 5,
     "signal_count_90d": 2,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.067,
+      "density_pct": 0.133,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "software": {
     "tightness_score": 16,
@@ -176,7 +176,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "eda": {
     "tightness_score": 8,
@@ -189,7 +189,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -202,6 +202,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-09-30T15:34:56.283213+00:00"
+    "updated_at": "2026-10-01T01:11:49.404379+00:00"
   }
 }

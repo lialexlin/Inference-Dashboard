@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-10-04T00:24:01.393314+00:00",
+  "last_refresh_at": "2026-10-04T14:33:39.644979+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-10-04T00:24:39.741327+00:00"
+      "ts": "2026-10-04T14:34:11.967981+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-10-04T00:24:44.687632+00:00"
+      "ts": "2026-10-04T14:34:16.534551+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 29,
       "errors": {},
-      "ts": "2026-10-04T00:24:54.954334+00:00"
+      "ts": "2026-10-04T14:34:25.719154+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [5ecd5240-14db-4a3a-9e62-886505075eb1]"
+        "__connection__": "390102 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [ae044a94-1bef-41f6-a117-2b353c9bc776]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-10-04T00:24:02.911340+00:00"
+      "ts": "2026-10-04T14:33:40.993934+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-10-04T00:27:06.284659+00:00"
+      "ts": "2026-10-04T14:36:33.114067+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -63,17 +63,17 @@
         },
         {
           "layer_id": "packaging",
-          "tightness_score": 51
+          "tightness_score": 48
         }
       ],
-      "ts": "2026-10-04T00:27:06.274163+00:00"
+      "ts": "2026-10-04T14:36:33.105363+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 52,
       "latest_date": "2026-10-03",
-      "latest_total_tokens_b": 133260.721,
-      "ts": "2026-10-04T00:27:06.266467+00:00"
+      "latest_total_tokens_b": 133260.749,
+      "ts": "2026-10-04T14:36:33.098446+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-10-04T00:27:06.287298+00:00"
+      "ts": "2026-10-04T14:36:33.116503+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-10-04T00:27:04.691513+00:00"
+      "ts": "2026-10-04T14:36:31.859441+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-10-04T00:27:05.303798+00:00"
+      "ts": "2026-10-04T14:36:32.373781+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-10-04T00:27:06.271677+00:00"
+      "ts": "2026-10-04T14:36:33.103285+00:00"
     },
     "tw_universe": {
-      "ok": 0,
-      "errors": {
-        "__stage__": "Remote end closed connection without response"
-      },
-      "ts": "2026-10-04T00:32:16.095061+00:00"
+      "ok": 1954,
+      "stock_count": 1954,
+      "sector_count": 71,
+      "latest_date": "2026-10-02",
+      "ts": "2026-10-04T14:37:56.711241+00:00"
     },
     "us_universe": {
       "ok": 956,
       "stock_count": 956,
       "sector_count": 77,
       "latest_date": "2026-10-02",
-      "ts": "2026-10-04T00:33:35.214184+00:00"
+      "ts": "2026-10-04T14:39:15.402590+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 310,
-    "total": 336
+    "discovered_kept": 305,
+    "total": 331
   }
 }

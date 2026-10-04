@@ -12,12 +12,12 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "foundry": {
     "tightness_score": 89,
-    "signal_count_90d": 21,
-    "tightness_language_hits_per_signal": 0.048,
+    "signal_count_90d": 19,
+    "tightness_language_hits_per_signal": 0.053,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "TSMC 3nm, 2nm, and CoWoS stay tight as AWS, MediaTek, TPU shift capacity digitimes",
@@ -28,35 +28,35 @@
       "language_pct": 0.867,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "packaging": {
-    "tightness_score": 51,
-    "signal_count_90d": 8,
-    "tightness_language_hits_per_signal": 0.125,
+    "tightness_score": 48,
+    "signal_count_90d": 7,
+    "tightness_language_hits_per_signal": 0.143,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "TSMC 3nm, 2nm, and CoWoS stay tight as AWS, MediaTek, TPU shift capacity digitimes"
     ],
     "components": {
-      "density_pct": 0.333,
+      "density_pct": 0.267,
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "wfe": {
-    "tightness_score": 21,
-    "signal_count_90d": 9,
+    "tightness_score": 11,
+    "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.533,
+      "density_pct": 0.267,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "gpu": {
     "tightness_score": 52,
@@ -71,7 +71,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "networking": {
     "tightness_score": 27,
@@ -84,10 +84,10 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "optics": {
-    "tightness_score": 33,
+    "tightness_score": 39,
     "signal_count_90d": 8,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
@@ -95,14 +95,14 @@
       "[LITE] Supply-tightness language present in both latest filings"
     ],
     "components": {
-      "density_pct": 0.333,
+      "density_pct": 0.467,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "switches": {
-    "tightness_score": 33,
+    "tightness_score": 39,
     "signal_count_90d": 8,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
@@ -110,24 +110,24 @@
       "[HPE] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.333,
+      "density_pct": 0.467,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "power": {
-    "tightness_score": 35,
+    "tightness_score": 37,
     "signal_count_90d": 21,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.867,
+      "density_pct": 0.933,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "cooling": {
     "tightness_score": 11,
@@ -140,7 +140,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "hyperscalers": {
     "tightness_score": 29,
@@ -153,7 +153,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "neoclouds": {
     "tightness_score": 3,
@@ -166,24 +166,24 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "software": {
-    "tightness_score": 21,
+    "tightness_score": 24,
     "signal_count_90d": 9,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.533,
+      "density_pct": 0.6,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "eda": {
     "tightness_score": 8,
-    "signal_count_90d": 5,
+    "signal_count_90d": 4,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -192,7 +192,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -205,6 +205,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-04T00:27:06.271984+00:00"
+    "updated_at": "2026-10-04T14:36:33.103501+00:00"
   }
 }

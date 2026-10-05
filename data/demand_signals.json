@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-05T00:36:02.393964+00:00",
+  "as_of": "2026-10-05T17:46:48.323645+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -3644,11 +3644,11 @@
     },
     {
       "date": "2026-10-04",
-      "total_tokens_b": 135438.17,
-      "total_prompt_tokens_b": 132049.24,
-      "total_completion_tokens_b": 3388.93,
+      "total_tokens_b": 135438.195,
+      "total_prompt_tokens_b": 132049.244,
+      "total_completion_tokens_b": 3388.951,
       "total_reasoning_tokens_b": 0.0,
-      "total_requests": 4253731529,
+      "total_requests": 4253731666,
       "top_models": [
         {
           "model": "stealth/space-bunny-alpha",
@@ -3664,33 +3664,33 @@
         },
         {
           "model": "z-ai/glm-5.3-flash-20260826",
-          "tokens_b": 9733.198,
+          "tokens_b": 9733.199,
           "share": 0.0719,
-          "requests": 309464332
+          "requests": 309464341
         },
         {
           "model": "xiaomi/mimo-v2.6-flash-20260921",
           "tokens_b": 9625.491,
           "share": 0.0711,
-          "requests": 116383387
+          "requests": 116383388
         },
         {
           "model": "tencent/hy4-preview-20260827",
-          "tokens_b": 6509.708,
+          "tokens_b": 6509.715,
           "share": 0.0481,
-          "requests": 56965537
+          "requests": 56965602
         },
         {
           "model": "openai/gpt-6-luna-20260922",
-          "tokens_b": 6180.526,
+          "tokens_b": 6180.527,
           "share": 0.0456,
-          "requests": 264376804
+          "requests": 264376807
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260731",
-          "tokens_b": 5990.763,
+          "tokens_b": 5990.764,
           "share": 0.0442,
-          "requests": 421509929
+          "requests": 421509931
         },
         {
           "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
@@ -3706,17 +3706,17 @@
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260423",
-          "tokens_b": 3226.806,
+          "tokens_b": 3226.807,
           "share": 0.0238,
-          "requests": 376377649
+          "requests": 376377654
         }
       ]
     }
   ],
   "summary": {
     "latest_date": "2026-10-04",
-    "latest_total_tokens_b": 135438.17,
-    "latest_total_requests": 4253731529,
+    "latest_total_tokens_b": 135438.195,
+    "latest_total_requests": 4253731666,
     "dod_pct": 0.0163,
     "wow_pct": 0.1886,
     "top_movers_wow": [

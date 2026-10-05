@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-10-04T14:33:39.644979+00:00",
+  "last_refresh_at": "2026-10-05T00:33:11.093700+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-10-04T14:34:11.967981+00:00"
+      "ts": "2026-10-05T00:33:39.885295+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-10-04T14:34:16.534551+00:00"
+      "ts": "2026-10-05T00:33:43.635637+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 29,
       "errors": {},
-      "ts": "2026-10-04T14:34:25.719154+00:00"
+      "ts": "2026-10-05T00:33:52.307671+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390102 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [ae044a94-1bef-41f6-a117-2b353c9bc776]"
+        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [d4fc3a8f-7d53-4a14-8cff-0ab103105606]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-10-04T14:33:40.993934+00:00"
+      "ts": "2026-10-05T00:33:12.692483+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-10-04T14:36:33.114067+00:00"
+      "ts": "2026-10-05T00:36:02.411992+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -66,14 +66,14 @@
           "tightness_score": 48
         }
       ],
-      "ts": "2026-10-04T14:36:33.105363+00:00"
+      "ts": "2026-10-05T00:36:02.404191+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 52,
-      "latest_date": "2026-10-03",
-      "latest_total_tokens_b": 133260.749,
-      "ts": "2026-10-04T14:36:33.098446+00:00"
+      "daily_rows": 53,
+      "latest_date": "2026-10-04",
+      "latest_total_tokens_b": 135438.17,
+      "ts": "2026-10-05T00:36:02.397968+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-10-04T14:36:33.116503+00:00"
+      "ts": "2026-10-05T00:36:02.414144+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-10-04T14:36:31.859441+00:00"
+      "ts": "2026-10-05T00:36:01.277647+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-10-04T14:36:32.373781+00:00"
+      "ts": "2026-10-05T00:36:01.779402+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-10-04T14:36:33.103285+00:00"
+      "ts": "2026-10-05T00:36:02.402358+00:00"
     },
     "tw_universe": {
       "ok": 1954,
       "stock_count": 1954,
       "sector_count": 71,
       "latest_date": "2026-10-02",
-      "ts": "2026-10-04T14:37:56.711241+00:00"
+      "ts": "2026-10-05T00:37:17.083849+00:00"
     },
     "us_universe": {
       "ok": 956,
       "stock_count": 956,
       "sector_count": 77,
       "latest_date": "2026-10-02",
-      "ts": "2026-10-04T14:39:15.402590+00:00"
+      "ts": "2026-10-05T00:38:18.469912+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 305,
-    "total": 331
+    "discovered_kept": 306,
+    "total": 332
   }
 }

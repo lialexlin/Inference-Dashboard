@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-07T01:18:42.005593+00:00",
+  "as_of": "2026-10-07T16:03:59.169359+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -3784,23 +3784,23 @@
     },
     {
       "date": "2026-10-06",
-      "total_tokens_b": 100426.699,
-      "total_prompt_tokens_b": 97963.442,
-      "total_completion_tokens_b": 2463.257,
+      "total_tokens_b": 100426.708,
+      "total_prompt_tokens_b": 97963.443,
+      "total_completion_tokens_b": 2463.265,
       "total_reasoning_tokens_b": 0.0,
-      "total_requests": 3888653835,
+      "total_requests": 3888653892,
       "top_models": [
         {
           "model": "deepseek/deepseek-v4.1-flash-20260910",
           "tokens_b": 29575.738,
           "share": 0.2945,
-          "requests": 501780971
+          "requests": 501780972
         },
         {
           "model": "z-ai/glm-5.3-flash-20260826",
-          "tokens_b": 10189.093,
+          "tokens_b": 10189.098,
           "share": 0.1015,
-          "requests": 518124655
+          "requests": 518124670
         },
         {
           "model": "xiaomi/mimo-v2.6-flash-20260921",
@@ -3816,15 +3816,15 @@
         },
         {
           "model": "tencent/hy4-preview-20260827",
-          "tokens_b": 6418.204,
+          "tokens_b": 6418.205,
           "share": 0.0639,
-          "requests": 55945422
+          "requests": 55945430
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260731",
-          "tokens_b": 5787.944,
+          "tokens_b": 5787.945,
           "share": 0.0576,
-          "requests": 406222442
+          "requests": 406222456
         },
         {
           "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
@@ -3840,9 +3840,9 @@
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260423",
-          "tokens_b": 3227.244,
+          "tokens_b": 3227.246,
           "share": 0.0321,
-          "requests": 380517533
+          "requests": 380517552
         },
         {
           "model": "z-ai/glm-5.3-20260816",
@@ -3855,8 +3855,8 @@
   ],
   "summary": {
     "latest_date": "2026-10-06",
-    "latest_total_tokens_b": 100426.699,
-    "latest_total_requests": 3888653835,
+    "latest_total_tokens_b": 100426.708,
+    "latest_total_requests": 3888653892,
     "dod_pct": -0.2683,
     "wow_pct": -0.1748,
     "top_movers_wow": [

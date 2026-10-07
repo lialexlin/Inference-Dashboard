@@ -1,6 +1,6 @@
 # Inference Dashboard
 
-What it is, how to run it, what is out of scope: `README.md`. Rules below bind any session here, whatever the task.
+Personal investing dashboard mapping the AI inference scaling stack: its layers, the tickers in each, and live bottleneck signals. A research dashboard, not a brokerage UI: no portfolio tracking, intraday prices, auth or backtests. Running it: skill `run-inference-dashboard`. Rules below bind any session here, whatever the task.
 
 - `data/*.json` is generated — never hand-edit. Two files in it are user-curated and must survive any regeneration: `data/manual_estimates.json`, `data/exit_triggers_manual.json`.
 - `data/transcripts/*.json` is immutable once written. `call_id` is the upstream provider's key, so a rewrite means the provider changed, not that we should overwrite.

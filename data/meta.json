@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-10-06T15:39:06.761732+00:00",
+  "last_refresh_at": "2026-10-07T01:15:42.118209+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-10-06T15:39:44.530224+00:00"
+      "ts": "2026-10-07T01:16:20.931268+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-10-06T15:39:49.879718+00:00"
+      "ts": "2026-10-07T01:16:25.744404+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 29,
       "errors": {},
-      "ts": "2026-10-06T15:39:57.326820+00:00"
+      "ts": "2026-10-07T01:16:35.239829+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Incorrect username or password was specified. [1068a58e-e1c1-4518-ad55-c5cbed85c105]"
+        "__connection__": "390102 (08001): None: Failed to connect to DB: spglobalxpresscloud-xf_reader_axiomasia.snowflakecomputing.com:443. Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [43c14249-8ef2-48f8-82cb-054b746670be]"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-10-06T15:39:08.406502+00:00"
+      "ts": "2026-10-07T01:15:44.332716+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-10-06T15:46:54.559586+00:00"
+      "ts": "2026-10-07T01:18:42.028543+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -66,25 +66,25 @@
           "tightness_score": 39
         }
       ],
-      "ts": "2026-10-06T15:46:54.549642+00:00"
+      "ts": "2026-10-07T01:18:42.018159+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 54,
-      "latest_date": "2026-10-05",
-      "latest_total_tokens_b": 137250.427,
-      "ts": "2026-10-06T15:46:54.542352+00:00"
+      "daily_rows": 55,
+      "latest_date": "2026-10-06",
+      "latest_total_tokens_b": 100426.699,
+      "ts": "2026-10-07T01:18:42.010441+00:00"
     },
     "exit_triggers": {
       "ok": 1,
-      "overall": "green",
+      "overall": "red",
       "states": {
-        "token_growth": "green",
+        "token_growth": "red",
         "hyperscaler_capex": "green",
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-10-06T15:46:54.562226+00:00"
+      "ts": "2026-10-07T01:18:42.031322+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -110,34 +110,34 @@
         "8046.TW"
       ],
       "errors": {
-        "MU": "http 500",
-        "TSM": "http 500",
-        "INTC": "http 500",
-        "GFS": "http 500",
-        "ASX": "http 500",
-        "AMKR": "http 500",
-        "ASML": "http 500",
-        "AMAT": "http 500",
-        "LRCX": "http 500",
-        "KLAC": "http 500",
-        "NVDA": "http 500",
-        "AMD": "http 500",
-        "AVGO": "http 500",
-        "MRVL": "http 500",
-        "GOOGL": "http 500",
-        "LITE": "http 500",
-        "COHR": "http 500",
-        "FN": "http 500",
-        "MXL": "http 500",
-        "ANET": "http 500",
-        "CSCO": "http 500",
-        "HPE": "http 500",
-        "CLS": "http 500",
-        "GEV": "http 500",
-        "ETN": "http 500",
-        "VRT": "http 500",
-        "GNRC": "http 500",
-        "HUBB": "http 500",
+        "MU": "http 301",
+        "TSM": "not found on earningscalls.dev",
+        "INTC": "http 301",
+        "GFS": "http 301",
+        "ASX": "http 301",
+        "AMKR": "http 301",
+        "ASML": "http 301",
+        "AMAT": "http 301",
+        "LRCX": "http 301",
+        "KLAC": "http 301",
+        "NVDA": "http 301",
+        "AMD": "http 301",
+        "AVGO": "http 301",
+        "MRVL": "http 301",
+        "GOOGL": "http 301",
+        "LITE": "http 301",
+        "COHR": "http 301",
+        "FN": "http 301",
+        "MXL": "http 301",
+        "ANET": "http 301",
+        "CSCO": "http 301",
+        "HPE": "http 301",
+        "CLS": "http 301",
+        "GEV": "http 301",
+        "ETN": "http 301",
+        "VRT": "http 301",
+        "GNRC": "http 301",
+        "HUBB": "http 301",
         "PWR": "http 301",
         "CEG": "http 301",
         "OKLO": "http 301",
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-10-06T15:46:53.174273+00:00"
+      "ts": "2026-10-07T01:18:40.597082+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,27 +172,27 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-10-06T15:46:53.776871+00:00"
+      "ts": "2026-10-07T01:18:41.231273+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-10-06T15:46:54.547496+00:00"
+      "ts": "2026-10-07T01:18:42.015852+00:00"
     },
     "tw_universe": {
       "ok": 1952,
       "stock_count": 1952,
       "sector_count": 71,
       "latest_date": "2026-10-06",
-      "ts": "2026-10-06T15:48:45.568116+00:00"
+      "ts": "2026-10-07T01:21:43.653099+00:00"
     },
     "us_universe": {
       "ok": 964,
       "stock_count": 964,
       "sector_count": 77,
       "latest_date": "2026-10-06",
-      "ts": "2026-10-06T15:49:50.199038+00:00"
+      "ts": "2026-10-07T01:23:06.133407+00:00"
     }
   },
   "signals": {

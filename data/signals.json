@@ -1,5 +1,19 @@
 [
   {
+    "id": "rss-9214eda7f8ba86d6",
+    "date": "2026-10-06",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "TSMC and other Taiwan players boost AI spending in US, Southeast Asia - Nikkei Asia",
+    "quote": "TSMC and other Taiwan players boost AI spending in US, Southeast Asia Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLXR5ejI4QTdlcWtiZ3FRSG5MM0JLd3ktSmV2alpiSGdtRl9XWV9TdFdVNlMzUHQtTjJkdUlUNkpVR2c5cHkwTEpDajFqOGN5a09OeDNfM3FUeWwyS08xcnBpbG8xWndEZWhCZzZRTnNTSkhISllXSWtFMXVZcUEtYVNPUVRHeGlVOEJ3QkgtY3EzU1VnU3F6ZkNsSzVvZU5XVmgwdFBITTQ4UzlsbEcyQzdGMVlEaFJ6?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-af2447a8a7a71f93",
     "date": "2026-10-06",
     "source": "DigiTimes",
@@ -23,6 +37,66 @@
     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY09abGxiTXlNZm5oaWJnYjcwZnZSSkNCSW12WTctbE4zLWVvV0E3amlPMEtwbVZMQVAzZ1dKZlZHZk1Sb3I1cmxOMTVaSFVTdGp5VFdYWGZxM014SW90bUU0WDZwc01YNncwNHZPdzBTbTVkUjk2Nlpuc0xuemNwX3dlVWdob3o3SHc?oc=5",
     "layer_ids": [
       "packaging",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-f3443aa6e7e2a894",
+    "date": "2026-10-06",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Gigabyte W775-V10-L01 Hands-on Bringing NVIDIA GB300 Deskside",
+    "quote": "We test the Gigabyte W775-V10-L01, including getting over 2.2B tokens/ day on the Blackwell Ultra GPU, 800Gbps from the ConnectX-8 SuperNIC, and testing the NVIDIA Grace CPU with the C2C link between it and the GPU The post Gigabyte W775-V10-L01 Hands-on Bringing NVIDIA GB300 Deskside appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/gigabyte-w775-v10-l01-hands-on-bringing-nvidia-gb300-deskside/",
+    "layer_ids": [
+      "gpu",
+      "networking"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-5b3cb0f79b25308d",
+    "date": "2026-10-06",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "DOE intends to loan Vistra $4.2B for nuclear fleet improvements",
+    "quote": "The loan would cover 433 MW of uprates at Vistra’s nuclear plants and preserve around 4 GW of existing capacity to help meet growing demand in the PJM region, said the U.S. Department of Energy.",
+    "url": "https://www.utilitydive.com/news/doe-intends-to-loan-vistra-42b-for-nuclear-fleet-improvements/832236/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-828477646abbfac8",
+    "date": "2026-10-06",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Constellation, Google strike 890-MW nuclear deal in PJM",
+    "quote": "Constellation Energy has signed 20-year power purchase agreements with both Google and Amazon in the last week, supporting almost 1.1 GW of nuclear expansions.",
+    "url": "https://www.utilitydive.com/news/constellation-google-deal-will-bring-890-mw-of-new-nuclear-to-pjm/832223/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "CEG"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-58f5875e248d3204",
+    "date": "2026-10-06",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Beyond the Die: Verifying the Connected Chip",
+    "quote": "One of the standout presentations at the 2026 TSMC OIP Forum highlighted a collaboration between Siemens EDA, Marvell, and TSMC. I always appreciate EDA presentations that bring together customer and foundry perspectives, and this one did not disappoint. We follow 3D IC technology closely and have published more than 150 blogs… Read More The post Beyond the Die: Verifying the Connected Chip appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/siemens-eda/374270-beyond-the-die-verifying-the-connected-chip/",
+    "layer_ids": [
+      "eda",
       "foundry"
     ],
     "tickers": [],
@@ -54,20 +128,6 @@
     "headline": "Amazon, Constellation sign 20-year PPA to expand Maryland nuclear plant",
     "quote": "The tech giant and energy producer are backing improvements and renovations at the 1,790-MW Calvert Cliffs Clean Energy Center, the state’s largest source of clean energy.",
     "url": "https://www.utilitydive.com/news/amazon-constellation-sign-20-year-ppa-to-expand-maryland-nuclear-plant/832145/",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-8897cb0ed4c2002f",
-    "date": "2026-10-05",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Maximizing efficiency: How commissioning and retro-commissioning facilities can strengthen grid resiliency",
-    "quote": "Utilities turn to onsite power as demand outpaces grid capacity.",
-    "url": "https://www.utilitydive.com/spons/maximizing-efficiency-how-commissioning-and-retro-commissioning-facilities/831731/",
     "layer_ids": [
       "power"
     ],
@@ -173,34 +233,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-6bebc4dccceda389",
-    "date": "2026-10-02",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Cities, states sue EPA over power plant emissions rollback",
-    "quote": "Chicago, Denver and New York City joined multistate lawsuits challenging the agency’s move to end greenhouse gas emissions standards and failure to enforce requirements on existing gas-fired plants.",
-    "url": "https://www.utilitydive.com/news/cities-states-sue-epa-over-power-plant-emissions-rollback/832016/",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-917bc1a3b3bee825",
-    "date": "2026-10-02",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "FERC rejects TransAlta 202(c) cost-recovery plan for Centralia unit",
-    "quote": "Only utilities in the Northwest should pay the nearly $20 million in expenses for a 90-day order covering the Centralia unit, and despite the unit’s lack of output, payment is due, the agency said.",
-    "url": "https://www.utilitydive.com/news/ferc-transalta-202c-cost-recovery-centralia/832001/",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-2b0f6b6b2f2af07c",
     "date": "2026-10-01",
     "source": "Nikkei Asia",
@@ -215,13 +247,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-0b9aa957f5f59566",
+    "id": "rss-06e490013cc24cb9",
     "date": "2026-10-01",
     "source": "DigiTimes",
     "source_type": "industry",
     "headline": "How a TSMC veteran is steering Singapore's lab-to-fab chip strategy - digitimes",
     "quote": "How a TSMC veteran is steering Singapore's lab-to-fab chip strategy digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUUtJaTNCUlJYSm02cjVFdnlDN3ZVLUZFV3pqaktUR3ktRDBLQVFWMnA3dW42WFNTWHdoMENhb2FOaHhJVlpGVlJnNHBwOWUxdGR0aDBpZW1OSXFXWXNxLURONmF5aHE4QjhOMGZaYk1uOW5lQ3pMNkE1UmgxaGd1Y01lRFJvRFJEYTBGVnhpX2FYYUxjQnJJbEplSzVnMzdqYmc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMkNsbWFXWEFZOW5kNFZoQkdSSnhJNHdZS0JQaEV1djJLOVNrREZhOGtwbGZFRXNEWnVxUS1CLWViekItSnFrUG9PUjNrU01CYU4yUVlhWTYtOE5YdjRRYXFLWXdqVGQzMWJVZG5oS3FVSWlrZkFfMWthSzhzRllnOERQT2dlVkEzRVhmWGFPWVdMWDVtS2xIZ3ZWS3EzVjlF?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -271,39 +303,6 @@
       "foundry"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ed8ff9f6eaf664ae",
-    "date": "2026-09-30",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "Gigabyte TRX50 AERO D Motherboard Review",
-    "quote": "Today we are taking a look at Gigabyte's TRX50 AERO D motherboard. Aimed at the high-end desktop market, Gigabyte has designed the AERO D to be a basic but effective pairing for AMD's Threadripper 9000 processors The post Gigabyte TRX50 AERO D Motherboard Review appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/gigabyte-trx50-aero-d-motherboard-review/",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b65b983a6939faf9",
-    "date": "2026-09-29",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "SK Hynix tests HBM5 with TSMC as HBM4 enters Nvidia's next platform - digitimes",
-    "quote": "SK Hynix tests HBM5 with TSMC as HBM4 enters Nvidia's next platform digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNWdxNDRkWjI1Qy1fN0F0SjJkU19RYmNBN2VQdm5oRXIzVHRPT0hNZ2w2bkgyaEllamd2b2I4UzlSYUFNTHJ4X21sTHduTVdSQzFONG91N25FaU9nSWNGS2JJX1dNbUZxRTcwSUNPYkVHZXhJUUJBZUxKcXZwOXpKR05qUXdBbTJKX25CS2g0TQ?oc=5",
-    "layer_ids": [
-      "hbm",
-      "foundry"
-    ],
-    "tickers": [
-      "000660.KS"
-    ],
     "arch_risk": false
   },
   {

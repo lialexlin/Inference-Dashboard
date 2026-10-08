@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-08T01:40:06.470912+00:00",
+  "as_of": "2026-10-08T16:07:20.358371+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -3854,11 +3854,11 @@
     },
     {
       "date": "2026-10-07",
-      "total_tokens_b": 105518.445,
-      "total_prompt_tokens_b": 103005.61,
-      "total_completion_tokens_b": 2512.835,
+      "total_tokens_b": 105518.466,
+      "total_prompt_tokens_b": 103005.612,
+      "total_completion_tokens_b": 2512.854,
       "total_reasoning_tokens_b": 0.0,
-      "total_requests": 3968975477,
+      "total_requests": 3968975559,
       "top_models": [
         {
           "model": "deepseek/deepseek-v4.1-flash-20260910",
@@ -3868,9 +3868,9 @@
         },
         {
           "model": "z-ai/glm-5.3-flash-20260826",
-          "tokens_b": 10491.551,
+          "tokens_b": 10491.552,
           "share": 0.0994,
-          "requests": 543663166
+          "requests": 543663169
         },
         {
           "model": "xiaomi/mimo-v2.6-flash-20260921",
@@ -3898,9 +3898,9 @@
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260731",
-          "tokens_b": 5533.228,
+          "tokens_b": 5533.23,
           "share": 0.0524,
-          "requests": 403025998
+          "requests": 403026008
         },
         {
           "model": "anthropic/claude-opus-5.5-20260921",
@@ -3916,17 +3916,17 @@
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260423",
-          "tokens_b": 3208.766,
+          "tokens_b": 3208.783,
           "share": 0.0304,
-          "requests": 377912243
+          "requests": 377912306
         }
       ]
     }
   ],
   "summary": {
     "latest_date": "2026-10-07",
-    "latest_total_tokens_b": 105518.445,
-    "latest_total_requests": 3968975477,
+    "latest_total_tokens_b": 105518.466,
+    "latest_total_requests": 3968975559,
     "dod_pct": 0.0507,
     "wow_pct": -0.1686,
     "top_movers_wow": [

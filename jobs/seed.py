@@ -856,8 +856,8 @@ Every CoWoS package needs an FC-BGA substrate, and every AI server needs FC-BGA 
 
 # Manual overrides for tickers that don't resolve cleanly via name search.
 # Set to None to explicitly skip a ticker (e.g. delisted, wrong-name overlap).
-# Add an integer companyId to override the resolver. Look up via the skill at
-# ../Exponential-Growth/.claude/skills/s&p/SKILL.md (find_company helper).
+# Add an integer companyId to override the resolver. Look it up with find_company
+# in the sp-capiq skill (axiom-plugins lab plugin).
 CIQ_OVERRIDES: dict[str, int | None] = {
     "6967.T": None,     # Shinko Electric — being taken private by JIC; CIQ data stale anyway
     "ATS.VI": 2444485,  # AT&S Austria Technologie & Systemtechnik AG (special char in name foils resolver)

@@ -15,7 +15,7 @@ The generated JSON is the contract; the frontend has no build step.
 **A player ticker** — all four, in order:
 1. `PLAYERS` in `jobs/seed.py`. Set `country`: it derives the CIQ reporting currency, and the ticker suffix does not. TSM and ASML are ADRs reporting in TWD and EUR.
 2. US-listed → add `ticker -> CIK` to `CIK_MAP` in `jobs/sources/edgar.py`.
-3. Seed with `--refresh-ciq-mapping`. On failure add `{ticker: companyId}` to `CIQ_OVERRIDES`, or `None` to skip; find the id with `find_company` in the `s&p` skill.
+3. Seed with `--refresh-ciq-mapping`. On failure add `{ticker: companyId}` to `CIQ_OVERRIDES`, or `None` to skip; find the id with `find_company` in the `sp-capiq` skill (axiom-plugins `lab` plugin).
 4. Refresh.
 
 **A curated signal:** `SIGNALS` in `jobs/seed.py`. The `id` must not start with `rss-` or `edgar-` — reserved for discovered entries, and the prefix check is what preserves curated signals across refreshes.
@@ -37,7 +37,7 @@ Partial refreshes merge rather than overwrite: `refresh.py` reads the previous `
 | Margins, growth, returns | Capital IQ | Pre-computed and globally consistent |
 | Revenue / EBITDA / NI in USD | Capital IQ | Reporting currency from the PLAYERS `country` field |
 
-CIQ creds live in `.env`, never committed; in CI they are repo secrets. Without them the stage logs `CIQ connect failed` and the run continues on prior values. Schema reference: the `s&p` skill.
+CIQ creds live in `.env`, never committed; in CI they are repo secrets. Without them the stage logs `CIQ connect failed` and the run continues on prior values. Schema reference: the `sp-capiq` skill.
 
 ## Industry labels
 

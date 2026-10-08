@@ -10,7 +10,7 @@ Three batched queries (one round-trip each, scaled by `WHERE companyId IN (...)`
 Output JSON keys are dashboard ticker symbols (e.g., "000660.KS"). Tickers
 without a `companyId` in the mapping are silently skipped.
 
-Schema reference: ../Exponential-Growth/.claude/skills/s&p/SKILL.md
+Schema reference: the sp-capiq skill (axiom-plugins lab plugin).
 """
 from __future__ import annotations
 

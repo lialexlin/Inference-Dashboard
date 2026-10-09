@@ -1,5 +1,52 @@
 [
   {
+    "id": "rss-dea6d75ba4e757f0",
+    "date": "2026-10-09",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "GlobalFoundries wins US$2 billion TSMC interposer deal, closing a US packaging gap - digitimes",
+    "quote": "GlobalFoundries wins US$2 billion TSMC interposer deal, closing a US packaging gap digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSHpFeExFWU5CSElXenAxaHpEZDV1Qk90SEpiSU9pcXRfOEFXZUotQjc3Vk5oc1hDZjdLNWl0SUZoNlFDUDdzWUtSNFU0THVTRW1aWFozVHRPNENrRDBpY1pNLTJaUXh4ZUFERmRZQlRtVFdyazBPYUJlVU9BeE5tZEZxbDJHbWQxa2VlcmJXTXEtaWhtNkotTm11bw?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-57858eec74e223e9",
+    "date": "2026-10-09",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "TSMC 2026 OIP Ecosystem Forum Summary",
+    "quote": "TSMC’s 2026 Open Innovation Platform Forum presented artificial intelligence as the force reshaping semiconductor design. Its central argument is that faster chips will require progress across the whole system: logic, memory, packaging, interconnects, power delivery and design methods. TSMC places its partner ecosystem… Read More The post TSMC 2026 OIP Ecosystem Forum Summary appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/374104-tsmc-2026-oip-ecosystem-forum-summary/",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MU-0000723125-26-000023",
+    "accession": "0000723125-26-000023",
+    "form": "10-K",
+    "date": "2026-10-09",
+    "source": "SEC EDGAR (MU)",
+    "source_type": "filing",
+    "headline": "MU files 10-K: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "MU"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-0457e30d81873a18",
     "date": "2026-10-08",
     "source": "Nikkei Asia",
@@ -13,6 +60,34 @@
     "tickers": [
       "000660.KS"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-58f4959512fa0d64",
+    "date": "2026-10-08",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Sumitomo Bakelite to boost chip encapsulant output in China, Singapore - Nikkei Asia",
+    "quote": "Sumitomo Bakelite to boost chip encapsulant output in China, Singapore Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNYTlodzhJMTBsSG9jWUNRX0dQU1JDQTVSMjdXR1VENFhHV0RwR2ZWamg0N3BQMEtlZkRHWjN6NWlWcXFDX0E5T3BkVlhVZE5maDlTVGVlcUpiaUc1clVOQUhVZ0o3T3IyVVVJYnZ0aUxvSFRGR0pyMjlIQTFYOEZVaW82TXpDMW9hSGVrZGVaOHBraXd4dDJMV0ZwTWJmbVZxWTRSNmNzX3lyTlA4S0x0dnFyeldpOExtcnVNUmlkcw?oc=5",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-d4392efa0273a79e",
+    "date": "2026-10-08",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Synopsys looks to work with Chinese AI labs to speed up chip design - Nikkei Asia",
+    "quote": "Synopsys looks to work with Chinese AI labs to speed up chip design Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMlRhMzNhUERSSUFaeEhNQV9BajFMUnlmMGg1QmFfMVE0dGNkdlBYQUZaNDBFbEc2ZkhpNFI3THJqaDhiMDNZbmRoV0J0cnZpei1QRFFSQ3ZUYmVRZDB5Q3BCVEhGQnE3U0MwalJybXZadDJKN3p2c1k4bHJYb0JzbXNYZlRVUXAtUmFQUDJWX0Z0UDB3Q3d0NmJRTzJFbFV0Z2pWXzRUWE9LNkZhSXFzU3RhdFdBeVY0eE9fXw?oc=5",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -39,20 +114,6 @@
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOalkxWEp2VXRwNmx4TnlBTWdSY21KWnNYMGxTLWtpMWs1TWU1NkFHTm8zNVI4SnpXSFh3cFZoLWRLQWN5NW5iN19CdVRSQTRScGxLYWY4ZGZSdnZaR3FXUG94eUVZRndYTkxuejh6Tm45RERQRXY3SERmUlFGT01wNElvN1dfZzVFWWdMMWJFZ2pZdnl6?oc=5",
     "layer_ids": [
       "optics"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ae4fa3a5c62c0bf1",
-    "date": "2026-10-08",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC, Intel, and Musk's Terafab - digitimes",
-    "quote": "TSMC, Intel, and Musk's Terafab digitimes",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JVHJKZjFDNG1CLTNDMU5OeVFWS1dWN0sxUktLdU1uS2wtUnJDOE9yXzZNd1drVzYzZ3NlaDNoRDJyVUdGQ3RBQjVwWk5FWVZBc2h0TjlJVEtMNGRtZ0R5aTZILWNmaVlseW9kc19zbDJwS081bktpTnNxR1MwTXM?oc=5",
-    "layer_ids": [
-      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -198,20 +259,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-4339ab3fc81ef529",
-    "date": "2026-10-07",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "From Cloud to Silicon: IC-Link and TSMC Open the Door",
-    "quote": "Access to advanced semiconductor technology involves much more than choosing a process node. Design teams also need computing capacity, compatible tools, secure technology access, and experienced support. IC-Link by imec’s expanded collaboration with TSMC addresses that combination, potentially making sophisticated… Read More The post From Cloud to Silicon: IC-Link and TSMC Open the Door appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/374282-from-cloud-to-silicon-ic-link-and-tsmc-open-the-door/",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-9214eda7f8ba86d6",
     "date": "2026-10-06",
     "source": "Nikkei Asia",
@@ -256,15 +303,29 @@
     "arch_risk": false
   },
   {
-    "id": "rss-ed1b79cd6cc191da",
+    "id": "rss-699eb82f73ee5a35",
     "date": "2026-10-06",
     "source": "DigiTimes",
     "source_type": "industry",
     "headline": "Samsung steps up HBM cooling as TSMC expands CoWoS - digitimes",
     "quote": "Samsung steps up HBM cooling as TSMC expands CoWoS digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY09abGxiTXlNZm5oaWJnYjcwZnZSSkNCSW12WTctbE4zLWVvV0E3amlPMEtwbVZMQVAzZ1dKZlZHZk1Sb3I1cmxOMTVaSFVTdGp5VFdYWGZxM014SW90bUU0WDZwc01YNncwNHZPdzBTbTVkUjk2Nlpuc0xuemNwX3dlVWdob3o3SHc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWnduQXFwMDZtZHBGallSTmV4VC1RWUZ2ampDQUpCd0hjYnVJazg5TXlELVNfVy0xVmxJUkVnTEpuMUduZlBhU3FGakQ2WGd3VnU0eHJHdFlLc3lUWE5QNXhnb2tlNkRoUV9GZE5fejFsNEhjTmtiTHVaQ2U2TTZQbndYdlp1Y2dEa2IzUE5rd0NBREU?oc=5",
     "layer_ids": [
       "packaging",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7918662946894c30",
+    "date": "2026-10-06",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC expansion pushes Da Yi Cheng Technology's orders over NT$10 billion, visibility through 2028 - digitimes",
+    "quote": "TSMC expansion pushes Da Yi Cheng Technology's orders over NT$10 billion, visibility through 2028 digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX2Z6Q3BUcHBYVU9YSTlJSnR5YUc2aEd3cTNWSER2VXdVc0VtbE9kNlpDOWFPbHpMMHVyM0c0aHoxdlYxN25SMG04UmdreklYTXZKc1ZiLUJDY2xoMzBFYUhVZU1QVEVWMnhqRkoyX3dQbXo0NFlyaHk3V3NSLTRuR21Qc21nNEp0TGRNSA?oc=5",
+    "layer_ids": [
       "foundry"
     ],
     "tickers": [],
@@ -304,41 +365,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-939736ae662c1aec",
-    "date": "2026-10-05",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC, Intel named as Musk's Terafab ambitions face reality check - digitimes",
-    "quote": "TSMC, Intel named as Musk's Terafab ambitions face reality check digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbFpVLWNpaGZDQUgtT1h5LW03OGhPbVVySU5lSEYzXzU3cTFYaTIxWHl1eWwxWXdzMnpFX2d2cm15SEpjc1hoX1RLZHhSOWUzczNhX0lKVVR1YldCUG1pdl9hcWl3LXhkZm5FQnNzZUFBalRaVVVvc0t5em1qR2N1NWZ4OHpBcmpGelVJODY1X1NOZ0paVkRn?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-6aedef64f74a8991",
-    "date": "2026-10-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Elon Musk, Jensen Huang see China closing lithography gap by 2030 - digitimes",
-    "quote": "Elon Musk, Jensen Huang see China closing lithography gap by 2030 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWXN4eHI4Z2dEYzluaUVfVDBRS2tIVEdldndneHFQS3hpMVV4amNsX3k4STJNcTViSWNoWXUzN2VvMFRZeFhwckYtOGN4dENxS0FmY1I5VGtYVUFDUjJLQk1ST1Z1SmphLTdHcFdYZFNSSXdCUzBCQjNQZHNkQ0xQcXVaYVFTWVdUSWlZUW5WX2E?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-74e2b4d51cce7755",
+    "id": "rss-a1b79593dca303b0",
     "date": "2026-10-03",
     "source": "DigiTimes",
     "source_type": "industry",
     "headline": "Musk confirms talks with TSMC over his Texas chip factory project - digitimes",
     "quote": "Musk confirms talks with TSMC over his Texas chip factory project digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpSk9zWlB4ODN1cXJpV2ZEeFh6VkpFdk9jR3BJNUNyOWlnRzBjZDVzUmtkOTdQTXIzMExXMXVsVVJFMEEzNGFNdUpEN2owVjZwZFluYTdwbjNQTWtLV193?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGtjWHVkYVZrd1RyRFJFMk5MT2VDWmVBQ3ZFZTJpUFVZOFVtTjhIc2xuTGJvSTZrTkhhOFR5ekdXQXhuTDJodGx2MGdTTkFsdkZySjY4SFVSQjFrQ2JjMzAzdVlEWDdJcVppTlNleVVBUmpWSkZSMmg2YjZZQXJFVnJZY09ZaFYtNW5Mck9YTzVwdlU?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -353,6 +386,20 @@
     "headline": "Podcast highlights: TSMC Texas plant talk is premature, Intel 18A hits backfiring criticism - digitimes",
     "quote": "Podcast highlights: TSMC Texas plant talk is premature, Intel 18A hits backfiring criticism digitimes",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX1FVNEdaTFN5dXFXdGtCbzNUTDFXTmNpLThlOEZtazNxZWVGczBCazdUdXNUWkF3OXFfb1U3MWVKejc2RzQ4dmdJMGlvWENlWUxkTmExZUc3Skc1elR1Y1ZSR2cwWldnLUFCQVNjR0poSEI1dFhKMDhUYzFhOWtQZmRCX2k1Wi1FclltRDJB?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-b5ba30dc265e9eed",
+    "date": "2026-10-02",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Taiwan pledges to help TSMC expand domestic investment amid Singapore rumors - digitimes",
+    "quote": "Taiwan pledges to help TSMC expand domestic investment amid Singapore rumors digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWRXM05mSFQ1Z252djI3dlhJMktaRjJuUWF3NVk3Z2xBZEx4VENfX2dpaktIVFhockxFS3VlMTc0ZDlBSjRnWWY1ZW8xZVdZdWpjeW92dnR6UEE0S0NITk9NX29SWVloczJuS0Y5Z0h4dENTVHFsUDV0dm8zajFfTVdZT2VVcXpQTks3ZXFVVHFwc1ZyNXNwVGxMUWs5Q3U3bkpR?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -388,20 +435,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-5dc40b0f61134b34",
-    "date": "2026-10-01",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Four glass makers converge on 510x515mm substrate, hinting at TSMC's next move - digitimes",
-    "quote": "Four glass makers converge on 510x515mm substrate, hinting at TSMC's next move digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOc29kZ055RjMyNmZOb1cyUDF5SUd6TlBuUF9yR1E5ZmlnNmVkUlh5SnoydEI2Q1R1S0dfRlVoQnZLWFVQamxQbk13X2NOTHp2Uy14OU5ISlg4M0NER2lWR1Jmc2UtTnhhYXNnYlJubm5Zdnp1LWZwUXA5Uk5ybnRLb0tFVkt2R0pmZXl3Yk1VUV9Dd29rOGc?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-06e490013cc24cb9",
     "date": "2026-10-01",
     "source": "DigiTimes",
@@ -430,23 +463,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-82eae761009a153b",
-    "date": "2026-09-30",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Grand Pacific Petrochemical, Air Water join forces to expand Taiwan semiconductor materials business - digitimes",
-    "quote": "Grand Pacific Petrochemical, Air Water join forces to expand Taiwan semiconductor materials business digitimes",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORnRlOXRSYkNtX3h3OVRmbGR6SFdvM1BWUG1MZHVJOFBGSVB3T2hXMWNtWFZoQ3RQbk5reElPT2EzZGYtQWlKVTA5MDJZU2M3MzQwLTljV1F0TFpSZG1nTzhmRFM3U1NINF8tMTRJdGJ5emsxUWVoZXhYRWoyaTBTY1JyUENkRTBtUlNpWUpIdGVMdGFxWU5vZzlzTHAzT2FoOTNoaE0tMG05aWdEZThGdA?oc=5",
-    "layer_ids": [
-      "foundry",
-      "packaging"
-    ],
-    "tickers": [
-      "TSM"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-2762f1adbd22f837",
     "date": "2026-09-30",
     "source": "DigiTimes",
@@ -458,6 +474,24 @@
       "foundry"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MU-0000723125-26-000018",
+    "accession": "0000723125-26-000018",
+    "form": "8-K",
+    "date": "2026-09-30",
+    "source": "SEC EDGAR (MU)",
+    "source_type": "filing",
+    "headline": "MU files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [
+      "MU"
+    ],
     "arch_risk": false
   },
   {
@@ -489,6 +523,21 @@
     "tickers": [
       "000660.KS"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-5aadc6587a933675",
+    "date": "2026-09-28",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Behind CoWoS (part 2): How TSMC turned a niche packaging experiment into an industry standard - digitimes",
+    "quote": "Behind CoWoS (part 2): How TSMC turned a niche packaging experiment into an industry standard digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV3NPNXNpcFNCa0xOVHZ3SHlvVzByelRfdnNhYTYwMGE4SlU3VUVPc1F1VUsweXRQZ2JiczloU0VLQ0dlaGtmTWNzeC1kTHlvQmtha0ZUaHF5aGtnczJDVHZUenZtYmpsUks0ZjRvbnM5X0h4VHlSZGtlbnpjOUpNb2FQdWJzM1ZCUnY4ZENPdw?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -6571,82 +6620,6 @@
     "tickers": [
       "NVDA"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-MU-0000723125-26-000006",
-    "accession": "0000723125-26-000006",
-    "form": "10-Q",
-    "date": "2026-03-19",
-    "source": "SEC EDGAR (MU)",
-    "source_type": "filing",
-    "headline": "MU files 10-Q: periodic report",
-    "quote": "Sales of DRAM products increased 207%, primarily due to a mid-110% range increase in average selling prices and a mid-40% range increase in bit shipments. Sales of NAND products increased 169%, primarily due to a slightly more than 100% increase in average selling prices.",
-    "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000006/mu-20260226.htm",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [
-      "MU"
-    ],
-    "summary": {
-      "tldr": "Q2 FY26 revenue $23.9B (+196% YoY, +75% QoQ); gross margin 74%, net income $13.8B as DRAM ASPs jumped mid-110% YoY on AI-driven supply shortage.",
-      "takeaways": [
-        "Q2 FY26 revenue $23.86B (+75% QoQ, +196% YoY); CMBU $7.75B, CDBU $5.69B, MCBU set higher, AEBU growth across the board",
-        "DRAM ASPs +mid-60% QoQ, +mid-110% YoY; NAND ASPs +high-70% QoQ, +slightly more than 100% YoY",
-        "Consolidated gross margin 74% (vs 56% in Q1 FY26, 37% in Q2 FY25); operating margin 68%; net income $13.8B",
-        "One customer = 13% of six-month revenue (primarily CMBU, i.e. HBM/hyperscale)",
-        "Tight industry supply and favorable mix driving both DRAM and NAND price improvements; supply allocation continues",
-        "Effective tax rate rose to 13.7% from prior periods due to Singapore Pillar Two implementation"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Industry supply allocation decisions continue to impact certain customers as memory/storage demand exceeds overall industry supply",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Sales of DRAM products increased 207%, primarily due to a mid-110% range increase in average selling prices and a mid-40% range increase in bit shipments. Sales of NAND products increased 169%, primarily due to a slightly more than 100% increase in average selling prices.",
-      "quote_section": "Item 2 MD&A — Total Revenue"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-MU-0000723125-26-000004",
-    "accession": "0000723125-26-000004",
-    "form": "8-K",
-    "date": "2026-03-18",
-    "source": "SEC EDGAR (MU)",
-    "source_type": "filing",
-    "headline": "MU files 8-K: Earnings release",
-    "quote": "Micron set new records across revenue, gross margin, EPS, and free cash flow in fiscal Q2, driven by a strong demand environment, tight industry supply, and our strong execution, and we expect significant records again in fiscal Q3.",
-    "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000004/mu-20260318.htm",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [
-      "MU"
-    ],
-    "summary": {
-      "tldr": "Q2 FY26 blowout: revenue $23.86B (+196% YoY, +75% QoQ) crushed the $18.7B guide by 28%; non-GAAP EPS $12.20 vs $8.42 guide; Q3 guides to $33.5B and ~81% GM with EPS $19.15.",
-      "takeaways": [
-        "Q2 FY26 reported: revenue $23.86B (+196% YoY, +75% QoQ) — beat Q2 guide of $18.7B by 28%; non-GAAP GM 74.9% (vs 68% guide), non-GAAP EPS $12.20 (vs $8.42 guide, +45% beat)",
-        "DRAM ASPs +mid-110% YoY / +mid-60% QoQ; NAND ASPs +100%+ YoY / +high-70% QoQ — AI-driven supply shortage drove memory pricing higher",
-        "CMBU revenue $7.75B at 66% op margin; CDBU $5.69B at 67%; MCBU $7.71B at 76%; AEBU $2.71B at 62% — every BU at record op margin",
-        "Q3 FY26 guidance: revenue $33.5B ± $750M (+40% QoQ implied), non-GAAP GM ~81%, non-GAAP opex ~$1.40B, non-GAAP EPS $19.15 ± $0.40",
-        "Dividend raised 30% to $0.15/share — first hike in years; signals management confidence cycle isn't immediately rolling",
-        "Ending cash/investments $16.7B (+$4.7B QoQ); operating cash flow $11.9B; adjusted FCF $6.9B"
-      ],
-      "guidance": {
-        "gross_margin": "~81% (non-GAAP)",
-        "notes": "Diluted EPS $19.15 ± $0.40 non-GAAP ($18.90 ± $0.40 GAAP); dividend raised 30%; CEO: 'we expect significant records again in fiscal Q3'",
-        "opex": "~$1.40B (non-GAAP)",
-        "period": "Q3 FY26",
-        "revenue": "$33.5B ± $750M"
-      },
-      "quote": "Micron set new records across revenue, gross margin, EPS, and free cash flow in fiscal Q2, driven by a strong demand environment, tight industry supply, and our strong execution, and we expect significant records again in fiscal Q3.",
-      "quote_section": "Q2 FY26 earnings release (CEO Sanjay Mehrotra)"
-    },
     "arch_risk": false
   },
   {

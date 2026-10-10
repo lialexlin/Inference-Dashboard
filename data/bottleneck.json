@@ -1,6 +1,6 @@
 {
   "hbm": {
-    "tightness_score": 25,
+    "tightness_score": 28,
     "signal_count_90d": 6,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
@@ -8,15 +8,15 @@
       "[MU] 'Supply allocation decisions may impact certain customers' (Q1) → 'Industry supply allocation decisions continue' (Q2) — no easing language added"
     ],
     "components": {
-      "density_pct": 0.133,
+      "density_pct": 0.2,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "foundry": {
     "tightness_score": 57,
-    "signal_count_90d": 22,
+    "signal_count_90d": 23,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -27,37 +27,37 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "packaging": {
-    "tightness_score": 16,
+    "tightness_score": 13,
     "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.4,
+      "density_pct": 0.333,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "wfe": {
-    "tightness_score": 5,
-    "signal_count_90d": 6,
+    "tightness_score": 13,
+    "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.133,
+      "density_pct": 0.333,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "gpu": {
     "tightness_score": 52,
-    "signal_count_90d": 14,
+    "signal_count_90d": 13,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -68,7 +68,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "networking": {
     "tightness_score": 29,
@@ -81,7 +81,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "optics": {
     "tightness_score": 44,
@@ -96,7 +96,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "switches": {
     "tightness_score": 39,
@@ -111,12 +111,12 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "power": {
     "tightness_score": 72,
-    "signal_count_90d": 21,
-    "tightness_language_hits_per_signal": 0.048,
+    "signal_count_90d": 20,
+    "tightness_language_hits_per_signal": 0.05,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "In North America, data centers are boosting the long-term investment case for energy storage and renewables as gas turbine backlogs and rising fuel volatility drive up peaking costs, according to a Thursday note from Wood Mackenzie."
@@ -126,20 +126,20 @@
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "cooling": {
-    "tightness_score": 5,
+    "tightness_score": 8,
     "signal_count_90d": 6,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.133,
+      "density_pct": 0.2,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "hyperscalers": {
     "tightness_score": 27,
@@ -152,7 +152,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "neoclouds": {
     "tightness_score": 3,
@@ -165,7 +165,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "software": {
     "tightness_score": 19,
@@ -178,11 +178,11 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "eda": {
     "tightness_score": 5,
-    "signal_count_90d": 6,
+    "signal_count_90d": 5,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -191,7 +191,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -204,6 +204,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-10T01:37:19.704383+00:00"
+    "updated_at": "2026-10-10T15:01:08.865849+00:00"
   }
 }

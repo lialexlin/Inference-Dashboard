@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-11T15:19:31.939899+00:00",
+  "as_of": "2026-10-12T01:08:01.889930+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -4131,76 +4131,146 @@
           "requests": 67355091
         }
       ]
+    },
+    {
+      "date": "2026-10-11",
+      "total_tokens_b": 131252.033,
+      "total_prompt_tokens_b": 128382.186,
+      "total_completion_tokens_b": 2869.848,
+      "total_reasoning_tokens_b": 0.0,
+      "total_requests": 4388100844,
+      "top_models": [
+        {
+          "model": "deepseek/deepseek-v4.1-flash-20260910",
+          "tokens_b": 40972.764,
+          "share": 0.3122,
+          "requests": 705194713
+        },
+        {
+          "model": "z-ai/glm-5.3-flash-20260826",
+          "tokens_b": 12235.607,
+          "share": 0.0932,
+          "requests": 722793108
+        },
+        {
+          "model": "xiaomi/mimo-v2.6-flash-20260921",
+          "tokens_b": 11457.378,
+          "share": 0.0873,
+          "requests": 142400886
+        },
+        {
+          "model": "stepfun/step-5-preview-20261008",
+          "tokens_b": 8836.311,
+          "share": 0.0673,
+          "requests": 47719581
+        },
+        {
+          "model": "tencent/hy4-preview-20260827",
+          "tokens_b": 8279.453,
+          "share": 0.0631,
+          "requests": 74756323
+        },
+        {
+          "model": "openai/gpt-6-luna-20260922",
+          "tokens_b": 7079.366,
+          "share": 0.0539,
+          "requests": 343979794
+        },
+        {
+          "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+          "tokens_b": 6873.214,
+          "share": 0.0524,
+          "requests": 51406427
+        },
+        {
+          "model": "anthropic/claude-opus-5.5-20260921",
+          "tokens_b": 5018.735,
+          "share": 0.0382,
+          "requests": 43891174
+        },
+        {
+          "model": "deepseek/deepseek-v4-flash-20260731",
+          "tokens_b": 4916.132,
+          "share": 0.0375,
+          "requests": 373663919
+        },
+        {
+          "model": "z-ai/glm-5.3-20260816",
+          "tokens_b": 3785.963,
+          "share": 0.0288,
+          "requests": 71607066
+        }
+      ]
     }
   ],
   "summary": {
-    "latest_date": "2026-10-10",
-    "latest_total_tokens_b": 124174.435,
-    "latest_total_requests": 4271462409,
-    "dod_pct": 0.0619,
-    "wow_pct": -0.0682,
+    "latest_date": "2026-10-11",
+    "latest_total_tokens_b": 131252.033,
+    "latest_total_requests": 4388100844,
+    "dod_pct": 0.057,
+    "wow_pct": -0.0309,
     "top_movers_wow": [
       {
         "model": "deepseek/deepseek-v4.1-flash-20260910",
-        "share_now": 0.3118,
-        "share_prev": 0.1923,
-        "share_delta": 0.1195
+        "share_now": 0.3122,
+        "share_prev": 0.1891,
+        "share_delta": 0.1231
       },
       {
         "model": "stepfun/step-5-preview-20261008",
-        "share_now": 0.0513,
+        "share_now": 0.0673,
         "share_prev": 0.0,
-        "share_delta": 0.0513
+        "share_delta": 0.0673
       },
       {
         "model": "anthropic/claude-opus-5.5-20260921",
-        "share_now": 0.0377,
+        "share_now": 0.0382,
         "share_prev": 0.0,
-        "share_delta": 0.0377
+        "share_delta": 0.0382
       },
       {
         "model": "z-ai/glm-5.3-20260816",
-        "share_now": 0.0277,
+        "share_now": 0.0288,
         "share_prev": 0.0,
-        "share_delta": 0.0277
+        "share_delta": 0.0288
       },
       {
         "model": "z-ai/glm-5.3-flash-20260826",
-        "share_now": 0.0936,
-        "share_prev": 0.0718,
-        "share_delta": 0.0218
+        "share_now": 0.0932,
+        "share_prev": 0.0719,
+        "share_delta": 0.0213
       }
     ],
     "top_losers_wow": [
       {
         "model": "stealth/space-bunny-alpha",
         "share_now": 0.0,
-        "share_prev": 0.2696,
-        "share_delta": -0.2696
+        "share_prev": 0.2855,
+        "share_delta": -0.2855
       },
       {
         "model": "openai/gpt-5.6-luna-20260709",
         "share_now": 0.0,
-        "share_prev": 0.0394,
-        "share_delta": -0.0394
+        "share_prev": 0.0323,
+        "share_delta": -0.0323
       },
       {
         "model": "deepseek/deepseek-v4-flash-20260423",
         "share_now": 0.0,
-        "share_prev": 0.0244,
-        "share_delta": -0.0244
+        "share_prev": 0.0238,
+        "share_delta": -0.0238
       },
       {
         "model": "deepseek/deepseek-v4-flash-20260731",
-        "share_now": 0.0406,
-        "share_prev": 0.0456,
-        "share_delta": -0.005
+        "share_now": 0.0375,
+        "share_prev": 0.0442,
+        "share_delta": -0.0067
       },
       {
-        "model": "nvidia/nemotron-3-ultra-550b-a55b-20260604",
-        "share_now": 0.0534,
-        "share_prev": 0.0431,
-        "share_delta": 0.0103
+        "model": "openai/gpt-6-luna-20260922",
+        "share_now": 0.0539,
+        "share_prev": 0.0456,
+        "share_delta": 0.0083
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14T01:00:41.341506+00:00",
+  "as_of": "2026-10-14T14:19:09.293953+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -4274,11 +4274,11 @@
     },
     {
       "date": "2026-10-13",
-      "total_tokens_b": 142121.617,
+      "total_tokens_b": 142121.62,
       "total_prompt_tokens_b": 139039.11,
-      "total_completion_tokens_b": 3082.507,
+      "total_completion_tokens_b": 3082.51,
       "total_reasoning_tokens_b": 0.0,
-      "total_requests": 4420869168,
+      "total_requests": 4420869173,
       "top_models": [
         {
           "model": "deepseek/deepseek-v4.1-flash-20260910",
@@ -4294,9 +4294,9 @@
         },
         {
           "model": "z-ai/glm-5.3-flash-20260826",
-          "tokens_b": 12866.609,
+          "tokens_b": 12866.61,
           "share": 0.0905,
-          "requests": 556314046
+          "requests": 556314048
         },
         {
           "model": "xiaomi/mimo-v2.6-flash-20260921",
@@ -4345,8 +4345,8 @@
   ],
   "summary": {
     "latest_date": "2026-10-13",
-    "latest_total_tokens_b": 142121.617,
-    "latest_total_requests": 4420869168,
+    "latest_total_tokens_b": 142121.62,
+    "latest_total_requests": 4420869173,
     "dod_pct": 0.0324,
     "wow_pct": 0.4152,
     "top_movers_wow": [

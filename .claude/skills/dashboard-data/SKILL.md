@@ -37,7 +37,7 @@ Partial refreshes merge rather than overwrite: `refresh.py` reads the previous `
 | Margins, growth, returns | Capital IQ | Pre-computed and globally consistent |
 | Revenue / EBITDA / NI in USD | Capital IQ | Reporting currency from the PLAYERS `country` field |
 
-CIQ creds come from Doppler `alex-apps/prd_inference-dashboard` locally (`doppler.yaml`; `refresh.command` runs under `doppler run`, a session here has them already); in CI they are repo secrets. Without them the stage logs `CIQ connect failed` and the run continues on prior values. Schema reference: the `sp-capiq` skill.
+CIQ creds come from Doppler `inference-dashboard/prd` locally (`doppler.yaml`; `refresh.command` runs under `doppler run`, a session here has them already); in CI they are repo secrets. Without them the stage logs `CIQ connect failed` and the run continues on prior values. Schema reference: the `sp-capiq` skill.
 
 ## Industry labels
 

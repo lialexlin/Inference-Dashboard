@@ -1,4 +1,4 @@
 setup:
-  - project: alex-apps
-    config: prd_inference-dashboard
+  - project: inference-dashboard
+    config: prd
     path: .

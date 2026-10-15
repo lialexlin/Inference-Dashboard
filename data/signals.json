@@ -43,6 +43,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-5ba8ecd3af1fc29d",
+    "date": "2026-10-14",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Inside the Secretive AWS Networking Lab",
+    "quote": "We tour a secretive AWS networking lab to see innovation from management switches up to 102.4T switches, encryption, timing, optics, and more The post Inside the Secretive AWS Networking Lab appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/inside-the-secretive-aws-networking-lab/",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-b226247e07d312a1",
     "date": "2026-10-14",
     "source": "The Next Platform",
@@ -52,6 +66,20 @@
     "url": "https://www.nextplatform.com/connect/2026/10/14/cisco-turns-its-attention-to-the-control-layers-of-its-quantum-network/5302977",
     "layer_ids": [
       "switches"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-2a4efc6d9f7e5ca8",
+    "date": "2026-10-14",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Fossil generation pipeline rebounds while new clean generation slows: EDF",
+    "quote": "However, “rising gas turbine costs and supply shortages are already making new gas plants more expensive and slower to build,” David Villagrana, EDF’s lead counsel for clean energy tax solutions, told Utility Dive.",
+    "url": "https://www.utilitydive.com/news/fossil-generation-pipeline-rebounds-while-new-clean-generation-slows-edf/832978/",
+    "layer_ids": [
+      "power"
     ],
     "tickers": [],
     "arch_risk": false
@@ -94,34 +122,6 @@
     "url": "https://www.utilitydive.com/news/battery-system-failures-fell-98-in-7-years-but-older-systems-need-special/832882/",
     "layer_ids": [
       "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-8b2f25afb5c151b3",
-    "date": "2026-10-13",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Teradyne Unveils Magnum E2 for the Next Wave of AI Memory",
-    "quote": "Teradyne has announced Magnum E2, a memory test system designed to address the increasingly demanding interfaces used in artificial intelligence and high performance computing. The platform targets advanced DRAM and flash technologies, including LPDDR6, DDR6, GDDR7, and NAND flash, while combining engineering and production… Read More The post Teradyne Unveils Magnum E2 for the Next Wave of AI Memory appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/teradyne/374603-teradyne-unveils-magnum-e2-for-the-next-wave-of-ai-memory/",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-037720fada472f51",
-    "date": "2026-10-13",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Intel’s Open Software Blueprint: Why Production AI Needs More Than GPUs",
-    "quote": "Intel’s strategic argument about enterprise AI is that the value of a model depends on the system that surrounds it. In an article by executives Bill Pearson and Anil Nanduri, the company positions open software as the connective tissue linking CPUs, GPUs, data, and business applications. The message is straightforward: accelerator… Read More The post Intel’s Open Software Blueprint: Why Production AI Needs More Than GPUs appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/374536-intels-open-software-blueprint-why-production-ai-needs-more-than-gpus/",
-    "layer_ids": [
-      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -253,20 +253,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-47e2894af0556a72",
-    "date": "2026-10-07",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Australia's AirTrunk to triple Japan data center investment to up to $30bn - Nikkei Asia",
-    "quote": "Australia's AirTrunk to triple Japan data center investment to up to $30bn Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQelYwS2lPRWVDWTRHSFpRdzBtcTJqQ09fckZOUmQxR0tMdG1wZWFvUWpJMlZjSEVLWXhrX0pzVVBfaXdBdENYZ0s4VnQtQzBDSGhDNHhwQTlVelhKUmE0MG5PVFZOQUNIQlNRUU1SWmNYX1VTX0lJTVdnZnl3eDBwZ1E0MmJtSHlDRTc5MDdQc1ZjVnRvR3ZtRzJIQ0xmcnBjVHVGRHl0NTRTZjd6OVdRbnJQYUNUM1lkcDZiTmp5UQ?oc=5",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-9214eda7f8ba86d6",
     "date": "2026-10-06",
     "source": "Nikkei Asia",
@@ -379,20 +365,6 @@
     "url": "https://www.nextplatform.com/store/2026/10/02/microns-numbers-show-why-hbm4-memory-is-worth-15x-its-weight-in-gold/5300701",
     "layer_ids": [
       "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-15611fdeb9a9711a",
-    "date": "2026-09-30",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Foundry 2.0 revenue hits record as growth spreads beyond TSMC - digitimes",
-    "quote": "Foundry 2.0 revenue hits record as growth spreads beyond TSMC digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMUNNM0JMVFlMYlNjbXdxbWlIUVRTRzZfOUlZS1h4djZIMklrVTlHaXI0NnFwLXNpbEcyZkxrSmlNNktBT05wM3Nud0xsQzdaaU04a3hVU1JLVWpRcnVmLS1IcjNHWG55c2VsTzZyVmJ0alFVZVg3RDRhWGV2RWdPc1VzNk02dFR2VXNaVEZVYw?oc=5",
-    "layer_ids": [
-      "foundry"
     ],
     "tickers": [],
     "arch_risk": false

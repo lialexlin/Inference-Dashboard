@@ -18,7 +18,6 @@ import logging
 import os
 from dataclasses import dataclass, field
 from datetime import date
-from pathlib import Path
 from typing import Any
 
 log = logging.getLogger(__name__)
@@ -57,11 +56,9 @@ COUNTRY_TO_CURRENCY = {
 
 
 def get_connection():
-    """Open a Snowflake connection using SF_* env vars from .env."""
+    """Open a Snowflake connection using the SF_* env vars (Doppler locally, repo secrets in CI)."""
     import snowflake.connector
-    from dotenv import load_dotenv
 
-    load_dotenv(Path.cwd() / ".env")
     return snowflake.connector.connect(
         account=os.environ["SF_ACCOUNT"],
         user=os.environ["SF_USER"],

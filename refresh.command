@@ -9,7 +9,7 @@ echo ""
 echo "  Refreshing data — this takes ~30 seconds..."
 echo ""
 
-uv run python -m jobs.refresh
+doppler run -- uv run python -m jobs.refresh
 
 echo ""
 echo "  Done. You can close this window."

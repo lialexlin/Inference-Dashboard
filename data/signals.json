@@ -60,6 +60,21 @@
     "arch_risk": false
   },
   {
+    "id": "rss-ea0b4db85a885e50",
+    "date": "2026-10-16",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "TSMC’s AI Expansion Signals a Broader Shift in Computing",
+    "quote": "TSMC is describing an artificial intelligence boom that reaches beyond accelerator chips into the wider computing infrastructure needed to support increasingly capable AI systems. On the recent investor call, Chairman and CEO Dr. C.C. Wei presents strong demand, persistent supply constraints and an ambitious expansion … Read More The post TSMC’s AI Expansion Signals a Broader Shift in Computing appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/374950-tsmcs-ai-expansion-signals-a-broader-shift-in-computing/",
+    "layer_ids": [
+      "gpu",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-528c1d56e6144a97",
     "date": "2026-10-16",
     "source": "SemiWiki",
@@ -111,6 +126,21 @@
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOS0JGSFFUNExvR29JYm15Z2lReDI1T0V6TElURG80cmxZSldhcGJjVUZxQ3gxSGR2elVNbjJBUlVod3VUa1R2blhtRVlyMTlrZGFqRF9uWkNlMlBKZGpCSm5wQUZmbDFWbmhESkkzRW43TEpudnNzQkR1QjF4N2hZd1BDaWRRZFBJUGR6OEZiRzVnaFZjOGdXYUJsVlJSQVhyUnJEYkx6RQ?oc=5",
     "layer_ids": [
       "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-0426212f98e49bd8",
+    "date": "2026-10-15",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Micron opens second Taiwan advanced packaging plant as HBM supply tightens - digitimes",
+    "quote": "Micron opens second Taiwan advanced packaging plant as HBM supply tightens digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLTNhLXpDdElFeEFPWURSbEtzNWtocS1uUGMtcDhwdmVyTjJmakZERGFNT19BOE8tV3dCbV9CLW93UkJYTnNkWC1ZaVpBTDJfVDRSRVRNelZOQTZwMlBfOTVFdzJUM3BJZ0RzMkI5SWFjVmpYcUVQWWw3cGlmVEZOdEU4V3dzWEMtbXMxLQ?oc=5",
+    "layer_ids": [
+      "packaging",
+      "hbm"
     ],
     "tickers": [],
     "arch_risk": false
@@ -221,7 +251,7 @@
     "source": "Utility Dive",
     "source_type": "industry",
     "headline": "Utilities can use AI to solve grid backlogs: AWS energy lead",
-    "quote": "The utilities moving first on AI-powered grid planning are delivering faster approvals, fewer outages and lower costs, writes Amazon Web Services’ head of energy and utilities Joseph Santamaria.",
+    "quote": "The utilities moving first on AI-powered grid planning are delivering faster approvals, fewer outages and lower costs, writes Amazon Web Services’ head of energy and utilities, Joseph Santamaria.",
     "url": "https://www.utilitydive.com/news/utilities-need-ai-solve-grid-backlogs-aws-energy-lead-head/832816/",
     "layer_ids": [
       "hyperscalers"
@@ -344,32 +374,20 @@
     "arch_risk": false
   },
   {
-    "id": "rss-270d8c2da324432b",
-    "date": "2026-10-13",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Battery system failures fell 98% in 7 years, but older systems need special care: report",
-    "quote": "The Electric Power Research Institute analysis found a dramatic drop in energy storage system failures from 2018 to 2025 amid a host of technology and project improvements. “Early-vintage” systems may require retrofits, however.",
-    "url": "https://www.utilitydive.com/news/battery-system-failures-fell-98-in-7-years-but-older-systems-need-special/832882/",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-c70baaa7869fcab8",
+    "id": "rss-de9e06c4564eddec",
     "date": "2026-10-12",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 - digitimes",
-    "quote": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkRWVHotZW5zOTdPS2FVeGVTcl9ETm5UWW1MQ3k5VVh3cGxMbnl2VGJBZktHZ3Z1QVR0a1VCT3cwZ3g5NVZWTzhDR1JDdG9YaVU1QXIxV0lEMDkzWEd0dFFaaTZvVHplNkxvWHEwOVA2cWhwQmJabkl1UFZhc2FqSWh1Z2JJWF92a0RYd1BPV25QYTVsNjl1XzhHR3FKdDRINE9ranpGZ3JiN1BZTWc?oc=5",
+    "headline": "TSMC, ASML eye 12-inch photomasks to unlock High-NA EUV's full-field potential - digitimes",
+    "quote": "TSMC, ASML eye 12-inch photomasks to unlock High-NA EUV's full-field potential digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVFiWldRUlJSYnlMNGxzWmUzVWlnczJOLW5NTEtNWVoyOVZLOUxSNEtMLVNDUTBQZ18zYTkzcVR2UFdoRFgzenl0VDd0aFZFSEVBV1FtbFVGYktKZWFTanNMSTFNWWZJbUs3b2ZpekNfd2trODBFeC1vMEgySlpUWFViV0M1WDU0QVd3TjJzS1hEbU1aLUpFWmRn?oc=5",
     "layer_ids": [
-      "foundry",
-      "gpu"
+      "wfe",
+      "foundry"
     ],
-    "tickers": [],
+    "tickers": [
+      "ASML"
+    ],
     "arch_risk": false
   },
   {
@@ -403,6 +421,20 @@
     "tickers": [
       "MU"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-d4392efa0273a79e",
+    "date": "2026-10-08",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Synopsys looks to work with Chinese AI labs to speed up chip design - Nikkei Asia",
+    "quote": "Synopsys looks to work with Chinese AI labs to speed up chip design Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMlRhMzNhUERSSUFaeEhNQV9BajFMUnlmMGg1QmFfMVE0dGNkdlBYQUZaNDBFbEc2ZkhpNFI3THJqaDhiMDNZbmRoV0J0cnZpei1QRFFSQ3ZUYmVRZDB5Q3BCVEhGQnE3U0MwalJybXZadDJKN3p2c1k4bHJYb0JzbXNYZlRVUXAtUmFQUDJWX0Z0UDB3Q3d0NmJRTzJFbFV0Z2pWXzRUWE9LNkZhSXFzU3RhdFdBeVY0eE9fXw?oc=5",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -442,6 +474,20 @@
     "headline": "Musk confirms talks with TSMC over his Texas chip factory project - digitimes",
     "quote": "Musk confirms talks with TSMC over his Texas chip factory project digitimes",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGtjWHVkYVZrd1RyRFJFMk5MT2VDWmVBQ3ZFZTJpUFVZOFVtTjhIc2xuTGJvSTZrTkhhOFR5ekdXQXhuTDJodGx2MGdTTkFsdkZySjY4SFVSQjFrQ2JjMzAzdVlEWDdJcVppTlNleVVBUmpWSkZSMmg2YjZZQXJFVnJZY09ZaFYtNW5Mck9YTzVwdlU?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-81565bbbe0262b07",
+    "date": "2026-10-02",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Podcast highlights: TSMC Texas plant talk is premature, Intel 18A hits backfiring criticism - digitimes",
+    "quote": "Podcast highlights: TSMC Texas plant talk is premature, Intel 18A hits backfiring criticism digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX1FVNEdaTFN5dXFXdGtCbzNUTDFXTmNpLThlOEZtazNxZWVGczBCazdUdXNUWkF3OXFfb1U3MWVKejc2RzQ4dmdJMGlvWENlWUxkTmExZUc3Skc1elR1Y1ZSR2cwWldnLUFCQVNjR0poSEI1dFhKMDhUYzFhOWtQZmRCX2k1Wi1FclltRDJB?oc=5",
     "layer_ids": [
       "foundry"
     ],

@@ -131,6 +131,21 @@
     "arch_risk": false
   },
   {
+    "id": "rss-cc47d14a0a8e0922",
+    "date": "2026-10-15",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Nvidia's Rubin expected to use mostly 12-layer HBM4 despite reported 8-layer shift - digitimes",
+    "quote": "Nvidia's Rubin expected to use mostly 12-layer HBM4 despite reported 8-layer shift digitimes",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTTNYYzhQd3VLaEFJZndDSzA5MzlkU3IwM3ZRa3dNOU5rYzBCNmFNcFd0N3dtcXctSXVRZlVRRXVyejBIeUdMZDVHV2FMeDBaTlZFSHF0b0xPRmdqV2F6Z3V3Q19URUNXN3RGVVl4dGkyYm1iYko5NDdQakRycVBsb1plTQ?oc=5",
+    "layer_ids": [
+      "hbm",
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-0426212f98e49bd8",
     "date": "2026-10-15",
     "source": "DigiTimes",
@@ -391,20 +406,18 @@
     "arch_risk": false
   },
   {
-    "id": "rss-de9e06c4564eddec",
+    "id": "rss-c70baaa7869fcab8",
     "date": "2026-10-12",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC, ASML eye 12-inch photomasks to unlock High-NA EUV's full-field potential - digitimes",
-    "quote": "TSMC, ASML eye 12-inch photomasks to unlock High-NA EUV's full-field potential digitimes",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVFiWldRUlJSYnlMNGxzWmUzVWlnczJOLW5NTEtNWVoyOVZLOUxSNEtMLVNDUTBQZ18zYTkzcVR2UFdoRFgzenl0VDd0aFZFSEVBV1FtbFVGYktKZWFTanNMSTFNWWZJbUs3b2ZpekNfd2trODBFeC1vMEgySlpUWFViV0M1WDU0QVd3TjJzS1hEbU1aLUpFWmRn?oc=5",
+    "headline": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 - digitimes",
+    "quote": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 digitimes",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkRWVHotZW5zOTdPS2FVeGVTcl9ETm5UWW1MQ3k5VVh3cGxMbnl2VGJBZktHZ3Z1QVR0a1VCT3cwZ3g5NVZWTzhDR1JDdG9YaVU1QXIxV0lEMDkzWEd0dFFaaTZvVHplNkxvWHEwOVA2cWhwQmJabkl1UFZhc2FqSWh1Z2JJWF92a0RYd1BPV25QYTVsNjl1XzhHR3FKdDRINE9ranpGZ3JiN1BZTWc?oc=5",
     "layer_ids": [
-      "wfe",
-      "foundry"
+      "foundry",
+      "gpu"
     ],
-    "tickers": [
-      "ASML"
-    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -441,17 +454,19 @@
     "arch_risk": false
   },
   {
-    "id": "rss-d4392efa0273a79e",
+    "id": "rss-0457e30d81873a18",
     "date": "2026-10-08",
     "source": "Nikkei Asia",
     "source_type": "news",
-    "headline": "Synopsys looks to work with Chinese AI labs to speed up chip design - Nikkei Asia",
-    "quote": "Synopsys looks to work with Chinese AI labs to speed up chip design Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMlRhMzNhUERSSUFaeEhNQV9BajFMUnlmMGg1QmFfMVE0dGNkdlBYQUZaNDBFbEc2ZkhpNFI3THJqaDhiMDNZbmRoV0J0cnZpei1QRFFSQ3ZUYmVRZDB5Q3BCVEhGQnE3U0MwalJybXZadDJKN3p2c1k4bHJYb0JzbXNYZlRVUXAtUmFQUDJWX0Z0UDB3Q3d0NmJRTzJFbFV0Z2pWXzRUWE9LNkZhSXFzU3RhdFdBeVY0eE9fXw?oc=5",
+    "headline": "Samsung, SK Hynix record earnings fuel South Korea spending on AI, youth - Nikkei Asia",
+    "quote": "Samsung, SK Hynix record earnings fuel South Korea spending on AI, youth Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMFpfSlFYZlFmNnlzcG5jZ2RTS0EyTHBObzF6TGFSZDBqZ0tiMGpCODZEWC1MbUNVd0o1NC01SV9kNGlWaU1nU3V4UlZzeXRIR21fYXdfMkhNb3hzUzVpRVk2ZXZ4YllydWtEamNYWk14RHhiVXpaVWEzUmZFZ1NCUjFkRExRRU5IOXUwS194d3p5a0dwcmNVUExXM3R2R3Bwa0RRR3VZYTI4MjlheDVUNVg3c0FuN1hmNVc5cE41NWs?oc=5",
     "layer_ids": [
-      "eda"
+      "hbm"
     ],
-    "tickers": [],
+    "tickers": [
+      "000660.KS"
+    ],
     "arch_risk": false
   },
   {
@@ -491,20 +506,6 @@
     "headline": "Musk confirms talks with TSMC over his Texas chip factory project - digitimes",
     "quote": "Musk confirms talks with TSMC over his Texas chip factory project digitimes",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGtjWHVkYVZrd1RyRFJFMk5MT2VDWmVBQ3ZFZTJpUFVZOFVtTjhIc2xuTGJvSTZrTkhhOFR5ekdXQXhuTDJodGx2MGdTTkFsdkZySjY4SFVSQjFrQ2JjMzAzdVlEWDdJcVppTlNleVVBUmpWSkZSMmg2YjZZQXJFVnJZY09ZaFYtNW5Mck9YTzVwdlU?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-81565bbbe0262b07",
-    "date": "2026-10-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Podcast highlights: TSMC Texas plant talk is premature, Intel 18A hits backfiring criticism - digitimes",
-    "quote": "Podcast highlights: TSMC Texas plant talk is premature, Intel 18A hits backfiring criticism digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX1FVNEdaTFN5dXFXdGtCbzNUTDFXTmNpLThlOEZtazNxZWVGczBCazdUdXNUWkF3OXFfb1U3MWVKejc2RzQ4dmdJMGlvWENlWUxkTmExZUc3Skc1elR1Y1ZSR2cwWldnLUFCQVNjR0poSEI1dFhKMDhUYzFhOWtQZmRCX2k1Wi1FclltRDJB?oc=5",
     "layer_ids": [
       "foundry"
     ],

@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-10-17T12:38:22.347878+00:00",
+  "last_refresh_at": "2026-10-17T23:51:11.237171+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-10-17T12:38:43.538021+00:00"
+      "ts": "2026-10-17T23:51:32.652238+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,56 +24,56 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-10-17T12:38:48.297605+00:00"
+      "ts": "2026-10-17T23:51:37.250619+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 27,
       "errors": {},
-      "ts": "2026-10-17T12:38:57.164922+00:00"
+      "ts": "2026-10-17T23:51:46.292463+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [2908539b-87e0-4370-8619-775607c9dccc], code: 390100"
+        "__connection__": "390102 (08001): Failed to login: Login error: Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [107a7cf8-473e-403b-b6be-7be2253dc095], code: 390102"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-10-17T12:38:23.685597+00:00"
+      "ts": "2026-10-17T23:51:12.259918+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-10-17T12:41:09.490402+00:00"
+      "ts": "2026-10-17T23:53:59.908295+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
-          "layer_id": "power",
-          "tightness_score": 64
+          "layer_id": "hbm",
+          "tightness_score": 68
         },
         {
-          "layer_id": "hbm",
-          "tightness_score": 63
+          "layer_id": "power",
+          "tightness_score": 64
         },
         {
           "layer_id": "hyperscalers",
           "tightness_score": 61
         }
       ],
-      "ts": "2026-10-17T12:41:09.477627+00:00"
+      "ts": "2026-10-17T23:53:59.897056+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 65,
       "latest_date": "2026-10-16",
       "latest_total_tokens_b": 139664.648,
-      "ts": "2026-10-17T12:41:09.470045+00:00"
+      "ts": "2026-10-17T23:53:59.889420+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-10-17T12:41:09.541333+00:00"
+      "ts": "2026-10-17T23:53:59.911253+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-10-17T12:41:07.980904+00:00"
+      "ts": "2026-10-17T23:53:58.513012+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,27 +172,27 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-10-17T12:41:08.596566+00:00"
+      "ts": "2026-10-17T23:53:59.125810+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-10-17T12:41:09.475178+00:00"
+      "ts": "2026-10-17T23:53:59.894632+00:00"
     },
     "tw_universe": {
       "ok": 1946,
       "stock_count": 1946,
       "sector_count": 71,
       "latest_date": "2026-10-16",
-      "ts": "2026-10-17T12:42:02.998964+00:00"
+      "ts": "2026-10-17T23:55:19.297405+00:00"
     },
     "us_universe": {
       "ok": 965,
       "stock_count": 965,
       "sector_count": 77,
       "latest_date": "2026-10-16",
-      "ts": "2026-10-17T12:42:56.230362+00:00"
+      "ts": "2026-10-17T23:56:10.601968+00:00"
     }
   },
   "signals": {

@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-17T23:53:59.910902+00:00",
+  "as_of": "2026-10-18T12:58:52.403802+00:00",
   "triggers": {
     "token_growth": {
       "state": "green",
       "evidence": [
-        "WoW token-throughput change: +19.4% (snapshot 2026-10-16)",
-        "Top WoW share gainers: step-5-preview-20261008 +12.2pp, glm-5.3-20260816 +0.8pp"
+        "WoW token-throughput change: +7.2% (snapshot 2026-10-17)",
+        "Top WoW share gainers: step-5-preview-20261008 +5.3pp, glm-5.3-20260816 +1.2pp"
       ],
       "rule": "Frontier inference WoW token growth: GREEN ≥+5% / AMBER 0–5% / RED negative or history insufficient."
     },

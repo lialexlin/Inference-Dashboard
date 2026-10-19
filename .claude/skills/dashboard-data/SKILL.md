@@ -5,8 +5,7 @@ description: Change the Inference Dashboard's data layer — add a stack layer, 
 
 # Dashboard data layer
 
-Pipeline: `sources/* -> SQLite cache -> transform.py (tag) -> data/*.json (atomic) -> static HTML`.
-The generated JSON is the contract; the frontend has no build step.
+Pipeline: `sources/* -> SQLite cache -> transform.py (tag) -> data/*.json (atomic) -> static HTML`. The generated JSON is the contract; the frontend has no build step.
 
 ## Adding things
 

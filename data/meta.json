@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-10-18T23:59:10.704921+00:00",
+  "last_refresh_at": "2026-10-19T16:06:15.307591+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-10-19T00:00:00.078808+00:00"
+      "ts": "2026-10-19T16:07:11.784417+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-10-19T00:00:04.963405+00:00"
+      "ts": "2026-10-19T16:07:16.264342+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 27,
       "errors": {},
-      "ts": "2026-10-19T00:00:14.876662+00:00"
+      "ts": "2026-10-19T16:07:25.614976+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [f672ff9a-6440-4571-bc26-61760f5ca643], code: 390100"
+        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [d1b73fed-ff89-4cda-904c-c8070ec987be], code: 390100"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-10-18T23:59:11.702804+00:00"
+      "ts": "2026-10-19T16:06:16.555187+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-10-19T00:02:24.575431+00:00"
+      "ts": "2026-10-19T16:09:37.593617+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -58,33 +58,33 @@
           "tightness_score": 65
         },
         {
-          "layer_id": "power",
-          "tightness_score": 64
-        },
-        {
           "layer_id": "hyperscalers",
           "tightness_score": 59
+        },
+        {
+          "layer_id": "foundry",
+          "tightness_score": 55
         }
       ],
-      "ts": "2026-10-19T00:02:24.510733+00:00"
+      "ts": "2026-10-19T16:09:37.533647+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 66,
-      "latest_date": "2026-10-17",
-      "latest_total_tokens_b": 133131.907,
-      "ts": "2026-10-19T00:02:24.502998+00:00"
+      "daily_rows": 67,
+      "latest_date": "2026-10-18",
+      "latest_total_tokens_b": 127858.528,
+      "ts": "2026-10-19T16:09:37.528139+00:00"
     },
     "exit_triggers": {
       "ok": 1,
-      "overall": "green",
+      "overall": "red",
       "states": {
-        "token_growth": "green",
+        "token_growth": "red",
         "hyperscaler_capex": "green",
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-10-19T00:02:24.578339+00:00"
+      "ts": "2026-10-19T16:09:37.595723+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -133,7 +133,7 @@
         "CSCO": "http 301",
         "HPE": "http 301",
         "CLS": "http 301",
-        "GEV": "probe failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "GEV": "http 301",
         "ETN": "http 301",
         "VRT": "http 301",
         "GNRC": "http 301",
@@ -145,7 +145,7 @@
         "NVT": "http 301",
         "MOD": "http 301",
         "MSFT": "http 301",
-        "META": "probe failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "META": "http 301",
         "AMZN": "http 301",
         "ORCL": "http 301",
         "CRWV": "http 301",
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-10-19T00:02:22.918862+00:00"
+      "ts": "2026-10-19T16:09:36.347419+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-10-19T00:02:23.532414+00:00"
+      "ts": "2026-10-19T16:09:36.746750+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-10-19T00:02:24.508275+00:00"
+      "ts": "2026-10-19T16:09:37.531986+00:00"
     },
     "tw_universe": {
-      "ok": 1946,
-      "stock_count": 1946,
+      "ok": 1952,
+      "stock_count": 1952,
       "sector_count": 71,
-      "latest_date": "2026-10-16",
-      "ts": "2026-10-19T00:03:48.360158+00:00"
+      "latest_date": "2026-10-19",
+      "ts": "2026-10-19T16:10:48.248308+00:00"
     },
     "us_universe": {
-      "ok": 965,
-      "stock_count": 965,
+      "ok": 957,
+      "stock_count": 957,
       "sector_count": 77,
-      "latest_date": "2026-10-16",
-      "ts": "2026-10-19T00:05:16.711168+00:00"
+      "latest_date": "2026-10-19",
+      "ts": "2026-10-19T16:12:31.702311+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 313,
-    "total": 339
+    "discovered_kept": 310,
+    "total": 336
   }
 }

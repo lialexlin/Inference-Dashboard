@@ -1,17 +1,18 @@
 [
   {
-    "id": "rss-7b76fb11af768fd1",
-    "date": "2026-10-19",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC's only South Korean VCA partner ASICLAND eyes AI chip growth via Taiwan R&D - digitimes",
-    "quote": "TSMC's only South Korean VCA partner ASICLAND eyes AI chip growth via Taiwan R&D digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWjdHNDlHeUd3d2dhYmVLdWJqaFBWbzN6YWhvZktSUmd3d2JxN29Mci1qSlNQV1pydW1xa0pZNDdIWGtSbGJpTTVnUmpfdloyNENhUjlVMWtnUHBUUjZCZkM1ejFaLVhKR2psaElyZWU4bWg0OUs1UEc0RUZWMkF1bmVyX2o2MTV6bWhHYQ?oc=5",
+    "id": "rss-16e54081a113e148",
+    "date": "2026-10-20",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Smoothing the Quantum Path: ASML and Xanadu Target Photon Loss",
+    "quote": "ASML’s decision to collaborate with Xanadu targets one of photonic quantum computing’s most unforgiving engineering constraints: photon loss. The companies will investigate advanced lithography processes for Xanadu’s photonic quantum hardware, focusing on whether tighter patterning control can suppress loss mechanisms… Read More The post Smoothing the Quantum Path: ASML and Xanadu Target Photon Loss appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/lithography/373533-smoothing-the-quantum-path-asml-and-xanadu-target-photon-loss/",
     "layer_ids": [
-      "foundry",
-      "gpu"
+      "wfe"
     ],
-    "tickers": [],
+    "tickers": [
+      "ASML"
+    ],
     "arch_risk": false
   },
   {
@@ -52,20 +53,6 @@
     "url": "https://semiwiki.com/eda/agentrys/375112-agentrys-shows-the-way-with-agentic-loop-engineering/",
     "layer_ids": [
       "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-f7ae6fd8de1eb5c5",
-    "date": "2026-10-19",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Siemens and NVIDIA Accelerate Lithography for Next-Generation AI Chips",
-    "quote": "Siemens has announced advances in its collaboration with NVIDIA to accelerate computational lithography, addressing a demanding step in manufacturing advanced AI semiconductors. By integrating NVIDIA’s cuLitho library with Siemens Calibre manufacturing software, the companies aim to make sophisticated photomask optimization… Read More The post Siemens and NVIDIA Accelerate Lithography for Next-Generation AI Chips appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/siemens-eda/374917-siemens-and-nvidia-accelerate-lithography-for-next-generation-ai-chips/",
-    "layer_ids": [
-      "wfe"
     ],
     "tickers": [],
     "arch_risk": false
@@ -263,6 +250,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-a5570364596325bd",
+    "date": "2026-10-14",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC and MediaTek alumni lead Taiwan's new wave of deep tech startups - digitimes",
+    "quote": "TSMC and MediaTek alumni lead Taiwan's new wave of deep tech startups digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS0FfMERHSnNDdjJHR0FSQVoxX3B0SnI2R3RwaGNjblNVQlgzQ1lFUy1GOHV0Z0RzNzNmb0FoTDJGZmtFMFdaZkJZLVRpQ2FxcUhJTXNmaWtOUXY4TzVMTUNLc3FNRTN0MWtJekVDUl9oU2MyX2RodmdZcTVkT19JUDVwNVFvXzV5dkhudg?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-5ba8ecd3af1fc29d",
     "date": "2026-10-14",
     "source": "ServeTheHome",
@@ -307,15 +308,15 @@
     "arch_risk": false
   },
   {
-    "id": "rss-d5e45f53bbed0d5b",
+    "id": "rss-81636f82446724e3",
     "date": "2026-10-13",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "New USFP Pluggable Optics Form Factor for Higher Speeds from Cisco and NVIDIA",
-    "quote": "Cisco and NVIDIA team up announcing a new USFP form factor for 400G SerDes lanes. Cisco also has a few new Silicon One offerings The post New USFP Pluggable Optics Form Factor for Higher Speeds from Cisco and NVIDIA appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/cisco-ocp-ai-networking-announcements-nvidia/",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? - digitimes",
+    "quote": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVWdrdUtjMF8ybmp0NnJDSHZUQnZ4MmE3WFMtcVNKLXk5LUdHZG1FUEJpOG12dnRuUDNaS0NNNTZrR0FmTERwS0NvbEw2enVjQVhGZFZlckRrLWhUejVTVThYazJKeE5KOHRrYWx5ejVKOXhFWEp1ei1rWkdOQ3k3QmU4UzlpSWpVS3c?oc=5",
     "layer_ids": [
-      "switches"
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false

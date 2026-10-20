@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-20T01:00:32.796092+00:00",
+  "as_of": "2026-10-20T14:05:05.683107+00:00",
   "source": "openrouter.ai/rankings",
   "daily": [
     {
@@ -4694,23 +4694,23 @@
     },
     {
       "date": "2026-10-19",
-      "total_tokens_b": 124283.222,
-      "total_prompt_tokens_b": 121573.984,
-      "total_completion_tokens_b": 2709.239,
+      "total_tokens_b": 124283.229,
+      "total_prompt_tokens_b": 121573.985,
+      "total_completion_tokens_b": 2709.244,
       "total_reasoning_tokens_b": 0.0,
-      "total_requests": 4288109285,
+      "total_requests": 4288109324,
       "top_models": [
         {
           "model": "deepseek/deepseek-v4.1-flash-20260910",
           "tokens_b": 29615.768,
           "share": 0.2383,
-          "requests": 688606948
+          "requests": 688606950
         },
         {
           "model": "z-ai/glm-5.3-flash-20260826",
-          "tokens_b": 11940.111,
+          "tokens_b": 11940.113,
           "share": 0.0961,
-          "requests": 676387199
+          "requests": 676387213
         },
         {
           "model": "xiaomi/mimo-v2.6-flash-20260921",
@@ -4732,9 +4732,9 @@
         },
         {
           "model": "deepseek/deepseek-v4.1-flash-20261017",
-          "tokens_b": 7336.09,
+          "tokens_b": 7336.091,
           "share": 0.059,
-          "requests": 129839993
+          "requests": 129839994
         },
         {
           "model": "anthropic/claude-opus-5.5-20260921",
@@ -4750,23 +4750,23 @@
         },
         {
           "model": "z-ai/glm-5.3-20260816",
-          "tokens_b": 5285.298,
+          "tokens_b": 5285.299,
           "share": 0.0425,
-          "requests": 67165883
+          "requests": 67165886
         },
         {
           "model": "deepseek/deepseek-v4-flash-20260731",
           "tokens_b": 4725.049,
           "share": 0.038,
-          "requests": 351609499
+          "requests": 351609500
         }
       ]
     }
   ],
   "summary": {
     "latest_date": "2026-10-19",
-    "latest_total_tokens_b": 124283.222,
-    "latest_total_requests": 4288109285,
+    "latest_total_tokens_b": 124283.229,
+    "latest_total_requests": 4288109324,
     "dod_pct": -0.028,
     "wow_pct": -0.0972,
     "top_movers_wow": [
@@ -4789,15 +4789,15 @@
         "share_delta": 0.0132
       },
       {
-        "model": "z-ai/glm-5.3-flash-20260826",
-        "share_now": 0.0961,
-        "share_prev": 0.092,
-        "share_delta": 0.0041
-      },
-      {
         "model": "deepseek/deepseek-v4-flash-20260731",
         "share_now": 0.038,
         "share_prev": 0.0339,
+        "share_delta": 0.0041
+      },
+      {
+        "model": "z-ai/glm-5.3-flash-20260826",
+        "share_now": 0.0961,
+        "share_prev": 0.092,
         "share_delta": 0.0041
       }
     ],

@@ -43,6 +43,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-7eae6e4df09d295c",
+    "date": "2026-10-19",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Moving Beyond AI-Assisted Design – Agentrys Shows the Way with Agentic Loop Engineering",
+    "quote": "At Hot Chips 2026, OpenAI presented Jalapeño, an inference ASIC built with AI in the design loop. As reported from the session by ServeTheHome and Tom’s Hardware , OpenAI showed measured block-level wins over a human baseline — 56% on a BF16 multiply, alongside a 10% smaller matrix-unit area — within a roughly nine-month path from… Read More The post Moving Beyond AI-Assisted Design – Agentrys Shows the Way with Agentic Loop Engineering appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/agentrys/375112-agentrys-shows-the-way-with-agentic-loop-engineering/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-f7ae6fd8de1eb5c5",
     "date": "2026-10-19",
     "source": "SemiWiki",
@@ -52,49 +66,6 @@
     "url": "https://semiwiki.com/eda/siemens-eda/374917-siemens-and-nvidia-accelerate-lithography-for-next-generation-ai-chips/",
     "layer_ids": [
       "wfe"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-9cd119f479c0a6ae",
-    "date": "2026-10-18",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "CEO Interview with Francisco Almada Lobo of Critical Manufacturing",
-    "quote": "Francisco Almada Lobo is CEO and co-founder of Critical Manufacturing. He began his career at a CIM research institute and joined Siemens Semiconductors in 1997. In 2004 he led the migration of an MES in a running high-volume facility, and from 2005 to 2009 he managed the Porto Development Center for Infineon and Qimonda, responsible… Read More The post CEO Interview with Francisco Almada Lobo of Critical Manufacturing appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ceo-interviews/374517-ceo-interview-with-francisco-almada-lobo-of-critical-manufacturing/",
-    "layer_ids": [
-      "switches"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-1d5e265e5eb198fe",
-    "date": "2026-10-18",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Maskless EUV Lithography: An Alternative to E-Beam",
-    "quote": "Semiconductor manufacturing depends on lithography: the process of transferring tiny circuit patterns onto a silicon wafer. Conventional extreme-ultraviolet (EUV) lithography projects light with a wavelength of 13.5 nanometers through a reflective optical system, using a custom photomask to define each layer. It can … Read More The post Maskless EUV Lithography: An Alternative to E-Beam appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/lithography/373583-maskless-euv-lithography-an-alternative-to-e-beam/",
-    "layer_ids": [
-      "wfe",
-      "cooling"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-d01b776b9f0fb643",
-    "date": "2026-10-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to US$4.1 billion in aid - digitimes",
-    "quote": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to US$4.1 billion in aid digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdWxsUGdKcXpMVW1HWFB2ZnVOT0NDZWREVFNjaXpFRjZ2WWxrR2xTODYxSzFQZnlkMzB6NUlheEJ3cnJ1cFdWdkxJLUdJRkRMTzBKY0EyNHVSSmo0QjJCZTlWZmdpbEl2WEhKeDVJdjN6T21KcFhvN2lhNVNYT25nRmoydzIzdE5IWVhoX3pMZkI?oc=5",
-    "layer_ids": [
-      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -419,20 +390,6 @@
     "headline": "TSMC Texas-Terafab buzz drives Taiwan contractors to move fast - digitimes",
     "quote": "TSMC Texas-Terafab buzz drives Taiwan contractors to move fast digitimes",
     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVEotV2RsS3BuSnU0bkdIVWN0cEUwUC1EdWdqeHFDcFVLVE1pRGt4cEpBLWhYeHVJRUNLZ0V3bUVQbWVPNDBBQmp3VFVaM1JVcjVMd1RyYkh0di0zWXNFeEFRd3BJUlhWSW1pRTI0TlRIa01Wa3BmSEpfc0hTV25CVzNVVExnUldD?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-a1b79593dca303b0",
-    "date": "2026-10-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Musk confirms talks with TSMC over his Texas chip factory project - digitimes",
-    "quote": "Musk confirms talks with TSMC over his Texas chip factory project digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGtjWHVkYVZrd1RyRFJFMk5MT2VDWmVBQ3ZFZTJpUFVZOFVtTjhIc2xuTGJvSTZrTkhhOFR5ekdXQXhuTDJodGx2MGdTTkFsdkZySjY4SFVSQjFrQ2JjMzAzdVlEWDdJcVppTlNleVVBUmpWSkZSMmg2YjZZQXJFVnJZY09ZaFYtNW5Mck9YTzVwdlU?oc=5",
     "layer_ids": [
       "foundry"
     ],

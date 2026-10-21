@@ -1,8 +1,8 @@
 {
   "hbm": {
-    "tightness_score": 65,
-    "signal_count_90d": 5,
-    "tightness_language_hits_per_signal": 0.2,
+    "tightness_score": 63,
+    "signal_count_90d": 6,
+    "tightness_language_hits_per_signal": 0.167,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "Micron opens second Taiwan advanced packaging plant as HBM supply tightens digitimes",
@@ -10,14 +10,14 @@
     ],
     "components": {
       "density_pct": 0.2,
-      "language_pct": 0.933,
+      "language_pct": 0.867,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "foundry": {
     "tightness_score": 55,
-    "signal_count_90d": 16,
+    "signal_count_90d": 17,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -28,10 +28,10 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "packaging": {
-    "tightness_score": 45,
+    "tightness_score": 43,
     "signal_count_90d": 6,
     "tightness_language_hits_per_signal": 0.167,
     "cross_quarter_supply_tight": false,
@@ -39,30 +39,30 @@
       "Micron opens second Taiwan advanced packaging plant as HBM supply tightens digitimes"
     ],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.2,
       "language_pct": 0.867,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "wfe": {
-    "tightness_score": 56,
-    "signal_count_90d": 10,
-    "tightness_language_hits_per_signal": 0.1,
+    "tightness_score": 61,
+    "signal_count_90d": 11,
+    "tightness_language_hits_per_signal": 0.091,
     "cross_quarter_supply_tight": false,
     "evidence": [
       "ASML’s decision to collaborate with Xanadu targets one of photonic quantum computing’s most unforgiving engineering constraints: photon loss. The companies will investigate advanced lithography processes for Xanadu’s photonic quantum hardwa"
     ],
     "components": {
-      "density_pct": 0.6,
+      "density_pct": 0.733,
       "language_pct": 0.8,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "gpu": {
     "tightness_score": 52,
-    "signal_count_90d": 13,
+    "signal_count_90d": 12,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -73,7 +73,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "networking": {
     "tightness_score": 24,
@@ -86,22 +86,22 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "optics": {
-    "tightness_score": 31,
-    "signal_count_90d": 6,
+    "tightness_score": 36,
+    "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[LITE] Supply-tightness language present in both latest filings"
     ],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.4,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "switches": {
     "tightness_score": 44,
@@ -116,7 +116,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "power": {
     "tightness_score": 37,
@@ -129,24 +129,24 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "cooling": {
-    "tightness_score": 19,
+    "tightness_score": 16,
     "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.467,
+      "density_pct": 0.4,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "hyperscalers": {
     "tightness_score": 21,
-    "signal_count_90d": 8,
+    "signal_count_90d": 9,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -155,7 +155,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "neoclouds": {
     "tightness_score": 3,
@@ -168,20 +168,20 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "software": {
-    "tightness_score": 11,
+    "tightness_score": 8,
     "signal_count_90d": 6,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.2,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "eda": {
     "tightness_score": 5,
@@ -194,7 +194,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -207,6 +207,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-21T00:29:02.540611+00:00"
+    "updated_at": "2026-10-21T14:20:53.643859+00:00"
   }
 }

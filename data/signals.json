@@ -1,5 +1,65 @@
 [
   {
+    "id": "rss-6db7caae72d8910f",
+    "date": "2026-10-21",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Australian data center operator NextDC shares fall 40% after power backlash - Nikkei Asia",
+    "quote": "Australian data center operator NextDC shares fall 40% after power backlash Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY2dPNUFGRHppc3B6bllweHp0SmZ0ajFQLVhuUlJEZzY1RGxTUXd4VnpIQ2g5QTRtaFFLN3RSd0w4eS1XeE1YaEF1clNNQVhFR3E3NHM4ZEtJWDJKSnUtWG8xYjc1WTZ4RTlabWJhVU9PSUhNbWhYTXlCdTBiX0JZUWwtZmZ3OEpSRFc4cm0tX3dDclpmajZKSmVqWGQzd1haWW05ejZFVjYwV2R6cG4zY3o5YWlyZ2RQdGc?oc=5",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-3074ba97c8740eb2",
+    "date": "2026-10-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Breaking AI's memory wall: former TSMC VP charts a path with HBM, optical links and 3D stacking - digitimes",
+    "quote": "Breaking AI's memory wall: former TSMC VP charts a path with HBM, optical links and 3D stacking digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0VUWHBaWUkwdFByWjZBMXdVX3RmZTJhU3k2UnlST0I3ZE8yRXpkZnIwOWpKMmwyS25yeEtTNVhBb3dDRzVFcFM2a2hPSm5JbTFuTU5sc3VhM2puS2Rvc1JKcWhta05KOF9CM3ZvSWVZSUtWaUF2dVl6MnFxWklkdHp2Wnp5ZkUwcTBVeg?oc=5",
+    "layer_ids": [
+      "foundry",
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-2c43aa33b76ed97b",
+    "date": "2026-10-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy - digitimes",
+    "quote": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORTlWdFZ3YTVETmFLMUpqSDAwSW1zYnI4QUF0ZXJMY3RhSkp5MmRaam1CX3dkR201SXdiNGt1N1kwblRVNkhKRmUwQkVaUEtpdFRyRW9JcnM3cUprb3VDRWFxRk84XzNCSjlXMEV1T1hYWl9YbWRLZ0p2QTk2RUhMV00xd0xEUi1KUzRIM0NfbkM2MW9lVDRR?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-5264a43272271956",
+    "date": "2026-10-21",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Arteris FlexGen Opens Up Multi-Die Traffic Management for Non-Coherent Networks",
+    "quote": "Last year I wrote about Arteris’ introduction of multi-die support for coherent NoCs . This is a very big deal because hyperscalers and OEMs are now building large systems that depend on multi-chiplet architectures and require efficient traffic management between chiplets, in one case as many as 12 compute, fabric/cache and … Read More The post Arteris FlexGen Opens Up Multi-Die Traffic Management for Non-Coherent Networks appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/ip/arteris/374391-arteris-flexgen-opens-up-multi-die-traffic-management-for-non-coherent-networks/",
+    "layer_ids": [
+      "hyperscalers",
+      "optics"
+    ],
+    "tickers": [
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-02b8271e6b5cbd1b",
     "date": "2026-10-20",
     "source": "SemiWiki",
@@ -88,20 +148,6 @@
     "url": "https://www.utilitydive.com/spons/ai-in-nuclear-operations-the-shift-from-adoption-to-operating-value/832752/",
     "layer_ids": [
       "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-7eae6e4df09d295c",
-    "date": "2026-10-19",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Moving Beyond AI-Assisted Design – Agentrys Shows the Way with Agentic Loop Engineering",
-    "quote": "At Hot Chips 2026, OpenAI presented Jalapeño, an inference ASIC built with AI in the design loop. As reported from the session by ServeTheHome and Tom’s Hardware , OpenAI showed measured block-level wins over a human baseline — 56% on a BF16 multiply, alongside a 10% smaller matrix-unit area — within a roughly nine-month path from… Read More The post Moving Beyond AI-Assisted Design – Agentrys Shows the Way with Agentic Loop Engineering appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/agentrys/375112-agentrys-shows-the-way-with-agentic-loop-engineering/",
-    "layer_ids": [
-      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -292,20 +338,6 @@
     "headline": "TSMC eyes US$54.3bn in 4Q26 revenue, but 2nm ramp and overseas fabs pressure margins - digitimes",
     "quote": "TSMC eyes US$54.3bn in 4Q26 revenue, but 2nm ramp and overseas fabs pressure margins digitimes",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOa0hvYmZpX1d2aE1UOERjQ3ExNmZGOEVROXRDQm5vaG43VlowaV9EYmd3OHIwc3lyaVpfd3FPYzBjSXdERGcza0VxSlRKLV9Udy1nOWoxdVpBNEptWlVGbE92a2IwdG1EWGRkZkIyb1dhbVRHMXlnWnNEaDlTZG00NEJuNXVKUQ?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-2cf8991b011f8bf7",
-    "date": "2026-10-14",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC, Intel, Samsung seek to break AI chipmaking's next barrier through early technology integration - digitimes",
-    "quote": "TSMC, Intel, Samsung seek to break AI chipmaking's next barrier through early technology integration digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iQXVzWFpHZDNpZzFoc3FZU1p3cnlXRHlBa3pxUWlqZm13UVd4c3pEUENqRmpuWXU2MzJIdFR0SVN0YnhzTkhIWGZLQ3ZQQVp2eHVXTmxoblpmUDUwUmR3?oc=5",
     "layer_ids": [
       "foundry"
     ],

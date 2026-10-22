@@ -43,6 +43,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-5ed42dc894ed50b2",
+    "date": "2026-10-21",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Why America’s Semiconductor Manufacturing Capacity Matters",
+    "quote": "America’s semiconductor future will be shaped by its ability to turn scientific discoveries into chips manufactured at scale. That is why the investments outlined in Intel Foundry’s recent editorial matter beyond the company’s own business. They address a fundamental question: whether the United States can sustain the research, … Read More The post Why America’s Semiconductor Manufacturing Capacity Matters appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/375206-why-americas-semiconductor-manufacturing-capacity-matters/",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-5264a43272271956",
     "date": "2026-10-21",
     "source": "SemiWiki",
@@ -76,22 +90,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-16e54081a113e148",
-    "date": "2026-10-20",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Smoothing the Quantum Path: ASML and Xanadu Target Photon Loss",
-    "quote": "ASML’s decision to collaborate with Xanadu targets one of photonic quantum computing’s most unforgiving engineering constraints: photon loss. The companies will investigate advanced lithography processes for Xanadu’s photonic quantum hardware, focusing on whether tighter patterning control can suppress loss mechanisms… Read More The post Smoothing the Quantum Path: ASML and Xanadu Target Photon Loss appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/lithography/373533-smoothing-the-quantum-path-asml-and-xanadu-target-photon-loss/",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-b77a476ed603ef6f",
     "date": "2026-10-19",
     "source": "DigiTimes",
@@ -108,46 +106,15 @@
     "arch_risk": false
   },
   {
-    "id": "rss-8db929e0b18ffecb",
+    "id": "rss-d8c74befd8acac3a",
     "date": "2026-10-19",
-    "source": "Utility Dive",
+    "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Schneider Electric sees record-high Q3 revenue on global data center boom",
-    "quote": "North America continues to be the largest source of revenue for the company’s energy management segment, but China and East Asia saw a higher organic growth rate this quarter and year to date.",
-    "url": "https://www.utilitydive.com/news/schneider-electric-data-center-earnings/833358/",
+    "headline": "TSMC 3Q26 earnings call - digitimes",
+    "quote": "TSMC 3Q26 earnings call digitimes",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9McFBvMThBUUZNcTBsQklkQi04bHc3MEtjVDI4NzF2SnQ0blB0Yld3dGZ1NlJCNllQZkM0N1E3endyNGk5UkhSeHlNd0RPZlRHUWNiVm1uWGZVSlE4Rk5JYXZJb0VQM2h5VmpGS1pQc0tDMGRmVmJR?oc=5",
     "layer_ids": [
-      "cooling",
-      "power"
-    ],
-    "tickers": [
-      "SU.PA"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-168d50f0e6002219",
-    "date": "2026-10-19",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "AEP signs 960-MW Indiana nuclear pact with Amazon, X-energy",
-    "quote": "If the project is developed, Amazon would purchase the power under a long-term contract that covers the cost of the facility and its operations, the companies said.",
-    "url": "https://www.utilitydive.com/news/aep-signs-advanced-960-mw-nuclear-amazon-x-energy/833341/",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-14e74e6d3bf5ed7d",
-    "date": "2026-10-19",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "AI in nuclear operations: The shift from adoption to operating value",
-    "quote": "Nuclear utility AI results have been mixed across the industry, but there are clear trends among those finding value.",
-    "url": "https://www.utilitydive.com/spons/ai-in-nuclear-operations-the-shift-from-adoption-to-operating-value/832752/",
-    "layer_ids": [
-      "power"
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -192,24 +159,6 @@
       "foundry"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-00ec750f35544381",
-    "date": "2026-10-16",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
-    "quote": "At OCP 2026, we saw an AMD Helios AI rack switch tray, the HPE Juniper QFX5252. This just looks super cool The post This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/this-is-the-amd-helios-hpe-juniper-qfx5252-switch-tray-at-ocp-2026/",
-    "layer_ids": [
-      "switches",
-      "gpu"
-    ],
-    "tickers": [
-      "AMD",
-      "HPE"
-    ],
     "arch_risk": false
   },
   {
@@ -432,20 +381,6 @@
     "tickers": [
       "MU"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-36e95e87caf476b8",
-    "date": "2026-10-07",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "AI supercycle, pricing, and Terafab top the agenda ahead of TSMC's earnings call - digitimes",
-    "quote": "AI supercycle, pricing, and Terafab top the agenda ahead of TSMC's earnings call digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN012NHpQRjFOZFhUMGRXUE1JMWpEaXhsTmlzcFl1LXRrYUZoVjhCOTh6QTYwQjhtUEdDOFdoZy1vZktaUHZyOTVXUE1pZ1QwU1J5WFZGODVMTS1IRnVGcktiRzl1VllYb1dkWXlZQ3BneUZyM1EwNDA4LTR0ZXdPVE5KeVY1b203S1B2aS1B?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {

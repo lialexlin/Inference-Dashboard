@@ -1,5 +1,73 @@
 [
   {
+    "id": "rss-4600caccbbf5b787",
+    "date": "2026-10-22",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Utilities turn to AI to manage rising power demand — from AI",
+    "quote": "Applications include maintenance prioritization and demand forecasting, but AI outputs that are uneven, or those that can’t be audited, constrain broader deployment. “Most utilities could not reconstruct what an AI system read, what it did and why,” one expert told Utility Dive.",
+    "url": "https://www.utilitydive.com/news/utilities-turn-to-ai-to-manage-rising-power-demand-from-ai/833627/",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-LRCX-0000707549-26-000054",
+    "accession": "0000707549-26-000054",
+    "form": "10-Q",
+    "date": "2026-10-22",
+    "source": "SEC EDGAR (LRCX)",
+    "source_type": "filing",
+    "headline": "LRCX files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000054/lrcx-20260927.htm",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [
+      "LRCX"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MXL-0001288469-26-000061",
+    "accession": "0001288469-26-000061",
+    "form": "10-Q",
+    "date": "2026-10-22",
+    "source": "SEC EDGAR (MXL)",
+    "source_type": "filing",
+    "headline": "MXL files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000061/mxl-20260930.htm",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [
+      "MXL"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MXL-0001288469-26-000060",
+    "accession": "0001288469-26-000060",
+    "form": "8-K",
+    "date": "2026-10-22",
+    "source": "SEC EDGAR (MXL)",
+    "source_type": "filing",
+    "headline": "MXL files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000060/mxl-20261022.htm",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [
+      "MXL"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-META-0001628280-26-066773",
     "accession": "0001628280-26-066773",
     "form": "10-Q",
@@ -32,6 +100,21 @@
     "arch_risk": false
   },
   {
+    "id": "rss-3074ba97c8740eb2",
+    "date": "2026-10-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Breaking AI's memory wall: former TSMC VP charts a path with HBM, optical links and 3D stacking - digitimes",
+    "quote": "Breaking AI's memory wall: former TSMC VP charts a path with HBM, optical links and 3D stacking digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0VUWHBaWUkwdFByWjZBMXdVX3RmZTJhU3k2UnlST0I3ZE8yRXpkZnIwOWpKMmwyS25yeEtTNVhBb3dDRzVFcFM2a2hPSm5JbTFuTU5sc3VhM2puS2Rvc1JKcWhta05KOF9CM3ZvSWVZSUtWaUF2dVl6MnFxWklkdHp2Wnp5ZkUwcTBVeg?oc=5",
+    "layer_ids": [
+      "foundry",
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-53a8d15476b86149",
     "date": "2026-10-21",
     "source": "DigiTimes",
@@ -46,15 +129,14 @@
     "arch_risk": false
   },
   {
-    "id": "rss-9f8f205c600f48da",
+    "id": "rss-2c43aa33b76ed97b",
     "date": "2026-10-21",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "2nm and CoWoS expansion lifts Chi Yi Hsin Technology backlog to NT$4.5B - digitimes",
-    "quote": "2nm and CoWoS expansion lifts Chi Yi Hsin Technology backlog to NT$4.5B digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd0JvNFZoSTh2cjUtWml5cThpNnN4Z3RLR1d5VkpGMXRGeGJZQ0YyZVNpdEhkNVU2REcxUktGM2thUE1nUUlJc25GV2tvTFlyQTBrVFRyVjNFdVdxZ280SUJLOUlSb3NqYk5Pb3lrbU9GTDNwMUlJZnpRNHgyaUNhMHFDM2Ztb1pOaDlVdkFuVXdBekNSSmc?oc=5",
+    "headline": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy - digitimes",
+    "quote": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORTlWdFZ3YTVETmFLMUpqSDAwSW1zYnI4QUF0ZXJMY3RhSkp5MmRaam1CX3dkR201SXdiNGt1N1kwblRVNkhKRmUwQkVaUEtpdFRyRW9JcnM3cUprb3VDRWFxRk84XzNCSjlXMEV1T1hYWl9YbWRLZ0p2QTk2RUhMV00xd0xEUi1KUzRIM0NfbkM2MW9lVDRR?oc=5",
     "layer_ids": [
-      "packaging",
       "foundry"
     ],
     "tickers": [],
@@ -75,19 +157,20 @@
     "arch_risk": false
   },
   {
-    "id": "rss-5264a43272271956",
+    "id": "edgar-LRCX-0000707549-26-000052",
+    "accession": "0000707549-26-000052",
+    "form": "8-K",
     "date": "2026-10-21",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Arteris FlexGen Opens Up Multi-Die Traffic Management for Non-Coherent Networks",
-    "quote": "Last year I wrote about Arteris’ introduction of multi-die support for coherent NoCs . This is a very big deal because hyperscalers and OEMs are now building large systems that depend on multi-chiplet architectures and require efficient traffic management between chiplets, in one case as many as 12 compute, fabric/cache and … Read More The post Arteris FlexGen Opens Up Multi-Die Traffic Management for Non-Coherent Networks appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ip/arteris/374391-arteris-flexgen-opens-up-multi-die-traffic-management-for-non-coherent-networks/",
+    "source": "SEC EDGAR (LRCX)",
+    "source_type": "filing",
+    "headline": "LRCX files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000052/lrcx-20261021.htm",
     "layer_ids": [
-      "hyperscalers",
-      "optics"
+      "wfe"
     ],
     "tickers": [
-      "NOW"
+      "LRCX"
     ],
     "arch_risk": false
   },
@@ -110,22 +193,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-02b8271e6b5cbd1b",
-    "date": "2026-10-20",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "The Industry Challenge: AI Is Forcing Semiconductor Innovation Beyond the Chip",
-    "quote": "Applied Materials President and CEO Gary Dickerson with the EPIC Center founding partners on October 12, 2026, in Sunnyvale, CA. (Tomas Ovalle/AP Content Services for Applied Materials, Inc.) The bottlenecks are becoming interconnected Artificial intelligence is changing what the semiconductor industry must deliver. … Read More The post The Industry Challenge: AI Is Forcing Semiconductor Innovation Beyond the Chip appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/applied-materials/375047-the-industry-challenge-ai-is-forcing-semiconductor-innovation-beyond-the-chip/",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "AMAT"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "rss-b77a476ed603ef6f",
     "date": "2026-10-19",
     "source": "DigiTimes",
@@ -142,13 +209,27 @@
     "arch_risk": false
   },
   {
-    "id": "rss-7ceda04a3b9798f7",
-    "date": "2026-10-17",
+    "id": "rss-d8c74befd8acac3a",
+    "date": "2026-10-19",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC’s 3nm Kumamoto plan wins Japan’s approval, qualifying for up to $4.1 billion in aid - digitimes",
-    "quote": "TSMC’s 3nm Kumamoto plan wins Japan’s approval, qualifying for up to $4.1 billion in aid digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcklRS1E0NlZkUVQxemRmNmtXazhvSzFNSFJVYzkxRGVZMkh1THZkdmlYc01GbVNfV0diSlFQZzBxakdYa0hpcGNubXZvcVo5WjYzTnBYNWhLNkI0YUJmSm5pX3A4c1YxY1NUdHdlVFpHX1VGek9fdy1fLW1qbWpiUTM5Y3o2bVQ2VjZheUJ3?oc=5",
+    "headline": "TSMC 3Q26 earnings call - digitimes",
+    "quote": "TSMC 3Q26 earnings call digitimes",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9McFBvMThBUUZNcTBsQklkQi04bHc3MEtjVDI4NzF2SnQ0blB0Yld3dGZ1NlJCNllQZkM0N1E3endyNGk5UkhSeHlNd0RPZlRHUWNiVm1uWGZVSlE4Rk5JYXZJb0VQM2h5VmpGS1pQc0tDMGRmVmJR?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-341ef8b2302ae52e",
+    "date": "2026-10-16",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC details pricing, confirms agentic AI boosts CPU demand - digitimes",
+    "quote": "TSMC details pricing, confirms agentic AI boosts CPU demand digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORGdnRGx2eEd5LWVuc1hEMmxIemQ4Z255OHpGUXBRcXZJX09LeGhyNjVSUGRsZDZpZEpYNUl3c2V5Wml0UFpVQkJCRmpaWFBIbC1Da1RTek5vckd5cGtwNkxLQTF3N3ZRZnZCMmFjTGpYQTdWVWVTMFJYSGktU21IcmZQSnZjanhvc1k2NDF3?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -212,6 +293,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-dd678f530b5cdccc",
+    "date": "2026-10-15",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Fujifilm to expand Arizona semiconductor materials output - digitimes",
+    "quote": "Fujifilm to expand Arizona semiconductor materials output digitimes",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUW9QeHp1QThMTGNJZXVHbGRabjFYUVFvUzBBQU92bkxKMDFwQWZncF9FdFNZLWVSVVZjYWpNQnF3aUNjbkxmdmt4TTNHZXZmUHNmRVc3b045N09WWnMyN0poWXl3dWR3eHduLUJpTFpLQkZacDJKcXMyQVJsX2Jma3hlOW5GZ0NNTkZNVUJiQjdSdlRldlowc0Y5SE0zZnBBREEtMA?oc=5",
+    "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-a7a1ab24ce7b43d2",
     "date": "2026-10-15",
     "source": "DigiTimes",
@@ -244,58 +339,28 @@
     "arch_risk": false
   },
   {
-    "id": "rss-874e7264ce7db62c",
+    "id": "rss-0b79f4e29827775c",
     "date": "2026-10-15",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Applied Materials targets AI-driven semiconductor equipment growth through 2030 - digitimes",
-    "quote": "Applied Materials targets AI-driven semiconductor equipment growth through 2030 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQnJnbWRJVXZVdWppSzFfYVNGSElDWERLZVVLVXVDd2xHNGRCYk9yXzJJV1VtMndwdmZsVXJ5NUd5eTFyMTdSX240X1RCZm5hcGNmWjJLeXZBX19VaXgyVFJHcXFnVC11c2F5N3ViX1NKcFY0aTBObkJQMEllTEJpYzVMRjljQWdPWHJPT1cyXzhsdFNodERHTDJHY3RiY0UwdlltTFlhNA?oc=5",
+    "headline": "Analysis: GlobalFoundries' calculus behind US$2 billion entry into TSMC's CoWoS ecosystem - digitimes",
+    "quote": "Analysis: GlobalFoundries' calculus behind US$2 billion entry into TSMC's CoWoS ecosystem digitimes",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaUc4QURocnBETWg4WllhUmV4TmxFVVJJSjVfRUFETDZwajJmQTh5VGJNNzBFeGJJS29rZHlQaU1TZFV3NDVCQnFBX0RYellwZWpnVHR3Wmx4LXhGU0YtRTF3b21hV0NON0w3RVhpeFN0NTlPN000cTIyMExYU3NHRUZlTGk1cjhCMHFEcHZDOG5VbVlWLXRpQTRJbHBOVmNM?oc=5",
     "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "AMAT"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-2cd5f9d0f5047866",
-    "date": "2026-10-15",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC excludes CPUs from AI accelerator growth forecast - digitimes",
-    "quote": "TSMC excludes CPUs from AI accelerator growth forecast digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjE4a2Q3X3lhTV96TnJiR2d5RHJNa1RoMTFxcmh1ZTBDNFZnUHF6SXVZckYwOTVnYjVWdEhmM3VBbjJQM1BpYmU1b19CVDV0T0FYOW1DemFJeUF4cXVXWDMwV1pWNDA3b3VKVzZvUVZQOWhLWUhSR2JXUUlCWlNCMzR2YUlHd2g0YnVWQk1ld3Jsdw?oc=5",
-    "layer_ids": [
-      "gpu",
+      "packaging",
       "foundry"
     ],
     "tickers": [],
     "arch_risk": false
   },
   {
-    "id": "rss-4264cbe40bb16261",
+    "id": "rss-3aedd687e6666b18",
     "date": "2026-10-15",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC investor conference: TSMC lifts 2026 revenue growth forecast to 44%, 2nm expansion, new 3nm fab - digitimes",
-    "quote": "TSMC investor conference: TSMC lifts 2026 revenue growth forecast to 44%, 2nm expansion, new 3nm fab digitimes",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSG1NM2QxX2xaeVg4UzJ0Z3BaVl9tVThkRUdOMTlaRnBQdlVQdDBSdnNzZy1JblJHWXI1d3NvOFBtSGczZjlQQ25acWY2aWZKZTFPLXRNZGNRbmZWN2tDeDRjelY3TUxkRnE2RGFKQTVRbTM1bDNNZno4d3p2ZUZMdw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-346fc65862c8b0a7",
-    "date": "2026-10-15",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Analysis: Elon Musk's Terafab chases 10 chip iterations a year — can it rival TSMC? - digitimes",
-    "quote": "Analysis: Elon Musk's Terafab chases 10 chip iterations a year — can it rival TSMC? digitimes",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGR3SFVoVUR0WlpGNXFUYU9MTndSNlR5OVdJSlRpWUtQQ0IzYUwzWkpOeVBDZ3pacmNXeHNtUFg5am1UTW5PanB6RjFCclNUU2MxbWpvaVVnVjlQNmdpaUdpVUhkTjhXWFd6d21LS3J5c0RJN3B1VDFhS2NHNHVvRzdiZ0h5WDJDNkl6Q211am9URlFqZ0NrX0xsb09ycFlw?oc=5",
+    "headline": "TSMC eyes US$54.3bn in 4Q26 revenue, but 2nm ramp and overseas fabs pressure margins - digitimes",
+    "quote": "TSMC eyes US$54.3bn in 4Q26 revenue, but 2nm ramp and overseas fabs pressure margins digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOa0hvYmZpX1d2aE1UOERjQ3ExNmZGOEVROXRDQm5vaG43VlowaV9EYmd3OHIwc3lyaVpfd3FPYzBjSXdERGcza0VxSlRKLV9Udy1nOWoxdVpBNEptWlVGbE92a2IwdG1EWGRkZkIyb1dhbVRHMXlnWnNEaDlTZG00NEJuNXVKUQ?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -317,16 +382,15 @@
     "arch_risk": false
   },
   {
-    "id": "rss-7c11d8e528f81b0d",
+    "id": "rss-81636f82446724e3",
     "date": "2026-10-13",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC power plant funding talks still conceptual, says Taipower - digitimes",
-    "quote": "TSMC power plant funding talks still conceptual, says Taipower digitimes",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSjFSMGtGUkdGa3F2UzgyUXE2SlBTcXlPZElrb211R1E0SDYzMmplOGZuS0RJRlVHVlZTY1B0OWxnNlJ1QjdTak9Hc24wU1dUU2YzbC1qZFQyYXZJaG16VWV0QTYyYjZIZVo0NUlad2VfTEFia1VweWZJSnlwVl9iQWFoNlVsT2ctb2NSY0xIRzVtV3ExQ21ncFBad2YtVFJndzg2d2lQcDdrYmlHLWc?oc=5",
+    "headline": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? - digitimes",
+    "quote": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVWdrdUtjMF8ybmp0NnJDSHZUQnZ4MmE3WFMtcVNKLXk5LUdHZG1FUEJpOG12dnRuUDNaS0NNNTZrR0FmTERwS0NvbEw2enVjQVhGZFZlckRrLWhUejVTVThYazJKeE5KOHRrYWx5ejVKOXhFWEp1ei1rWkdOQ3k3QmU4UzlpSWpVS3c?oc=5",
     "layer_ids": [
-      "foundry",
-      "software"
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -341,6 +405,36 @@
     "url": "https://www.nextplatform.com/compute/2026/10/13/microsofts-clea-maia-300-inference-xpu-is-a-bandwidth-beast/5302874",
     "layer_ids": [
       "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-c70baaa7869fcab8",
+    "date": "2026-10-12",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 - digitimes",
+    "quote": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 digitimes",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkRWVHotZW5zOTdPS2FVeGVTcl9ETm5UWW1MQ3k5VVh3cGxMbnl2VGJBZktHZ3Z1QVR0a1VCT3cwZ3g5NVZWTzhDR1JDdG9YaVU1QXIxV0lEMDkzWEd0dFFaaTZvVHplNkxvWHEwOVA2cWhwQmJabkl1UFZhc2FqSWh1Z2JJWF92a0RYd1BPV25QYTVsNjl1XzhHR3FKdDRINE9ranpGZ3JiN1BZTWc?oc=5",
+    "layer_ids": [
+      "foundry",
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-dea6d75ba4e757f0",
+    "date": "2026-10-09",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "GlobalFoundries wins US$2 billion TSMC interposer deal, closing a US packaging gap - digitimes",
+    "quote": "GlobalFoundries wins US$2 billion TSMC interposer deal, closing a US packaging gap digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSHpFeExFWU5CSElXenAxaHpEZDV1Qk90SEpiSU9pcXRfOEFXZUotQjc3Vk5oc1hDZjdLNWl0SUZoNlFDUDdzWUtSNFU0THVTRW1aWFozVHRPNENrRDBpY1pNLTJaUXh4ZUFERmRZQlRtVFdyazBPYUJlVU9BeE5tZEZxbDJHbWQxa2VlcmJXTXEtaWhtNkotTm11bw?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -393,20 +487,6 @@
     "tickers": [
       "MU"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-153860053517fefb",
-    "date": "2026-09-24",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC locks in 3-6% wafer out price hikes for 2027 - digitimes",
-    "quote": "TSMC locks in 3-6% wafer out price hikes for 2027 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMVE4Ty1hREZERmhoSkJWekhXV25RekVMSXpMMHJyNmpJTjV0ZFJQUlF4eHJVTkxsN1ZrZVFoa3RsRnhuZWM2Z1pSUTZOeFg5MWMtLXVuM2VwWEF1eUhsanZuOFVNUmdfb1VLSkxmMERxTWt2cldmcjdOMTFNdWpfTDlzZzNKQQ?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -5875,101 +5955,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-LRCX-0000707549-26-000022",
-    "accession": "0000707549-26-000022",
-    "form": "10-Q",
-    "date": "2026-04-23",
-    "source": "SEC EDGAR (LRCX)",
-    "source_type": "filing",
-    "headline": "LRCX files 10-Q: periodic report",
-    "quote": "In the March 2026 quarter, revenue increased 9% compared to the three months ended December 28, 2025... driven by an increase in systems revenue primarily resulting from increased customer investments in the DRAM market segment as well as an increase in customer support-related revenue mainly tied to our expanding installed base.",
-    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000022/lrcx-20260329.htm",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "LRCX"
-    ],
-    "summary": {
-      "tldr": "Mar 2026 qtr (Q3 FY26) revenue $5.84B (+9% QoQ) on DRAM investment surge; memory mix jumped to 39% from 34% as foundry slipped to 54%.",
-      "takeaways": [
-        "Q3 FY26 revenue $5.84B (+9% QoQ); nine-month revenue $16.51B vs $13.26B prior year (+24%)",
-        "Systems revenue $3.73B (+11% QoQ) on DRAM customer investments; customer-support revenue $2.11B (+6%) on installed-base growth",
-        "Memory mix rose to 39% (from 34%) on strengthened DRAM and NVM investment; Foundry fell to 54% (from 59%) on lower mature node spend",
-        "Korea jumped to 23% of revenue (from 20%); Taiwan 23%, China 34%; Korea and Taiwan together = 46%",
-        "Gross margin 49.8% (+0.2pts QoQ) on better factory efficiencies; net income $1.83B (+15% QoQ)",
-        "Capital returns Q3: $1.16B repurchases + $326M dividends + $751M debt paydown; cash dropped to $4.77B from $6.20B"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Mgmt expects continued WFE growth in CY2026 with AI driving higher semi industry spending across both memory and non-memory; trade restrictions/tariffs continue as near-term negative factor",
-        "opex": null,
-        "period": "CY2026",
-        "revenue": null
-      },
-      "quote": "In the March 2026 quarter, revenue increased 9% compared to the three months ended December 28, 2025... driven by an increase in systems revenue primarily resulting from increased customer investments in the DRAM market segment as well as an increase in customer support-related revenue mainly tied to our expanding installed base.",
-      "quote_section": "Item 2 MD&A — Executive Summary"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-MXL-0001288469-26-000029",
-    "accession": "0001288469-26-000029",
-    "form": "10-Q",
-    "date": "2026-04-23",
-    "source": "SEC EDGAR (MXL)",
-    "source_type": "filing",
-    "headline": "MXL files 10-Q: periodic report",
-    "quote": "The increase in infrastructure net revenue of $36.3 million was driven by increases in the volume of shipments of high-performance analog products, optical and wireless backhaul and access products.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000029/mxl-20260331.htm",
-    "layer_ids": [
-      "optics",
-      "networking"
-    ],
-    "tickers": [
-      "MXL"
-    ],
-    "summary": {
-      "tldr": "Q1 26 revenue $137.2M +43% YoY led by infrastructure +$36.3M (optical and wireless backhaul/access); top customer 13% of revenue and top 10 at 56% mark a broader customer base than FY25.",
-      "takeaways": [
-        "Q1 26 revenue $137.2M vs $95.9M prior year (+43% YoY); driven by Infrastructure +$36.3M, Industrial/multi-market +$3.9M, Broadband +$2.7M",
-        "Infrastructure growth attributed to high-performance analog, optical, and wireless backhaul/access products — confirms optical DSP traction post-FY25 reset",
-        "Connectivity dipped $1.6M on seasonal MoCA/ethernet declines (normal Q1 pattern)",
-        "Customer concentration broadened: largest customer 13% of revenue (vs prior years where top was >20%); top 10 = 56% (vs 65% in FY25)",
-        "No material revenue impact from price changes period over period; volume-led growth",
-        "Mgmt frames AI/ML and 1.6T-cycle optical DSPs as next-leg infrastructure opportunity but does not break out hyperscale optical DSP revenue separately"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": null,
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "The increase in infrastructure net revenue of $36.3 million was driven by increases in the volume of shipments of high-performance analog products, optical and wireless backhaul and access products.",
-      "quote_section": "Item 2 MD&A — Net Revenue"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-MXL-0001288469-26-000027",
-    "accession": "0001288469-26-000027",
-    "form": "8-K",
-    "date": "2026-04-23",
-    "source": "SEC EDGAR (MXL)",
-    "source_type": "filing",
-    "headline": "MXL files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000027/mxl-20260422.htm",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [
-      "MXL"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-NOW-0001373715-26-000056",
     "accession": "0001373715-26-000056",
     "form": "10-Q",
@@ -6075,24 +6060,6 @@
     ],
     "tickers": [
       "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-LRCX-0000707549-26-000020",
-    "accession": "0000707549-26-000020",
-    "form": "8-K",
-    "date": "2026-04-22",
-    "source": "SEC EDGAR (LRCX)",
-    "source_type": "filing",
-    "headline": "LRCX files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000020/lrcx-20260422.htm",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "LRCX"
     ],
     "arch_risk": false
   },

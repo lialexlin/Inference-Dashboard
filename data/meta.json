@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-10-23T00:27:13.103649+00:00",
+  "last_refresh_at": "2026-10-23T14:00:29.738571+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-10-23T00:28:18.202030+00:00"
+      "ts": "2026-10-23T14:01:27.091808+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-10-23T00:28:24.035496+00:00"
+      "ts": "2026-10-23T14:01:31.490763+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 24,
       "errors": {},
-      "ts": "2026-10-23T00:28:37.477311+00:00"
+      "ts": "2026-10-23T14:01:42.382477+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390102 (08001): Failed to login: Login error: Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [7dba0152-6b6d-4290-b661-176f284a6182], code: 390102"
+        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [253b2206-2969-4551-bbd6-b0450d2ff42d], code: 390100"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-10-23T00:27:14.553422+00:00"
+      "ts": "2026-10-23T14:00:31.775746+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-10-23T00:30:50.202271+00:00"
+      "ts": "2026-10-23T14:03:51.014820+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -66,14 +66,14 @@
           "tightness_score": 41
         }
       ],
-      "ts": "2026-10-23T00:30:50.195388+00:00"
+      "ts": "2026-10-23T14:03:51.004532+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 70,
-      "latest_date": "2026-10-21",
-      "latest_total_tokens_b": 130765.089,
-      "ts": "2026-10-23T00:30:50.189412+00:00"
+      "daily_rows": 71,
+      "latest_date": "2026-10-22",
+      "latest_total_tokens_b": 137070.845,
+      "ts": "2026-10-23T14:03:50.996985+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-10-23T00:30:50.204444+00:00"
+      "ts": "2026-10-23T14:03:51.017630+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -133,7 +133,7 @@
         "CSCO": "http 301",
         "HPE": "http 301",
         "CLS": "http 301",
-        "GEV": "http 301",
+        "GEV": "probe failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "ETN": "http 301",
         "VRT": "http 301",
         "GNRC": "http 301",
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-10-23T00:30:48.807625+00:00"
+      "ts": "2026-10-23T14:03:49.603166+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-10-23T00:30:49.285251+00:00"
+      "ts": "2026-10-23T14:03:50.179422+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-10-23T00:30:50.193635+00:00"
+      "ts": "2026-10-23T14:03:51.002554+00:00"
     },
     "tw_universe": {
       "ok": 1949,
       "stock_count": 1949,
       "sector_count": 71,
       "latest_date": "2026-10-22",
-      "ts": "2026-10-23T00:31:41.010283+00:00"
+      "ts": "2026-10-23T14:04:39.687309+00:00"
     },
     "us_universe": {
-      "ok": 970,
-      "stock_count": 970,
+      "ok": 961,
+      "stock_count": 961,
       "sector_count": 77,
-      "latest_date": "2026-10-21",
-      "ts": "2026-10-23T00:33:50.944587+00:00"
+      "latest_date": "2026-10-23",
+      "ts": "2026-10-23T14:06:21.151658+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 304,
-    "total": 330
+    "discovered_kept": 303,
+    "total": 329
   }
 }

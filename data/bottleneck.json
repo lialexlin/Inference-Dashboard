@@ -1,33 +1,34 @@
 {
   "hbm": {
-    "tightness_score": 31,
-    "signal_count_90d": 6,
+    "tightness_score": 36,
+    "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[MU] 'Supply allocation decisions may impact certain customers' (Q1) → 'Industry supply allocation decisions continue' (Q2) — no easing language added"
     ],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.4,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "foundry": {
-    "tightness_score": 55,
-    "signal_count_90d": 15,
-    "tightness_language_hits_per_signal": 0.0,
+    "tightness_score": 92,
+    "signal_count_90d": 16,
+    "tightness_language_hits_per_signal": 0.062,
     "cross_quarter_supply_tight": true,
     "evidence": [
+      "The future of intelligent computing depends on silicon that delivers more performance within tighter power and thermal limits. Combining TSMC’s advanced process technology with Analog Bits’ analog and mixed-signal expertise, we help designe",
       "[INTC] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
       "density_pct": 0.867,
-      "language_pct": 0.0,
+      "language_pct": 0.933,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "packaging": {
     "tightness_score": 5,
@@ -40,7 +41,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "wfe": {
     "tightness_score": 29,
@@ -53,11 +54,11 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "gpu": {
     "tightness_score": 52,
-    "signal_count_90d": 12,
+    "signal_count_90d": 13,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -68,7 +69,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "networking": {
     "tightness_score": 24,
@@ -81,11 +82,11 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "optics": {
     "tightness_score": 39,
-    "signal_count_90d": 8,
+    "signal_count_90d": 9,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -96,10 +97,10 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "switches": {
-    "tightness_score": 41,
+    "tightness_score": 39,
     "signal_count_90d": 9,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
@@ -107,11 +108,11 @@
       "[HPE] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.533,
+      "density_pct": 0.467,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "power": {
     "tightness_score": 37,
@@ -124,7 +125,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "cooling": {
     "tightness_score": 11,
@@ -137,7 +138,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "hyperscalers": {
     "tightness_score": 24,
@@ -150,7 +151,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "neoclouds": {
     "tightness_score": 3,
@@ -163,7 +164,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "software": {
     "tightness_score": 11,
@@ -176,7 +177,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "eda": {
     "tightness_score": 5,
@@ -189,7 +190,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -202,6 +203,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-23T14:03:51.002801+00:00"
+    "updated_at": "2026-10-24T00:25:03.925624+00:00"
   }
 }

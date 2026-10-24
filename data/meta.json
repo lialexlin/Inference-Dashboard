@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-10-24T00:22:12.009199+00:00",
+  "last_refresh_at": "2026-10-24T13:02:55.475495+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-10-24T00:22:45.446005+00:00"
+      "ts": "2026-10-24T13:03:27.757182+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-10-24T00:22:50.129320+00:00"
+      "ts": "2026-10-24T13:03:32.177672+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 24,
       "errors": {},
-      "ts": "2026-10-24T00:22:57.772583+00:00"
+      "ts": "2026-10-24T13:03:39.283036+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [3d8f16ac-5c9f-4aa1-a0bd-b816e3d40500], code: 390100"
+        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [0853b98d-791e-4962-b65d-3415b755334b], code: 390100"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-10-24T00:22:12.869425+00:00"
+      "ts": "2026-10-24T13:02:56.272388+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-10-24T00:25:03.938089+00:00"
+      "ts": "2026-10-24T13:05:48.018574+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -66,14 +66,14 @@
           "tightness_score": 39
         }
       ],
-      "ts": "2026-10-24T00:25:03.927538+00:00"
+      "ts": "2026-10-24T13:05:48.008337+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 72,
       "latest_date": "2026-10-23",
-      "latest_total_tokens_b": 128116.819,
-      "ts": "2026-10-24T00:25:03.920178+00:00"
+      "latest_total_tokens_b": 128116.826,
+      "ts": "2026-10-24T13:05:48.001380+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-10-24T00:25:03.940939+00:00"
+      "ts": "2026-10-24T13:05:48.021570+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-10-24T00:25:02.486540+00:00"
+      "ts": "2026-10-24T13:05:46.738719+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,27 +172,27 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-10-24T00:25:03.058536+00:00"
+      "ts": "2026-10-24T13:05:47.304449+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-10-24T00:25:03.925331+00:00"
+      "ts": "2026-10-24T13:05:48.006254+00:00"
     },
     "tw_universe": {
-      "ok": 1949,
-      "stock_count": 1949,
-      "sector_count": 71,
-      "latest_date": "2026-10-22",
-      "ts": "2026-10-24T00:26:11.220120+00:00"
+      "ok": 0,
+      "errors": {
+        "__stage__": "tw_universe: could not resolve latest trading day — no data written"
+      },
+      "ts": "2026-10-24T13:17:06.808731+00:00"
     },
     "us_universe": {
       "ok": 961,
       "stock_count": 961,
       "sector_count": 77,
-      "latest_date": "2026-10-22",
-      "ts": "2026-10-24T00:27:25.792650+00:00"
+      "latest_date": "2026-10-23",
+      "ts": "2026-10-24T13:18:24.052447+00:00"
     }
   },
   "signals": {

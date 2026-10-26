@@ -1,5 +1,65 @@
 [
   {
+    "id": "rss-783c05e2e31e7542",
+    "date": "2026-10-26",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Cadence, Nvidia Unveil New AI Models To Put EDA On Autopilot",
+    "quote": "",
+    "url": "https://www.nextplatform.com/hpc/2026/10/26/cadence-nvidia-unveil-new-ai-models-to-put-eda-on-autopilot/5305228",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-b6b3eb5d041c134c",
+    "date": "2026-10-26",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "More capability, less equipment: the future of capacitor bank control",
+    "quote": "Utilities can now gain capacity and reliability without adding equipment or substation space.",
+    "url": "https://www.utilitydive.com/spons/more-capability-less-equipment-the-future-of-capacitor-bank-control/833143/",
+    "layer_ids": [
+      "power",
+      "software"
+    ],
+    "tickers": [
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-1416f82b7f454d0d",
+    "date": "2026-10-26",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "Inside the Package Powering Modern AI",
+    "quote": "TSMC’s CoWoS-S is critical to the artificial intelligence era because it solves the central systems problem facing modern accelerators: computing capability is growing faster than conventional packages can supply data, power, and connectivity. CoWoS-S , meaning Chip-on-Wafer-on-Substrate with a silicon interposer, … Read More The post Inside the Package Powering Modern AI appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/371610-inside-the-package-powering-modern-ai/",
+    "layer_ids": [
+      "packaging",
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-4fc91d42aa604760",
+    "date": "2026-10-26",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "SEMICON West 2026: After the Toast, the Hard Questions",
+    "quote": "Champagne is an unusual opening act for a semiconductor conference. At SEMICON West 2026, October 13 to 15, at the Moscone Center in San Francisco, it served a purpose. The toast marked an industry that has already crossed $1 trillion in annual revenue, almost four years ahead of earlier projections. WSTS ( World Semiconductor … Read More The post SEMICON West 2026: After the Toast, the Hard Questions appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-services/375275-semicon-west-2026-after-the-toast-the-hard-questions/",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-0b973532f2ae7283",
     "date": "2026-10-25",
     "source": "ServeTheHome",
@@ -7,20 +67,6 @@
     "headline": "Aivres NVIDIA Vera Rubin and HGX B300 at OCP Summit",
     "quote": "We check out the range of Aivres NVIDIA Vera, Vera Rubin, and Blackwell Ultra platforms at OCP Summit 2026 The post Aivres NVIDIA Vera Rubin and HGX B300 at OCP Summit appeared first on ServeTheHome .",
     "url": "https://www.servethehome.com/aivres-nvidia-vera-rubin-and-hgx-b300-at-ocp-summit-2026/",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-388433a2b51d9377",
-    "date": "2026-10-25",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Executive Interview with Victor Lopez of RaiderChip",
-    "quote": "Victor Lopez is Co-Founder and CTO at RaiderChip, with over 20 years of experience in FPGA and ASIC design. Throughout his career, he has led the development of semiconductor IP and custom hardware solutions licensed by international companies in sectors such as defense, aerospace, automotive and professional video, specializing… Read More The post Executive Interview with Victor Lopez of RaiderChip appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ceo-interviews/374846-executive-interview-with-victor-lopez-of-raiderchip/",
     "layer_ids": [
       "gpu"
     ],
@@ -385,6 +431,34 @@
     "arch_risk": false
   },
   {
+    "id": "rss-3aedd687e6666b18",
+    "date": "2026-10-15",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC eyes US$54.3bn in 4Q26 revenue, but 2nm ramp and overseas fabs pressure margins - digitimes",
+    "quote": "TSMC eyes US$54.3bn in 4Q26 revenue, but 2nm ramp and overseas fabs pressure margins digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOa0hvYmZpX1d2aE1UOERjQ3ExNmZGOEVROXRDQm5vaG43VlowaV9EYmd3OHIwc3lyaVpfd3FPYzBjSXdERGcza0VxSlRKLV9Udy1nOWoxdVpBNEptWlVGbE92a2IwdG1EWGRkZkIyb1dhbVRHMXlnWnNEaDlTZG00NEJuNXVKUQ?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a5570364596325bd",
+    "date": "2026-10-14",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC and MediaTek alumni lead Taiwan's new wave of deep tech startups - digitimes",
+    "quote": "TSMC and MediaTek alumni lead Taiwan's new wave of deep tech startups digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS0FfMERHSnNDdjJHR0FSQVoxX3B0SnI2R3RwaGNjblNVQlgzQ1lFUy1GOHV0Z0RzNzNmb0FoTDJGZmtFMFdaZkJZLVRpQ2FxcUhJTXNmaWtOUXY4TzVMTUNLc3FNRTN0MWtJekVDUl9oU2MyX2RodmdZcTVkT19JUDVwNVFvXzV5dkhudg?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-b226247e07d312a1",
     "date": "2026-10-14",
     "source": "The Next Platform",
@@ -421,21 +495,6 @@
     "quote": "",
     "url": "https://www.nextplatform.com/compute/2026/10/13/microsofts-clea-maia-300-inference-xpu-is-a-bandwidth-beast/5302874",
     "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-c70baaa7869fcab8",
-    "date": "2026-10-12",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 - digitimes",
-    "quote": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkRWVHotZW5zOTdPS2FVeGVTcl9ETm5UWW1MQ3k5VVh3cGxMbnl2VGJBZktHZ3Z1QVR0a1VCT3cwZ3g5NVZWTzhDR1JDdG9YaVU1QXIxV0lEMDkzWEd0dFFaaTZvVHplNkxvWHEwOVA2cWhwQmJabkl1UFZhc2FqSWh1Z2JJWF92a0RYd1BPV25QYTVsNjl1XzhHR3FKdDRINE9ranpGZ3JiN1BZTWc?oc=5",
-    "layer_ids": [
-      "foundry",
       "gpu"
     ],
     "tickers": [],

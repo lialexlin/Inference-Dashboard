@@ -1,7 +1,7 @@
 {
   "hbm": {
     "tightness_score": 33,
-    "signal_count_90d": 5,
+    "signal_count_90d": 4,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -12,11 +12,11 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "foundry": {
     "tightness_score": 57,
-    "signal_count_90d": 17,
+    "signal_count_90d": 15,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -27,33 +27,33 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "packaging": {
-    "tightness_score": 11,
-    "signal_count_90d": 4,
+    "tightness_score": 5,
+    "signal_count_90d": 3,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.133,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "wfe": {
-    "tightness_score": 24,
-    "signal_count_90d": 9,
+    "tightness_score": 19,
+    "signal_count_90d": 8,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.6,
+      "density_pct": 0.467,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "gpu": {
     "tightness_score": 52,
@@ -68,23 +68,23 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "networking": {
-    "tightness_score": 29,
+    "tightness_score": 27,
     "signal_count_90d": 10,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.733,
+      "density_pct": 0.667,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "optics": {
-    "tightness_score": 41,
+    "tightness_score": 39,
     "signal_count_90d": 8,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
@@ -92,26 +92,26 @@
       "[LITE] Supply-tightness language present in both latest filings"
     ],
     "components": {
-      "density_pct": 0.533,
+      "density_pct": 0.467,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "switches": {
-    "tightness_score": 44,
-    "signal_count_90d": 9,
+    "tightness_score": 47,
+    "signal_count_90d": 10,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[HPE] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.6,
+      "density_pct": 0.667,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "power": {
     "tightness_score": 32,
@@ -124,7 +124,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "cooling": {
     "tightness_score": 5,
@@ -137,20 +137,20 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "hyperscalers": {
-    "tightness_score": 16,
-    "signal_count_90d": 7,
+    "tightness_score": 19,
+    "signal_count_90d": 8,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.4,
+      "density_pct": 0.467,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "neoclouds": {
     "tightness_score": 3,
@@ -163,7 +163,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "software": {
     "tightness_score": 16,
@@ -176,7 +176,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "eda": {
     "tightness_score": 5,
@@ -189,7 +189,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -202,6 +202,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-10-27T01:20:43.989146+00:00"
+    "updated_at": "2026-10-27T15:07:26.432401+00:00"
   }
 }

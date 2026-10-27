@@ -31,32 +31,39 @@
     "arch_risk": false
   },
   {
-    "id": "rss-1416f82b7f454d0d",
+    "id": "edgar-CLS-0001030894-26-000050",
+    "accession": "0001030894-26-000050",
+    "form": "10-Q",
     "date": "2026-10-26",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Inside the Package Powering Modern AI",
-    "quote": "TSMC’s CoWoS-S is critical to the artificial intelligence era because it solves the central systems problem facing modern accelerators: computing capability is growing faster than conventional packages can supply data, power, and connectivity. CoWoS-S , meaning Chip-on-Wafer-on-Substrate with a silicon interposer, … Read More The post Inside the Package Powering Modern AI appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/371610-inside-the-package-powering-modern-ai/",
-    "layer_ids": [
-      "packaging",
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-4fc91d42aa604760",
-    "date": "2026-10-26",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "SEMICON West 2026: After the Toast, the Hard Questions",
-    "quote": "Champagne is an unusual opening act for a semiconductor conference. At SEMICON West 2026, October 13 to 15, at the Moscone Center in San Francisco, it served a purpose. The toast marked an industry that has already crossed $1 trillion in annual revenue, almost four years ahead of earlier projections. WSTS ( World Semiconductor … Read More The post SEMICON West 2026: After the Toast, the Hard Questions appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-services/375275-semicon-west-2026-after-the-toast-the-hard-questions/",
+    "source": "SEC EDGAR (CLS)",
+    "source_type": "filing",
+    "headline": "CLS files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000050/cls-20260930.htm",
     "layer_ids": [
       "switches"
     ],
-    "tickers": [],
+    "tickers": [
+      "CLS"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CLS-0001030894-26-000049",
+    "accession": "0001030894-26-000049",
+    "form": "8-K",
+    "date": "2026-10-26",
+    "source": "SEC EDGAR (CLS)",
+    "source_type": "filing",
+    "headline": "CLS files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000049/cls-20261026.htm",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [
+      "CLS"
+    ],
     "arch_risk": false
   },
   {
@@ -87,6 +94,21 @@
     "tickers": [
       "000660.KS"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-43a5e91a13a6eed9",
+    "date": "2026-10-23",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC advances CoPoS packaging at Taoyuan Longtan site - digitimes",
+    "quote": "TSMC advances CoPoS packaging at Taoyuan Longtan site digitimes",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRGFvMzJqX3oycUE3ZVZadUNER2xDWUZpUW95NDhXdkVjblVjaWFUMUpvem9IVlNVMW5YemVGVkRnQ1U2Y0tQRTAwcWd4Qm93M1Y2WV81aWNza3RGczhqTnNSYTdrYkdObTBTdzBMT3pnTzFoUFN4LVNLZUZkOWQwVFV0TVZxZUtDUDVUQ21BemxPTWZGbThWSHRJQnVYYl9nNWlHTGQ4VFNJLVEwLWF4WWE3bmEwcUZHNlpXX0NSemdha3ItNWczN0R6cC1SQQ?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -370,20 +392,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-dd678f530b5cdccc",
-    "date": "2026-10-15",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Fujifilm to expand Arizona semiconductor materials output - digitimes",
-    "quote": "Fujifilm to expand Arizona semiconductor materials output digitimes",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUW9QeHp1QThMTGNJZXVHbGRabjFYUVFvUzBBQU92bkxKMDFwQWZncF9FdFNZLWVSVVZjYWpNQnF3aUNjbkxmdmt4TTNHZXZmUHNmRVc3b045N09WWnMyN0poWXl3dWR3eHduLUJpTFpLQkZacDJKcXMyQVJsX2Jma3hlOW5GZ0NNTkZNVUJiQjdSdlRldlowc0Y5SE0zZnBBREEtMA?oc=5",
-    "layer_ids": [
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-a7a1ab24ce7b43d2",
     "date": "2026-10-15",
     "source": "DigiTimes",
@@ -425,20 +433,6 @@
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaUc4QURocnBETWg4WllhUmV4TmxFVVJJSjVfRUFETDZwajJmQTh5VGJNNzBFeGJJS29rZHlQaU1TZFV3NDVCQnFBX0RYellwZWpnVHR3Wmx4LXhGU0YtRTF3b21hV0NON0w3RVhpeFN0NTlPN000cTIyMExYU3NHRUZlTGk1cjhCMHFEcHZDOG5VbVlWLXRpQTRJbHBOVmNM?oc=5",
     "layer_ids": [
       "packaging",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-3aedd687e6666b18",
-    "date": "2026-10-15",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC eyes US$54.3bn in 4Q26 revenue, but 2nm ramp and overseas fabs pressure margins - digitimes",
-    "quote": "TSMC eyes US$54.3bn in 4Q26 revenue, but 2nm ramp and overseas fabs pressure margins digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOa0hvYmZpX1d2aE1UOERjQ3ExNmZGOEVROXRDQm5vaG43VlowaV9EYmd3OHIwc3lyaVpfd3FPYzBjSXdERGcza0VxSlRKLV9Udy1nOWoxdVpBNEptWlVGbE92a2IwdG1EWGRkZkIyb1dhbVRHMXlnWnNEaDlTZG00NEJuNXVKUQ?oc=5",
-    "layer_ids": [
       "foundry"
     ],
     "tickers": [],
@@ -495,6 +489,21 @@
     "quote": "",
     "url": "https://www.nextplatform.com/compute/2026/10/13/microsofts-clea-maia-300-inference-xpu-is-a-bandwidth-beast/5302874",
     "layer_ids": [
+      "gpu"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-c70baaa7869fcab8",
+    "date": "2026-10-12",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 - digitimes",
+    "quote": "Microsoft to scale Maia AI chips to multi-gigawatt deployments, unveils TSMC N2P-based Maia 300 digitimes",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUkRWVHotZW5zOTdPS2FVeGVTcl9ETm5UWW1MQ3k5VVh3cGxMbnl2VGJBZktHZ3Z1QVR0a1VCT3cwZ3g5NVZWTzhDR1JDdG9YaVU1QXIxV0lEMDkzWEd0dFFaaTZvVHplNkxvWHEwOVA2cWhwQmJabkl1UFZhc2FqSWh1Z2JJWF92a0RYd1BPV25QYTVsNjl1XzhHR3FKdDRINE9ranpGZ3JiN1BZTWc?oc=5",
+    "layer_ids": [
+      "foundry",
       "gpu"
     ],
     "tickers": [],
@@ -5851,63 +5860,6 @@
     ],
     "tickers": [
       "AMKR"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CLS-0001030894-26-000032",
-    "accession": "0001030894-26-000032",
-    "form": "10-Q",
-    "date": "2026-04-27",
-    "source": "SEC EDGAR (CLS)",
-    "source_type": "filing",
-    "headline": "CLS files 10-Q: periodic report",
-    "quote": "HPS revenue for Q1 2026 increased 63% to approximately $1.7 billion compared to Q1 2025, and accounted for 42% of our total Q1 2026 revenue ... driven by strong demand of our networking switch programs with hyperscaler customers.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000032/cls-20260331.htm",
-    "layer_ids": [
-      "switches",
-      "hyperscalers"
-    ],
-    "tickers": [
-      "CLS"
-    ],
-    "summary": {
-      "tldr": "Q1 FY26 revenue $4.05B +53% YoY with CCS +76% and HPS +63% to ~$1.7B (42% of total); revolver upsized $750M to $1.75B to fund hyperscaler-driven scale-up.",
-      "takeaways": [
-        "Q1 FY26 revenue $4.05B +53% YoY; CCS revenue +76% to $3.24B; ATS +12%; CCS now 80% of revenue (vs 70% Q1 25)",
-        "HPS revenue +63% to ~$1.7B, 42% of total revenue; Communications end market +69% YoY on switch program ramps",
-        "Enterprise end market +101% YoY on the ramp-up of next-gen AI/ML compute program at a hyperscaler customer (the one that paused in 2025)",
-        "CCS segment margin expanded to 8.6% (vs 8.0% Q1 25); ATS margin 6.0%; adjusted EPS $2.16 beat high end of $1.95-2.15 guide",
-        "Revolver upsized from $750M to $1.75B; New Term A Loan refinanced to $250M and maturity extended to April 2031, signalling capacity build-out funding",
-        "Capex in CCS for AI/ML and HPS programs (Thailand, US, Mexico, Japan expansions); 5.5M shares remain in NCIB"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Annual 2026 outlook updated in 4/27/26 earnings release (referenced but not incorporated into 10-Q); adjusted operating margin 8.0% vs 7.8% guide mid-point",
-        "opex": null,
-        "period": "Q1 FY26 (actual vs prior guide)",
-        "revenue": "$4.047B actual vs $3.85-4.15B guided"
-      },
-      "quote": "HPS revenue for Q1 2026 increased 63% to approximately $1.7 billion compared to Q1 2025, and accounted for 42% of our total Q1 2026 revenue ... driven by strong demand of our networking switch programs with hyperscaler customers.",
-      "quote_section": "Item 2 MD&A — Operating Results"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CLS-0001030894-26-000030",
-    "accession": "0001030894-26-000030",
-    "form": "8-K",
-    "date": "2026-04-27",
-    "source": "SEC EDGAR (CLS)",
-    "source_type": "filing",
-    "headline": "CLS files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1030894/000103089426000030/cls-20260427.htm",
-    "layer_ids": [
-      "switches"
-    ],
-    "tickers": [
-      "CLS"
     ],
     "arch_risk": false
   },

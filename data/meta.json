@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-10-27T15:04:17.318699+00:00",
+  "last_refresh_at": "2026-10-28T01:02:06.920939+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,75 +7,73 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-10-27T15:05:03.856260+00:00"
+      "ts": "2026-10-28T01:02:44.728287+00:00"
     },
     "rss": {
-      "ok": 8,
-      "total_entries": 126,
+      "ok": 9,
+      "total_entries": 136,
       "per_source_counts": {
         "TrendForce": 20,
         "Nikkei Asia": 25,
         "DigiTimes": 25,
         "ServeTheHome": 6,
         "The Next Platform": 25,
-        "SemiAnalysis": 0,
+        "SemiAnalysis": 10,
         "Utility Dive": 10,
         "SemiWiki": 5,
         "Stratechery": 10
       },
-      "errors": {
-        "SemiAnalysis": "bozo: <unknown>:2:39: junk after document element"
-      },
-      "ts": "2026-10-27T15:05:07.900722+00:00"
+      "errors": {},
+      "ts": "2026-10-28T01:02:48.890311+00:00"
     },
     "edgar": {
       "entries": 162,
-      "summarized": 23,
+      "summarized": 22,
       "errors": {},
-      "ts": "2026-10-27T15:05:15.309877+00:00"
+      "ts": "2026-10-28T01:02:56.256596+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [a1b2ef30-804a-4974-87f5-b809d58ec7a1], code: 390100"
+        "__connection__": "390102 (08001): Failed to login: Login error: Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [d010389f-31c8-4739-94f5-ce5a6cd2416a], code: 390102"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-10-27T15:04:18.431169+00:00"
+      "ts": "2026-10-28T01:02:07.888265+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-10-27T15:07:26.490221+00:00"
+      "ts": "2026-10-28T01:05:03.273882+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
-          "layer_id": "foundry",
+          "layer_id": "gpu",
           "tightness_score": 57
         },
         {
-          "layer_id": "gpu",
-          "tightness_score": 52
+          "layer_id": "foundry",
+          "tightness_score": 55
         },
         {
           "layer_id": "switches",
           "tightness_score": 47
         }
       ],
-      "ts": "2026-10-27T15:07:26.433938+00:00"
+      "ts": "2026-10-28T01:05:03.263846+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 75,
-      "latest_date": "2026-10-26",
-      "latest_total_tokens_b": 138782.352,
-      "ts": "2026-10-27T15:07:26.427949+00:00"
+      "daily_rows": 76,
+      "latest_date": "2026-10-27",
+      "latest_total_tokens_b": 140245.893,
+      "ts": "2026-10-28T01:05:03.254597+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -86,7 +84,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-10-27T15:07:26.492772+00:00"
+      "ts": "2026-10-28T01:05:03.277240+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -161,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-10-27T15:07:25.166795+00:00"
+      "ts": "2026-10-28T01:05:01.937801+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -174,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-10-27T15:07:25.633533+00:00"
+      "ts": "2026-10-28T01:05:02.522564+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-10-27T15:07:26.432210+00:00"
+      "ts": "2026-10-28T01:05:03.261551+00:00"
     },
     "tw_universe": {
       "ok": 1961,
       "stock_count": 1961,
       "sector_count": 71,
       "latest_date": "2026-10-27",
-      "ts": "2026-10-27T15:08:35.012057+00:00"
+      "ts": "2026-10-28T01:06:34.542310+00:00"
     },
     "us_universe": {
       "ok": 958,
       "stock_count": 958,
       "sector_count": 77,
-      "latest_date": "2026-10-27",
-      "ts": "2026-10-27T15:10:02.266500+00:00"
+      "latest_date": "2026-10-26",
+      "ts": "2026-10-28T01:07:48.626837+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 302,
-    "total": 328
+    "discovered_kept": 309,
+    "total": 335
   }
 }

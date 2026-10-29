@@ -1,5 +1,116 @@
 [
   {
+    "id": "rss-c9352c7d9c965e99",
+    "date": "2026-10-29",
+    "source": "Nikkei Asia",
+    "source_type": "news",
+    "headline": "Alphabet spells out more AI capex, China+1 doesn't add up - Nikkei Asia",
+    "quote": "Alphabet spells out more AI capex, China+1 doesn't add up Nikkei Asia",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMF9RU2lsU1hmSGRuMDdDaDNmZXBnblc3cjRuRnlvVTF2bnhJZmpHc0FIZmRma3d1MzhRUjNrTnlIdkhFcXpEVk9MczIzMkFLc1NpdUVHSG5mcUxZR2VjUnlLbEN5VHJKTkRFci1aNWdyb3RySWNPLTNyUGsybDNQOWlFQUktSF9VcDNmQWU5Y3gwS0k?oc=5",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-542fd7c73b9611d5",
+    "date": "2026-10-29",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Intel CTO: process gap with TSMC down to a few points, but scale still lags - digitimes",
+    "quote": "Intel CTO: process gap with TSMC down to a few points, but scale still lags digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWh0WUZEclFIMlJLSU16OFVDRm5hd1FrTkhxMk1XdUF0dktnZ0JjU0FVZ0hPa3RuTW9YRlIzLTVOYjJ5MDhKclJId2VsUkpRcGZiNWgyQjM2b090WFlQZl9NSF9CSnk0a0lETmVzbktaV1FDUDgzRG81VW1nVDA0dzhqYUxyZlMtY29lbDZIc2ZucXlCclE?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-fc4b989f0141472e",
+    "date": "2026-10-29",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "PDF Solutions CONNECT 2026 Trip Report",
+    "quote": "On October 15–16, at the tail end of SEMICON West 2026, PDF Solutions held its 2026 CONNECT Conference at the Westin St. Francis in San Francisco. PDF Solutions Vitals Santa Clara–based PDF Solutions is a semiconductor data, analytics, and connectivity company, founded in 1991. Today, its business rests on three pillars, all … Read More The post PDF Solutions CONNECT 2026 Trip Report appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/eda/pdf-solutions/375398-pdf-solutions-connect-2026-trip-report/",
+    "layer_ids": [
+      "switches"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-42669d5efb4724e7",
+    "date": "2026-10-29",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "ML-Based Power Models for CPUs. Innovation in Verification",
+    "quote": "An effective learned power model for a CPU could be a significant advantage in early estimation of power performance against realistic workloads in complex architectures. Paul Cunningham (GM, Verification at Cadence), Raúl Camposano (Silicon Catalyst, entrepreneur, former Synopsys CTO and lecturer at Stanford, EE292A)… Read More The post ML-Based Power Models for CPUs. Innovation in Verification appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/artificial-intelligence/375466-ml-based-power-models-for-cpus-innovation-in-verification/",
+    "layer_ids": [
+      "eda"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-GOOGL-0001652044-26-000084",
+    "accession": "0001652044-26-000084",
+    "form": "10-Q",
+    "date": "2026-10-29",
+    "source": "SEC EDGAR (GOOGL)",
+    "source_type": "filing",
+    "headline": "GOOGL files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+    "layer_ids": [
+      "hyperscalers",
+      "gpu"
+    ],
+    "tickers": [
+      "GOOGL"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-PWR-0001050915-26-000041",
+    "accession": "0001050915-26-000041",
+    "form": "10-Q",
+    "date": "2026-10-29",
+    "source": "SEC EDGAR (PWR)",
+    "source_type": "filing",
+    "headline": "PWR files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000041/pwr-20260930.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "PWR"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-PWR-0001193125-26-436949",
+    "accession": "0001193125-26-436949",
+    "form": "8-K",
+    "date": "2026-10-29",
+    "source": "SEC EDGAR (PWR)",
+    "source_type": "filing",
+    "headline": "PWR files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526436949/d77812d8k.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "PWR"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-6bf6eba4a309f8cd",
     "date": "2026-10-28",
     "source": "Nikkei Asia",
@@ -13,20 +124,6 @@
     "tickers": [
       "000660.KS"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-c5d58e91e17f10ad",
-    "date": "2026-10-28",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Ex-TSMC CTO says Taiwan's research institutes get too much funding and train too little talent - digitimes",
-    "quote": "Ex-TSMC CTO says Taiwan's research institutes get too much funding and train too little talent digitimes",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZjZHRkdvcWpDSFVYNFhHTlM1X2R6VFF2MThsbTY0S2owTmtEUnhqYTJrdzhVOEMxOVdQZE11X3RBQzdfY0NpRGc0TWduZ3l6RGo4RVE0aFhIT0xOOE5iREZMc2pwd3JuTVFNdVFkbk1qZVd1bDc3bXBYS0c1SHk3ZzF1NGpoNGp1WHRPYi1FNE4tNlJCRkpCTWFTY3hrUQ?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -84,6 +181,25 @@
       "optics"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-GOOGL-0001652044-26-000080",
+    "accession": "0001652044-26-000080",
+    "form": "8-K",
+    "date": "2026-10-28",
+    "source": "SEC EDGAR (GOOGL)",
+    "source_type": "filing",
+    "headline": "GOOGL files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/goog-20261028.htm",
+    "layer_ids": [
+      "hyperscalers",
+      "gpu"
+    ],
+    "tickers": [
+      "GOOGL"
+    ],
     "arch_risk": false
   },
   {
@@ -493,6 +609,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-ecdef56408754abe",
+    "date": "2026-10-23",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC reportedly surveys suppliers on rare-earth-free motors as China's export-control pause nears legal expiry - digitimes",
+    "quote": "TSMC reportedly surveys suppliers on rare-earth-free motors as China's export-control pause nears legal expiry digitimes",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5iX2VaT2hxLW50c2d4Y3FsODNTcVkzY0lRT2VvR0NJOE5BckdvZUVIcTFrZWhCWFRzTEQwam81WlBtOVl2MFVQQWdTeEtFUkF2VlJfOU5CeGtVaHdJQkJaeGdhT1JHN20yZkMxMlZuSlNQUFlzQ1dXWUtXMA?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-e59fb136be6d113f",
     "date": "2026-10-23",
     "source": "ServeTheHome",
@@ -594,20 +724,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-53a8d15476b86149",
-    "date": "2026-10-21",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC and others turn LCD plants into AI assets as LG Innotek weighs acquisition - digitimes",
-    "quote": "TSMC and others turn LCD plants into AI assets as LG Innotek weighs acquisition digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLTJWTDBIVzBrOHFiVG1FNzhHNmZ2b013MTRuU05Kb194R3dhbXBXdVFtSG1qWUNkMjdQSUJpTGhHS200eV8wTS1OaXBKMFVPaXhsMTg4WVlCRVh3dXh1Mk5FdUxZNGZiMEdESGZKbEpvZTQ0RnhRM09aOGxsT2ZOZ2g0SHg2NlgxNDVwOTY2N0IxWjA?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-2c43aa33b76ed97b",
     "date": "2026-10-21",
     "source": "DigiTimes",
@@ -616,21 +732,6 @@
     "quote": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy digitimes",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORTlWdFZ3YTVETmFLMUpqSDAwSW1zYnI4QUF0ZXJMY3RhSkp5MmRaam1CX3dkR201SXdiNGt1N1kwblRVNkhKRmUwQkVaUEtpdFRyRW9JcnM3cUprb3VDRWFxRk84XzNCSjlXMEV1T1hYWl9YbWRLZ0p2QTk2RUhMV00xd0xEUi1KUzRIM0NfbkM2MW9lVDRR?oc=5",
     "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-9f8f205c600f48da",
-    "date": "2026-10-21",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "2nm and CoWoS expansion lifts Chi Yi Hsin Technology backlog to NT$4.5B - digitimes",
-    "quote": "2nm and CoWoS expansion lifts Chi Yi Hsin Technology backlog to NT$4.5B digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd0JvNFZoSTh2cjUtWml5cThpNnN4Z3RLR1d5VkpGMXRGeGJZQ0YyZVNpdEhkNVU2REcxUktGM2thUE1nUUlJc25GV2tvTFlyQTBrVFRyVjNFdVdxZ280SUJLOUlSb3NqYk5Pb3lrbU9GTDNwMUlJZnpRNHgyaUNhMHFDM2Ztb1pOaDlVdkFuVXdBekNSSmc?oc=5",
-    "layer_ids": [
-      "packaging",
       "foundry"
     ],
     "tickers": [],
@@ -5519,102 +5620,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-GOOGL-0001652044-26-000048",
-    "accession": "0001652044-26-000048",
-    "form": "10-Q",
-    "date": "2026-04-30",
-    "source": "SEC EDGAR (GOOGL)",
-    "source_type": "filing",
-    "headline": "GOOGL files 10-Q: periodic report",
-    "quote": "Google Cloud has entered into a limited number of agreements to supply multiple gigawatts of TPU hardware to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. Revenues for these transactions are included in our backlog as of March 31, 2026.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000048/goog-20260331.htm",
-    "layer_ids": [
-      "hyperscalers",
-      "gpu"
-    ],
-    "tickers": [
-      "GOOGL"
-    ],
-    "summary": {
-      "tldr": "Q1 26 capex $35.7B; Google Cloud revenue $20.0B (+63%) and op income $6.6B vs $2.2B; revenue backlog jumps to $467.6B from $242.8B - multi-GW TPU supply deals booked.",
-      "takeaways": [
-        "Q1 2026 capex $35.7B; total revenue $109.9B (+22% YoY); Google Cloud $20.0B (+63%)",
-        "Google Cloud op income $6.6B vs $2.2B prior year (33% margin) - 3x YoY",
-        "Revenue backlog $467.6B at Mar 31 2026 (vs $242.8B at Dec 31 2025); $462.3B is Google Cloud",
-        "First-time disclosure: 'multi-gigawatt' TPU hardware supply agreements signed - revenue starts late 2026, majority in 2027; includes credit backstops for third-party DCs/power",
-        "Closed Wiz acquisition $29.5B (Mar 11) and Intersect $5.9B (Mar 10)",
-        "Committed $40B to a private company ($10B capital + $30B contingent on milestones) in March 2026",
-        "Issued $31.1B senior unsecured notes Q1; $16B funded into Waymo Feb 2026"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "No explicit quarterly revenue guidance; reiterated capex 'significantly increase' from $91.4B in 2025",
-        "opex": null,
-        "period": "FY 2026",
-        "revenue": null
-      },
-      "quote": "Google Cloud has entered into a limited number of agreements to supply multiple gigawatts of TPU hardware to customers who require or provide on-premises infrastructure for specialized, high-scale workloads. Revenues for these transactions are included in our backlog as of March 31, 2026.",
-      "quote_section": "Item 2 MD&A - Other Information"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-PWR-0001050915-26-000016",
-    "accession": "0001050915-26-000016",
-    "form": "10-Q",
-    "date": "2026-04-30",
-    "source": "SEC EDGAR (PWR)",
-    "source_type": "filing",
-    "headline": "PWR files 10-Q: periodic report",
-    "quote": "We expect the strong demand for our services will continue. Our remaining performance obligations and backlog were $26.24 billion and $48.47 billion as of March 31, 2026, representing increases of 10.4% and 10.2% relative to December 31, 2025.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1050915/000105091526000016/pwr-20260331.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "PWR"
-    ],
-    "summary": {
-      "tldr": "Q1 FY26 revenues $7.87B (+26%); backlog reached $48.47B and RPO $26.24B (+10% sequentially); operating income +42% on Electric segment data-center-driven growth.",
-      "takeaways": [
-        "Q1 FY26 revenues $7.87B (+26.3% YoY); Electric segment +$1.52B; Underground +$117M",
-        "Remaining performance obligations $26.24B (+10.4% QoQ); backlog $48.47B (+10.2% QoQ) at March 31, 2026",
-        "Q1 operating income $339M (+41.7%); margin 4.3% (vs 3.8%); gross margin 14.1% (vs 13.4%)",
-        "Q1 net income $231M (+55%); EPS $1.45 attributable to common (+53%); tax expense down on higher pre-tax base",
-        "First mention: data center industry continues as primary growth catalyst across both Electric and Underground & Infrastructure segments via DSI and CEI acquisitions",
-        "Q1 SG&A +$127M driven by $62M compensation and $51M from recent acquisitions"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": null,
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "We expect the strong demand for our services will continue. Our remaining performance obligations and backlog were $26.24 billion and $48.47 billion as of March 31, 2026, representing increases of 10.4% and 10.2% relative to December 31, 2025.",
-      "quote_section": "Item 2 MD&A — Overview"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-PWR-0001193125-26-193918",
-    "accession": "0001193125-26-193918",
-    "form": "8-K",
-    "date": "2026-04-30",
-    "source": "SEC EDGAR (PWR)",
-    "source_type": "filing",
-    "headline": "PWR files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526193918/d107542d8k.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "PWR"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-AMZN-0001018724-26-000014",
     "accession": "0001018724-26-000014",
     "form": "10-Q",
@@ -5754,25 +5759,6 @@
     ],
     "tickers": [
       "KLAC"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-GOOGL-0001652044-26-000043",
-    "accession": "0001652044-26-000043",
-    "form": "8-K",
-    "date": "2026-04-29",
-    "source": "SEC EDGAR (GOOGL)",
-    "source_type": "filing",
-    "headline": "GOOGL files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000043/goog-20260429.htm",
-    "layer_ids": [
-      "hyperscalers",
-      "gpu"
-    ],
-    "tickers": [
-      "GOOGL"
     ],
     "arch_risk": false
   },
@@ -7158,6 +7144,37 @@
       "COHR",
       "FN"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-3ee7502b83617b4e",
+    "date": "2024-11-13",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC now reportedly operates over half of global EUVs, weighs high-NA adoption - digitimes",
+    "quote": "TSMC now reportedly operates over half of global EUVs, weighs high-NA adoption digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMkJXYUwwRVFQa21XVXdBT0N2cXd3SWtna0RvVE9aenhnSmJwOU9BWlpYVHRoWjJRNmZ2Rlh2dVB6SkVVdVlaM2RjbzNsODEzNnVHb0NUNjdUY0xBczB4WjBXMk1HQzhDOG9zZHo2dnBzTjZ2a3hpcFI4WVRXemdSQlNMZlNUVk9vdHd0aQ?oc=5",
+    "layer_ids": [
+      "wfe",
+      "foundry"
+    ],
+    "tickers": [
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-a0aa14050c8a81fd",
+    "date": "2024-07-22",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "FOPLP under advanced packaging spotlight after CoWoS - digitimes",
+    "quote": "FOPLP under advanced packaging spotlight after CoWoS digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR3U0VXZ0OGFPQ2IzRTdnZU5PMC1jT1p0RGpULTBnLUZSVmNmVUdub3NwbmlSY2JtWVlPLVRHN0FnaVZrX0FuN3UxUzNpbXdINzhjTkh3NW5vbkNuM20xT3Q4OUJFOGxvWDZ1R2lXcFpsR19xeU5Ec2IyVzUyNUZBbWVKeVV6d3B5RVdsSEQ3Z0lQQQ?oc=5",
+    "layer_ids": [
+      "packaging"
+    ],
+    "tickers": [],
     "arch_risk": false
   }
 ]

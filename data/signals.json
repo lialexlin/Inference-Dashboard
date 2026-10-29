@@ -30,6 +30,48 @@
     "arch_risk": false
   },
   {
+    "id": "rss-478a9f394b1b22c7",
+    "date": "2026-10-28",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Altera Agilex 27 is the First Agilex 2X Platform Adding 800GbE and 1.6TbE and More",
+    "quote": "Altera announced its new Agilex 2X series with the higher-end Agilex 27 with features like LPDDR6 and 1.6TbE support coming in 2027 The post Altera Agilex 27 is the First Agilex 2X Platform Adding 800GbE and 1.6TbE and More appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/altera-agilex-27-800gbe-1-6tbe-hyperflow/",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-9e32b0be03395682",
+    "date": "2026-10-28",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "California utilities, aggregators and customers to benefit from new DER laws: advocates",
+    "quote": "One aggregator called device-level telemetry the “keystone” to extract value from multiple distributed energy resources behind the same meter.",
+    "url": "https://www.utilitydive.com/news/california-utilities-aggregators-and-customers-to-benefit-from-new-der-law/873048/",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-76864725cfff064e",
+    "date": "2026-10-28",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "From Metrology to Autonomy: Why Intel Foundry’s Manufacturing Roadmap Matters",
+    "quote": "Semiconductor manufacturing has always depended on precise measurement. As devices become more complex and packaging integrates more components, however, measuring individual process steps is no longer enough. Manufacturers need to understand how decisions across fabrication, assembly, and test affect the finished … Read More The post From Metrology to Autonomy: Why Intel Foundry’s Manufacturing Roadmap Matters appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/375218-from-metrology-to-autonomy-why-intel-foundrys-manufacturing-roadmap-matters/",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-9a4fd3311bd02e6a",
     "date": "2026-10-28",
     "source": "SemiWiki",
@@ -81,6 +123,44 @@
     "arch_risk": false
   },
   {
+    "id": "edgar-VRT-0001628280-26-067893",
+    "accession": "0001628280-26-067893",
+    "form": "10-Q",
+    "date": "2026-10-28",
+    "source": "SEC EDGAR (VRT)",
+    "source_type": "filing",
+    "headline": "VRT files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067893/vrt-20260930.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "VRT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-VRT-0001628280-26-067707",
+    "accession": "0001628280-26-067707",
+    "form": "8-K",
+    "date": "2026-10-28",
+    "source": "SEC EDGAR (VRT)",
+    "source_type": "filing",
+    "headline": "VRT files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026067707/vrt-20261028.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "VRT"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-HUBB-0001628280-26-067729",
     "accession": "0001628280-26-067729",
     "form": "10-Q",
@@ -99,6 +179,78 @@
     "arch_risk": false
   },
   {
+    "id": "edgar-MSFT-0001193125-26-436133",
+    "accession": "0001193125-26-436133",
+    "form": "10-Q",
+    "date": "2026-10-28",
+    "source": "SEC EDGAR (MSFT)",
+    "source_type": "filing",
+    "headline": "MSFT files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [
+      "MSFT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-MSFT-0001193125-26-436122",
+    "accession": "0001193125-26-436122",
+    "form": "8-K",
+    "date": "2026-10-28",
+    "source": "SEC EDGAR (MSFT)",
+    "source_type": "filing",
+    "headline": "MSFT files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [
+      "MSFT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-NOW-0001373715-26-000096",
+    "accession": "0001373715-26-000096",
+    "form": "10-Q",
+    "date": "2026-10-28",
+    "source": "SEC EDGAR (NOW)",
+    "source_type": "filing",
+    "headline": "NOW files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000096/now-20260930.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-NOW-0001373715-26-000092",
+    "accession": "0001373715-26-000092",
+    "form": "8-K",
+    "date": "2026-10-28",
+    "source": "SEC EDGAR (NOW)",
+    "source_type": "filing",
+    "headline": "NOW files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000092/erq3fy26-8xk.htm",
+    "layer_ids": [
+      "software"
+    ],
+    "tickers": [
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-CDNS-0000813672-26-000121",
     "accession": "0000813672-26-000121",
     "form": "10-Q",
@@ -113,22 +265,6 @@
     ],
     "tickers": [
       "CDNS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-8efdfb77e6b50c19",
-    "date": "2026-10-27",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Applied Materials to raise Besi stake to 20% as hybrid-bonding orders surge - digitimes",
-    "quote": "Applied Materials to raise Besi stake to 20% as hybrid-bonding orders surge digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNjVjd1lwUFh1NjQtVm56RVVPekFrWHZnNFlGbVlHZ1ZIUGVpSHYxcGZ0ak5RZnhxd1FwaHgxV3BBQnpnNnIxbkFPYnAwYy1FVEY2S3VlY05jT1I2clZ6Q2w2NENaSFA3RGNWM1JTNXJ3ZnVoR2p4VXFXYlc3elZpUTFpTnk3Y0N5eG5pQk0xRQ?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "AMAT"
     ],
     "arch_risk": false
   },
@@ -173,23 +309,6 @@
       "hyperscalers"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-2e8526f900fe06de",
-    "date": "2026-10-27",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Why Synopsys’ Role in AMD’s Instinct MI455X Matters for AI Infrastructure",
-    "quote": "Synopsys’ collaboration with AMD on the Instinct MI455X GPU highlights a shift in how advanced AI processors are developed. Increasing performance depends on coordinating compute dies, memory interfaces, packaging, power delivery, and software. According to Synopsys’ announcement, AMD used its design, verification, … Read More The post Why Synopsys’ Role in AMD’s Instinct MI455X Matters for AI Infrastructure appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/synopsys/375201-why-synopsys-role-in-amds-instinct-mi455x-matters-for-ai-infrastructure/",
-    "layer_ids": [
-      "eda",
-      "gpu"
-    ],
-    "tickers": [
-      "AMD"
-    ],
     "arch_risk": false
   },
   {
@@ -353,6 +472,21 @@
     "quote": "Why is TSMC suddenly looking at Texas? digitimes",
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWFczcE9fNjdzN0JWbHpGZVhPcS1HRHp3TVBrODcxOU1EU1JUVzk4Um5rOHVGbWQ3VGZwVDVPaW1MLXNXY0hYczVwVTVqUUhaMUFwNDFmRDEtOVZpY1gxMzRiQTVQcWdmZGdKRTdBVjBZOVRHSWdYTlQ5VUxiMU1TcEpYbkQxbkdSdmMzNnY2WUFBUWtrV2xiaVlSVWg?oc=5",
     "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-f396899b8da1a0b8",
+    "date": "2026-10-23",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC advances CoPoS packaging at Taoyuan Longtan site - digitimes",
+    "quote": "TSMC advances CoPoS packaging at Taoyuan Longtan site digitimes",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU1RzcGc5ekpZM0h0SER4alRGU19YNE9idVpaWDQtc2JKWnp0YnVUVmNkTlQ5S1JFYUFoRnBRRW9UTnUtTXlwQ2RNNGZzdmxrbzBqRHVQUWtyT2xaSlhlVVVRRjRvaTVHQmtKWVYzOTdScEJxd2NyT25oVi1kRW5Lc0lzeWpBN0lVRlZqQ1JhMzM5NGxwdlg0UWNrajVjX1MwT082N0EyTWZoZDRfejB0Z1JTQl9zOTB5UTkxUU1BX090a3NBUWRjYnF5RG8?oc=5",
+    "layer_ids": [
+      "packaging",
       "foundry"
     ],
     "tickers": [],
@@ -788,6 +922,20 @@
     "tickers": [
       "MU"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-bb87ae4d3bc0f262",
+    "date": "2026-09-29",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "GlobalFoundries eyes GaN expansion to challenge TSMC in AI - digitimes",
+    "quote": "GlobalFoundries eyes GaN expansion to challenge TSMC in AI digitimes",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ1Z2cGVtc251TWphQnhBS2NzZmo3b3hnS3VpLVVUdzMwRE1IMmhPcGYyTG5XSlp0bi02Ui0yYlUzaUpiOHI3clVoRC1ITjdqSmx2T1ZlMnFUOVFaT0UzWHk2NFU3Y1R6S3B3S05rZUl4dlN5dFZvLUNxQ3oyVXR5NWhwMFVYcEszbDlRbGJNNEF2VXdnMGh4NXVJWU5fMG1kcEpNM2hVaw?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -5647,63 +5795,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-MSFT-0001193125-26-191507",
-    "accession": "0001193125-26-191507",
-    "form": "10-Q",
-    "date": "2026-04-29",
-    "source": "SEC EDGAR (MSFT)",
-    "source_type": "filing",
-    "headline": "MSFT files 10-Q: periodic report",
-    "quote": "Microsoft Cloud revenue increased 29% to $54.5 billion... Commercial remaining performance obligation increased 99% to $627 billion... Azure and other cloud services revenue increased 40%.",
-    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "MSFT"
-    ],
-    "summary": {
-      "tldr": "Q3 FY26 Microsoft Cloud $54.5B (+29%), Azure +40%; commercial RPO $627B (+99% YoY); Q3 capex $30.9B - AI infra spend keeps accelerating.",
-      "takeaways": [
-        "Q3 FY26 Microsoft Cloud revenue $54.5B (+29%); Azure and other cloud services +40% - acceleration from Q2's 39%",
-        "Commercial RPO $627B (+99% YoY) at Mar 31 2026",
-        "Q3 FY26 additions to property/equipment $30.9B; 9M total $80.1B (vs $40.9B prior year)",
-        "Total revenue $70.1B (+18%); operating income +20%",
-        "9-month MS Cloud revenue $155.1B (+27%); FY26-to-date pacing well",
-        "Recorded $5.9B 9M non-operating gain primarily from OpenAI Recapitalization dilution gain (OpenAI converted to public benefit corp)",
-        "M365 Consumer cloud +33%, Dynamics 365 +22%, LinkedIn +12%"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Capital expenditures will continue to support cloud and AI growth",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Microsoft Cloud revenue increased 29% to $54.5 billion... Commercial remaining performance obligation increased 99% to $627 billion... Azure and other cloud services revenue increased 40%.",
-      "quote_section": "Item 2 MD&A - Highlights"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-MSFT-0001193125-26-191457",
-    "accession": "0001193125-26-191457",
-    "form": "8-K",
-    "date": "2026-04-29",
-    "source": "SEC EDGAR (MSFT)",
-    "source_type": "filing",
-    "headline": "MSFT files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-20260429.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "MSFT"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-AMZN-0001018724-26-000012",
     "accession": "0001018724-26-000012",
     "form": "8-K",
@@ -6032,44 +6123,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-NOW-0001373715-26-000056",
-    "accession": "0001373715-26-000056",
-    "form": "10-Q",
-    "date": "2026-04-23",
-    "source": "SEC EDGAR (NOW)",
-    "source_type": "filing",
-    "headline": "NOW files 10-Q: periodic report",
-    "quote": "As of March 31, 2026, our RPO was $27.7 billion, of which 46% represented cRPO. RPO and cRPO increased by 25% and 23%, respectively, compared to March 31, 2025.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000056/now-20260331.htm",
-    "layer_ids": [
-      "software"
-    ],
-    "tickers": [
-      "NOW"
-    ],
-    "summary": {
-      "tldr": "Q1 2026 revenue $3.77B (+22%), subscription $3.67B (+22%); RPO $27.7B (+25%) with cRPO +23% - consistent 20%+ growth across the AI agent stack.",
-      "takeaways": [
-        "Q1 2026 revenue $3.77B (+22% YoY); subscription $3.67B (+22%)",
-        "RPO $27.7B at Mar 31 2026 (+25% YoY); cRPO 46% of RPO (+23% YoY)",
-        "Self-hosted upfront revenue $138M Q1 2026 vs $157M Q1 2025 (slight decline)",
-        "Professional services revenue $99M (+19%)",
-        "Subscription gross margin slightly pressured by self-hosted mix",
-        "Mgmt reiterates FY26 expectation of subscription revenue increasing in absolute dollars; FX assumption based on Mar 31 2026 rates"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "FY26 subscription revenue to increase in absolute dollars; remain ~flat as % of total revenue",
-        "opex": null,
-        "period": "FY 2026",
-        "revenue": null
-      },
-      "quote": "As of March 31, 2026, our RPO was $27.7 billion, of which 46% represented cRPO. RPO and cRPO increased by 25% and 23%, respectively, compared to March 31, 2025.",
-      "quote_section": "Item 2 MD&A - Key Business Metrics"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "transcript-INTC-26083",
     "date": "2026-04-23",
     "headline": "INTC Q1 2026 Earnings Call",
@@ -6137,82 +6190,6 @@
     ],
     "tickers": [
       "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-VRT-0001628280-26-026556",
-    "accession": "0001628280-26-026556",
-    "form": "10-Q",
-    "date": "2026-04-22",
-    "source": "SEC EDGAR (VRT)",
-    "source_type": "filing",
-    "headline": "VRT files 10-Q: periodic report",
-    "quote": "We continue to see very robust growth in demand for data centers supporting artificial intelligence (\"AI\") and high-performance compute applications and have strategically invested in expanding our global capacity in response to current and anticipated customer demand across key infrastructure segments.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026556/vrt-20260331.htm",
-    "layer_ids": [
-      "cooling",
-      "power"
-    ],
-    "tickers": [
-      "VRT"
-    ],
-    "summary": {
-      "tldr": "Q1 FY26 revenue $2.65B +30%; Americas +53% to $1.81B with 27.0% margin; gross margin expanded 400bps to 37.7%; CY26 capex reaffirmed at $425-525M for capacity scale.",
-      "takeaways": [
-        "Q1 FY26 net sales $2,649.5M +30.1%; Americas $1,814.4M +53.1% (operating margin 27.0% vs 21.9%); Asia Pacific $513.7M +14.9%; EMEA $321.4M -20.3%",
-        "Gross margin 37.7% (+400bps YoY) on mix and operating leverage; operating profit $440.1M +51.4%",
-        "Acquired PurgeRite during the quarter (contingent consideration drove $33.2M of corporate-line expense); recent acquisitions adding $31.6M to intangible amortization",
-        "Q1 capex $114M; FY26 capex still guided to $425-525M for capacity expansion (vs $226.4M in FY25)",
-        "$2.15B cash + $349.9M short-term investments at 3/31/26 ($2.48B revolver availability); net interest income $4.4M vs $25.3M expense prior year on debt restructuring + interest rate swap settlement ($21.2M income)",
-        "Net income $390.1M (+137%); mgmt cites 'very robust' AI/HPC demand and hybrid air-and-liquid + HVDC architectures as drivers"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "FY26 capital expenditures (incl. capitalized software) reaffirmed at $425-525M to support capacity expansion; FY26 lease payment obligations ~$93M",
-        "opex": null,
-        "period": "FY26",
-        "revenue": null
-      },
-      "quote": "We continue to see very robust growth in demand for data centers supporting artificial intelligence (\"AI\") and high-performance compute applications and have strategically invested in expanding our global capacity in response to current and anticipated customer demand across key infrastructure segments.",
-      "quote_section": "Item 2 MD&A - Outlook and Trends"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-VRT-0001628280-26-026379",
-    "accession": "0001628280-26-026379",
-    "form": "8-K",
-    "date": "2026-04-22",
-    "source": "SEC EDGAR (VRT)",
-    "source_type": "filing",
-    "headline": "VRT files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026379/vrt-20260422.htm",
-    "layer_ids": [
-      "cooling",
-      "power"
-    ],
-    "tickers": [
-      "VRT"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-NOW-0001373715-26-000054",
-    "accession": "0001373715-26-000054",
-    "form": "8-K",
-    "date": "2026-04-22",
-    "source": "SEC EDGAR (NOW)",
-    "source_type": "filing",
-    "headline": "NOW files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000054/now-20260417.htm",
-    "layer_ids": [
-      "software"
-    ],
-    "tickers": [
-      "NOW"
     ],
     "arch_risk": false
   },

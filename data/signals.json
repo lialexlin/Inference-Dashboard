@@ -17,6 +17,72 @@
     "arch_risk": false
   },
   {
+    "id": "rss-729fd1a7207ff01d",
+    "date": "2026-10-30",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "States must take a critical eye to gas plants proposed over clean energy",
+    "quote": "The key question for regulators is no longer whether utilities can simply find a reason to install another gas turbine, write experts from Environmental Defense Fund and Minnesota’s CURE.",
+    "url": "https://www.utilitydive.com/news/utilities-want-fossil-plants-more-expensive-clean-energy-regulators/833301/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-4ce600881f6d0b15",
+    "date": "2026-10-30",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "TSMC’s Patent and the Harsh Realities of 3D DRAM Competition",
+    "quote": "Discussions around TSMC’s vertical DRAM patents raise an intriguing question: could the world’s leading foundry eventually challenge established memory manufacturers? The curiosity is understandable. Patent disclosures involving vertical transistors and integrated capacitors show that TSMC is exploring architectures… Read More The post TSMC’s Patent and the Harsh Realities of 3D DRAM Competition appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/semiconductor-manufacturers/375329-tsmcs-patent-and-the-harsh-realities-of-3d-dram-competition/",
+    "layer_ids": [
+      "hbm",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-INTC-0000050863-26-000191",
+    "accession": "0000050863-26-000191",
+    "form": "10-Q",
+    "date": "2026-10-30",
+    "source": "SEC EDGAR (INTC)",
+    "source_type": "filing",
+    "headline": "INTC files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+    "layer_ids": [
+      "foundry",
+      "packaging"
+    ],
+    "tickers": [
+      "INTC"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-AMZN-0001018724-26-000040",
+    "accession": "0001018724-26-000040",
+    "form": "10-Q",
+    "date": "2026-10-30",
+    "source": "SEC EDGAR (AMZN)",
+    "source_type": "filing",
+    "headline": "AMZN files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [
+      "AMZN"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-c9352c7d9c965e99",
     "date": "2026-10-29",
     "source": "Nikkei Asia",
@@ -26,20 +92,6 @@
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMF9RU2lsU1hmSGRuMDdDaDNmZXBnblc3cjRuRnlvVTF2bnhJZmpHc0FIZmRma3d1MzhRUjNrTnlIdkhFcXpEVk9MczIzMkFLc1NpdUVHSG5mcUxZR2VjUnlLbEN5VHJKTkRFci1aNWdyb3RySWNPLTNyUGsybDNQOWlFQUktSF9VcDNmQWU5Y3gwS0k?oc=5",
     "layer_ids": [
       "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-542fd7c73b9611d5",
-    "date": "2026-10-29",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Intel CTO: process gap with TSMC down to a few points, but scale still lags - digitimes",
-    "quote": "Intel CTO: process gap with TSMC down to a few points, but scale still lags digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWh0WUZEclFIMlJLSU16OFVDRm5hd1FrTkhxMk1XdUF0dktnZ0JjU0FVZ0hPa3RuTW9YRlIzLTVOYjJ5MDhKclJId2VsUkpRcGZiNWgyQjM2b090WFlQZl9NSF9CSnk0a0lETmVzbktaV1FDUDgzRG81VW1nVDA0dzhqYUxyZlMtY29lbDZIc2ZucXlCclE?oc=5",
-    "layer_ids": [
-      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -86,6 +138,25 @@
       "eda"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-INTC-0000050863-26-000188",
+    "accession": "0000050863-26-000188",
+    "form": "8-K",
+    "date": "2026-10-29",
+    "source": "SEC EDGAR (INTC)",
+    "source_type": "filing",
+    "headline": "INTC files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/intc-20261029.htm",
+    "layer_ids": [
+      "foundry",
+      "packaging"
+    ],
+    "tickers": [
+      "INTC"
+    ],
     "arch_risk": false
   },
   {
@@ -162,6 +233,24 @@
     "arch_risk": false
   },
   {
+    "id": "edgar-AMZN-0001018724-26-000038",
+    "accession": "0001018724-26-000038",
+    "form": "8-K",
+    "date": "2026-10-29",
+    "source": "SEC EDGAR (AMZN)",
+    "source_type": "filing",
+    "headline": "AMZN files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm",
+    "layer_ids": [
+      "hyperscalers"
+    ],
+    "tickers": [
+      "AMZN"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-6bf6eba4a309f8cd",
     "date": "2026-10-28",
     "source": "Nikkei Asia",
@@ -175,6 +264,20 @@
     "tickers": [
       "000660.KS"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-c5d58e91e17f10ad",
+    "date": "2026-10-28",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Ex-TSMC CTO says Taiwan's research institutes get too much funding and train too little talent - digitimes",
+    "quote": "Ex-TSMC CTO says Taiwan's research institutes get too much funding and train too little talent digitimes",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZjZHRkdvcWpDSFVYNFhHTlM1X2R6VFF2MThsbTY0S2owTmtEUnhqYTJrdzhVOEMxOVdQZE11X3RBQzdfY0NpRGc0TWduZ3l6RGo4RVE0aFhIT0xOOE5iREZMc2pwd3JuTVFNdVFkbk1qZVd1bDc3bXBYS0c1SHk3ZzF1NGpoNGp1WHRPYi1FNE4tNlJCRkpCTWFTY3hrUQ?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -201,35 +304,6 @@
     "url": "https://www.utilitydive.com/news/california-utilities-aggregators-and-customers-to-benefit-from-new-der-law/873048/",
     "layer_ids": [
       "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-76864725cfff064e",
-    "date": "2026-10-28",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "From Metrology to Autonomy: Why Intel Foundry’s Manufacturing Roadmap Matters",
-    "quote": "Semiconductor manufacturing has always depended on precise measurement. As devices become more complex and packaging integrates more components, however, measuring individual process steps is no longer enough. Manufacturers need to understand how decisions across fabrication, assembly, and test affect the finished … Read More The post From Metrology to Autonomy: Why Intel Foundry’s Manufacturing Roadmap Matters appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/intel/375218-from-metrology-to-autonomy-why-intel-foundrys-manufacturing-roadmap-matters/",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-9a4fd3311bd02e6a",
-    "date": "2026-10-28",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "The Wafer Is the New Battleground: Soitec CPO René Jonker on Building AI from the Substrate Up",
-    "quote": "Most of the AI conversation stops at the chip. At SEMICON West 2026 I sat down with René Jonker, Chief Product Officer of Soitec, to talk about what sits underneath it. Ask an engineer where AI performance comes from and you will hear about process nodes, dataflow, HBM stacks and interconnect fabrics. Rarely about the wafer. Yet a … Read More The post The Wafer Is the New Battleground: Soitec CPO René Jonker on Building AI from the Substrate Up appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/semiconductor-manufacturers/soitec/375182-the-wafer-is-the-new-battleground-soitec-cpo-rene-jonker-on-building-ai-from-the-substrate-up/",
-    "layer_ids": [
-      "hbm",
-      "optics"
     ],
     "tickers": [],
     "arch_risk": false
@@ -454,6 +528,21 @@
     "arch_risk": false
   },
   {
+    "id": "rss-bd2fda292a889d08",
+    "date": "2026-10-27",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Anthropic's IPO filing puts TSMC, HBM, direct leasing at the center of AI compute risk - digitimes",
+    "quote": "Anthropic's IPO filing puts TSMC, HBM, direct leasing at the center of AI compute risk digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWE80SHNfSHh2Y1BKakdEUlZGeHVKdlo5WklQZG9XQ1N3NWR4Y1RxNEs5UzVLSndXd21SeW5kMDltZ01zWUpWS2pnMEc5TkNWek1ESTU5NThPZzhBbWZ5SUR2QXNJXzNBWFJSYjVXblN1eW1wdW5oa0VVcFQ0UjBodHJwTUp6VW1aclhDNlJjOA?oc=5",
+    "layer_ids": [
+      "foundry",
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-4f63829481440255",
     "date": "2026-10-27",
     "source": "ServeTheHome",
@@ -619,13 +708,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-ecdef56408754abe",
+    "id": "rss-fda2fd0f2257397f",
     "date": "2026-10-23",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC reportedly surveys suppliers on rare-earth-free motors as China's export-control pause nears legal expiry - digitimes",
-    "quote": "TSMC reportedly surveys suppliers on rare-earth-free motors as China's export-control pause nears legal expiry digitimes",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5iX2VaT2hxLW50c2d4Y3FsODNTcVkzY0lRT2VvR0NJOE5BckdvZUVIcTFrZWhCWFRzTEQwam81WlBtOVl2MFVQQWdTeEtFUkF2VlJfOU5CeGtVaHdJQkJaeGdhT1JHN20yZkMxMlZuSlNQUFlzQ1dXWUtXMA?oc=5",
+    "headline": "Why is TSMC suddenly looking at Texas? - digitimes",
+    "quote": "Why is TSMC suddenly looking at Texas? digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWFczcE9fNjdzN0JWbHpGZVhPcS1HRHp3TVBrODcxOU1EU1JUVzk4Um5rOHVGbWQ3VGZwVDVPaW1MLXNXY0hYczVwVTVqUUhaMUFwNDFmRDEtOVZpY1gxMzRiQTVQcWdmZGdKRTdBVjBZOVRHSWdYTlQ5VUxiMU1TcEpYbkQxbkdSdmMzNnY2WUFBUWtrV2xiaVlSVWg?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -705,20 +794,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-2c43aa33b76ed97b",
-    "date": "2026-10-21",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy - digitimes",
-    "quote": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORTlWdFZ3YTVETmFLMUpqSDAwSW1zYnI4QUF0ZXJMY3RhSkp5MmRaam1CX3dkR201SXdiNGt1N1kwblRVNkhKRmUwQkVaUEtpdFRyRW9JcnM3cUprb3VDRWFxRk84XzNCSjlXMEV1T1hYWl9YbWRLZ0p2QTk2RUhMV00xd0xEUi1KUzRIM0NfbkM2MW9lVDRR?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-3074ba97c8740eb2",
     "date": "2026-10-21",
     "source": "DigiTimes",
@@ -734,13 +809,27 @@
     "arch_risk": false
   },
   {
-    "id": "rss-7b8c02b3cef8f654",
+    "id": "rss-53a8d15476b86149",
     "date": "2026-10-21",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "AI chip scaling shifts into 3D, with performance per watt the new benchmark, says former TSMC VP - digitimes",
-    "quote": "AI chip scaling shifts into 3D, with performance per watt the new benchmark, says former TSMC VP digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVl9aM3hSZFBTZVg2T25MaGI0Nno3azlmN0V3ME5mMEpFTVAwVDJZUVktbkNBN0NGcDJadmRGb01ETDB0eWFIR3RfYkg0MEU4SGd0cl8takZ6NGdWUjRXdUpSMGlyb3VfTjI3OWtHNkZjMi1IZlVFTjVhOF9haTFtTlJrZXhnWU56UkhQVw?oc=5",
+    "headline": "TSMC and others turn LCD plants into AI assets as LG Innotek weighs acquisition - digitimes",
+    "quote": "TSMC and others turn LCD plants into AI assets as LG Innotek weighs acquisition digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLTJWTDBIVzBrOHFiVG1FNzhHNmZ2b013MTRuU05Kb194R3dhbXBXdVFtSG1qWUNkMjdQSUJpTGhHS200eV8wTS1OaXBKMFVPaXhsMTg4WVlCRVh3dXh1Mk5FdUxZNGZiMEdESGZKbEpvZTQ0RnhRM09aOGxsT2ZOZ2g0SHg2NlgxNDVwOTY2N0IxWjA?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-2c43aa33b76ed97b",
+    "date": "2026-10-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy - digitimes",
+    "quote": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORTlWdFZ3YTVETmFLMUpqSDAwSW1zYnI4QUF0ZXJMY3RhSkp5MmRaam1CX3dkR201SXdiNGt1N1kwblRVNkhKRmUwQkVaUEtpdFRyRW9JcnM3cUprb3VDRWFxRk84XzNCSjlXMEV1T1hYWl9YbWRLZ0p2QTk2RUhMV00xd0xEUi1KUzRIM0NfbkM2MW9lVDRR?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -784,6 +873,80 @@
     "arch_risk": false
   },
   {
+    "id": "rss-d8c74befd8acac3a",
+    "date": "2026-10-19",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC 3Q26 earnings call - digitimes",
+    "quote": "TSMC 3Q26 earnings call digitimes",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9McFBvMThBUUZNcTBsQklkQi04bHc3MEtjVDI4NzF2SnQ0blB0Yld3dGZ1NlJCNllQZkM0N1E3endyNGk5UkhSeHlNd0RPZlRHUWNiVm1uWGZVSlE4Rk5JYXZJb0VQM2h5VmpGS1pQc0tDMGRmVmJR?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-47c0d3eed90ee153",
+    "date": "2026-10-19",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Chenming Hu urges universities to 'find the solutions', targets world-class Taiwan semiconductor sector - digitimes",
+    "quote": "Chenming Hu urges universities to 'find the solutions', targets world-class Taiwan semiconductor sector digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNOFk0amltWmtxVXozZVptMW5fRi1uUGJxVFFnd1hJNTVYcFA3OTZsbDJVa01GbTNGbjFiOWlBc0xzVnlVTDJ0SFBzYTRBLTNyS1pBTmJycXRnTURNNG0zU0tWUXBOVHR0bDExeTl2X3RXenZrZmYwWnp2bnM5SGZfbUVqU0VHREZEVzY5YU13UTUyZW5ScTlJeTVJMHd2TzZOY3c?oc=5",
+    "layer_ids": [
+      "foundry",
+      "packaging"
+    ],
+    "tickers": [
+      "TSM"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-49292a9d1b6490f5",
+    "date": "2026-10-19",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Terafab exposes Tesla's growing tensions with Samsung and TSMC - digitimes",
+    "quote": "Terafab exposes Tesla's growing tensions with Samsung and TSMC digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbkJ1VC1LRkNROGZRbDFVai1GQ0U5dV83TkNOT3lHVWN4bDdXS2p4bzB6MGJpTVlLOWVYRjQ4VWFGVjFaSzBjeWZaUGZhdFUzY01kc284X3hlMk9yc2J6OU1BRUNDQzlKdEp1cWpFSkJmNG5PcFh5UldSY3NJeW5CcWZBRHJYNnZGSWYtNA?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-92be25c547a4f9d5",
+    "date": "2026-10-19",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Podcast highlights: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge - digitimes",
+    "quote": "Podcast highlights: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2EzSGZ1Y05CR2E2V0UyRmdOeFlSMGxxYVZiNlBURi1kcGtNaS1JY1B0NFh2UklrM1UyOXNWTXUxeVpOTlB6eGZQV1YtS25SMWl1X1lWZDVua1E5Ny1CdGJ1a1N3YWoyNUZHLVJLbkJnMldsZF9KUUR0Zjkta2EwMWdWVk9keEZmSXJNWjlB?oc=5",
+    "layer_ids": [
+      "foundry",
+      "packaging"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-11fbdddf1ab32580",
+    "date": "2026-10-19",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Solution Finders Part 1 of 2: the DARPA challenge behind TSMC's success - digitimes",
+    "quote": "Solution Finders Part 1 of 2: the DARPA challenge behind TSMC's success digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRVJ6eEVNWmJuZUlxVnVxNlVzcTRIOVhvUTNpQ2tzWk40MTVLRVg5ZW9Ra2FrUlRXekoxcmZyU2RRNG9ERF9PLVFfejlMSU0xQTJCcVdQOS10d1hDYzFOQlNpZHpBNWREMDdwVWYwMWZYcWo1emNjLWFMSFB5akdJUG4yeXNuaWwzQmN1V3NOaUU?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-fad07f461e58d65f",
     "date": "2026-10-17",
     "source": "DigiTimes",
@@ -812,46 +975,19 @@
     "arch_risk": false
   },
   {
-    "id": "rss-2cd5f9d0f5047866",
-    "date": "2026-10-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC excludes CPUs from AI accelerator growth forecast - digitimes",
-    "quote": "TSMC excludes CPUs from AI accelerator growth forecast digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjE4a2Q3X3lhTV96TnJiR2d5RHJNa1RoMTFxcmh1ZTBDNFZnUHF6SXVZckYwOTVnYjVWdEhmM3VBbjJQM1BpYmU1b19CVDV0T0FYOW1DemFJeUF4cXVXWDMwV1pWNDA3b3VKVzZvUVZQOWhLWUhSR2JXUUlCWlNCMzR2YUlHd2g0YnVWQk1ld3Jsdw?oc=5",
-    "layer_ids": [
-      "gpu",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-6e4825b413901be5",
+    "id": "rss-874e7264ce7db62c",
     "date": "2026-10-15",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC breaks silence on Musk's Terafab: Talks underway, but fab control non-negotiable - digitimes",
-    "quote": "TSMC breaks silence on Musk's Terafab: Talks underway, but fab control non-negotiable digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMlNsUG41RWRYNzFCcG1SZnBOblhubjhhb1pGazQzcnE2T2hjVTk3bFZjbmRBLWEtVjBvR2tvRGJtbTBQbFc3eUcwcjhsVWJhakZiUG94a3FmMlZ3NjRGN0pPQVI1Tmppb3ZhRk0yc2RoV19va1Z3SWpHSFEwcm56TVJzXzd0TUlVZnVmaWthckdzNjByUi1R?oc=5",
+    "headline": "Applied Materials targets AI-driven semiconductor equipment growth through 2030 - digitimes",
+    "quote": "Applied Materials targets AI-driven semiconductor equipment growth through 2030 digitimes",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQnJnbWRJVXZVdWppSzFfYVNGSElDWERLZVVLVXVDd2xHNGRCYk9yXzJJV1VtMndwdmZsVXJ5NUd5eTFyMTdSX240X1RCZm5hcGNmWjJLeXZBX19VaXgyVFJHcXFnVC11c2F5N3ViX1NKcFY0aTBObkJQMEllTEJpYzVMRjljQWdPWHJPT1cyXzhsdFNodERHTDJHY3RiY0UwdlltTFlhNA?oc=5",
     "layer_ids": [
-      "foundry"
+      "wfe"
     ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-37c12c8b50c5ed5d",
-    "date": "2026-10-14",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC, Intel, Samsung seek to break AI chipmaking's next barrier through early technology integration - digitimes",
-    "quote": "TSMC, Intel, Samsung seek to break AI chipmaking's next barrier through early technology integration digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMzJMNlhHc0ZadGd0QzdNVkRXUWVpdTc5OHlHVjB4U1BfZkFqWFA0dnhzaE1PSFJ1VUVlN2tfNGlsMHY1em13YzdFMnVIMlFQcjF3QTJwVXlQcENfUG1uMDlXeHl6N1VUeU5RZVhvMTB5NG9MMElma0hfbUR0UC1pWHpNQnpIZmRsSi1yLTNCUVdlYTEybjdV?oc=5",
-    "layer_ids": [
-      "foundry"
+    "tickers": [
+      "AMAT"
     ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -869,20 +1005,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-81636f82446724e3",
-    "date": "2026-10-13",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? - digitimes",
-    "quote": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVWdrdUtjMF8ybmp0NnJDSHZUQnZ4MmE3WFMtcVNKLXk5LUdHZG1FUEJpOG12dnRuUDNaS0NNNTZrR0FmTERwS0NvbEw2enVjQVhGZFZlckRrLWhUejVTVThYazJKeE5KOHRrYWx5ejVKOXhFWEp1ei1rWkdOQ3k3QmU4UzlpSWpVS3c?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-cee18f1fa315cc61",
     "date": "2026-10-13",
     "source": "The Next Platform",
@@ -892,52 +1014,6 @@
     "url": "https://www.nextplatform.com/compute/2026/10/13/microsofts-clea-maia-300-inference-xpu-is-a-bandwidth-beast/5302874",
     "layer_ids": [
       "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-de9e06c4564eddec",
-    "date": "2026-10-12",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC, ASML eye 12-inch photomasks to unlock High-NA EUV's full-field potential - digitimes",
-    "quote": "TSMC, ASML eye 12-inch photomasks to unlock High-NA EUV's full-field potential digitimes",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTVFiWldRUlJSYnlMNGxzWmUzVWlnczJOLW5NTEtNWVoyOVZLOUxSNEtMLVNDUTBQZ18zYTkzcVR2UFdoRFgzenl0VDd0aFZFSEVBV1FtbFVGYktKZWFTanNMSTFNWWZJbUs3b2ZpekNfd2trODBFeC1vMEgySlpUWFViV0M1WDU0QVd3TjJzS1hEbU1aLUpFWmRn?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-8f7b3929ffc16268",
-    "date": "2026-10-12",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Rapidus targets customers underserved by TSMC, but can it convince them to take the risk? - digitimes",
-    "quote": "Rapidus targets customers underserved by TSMC, but can it convince them to take the risk? digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSUlYRk5aNVRsdEJjajFtZTlPTVNFMlhtWkdkaEJyMDNmMjFDeEliVnhlQ2pOcUFBY3NWMVVjWWFlOW4zU0oyZWdCRmNxNjNVeXhZNmlvOFF1ckJGZ2RKX2lmdUZrSzZmdEw5UzdDZmlPWk1TWHNWZjdMRER3eWZqcU9vU0pFclk3WWhlYmt3ZXplMk0tb3c?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-dea6d75ba4e757f0",
-    "date": "2026-10-09",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "GlobalFoundries wins US$2 billion TSMC interposer deal, closing a US packaging gap - digitimes",
-    "quote": "GlobalFoundries wins US$2 billion TSMC interposer deal, closing a US packaging gap digitimes",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSHpFeExFWU5CSElXenAxaHpEZDV1Qk90SEpiSU9pcXRfOEFXZUotQjc3Vk5oc1hDZjdLNWl0SUZoNlFDUDdzWUtSNFU0THVTRW1aWFozVHRPNENrRDBpY1pNLTJaUXh4ZUFERmRZQlRtVFdyazBPYUJlVU9BeE5tZEZxbDJHbWQxa2VlcmJXTXEtaWhtNkotTm11bw?oc=5",
-    "layer_ids": [
-      "packaging",
-      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -958,34 +1034,6 @@
     "tickers": [
       "MU"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-a1b79593dca303b0",
-    "date": "2026-10-03",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Musk confirms talks with TSMC over his Texas chip factory project - digitimes",
-    "quote": "Musk confirms talks with TSMC over his Texas chip factory project digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGtjWHVkYVZrd1RyRFJFMk5MT2VDWmVBQ3ZFZTJpUFVZOFVtTjhIc2xuTGJvSTZrTkhhOFR5ekdXQXhuTDJodGx2MGdTTkFsdkZySjY4SFVSQjFrQ2JjMzAzdVlEWDdJcVppTlNleVVBUmpWSkZSMmg2YjZZQXJFVnJZY09ZaFYtNW5Mck9YTzVwdlU?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-1b6f7162d64fcb2c",
-    "date": "2026-10-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "DIGITIMES Insight: Intel, TSMC, Samsung converge on backside power — packaging becomes the next divide - digitimes",
-    "quote": "DIGITIMES Insight: Intel, TSMC, Samsung converge on backside power — packaging becomes the next divide digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjIzNWlKbzRLMWlHREJYc19VWGRvZWVpWHNwdmZUUVdQaHFGWldhX2VjMzdrMkt5cXozWlBUaE1udHVBRXNId2J2ZjhoZ3ZXZElQb2V2SXNhMFF2WDV0X25GTEZ0cWQ0NzR0ai1DenZiRkdQS3VmZDBqSk9YT09MQ2RqWVRsWTd0OTRYRWN1eVRjbDhZYUE?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1018,20 +1066,6 @@
     "tickers": [
       "MU"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-bb87ae4d3bc0f262",
-    "date": "2026-09-29",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "GlobalFoundries eyes GaN expansion to challenge TSMC in AI - digitimes",
-    "quote": "GlobalFoundries eyes GaN expansion to challenge TSMC in AI digitimes",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZ1Z2cGVtc251TWphQnhBS2NzZmo3b3hnS3VpLVVUdzMwRE1IMmhPcGYyTG5XSlp0bi02Ui0yYlUzaUpiOHI3clVoRC1ITjdqSmx2T1ZlMnFUOVFaT0UzWHk2NFU3Y1R6S3B3S05rZUl4dlN5dFZvLUNxQ3oyVXR5NWhwMFVYcEszbDlRbGJNNEF2VXdnMGh4NXVJWU5fMG1kcEpNM2hVaw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -5576,44 +5610,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-AMZN-0001018724-26-000014",
-    "accession": "0001018724-26-000014",
-    "form": "10-Q",
-    "date": "2026-04-30",
-    "source": "SEC EDGAR (AMZN)",
-    "source_type": "filing",
-    "headline": "AMZN files 10-Q: periodic report",
-    "quote": "In Q1 2026, AWS and OpenAI Group PBC (\"OpenAI\") announced an expansion of the existing $38.0 billion multi-year commitment and commercial arrangement with OpenAI by $100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000014/amzn-20260331.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "AMZN"
-    ],
-    "summary": {
-      "tldr": "Q1 2026 capex $43.2B (vs $24.3B prior year), AWS revenue $37.6B (+28%) op margin 37.7%, AWS RPO leaps to $364B after $100B OpenAI expansion adds to existing $38B deal.",
-      "takeaways": [
-        "Q1 2026 cash capex $43.2B vs $24.3B Q1 2025 - 78% increase, majority for AWS",
-        "AWS revenue $37.6B +28% YoY; AWS operating income $14.16B (37.7% margin) vs $11.5B (39.4% prior year)",
-        "AWS-related RPO surged to $364B (vs $244B at Dec 31, 2025), weighted-avg life 5.5 years",
-        "OpenAI announced Q1 2026 expansion of existing $38B AWS commitment by $100B over 8 years, includes AWS Trainium chip obligations",
-        "$15B invested in OpenAI Series C Preferred; committed to purchase another $35B (total $50B commitment)",
-        "Subsequent to Q1: $5B more in Anthropic preferred + $20B financing facility for Anthropic compute draws"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Capex expected to increase in 2026 for AWS infrastructure and fulfillment",
-        "opex": null,
-        "period": "FY 2026",
-        "revenue": null
-      },
-      "quote": "In Q1 2026, AWS and OpenAI Group PBC (\"OpenAI\") announced an expansion of the existing $38.0 billion multi-year commitment and commercial arrangement with OpenAI by $100.0 billion over 8.0 years, which includes contractual obligations related to the performance of AWS chips.",
-      "quote_section": "Notes to Consolidated Financial Statements - Revenue"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "transcript-HUBB-27100",
     "date": "2026-04-30",
     "headline": "HUBB Q1 2026 Earnings Call",
@@ -5715,24 +5711,6 @@
     ],
     "tickers": [
       "GNRC"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-AMZN-0001018724-26-000012",
-    "accession": "0001018724-26-000012",
-    "form": "8-K",
-    "date": "2026-04-29",
-    "source": "SEC EDGAR (AMZN)",
-    "source_type": "filing",
-    "headline": "AMZN files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/amzn-20260429.htm",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [
-      "AMZN"
     ],
     "arch_risk": false
   },
@@ -5973,45 +5951,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-INTC-0000050863-26-000079",
-    "accession": "0000050863-26-000079",
-    "form": "10-Q",
-    "date": "2026-04-24",
-    "source": "SEC EDGAR (INTC)",
-    "source_type": "filing",
-    "headline": "INTC files 10-Q: periodic report",
-    "quote": "Market demand exceeded our available product supply in Q1 2026 due to internal and external supply constraints, limiting our ability to fully meet customer demand. We expect these supply constraints to persist at least through the first half of 2026.",
-    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000079/intc-20260328.htm",
-    "layer_ids": [
-      "foundry",
-      "packaging"
-    ],
-    "tickers": [
-      "INTC"
-    ],
-    "summary": {
-      "tldr": "Q1 2026 revenue $13.6B (+7%) on DCAI +22%; Intel Foundry loss widened slightly to $2.4B on 18A wafer-cost mix; $4.1B Q1 restructuring drove $3.7B net loss.",
-      "takeaways": [
-        "DCAI revenue $5.1B (+22% YoY) on 27% higher server ASPs from premium mix and demand-based pricing; volume -5% due to internal supply constraints",
-        "CCG revenue $7.7B (+1%); client ASPs +16% on premium mix but volume -13% as supply lagged demand",
-        "Intel Foundry revenue $5.4B (+16%) on higher 18A/Intel 3/Intel 4 wafer volume; external revenue $174M (Altera now external)",
-        "Intel Foundry operating loss $2.4B vs $2.3B Q1 2025; higher cost from 18A early ramp partially offset by lower lower-of-cost reserves",
-        "Q1 2026 GAAP operating loss $3.1B includes $4.1B restructuring/other charges; gross margin 39.4% (+2.5pts)",
-        "Apollo Ireland SCIP equity buyout completes Q2 2026; supply constraints (substrates, memory, other components) expected to persist throughout 2026"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Supply constraints expected to persist throughout 2026 with most severe in H1 2026; industry-wide shortages of substrates and memory may further limit Intel's ability to meet demand",
-        "opex": null,
-        "period": "FY26",
-        "revenue": null
-      },
-      "quote": "Market demand exceeded our available product supply in Q1 2026 due to internal and external supply constraints, limiting our ability to fully meet customer demand. We expect these supply constraints to persist at least through the first half of 2026.",
-      "quote_section": "Item 2 MD&A — Operating Segment Revenue Summary"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "google-capex-q1",
     "date": "2026-04-24",
     "source": "Alphabet",
@@ -6024,25 +5963,6 @@
     ],
     "tickers": [
       "GOOGL"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-INTC-0000050863-26-000077",
-    "accession": "0000050863-26-000077",
-    "form": "8-K",
-    "date": "2026-04-23",
-    "source": "SEC EDGAR (INTC)",
-    "source_type": "filing",
-    "headline": "INTC files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/intc-20260423.htm",
-    "layer_ids": [
-      "foundry",
-      "packaging"
-    ],
-    "tickers": [
-      "INTC"
     ],
     "arch_risk": false
   },
@@ -7082,51 +7002,6 @@
       "COHR",
       "FN"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-3ee7502b83617b4e",
-    "date": "2024-11-13",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC now reportedly operates over half of global EUVs, weighs high-NA adoption - digitimes",
-    "quote": "TSMC now reportedly operates over half of global EUVs, weighs high-NA adoption digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMkJXYUwwRVFQa21XVXdBT0N2cXd3SWtna0RvVE9aenhnSmJwOU9BWlpYVHRoWjJRNmZ2Rlh2dVB6SkVVdVlaM2RjbzNsODEzNnVHb0NUNjdUY0xBczB4WjBXMk1HQzhDOG9zZHo2dnBzTjZ2a3hpcFI4WVRXemdSQlNMZlNUVk9vdHd0aQ?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "NOW"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-a0aa14050c8a81fd",
-    "date": "2024-07-22",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "FOPLP under advanced packaging spotlight after CoWoS - digitimes",
-    "quote": "FOPLP under advanced packaging spotlight after CoWoS digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR3U0VXZ0OGFPQ2IzRTdnZU5PMC1jT1p0RGpULTBnLUZSVmNmVUdub3NwbmlSY2JtWVlPLVRHN0FnaVZrX0FuN3UxUzNpbXdINzhjTkh3NW5vbkNuM20xT3Q4OUJFOGxvWDZ1R2lXcFpsR19xeU5Ec2IyVzUyNUZBbWVKeVV6d3B5RVdsSEQ3Z0lQQQ?oc=5",
-    "layer_ids": [
-      "packaging"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-45f385f6d484f7ae",
-    "date": "2017-09-05",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "NEWS TAGGED TSMC - digitimes",
-    "quote": "NEWS TAGGED TSMC digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40Tm5PRmliZWNHQjBxbkVDYV9nTWtTcUJCRkxrMF94RDhybU91bF8xcmNDdFJodHZwTkJqZkFldjJweDBkTGxzcGF4TmN4d0pTeWF2ekR1QjN5UQ?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   }
 ]

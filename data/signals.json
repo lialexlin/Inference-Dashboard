@@ -1,5 +1,22 @@
 [
   {
+    "id": "rss-ea38ada4a2dfff31",
+    "date": "2026-10-30",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Taiwan semiconductor output to hit NT$9.1 trillion as TSIA urges stable power - digitimes",
+    "quote": "Taiwan semiconductor output to hit NT$9.1 trillion as TSIA urges stable power digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjFrcTF0a1ZJWGw0UFYxWWotQjVyczhqV1RnOFJjY3dzN1NFYzlGM0pHWGN3S3BNR0w4U25JdkJNYlJlejA3S3B3VG9GeHVHOG9sWllFZXJRbDlzb1BpZktCUHlpakRHRzh5NXlNVkF1TUxSbUtBSjh4LXlTWUdqU1c5RFhObkRaa1JpQW5ISk5lZ2c?oc=5",
+    "layer_ids": [
+      "gpu",
+      "foundry"
+    ],
+    "tickers": [
+      "TSM"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-c9352c7d9c965e99",
     "date": "2026-10-29",
     "source": "Nikkei Asia",
@@ -28,6 +45,22 @@
     "arch_risk": false
   },
   {
+    "id": "rss-22657f1f758860bd",
+    "date": "2026-10-29",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "GE Vernova in $9B deal to buy high-voltage manufacturer as gas turbine orders slow",
+    "quote": "The acquisition of Trench Group will help GE Vernova capitalize on rising electricity demand, company executives said.",
+    "url": "https://www.utilitydive.com/news/ge-vernova-in-9b-deal-to-buy-high-voltage-manufacturer-as-gas-turbine-orde/873223/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "GEV"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-fc4b989f0141472e",
     "date": "2026-10-29",
     "source": "SemiWiki",
@@ -53,6 +86,24 @@
       "eda"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-KLAC-0000319201-26-000034",
+    "accession": "0000319201-26-000034",
+    "form": "10-Q",
+    "date": "2026-10-29",
+    "source": "SEC EDGAR (KLAC)",
+    "source_type": "filing",
+    "headline": "KLAC files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/klac-20260930.htm",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [
+      "KLAC"
+    ],
     "arch_risk": false
   },
   {
@@ -181,6 +232,24 @@
       "optics"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-KLAC-0000319201-26-000032",
+    "accession": "0000319201-26-000032",
+    "form": "8-K",
+    "date": "2026-10-28",
+    "source": "SEC EDGAR (KLAC)",
+    "source_type": "filing",
+    "headline": "KLAC files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000032/klac-20261028.htm",
+    "layer_ids": [
+      "wfe"
+    ],
+    "tickers": [
+      "KLAC"
+    ],
     "arch_risk": false
   },
   {
@@ -414,20 +483,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-8463166e7a687040",
-    "date": "2026-10-27",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "BNEF ups US energy storage deployment forecast by 30%",
-    "quote": "Hyperscalers’ interest in on-site and nearby energy storage has converted into firm orders this year, the global energy consultancy said last week in its latest industry outlook.",
-    "url": "https://www.utilitydive.com/news/bnef-ups-us-energy-storage-deployment-forecast-by-30/872870/",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-AMKR-0001047127-26-000052",
     "accession": "0001047127-26-000052",
     "form": "10-Q",
@@ -564,51 +619,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-a64fba1d9e6390c2",
-    "date": "2026-10-23",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "SK Hynix abandons plan for US unit's IPO, citing market volatility - Nikkei Asia",
-    "quote": "SK Hynix abandons plan for US unit's IPO, citing market volatility Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcTVrN29mNzQ2S0tfWVByNk5GaXRGZkk1d3ZVbEppazQ1RVZEVUJ3dW0tSVhRVHVRblM3bXczX0p0M3pOWXNqYVp1amsyU2F2SGJCLUxFWWtBUHdyU1g4MjZlclY3cEdtRU91SnBrODRSMkFiREN5NENybzB4QUl1RlR2OXVRZmZ6RTdiWU5KTHdLcktkc3F1bnpmR01DYzg5Y0NlYW05ZFB5aEh1UVgzdEw0SXQxR2hyNUE?oc=5",
-    "layer_ids": [
-      "hbm"
-    ],
-    "tickers": [
-      "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-fda2fd0f2257397f",
-    "date": "2026-10-23",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Why is TSMC suddenly looking at Texas? - digitimes",
-    "quote": "Why is TSMC suddenly looking at Texas? digitimes",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWFczcE9fNjdzN0JWbHpGZVhPcS1HRHp3TVBrODcxOU1EU1JUVzk4Um5rOHVGbWQ3VGZwVDVPaW1MLXNXY0hYczVwVTVqUUhaMUFwNDFmRDEtOVZpY1gxMzRiQTVQcWdmZGdKRTdBVjBZOVRHSWdYTlQ5VUxiMU1TcEpYbkQxbkdSdmMzNnY2WUFBUWtrV2xiaVlSVWg?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-f396899b8da1a0b8",
-    "date": "2026-10-23",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC advances CoPoS packaging at Taoyuan Longtan site - digitimes",
-    "quote": "TSMC advances CoPoS packaging at Taoyuan Longtan site digitimes",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNU1RzcGc5ekpZM0h0SER4alRGU19YNE9idVpaWDQtc2JKWnp0YnVUVmNkTlQ5S1JFYUFoRnBRRW9UTnUtTXlwQ2RNNGZzdmxrbzBqRHVQUWtyT2xaSlhlVVVRRjRvaTVHQmtKWVYzOTdScEJxd2NyT25oVi1kRW5Lc0lzeWpBN0lVRlZqQ1JhMzM5NGxwdlg0UWNrajVjX1MwT082N0EyTWZoZDRfejB0Z1JTQl9zOTB5UTkxUU1BX090a3NBUWRjYnF5RG8?oc=5",
-    "layer_ids": [
-      "packaging",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-ecdef56408754abe",
     "date": "2026-10-23",
     "source": "DigiTimes",
@@ -618,20 +628,6 @@
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5iX2VaT2hxLW50c2d4Y3FsODNTcVkzY0lRT2VvR0NJOE5BckdvZUVIcTFrZWhCWFRzTEQwam81WlBtOVl2MFVQQWdTeEtFUkF2VlJfOU5CeGtVaHdJQkJaeGdhT1JHN20yZkMxMlZuSlNQUFlzQ1dXWUtXMA?oc=5",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-e59fb136be6d113f",
-    "date": "2026-10-23",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
-    "quote": "We take a look at the MSI XpertStation WS300, the company's top local AI solution powered by the NVIDIA DGX Station platform The post MSI XpertStation WS300 Review NVIDIA DGX Station GB300 appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/msi-xpertstation-ws300-review-nvidia-dgx-station-gb300/",
-    "layer_ids": [
-      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -709,6 +705,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-2c43aa33b76ed97b",
+    "date": "2026-10-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy - digitimes",
+    "quote": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORTlWdFZ3YTVETmFLMUpqSDAwSW1zYnI4QUF0ZXJMY3RhSkp5MmRaam1CX3dkR201SXdiNGt1N1kwblRVNkhKRmUwQkVaUEtpdFRyRW9JcnM3cUprb3VDRWFxRk84XzNCSjlXMEV1T1hYWl9YbWRLZ0p2QTk2RUhMV00xd0xEUi1KUzRIM0NfbkM2MW9lVDRR?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-3074ba97c8740eb2",
     "date": "2026-10-21",
     "source": "DigiTimes",
@@ -719,20 +729,6 @@
     "layer_ids": [
       "foundry",
       "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-2c43aa33b76ed97b",
-    "date": "2026-10-21",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy - digitimes",
-    "quote": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORTlWdFZ3YTVETmFLMUpqSDAwSW1zYnI4QUF0ZXJMY3RhSkp5MmRaam1CX3dkR201SXdiNGt1N1kwblRVNkhKRmUwQkVaUEtpdFRyRW9JcnM3cUprb3VDRWFxRk84XzNCSjlXMEV1T1hYWl9YbWRLZ0p2QTk2RUhMV00xd0xEUi1KUzRIM0NfbkM2MW9lVDRR?oc=5",
-    "layer_ids": [
-      "foundry"
     ],
     "tickers": [],
     "arch_risk": false
@@ -788,21 +784,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-92be25c547a4f9d5",
-    "date": "2026-10-19",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Podcast highlights: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge - digitimes",
-    "quote": "Podcast highlights: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2EzSGZ1Y05CR2E2V0UyRmdOeFlSMGxxYVZiNlBURi1kcGtNaS1JY1B0NFh2UklrM1UyOXNWTXUxeVpOTlB6eGZQV1YtS25SMWl1X1lWZDVua1E5Ny1CdGJ1a1N3YWoyNUZHLVJLbkJnMldsZF9KUUR0Zjkta2EwMWdWVk9keEZmSXJNWjlB?oc=5",
-    "layer_ids": [
-      "foundry",
-      "packaging"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-fad07f461e58d65f",
     "date": "2026-10-17",
     "source": "DigiTimes",
@@ -810,6 +791,20 @@
     "headline": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to US$4.1 billion in aid - digitimes",
     "quote": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to US$4.1 billion in aid digitimes",
     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSTByOUp2RWRmbmRiUGJIakc0SXJfUzhzLTk5akJBc2VTQmFUZGhlWVVyQjdScURraDBxOXBJYWcwazFEQUxUT1ZyM2F3QVJxZ0NtUHEtd0ZZbGtVM3dqQ3pBQjVkY3FFNUtGQnpoM05UWTZONF82NDdUVTM5bWU5RjV0d0ZBdw?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7dc487e4eefe87b6",
+    "date": "2026-10-16",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Analysis: TSMC-GF deal moves mature nodes into AI packaging: What it means for China - digitimes",
+    "quote": "Analysis: TSMC-GF deal moves mature nodes into AI packaging: What it means for China digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd1pQNHlrcTZBMUQ5RjMwVmt0azM4WUFkdl8zTTNaRzczZVpDQmxfd24xNVZGYkt0SGJZVy1jQlhhOWF1X21qSmxFaGN2MlZUX2NtaFA0aUU1dVFMLXdnVm5QU1BpNFN1bVlGWEZSRzhMeWdVQjY1TWEyRHV6NWgxb1ZDcXc2X0ZILURuQmVGVlc3SktSZE9wcnNLOXc?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -5581,45 +5576,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-KLAC-0000319201-26-000016",
-    "accession": "0000319201-26-000016",
-    "form": "10-Q",
-    "date": "2026-04-30",
-    "source": "SEC EDGAR (KLAC)",
-    "source_type": "filing",
-    "headline": "KLAC files 10-Q: periodic report",
-    "quote": "Total revenues increased 11% in the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily due to the increase in product revenues, and is attributable to higher investments from our memory customers, particularly in DRAM, led by high-bandwidth memory, and steady growth in foundry/logic.",
-    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/klac-20260331.htm",
-    "layer_ids": [
-      "wfe",
-      "packaging"
-    ],
-    "tickers": [
-      "KLAC"
-    ],
-    "summary": {
-      "tldr": "Q3 FY26 revenue $3.42B (+11% YoY) — record quarter — driven by DRAM/HBM memory investment plus foundry/logic; Korea +80%, Taiwan -12% on shipment timing.",
-      "takeaways": [
-        "Q3 FY26 revenue $3.42B (+11% YoY); Product $2.64B (+10%), Service $775M (+16%) — services 23% of revenue",
-        "Semiconductor Process Control segment $3.08B (+13%); growth from memory DRAM/HBM and steady foundry/logic",
-        "Korea revenue $681M +80% YoY (memory); North America +40%; Taiwan $869M -12% on shipment timing",
-        "China $830M (24% of revenue), modest +5% YoY; nine-month China revenue flat at $3.09B as US export controls continue to constrain",
-        "Gross margin 61.1% (-0.5pts QoQ) due to escalating DRAM chip costs in image computers — mgmt frames as transitory",
-        "Q3 FY26 capital returns: $626M repurchases + $249M dividends; $7B add to repurchase authorization ($10.31B remaining); 17th consecutive annual dividend increase to $2.30/share/qtr"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Continued revenue growth expected in CY2026 but escalating DRAM chip costs for image computers will continue to negatively impact gross margin, though expected to be transitory",
-        "opex": null,
-        "period": "CY2026",
-        "revenue": null
-      },
-      "quote": "Total revenues increased 11% in the three months ended March 31, 2026 compared to the three months ended March 31, 2025, primarily due to the increase in product revenues, and is attributable to higher investments from our memory customers, particularly in DRAM, led by high-bandwidth memory, and steady growth in foundry/logic.",
-      "quote_section": "Item 2 MD&A — Revenues and Gross Margin"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-AMZN-0001018724-26-000014",
     "accession": "0001018724-26-000014",
     "form": "10-Q",
@@ -5741,24 +5697,6 @@
     ],
     "tickers": [
       "META"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-KLAC-0000319201-26-000014",
-    "accession": "0000319201-26-000014",
-    "form": "8-K",
-    "date": "2026-04-29",
-    "source": "SEC EDGAR (KLAC)",
-    "source_type": "filing",
-    "headline": "KLAC files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000014/klac-20260429.htm",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "KLAC"
     ],
     "arch_risk": false
   },
@@ -7173,6 +7111,20 @@
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR3U0VXZ0OGFPQ2IzRTdnZU5PMC1jT1p0RGpULTBnLUZSVmNmVUdub3NwbmlSY2JtWVlPLVRHN0FnaVZrX0FuN3UxUzNpbXdINzhjTkh3NW5vbkNuM20xT3Q4OUJFOGxvWDZ1R2lXcFpsR19xeU5Ec2IyVzUyNUZBbWVKeVV6d3B5RVdsSEQ3Z0lQQQ?oc=5",
     "layer_ids": [
       "packaging"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-45f385f6d484f7ae",
+    "date": "2017-09-05",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "NEWS TAGGED TSMC - digitimes",
+    "quote": "NEWS TAGGED TSMC digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40Tm5PRmliZWNHQjBxbkVDYV9nTWtTcUJCRkxrMF94RDhybU91bF8xcmNDdFJodHZwTkJqZkFldjJweDBkTGxzcGF4TmN4d0pTeWF2ekR1QjN5UQ?oc=5",
+    "layer_ids": [
+      "foundry"
     ],
     "tickers": [],
     "arch_risk": false

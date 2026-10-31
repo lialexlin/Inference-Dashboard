@@ -17,6 +17,34 @@
     "arch_risk": false
   },
   {
+    "id": "rss-f7c16d60c99303ac",
+    "date": "2026-10-30",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure",
+    "quote": "Intel's Q3 2026 earnings highlighted how well the data center segment is doing and how rough the client segment is due to DRAM and NAND pricing The post Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/intel-q3-2026-earnings-data-center-foundry-client/",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-7ba7b4cfbb6d7fdc",
+    "date": "2026-10-30",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Hitachi’s nuclear revenue rises as SMR delivery date approaches",
+    "quote": "The bulk of the Japanese conglomerate’s Energy segment business is in electrical grid equipment. Sales are strong, but inflation and long delivery timelines bear watching, company executives said.",
+    "url": "https://www.utilitydive.com/news/hitachi-sees-rise-in-nuclear-revenue-as-smr-delivery-date-approaches/873327/",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-729fd1a7207ff01d",
     "date": "2026-10-30",
     "source": "Utility Dive",
@@ -61,6 +89,44 @@
     ],
     "tickers": [
       "INTC"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-NVT-0001628280-26-068596",
+    "accession": "0001628280-26-068596",
+    "form": "10-Q",
+    "date": "2026-10-30",
+    "source": "SEC EDGAR (NVT)",
+    "source_type": "filing",
+    "headline": "NVT files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026068596/nvt-20260930.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "NVT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-NVT-0001628280-26-068391",
+    "accession": "0001628280-26-068391",
+    "form": "8-K",
+    "date": "2026-10-30",
+    "source": "SEC EDGAR (NVT)",
+    "source_type": "filing",
+    "headline": "NVT files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026068391/nvt-20261030.htm",
+    "layer_ids": [
+      "cooling",
+      "power"
+    ],
+    "tickers": [
+      "NVT"
     ],
     "arch_risk": false
   },
@@ -122,20 +188,6 @@
     "url": "https://semiwiki.com/eda/pdf-solutions/375398-pdf-solutions-connect-2026-trip-report/",
     "layer_ids": [
       "switches"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-42669d5efb4724e7",
-    "date": "2026-10-29",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "ML-Based Power Models for CPUs. Innovation in Verification",
-    "quote": "An effective learned power model for a CPU could be a significant advantage in early estimation of power performance against realistic workloads in complex architectures. Paul Cunningham (GM, Verification at Cadence), Raúl Camposano (Silicon Catalyst, entrepreneur, former Synopsys CTO and lecturer at Stanford, EE292A)… Read More The post ML-Based Power Models for CPUs. Innovation in Verification appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/artificial-intelligence/375466-ml-based-power-models-for-cpus-innovation-in-verification/",
-    "layer_ids": [
-      "eda"
     ],
     "tickers": [],
     "arch_risk": false
@@ -290,20 +342,6 @@
     "url": "https://www.servethehome.com/altera-agilex-27-800gbe-1-6tbe-hyperflow/",
     "layer_ids": [
       "optics"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-9e32b0be03395682",
-    "date": "2026-10-28",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "California utilities, aggregators and customers to benefit from new DER laws: advocates",
-    "quote": "One aggregator called device-level telemetry the “keystone” to extract value from multiple distributed energy resources behind the same meter.",
-    "url": "https://www.utilitydive.com/news/california-utilities-aggregators-and-customers-to-benefit-from-new-der-law/873048/",
-    "layer_ids": [
-      "hyperscalers"
     ],
     "tickers": [],
     "arch_risk": false
@@ -975,19 +1013,17 @@
     "arch_risk": false
   },
   {
-    "id": "rss-874e7264ce7db62c",
-    "date": "2026-10-15",
+    "id": "rss-a5570364596325bd",
+    "date": "2026-10-14",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Applied Materials targets AI-driven semiconductor equipment growth through 2030 - digitimes",
-    "quote": "Applied Materials targets AI-driven semiconductor equipment growth through 2030 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQnJnbWRJVXZVdWppSzFfYVNGSElDWERLZVVLVXVDd2xHNGRCYk9yXzJJV1VtMndwdmZsVXJ5NUd5eTFyMTdSX240X1RCZm5hcGNmWjJLeXZBX19VaXgyVFJHcXFnVC11c2F5N3ViX1NKcFY0aTBObkJQMEllTEJpYzVMRjljQWdPWHJPT1cyXzhsdFNodERHTDJHY3RiY0UwdlltTFlhNA?oc=5",
+    "headline": "TSMC and MediaTek alumni lead Taiwan's new wave of deep tech startups - digitimes",
+    "quote": "TSMC and MediaTek alumni lead Taiwan's new wave of deep tech startups digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS0FfMERHSnNDdjJHR0FSQVoxX3B0SnI2R3RwaGNjblNVQlgzQ1lFUy1GOHV0Z0RzNzNmb0FoTDJGZmtFMFdaZkJZLVRpQ2FxcUhJTXNmaWtOUXY4TzVMTUNLc3FNRTN0MWtJekVDUl9oU2MyX2RodmdZcTVkT19JUDVwNVFvXzV5dkhudg?oc=5",
     "layer_ids": [
-      "wfe"
+      "foundry"
     ],
-    "tickers": [
-      "AMAT"
-    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -5489,64 +5525,6 @@
       "speaker": "Shyam Sankar",
       "role": "Executives"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-NVT-0001628280-26-029370",
-    "accession": "0001628280-26-029370",
-    "form": "10-Q",
-    "date": "2026-05-01",
-    "source": "SEC EDGAR (NVT)",
-    "source_type": "filing",
-    "headline": "NVT files 10-Q: periodic report",
-    "quote": "The 76.1 percent increase in Systems Protection net sales in the first quarter of 2026 from 2025 was primarily the result of: organic sales growth contribution of approximately 46.0% from our infrastructure business... which includes selective increases in selling prices and growth in the data centers business.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026029370/nvt-20260331.htm",
-    "layer_ids": [
-      "cooling",
-      "power"
-    ],
-    "tickers": [
-      "NVT"
-    ],
-    "summary": {
-      "tldr": "Q1 FY26 revenue $1.24B +53.5% (organic +34.4%); Systems Protection +76% to $895M on 46pt organic boost from infrastructure/data centers, with segment margin expanding to 22.7%.",
-      "takeaways": [
-        "Q1 FY26 net sales $1,242M +53.5%; Systems Protection $894.8M +76.1% (organic +50.1%); Electrical Connections $347.2M +15.3%",
-        "Systems Protection segment income $203.1M +95%, margin expanded 220bps to 22.7% on volume leverage",
-        "Systems Protection organic growth driven by ~46pts from infrastructure (incl. data centers) plus ~2pts each from industrial and commercial/residential",
-        "Consolidated operating margin 15.8% (-30bps); gross margin 35.9% (-290bps) on tariffs, raw mat'l, capacity investment, mix - partly offset by volume leverage",
-        "EPG acquisition contributed $137.7M in Q1 (incl. $121M in Systems Protection)",
-        "Returned capital: Q1 buybacks per program plus dividend increase to $0.21/share announced Feb 16, 2026"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "Expect data-center-driven megatrends to continue driving sales growth throughout 2026 and beyond",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "The 76.1 percent increase in Systems Protection net sales in the first quarter of 2026 from 2025 was primarily the result of: organic sales growth contribution of approximately 46.0% from our infrastructure business... which includes selective increases in selling prices and growth in the data centers business.",
-      "quote_section": "Item 2 MD&A - Segment Results"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-NVT-0001628280-26-029098",
-    "accession": "0001628280-26-029098",
-    "form": "8-K",
-    "date": "2026-05-01",
-    "source": "SEC EDGAR (NVT)",
-    "source_type": "filing",
-    "headline": "NVT files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1720635/000162828026029098/nvt-20260501.htm",
-    "layer_ids": [
-      "cooling",
-      "power"
-    ],
-    "tickers": [
-      "NVT"
-    ],
     "arch_risk": false
   },
   {

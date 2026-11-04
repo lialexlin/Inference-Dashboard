@@ -14,6 +14,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-dfde00d173b57d2f",
+    "date": "2026-11-03",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "Marvell Cuts To The Front Of The Datacenter Optics Line With Lumentum Deal",
+    "quote": "",
+    "url": "https://www.nextplatform.com/connect/2026/11/03/marvell-cuts-to-the-front-of-the-datacenter-optics-line-with-lumentum-deal/5307392",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-c72f459373f8caec",
     "date": "2026-11-03",
     "source": "Utility Dive",
@@ -44,6 +58,24 @@
     "arch_risk": false
   },
   {
+    "id": "edgar-LITE-0001628280-26-069615",
+    "accession": "0001628280-26-069615",
+    "form": "10-Q",
+    "date": "2026-11-03",
+    "source": "SEC EDGAR (LITE)",
+    "source_type": "filing",
+    "headline": "LITE files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [
+      "LITE"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-FN-0001408710-26-000041",
     "accession": "0001408710-26-000041",
     "form": "10-Q",
@@ -58,6 +90,60 @@
     ],
     "tickers": [
       "FN"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ETN-0001551182-26-000040",
+    "accession": "0001551182-26-000040",
+    "form": "10-Q",
+    "date": "2026-11-03",
+    "source": "SEC EDGAR (ETN)",
+    "source_type": "filing",
+    "headline": "ETN files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000040/etn-20260930.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "ETN"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-ETN-0001551182-26-000037",
+    "accession": "0001551182-26-000037",
+    "form": "8-K",
+    "date": "2026-11-03",
+    "source": "SEC EDGAR (ETN)",
+    "source_type": "filing",
+    "headline": "ETN files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000037/etn-20261103.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "ETN"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-GNRC-0001437749-26-034665",
+    "accession": "0001437749-26-034665",
+    "form": "10-Q",
+    "date": "2026-11-03",
+    "source": "SEC EDGAR (GNRC)",
+    "source_type": "filing",
+    "headline": "GNRC files 10-Q: FORM 10-Q",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926034665/gnrc20260930_10q.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "GNRC"
     ],
     "arch_risk": false
   },
@@ -94,6 +180,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-b1e054ac38ebb80b",
+    "date": "2026-11-02",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Musk may let TSMC run his Texas chip fab as his do-it-alone plan stalls - digitimes",
+    "quote": "Musk may let TSMC run his Texas chip fab as his do-it-alone plan stalls digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaUstSDZWeFBzdmJBX1FEZnJXUnoxdmtydWV2SlhDdkQtY3ZDUXFacTRVRGNyd24yd2lRUXNfZ3djdDNzYVN5NkdqY2VCTWRiYU9ZenZ0MmNPQ0ZtbXpyd2I1N2NLZ2N2Y0tRaFo4bl9fUzBBeVJsbEpSMnk1VFQ2QmtCTlg3akxaUnZpX0JYMWUyOXdoN0ZNVXFFSQ?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-55be05f3151fd6da",
     "date": "2026-11-02",
     "source": "DigiTimes",
@@ -108,19 +208,17 @@
     "arch_risk": false
   },
   {
-    "id": "rss-05a19d3df506928d",
+    "id": "rss-c84f7abe84ac871b",
     "date": "2026-11-02",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Weekly news roundup: Taiwan debates talent distribution; SK Hynix looks beyond HBM - digitimes",
-    "quote": "Weekly news roundup: Taiwan debates talent distribution; SK Hynix looks beyond HBM digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMlVfdUFRdU5yYUwxMUpCR2x6a1NUenB1Z1JlV0FWU0lIOWRndnNuV0lsdTI4clBBNEYwTkMzVXlCVzJ0Z3kxa2RxZ1lLWWdGZmtNR1RSUmJCTllTSFpFUkg0RHdpLW83WTJyTHlfaFoyNUdrd29yQ21UNHNFQlZNbTlNSmhjdmt3LXZ5Y3pDYmo1dlhuSHlN?oc=5",
+    "headline": "Musk may let TSMC run his Texas chip fab as his go-it-alone plan stalls - digitimes",
+    "quote": "Musk may let TSMC run his Texas chip fab as his go-it-alone plan stalls digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaVpnV0xUc2NSZ0xJaXdtVzNhWWhrSzdncjFlUXB3YlViSFFCekFFeXRTOHlTWWQwckhGam9HMjhKYnRHelYyMXdwd01Mb05TSk9acHBZQ1I5NUpWeDZiMUxBQ0lTRVoxRlJ3MEpuVWIzbWVnYk9KcXRpU0FuNnhTRzQzX0NvNm1idEVyN3hXZEs0R1plVjZIZ2pB?oc=5",
     "layer_ids": [
-      "hbm"
+      "foundry"
     ],
-    "tickers": [
-      "000660.KS"
-    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -149,6 +247,24 @@
       "hbm"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-LITE-0001628280-26-068655",
+    "accession": "0001628280-26-068655",
+    "form": "8-K",
+    "date": "2026-11-02",
+    "source": "SEC EDGAR (LITE)",
+    "source_type": "filing",
+    "headline": "LITE files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite-20261102.htm",
+    "layer_ids": [
+      "optics"
+    ],
+    "tickers": [
+      "LITE"
+    ],
     "arch_risk": false
   },
   {
@@ -202,6 +318,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-f049f0b67f0247f2",
+    "date": "2026-11-01",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "The pioneer behind TSMC's FinFET leap: a personal look at Chenming Hu - digitimes",
+    "quote": "The pioneer behind TSMC's FinFET leap: a personal look at Chenming Hu digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQTVPSWpIcmszeC1VUENlYVQyV1BSZmJzTzg0U1pvbktYZE5NWmhKMFE4QWJab3o0M0Q3UWJwV2xfWFBHYXFEbTIzRDdOTWpValNCZnJkTElKQWlnelJKRlp1QlpIU2k0d2dyQ3hjcDgxWW1ycy1pcy0ybk9ISndkY1ZPSzdEb2ZKTXpDNmpqVkVqRGQzV3c?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-de2ebffff91f58fe",
     "date": "2026-11-01",
     "source": "ServeTheHome",
@@ -213,6 +343,23 @@
       "gpu"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-ea38ada4a2dfff31",
+    "date": "2026-10-30",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Taiwan semiconductor output to hit NT$9.1 trillion as TSIA urges stable power - digitimes",
+    "quote": "Taiwan semiconductor output to hit NT$9.1 trillion as TSIA urges stable power digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjFrcTF0a1ZJWGw0UFYxWWotQjVyczhqV1RnOFJjY3dzN1NFYzlGM0pHWGN3S3BNR0w4U25JdkJNYlJlejA3S3B3VG9GeHVHOG9sWllFZXJRbDlzb1BpZktCUHlpakRHRzh5NXlNVkF1TUxSbUtBSjh4LXlTWUdqU1c5RFhObkRaa1JpQW5ISk5lZ2c?oc=5",
+    "layer_ids": [
+      "gpu",
+      "foundry"
+    ],
+    "tickers": [
+      "TSM"
+    ],
     "arch_risk": false
   },
   {
@@ -240,20 +387,6 @@
     "url": "https://www.servethehome.com/intel-q3-2026-earnings-data-center-foundry-client/",
     "layer_ids": [
       "hbm"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-7ba7b4cfbb6d7fdc",
-    "date": "2026-10-30",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Hitachi’s nuclear revenue rises as SMR delivery date approaches",
-    "quote": "The bulk of the Japanese conglomerate’s Energy segment business is in electrical grid equipment. Sales are strong, but inflation and long delivery timelines bear watching, company executives said.",
-    "url": "https://www.utilitydive.com/news/hitachi-sees-rise-in-nuclear-revenue-as-smr-delivery-date-approaches/873327/",
-    "layer_ids": [
-      "power"
     ],
     "tickers": [],
     "arch_risk": false
@@ -474,6 +607,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-c5d58e91e17f10ad",
+    "date": "2026-10-28",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Ex-TSMC CTO says Taiwan's research institutes get too much funding and train too little talent - digitimes",
+    "quote": "Ex-TSMC CTO says Taiwan's research institutes get too much funding and train too little talent digitimes",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZjZHRkdvcWpDSFVYNFhHTlM1X2R6VFF2MThsbTY0S2owTmtEUnhqYTJrdzhVOEMxOVdQZE11X3RBQzdfY0NpRGc0TWduZ3l6RGo4RVE0aFhIT0xOOE5iREZMc2pwd3JuTVFNdVFkbk1qZVd1bDc3bXBYS0c1SHk3ZzF1NGpoNGp1WHRPYi1FNE4tNlJCRkpCTWFTY3hrUQ?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-KLAC-0000319201-26-000032",
     "accession": "0000319201-26-000032",
     "form": "8-K",
@@ -581,6 +728,24 @@
     ],
     "tickers": [
       "VRT"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-GNRC-0001437749-26-033685",
+    "accession": "0001437749-26-033685",
+    "form": "8-K",
+    "date": "2026-10-28",
+    "source": "SEC EDGAR (GNRC)",
+    "source_type": "filing",
+    "headline": "GNRC files 8-K: FORM 8-K",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926033685/gnrc20261027c_8k.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "GNRC"
     ],
     "arch_risk": false
   },
@@ -693,11 +858,11 @@
     "arch_risk": false
   },
   {
-    "id": "rss-c12588371b9bd690",
+    "id": "rss-b4e9ba1514528ce8",
     "date": "2026-10-27",
     "source": "The Next Platform",
     "source_type": "analyst",
-    "headline": "Oracle is Expanding the Accelerator Options in OCI for Enterprises",
+    "headline": "Oracle Is Expanding The Accelerator Options In OCI For Enterprises",
     "quote": "",
     "url": "https://www.nextplatform.com/ai/2026/10/27/oracle-is-expanding-the-accelerator-options-in-oci-for-enterprises/5305815",
     "layer_ids": [
@@ -740,6 +905,21 @@
     "tickers": [
       "HUBB"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-07c15267e1c592b4",
+    "date": "2026-10-26",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Podcast highlights: TSMC's 3nm demand story, Samsung HBM shift, and A14 ramp - digitimes",
+    "quote": "Podcast highlights: TSMC's 3nm demand story, Samsung HBM shift, and A14 ramp digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSGZ1aU42bDhxd0swUkZZWk1jMURwS1FxdERtRVZvQ2xKZlFCQ2ZBdWlqRFpMMDVzcUp2UXB4M1VDM2piX3hjT2V2YkRZcW9YQlhEcjR5d0gwdmpyNnBKVGRPczFhc3VSYlg1ekZBNnVHemlfWmtWT3ZEUU5SelpNUmVMazA?oc=5",
+    "layer_ids": [
+      "foundry",
+      "hbm"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -829,6 +1009,36 @@
     "arch_risk": false
   },
   {
+    "id": "rss-556941e8578feba7",
+    "date": "2026-10-23",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC advances CoPoS packaging at Taoyuan Longtan site - digitimes",
+    "quote": "TSMC advances CoPoS packaging at Taoyuan Longtan site digitimes",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUHFnYVNQV2pFNUFzTWEyaDNLZmVwcFNoQXJReU1wSXVXV0dFcS12OUt1RTNvcmR6QlUzamQybncxUEE5S0kwS3hWc2k0UUNqYVlBel9iQXktSlFhbmtraTM0OUZNeUFVdlBYVnFRNGVyZHFkQUFadUtmNGhRMU9uR1c3QVJzSnh1VmZGcTYyWm1Ya0JBUTlYZ0o1eTVXOVlaaVNTemxwOTdtU1AwaVR4cXMxNnR0Vks5aGVmWWhNSTRqWERNWnVV?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-9f8f205c600f48da",
+    "date": "2026-10-22",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "2nm and CoWoS expansion lifts Chi Yi Hsin Technology backlog to NT$4.5B - digitimes",
+    "quote": "2nm and CoWoS expansion lifts Chi Yi Hsin Technology backlog to NT$4.5B digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd0JvNFZoSTh2cjUtWml5cThpNnN4Z3RLR1d5VkpGMXRGeGJZQ0YyZVNpdEhkNVU2REcxUktGM2thUE1nUUlJc25GV2tvTFlyQTBrVFRyVjNFdVdxZ280SUJLOUlSb3NqYk5Pb3lrbU9GTDNwMUlJZnpRNHgyaUNhMHFDM2Ztb1pOaDlVdkFuVXdBekNSSmc?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-LRCX-0000707549-26-000054",
     "accession": "0000707549-26-000054",
     "form": "10-Q",
@@ -901,6 +1111,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-2c43aa33b76ed97b",
+    "date": "2026-10-21",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy - digitimes",
+    "quote": "Sony keeps chip unit as imaging sensors, TSMC partnership drive strategy digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORTlWdFZ3YTVETmFLMUpqSDAwSW1zYnI4QUF0ZXJMY3RhSkp5MmRaam1CX3dkR201SXdiNGt1N1kwblRVNkhKRmUwQkVaUEtpdFRyRW9JcnM3cUprb3VDRWFxRk84XzNCSjlXMEV1T1hYWl9YbWRLZ0p2QTk2RUhMV00xd0xEUi1KUzRIM0NfbkM2MW9lVDRR?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-LRCX-0000707549-26-000052",
     "accession": "0000707549-26-000052",
     "form": "8-K",
@@ -937,13 +1161,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-fad07f461e58d65f",
-    "date": "2026-10-17",
+    "id": "rss-49292a9d1b6490f5",
+    "date": "2026-10-19",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to US$4.1 billion in aid - digitimes",
-    "quote": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to US$4.1 billion in aid digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSTByOUp2RWRmbmRiUGJIakc0SXJfUzhzLTk5akJBc2VTQmFUZGhlWVVyQjdScURraDBxOXBJYWcwazFEQUxUT1ZyM2F3QVJxZ0NtUHEtd0ZZbGtVM3dqQ3pBQjVkY3FFNUtGQnpoM05UWTZONF82NDdUVTM5bWU5RjV0d0ZBdw?oc=5",
+    "headline": "Terafab exposes Tesla's growing tensions with Samsung and TSMC - digitimes",
+    "quote": "Terafab exposes Tesla's growing tensions with Samsung and TSMC digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbkJ1VC1LRkNROGZRbDFVai1GQ0U5dV83TkNOT3lHVWN4bDdXS2p4bzB6MGJpTVlLOWVYRjQ4VWFGVjFaSzBjeWZaUGZhdFUzY01kc284X3hlMk9yc2J6OU1BRUNDQzlKdEp1cWpFSkJmNG5PcFh5UldSY3NJeW5CcWZBRHJYNnZGSWYtNA?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -951,16 +1175,16 @@
     "arch_risk": false
   },
   {
-    "id": "rss-2cd5f9d0f5047866",
-    "date": "2026-10-16",
+    "id": "rss-92be25c547a4f9d5",
+    "date": "2026-10-19",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "TSMC excludes CPUs from AI accelerator growth forecast - digitimes",
-    "quote": "TSMC excludes CPUs from AI accelerator growth forecast digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjE4a2Q3X3lhTV96TnJiR2d5RHJNa1RoMTFxcmh1ZTBDNFZnUHF6SXVZckYwOTVnYjVWdEhmM3VBbjJQM1BpYmU1b19CVDV0T0FYOW1DemFJeUF4cXVXWDMwV1pWNDA3b3VKVzZvUVZQOWhLWUhSR2JXUUlCWlNCMzR2YUlHd2g0YnVWQk1ld3Jsdw?oc=5",
+    "headline": "Podcast highlights: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge - digitimes",
+    "quote": "Podcast highlights: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2EzSGZ1Y05CR2E2V0UyRmdOeFlSMGxxYVZiNlBURi1kcGtNaS1JY1B0NFh2UklrM1UyOXNWTXUxeVpOTlB6eGZQV1YtS25SMWl1X1lWZDVua1E5Ny1CdGJ1a1N3YWoyNUZHLVJLbkJnMldsZF9KUUR0Zjkta2EwMWdWVk9keEZmSXJNWjlB?oc=5",
     "layer_ids": [
-      "gpu",
-      "foundry"
+      "foundry",
+      "packaging"
     ],
     "tickers": [],
     "arch_risk": false
@@ -973,20 +1197,6 @@
     "headline": "TSMC breaks silence on Musk's Terafab: Talks underway, but fab control non-negotiable - digitimes",
     "quote": "TSMC breaks silence on Musk's Terafab: Talks underway, but fab control non-negotiable digitimes",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMlNsUG41RWRYNzFCcG1SZnBOblhubjhhb1pGazQzcnE2T2hjVTk3bFZjbmRBLWEtVjBvR2tvRGJtbTBQbFc3eUcwcjhsVWJhakZiUG94a3FmMlZ3NjRGN0pPQVI1Tmppb3ZhRk0yc2RoV19va1Z3SWpHSFEwcm56TVJzXzd0TUlVZnVmaWthckdzNjByUi1R?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-37c12c8b50c5ed5d",
-    "date": "2026-10-14",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC, Intel, Samsung seek to break AI chipmaking's next barrier through early technology integration - digitimes",
-    "quote": "TSMC, Intel, Samsung seek to break AI chipmaking's next barrier through early technology integration digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMzJMNlhHc0ZadGd0QzdNVkRXUWVpdTc5OHlHVjB4U1BfZkFqWFA0dnhzaE1PSFJ1VUVlN2tfNGlsMHY1em13YzdFMnVIMlFQcjF3QTJwVXlQcENfUG1uMDlXeHl6N1VUeU5RZVhvMTB5NG9MMElma0hfbUR0UC1pWHpNQnpIZmRsSi1yLTNCUVdlYTEybjdV?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -1040,13 +1250,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-a1b79593dca303b0",
-    "date": "2026-10-03",
+    "id": "rss-af2447a8a7a71f93",
+    "date": "2026-10-06",
     "source": "DigiTimes",
     "source_type": "industry",
-    "headline": "Musk confirms talks with TSMC over his Texas chip factory project - digitimes",
-    "quote": "Musk confirms talks with TSMC over his Texas chip factory project digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGtjWHVkYVZrd1RyRFJFMk5MT2VDWmVBQ3ZFZTJpUFVZOFVtTjhIc2xuTGJvSTZrTkhhOFR5ekdXQXhuTDJodGx2MGdTTkFsdkZySjY4SFVSQjFrQ2JjMzAzdVlEWDdJcVppTlNleVVBUmpWSkZSMmg2YjZZQXJFVnJZY09ZaFYtNW5Mck9YTzVwdlU?oc=5",
+    "headline": "TSMC Texas-Terafab buzz drives Taiwan contractors to move fast - digitimes",
+    "quote": "TSMC Texas-Terafab buzz drives Taiwan contractors to move fast digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVEotV2RsS3BuSnU0bkdIVWN0cEUwUC1EdWdqeHFDcFVLVE1pRGt4cEpBLWhYeHVJRUNLZ0V3bUVQbWVPNDBBQmp3VFVaM1JVcjVMd1RyYkh0di0zWXNFeEFRd3BJUlhWSW1pRTI0TlRIa01Wa3BmSEpfc0hTV25CVzNVVExnUldD?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -1069,20 +1279,6 @@
     "tickers": [
       "MU"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-153860053517fefb",
-    "date": "2026-09-24",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC locks in 3-6% wafer out price hikes for 2027 - digitimes",
-    "quote": "TSMC locks in 3-6% wafer out price hikes for 2027 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMVE4Ty1hREZERmhoSkJWekhXV25RekVMSXpMMHJyNmpJTjV0ZFJQUlF4eHJVTkxsN1ZrZVFoa3RsRnhuZWM2Z1pSUTZOeFg5MWMtLXVuM2VwWEF1eUhsanZuOFVNUmdfb1VLSkxmMERxTWt2cldmcjdOMTFNdWpfTDlzZzNKQQ?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1141,23 +1337,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-d38964af03a8dad9",
-    "date": "2026-09-08",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
-    "quote": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-SNOW-0001640147-26-000037",
     "accession": "0001640147-26-000037",
     "form": "10-Q",
@@ -1191,21 +1370,6 @@
     "tickers": [
       "HPE"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-0b31a4182cc42abd",
-    "date": "2026-09-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Marvell sees silicon photonics scaling from late 2027, with Taiwan and TSMC at the center - digitimes",
-    "quote": "Marvell sees silicon photonics scaling from late 2027, with Taiwan and TSMC at the center digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbE1jR2dEOEZPb0FoV2NmM3oydEhzTlJNd2ZVbXQwbFluWk5ucDRNNEtidkJmSTBhZHh0ZzJIbFJWVmdRcHN4Y0lXdEdSZU82ZXJia2lnbS1Bejg5a2I4MFZqLTJuM1J5ZXF2b2o5bFY5bll1ZHBPQ053dmZKMklnMXo1d0pHdXhRNVpxQXFEblZGQQ?oc=5",
-    "layer_ids": [
-      "optics",
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1280,21 +1444,6 @@
     "tickers": [
       "SNOW"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-779d260727aff314",
-    "date": "2026-09-01",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC delays CoWoS orders as CoPoS plans take shape - digitimes",
-    "quote": "TSMC delays CoWoS orders as CoPoS plans take shape digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZW80dVlfcEREMzQtVV9HMUdYLTZuNkZxcGVjLVA5Sklyb2NvSk5ndHdqcndMeUx2LVM5Q2ZXMklQNURqZnlCSnlfNWVfR2R2ZFJnRmlKOVhKLUpEcXFWZWQ1RVdtTkpjbmJXcDFGQUlQSnlibEtGZjFXNjZic1p5cC1iTS04MlZNS0RnSGpsQVFhemEz?oc=5",
-    "layer_ids": [
-      "packaging",
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -2570,20 +2719,6 @@
     "tickers": [
       "NOW"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-e9783953826c5b43",
-    "date": "2026-07-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "CPU demand rebounds in AI data centers as TSMC stands to benefit across architectures - digitimes",
-    "quote": "CPU demand rebounds in AI data centers as TSMC stands to benefit across architectures digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcXBWVm5kTXNfWmZxZlgzd3RfaEw5Szg1OXBMWEk5WEdLMV8tdkJmUE5YZXpLeGZpdmFVQnUtUC13eE9YY0RWejFUUVRxRl9uczRVMkRzT2J3Y3VleFVWb1VMY3QwVl9iTXJwTFd4NVRINzFfbXRyUWNLbTJXV0FKaTNCTFc?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -4872,44 +5007,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-LITE-0001628280-26-030777",
-    "accession": "0001628280-26-030777",
-    "form": "10-Q",
-    "date": "2026-05-06",
-    "source": "SEC EDGAR (LITE)",
-    "source_type": "filing",
-    "headline": "LITE files 10-Q: periodic report",
-    "quote": "The increase in our Systems products was primarily driven by our cloud transceiver product lines which increased by more than $137.0 million due to higher shipment volume, partially offset by lower average selling prices. We also continued the initial phase of optical circuit switch shipments, which contributed more than $25.0 million in revenue during the three months ended March 28, 2026.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030777/lite-20260328.htm",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [
-      "LITE"
-    ],
-    "summary": {
-      "tldr": "FQ3 26 revenue $808.4M +90.1% YoY with cloud transceivers +$137M and laser chips ramping at 200G lane; gross margin 44.2% (+1,540bps) as 1.6T cycle structurally re-rates margins.",
-      "takeaways": [
-        "Q3 FY26 revenue $808.4M +90.1% YoY (+$383M); Components $533.3M +77.3%; Systems $275.1M +121.1%; 9M revenue $2.01B +72.4%",
-        "Gross margin 44.2% in Q (+1,540bps YoY); 9M gross margin 38.8% (+1,300bps); operating leverage from supply allocation + 200G-lane mix",
-        "Systems growth driven by cloud transceivers +$137M (higher volume offset by lower ASPs); optical circuit switches contributed >$25M in Q, >$38M 9M",
-        "Laser chip ramp continues to drive Components, with 200G lane-speed mix lifting ASPs — confirms LITE is the InP/EML supply choke point for 1.6T transceivers",
-        "Customer concentration deepened: 2 customers at 26% and 12% in Q (combined 38%) — top customer share rose from 24%",
-        "Mgmt language hardened: 'demand is outpacing current supply which has required us to make decisions on supply allocation' (vs 'has led to' previous Q)"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": null,
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "The increase in our Systems products was primarily driven by our cloud transceiver product lines which increased by more than $137.0 million due to higher shipment volume, partially offset by lower average selling prices. We also continued the initial phase of optical circuit switch shipments, which contributed more than $25.0 million in revenue during the three months ended March 28, 2026.",
-      "quote_section": "Item 2 MD&A — Net Revenue"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "edgar-COHR-0000820318-26-000013",
     "accession": "0000820318-26-000013",
     "form": "10-Q",
@@ -5116,24 +5213,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-LITE-0001628280-26-030530",
-    "accession": "0001628280-26-030530",
-    "form": "8-K",
-    "date": "2026-05-05",
-    "source": "SEC EDGAR (LITE)",
-    "source_type": "filing",
-    "headline": "LITE files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite-20260505.htm",
-    "layer_ids": [
-      "optics"
-    ],
-    "tickers": [
-      "LITE"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-ANET-0001596532-26-000074",
     "accession": "0001596532-26-000074",
     "form": "8-K",
@@ -5150,102 +5229,6 @@
     "tickers": [
       "ANET"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-ETN-0001551182-26-000013",
-    "accession": "0001551182-26-000013",
-    "form": "10-Q",
-    "date": "2026-05-05",
-    "source": "SEC EDGAR (ETN)",
-    "source_type": "filing",
-    "headline": "ETN files 10-Q: periodic report",
-    "quote": "The increase in organic sales in the first quarter of 2026 was due to strength in data center, commercial & institutional, and machine OEM end-markets, partially offset by weakness in utility and industrial end-markets.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000013/etn-20260331.htm",
-    "layer_ids": [
-      "power",
-      "cooling"
-    ],
-    "tickers": [
-      "ETN"
-    ],
-    "summary": {
-      "tldr": "Electrical Americas Q1 backlog $14.5B (+44% YoY, +32% organic), book-to-bill 1.2x; orders +42% organic on data center strength.",
-      "takeaways": [
-        "Electrical Americas Q1 sales $3.60B (+20%); backlog $14.5B (+44% YoY, +32% organic); organic customer orders +42%",
-        "Electrical Global Q1 sales $1.95B (+21%); backlog $3.16B (+73% YoY, +20% organic); book-to-bill 1.1x",
-        "Aerospace Q1 sales $1.14B (+16%); backlog $5.0B (+28%)",
-        "Electrical Americas operating margin 25.6% (vs 30.0%) — 480bps decline from commodity inflation; partially offset by 210bps sales leverage",
-        "Boyd Thermal acquisition closing pending; recently acquired data-center-adjacent businesses (Fibrebond, Resilient)",
-        "Data center remains primary demand driver across both electrical segments and added to Electrical Global commentary as machine OEM/residential growth"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": null,
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "The increase in organic sales in the first quarter of 2026 was due to strength in data center, commercial & institutional, and machine OEM end-markets, partially offset by weakness in utility and industrial end-markets.",
-      "quote_section": "Item 2 MD&A — Electrical Americas Segment"
-    },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-ETN-0001551182-26-000010",
-    "accession": "0001551182-26-000010",
-    "form": "8-K",
-    "date": "2026-05-05",
-    "source": "SEC EDGAR (ETN)",
-    "source_type": "filing",
-    "headline": "ETN files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1551182/000155118226000010/etn-20260505.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "ETN"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-GNRC-0001437749-26-014882",
-    "accession": "0001437749-26-014882",
-    "form": "10-Q",
-    "date": "2026-05-05",
-    "source": "SEC EDGAR (GNRC)",
-    "source_type": "filing",
-    "headline": "GNRC files 10-Q: FORM 10-Q",
-    "quote": "Commercial & Industrial segment total sales increased approximately 28% to $510 million from $399 million in the prior year quarter... The core total sales growth for the segment was primarily driven by revenue from products sold to global data center customers, increased shipments to our domestic industrial distributor and rental channels, and higher sales of our controls solutions to the global power generation market.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926014882/gnrc20260331_10q.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "GNRC"
-    ],
-    "summary": {
-      "tldr": "Q1 FY26 sales +12% to $1.06B with C&I +28% on data center demand; reorganized segments into Residential/C&I; acquired Enercon for hyperscale custom power.",
-      "takeaways": [
-        "Q1 FY26 sales $1.06B vs $942M (+12%); net income $73M ($1.24 EPS) vs $44M ($0.73 EPS)",
-        "C&I segment sales $510M (+28%) — core growth driven by data center customers, industrial distributor/rental channels, controls solutions; ~10% net contribution from M&A/FX",
-        "Residential sales $549M (+1%); home standby flat as higher pricing offset lower volumes vs strong 2024 hurricane comp",
-        "Adjusted EBITDA $193M (+29%); Residential margin 25.1% (vs 20.3%) on operational efficiencies, C&I margin 13.0% (vs 11.4%) on price/cost + Allmand accretion",
-        "March 2026: reorganized reportable segments from Domestic/International to Residential/C&I to align with strategy",
-        "Acquired Enercon Engineering — custom power equipment and industrial enclosures for hyperscale/enterprise data centers",
-        "Gross margin 38.7% (vs 39.5%) — unfavorable mix offset by price realization beating cost inflation"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": null,
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "Commercial & Industrial segment total sales increased approximately 28% to $510 million from $399 million in the prior year quarter... The core total sales growth for the segment was primarily driven by revenue from products sold to global data center customers, increased shipments to our domestic industrial distributor and rental channels, and higher sales of our controls solutions to the global power generation market.",
-      "quote_section": "Item 2 MD&A — Segment Results"
-    },
     "arch_risk": false
   },
   {
@@ -5600,24 +5583,6 @@
     ],
     "tickers": [
       "META"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-GNRC-0001437749-26-013726",
-    "accession": "0001437749-26-013726",
-    "form": "8-K",
-    "date": "2026-04-29",
-    "source": "SEC EDGAR (GNRC)",
-    "source_type": "filing",
-    "headline": "GNRC files 8-K: FORM 8-K",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926013726/gnrc20260428_8k.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "GNRC"
     ],
     "arch_risk": false
   },
@@ -6539,20 +6504,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-577ca2a270a88436",
-    "date": "2026-03-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Arizona in the black: a milestone for TSMC—and Washington - digitimes",
-    "quote": "Arizona in the black: a milestone for TSMC—and Washington digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbkFXeGtYNTFhQjh1aGtmTVFua0ZpWmdob2lBYk00RXFnZi03cVhUMVR1WUFVNS1CdXJjVDNaMk03M0sySklXenFES3NnSWhzWkkzS0tyTF9HY01SSVNGRmItUFp0TFVPNjQwMWI2aHN2dGhoMDY3UHBWbm14WXZia0tkaXRsdw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "intel-emib-cowos",
     "date": "2026-02-15",
     "source": "Tom's Hardware",
@@ -6922,23 +6873,6 @@
       "LITE",
       "COHR",
       "FN"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-3ee7502b83617b4e",
-    "date": "2024-11-13",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC now reportedly operates over half of global EUVs, weighs high-NA adoption - digitimes",
-    "quote": "TSMC now reportedly operates over half of global EUVs, weighs high-NA adoption digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMkJXYUwwRVFQa21XVXdBT0N2cXd3SWtna0RvVE9aenhnSmJwOU9BWlpYVHRoWjJRNmZ2Rlh2dVB6SkVVdVlaM2RjbzNsODEzNnVHb0NUNjdUY0xBczB4WjBXMk1HQzhDOG9zZHo2dnBzTjZ2a3hpcFI4WVRXemdSQlNMZlNUVk9vdHd0aQ?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "NOW"
     ],
     "arch_risk": false
   }

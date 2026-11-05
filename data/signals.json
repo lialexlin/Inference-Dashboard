@@ -1,5 +1,55 @@
 [
   {
+    "id": "rss-9bbefeb0d76d2abd",
+    "date": "2026-11-05",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Samsung reportedly plans 2nm fab to boost HBM base-die output - digitimes",
+    "quote": "Samsung reportedly plans 2nm fab to boost HBM base-die output digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Ca2l4SHprMDJEV2J0SDlPRGtjR0dYbHJxdFUxQk1HS0cxemx4c0xWV2kyRTFMRk94UXRlS1hkeTYxdEFKS21yVEFwd0VfdlhuYjAwZkdUalVjU05hR01n?oc=5",
+    "layer_ids": [
+      "hbm",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-66170d6318452483",
+    "date": "2026-11-05",
+    "source": "SemiWiki",
+    "source_type": "analyst",
+    "headline": "The $725 Million Chip Development: Why Execution Risk, Not IP Cost, Now Dictates Advanced-Node Survival",
+    "quote": "The philosophy of relying on a single, unified IP stack to lower your total cost of ownership is not a new concept invented just for the AI era. Semiconductor engineering teams have been weighing the trade-offs of piecemeal versus integrated intellectual property sourcing for decades. In previous process generations, veering… Read More The post The $725 Million Chip Development: Why Execution Risk, Not IP Cost, Now Dictates Advanced-Node Survival appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/artificial-intelligence/375867-the-725-million-chip-development-why-execution-risk-not-ip-cost-now-dictates-advanced-node-survival/",
+    "layer_ids": [
+      "cooling",
+      "software"
+    ],
+    "tickers": [
+      "NOW"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-LEU-0001628280-26-070557",
+    "accession": "0001628280-26-070557",
+    "form": "10-Q",
+    "date": "2026-11-05",
+    "source": "SEC EDGAR (LEU)",
+    "source_type": "filing",
+    "headline": "LEU files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026070557/leu-20260930.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "LEU"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-af7b76d303281f66",
     "date": "2026-11-04",
     "source": "DigiTimes",
@@ -115,6 +165,24 @@
     ],
     "tickers": [
       "ANET"
+    ],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-LEU-0001628280-26-070229",
+    "accession": "0001628280-26-070229",
+    "form": "8-K",
+    "date": "2026-11-04",
+    "source": "SEC EDGAR (LEU)",
+    "source_type": "filing",
+    "headline": "LEU files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026070229/leu-20261104.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "LEU"
     ],
     "arch_risk": false
   },
@@ -482,6 +550,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-f049f0b67f0247f2",
+    "date": "2026-11-01",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "The pioneer behind TSMC's FinFET leap: a personal look at Chenming Hu - digitimes",
+    "quote": "The pioneer behind TSMC's FinFET leap: a personal look at Chenming Hu digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOQTVPSWpIcmszeC1VUENlYVQyV1BSZmJzTzg0U1pvbktYZE5NWmhKMFE4QWJab3o0M0Q3UWJwV2xfWFBHYXFEbTIzRDdOTWpValNCZnJkTElKQWlnelJKRlp1QlpIU2k0d2dyQ3hjcDgxWW1ycy1pcy0ybk9ISndkY1ZPSzdEb2ZKTXpDNmpqVkVqRGQzV3c?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-de2ebffff91f58fe",
     "date": "2026-11-01",
     "source": "ServeTheHome",
@@ -583,20 +665,6 @@
     "tickers": [
       "AMZN"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-c9352c7d9c965e99",
-    "date": "2026-10-29",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Alphabet spells out more AI capex, China+1 doesn't add up - Nikkei Asia",
-    "quote": "Alphabet spells out more AI capex, China+1 doesn't add up Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMF9RU2lsU1hmSGRuMDdDaDNmZXBnblc3cjRuRnlvVTF2bnhJZmpHc0FIZmRma3d1MzhRUjNrTnlIdkhFcXpEVk9MczIzMkFLc1NpdUVHSG5mcUxZR2VjUnlLbEN5VHJKTkRFci1aNWdyb3RySWNPLTNyUGsybDNQOWlFQUktSF9VcDNmQWU5Y3gwS0k?oc=5",
-    "layer_ids": [
-      "hyperscalers"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1312,20 +1380,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-153860053517fefb",
-    "date": "2026-09-24",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC locks in 3-6% wafer out price hikes for 2027 - digitimes",
-    "quote": "TSMC locks in 3-6% wafer out price hikes for 2027 digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMVE4Ty1hREZERmhoSkJWekhXV25RekVMSXpMMHJyNmpJTjV0ZFJQUlF4eHJVTkxsN1ZrZVFoa3RsRnhuZWM2Z1pSUTZOeFg5MWMtLXVuM2VwWEF1eUhsanZuOFVNUmdfb1VLSkxmMERxTWt2cldmcjdOMTFNdWpfTDlzZzNKQQ?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-ORCL-0001193125-26-389274",
     "accession": "0001193125-26-389274",
     "form": "10-Q",
@@ -1381,23 +1435,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-d38964af03a8dad9",
-    "date": "2026-09-08",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
-    "quote": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "ASML"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-SNOW-0001640147-26-000037",
     "accession": "0001640147-26-000037",
     "form": "10-Q",
@@ -1431,21 +1468,6 @@
     "tickers": [
       "HPE"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-0b31a4182cc42abd",
-    "date": "2026-09-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Marvell sees silicon photonics scaling from late 2027, with Taiwan and TSMC at the center - digitimes",
-    "quote": "Marvell sees silicon photonics scaling from late 2027, with Taiwan and TSMC at the center digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbE1jR2dEOEZPb0FoV2NmM3oydEhzTlJNd2ZVbXQwbFluWk5ucDRNNEtidkJmSTBhZHh0ZzJIbFJWVmdRcHN4Y0lXdEdSZU82ZXJia2lnbS1Bejg5a2I4MFZqLTJuM1J5ZXF2b2o5bFY5bll1ZHBPQ053dmZKMklnMXo1d0pHdXhRNVpxQXFEblZGQQ?oc=5",
-    "layer_ids": [
-      "optics",
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -2813,6 +2835,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-ed58f4b8f9c1973b",
+    "date": "2026-07-16",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC 2Q26 profit surges 77% to a record on AI demand, first 2nm revenue - digitimes",
+    "quote": "TSMC 2Q26 profit surges 77% to a record on AI demand, first 2nm revenue digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWXNnWnM4Ql91QUJzZmpDQVg0ZUJpQm5lNEFISEc5bGVLbmR2cFhmOWZEYzBVZFUtM3lCTHJLeTIteHFnMzdkM3RYVHJoeTRzMEVibi1pVF94dW4xZER3SkZUWHlQVnFISUJ3ZVc2UEN6N3l2ZldjV1pURElVT0d3XzdOMDRTVUQ2?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-d1ef2a874be69ef4",
     "date": "2026-07-01",
     "source": "TrendForce",
@@ -3087,20 +3123,6 @@
       "speaker": "Antonio Neri",
       "role": "Executives"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "rss-bc4b8c8862e77b0d",
-    "date": "2026-06-11",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC's May revenue grows 30% as AI demand and tight capacity support outlook - digitimes",
-    "quote": "TSMC's May revenue grows 30% as AI demand and tight capacity support outlook digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU2oxU0N2a1gyR0FZRDVjdHpFTWRkWlBWY1ptM3YwUkE1UjYtaUZDVjQyU3FhUTgtSkhSQkpIOVkxbHU1YWdZNm10OGtkb19veFI3YnJScGxtRmpIdHQ5N25rUlViMFA0TGlzejgxaXZmc0d3aEZjS3NWQkVuR2dfYzhvVV9sTFp5bXF2cHJmdGE3ZVRmSjMtbkZxUXFYMHlCX05NQUFGSVpRWFE?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -5038,45 +5060,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-LEU-0001628280-26-030891",
-    "accession": "0001628280-26-030891",
-    "form": "10-Q",
-    "date": "2026-05-06",
-    "source": "SEC EDGAR (LEU)",
-    "source_type": "filing",
-    "headline": "LEU files 10-Q: periodic report",
-    "quote": "In March 2026, Centrus announced that the Company is exploring a joint venture with Oklo Inc. focused on deconversion services for HALEU – which currently does not exist commercially. Activities under this contemplated joint venture would occur at Centrus' site in Piketon, Ohio, to be co-located with Centrus' enrichment operations and adjacent to Oklo's planned 1.2 GW power campus.",
-    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026030891/leu-20260331.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "LEU"
-    ],
-    "summary": {
-      "tldr": "Backlog grew to $3.9B (LEU $3.1B incl $2.4B contingent); signed Fluor EPC contract Feb 2026 for Piketon LEU+HALEU expansion; exploring JV with Oklo on HALEU deconversion.",
-      "takeaways": [
-        "Q1 FY26 revenue $76.7M (+5%); LEU revenue $44.6M (-13%, SWU volume -47% offset by avg price +52%); Technical Solutions $32.1M (+47%) on HALEU Operation Contract",
-        "Backlog $3.9B at March 31, 2026 (vs $3.8B YE25); LEU $3.1B incl $2.4B contingent (all under definitive agreements pending capacity build)",
-        "SWU spot price held at $200 at quarter end vs $34 historic low in 2018 (+488%)",
-        "Feb 2026: signed EPC contract with Fluor Federal Services for Piketon LEU+HALEU commercial expansion (T&M with $24M cancellation fee declining $2M/month)",
-        "March 2026: announced exploration of JV with Oklo on HALEU deconversion, co-located at Piketon adjacent to Oklo's planned 1.2 GW Pike County power campus",
-        "Q1 net income $10.0M vs $27.2M; advanced technology costs jumped to $18.9M (vs $3.0M, +530%) from Piketon/Oak Ridge expansion",
-        "Aug 2025 issued $805M 0% convertibles due 2032; redeemed all $74.3M of 8.25% notes March 2025"
-      ],
-      "guidance": {
-        "gross_margin": null,
-        "notes": "FY27 DOE budget proposal does not include funding for HALEU Operation Contract cascade; future operations depend on additional appropriations",
-        "opex": null,
-        "period": null,
-        "revenue": null
-      },
-      "quote": "In March 2026, Centrus announced that the Company is exploring a joint venture with Oklo Inc. focused on deconversion services for HALEU – which currently does not exist commercially. Activities under this contemplated joint venture would occur at Centrus' site in Piketon, Ohio, to be co-located with Centrus' enrichment operations and adjacent to Oklo's planned 1.2 GW power campus.",
-      "quote_section": "Item 2 MD&A — Overview"
-    },
-    "arch_risk": false
-  },
-  {
     "id": "transcript-COHR-28648",
     "date": "2026-05-06",
     "headline": "COHR Q3 2026 Earnings Call",
@@ -5128,24 +5111,6 @@
       "speaker": "Amir Vexler",
       "role": "Executives"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-LEU-0001628280-26-030674",
-    "accession": "0001628280-26-030674",
-    "form": "8-K",
-    "date": "2026-05-05",
-    "source": "SEC EDGAR (LEU)",
-    "source_type": "filing",
-    "headline": "LEU files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1065059/000162828026030674/leu-20260505.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "LEU"
-    ],
     "arch_risk": false
   },
   {
@@ -6773,20 +6738,6 @@
       "COHR",
       "FN"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ef69b4f8d5f27888",
-    "date": "2025-03-12",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Taiwan's divided government puts TSMC's US$100 billion US expansion under scrutiny - digitimes",
-    "quote": "Taiwan's divided government puts TSMC's US$100 billion US expansion under scrutiny digitimes",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVRybUhTa0ptcElvQjFZaUhwdXM3RGFHanV2UkRGdEVDRmF2SXhiWjYyMWtyaWh4eU1mQzhoR08xUm9uZ0s5c1kyeEpHTTRQMC1obGFpU09haDRDS3ktdERENGg4c1o5VmhEQ0RvTkNadUhiTXozNWlic09TQ2hSRm9POWwxY2FNQjQ5ZV9lWUxpQmVxNk9wMFh3?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {

@@ -1,5 +1,23 @@
 [
   {
+    "id": "edgar-OKLO-0001628280-26-071319",
+    "accession": "0001628280-26-071319",
+    "form": "10-Q",
+    "date": "2026-11-06",
+    "source": "SEC EDGAR (OKLO)",
+    "source_type": "filing",
+    "headline": "OKLO files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026071319/oklo-20260930.htm",
+    "layer_ids": [
+      "power"
+    ],
+    "tickers": [
+      "OKLO"
+    ],
+    "arch_risk": false
+  },
+  {
     "id": "rss-9bbefeb0d76d2abd",
     "date": "2026-11-05",
     "source": "DigiTimes",
@@ -57,23 +75,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-66170d6318452483",
-    "date": "2026-11-05",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "The $725 Million Chip Development: Why Execution Risk, Not IP Cost, Now Dictates Advanced-Node Survival",
-    "quote": "The philosophy of relying on a single, unified IP stack to lower your total cost of ownership is not a new concept invented just for the AI era. Semiconductor engineering teams have been weighing the trade-offs of piecemeal versus integrated intellectual property sourcing for decades. In previous process generations, veering… Read More The post The $725 Million Chip Development: Why Execution Risk, Not IP Cost, Now Dictates Advanced-Node Survival appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/artificial-intelligence/375867-the-725-million-chip-development-why-execution-risk-not-ip-cost-now-dictates-advanced-node-survival/",
-    "layer_ids": [
-      "cooling",
-      "software"
-    ],
-    "tickers": [
-      "NOW"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-LEU-0001628280-26-070557",
     "accession": "0001628280-26-070557",
     "form": "10-Q",
@@ -88,23 +89,6 @@
     ],
     "tickers": [
       "LEU"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-af7b76d303281f66",
-    "date": "2026-11-04",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "DIGITIMES Insight: TSMC, ASML's 2031 photomask target puts High NA EUV suppliers on the clock - digitimes",
-    "quote": "DIGITIMES Insight: TSMC, ASML's 2031 photomask target puts High NA EUV suppliers on the clock digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWGRBckZVeEZkNnIyXzNlUnUtZDJrLWdoTU1XbXhqc1pDbUFuNnFRbjA5Sy1fck83enhuOTVmNnc3ckFWdk5GNVhTdE1VNVpRZ19QUW1rMG5Zd2hqZlpnX1dpcmc2djg3b0QxY2h2ei1BU0QzVTktMFpIbWZxcnRsaWRFS1hJUV9ORDlQUg?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "ASML"
     ],
     "arch_risk": false
   },
@@ -227,20 +211,6 @@
     "url": "https://www.nextplatform.com/connect/2026/11/03/marvell-cuts-to-the-front-of-the-datacenter-optics-line-with-lumentum-deal/5307392",
     "layer_ids": [
       "optics"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-c72f459373f8caec",
-    "date": "2026-11-03",
-    "source": "Utility Dive",
-    "source_type": "industry",
-    "headline": "Can ‘BattMan’ secure the US battery manufacturing supply chain?",
-    "quote": "The Energy Department’s Battery Manufacturing Accelerator aims to plug gaps in domestic material and component supplies over the next few years as U.S. battery demand looks set to quadruple.",
-    "url": "https://www.utilitydive.com/news/can-battman-secure-the-us-battery-manufacturing-supply-chain/873599/",
-    "layer_ids": [
-      "gpu"
     ],
     "tickers": [],
     "arch_risk": false
@@ -409,27 +379,13 @@
     "arch_risk": false
   },
   {
-    "id": "rss-9229a5036ef8ef12",
+    "id": "rss-84f264c5516e6a47",
     "date": "2026-11-02",
     "source": "DigiTimes",
     "source_type": "industry",
     "headline": "Musk may let TSMC run his Texas chip fab as his do-it-alone plan stalls - digitimes",
     "quote": "Musk may let TSMC run his Texas chip fab as his do-it-alone plan stalls digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObHlhdTFGT2loc09CdTNsajBVMnVEdllERG5Ld0JhanVYNXFFV2hUTGRZWXRxd0xUNG95RXQ2aENGTzlaRkZkZ3VHdC1FMjAwVzdrN29yWEFSUy03M1NXTDE4eFFrRUpTMmVkOUpBbFNvaDRmc3NZd0g1UFBLLWRpaTBDLWU?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-55be05f3151fd6da",
-    "date": "2026-11-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Rebuilding the American edge: How TSMC is driving US manufacturing and economic opportunity - digitimes",
-    "quote": "Rebuilding the American edge: How TSMC is driving US manufacturing and economic opportunity digitimes",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbllyZFBJUG1iem81UlUzenBjdmd4NVpwMlRXT0UzUENaTHhWdTg4RHd1OFduZGhnRTJCd1VNby1lWTJUSGMydXFRYS1qYUpIZDBkck1PZW1mUUpEYVY1cXZsQlhUYzBVQzhrY1FhNGN3M0FzZ1lNNUNDMnhHWVMwMFlzd0J3U1NTOHNVRjZNQWpyOEVZWC1iaThwQmlWcmM?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaVpnV0xUc2NSZ0xJaXdtVzNhWWhrSzdncjFlUXB3YlViSFFCekFFeXRTOHlTWWQwckhGam9HMjhKYnRHelYyMXdwd01Mb05TSk9acHBZQ1I5NUpWeDZiMUxBQ0lTRVoxRlJ3MEpuVWIzbWVnYk9KcXRpU0FuNnhTRzQzX0NvNm1idEVyN3hXZEs0R1plVjZIZ2pB?oc=5",
     "layer_ids": [
       "foundry"
     ],
@@ -516,20 +472,6 @@
     "tickers": [
       "PLTR"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-d71e32063770fba2",
-    "date": "2026-11-01",
-    "source": "Nikkei Asia",
-    "source_type": "news",
-    "headline": "Mitsubishi Heavy gears up to boost US gas turbine production - Nikkei Asia",
-    "quote": "Mitsubishi Heavy gears up to boost US gas turbine production Nikkei Asia",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVWxTZWV2RU9vU0QxcnFMWVpTU1FZdjQ1dFo5aFRHLU1LZ000TVN1SXVMdmZvR0tWXzQtQTAxRHV1c28wdVg1RmZCcmpBOE51WENjS2RLLW50eUlxb2VmdlVGbmt4TzBGVnhoZktSNnd1SEdZanRORzFqaDFqMDlwUkgyai1aQkQxQUVmdFFuWGJoSVQ4SW53Wm1yV0ZDTWEzVVE?oc=5",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1228,21 +1170,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-2cd5f9d0f5047866",
-    "date": "2026-10-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC excludes CPUs from AI accelerator growth forecast - digitimes",
-    "quote": "TSMC excludes CPUs from AI accelerator growth forecast digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjE4a2Q3X3lhTV96TnJiR2d5RHJNa1RoMTFxcmh1ZTBDNFZnUHF6SXVZckYwOTVnYjVWdEhmM3VBbjJQM1BpYmU1b19CVDV0T0FYOW1DemFJeUF4cXVXWDMwV1pWNDA3b3VKVzZvUVZQOWhLWUhSR2JXUUlCWlNCMzR2YUlHd2g0YnVWQk1ld3Jsdw?oc=5",
-    "layer_ids": [
-      "gpu",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-6e4825b413901be5",
     "date": "2026-10-15",
     "source": "DigiTimes",
@@ -1317,6 +1244,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-a1b79593dca303b0",
+    "date": "2026-10-03",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Musk confirms talks with TSMC over his Texas chip factory project - digitimes",
+    "quote": "Musk confirms talks with TSMC over his Texas chip factory project digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcGtjWHVkYVZrd1RyRFJFMk5MT2VDWmVBQ3ZFZTJpUFVZOFVtTjhIc2xuTGJvSTZrTkhhOFR5ekdXQXhuTDJodGx2MGdTTkFsdkZySjY4SFVSQjFrQ2JjMzAzdVlEWDdJcVppTlNleVVBUmpWSkZSMmg2YjZZQXJFVnJZY09ZaFYtNW5Mck9YTzVwdlU?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-MU-0000723125-26-000018",
     "accession": "0000723125-26-000018",
     "form": "8-K",
@@ -1332,6 +1273,20 @@
     "tickers": [
       "MU"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-153860053517fefb",
+    "date": "2026-09-24",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC locks in 3-6% wafer out price hikes for 2027 - digitimes",
+    "quote": "TSMC locks in 3-6% wafer out price hikes for 2027 digitimes",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMVE4Ty1hREZERmhoSkJWekhXV25RekVMSXpMMHJyNmpJTjV0ZFJQUlF4eHJVTkxsN1ZrZVFoa3RsRnhuZWM2Z1pSUTZOeFg5MWMtLXVuM2VwWEF1eUhsanZuOFVNUmdfb1VLSkxmMERxTWt2cldmcjdOMTFNdWpfTDlzZzNKQQ?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -4787,24 +4742,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-OKLO-0001628280-26-034095",
-    "accession": "0001628280-26-034095",
-    "form": "10-Q",
-    "date": "2026-05-12",
-    "source": "SEC EDGAR (OKLO)",
-    "source_type": "filing",
-    "headline": "OKLO files 10-Q: periodic report",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026034095/oklo-20260331.htm",
-    "layer_ids": [
-      "power"
-    ],
-    "tickers": [
-      "OKLO"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "transcript-OKLO-30337",
     "date": "2026-05-12",
     "headline": "OKLO Q1 2026 Earnings Call",
@@ -6708,6 +6645,20 @@
       "COHR",
       "FN"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-ef69b4f8d5f27888",
+    "date": "2025-03-12",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Taiwan's divided government puts TSMC's US$100 billion US expansion under scrutiny - digitimes",
+    "quote": "Taiwan's divided government puts TSMC's US$100 billion US expansion under scrutiny digitimes",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVRybUhTa0ptcElvQjFZaUhwdXM3RGFHanV2UkRGdEVDRmF2SXhiWjYyMWtyaWh4eU1mQzhoR08xUm9uZ0s5c1kyeEpHTTRQMC1obGFpU09haDRDS3ktdERENGg4c1o5VmhEQ0RvTkNadUhiTXozNWlic09TQ2hSRm9POWwxY2FNQjQ5ZV9lWUxpQmVxNk9wMFh3?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {

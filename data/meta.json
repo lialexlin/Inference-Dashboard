@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-11-06T16:32:16.088353+00:00",
+  "last_refresh_at": "2026-11-07T01:42:49.752719+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-11-06T16:33:24.745358+00:00"
+      "ts": "2026-11-07T01:43:28.002262+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-11-06T16:33:28.673658+00:00"
+      "ts": "2026-11-07T01:43:31.709038+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 1,
       "errors": {},
-      "ts": "2026-11-06T16:33:41.973386+00:00"
+      "ts": "2026-11-07T01:43:39.560459+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [bb6c9827-8832-4f24-82a1-a8fa755cb427], code: 390100"
+        "__connection__": "390102 (08001): Failed to login: Login error: Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [ff5c9a68-20e4-43aa-8697-3b1c83c1040f], code: 390102"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-11-06T16:32:17.369659+00:00"
+      "ts": "2026-11-07T01:42:51.681706+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-11-06T16:35:49.233648+00:00"
+      "ts": "2026-11-07T01:45:49.795655+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -59,32 +59,32 @@
         },
         {
           "layer_id": "foundry",
-          "tightness_score": 49
+          "tightness_score": 52
         },
         {
           "layer_id": "gpu",
-          "tightness_score": 49
+          "tightness_score": 47
         }
       ],
-      "ts": "2026-11-06T16:35:49.159400+00:00"
+      "ts": "2026-11-07T01:45:49.786483+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 85,
-      "latest_date": "2026-11-05",
-      "latest_total_tokens_b": 161498.742,
-      "ts": "2026-11-06T16:35:49.151996+00:00"
+      "daily_rows": 86,
+      "latest_date": "2026-11-06",
+      "latest_total_tokens_b": 161337.335,
+      "ts": "2026-11-07T01:45:49.778192+00:00"
     },
     "exit_triggers": {
       "ok": 1,
-      "overall": "green",
+      "overall": "amber",
       "states": {
-        "token_growth": "green",
+        "token_growth": "amber",
         "hyperscaler_capex": "green",
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-11-06T16:35:49.236990+00:00"
+      "ts": "2026-11-07T01:45:49.798989+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-11-06T16:35:47.830920+00:00"
+      "ts": "2026-11-07T01:45:48.502221+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-11-06T16:35:48.419816+00:00"
+      "ts": "2026-11-07T01:45:49.068748+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-11-06T16:35:49.157377+00:00"
+      "ts": "2026-11-07T01:45:49.783899+00:00"
     },
     "tw_universe": {
-      "ok": 1964,
-      "stock_count": 1964,
-      "sector_count": 71,
-      "latest_date": "2026-11-06",
-      "ts": "2026-11-06T16:36:46.629789+00:00"
+      "ok": 0,
+      "errors": {
+        "__stage__": "The read operation timed out"
+      },
+      "ts": "2026-11-07T01:46:29.625301+00:00"
     },
     "us_universe": {
       "ok": 952,
       "stock_count": 952,
       "sector_count": 76,
       "latest_date": "2026-11-06",
-      "ts": "2026-11-06T16:37:54.436652+00:00"
+      "ts": "2026-11-07T01:47:21.896481+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 303,
-    "total": 329
+    "discovered_kept": 309,
+    "total": 335
   }
 }

@@ -1,7 +1,7 @@
 {
   "hbm": {
     "tightness_score": 25,
-    "signal_count_90d": 3,
+    "signal_count_90d": 4,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -12,7 +12,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "foundry": {
     "tightness_score": 41,
@@ -27,7 +27,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "packaging": {
     "tightness_score": 8,
@@ -40,11 +40,11 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "wfe": {
     "tightness_score": 13,
-    "signal_count_90d": 7,
+    "signal_count_90d": 6,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -53,7 +53,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "gpu": {
     "tightness_score": 52,
@@ -68,7 +68,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "networking": {
     "tightness_score": 21,
@@ -81,11 +81,11 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "optics": {
     "tightness_score": 55,
-    "signal_count_90d": 17,
+    "signal_count_90d": 15,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
@@ -96,7 +96,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "switches": {
     "tightness_score": 47,
@@ -111,7 +111,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "power": {
     "tightness_score": 37,
@@ -124,20 +124,20 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "cooling": {
-    "tightness_score": 11,
-    "signal_count_90d": 6,
+    "tightness_score": 16,
+    "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.4,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "hyperscalers": {
     "tightness_score": 27,
@@ -150,11 +150,11 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "neoclouds": {
     "tightness_score": 3,
-    "signal_count_90d": 2,
+    "signal_count_90d": 1,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -163,11 +163,11 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "software": {
     "tightness_score": 19,
-    "signal_count_90d": 9,
+    "signal_count_90d": 8,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
@@ -176,20 +176,20 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "eda": {
-    "tightness_score": 13,
-    "signal_count_90d": 7,
+    "tightness_score": 8,
+    "signal_count_90d": 5,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.333,
+      "density_pct": 0.2,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -202,6 +202,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-08T15:46:21.999829+00:00"
+    "updated_at": "2026-11-09T01:33:24.641118+00:00"
   }
 }

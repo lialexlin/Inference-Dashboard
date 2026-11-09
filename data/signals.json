@@ -1,19 +1,30 @@
 [
   {
-    "id": "rss-3f32f6e357662133",
+    "id": "rss-8761f959726ee190",
+    "date": "2026-11-08",
+    "source": "ServeTheHome",
+    "source_type": "news",
+    "headline": "Dell PowerEdge R770AP Review One Fast Intel Xeon 6 Server",
+    "quote": "Today we are taking a look at Dell's PowerEdge R770AP. The 2U server goes all-in on performance with a dual-socket Xeon 6 setup and 24 channels of DDR5 memory The post Dell PowerEdge R770AP Review One Fast Intel Xeon 6 Server appeared first on ServeTheHome .",
+    "url": "https://www.servethehome.com/dell-poweredge-r770ap-review-one-fast-intel-xeon-6-server/",
+    "layer_ids": [
+      "hbm"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-1efb2a4ba5fcb3a5",
     "date": "2026-11-08",
     "source": "SemiWiki",
     "source_type": "analyst",
-    "headline": "CEO Interview with Jun Yuan of Arcas-Tech",
-    "quote": "JUN YUAN BIO ◆Engineer for chip design, simulation, and P&R at AMD; Senior Engineer for chip verification (emulation, equivalence checking, formal verification) at Motorola since 1992. ◆Held R&D​ and technical management roles in formal verification EDA​ at Verplex, Jasper, and Cadence​ since 2003. ◆Founded Arcas-tech… Read More The post CEO Interview with Jun Yuan of Arcas-Tech appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/ceo-interviews/375765-ceo-interview-with-jun-yuan-of-arcas-tech/",
+    "headline": "CEO Interview With Trey Closson of Amplio",
+    "quote": "Trey Closson is the Co-Founder and CEO of Amplio, an AI-powered industrial asset recovery company helping manufacturers recover value from surplus equipment and inventory. With over a decade of experience in global logistics, supply chain strategy, and operations, Trey previously led international logistics at Georgia-Pacific… Read More The post CEO Interview With Trey Closson of Amplio appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/ceo-interviews/375744-ceo-interview-with-trey-closson-of-amplio/",
     "layer_ids": [
-      "eda",
-      "gpu"
+      "cooling"
     ],
-    "tickers": [
-      "AMD"
-    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -56,23 +67,6 @@
       "hyperscalers"
     ],
     "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ea82608bfcad3c9c",
-    "date": "2026-11-06",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "ChipNexus Brings Agentic AI into Established Analog Design Flows",
-    "quote": "ChipNexus has introduced its NEX Analog Agent, bringing conversational automation to analog engineering workflows built around Cadence Virtuoso, Spectre simulation and Siemens Calibre physical verification. Available now, the software operates with customers’ installed tools, licenses and process design kits, giving… Read More The post ChipNexus Brings Agentic AI into Established Analog Design Flows appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/chipnexus/375471-chipnexus-brings-agentic-ai-into-established-analog-design-flows/",
-    "layer_ids": [
-      "eda",
-      "software"
-    ],
-    "tickers": [
-      "NOW"
-    ],
     "arch_risk": false
   },
   {
@@ -435,20 +429,6 @@
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaVpnV0xUc2NSZ0xJaXdtVzNhWWhrSzdncjFlUXB3YlViSFFCekFFeXRTOHlTWWQwckhGam9HMjhKYnRHelYyMXdwd01Mb05TSk9acHBZQ1I5NUpWeDZiMUxBQ0lTRVoxRlJ3MEpuVWIzbWVnYk9KcXRpU0FuNnhTRzQzX0NvNm1idEVyN3hXZEs0R1plVjZIZ2pB?oc=5",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-c36c54e6a09a1c73",
-    "date": "2026-11-02",
-    "source": "ServeTheHome",
-    "source_type": "news",
-    "headline": "Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon",
-    "quote": "Marvell announced its intention to acquire Lumentum in a $115B acquisition to further optical connectivity in the AI era The post Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon appeared first on ServeTheHome .",
-    "url": "https://www.servethehome.com/marvell-to-acquire-lumentum-115-billion-optical-ai-connectivity/",
-    "layer_ids": [
-      "optics"
     ],
     "tickers": [],
     "arch_risk": false
@@ -1188,6 +1168,21 @@
     "arch_risk": false
   },
   {
+    "id": "rss-2cd5f9d0f5047866",
+    "date": "2026-10-16",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC excludes CPUs from AI accelerator growth forecast - digitimes",
+    "quote": "TSMC excludes CPUs from AI accelerator growth forecast digitimes",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjE4a2Q3X3lhTV96TnJiR2d5RHJNa1RoMTFxcmh1ZTBDNFZnUHF6SXVZckYwOTVnYjVWdEhmM3VBbjJQM1BpYmU1b19CVDV0T0FYOW1DemFJeUF4cXVXWDMwV1pWNDA3b3VKVzZvUVZQOWhLWUhSR2JXUUlCWlNCMzR2YUlHd2g0YnVWQk1ld3Jsdw?oc=5",
+    "layer_ids": [
+      "gpu",
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-6e4825b413901be5",
     "date": "2026-10-15",
     "source": "DigiTimes",
@@ -1345,23 +1340,6 @@
     ],
     "tickers": [
       "ORCL"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-d38964af03a8dad9",
-    "date": "2026-09-08",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
-    "quote": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
-    "layer_ids": [
-      "wfe",
-      "foundry"
-    ],
-    "tickers": [
-      "ASML"
     ],
     "arch_risk": false
   },
@@ -3069,20 +3047,6 @@
       "speaker": "Antonio Neri",
       "role": "Executives"
     },
-    "arch_risk": false
-  },
-  {
-    "id": "rss-bc4b8c8862e77b0d",
-    "date": "2026-06-11",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC's May revenue grows 30% as AI demand and tight capacity support outlook - digitimes",
-    "quote": "TSMC's May revenue grows 30% as AI demand and tight capacity support outlook digitimes",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU2oxU0N2a1gyR0FZRDVjdHpFTWRkWlBWY1ptM3YwUkE1UjYtaUZDVjQyU3FhUTgtSkhSQkpIOVkxbHU1YWdZNm10OGtkb19veFI3YnJScGxtRmpIdHQ5N25rUlViMFA0TGlzejgxaXZmc0d3aEZjS3NWQkVuR2dfYzhvVV9sTFp5bXF2cHJmdGE3ZVRmSjMtbkZxUXFYMHlCX05NQUFGSVpRWFE?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -6310,20 +6274,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-577ca2a270a88436",
-    "date": "2026-03-02",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Arizona in the black: a milestone for TSMC—and Washington - digitimes",
-    "quote": "Arizona in the black: a milestone for TSMC—and Washington digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbkFXeGtYNTFhQjh1aGtmTVFua0ZpWmdob2lBYk00RXFnZi03cVhUMVR1WUFVNS1CdXJjVDNaMk03M0sySklXenFES3NnSWhzWkkzS0tyTF9HY01SSVNGRmItUFp0TFVPNjQwMWI2aHN2dGhoMDY3UHBWbm14WXZia0tkaXRsdw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "intel-emib-cowos",
     "date": "2026-02-15",
     "source": "Tom's Hardware",
@@ -6694,20 +6644,6 @@
       "COHR",
       "FN"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ef69b4f8d5f27888",
-    "date": "2025-03-12",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Taiwan's divided government puts TSMC's US$100 billion US expansion under scrutiny - digitimes",
-    "quote": "Taiwan's divided government puts TSMC's US$100 billion US expansion under scrutiny digitimes",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVRybUhTa0ptcElvQjFZaUhwdXM3RGFHanV2UkRGdEVDRmF2SXhiWjYyMWtyaWh4eU1mQzhoR08xUm9uZ0s5c1kyeEpHTTRQMC1obGFpU09haDRDS3ktdERENGg4c1o5VmhEQ0RvTkNadUhiTXozNWlic09TQ2hSRm9POWwxY2FNQjQ5ZV9lWUxpQmVxNk9wMFh3?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {

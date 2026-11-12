@@ -1,5 +1,19 @@
 [
   {
+    "id": "rss-c232c4755d5ef9b5",
+    "date": "2026-11-12",
+    "source": "The Next Platform",
+    "source_type": "analyst",
+    "headline": "CoreWeave Is Accelerating To Escape Velocity Thanks To GPU Shortages",
+    "quote": "",
+    "url": "https://www.nextplatform.com/cloud/2026/11/12/coreweave-is-accelerating-to-escape-velocity-thanks-to-gpu-shortages/5309222",
+    "layer_ids": [
+      "neoclouds"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "rss-3ec595f7c4271a7e",
     "date": "2026-11-11",
     "source": "DigiTimes",
@@ -41,6 +55,20 @@
     "layer_ids": [
       "hbm",
       "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-605b6fd4dcdf6fa5",
+    "date": "2026-11-11",
+    "source": "Utility Dive",
+    "source_type": "industry",
+    "headline": "Constellation pursues hybrid capacity contracts alongside nuclear uprates",
+    "quote": "The offering gives Constellation “a new way to pair the existing fleet with incremental capacity” by adding batteries, generation and demand response, CEO Joe Dominguez said.",
+    "url": "https://www.utilitydive.com/news/constellation-pursues-hybrid-nuclearcapacity-contracts-alongside-uprates/874408/",
+    "layer_ids": [
+      "power"
     ],
     "tickers": [],
     "arch_risk": false
@@ -119,17 +147,21 @@
     "arch_risk": false
   },
   {
-    "id": "rss-90aaa791979900d5",
-    "date": "2026-11-10",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "CPO’s Next Challenge: Turning Optical Performance into Manufacturable Systems",
-    "quote": "Why integration boundaries, assembly strategies, and manufacturing yield must be engineered together The Shift from Optical Performance to Manufacturing Scale Co-packaged optics (CPO) is moving beyond laboratory demonstrations toward commercial deployment in AI infrastructure. As switch bandwidth continues to increase,… Read More The post CPO’s Next Challenge: Turning Optical Performance into Manufacturable Systems appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/3dic/376055-cpos-next-challenge-turning-optical-performance-into-manufacturable-systems/",
+    "id": "rss-41b5ec5454e1c996",
+    "date": "2026-11-09",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Samsung, SK Hynix race to secure EUV tools as ASML warns of shortages - digitimes",
+    "quote": "Samsung, SK Hynix race to secure EUV tools as ASML warns of shortages digitimes",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQmVZa18zdjFCR0ZPZjVUUXhDTVhERXY0NDNSYmNZam5vOUpkSk9mTU9ob1VYU1N4MGdoUWJTRC1TUmktUXc0WndIdTVKZFR0bU43SXR0TThMYW5QYUZQRUp2UnA5QkpmTmRoTFVHTUp6dFV6TzdKYXVub2VfNkNMOWlFODBhTHZmWGx3UXNwcw?oc=5",
     "layer_ids": [
-      "optics"
+      "wfe",
+      "hbm"
     ],
-    "tickers": [],
+    "tickers": [
+      "000660.KS",
+      "ASML"
+    ],
     "arch_risk": false
   },
   {
@@ -145,24 +177,6 @@
     ],
     "tickers": [
       "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-41b5ec5454e1c996",
-    "date": "2026-11-09",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Samsung, SK Hynix race to secure EUV tools as ASML warns of shortages - digitimes",
-    "quote": "Samsung, SK Hynix race to secure EUV tools as ASML warns of shortages digitimes",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQmVZa18zdjFCR0ZPZjVUUXhDTVhERXY0NDNSYmNZam5vOUpkSk9mTU9ob1VYU1N4MGdoUWJTRC1TUmktUXc0WndIdTVKZFR0bU43SXR0TThMYW5QYUZQRUp2UnA5QkpmTmRoTFVHTUp6dFV6TzdKYXVub2VfNkNMOWlFODBhTHZmWGx3UXNwcw?oc=5",
-    "layer_ids": [
-      "wfe",
-      "hbm"
-    ],
-    "tickers": [
-      "000660.KS",
-      "ASML"
     ],
     "arch_risk": false
   },
@@ -637,6 +651,20 @@
     "tickers": [
       "PLTR"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-55be05f3151fd6da",
+    "date": "2026-11-02",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Rebuilding the American edge: How TSMC is driving US manufacturing and economic opportunity - digitimes",
+    "quote": "Rebuilding the American edge: How TSMC is driving US manufacturing and economic opportunity digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbllyZFBJUG1iem81UlUzenBjdmd4NVpwMlRXT0UzUENaTHhWdTg4RHd1OFduZGhnRTJCd1VNby1lWTJUSGMydXFRYS1qYUpIZDBkck1PZW1mUUpEYVY1cXZsQlhUYzBVQzhrY1FhNGN3M0FzZ1lNNUNDMnhHWVMwMFlzd0J3U1NTOHNVRjZNQWpyOEVZWC1iaThwQmlWcmM?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1360,35 +1388,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-fad07f461e58d65f",
-    "date": "2026-10-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to US$4.1 billion in aid - digitimes",
-    "quote": "TSMC's 3nm Kumamoto plan wins Japan's approval, qualifying for up to US$4.1 billion in aid digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSTByOUp2RWRmbmRiUGJIakc0SXJfUzhzLTk5akJBc2VTQmFUZGhlWVVyQjdScURraDBxOXBJYWcwazFEQUxUT1ZyM2F3QVJxZ0NtUHEtd0ZZbGtVM3dqQ3pBQjVkY3FFNUtGQnpoM05UWTZONF82NDdUVTM5bWU5RjV0d0ZBdw?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-2cd5f9d0f5047866",
-    "date": "2026-10-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC excludes CPUs from AI accelerator growth forecast - digitimes",
-    "quote": "TSMC excludes CPUs from AI accelerator growth forecast digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjE4a2Q3X3lhTV96TnJiR2d5RHJNa1RoMTFxcmh1ZTBDNFZnUHF6SXVZckYwOTVnYjVWdEhmM3VBbjJQM1BpYmU1b19CVDV0T0FYOW1DemFJeUF4cXVXWDMwV1pWNDA3b3VKVzZvUVZQOWhLWUhSR2JXUUlCWlNCMzR2YUlHd2g0YnVWQk1ld3Jsdw?oc=5",
-    "layer_ids": [
-      "gpu",
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-6e4825b413901be5",
     "date": "2026-10-15",
     "source": "DigiTimes",
@@ -1398,34 +1397,6 @@
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMlNsUG41RWRYNzFCcG1SZnBOblhubjhhb1pGazQzcnE2T2hjVTk3bFZjbmRBLWEtVjBvR2tvRGJtbTBQbFc3eUcwcjhsVWJhakZiUG94a3FmMlZ3NjRGN0pPQVI1Tmppb3ZhRk0yc2RoV19va1Z3SWpHSFEwcm56TVJzXzd0TUlVZnVmaWthckdzNjByUi1R?oc=5",
     "layer_ids": [
       "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-37c12c8b50c5ed5d",
-    "date": "2026-10-14",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC, Intel, Samsung seek to break AI chipmaking's next barrier through early technology integration - digitimes",
-    "quote": "TSMC, Intel, Samsung seek to break AI chipmaking's next barrier through early technology integration digitimes",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMzJMNlhHc0ZadGd0QzdNVkRXUWVpdTc5OHlHVjB4U1BfZkFqWFA0dnhzaE1PSFJ1VUVlN2tfNGlsMHY1em13YzdFMnVIMlFQcjF3QTJwVXlQcENfUG1uMDlXeHl6N1VUeU5RZVhvMTB5NG9MMElma0hfbUR0UC1pWHpNQnpIZmRsSi1yLTNCUVdlYTEybjdV?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-b226247e07d312a1",
-    "date": "2026-10-14",
-    "source": "The Next Platform",
-    "source_type": "analyst",
-    "headline": "Cisco Turns Its Attention To The Control Layers Of Its Quantum Network",
-    "quote": "",
-    "url": "https://www.nextplatform.com/connect/2026/10/14/cisco-turns-its-attention-to-the-control-layers-of-its-quantum-network/5302977",
-    "layer_ids": [
-      "switches"
     ],
     "tickers": [],
     "arch_risk": false

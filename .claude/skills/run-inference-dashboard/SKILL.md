@@ -1,6 +1,6 @@
 ---
 name: run-inference-dashboard
-description: Run, serve, launch, screenshot, or smoke-test the Inference Stack Dashboard. Use when asked to start the dashboard, verify the site renders, confirm a front-end change works in a real browser, screenshot the layer/movers pages, or check that the daily data refresh didn't break any page. Drives headless Chrome over every page and asserts each rendered its data.
+description: Run, serve, launch, screenshot, or smoke-test the Inference Stack Dashboard. Use when asked to start the dashboard, verify the site renders, confirm a front-end change works in a real browser, screenshot the layer/movers pages, or check that the scheduled data refresh didn't break any page. Drives headless Chrome over every page and asserts each rendered its data.
 ---
 
 # Run the Inference Stack Dashboard
@@ -13,7 +13,7 @@ Every page renders client-side: the browser fetches `data/*.json` and builds the
 uv run .claude/skills/run-inference-dashboard/smoke.py
 ```
 
-Serves the repo on an ephemeral port, drives headless Chrome through every page, waits for post-render markers, asserts each page rendered its data, does one real interaction, screenshots everything, exits non-zero on any failure. Takes about a minute. Needs `uv` and Google Chrome in `/Applications`; nothing else — the driver declares Playwright in a PEP 723 header and drives system Chrome (`channel="chrome"`), so there is no `playwright install` step and nothing lands in `pyproject.toml`.
+Serves the repo on an ephemeral port, drives headless Chrome through every page, waits for post-render markers, asserts each page rendered its data, does one real interaction, screenshots everything, exits non-zero on any failure. Takes about a minute. Needs `uv` and an installed Google Chrome; nothing else — the driver declares Playwright in a PEP 723 header and drives system Chrome (`channel="chrome"`), so there is no `playwright install` step and nothing lands in `pyproject.toml`.
 
 Screenshots go to `screenshots/` beside the driver (gitignored, `*.FAIL.png` on error). **Look at them.** A page can pass every assertion and still look wrong.
 

@@ -1,12 +1,12 @@
 #!/bin/bash
 # Double-click this file to refresh the data (prices + RSS + EDGAR).
-# Takes ~30 seconds. Window will close itself when done.
+# Takes about five minutes.
 
 set -e
 cd "$(dirname "$0")"
 
 echo ""
-echo "  Refreshing data — this takes ~30 seconds..."
+echo "  Refreshing data — this takes about five minutes..."
 echo ""
 
 doppler run -- uv run python -m jobs.refresh

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Double-click this file to refresh the data (prices + RSS + EDGAR).
+# Double-click this file to refresh all the dashboard's data.
 # Takes about five minutes.
 
 set -e

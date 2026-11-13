@@ -17,7 +17,7 @@ Pipeline: `sources/* -> SQLite cache -> transform.py (tag) -> data/*.json (atomi
 3. Seed with `--refresh-ciq-mapping`. On failure add `{ticker: companyId}` to `CIQ_OVERRIDES`, or `None` to skip; find the id with `find_company` in the `sp-capiq` skill (axiom-plugins `lab` plugin).
 4. Refresh.
 
-**A curated signal:** `SIGNALS` in `jobs/seed.py`. The `id` must not start with `rss-` or `edgar-` — reserved for discovered entries, and the prefix check is what preserves curated signals across refreshes.
+**A curated signal:** `SIGNALS` in `jobs/seed.py`. The `id` must not start with `rss-`, `edgar-` or `transcript-` (`DISCOVERED_PREFIXES` in `jobs/refresh.py`) — reserved for discovered entries, and the prefix check is what preserves curated signals across refreshes.
 
 **An RSS source:** a tuple in `FEEDS` in `jobs/sources/rss.py`.
 
@@ -71,4 +71,4 @@ The numbers serve a bottleneck-rotation thesis: is inference demand actually gro
 
 ## Pushing after the cloud refresh
 
-`.github/workflows/refresh.yml` runs the same `jobs.refresh` daily and commits `data/` as `inference-dashboard-bot`. Pushing from the laptop after the bot has pushed the same day rejects, and `git pull --rebase` conflicts on `data/meta.json` and `data/prices.json`. Local data is normally the superset, especially after a local CIQ run: `git checkout --theirs data/meta.json data/prices.json`, then `git rebase --continue`.
+`.github/workflows/refresh.yml` runs the same `jobs.refresh` on the schedule in the workflow's `cron` entries and commits `data/` as `inference-dashboard-bot`. Pushing from the laptop after the bot has pushed the same day rejects, and `git pull --rebase` conflicts on `data/meta.json` and `data/prices.json`. Local data is normally the superset, especially after a local CIQ run: `git checkout --theirs data/meta.json data/prices.json`, then `git rebase --continue`.

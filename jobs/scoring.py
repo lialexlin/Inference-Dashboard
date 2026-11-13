@@ -139,7 +139,7 @@ def _components_business(
 
     # 1. Revenue YoY growth
     rev_yoy = ciq.get("revenue_yoy")
-    z = _z(layer_values["revenue_yoy"], rev_yoy)
+    z = _z(layer_values.get("revenue_yoy", []), rev_yoy)
     if z is not None:
         out["biz_revenue_yoy_z"] = _clamp(z)
 
@@ -147,13 +147,13 @@ def _components_business(
     cagr3 = ciq.get("revenue_cagr_3y")
     if rev_yoy is not None and cagr3 is not None:
         accel = rev_yoy - cagr3
-        z = _z(layer_values["accel"], accel)
+        z = _z(layer_values.get("accel", []), accel)
         if z is not None:
             out["biz_accel_z"] = _clamp(z)
 
     # 3. EBITDA margin
     ebitda_m = ciq.get("ebitda_margin")
-    z = _z(layer_values["ebitda_margin"], ebitda_m)
+    z = _z(layer_values.get("ebitda_margin", []), ebitda_m)
     if z is not None:
         out["biz_margin_z"] = _clamp(z)
 

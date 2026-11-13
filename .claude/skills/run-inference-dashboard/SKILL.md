@@ -23,7 +23,7 @@ To cover a different page or ticker, edit `PAGES` at the top of `smoke.py`. The 
 
 ## Human path
 
-`uv run python -m http.server 8000`, then open the port. Editing JS or CSS: append `?v=N` or hard-reload, the static server sends no cache-busting headers.
+Alex double-clicks `launch.command` (macOS) or `launch.cmd` (Windows): each finds a free port, opens the browser and stops with the window. `refresh.command` / `refresh.cmd` run a full refresh under Doppler. By hand: `uv run python -m http.server 8000`, then open the port. Editing JS or CSS: append `?v=N` or hard-reload, the static server sends no cache-busting headers.
 
 ## Gotchas
 

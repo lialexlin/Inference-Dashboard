@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-11-13T02:28:01.824396+00:00",
+  "last_refresh_at": "2026-11-13T08:20:29.971394+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-11-13T02:28:57.395946+00:00"
+      "ts": "2026-11-13T08:21:37.871822+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,47 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-11-13T02:29:01.377330+00:00"
+      "ts": "2026-11-13T08:21:44.183231+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 0,
       "errors": {},
-      "ts": "2026-11-13T02:29:09.891976+00:00"
+      "ts": "2026-11-13T08:21:56.864745+00:00"
     },
     "ciq": {
-      "ok": 0,
-      "history_tickers": 0,
-      "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [04d1c9e6-6260-4c82-a9c1-e1f6ea651fd3], code: 390100"
-      },
+      "ok": 62,
+      "history_tickers": 61,
+      "errors": {},
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-11-13T02:28:03.131762+00:00"
+      "ts": "2026-11-13T08:20:40.895868+00:00"
     },
     "scoring": {
-      "ok": 0,
-      "errors": {
-        "__stage__": "'revenue_yoy'"
+      "ok": 63,
+      "quadrant_counts": {
+        "fair": 35,
+        "avoid": 8,
+        "priced-in": 9,
+        "value-trap": 8,
+        "underappreciated": 2,
+        "unscored": 1
       },
-      "ts": "2026-11-13T02:31:27.740037+00:00"
+      "manual_estimates_coverage": 0,
+      "manual_estimates_total": 63,
+      "component_coverage": {
+        "biz_revenue_yoy_z": 61,
+        "biz_accel_z": 61,
+        "biz_margin_z": 61,
+        "biz_signal_density_z": 63,
+        "val_vs_own_pe_z": 57,
+        "val_vs_peer_pe_z": 61,
+        "val_vs_peer_ev_z": 60,
+        "val_price_run_z": 62
+      },
+      "tickers_scored": 63,
+      "ts": "2026-11-13T08:22:01.093572+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -59,21 +75,21 @@
         },
         {
           "layer_id": "foundry",
-          "tightness_score": 52
+          "tightness_score": 55
         },
         {
           "layer_id": "gpu",
           "tightness_score": 52
         }
       ],
-      "ts": "2026-11-13T02:31:27.730431+00:00"
+      "ts": "2026-11-13T08:22:01.039659+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 92,
       "latest_date": "2026-11-12",
       "latest_total_tokens_b": 164990.478,
-      "ts": "2026-11-13T02:31:27.723256+00:00"
+      "ts": "2026-11-13T08:22:01.023044+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -84,7 +100,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-11-13T02:31:27.743285+00:00"
+      "ts": "2026-11-13T08:22:01.097838+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -172,13 +188,13 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-11-13T02:31:26.939857+00:00"
+      "ts": "2026-11-13T08:21:58.134181+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-11-13T02:31:27.728263+00:00"
+      "ts": "2026-11-13T08:22:01.033308+00:00"
     },
     "tw_universe": {
       "ok": 1957,
@@ -197,7 +213,7 @@
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 305,
-    "total": 331
+    "discovered_kept": 306,
+    "total": 332
   }
 }

@@ -8,10 +8,10 @@
 #   CIQ → prices → RSS → EDGAR → transcripts → narrative → transform/tag
 #   → bottleneck → openrouter → scoring → exit_triggers → tw_universe → us_universe
 #
-# CIQ stage needs SF_ACCOUNT/SF_USER/SF_PASS as repo secrets
-# (Settings → Secrets and variables → Actions). Without them the stage
-# logs a connect error and preserves prior ciq.* blocks; other stages
-# still run.
+# CIQ stage needs SF_ACCOUNT/SF_USER/SF_PASS as repo secrets, synced from
+# Doppler inference-dashboard/prd. Without them, or with stale ones, the
+# stage keeps the prior ciq.* blocks, the other stages still run, and the
+# final step turns the run red.
 #
 # Runs twice every day (incl. weekends), both times the full chain:
 #   • 09:00 UTC (17:00 Taipei) — after TWSE+TPEx close & post, so the
@@ -20,8 +20,8 @@
 #   • 22:00 UTC (~6pm ET) — after US market close, so yfinance has the
 #     US day's closing prints.
 # Off-session stages (CIQ/RSS/EDGAR/transcripts) simply re-store prior
-# values on the run where their market is shut — harmless; every stage
-# preserves prior output on failure.
+# values on the run where their market is shut. Every stage preserves its
+# prior output on failure; a real failure still ends the run red.
 #
 # Manual run: Actions → refresh-data → Run workflow.
 
@@ -39,8 +39,8 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
@@ -63,3 +63,11 @@ jobs:
             git commit -m "Data refresh ($(date -u '+%Y-%m-%d %H:%MZ'))"
             git push
           fi
+      # Every stage swallows its own failure so the others still publish, which
+      # once hid a broken Capital IQ login and a crashing scoring stage behind
+      # four months of green runs. jobs.refresh records the stages that failed
+      # this run in meta.json (see broken_stages); data is committed above
+      # either way, and this turns the run red so GitHub's failure email
+      # reaches Alex.
+      - name: Fail on a broken stage
+        run: python -m jobs.refresh --check

@@ -55,6 +55,47 @@ def _write_json(path: Path, data) -> None:
     tmp.replace(path)
 
 
+def prior_ciq_blocks(prev_fund: dict, keep: set[str]) -> dict[str, dict]:
+    """The `ciq` sub-blocks from a previous fundamentals.json, limited to
+    `keep` so a ticker dropped from PLAYERS or unmapped from CIQ loses its
+    block instead of carrying it forever."""
+    return {t: v["ciq"] for t, v in prev_fund.items()
+            if t in keep and isinstance(v, dict) and v.get("ciq")}
+
+
+# Stages whose upstream blips often and recovers by the next run: one failure
+# is noise, two in a row is an outage.
+FLAKY_STAGES = {"tw_universe", "us_universe"}
+
+
+def _stage_broken(src) -> dict | None:
+    """The errors that mark a stage as failed, or None when it is healthy:
+    a stage-level error (key starting `__`), or a run where every item failed."""
+    if not isinstance(src, dict) or not isinstance(src.get("errors"), dict):
+        return None
+    errs = src["errors"]
+    stage = {k: v for k, v in errs.items() if k.startswith("__")}
+    if stage:
+        return stage
+    if src.get("ok") == 0 and errs:
+        return {"__all_items__": f"{len(errs)} failed, 0 ok"}
+    return None
+
+
+def broken_stages(sources: dict, prev_sources: dict, started: str) -> dict[str, dict]:
+    """Stages that failed in the run that started at `started` (ISO UTC).
+    Blocks carried forward from earlier runs are ignored, and a flaky stage
+    counts only when it also failed on the previous run."""
+    out = {}
+    for name, src in sources.items():
+        if not isinstance(src, dict) or (src.get("ts") or "") < started:
+            continue
+        errs = _stage_broken(src)
+        if errs and (name not in FLAKY_STAGES or _stage_broken(prev_sources.get(name))):
+            out[name] = errs
+    return out
+
+
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--skip-prices", action="store_true")
@@ -71,7 +112,15 @@ def main() -> int:
     p.add_argument("--skip-us-universe", action="store_true")
     p.add_argument("--tickers", help="comma-separated ticker subset for prices/edgar/ciq (debug)")
     p.add_argument("-v", "--verbose", action="store_true")
+    p.add_argument("--check", action="store_true",
+                   help="exit 1 if the last refresh recorded a broken stage; fetch nothing")
     args = p.parse_args()
+
+    if args.check:
+        broken = _load_json(DATA / "meta.json", {}).get("broken_stages") or {}
+        for name, errs in broken.items():
+            print(f"::error title={name} stage failed::{errs}")
+        return 1 if broken else 0
 
     logging.basicConfig(
         level=logging.DEBUG if args.verbose else logging.INFO,
@@ -99,8 +148,9 @@ def main() -> int:
     # Preserve previous-run source blocks so partial refreshes (--skip-*)
     # don't blank out unrelated stats on the about page.
     prev_meta = _load_json(DATA / "meta.json", {})
+    started = datetime.now(timezone.utc).isoformat()
     meta = {
-        "last_refresh_at": datetime.now(timezone.utc).isoformat(),
+        "last_refresh_at": started,
         "version": "0.1.0",
         "sources": dict(prev_meta.get("sources", {})),
     }
@@ -110,11 +160,15 @@ def main() -> int:
     # when available; yfinance fills the forward-data gap (forwardPE, target
     # prices) that CIQ's Xpressfeed subscription doesn't include.
     prev_fund = _load_json(DATA / "fundamentals.json", {})
-    ciq_blocks: dict[str, dict] = {}
+    ciq_mapping = _load_json(DATA / "ciq_mapping.json", {})
+    all_tickers = [p["ticker"] for p in players]
+    ciq_tracked = {t for t in all_tickers
+                   if (ciq_mapping.get(t) or {}).get("company_id") is not None}
+    # Start from the prior run's CIQ blocks; a successful fetch layers over them.
+    ciq_blocks: dict[str, dict] = prior_ciq_blocks(prev_fund, ciq_tracked)
     ciq_history: dict[str, dict] = _load_json(DATA / "multiples_history.json", {})
 
     if not args.skip_ciq:
-        ciq_mapping = _load_json(DATA / "ciq_mapping.json", {})
         if not ciq_mapping:
             log.warning("data/ciq_mapping.json missing — run `python -m jobs.seed --refresh-ciq-mapping` to enable CIQ stage. Skipping.")
         else:
@@ -126,7 +180,11 @@ def main() -> int:
             log.info("Fetching CIQ for %d tickers (%d resolved) ...", len(tickers), len(cid_map))
             try:
                 cr = ciq_src.fetch(list(cid_map.keys()), cid_map, currency_map)
-                ciq_blocks = cr.snapshot
+                # fetch() swallows connect and per-ticker failures into
+                # cr.errors, so a bad login returns an empty snapshot. Layer
+                # fresh blocks over the prior ones so a failed or partial
+                # fetch never wipes what the last good run stored.
+                ciq_blocks = {**ciq_blocks, **cr.snapshot}
                 # Merge new history into prior history (preserve unrefreshed tickers)
                 ciq_history.update(cr.history)
                 _write_json(DATA / "multiples_history.json", ciq_history)
@@ -146,21 +204,23 @@ def main() -> int:
                     "errors": {"__stage__": str(e)},
                     "ts": datetime.now(timezone.utc).isoformat(),
                 }
-                # Re-use prior CIQ blocks so the frontend doesn't lose data.
-                ciq_blocks = {t: prev_fund[t]["ciq"] for t in prev_fund
-                              if isinstance(prev_fund[t], dict) and prev_fund[t].get("ciq")}
     else:
         log.info("Skipping CIQ.")
-        ciq_blocks = {t: prev_fund[t]["ciq"] for t in prev_fund
-                      if isinstance(prev_fund[t], dict) and prev_fund[t].get("ciq")}
 
     # Prices + fundamentals -----------------------------------------------
     if not args.skip_prices:
         log.info("Fetching prices for %d tickers ...", len(tickers))
         pr = prices_src.fetch(tickers)
-        _write_json(DATA / "prices.json", pr.prices)
+        # fetch() records failures per ticker, so a blocked Yahoo returns
+        # nothing. Keep each tracked ticker's prior entry unless this run
+        # refreshed it, as the CIQ stage does.
+        prev_prices = _load_json(DATA / "prices.json", {})
+        _write_json(DATA / "prices.json",
+                    {**{t: prev_prices[t] for t in all_tickers if t in prev_prices}, **pr.prices})
         # Merge yfinance fundamentals with CIQ blocks under a `ciq` sub-key.
-        merged_fund = dict(pr.fundamentals)
+        merged_fund = {t: {k: v for k, v in prev_fund[t].items() if k != "ciq"}
+                       for t in all_tickers if isinstance(prev_fund.get(t), dict)}
+        merged_fund.update(pr.fundamentals)
         for t, block in ciq_blocks.items():
             merged_fund.setdefault(t, {})["ciq"] = block
         _write_json(DATA / "fundamentals.json", merged_fund)
@@ -173,10 +233,12 @@ def main() -> int:
     else:
         log.info("Skipping prices.")
         # Even when prices skipped, refresh the ciq-merged fundamentals if CIQ ran.
-        if ciq_blocks:
-            for t, block in ciq_blocks.items():
-                prev_fund.setdefault(t, {})["ciq"] = block
-            _write_json(DATA / "fundamentals.json", prev_fund)
+        for t in list(prev_fund):
+            if isinstance(prev_fund[t], dict) and t not in ciq_blocks:
+                prev_fund[t].pop("ciq", None)
+        for t, block in ciq_blocks.items():
+            prev_fund.setdefault(t, {})["ciq"] = block
+        _write_json(DATA / "fundamentals.json", prev_fund)
 
     # RSS feeds ----------------------------------------------------------
     discovered: list[dict] = []
@@ -597,7 +659,12 @@ def main() -> int:
     else:
         log.info("Skipping US Universe.")
 
+    broken = broken_stages(meta["sources"], prev_meta.get("sources", {}), started)
+    if broken:
+        meta["broken_stages"] = broken
     _write_json(DATA / "meta.json", meta)
+    for name, errs in broken.items():
+        log.error("Stage %s failed: %s", name, errs)
 
     log.info("Refresh done. Signals: %d (%d curated + %d discovered).", len(merged), len(curated_only), kept_count)
     return 0

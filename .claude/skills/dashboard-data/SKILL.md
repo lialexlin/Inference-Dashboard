@@ -25,6 +25,12 @@ Pipeline: `sources/* -> SQLite cache -> transform.py (tag) -> data/*.json (atomi
 
 Partial refreshes merge rather than overwrite: `refresh.py` reads the previous `meta.json` and `signals.json`, so a skipped or failed stage keeps that stage's prior output, and a CIQ failure preserves the prior `ciq.*` blocks. Writes go `.json.tmp` then rename, so the frontend never sees half-written state. The two universe stages run dead-last because they are the slowest and most network-fragile; a failed TW/US fetch must never block core data.
 
+## Tests and the red-run gate
+
+`uv run python -m unittest discover tests` pins the refresh contracts: a failed CIQ login or a blocked Yahoo keeps each tracked ticker's prior data, an untracked or unmapped ticker loses its CIQ block, scoring runs with no CIQ data, and the broken-stage rules. CI runs them on every pull request.
+
+Every stage swallows its own failure so the rest still publish. At the end `refresh.py` records in `meta.json` › `broken_stages` each stage that failed this run (an `errors` key starting `__`, or every item failed); the universe stages count only on a second failure in a row, since their upstreams blip and recover. Locally that prints `ERROR Stage ... failed` lines; in CI the workflow's last step (`python -m jobs.refresh --check`) turns the run red after the data commit. A red refresh run means read that step's annotations, not re-run it.
+
 ## Which source, and why
 
 | Field | Source | Why |
@@ -36,7 +42,7 @@ Partial refreshes merge rather than overwrite: `refresh.py` reads the previous `
 | Margins, growth, returns | Capital IQ | Pre-computed and globally consistent |
 | Revenue / EBITDA / NI in USD | Capital IQ | Reporting currency from the PLAYERS `country` field |
 
-CIQ creds come from Doppler `inference-dashboard/prd` locally (`doppler.yaml`; `refresh.command` runs under `doppler run`, a session here has them already); in CI they are repo secrets. Without them the stage logs `CIQ connect failed` and the run continues on prior values. Schema reference: the `sp-capiq` skill.
+CIQ creds come from Doppler `inference-dashboard/prd` locally (`doppler.yaml`; `refresh.command` runs under `doppler run`, a session here has them already); in CI they are repo secrets. Without them, or with stale ones, the stage logs `CIQ connect failed`, the run keeps the prior values and is recorded as a broken stage. Doppler is the source of truth for these: when CI's login fails, re-sync the three repo secrets from Doppler (`doppler secrets get SF_PASS --plain | gh secret set SF_PASS`, same for `SF_USER` and `SF_ACCOUNT`). Schema reference: the `sp-capiq` skill.
 
 ## Industry labels
 

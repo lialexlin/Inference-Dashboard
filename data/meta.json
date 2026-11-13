@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-11-12T17:17:28.037497+00:00",
+  "last_refresh_at": "2026-11-13T02:28:01.824396+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-11-12T17:18:11.255935+00:00"
+      "ts": "2026-11-13T02:28:57.395946+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,31 +24,31 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-11-12T17:18:15.105991+00:00"
+      "ts": "2026-11-13T02:29:01.377330+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 0,
       "errors": {},
-      "ts": "2026-11-12T17:18:23.020149+00:00"
+      "ts": "2026-11-13T02:29:09.891976+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [43b6cded-1bcb-4a75-b98e-31b49a7cfe3e], code: 390100"
+        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [04d1c9e6-6260-4c82-a9c1-e1f6ea651fd3], code: 390100"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-11-12T17:17:29.867570+00:00"
+      "ts": "2026-11-13T02:28:03.131762+00:00"
     },
     "scoring": {
       "ok": 0,
       "errors": {
         "__stage__": "'revenue_yoy'"
       },
-      "ts": "2026-11-12T17:20:39.020252+00:00"
+      "ts": "2026-11-13T02:31:27.740037+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -66,25 +66,25 @@
           "tightness_score": 52
         }
       ],
-      "ts": "2026-11-12T17:20:38.948458+00:00"
+      "ts": "2026-11-13T02:31:27.730431+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 91,
-      "latest_date": "2026-11-11",
-      "latest_total_tokens_b": 162057.546,
-      "ts": "2026-11-12T17:20:38.940183+00:00"
+      "daily_rows": 92,
+      "latest_date": "2026-11-12",
+      "latest_total_tokens_b": 164990.478,
+      "ts": "2026-11-13T02:31:27.723256+00:00"
     },
     "exit_triggers": {
       "ok": 1,
-      "overall": "red",
+      "overall": "amber",
       "states": {
-        "token_growth": "red",
+        "token_growth": "amber",
         "hyperscaler_capex": "green",
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-11-12T17:20:39.023351+00:00"
+      "ts": "2026-11-13T02:31:27.743285+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -159,7 +159,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-11-12T17:20:37.653003+00:00"
+      "ts": "2026-11-13T02:31:26.358338+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -172,32 +172,32 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-11-12T17:20:38.239713+00:00"
+      "ts": "2026-11-13T02:31:26.939857+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-11-12T17:20:38.946454+00:00"
+      "ts": "2026-11-13T02:31:27.728263+00:00"
     },
     "tw_universe": {
       "ok": 1957,
       "stock_count": 1957,
       "sector_count": 71,
       "latest_date": "2026-11-12",
-      "ts": "2026-11-12T17:21:48.300077+00:00"
+      "ts": "2026-11-13T02:32:49.282533+00:00"
     },
     "us_universe": {
       "ok": 972,
       "stock_count": 972,
       "sector_count": 76,
       "latest_date": "2026-11-12",
-      "ts": "2026-11-12T17:22:45.219627+00:00"
+      "ts": "2026-11-13T02:33:59.407100+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 306,
-    "total": 332
+    "discovered_kept": 305,
+    "total": 331
   }
 }

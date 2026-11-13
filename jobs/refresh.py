@@ -55,6 +55,12 @@ def _write_json(path: Path, data) -> None:
     tmp.replace(path)
 
 
+def prior_ciq_blocks(prev_fund: dict) -> dict[str, dict]:
+    """The `ciq` sub-blocks from a previous fundamentals.json, by ticker."""
+    return {t: v["ciq"] for t, v in prev_fund.items()
+            if isinstance(v, dict) and v.get("ciq")}
+
+
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--skip-prices", action="store_true")
@@ -110,7 +116,8 @@ def main() -> int:
     # when available; yfinance fills the forward-data gap (forwardPE, target
     # prices) that CIQ's Xpressfeed subscription doesn't include.
     prev_fund = _load_json(DATA / "fundamentals.json", {})
-    ciq_blocks: dict[str, dict] = {}
+    # Start from the prior run's CIQ blocks; a successful fetch layers over them.
+    ciq_blocks: dict[str, dict] = prior_ciq_blocks(prev_fund)
     ciq_history: dict[str, dict] = _load_json(DATA / "multiples_history.json", {})
 
     if not args.skip_ciq:
@@ -126,7 +133,11 @@ def main() -> int:
             log.info("Fetching CIQ for %d tickers (%d resolved) ...", len(tickers), len(cid_map))
             try:
                 cr = ciq_src.fetch(list(cid_map.keys()), cid_map, currency_map)
-                ciq_blocks = cr.snapshot
+                # fetch() swallows connect and per-ticker failures into
+                # cr.errors, so a bad login returns an empty snapshot. Layer
+                # fresh blocks over the prior ones so a failed or partial
+                # fetch never wipes what the last good run stored.
+                ciq_blocks = {**ciq_blocks, **cr.snapshot}
                 # Merge new history into prior history (preserve unrefreshed tickers)
                 ciq_history.update(cr.history)
                 _write_json(DATA / "multiples_history.json", ciq_history)
@@ -146,13 +157,8 @@ def main() -> int:
                     "errors": {"__stage__": str(e)},
                     "ts": datetime.now(timezone.utc).isoformat(),
                 }
-                # Re-use prior CIQ blocks so the frontend doesn't lose data.
-                ciq_blocks = {t: prev_fund[t]["ciq"] for t in prev_fund
-                              if isinstance(prev_fund[t], dict) and prev_fund[t].get("ciq")}
     else:
         log.info("Skipping CIQ.")
-        ciq_blocks = {t: prev_fund[t]["ciq"] for t in prev_fund
-                      if isinstance(prev_fund[t], dict) and prev_fund[t].get("ciq")}
 
     # Prices + fundamentals -----------------------------------------------
     if not args.skip_prices:

@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-11-13T16:53:38.991687+00:00",
+  "last_refresh_at": "2026-11-14T02:01:49.557048+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-11-13T16:54:50.524482+00:00"
+      "ts": "2026-11-14T02:02:29.858857+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,24 +24,24 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-11-13T16:54:54.849040+00:00"
+      "ts": "2026-11-14T02:02:33.648032+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 0,
       "errors": {},
-      "ts": "2026-11-13T16:55:04.562278+00:00"
+      "ts": "2026-11-14T02:02:41.289570+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [cdada35a-b18e-439f-8149-547892cbb010], code: 390100"
+        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [06ddd301-e6ed-48c0-a5c1-f40203efd4ad], code: 390100"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-11-13T16:53:40.053291+00:00"
+      "ts": "2026-11-14T02:01:50.843511+00:00"
     },
     "scoring": {
       "ok": 63,
@@ -66,7 +66,7 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-11-13T16:57:12.961292+00:00"
+      "ts": "2026-11-14T02:04:47.757859+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -81,17 +81,17 @@
         },
         {
           "layer_id": "optics",
-          "tightness_score": 49
+          "tightness_score": 47
         }
       ],
-      "ts": "2026-11-13T16:57:12.927956+00:00"
+      "ts": "2026-11-14T02:04:47.733770+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 92,
-      "latest_date": "2026-11-12",
-      "latest_total_tokens_b": 164990.478,
-      "ts": "2026-11-13T16:57:12.920820+00:00"
+      "daily_rows": 93,
+      "latest_date": "2026-11-13",
+      "latest_total_tokens_b": 165436.546,
+      "ts": "2026-11-14T02:04:47.727527+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -102,7 +102,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-11-13T16:57:12.964349+00:00"
+      "ts": "2026-11-14T02:04:47.760267+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -177,7 +177,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-11-13T16:57:11.584161+00:00"
+      "ts": "2026-11-14T02:04:46.682916+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -190,37 +190,37 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-11-13T16:57:12.155667+00:00"
+      "ts": "2026-11-14T02:04:47.146716+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-11-13T16:57:12.925690+00:00"
+      "ts": "2026-11-14T02:04:47.731831+00:00"
     },
     "tw_universe": {
       "ok": 1965,
       "stock_count": 1965,
       "sector_count": 71,
       "latest_date": "2026-11-13",
-      "ts": "2026-11-13T16:58:08.257364+00:00"
+      "ts": "2026-11-14T02:05:50.748465+00:00"
     },
     "us_universe": {
       "ok": 963,
       "stock_count": 963,
       "sector_count": 76,
       "latest_date": "2026-11-13",
-      "ts": "2026-11-13T16:59:26.473869+00:00"
+      "ts": "2026-11-14T02:06:46.445633+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 309,
-    "total": 335
+    "discovered_kept": 311,
+    "total": 337
   },
   "broken_stages": {
     "ciq": {
-      "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [cdada35a-b18e-439f-8149-547892cbb010], code: 390100"
+      "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [06ddd301-e6ed-48c0-a5c1-f40203efd4ad], code: 390100"
     }
   }
 }

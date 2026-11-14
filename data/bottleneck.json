@@ -1,59 +1,62 @@
 {
   "hbm": {
-    "tightness_score": 31,
-    "signal_count_90d": 6,
-    "tightness_language_hits_per_signal": 0.0,
+    "tightness_score": 60,
+    "signal_count_90d": 5,
+    "tightness_language_hits_per_signal": 0.2,
     "cross_quarter_supply_tight": true,
     "evidence": [
+      "Samsung, SK Hynix race to secure EUV tools as ASML warns of shortages digitimes",
       "[MU] 'Supply allocation decisions may impact certain customers' (Q1) → 'Industry supply allocation decisions continue' (Q2) — no easing language added"
     ],
     "components": {
-      "density_pct": 0.267,
-      "language_pct": 0.0,
+      "density_pct": 0.133,
+      "language_pct": 0.867,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "foundry": {
-    "tightness_score": 55,
-    "signal_count_90d": 18,
+    "tightness_score": 57,
+    "signal_count_90d": 23,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": true,
     "evidence": [
       "[INTC] Latest filing introduces tightness language absent from prior"
     ],
     "components": {
-      "density_pct": 0.867,
+      "density_pct": 0.933,
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "packaging": {
-    "tightness_score": 5,
-    "signal_count_90d": 5,
+    "tightness_score": 16,
+    "signal_count_90d": 7,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.133,
+      "density_pct": 0.4,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "wfe": {
-    "tightness_score": 5,
-    "signal_count_90d": 5,
-    "tightness_language_hits_per_signal": 0.0,
+    "tightness_score": 40,
+    "signal_count_90d": 6,
+    "tightness_language_hits_per_signal": 0.167,
     "cross_quarter_supply_tight": false,
-    "evidence": [],
+    "evidence": [
+      "Samsung, SK Hynix race to secure EUV tools as ASML warns of shortages digitimes"
+    ],
     "components": {
-      "density_pct": 0.133,
-      "language_pct": 0.0,
+      "density_pct": 0.2,
+      "language_pct": 0.8,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "gpu": {
     "tightness_score": 52,
@@ -68,7 +71,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "networking": {
     "tightness_score": 21,
@@ -81,7 +84,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "optics": {
     "tightness_score": 47,
@@ -96,7 +99,7 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "switches": {
     "tightness_score": 39,
@@ -111,33 +114,33 @@
       "language_pct": 0.0,
       "supply_signal": 1.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "power": {
-    "tightness_score": 37,
+    "tightness_score": 35,
     "signal_count_90d": 21,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.933,
+      "density_pct": 0.867,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "cooling": {
-    "tightness_score": 11,
+    "tightness_score": 8,
     "signal_count_90d": 6,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.2,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "hyperscalers": {
     "tightness_score": 27,
@@ -150,7 +153,7 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "neoclouds": {
     "tightness_score": 40,
@@ -165,7 +168,7 @@
       "language_pct": 0.933,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "software": {
     "tightness_score": 21,
@@ -178,20 +181,20 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "eda": {
-    "tightness_score": 11,
+    "tightness_score": 8,
     "signal_count_90d": 6,
     "tightness_language_hits_per_signal": 0.0,
     "cross_quarter_supply_tight": false,
     "evidence": [],
     "components": {
-      "density_pct": 0.267,
+      "density_pct": 0.2,
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   },
   "substrates": {
     "tightness_score": 0,
@@ -204,6 +207,6 @@
       "language_pct": 0.0,
       "supply_signal": 0.0
     },
-    "updated_at": "2026-11-14T02:04:47.732024+00:00"
+    "updated_at": "2026-11-14T15:30:54.066444+00:00"
   }
 }

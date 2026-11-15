@@ -5683,24 +5683,6 @@
       "tracked": false
     },
     {
-      "symbol": "EMBJ",
-      "name": "Embraer S.A.",
-      "sector": "Industrials",
-      "industry": "Aerospace & Defense",
-      "industry_en": "Aerospace & Defense",
-      "nasdaq_industry": "Aerospace",
-      "close": 78.73,
-      "mktcap": 14364977033,
-      "pe": null,
-      "ret_1d": -0.9,
-      "ret_1w": 6.3,
-      "ret_1m": 10.1,
-      "ret_3m": 4.7,
-      "ret_6m": 42.0,
-      "ret_1y": 26.4,
-      "tracked": false
-    },
-    {
       "symbol": "EXPD",
       "name": "Expeditors International of Washington Inc.",
       "sector": "Industrials",
@@ -17293,6 +17275,24 @@
       "tracked": true
     },
     {
+      "symbol": "EMBJ",
+      "name": "Embraer S.A.",
+      "sector": "Industrials",
+      "industry": "Aerospace & Defense",
+      "industry_en": "Aerospace & Defense",
+      "nasdaq_industry": "Aerospace",
+      "close": 78.73,
+      "mktcap": 14364977033,
+      "pe": null,
+      "ret_1d": null,
+      "ret_1w": null,
+      "ret_1m": null,
+      "ret_3m": null,
+      "ret_6m": null,
+      "ret_1y": null,
+      "tracked": false
+    },
+    {
       "symbol": "METAM",
       "name": "Meta Platforms Inc. Depositary Shares representing a 1/20th Interest in a Share of Series A Mandatory Convertible Preferred Stock",
       "sector": null,
@@ -17943,17 +17943,6 @@
       "median_1y": -9.5
     },
     {
-      "industry": "Aerospace & Defense",
-      "industry_en": "Aerospace & Defense",
-      "n": 21,
-      "median_1d": -0.6,
-      "median_1w": 3.6,
-      "median_1m": 8.1,
-      "median_3m": -9.2,
-      "median_6m": -5.3,
-      "median_1y": 7.6
-    },
-    {
       "industry": "Payments & Fintech",
       "industry_en": "Payments & Fintech",
       "n": 10,
@@ -17963,6 +17952,17 @@
       "median_3m": -9.4,
       "median_6m": 2.5,
       "median_1y": -6.2
+    },
+    {
+      "industry": "Aerospace & Defense",
+      "industry_en": "Aerospace & Defense",
+      "n": 21,
+      "median_1d": -0.6,
+      "median_1w": 3.5,
+      "median_1m": 7.3,
+      "median_3m": -9.4,
+      "median_6m": -5.4,
+      "median_1y": 7.4
     },
     {
       "industry": "Metals & Mining",

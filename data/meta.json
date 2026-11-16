@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-11-15T16:00:58.986220+00:00",
+  "last_refresh_at": "2026-11-16T01:38:25.916913+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-11-15T16:01:46.841619+00:00"
+      "ts": "2026-11-16T01:39:22.999618+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,24 +24,24 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-11-15T16:01:50.871664+00:00"
+      "ts": "2026-11-16T01:39:27.072548+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 0,
       "errors": {},
-      "ts": "2026-11-15T16:02:01.260041+00:00"
+      "ts": "2026-11-16T01:39:36.951453+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390102 (08001): Failed to login: Login error: Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [62b29212-7782-4725-8cd5-0db33a6a314c], code: 390102"
+        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [878c19d6-1950-42e7-b44a-989977cc0fb1], code: 390100"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-11-15T16:01:00.293784+00:00"
+      "ts": "2026-11-16T01:38:26.823931+00:00"
     },
     "scoring": {
       "ok": 63,
@@ -66,14 +66,14 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-11-15T16:04:10.135454+00:00"
+      "ts": "2026-11-16T01:41:44.801049+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
           "layer_id": "foundry",
-          "tightness_score": 55
+          "tightness_score": 52
         },
         {
           "layer_id": "gpu",
@@ -81,17 +81,17 @@
         },
         {
           "layer_id": "optics",
-          "tightness_score": 47
+          "tightness_score": 44
         }
       ],
-      "ts": "2026-11-15T16:04:10.115203+00:00"
+      "ts": "2026-11-16T01:41:44.767558+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 94,
-      "latest_date": "2026-11-14",
-      "latest_total_tokens_b": 167483.521,
-      "ts": "2026-11-15T16:04:10.109445+00:00"
+      "daily_rows": 95,
+      "latest_date": "2026-11-15",
+      "latest_total_tokens_b": 167330.855,
+      "ts": "2026-11-16T01:41:44.760368+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -102,7 +102,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-11-15T16:04:10.137559+00:00"
+      "ts": "2026-11-16T01:41:44.804474+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -177,7 +177,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-11-15T16:04:09.102799+00:00"
+      "ts": "2026-11-16T01:41:43.466319+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -190,37 +190,37 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-11-15T16:04:09.488650+00:00"
+      "ts": "2026-11-16T01:41:44.047648+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-11-15T16:04:10.113579+00:00"
+      "ts": "2026-11-16T01:41:44.765476+00:00"
     },
     "tw_universe": {
       "ok": 1965,
       "stock_count": 1965,
       "sector_count": 71,
       "latest_date": "2026-11-13",
-      "ts": "2026-11-15T16:05:34.143047+00:00"
+      "ts": "2026-11-16T01:43:03.517161+00:00"
     },
     "us_universe": {
       "ok": 963,
       "stock_count": 963,
       "sector_count": 76,
       "latest_date": "2026-11-13",
-      "ts": "2026-11-15T16:06:51.168505+00:00"
+      "ts": "2026-11-16T01:44:20.123554+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 314,
-    "total": 340
+    "discovered_kept": 306,
+    "total": 332
   },
   "broken_stages": {
     "ciq": {
-      "__connection__": "390102 (08001): Failed to login: Login error: Your user account has been temporarily locked. Try again later or contact your account administrator for assistance. For more information about this error, go to https://community.snowflake.com/s/error-your-user-login-has-been-locked. [62b29212-7782-4725-8cd5-0db33a6a314c], code: 390102"
+      "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [878c19d6-1950-42e7-b44a-989977cc0fb1], code: 390100"
     }
   }
 }

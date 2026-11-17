@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-11-17T04:21:36.909047+00:00",
+  "last_refresh_at": "2026-11-17T18:03:46.159505+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,14 +7,14 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-11-17T04:22:17.886604+00:00"
+      "ts": "2026-11-17T18:04:55.365020+00:00"
     },
     "rss": {
-      "ok": 8,
-      "total_entries": 111,
+      "ok": 9,
+      "total_entries": 136,
       "per_source_counts": {
         "TrendForce": 20,
-        "Nikkei Asia": 0,
+        "Nikkei Asia": 25,
         "DigiTimes": 25,
         "ServeTheHome": 6,
         "The Next Platform": 25,
@@ -23,27 +23,25 @@
         "SemiWiki": 5,
         "Stratechery": 10
       },
-      "errors": {
-        "Nikkei Asia": "bozo: <unknown>:2:252: not well-formed (invalid token)"
-      },
-      "ts": "2026-11-17T04:23:06.115521+00:00"
+      "errors": {},
+      "ts": "2026-11-17T18:04:59.453794+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 0,
       "errors": {},
-      "ts": "2026-11-17T04:23:13.103024+00:00"
+      "ts": "2026-11-17T18:05:09.319923+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [4330b353-9fef-4b9c-b8f2-6ea957fe0b44], code: 390100"
+        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [8be43ff2-2448-40f0-9248-92bf7e312c88], code: 390100"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-11-17T04:21:37.957920+00:00"
+      "ts": "2026-11-17T18:03:49.021256+00:00"
     },
     "scoring": {
       "ok": 63,
@@ -68,7 +66,7 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-11-17T04:25:19.243544+00:00"
+      "ts": "2026-11-17T18:07:29.815173+00:00"
     },
     "bottleneck": {
       "ok": 15,
@@ -86,14 +84,14 @@
           "tightness_score": 47
         }
       ],
-      "ts": "2026-11-17T04:25:19.210330+00:00"
+      "ts": "2026-11-17T18:07:29.777219+00:00"
     },
     "openrouter": {
       "ok": 1,
       "daily_rows": 96,
       "latest_date": "2026-11-16",
       "latest_total_tokens_b": 167601.249,
-      "ts": "2026-11-17T04:25:19.203187+00:00"
+      "ts": "2026-11-17T18:07:29.770153+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -104,7 +102,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-11-17T04:25:19.246967+00:00"
+      "ts": "2026-11-17T18:07:29.818463+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -151,7 +149,7 @@
         "MXL": "http 301",
         "ANET": "http 301",
         "CSCO": "http 301",
-        "HPE": "http 301",
+        "HPE": "probe failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
         "CLS": "http 301",
         "GEV": "http 301",
         "ETN": "http 301",
@@ -179,7 +177,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-11-17T04:25:17.939136+00:00"
+      "ts": "2026-11-17T18:07:28.335891+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -192,37 +190,37 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-11-17T04:25:18.511230+00:00"
+      "ts": "2026-11-17T18:07:28.910662+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-11-17T04:25:19.208219+00:00"
+      "ts": "2026-11-17T18:07:29.775161+00:00"
     },
     "tw_universe": {
-      "ok": 1966,
-      "stock_count": 1966,
+      "ok": 1956,
+      "stock_count": 1956,
       "sector_count": 71,
-      "latest_date": "2026-11-16",
-      "ts": "2026-11-17T04:26:38.333433+00:00"
+      "latest_date": "2026-11-17",
+      "ts": "2026-11-17T18:08:48.655673+00:00"
     },
     "us_universe": {
-      "ok": 958,
-      "stock_count": 958,
+      "ok": 953,
+      "stock_count": 953,
       "sector_count": 76,
-      "latest_date": "2026-11-16",
-      "ts": "2026-11-17T04:27:32.808248+00:00"
+      "latest_date": "2026-11-17",
+      "ts": "2026-11-17T18:10:09.979409+00:00"
     }
   },
   "signals": {
     "curated": 26,
-    "discovered_kept": 302,
-    "total": 328
+    "discovered_kept": 304,
+    "total": 330
   },
   "broken_stages": {
     "ciq": {
-      "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [4330b353-9fef-4b9c-b8f2-6ea957fe0b44], code: 390100"
+      "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [8be43ff2-2448-40f0-9248-92bf7e312c88], code: 390100"
     }
   }
 }

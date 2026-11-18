@@ -62,7 +62,7 @@
     "source": "Utility Dive",
     "source_type": "industry",
     "headline": "Elevated demand for gas turbines could persist through 2035: Siemens Energy",
-    "quote": "The U.S. midterms are not likely to slow turbine orders by data centers, company executives said, noting that turbine demand also is coming from diverse industries with long-term growth trajectories.",
+    "quote": "The U.S. midterms are not likely to slow turbine orders by data centers, company executives said, noting that turbine demand is also coming from diverse industries with long-term growth trajectories.",
     "url": "https://www.utilitydive.com/news/elevated-demand-for-gas-turbines-could-persist-through-2035-siemens-energy/874839/",
     "layer_ids": [
       "power"
@@ -71,18 +71,37 @@
     "arch_risk": false
   },
   {
-    "id": "rss-97466ce784a77d94",
+    "id": "rss-b41e2be6bd24127c",
     "date": "2026-11-17",
     "source": "SemiWiki",
     "source_type": "analyst",
-    "headline": "Why Agile Post-Quantum Cryptography Matters for Long-Lived Chip Designs",
-    "quote": "Quantum computing opens exciting possibilities for solving difficult problems, advancing research, and enabling new technologies. Preparing security for that future is an opportunity to strengthen the digital foundations supporting everyday life. Synopsys’ Agile PQC Public Key Accelerators offer chip designers a practical… Read More The post Why Agile Post-Quantum Cryptography Matters for Long-Lived Chip Designs appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/eda/375719-why-agile-post-quantum-cryptography-matters-for-long-lived-chip-designs/",
+    "headline": "Can Faster HBM Solve AI’s Memory Bottleneck?",
+    "quote": "Why bandwidth alone cannot determine the performance of the next generation of AI accelerators High-bandwidth memory is entering another phase of rapid development. HBM4 increases interface width and available bandwidth, while custom HBM architectures create opportunities to optimize how memory connects to AI accelerators. … Read More The post Can Faster HBM Solve AI’s Memory Bottleneck? appeared first on SemiWiki .",
+    "url": "https://semiwiki.com/3dic/376277-can-faster-hbm-solve-ais-memory-bottleneck/",
     "layer_ids": [
-      "gpu",
-      "eda"
+      "hbm",
+      "gpu"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CSCO-0000858877-26-000185",
+    "accession": "0000858877-26-000185",
+    "form": "10-Q",
+    "date": "2026-11-17",
+    "source": "SEC EDGAR (CSCO)",
+    "source_type": "filing",
+    "headline": "CSCO files 10-Q: periodic report",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000185/csco-20261024.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "CSCO"
+    ],
     "arch_risk": false
   },
   {
@@ -198,6 +217,25 @@
       "neoclouds"
     ],
     "tickers": [],
+    "arch_risk": false
+  },
+  {
+    "id": "edgar-CSCO-0000858877-26-000170",
+    "accession": "0000858877-26-000170",
+    "form": "8-K",
+    "date": "2026-11-12",
+    "source": "SEC EDGAR (CSCO)",
+    "source_type": "filing",
+    "headline": "CSCO files 8-K: Earnings release",
+    "quote": "",
+    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000170/csco-20261112.htm",
+    "layer_ids": [
+      "switches",
+      "networking"
+    ],
+    "tickers": [
+      "CSCO"
+    ],
     "arch_risk": false
   },
   {
@@ -732,23 +770,6 @@
     ],
     "tickers": [
       "PLTR"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-ea38ada4a2dfff31",
-    "date": "2026-10-30",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Taiwan semiconductor output to hit NT$9.1 trillion as TSIA urges stable power - digitimes",
-    "quote": "Taiwan semiconductor output to hit NT$9.1 trillion as TSIA urges stable power digitimes",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZjFrcTF0a1ZJWGw0UFYxWWotQjVyczhqV1RnOFJjY3dzN1NFYzlGM0pHWGN3S3BNR0w4U25JdkJNYlJlejA3S3B3VG9GeHVHOG9sWllFZXJRbDlzb1BpZktCUHlpakRHRzh5NXlNVkF1TUxSbUtBSjh4LXlTWUdqU1c5RFhObkRaa1JpQW5ISk5lZ2c?oc=5",
-    "layer_ids": [
-      "gpu",
-      "foundry"
-    ],
-    "tickers": [
-      "TSM"
     ],
     "arch_risk": false
   },
@@ -4542,25 +4563,6 @@
     "arch_risk": false
   },
   {
-    "id": "edgar-CSCO-0000858877-26-000078",
-    "accession": "0000858877-26-000078",
-    "form": "10-Q",
-    "date": "2026-05-19",
-    "source": "SEC EDGAR (CSCO)",
-    "source_type": "filing",
-    "headline": "CSCO files 10-Q: periodic report",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000078/csco-20260425.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "CSCO"
-    ],
-    "arch_risk": false
-  },
-  {
     "id": "transcript-ANET-31672",
     "date": "2026-05-19",
     "headline": "ANET Presents at J.P. Morgan 54th Annual Global Technology, Media and Communications Conference, May-19-2026 02:15 PM",
@@ -4812,25 +4814,6 @@
     ],
     "tickers": [
       "AMAT"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "edgar-CSCO-0000858877-26-000075",
-    "accession": "0000858877-26-000075",
-    "form": "8-K",
-    "date": "2026-05-13",
-    "source": "SEC EDGAR (CSCO)",
-    "source_type": "filing",
-    "headline": "CSCO files 8-K: Earnings release",
-    "quote": "",
-    "url": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000075/csco-20260513.htm",
-    "layer_ids": [
-      "switches",
-      "networking"
-    ],
-    "tickers": [
-      "CSCO"
     ],
     "arch_risk": false
   },

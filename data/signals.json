@@ -57,20 +57,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-e73a8e928b9c5e2e",
-    "date": "2026-11-17",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Xintec, TSMC sign 7-year capacity outsourcing agreement to build on-substrate production line - digitimes",
-    "quote": "Xintec, TSMC sign 7-year capacity outsourcing agreement to build on-substrate production line digitimes",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRUh5czJkQ3NEMWNIUjh6WEFVR1MycW5NOXpEdkxjVXp6RU1XVVRaZGY5Y3NuRnN5WGpXTFlwOWJrc3Z3VndiamUxQ1dCOEpOLTVkQVFNUHpBODE2YVNLYm9TTjhKVFpPdC1JWWxrZ3JyS0dYaFZVODhWOFhVUjJQa1hRYUdDM0JDTHFmMzg5SWFmZFBDSi05WWlVN3NmM1N3aGJLZXlWTQ?oc=5",
-    "layer_ids": [
-      "foundry"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "rss-86949f06466bfa76",
     "date": "2026-11-17",
     "source": "DigiTimes",
@@ -113,21 +99,6 @@
     "arch_risk": false
   },
   {
-    "id": "rss-b41e2be6bd24127c",
-    "date": "2026-11-17",
-    "source": "SemiWiki",
-    "source_type": "analyst",
-    "headline": "Can Faster HBM Solve AI’s Memory Bottleneck?",
-    "quote": "Why bandwidth alone cannot determine the performance of the next generation of AI accelerators High-bandwidth memory is entering another phase of rapid development. HBM4 increases interface width and available bandwidth, while custom HBM architectures create opportunities to optimize how memory connects to AI accelerators. … Read More The post Can Faster HBM Solve AI’s Memory Bottleneck? appeared first on SemiWiki .",
-    "url": "https://semiwiki.com/3dic/376277-can-faster-hbm-solve-ais-memory-bottleneck/",
-    "layer_ids": [
-      "hbm",
-      "gpu"
-    ],
-    "tickers": [],
-    "arch_risk": false
-  },
-  {
     "id": "edgar-CSCO-0000858877-26-000185",
     "accession": "0000858877-26-000185",
     "form": "10-Q",
@@ -159,22 +130,6 @@
     ],
     "tickers": [
       "000660.KS"
-    ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-7566d884c2835145",
-    "date": "2026-11-16",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "Applied Materials expands India R&D ambitions, targets 2027 start for US$5 billion project - digitimes",
-    "quote": "Applied Materials expands India R&D ambitions, targets 2027 start for US$5 billion project digitimes",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd0VkeU9RZzM2aHV2dGh5SFVOaTdOQzN1TndFclh5Q01WSXJyeVRlbkpIa2c4VDdWcC1OeFVBaFVUREJMWkFYa3o0SUdOY1oxMTlDZGVlLTFzQmZOUGNCUnEyNTAzS2FWWDhHbEptQ0ZmZkV6MEpINWRkazJIZ2ttZWpsUzBrSk0xWmhsNms5US1XZ3pxM1YzYnJ5bFhtQVphWk1relpMT3FkekZvc2J3Y1Z3?oc=5",
-    "layer_ids": [
-      "wfe"
-    ],
-    "tickers": [
-      "AMAT"
     ],
     "arch_risk": false
   },
@@ -315,21 +270,6 @@
     "tickers": [
       "AMD"
     ],
-    "arch_risk": false
-  },
-  {
-    "id": "rss-631ba45d678d17fc",
-    "date": "2026-11-11",
-    "source": "DigiTimes",
-    "source_type": "industry",
-    "headline": "TSMC unlikely to enter 3D DRAM; CXMT expansion a bigger threat - digitimes",
-    "quote": "TSMC unlikely to enter 3D DRAM; CXMT expansion a bigger threat digitimes",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOXM2RlIzNkRGZjFrX3BBbDNvTndzN3plYlBfemJldXYwVk1uM2tzdFNZcl91RVg5QjZVaEVMX0pMc1dBWWtPaGlmZFdLTXlsSGcyZVotRTVRMExWdm9jTXRqRkE2cTZfc1hwZTRUeGtxVGtFNmFaZ0hzYzdMdG9vbmpKRnI?oc=5",
-    "layer_ids": [
-      "hbm",
-      "foundry"
-    ],
-    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1408,6 +1348,20 @@
     "arch_risk": false
   },
   {
+    "id": "rss-fda2fd0f2257397f",
+    "date": "2026-10-23",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "Why is TSMC suddenly looking at Texas? - digitimes",
+    "quote": "Why is TSMC suddenly looking at Texas? digitimes",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWFczcE9fNjdzN0JWbHpGZVhPcS1HRHp3TVBrODcxOU1EU1JUVzk4Um5rOHVGbWQ3VGZwVDVPaW1MLXNXY0hYczVwVTVqUUhaMUFwNDFmRDEtOVZpY1gxMzRiQTVQcWdmZGdKRTdBVjBZOVRHSWdYTlQ5VUxiMU1TcEpYbkQxbkdSdmMzNnY2WUFBUWtrV2xiaVlSVWg?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
+    "arch_risk": false
+  },
+  {
     "id": "edgar-LRCX-0000707549-26-000054",
     "accession": "0000707549-26-000054",
     "form": "10-Q",
@@ -1513,6 +1467,20 @@
     "tickers": [
       "META"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-6e4825b413901be5",
+    "date": "2026-10-15",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC breaks silence on Musk's Terafab: Talks underway, but fab control non-negotiable - digitimes",
+    "quote": "TSMC breaks silence on Musk's Terafab: Talks underway, but fab control non-negotiable digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMlNsUG41RWRYNzFCcG1SZnBOblhubjhhb1pGazQzcnE2T2hjVTk3bFZjbmRBLWEtVjBvR2tvRGJtbTBQbFc3eUcwcjhsVWJhakZiUG94a3FmMlZ3NjRGN0pPQVI1Tmppb3ZhRk0yc2RoV19va1Z3SWpHSFEwcm56TVJzXzd0TUlVZnVmaWthckdzNjByUi1R?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -1714,6 +1682,21 @@
     "tickers": [
       "SNOW"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-779d260727aff314",
+    "date": "2026-09-01",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC delays CoWoS orders as CoPoS plans take shape - digitimes",
+    "quote": "TSMC delays CoWoS orders as CoPoS plans take shape digitimes",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZW80dVlfcEREMzQtVV9HMUdYLTZuNkZxcGVjLVA5Sklyb2NvSk5ndHdqcndMeUx2LVM5Q2ZXMklQNURqZnlCSnlfNWVfR2R2ZFJnRmlKOVhKLUpEcXFWZWQ1RVdtTkpjbmJXcDFGQUlQSnlibEtGZjFXNjZic1p5cC1iTS04MlZNS0RnSGpsQVFhemEz?oc=5",
+    "layer_ids": [
+      "packaging",
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   },
   {
@@ -6732,6 +6715,20 @@
       "COHR",
       "FN"
     ],
+    "arch_risk": false
+  },
+  {
+    "id": "rss-20c8ce9761028f7a",
+    "date": "2021-04-23",
+    "source": "DigiTimes",
+    "source_type": "industry",
+    "headline": "TSMC updates - digitimes",
+    "quote": "TSMC updates digitimes",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GV216Wi1Wa2RsaTdiYm9FU1VXZ21kcDVjU2FxZjY0VjJNQ0hYTmRfekY3M0NrSnhRTjBPSy00YUxrSFY2WWpLSGdfT2tSRzBLZnNVTEZRZGRRSlhiQjg4QUNWWWpNVEhw?oc=5",
+    "layer_ids": [
+      "foundry"
+    ],
+    "tickers": [],
     "arch_risk": false
   }
 ]

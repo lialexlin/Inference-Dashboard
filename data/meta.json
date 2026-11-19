@@ -1,5 +1,5 @@
 {
-  "last_refresh_at": "2026-11-18T17:44:17.018619+00:00",
+  "last_refresh_at": "2026-11-19T02:58:54.259792+00:00",
   "version": "0.1.0",
   "sources": {
     "prices": {
@@ -7,7 +7,7 @@
       "errors": {
         "6967.T": "no history returned"
       },
-      "ts": "2026-11-18T17:45:20.293301+00:00"
+      "ts": "2026-11-19T02:59:24.695328+00:00"
     },
     "rss": {
       "ok": 9,
@@ -24,24 +24,24 @@
         "Stratechery": 10
       },
       "errors": {},
-      "ts": "2026-11-18T17:45:25.090286+00:00"
+      "ts": "2026-11-19T02:59:27.930616+00:00"
     },
     "edgar": {
       "entries": 162,
       "summarized": 0,
       "errors": {},
-      "ts": "2026-11-18T17:45:34.762728+00:00"
+      "ts": "2026-11-19T02:59:38.123318+00:00"
     },
     "ciq": {
       "ok": 0,
       "history_tickers": 0,
       "errors": {
-        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [8cd127f9-bd14-4dcf-9e9e-f505adaf9f6b], code: 390100"
+        "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [3a70367c-823a-4ee0-9be4-9c51e4d18e38], code: 390100"
       },
       "unmapped": [
         "6967.T"
       ],
-      "ts": "2026-11-18T17:44:18.094350+00:00"
+      "ts": "2026-11-19T02:58:55.381724+00:00"
     },
     "scoring": {
       "ok": 63,
@@ -66,17 +66,17 @@
         "val_price_run_z": 62
       },
       "tickers_scored": 63,
-      "ts": "2026-11-18T17:47:42.560351+00:00"
+      "ts": "2026-11-19T03:01:48.486267+00:00"
     },
     "bottleneck": {
       "ok": 15,
       "top_layers": [
         {
-          "layer_id": "gpu",
-          "tightness_score": 55
+          "layer_id": "foundry",
+          "tightness_score": 52
         },
         {
-          "layer_id": "foundry",
+          "layer_id": "gpu",
           "tightness_score": 52
         },
         {
@@ -84,14 +84,14 @@
           "tightness_score": 41
         }
       ],
-      "ts": "2026-11-18T17:47:42.535692+00:00"
+      "ts": "2026-11-19T03:01:48.463882+00:00"
     },
     "openrouter": {
       "ok": 1,
-      "daily_rows": 97,
-      "latest_date": "2026-11-17",
-      "latest_total_tokens_b": 187853.705,
-      "ts": "2026-11-18T17:47:42.529383+00:00"
+      "daily_rows": 98,
+      "latest_date": "2026-11-18",
+      "latest_total_tokens_b": 210433.24,
+      "ts": "2026-11-19T03:01:48.458224+00:00"
     },
     "exit_triggers": {
       "ok": 1,
@@ -102,7 +102,7 @@
         "arch_risk": "green",
         "taiwan": "green"
       },
-      "ts": "2026-11-18T17:47:42.562913+00:00"
+      "ts": "2026-11-19T03:01:48.488440+00:00"
     },
     "transcripts": {
       "ok": 48,
@@ -177,7 +177,7 @@
         "SIEGY": "not found on earningscalls.dev"
       },
       "total_calls_on_disk": 110,
-      "ts": "2026-11-18T17:47:41.443911+00:00"
+      "ts": "2026-11-19T03:01:47.350440+00:00"
     },
     "narrative": {
       "ok": 48,
@@ -190,27 +190,27 @@
         "lead_times",
         "pricing"
       ],
-      "ts": "2026-11-18T17:47:41.908394+00:00"
+      "ts": "2026-11-19T03:01:47.794526+00:00"
     },
     "cross_quarter": {
       "ok": 5,
       "manual": 2,
       "auto_generated": 3,
-      "ts": "2026-11-18T17:47:42.533823+00:00"
+      "ts": "2026-11-19T03:01:48.462384+00:00"
     },
     "tw_universe": {
       "ok": 1961,
       "stock_count": 1961,
       "sector_count": 71,
       "latest_date": "2026-11-18",
-      "ts": "2026-11-18T17:48:33.031701+00:00"
+      "ts": "2026-11-19T03:03:01.147704+00:00"
     },
     "us_universe": {
       "ok": 945,
       "stock_count": 945,
       "sector_count": 76,
       "latest_date": "2026-11-18",
-      "ts": "2026-11-18T17:49:49.265025+00:00"
+      "ts": "2026-11-19T03:03:43.835525+00:00"
     }
   },
   "signals": {
@@ -220,7 +220,7 @@
   },
   "broken_stages": {
     "ciq": {
-      "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [8cd127f9-bd14-4dcf-9e9e-f505adaf9f6b], code: 390100"
+      "__connection__": "390100 (28000): Failed to login: Login error: Incorrect username or password was specified. [3a70367c-823a-4ee0-9be4-9c51e4d18e38], code: 390100"
     }
   }
 }

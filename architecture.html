@@ -721,7 +721,7 @@
         </div>
         <div class="layer-card">
           <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Daily cron</div>
-          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">GitHub Actions (<code>.github/workflows/refresh.yml</code>) runs <code>python -m jobs.refresh</code> at 12:00 UTC on a hosted Ubuntu runner. <code>SF_ACCOUNT / SF_USER / SF_PASS</code> are repo secrets. The bot commits <code>data/</code> as <code>inference-dashboard-bot</code>; Pages auto-redeploys on push.</p>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">GitHub Actions (<code>.github/workflows/refresh.yml</code>) runs <code>uv run python -m jobs.refresh</code> at 12:00 UTC on a hosted Ubuntu runner. <code>SF_ACCOUNT / SF_USER / SF_PASS</code> are repo secrets. The bot commits <code>data/</code> as <code>inference-dashboard-bot</code>; Pages auto-redeploys on push.</p>
         </div>
         <div class="layer-card">
           <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Local run</div>

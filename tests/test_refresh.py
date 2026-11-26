@@ -12,8 +12,8 @@ import unittest
 from pathlib import Path
 from unittest import mock
 
-from jobs import bottleneck, refresh, scoring
-from jobs.sources import capital_iq, prices
+from jobs import bottleneck, exit_triggers, refresh, scoring
+from jobs.sources import capital_iq, prices, tw_universe, us_universe
 
 REPO_DATA = Path(__file__).resolve().parent.parent / "data"
 SKIP_ALL_BUT_CIQ_AND_PRICES = [
@@ -133,9 +133,31 @@ class BottleneckSkipsUndatedSignals(unittest.TestCase):
 
     def test_undated_signals_are_skipped(self):
         layers = [{"id": "gpu"}]
-        for date in (None, "", "not-a-date"):
-            bottleneck.compute(layers, [{"date": date, "layer_ids": ["gpu"]}], {}, [])
-        bottleneck.compute(layers, [{"layer_ids": ["gpu"]}], {}, [])
+        for sig in ({"date": None}, {"date": ""}, {"date": "not-a-date"}, {"date": 20261126}, {}):
+            out = bottleneck.compute(layers, [{**sig, "layer_ids": ["gpu"]}], {}, [])
+            self.assertEqual(out["gpu"]["signal_count_90d"], 0, sig)
+
+
+class ExitTriggersSkipMalformedDates(unittest.TestCase):
+    """One signal with a non-string date is dropped, not allowed to fail the stage."""
+
+    def test_non_string_date_is_dropped(self):
+        bad = {"date": 20261126, "source_type": "filing", "tickers": ["MSFT"],
+               "quote": "we lowered capex"}
+        self.assertEqual(exit_triggers._eval_hyperscaler_capex([bad], {})["state"], "green")
+        self.assertFalse(exit_triggers._signal_in_window(bad, exit_triggers.datetime.now(exit_triggers.timezone.utc)))
+
+
+class TrackedPlayersUnreadable(unittest.TestCase):
+    """A corrupt players.json drops the tracked badges with a warning, not silently."""
+
+    def test_corrupt_players_logs_warning(self):
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d) / "players.json"
+            p.write_text("{not json", encoding="utf-8")
+            for loader in (tw_universe._load_tracked_codes, us_universe._load_tracked_symbols):
+                with self.assertLogs(loader.__module__, "WARNING"):
+                    self.assertEqual(loader(p), set())
 
 
 if __name__ == "__main__":

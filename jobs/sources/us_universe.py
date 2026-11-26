@@ -588,7 +588,8 @@ def _load_tracked_symbols(players_path: Path) -> set[str]:
         return set()
     try:
         players = json.loads(players_path.read_text(encoding="utf-8"))
-    except Exception:
+    except (OSError, ValueError) as e:
+        LOG.warning("Could not read %s, no tracked badges this run: %s", players_path, e)
         return set()
     return {str(p.get("ticker", "")).upper() for p in players
             if p.get("ticker") and "." not in str(p["ticker"])}

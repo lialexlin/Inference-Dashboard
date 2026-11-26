@@ -29,7 +29,7 @@ Partial refreshes merge rather than overwrite: `refresh.py` reads the previous `
 
 `uv run python -m unittest discover tests` pins the refresh contracts: a failed CIQ login or a blocked Yahoo keeps each tracked ticker's prior data, an untracked or unmapped ticker loses its CIQ block, scoring runs with no CIQ data, and the broken-stage rules. CI runs them on every pull request.
 
-Every stage swallows its own failure so the rest still publish. At the end `refresh.py` records in `meta.json` › `broken_stages` each stage that failed this run (an `errors` key starting `__`, or every item failed); the universe stages count only on a second failure in a row, since their upstreams blip and recover. Locally that prints `ERROR Stage ... failed` lines; in CI the workflow's last step (`python -m jobs.refresh --check`) turns the run red after the data commit. A red refresh run means read that step's annotations, not re-run it.
+Every stage swallows its own failure so the rest still publish. At the end `refresh.py` records in `meta.json` › `broken_stages` each stage that failed this run (an `errors` key starting `__`, or every item failed); the universe stages count only on a second failure in a row, since their upstreams blip and recover. Locally that prints `ERROR Stage ... failed` lines; in CI the workflow's last step (`uv run python -m jobs.refresh --check`) turns the run red after the data commit. A red refresh run means read that step's annotations, not re-run it.
 
 ## Which source, and why
 

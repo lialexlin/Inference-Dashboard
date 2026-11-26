@@ -88,7 +88,7 @@ def _eval_hyperscaler_capex(signals: list[dict], filing_summaries: dict | None) 
             d = datetime.fromisoformat((sig.get("date") or "").replace("Z", "+00:00"))
             if d.tzinfo is None:
                 d = d.replace(tzinfo=timezone.utc)
-        except ValueError:
+        except (AttributeError, TypeError, ValueError):
             continue
         if d < cutoff:
             continue
@@ -187,7 +187,7 @@ def _signal_in_window(s: dict, cutoff: datetime) -> bool:
         if d.tzinfo is None:
             d = d.replace(tzinfo=timezone.utc)
         return d >= cutoff
-    except ValueError:
+    except (AttributeError, TypeError, ValueError):
         return False
 
 

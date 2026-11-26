@@ -88,10 +88,10 @@ def compute(
         raw_date = s.get("date") or ""  # undated signals exist (see transform.merge)
         try:
             sig_date = datetime.fromisoformat(raw_date).replace(tzinfo=timezone.utc)
-        except ValueError:
+        except (TypeError, ValueError):
             try:
                 sig_date = datetime.fromisoformat(raw_date + "T00:00:00+00:00")
-            except ValueError:
+            except (TypeError, ValueError):
                 continue
         if sig_date < cutoff:
             continue

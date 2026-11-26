@@ -18,9 +18,9 @@ ROOT = Path(__file__).resolve().parent.parent
 JOBS = ROOT / "jobs"
 
 
-def _calls(attr: str):
-    """(path:line, call) for every `.attr(...)` call under jobs/."""
-    for p in sorted(JOBS.rglob("*.py")):
+def _calls(attr: str, dirs=(JOBS,)):
+    """(path:line, call) for every `.attr(...)` call under `dirs`."""
+    for p in sorted(f for d in dirs for f in d.rglob("*.py")):
         for node in ast.walk(ast.parse(p.read_text(encoding="utf-8"))):
             if isinstance(node, ast.Call) and isinstance(node.func, ast.Attribute) and node.func.attr == attr:
                 yield f"{p.relative_to(ROOT).as_posix()}:{node.lineno}", node
@@ -55,7 +55,7 @@ class OneJsonWriter(unittest.TestCase):
 class TextIoIsUtf8(unittest.TestCase):
     def test_every_read_text_and_write_text_names_utf8(self):
         offenders = [
-            where for attr in ("read_text", "write_text") for where, call in _calls(attr)
+            where for attr in ("read_text", "write_text") for where, call in _calls(attr, (JOBS, ROOT / "tests"))
             if not any(k.arg == "encoding" for k in call.keywords)
         ]
         self.assertEqual(offenders, [])

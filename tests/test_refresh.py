@@ -34,18 +34,18 @@ class RefreshKeepsPriorData(unittest.TestCase):
         self.tmp = Path(tmp.name)
         for name in ("layers.json", "players.json", "signals.json"):
             shutil.copy(REPO_DATA / name, self.tmp / name)
-        players = json.loads((self.tmp / "players.json").read_text())
+        players = json.loads((self.tmp / "players.json").read_text(encoding="utf-8"))
         self.a, self.b = [p["ticker"] for p in players][:2]
         mapping = {self.a: {"company_id": 1}, self.b: {"company_id": 2}}
-        (self.tmp / "ciq_mapping.json").write_text(json.dumps(mapping))
+        (self.tmp / "ciq_mapping.json").write_text(json.dumps(mapping), encoding="utf-8")
         prior = {t: {"long_name": t, "ciq": {"revenue_yoy": 0.5}} for t in (self.a, self.b)}
         prior["GONE"] = {"long_name": "dropped from PLAYERS", "ciq": {"revenue_yoy": 9.9}}
-        (self.tmp / "fundamentals.json").write_text(json.dumps(prior))
-        (self.tmp / "prices.json").write_text(json.dumps({self.a: {"close": 7.0}, self.b: {"close": 8.0}}))
+        (self.tmp / "fundamentals.json").write_text(json.dumps(prior), encoding="utf-8")
+        (self.tmp / "prices.json").write_text(json.dumps({self.a: {"close": 7.0}, self.b: {"close": 8.0}}), encoding="utf-8")
 
     def _run(self, ciq_result, price_result=None, mapping=None):
         if mapping is not None:
-            (self.tmp / "ciq_mapping.json").write_text(json.dumps(mapping))
+            (self.tmp / "ciq_mapping.json").write_text(json.dumps(mapping), encoding="utf-8")
         if price_result is None:
             price_result = prices.PriceResult(
                 prices={t: {"close": 1.0} for t in (self.a, self.b)},
@@ -57,7 +57,7 @@ class RefreshKeepsPriorData(unittest.TestCase):
              mock.patch.object(prices, "fetch", return_value=price_result), \
              mock.patch.object(sys, "argv", argv):
             self.assertEqual(refresh.main(), 0)
-        load = lambda n: json.loads((self.tmp / n).read_text())
+        load = lambda n: json.loads((self.tmp / n).read_text(encoding="utf-8"))
         return load("fundamentals.json"), load("prices.json"), load("meta.json")
 
     def test_failed_login_keeps_every_prior_block(self):
@@ -116,7 +116,7 @@ class ScoringWithoutCiq(unittest.TestCase):
     signals, not crash (it raised KeyError 'revenue_yoy' from July to November)."""
 
     def test_compute_on_prices_only(self):
-        load = lambda n: json.loads((REPO_DATA / n).read_text())
+        load = lambda n: json.loads((REPO_DATA / n).read_text(encoding="utf-8"))
         fund = {t: {k: v for k, v in f.items() if k != "ciq"}
                 for t, f in load("fundamentals.json").items()}
         scores, _status = scoring.compute(

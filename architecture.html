@@ -725,7 +725,7 @@
         </div>
         <div class="layer-card">
           <div class="text-xs uppercase tracking-widest text-[color:var(--text-faint)] mb-2">Local run</div>
-          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">Python is uv-managed. First time: <code>uv sync</code>. Then <code>uv run python -m jobs.refresh</code> and <code>uv run python -m http.server 8000</code>. Or double-click <code>launch.command</code> / <code>refresh.command</code> — both wrap <code>uv run</code>.</p>
+          <p class="text-sm text-[color:var(--text-dim)] leading-relaxed">Python is uv-managed. First time: <code>uv sync</code>. Then <code>uv run python -m jobs.refresh</code> and <code>uv run python -m http.server 8000 --bind 127.0.0.1</code>. Or double-click <code>launch.command</code> / <code>refresh.command</code> — both wrap <code>uv run</code>.</p>
         </div>
       </div>
     </section>

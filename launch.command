@@ -8,7 +8,7 @@ cd "$(dirname "$0")"
 
 PORT=8765
 while lsof -i :"$PORT" >/dev/null 2>&1; do PORT=$((PORT+1)); done
-URL="http://localhost:$PORT"
+URL="http://127.0.0.1:$PORT"
 
 echo ""
 echo "  ┌─────────────────────────────────────────────────┐"
@@ -20,4 +20,4 @@ echo "  └───────────────────────
 echo ""
 
 (sleep 1 && open "$URL") &
-exec uv run python -m http.server "$PORT"
+exec uv run python -m http.server "$PORT" --bind 127.0.0.1

@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-25T18:59:38.977924+00:00",
+  "as_of": "2026-11-26T04:03:29.911025+00:00",
   "triggers": {
     "token_growth": {
       "state": "red",
       "evidence": [
-        "WoW token-throughput change: -1.1% (snapshot 2026-11-24)",
-        "Top WoW share gainers: deepseek-v4.1-flash-20261017 +4.7pp, hy4-flash-20261116 +3.4pp"
+        "WoW token-throughput change: -8.5% (snapshot 2026-11-25)",
+        "Top WoW share gainers: deepseek-v4.1-flash-20261017 +8.7pp, kimi-k3.1-pro-20261023 +2.3pp"
       ],
       "rule": "Frontier inference WoW token growth: GREEN ≥+5% / AMBER 0–5% / RED negative or history insufficient."
     },

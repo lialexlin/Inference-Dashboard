@@ -289,7 +289,7 @@ def compute(transcripts_dir: Path) -> dict:
 
     for p in sorted(transcripts_dir.glob("*.json")):
         try:
-            entry = json.loads(p.read_text())
+            entry = json.loads(p.read_text(encoding="utf-8"))
         except Exception as e:
             log.warning("Skip %s: %s", p.name, e)
             continue

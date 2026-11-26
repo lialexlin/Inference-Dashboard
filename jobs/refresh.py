@@ -16,12 +16,12 @@ from __future__ import annotations
 import argparse
 import json
 import logging
-import os
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
 from jobs import seed
+from jobs.io import write_json
 from jobs import transform
 from jobs import scoring
 from jobs import bottleneck as bottleneck_stage
@@ -45,14 +45,7 @@ DATA = ROOT / "data"
 def _load_json(path: Path, default):
     if not path.exists():
         return default
-    return json.loads(path.read_text())
-
-
-def _write_json(path: Path, data) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
-    tmp.replace(path)
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def prior_ciq_blocks(prev_fund: dict, keep: set[str]) -> dict[str, dict]:
@@ -187,7 +180,7 @@ def main() -> int:
                 ciq_blocks = {**ciq_blocks, **cr.snapshot}
                 # Merge new history into prior history (preserve unrefreshed tickers)
                 ciq_history.update(cr.history)
-                _write_json(DATA / "multiples_history.json", ciq_history)
+                write_json(DATA / "multiples_history.json", ciq_history)
                 meta["sources"]["ciq"] = {
                     "ok": len(cr.snapshot),
                     "history_tickers": len(cr.history),
@@ -215,7 +208,7 @@ def main() -> int:
         # nothing. Keep each tracked ticker's prior entry unless this run
         # refreshed it, as the CIQ stage does.
         prev_prices = _load_json(DATA / "prices.json", {})
-        _write_json(DATA / "prices.json",
+        write_json(DATA / "prices.json",
                     {**{t: prev_prices[t] for t in all_tickers if t in prev_prices}, **pr.prices})
         # Merge yfinance fundamentals with CIQ blocks under a `ciq` sub-key.
         merged_fund = {t: {k: v for k, v in prev_fund[t].items() if k != "ciq"}
@@ -223,7 +216,7 @@ def main() -> int:
         merged_fund.update(pr.fundamentals)
         for t, block in ciq_blocks.items():
             merged_fund.setdefault(t, {})["ciq"] = block
-        _write_json(DATA / "fundamentals.json", merged_fund)
+        write_json(DATA / "fundamentals.json", merged_fund)
         meta["sources"]["prices"] = {
             "ok": len(pr.prices),
             "errors": pr.errors,
@@ -238,7 +231,7 @@ def main() -> int:
                 prev_fund[t].pop("ciq", None)
         for t, block in ciq_blocks.items():
             prev_fund.setdefault(t, {})["ciq"] = block
-        _write_json(DATA / "fundamentals.json", prev_fund)
+        write_json(DATA / "fundamentals.json", prev_fund)
 
     # RSS feeds ----------------------------------------------------------
     discovered: list[dict] = []
@@ -309,7 +302,7 @@ def main() -> int:
         try:
             tr = transcripts_src.fetch(tickers, data_dir=DATA / "transcripts")
             index = transcripts_src.build_index(DATA / "transcripts")
-            _write_json(DATA / "transcripts_index.json", index)
+            write_json(DATA / "transcripts_index.json", index)
             meta["sources"]["transcripts"] = {
                 "ok": index["tickers_covered"],
                 "fetched_this_run": len(tr.fetched),
@@ -341,7 +334,7 @@ def main() -> int:
         log.info("Extracting narrative themes from on-disk transcripts ...")
         try:
             narrative = narrative_mod.compute(DATA / "transcripts")
-            _write_json(DATA / "narrative_tracking.json", narrative)
+            write_json(DATA / "narrative_tracking.json", narrative)
             ns = narrative["summary"]
             meta["sources"]["narrative"] = {
                 "ok": ns["tickers_covered"],
@@ -405,7 +398,7 @@ def main() -> int:
         kept_count = len(relevant)
 
     merged = merged[:500]
-    _write_json(DATA / "signals.json", merged)
+    write_json(DATA / "signals.json", merged)
 
     meta["signals"] = {
         "curated": len(curated_only),
@@ -422,7 +415,7 @@ def main() -> int:
         prev_daily = prev_demand.get("daily", []) if isinstance(prev_demand, dict) else []
         try:
             demand = openrouter_src.fetch(existing=prev_daily)
-            _write_json(DATA / "demand_signals.json", demand)
+            write_json(DATA / "demand_signals.json", demand)
             latest = (demand.get("daily") or [])[-1] if demand.get("daily") else None
             meta["sources"]["openrouter"] = {
                 "ok": 1 if latest else 0,
@@ -452,7 +445,7 @@ def main() -> int:
         prev_cq = _load_json(DATA / "cross_quarter.json", {})
         manual_cq = {t: v for t, v in prev_cq.items() if not v.get("auto_generated")}
         cq = cross_quarter_auto.generate(filing_summ_for_cq, manual_cq)
-        _write_json(DATA / "cross_quarter.json", cq)
+        write_json(DATA / "cross_quarter.json", cq)
         auto_count = sum(1 for v in cq.values() if v.get("auto_generated"))
         meta["sources"]["cross_quarter"] = {
             "ok": len(cq),
@@ -477,7 +470,7 @@ def main() -> int:
         try:
             cq_now = _load_json(DATA / "cross_quarter.json", {})
             bn = bottleneck_stage.compute(layers, merged, cq_now, players)
-            _write_json(DATA / "bottleneck.json", bn)
+            write_json(DATA / "bottleneck.json", bn)
             top3 = sorted(bn.items(), key=lambda kv: -kv[1]["tightness_score"])[:3]
             meta["sources"]["bottleneck"] = {
                 "ok": len(bn),
@@ -525,8 +518,7 @@ def main() -> int:
                 layers_path=DATA / "layers.json",
                 scores_path=DATA / "scores.json",
                 layers_data=layers,
-                write_json=_write_json,
-            )
+                            )
             # Track coverage metrics for about page.
             manual_covered = sum(1 for t in [pp["ticker"] for pp in players]
                                  if t in manual and manual[t].get("fwd_eps_curr") is not None)
@@ -573,7 +565,7 @@ def main() -> int:
                 filing_summaries=filing_summ_now,
                 manual=taiwan_manual,
             )
-            _write_json(DATA / "exit_triggers.json", triggers)
+            write_json(DATA / "exit_triggers.json", triggers)
             meta["sources"]["exit_triggers"] = {
                 "ok": 1,
                 "overall": triggers["overall"],
@@ -604,7 +596,7 @@ def main() -> int:
         prev_movers = _load_json(DATA / "tw_movers.json", {})
         try:
             movers = tw_universe_src.fetch(existing=prev_movers)
-            _write_json(DATA / "tw_movers.json", movers)
+            write_json(DATA / "tw_movers.json", movers)
             meta["sources"]["tw_universe"] = {
                 "ok": movers.get("count", 0),
                 "stock_count": movers.get("count", 0),
@@ -637,7 +629,7 @@ def main() -> int:
         prev_us_movers = _load_json(DATA / "us_movers.json", {})
         try:
             us_movers = us_universe_src.fetch(existing=prev_us_movers)
-            _write_json(DATA / "us_movers.json", us_movers)
+            write_json(DATA / "us_movers.json", us_movers)
             meta["sources"]["us_universe"] = {
                 "ok": us_movers.get("count", 0),
                 "stock_count": us_movers.get("count", 0),
@@ -662,7 +654,7 @@ def main() -> int:
     broken = broken_stages(meta["sources"], prev_meta.get("sources", {}), started)
     if broken:
         meta["broken_stages"] = broken
-    _write_json(DATA / "meta.json", meta)
+    write_json(DATA / "meta.json", meta)
     for name, errs in broken.items():
         log.error("Stage %s failed: %s", name, errs)
 

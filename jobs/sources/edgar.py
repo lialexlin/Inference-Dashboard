@@ -152,7 +152,7 @@ def fetch(tickers: list[str], days_back: int = 365, max_reports_per_ticker: int 
                     continue
                 try:
                     fdate = datetime.fromisoformat(dates[i]).date()
-                except Exception:
+                except (TypeError, ValueError):
                     continue
                 if fdate < cutoff:
                     continue
@@ -172,7 +172,7 @@ def fetch(tickers: list[str], days_back: int = 365, max_reports_per_ticker: int 
                     continue
                 try:
                     fdate = datetime.fromisoformat(dates[i]).date()
-                except Exception:
+                except (TypeError, ValueError):
                     continue
                 # Earnings 8-K is released BEFORE the matching periodic report
                 # (1 day before for 10-Qs, often 1-3 weeks before for 10-Ks).

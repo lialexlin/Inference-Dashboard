@@ -23,7 +23,6 @@ from __future__ import annotations
 
 import re
 from datetime import datetime, timedelta, timezone
-from typing import Any
 
 # Supply-tightness language. These hits mean "demand exceeds supply" — the
 # textual fingerprint of a binding bottleneck.
@@ -88,10 +87,10 @@ def compute(
     for s in signals:
         try:
             sig_date = datetime.fromisoformat(s["date"]).replace(tzinfo=timezone.utc)
-        except Exception:
+        except ValueError:
             try:
                 sig_date = datetime.fromisoformat(s["date"] + "T00:00:00+00:00")
-            except Exception:
+            except ValueError:
                 continue
         if sig_date < cutoff:
             continue

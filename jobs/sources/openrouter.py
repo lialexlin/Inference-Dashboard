@@ -89,7 +89,7 @@ def _extract_ranking_records(html: str) -> list[dict]:
             continue
         try:
             obj = json.loads(combined[start:end])
-        except Exception:
+        except json.JSONDecodeError:
             continue
         records.append(obj)
     return records

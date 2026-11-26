@@ -36,6 +36,7 @@ import time
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
+from jobs.io import write_json
 
 log = logging.getLogger(__name__)
 
@@ -261,11 +262,7 @@ def fetch(
             **parsed,
         }
 
-        # 5. Atomic write.
-        import json
-        tmp = out_path.with_suffix(".json.tmp")
-        tmp.write_text(json.dumps(entry, indent=2, ensure_ascii=False) + "\n")
-        tmp.replace(out_path)
+        write_json(out_path, entry)
         result.fetched.append(entry)
         log.info("OK transcripts %s: call_id=%d, %s, %d segments, %d words",
                  ticker, call_id, parsed.get("call_type") or "?",
@@ -284,8 +281,9 @@ def build_index(data_dir: Path) -> dict:
         return {"by_ticker": {}, "total_calls": 0, "tickers_covered": 0}
     for p in sorted(data_dir.glob("*.json")):
         try:
-            entry = json.loads(p.read_text())
-        except Exception:
+            entry = json.loads(p.read_text(encoding="utf-8"))
+        except (OSError, ValueError) as e:
+            log.warning("Skip unreadable transcript %s: %s", p.name, e)
             continue
         t = entry.get("ticker")
         if not t:

@@ -11,12 +11,11 @@ Sign convention: positive = "good" (strong growth or cheap valuation).
 """
 from __future__ import annotations
 
-import math
 import re
 import statistics
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
-from typing import Any
+from jobs.io import write_json
 
 # Quadrant decision thresholds. Tune after observing the first run.
 THRESH = 0.3
@@ -477,7 +476,6 @@ def write_outputs(
     layers_path,
     scores_path,
     layers_data: list[dict],
-    write_json,
 ) -> None:
     """Persist scores to scores.json, inject into fundamentals.json, and
     write status_auto into layers.json (preserving status / status_override).
@@ -498,7 +496,7 @@ def write_outputs(
     write_json(scores_path, summary)
 
     # 2. inject into fundamentals.json
-    fund = json.loads(fund_path.read_text()) if fund_path.exists() else {}
+    fund = json.loads(fund_path.read_text(encoding="utf-8")) if fund_path.exists() else {}
     for t, s in scores.items():
         fund.setdefault(t, {})["score"] = s
     write_json(fund_path, fund)

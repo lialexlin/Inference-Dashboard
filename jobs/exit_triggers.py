@@ -30,7 +30,6 @@ from __future__ import annotations
 
 import re
 from datetime import datetime, timedelta, timezone
-from typing import Any
 
 WORST_ORDER = {"green": 0, "amber": 1, "red": 2}
 
@@ -89,7 +88,7 @@ def _eval_hyperscaler_capex(signals: list[dict], filing_summaries: dict | None) 
             d = datetime.fromisoformat((sig.get("date") or "").replace("Z", "+00:00"))
             if d.tzinfo is None:
                 d = d.replace(tzinfo=timezone.utc)
-        except Exception:
+        except ValueError:
             continue
         if d < cutoff:
             continue
@@ -188,7 +187,7 @@ def _signal_in_window(s: dict, cutoff: datetime) -> bool:
         if d.tzinfo is None:
             d = d.replace(tzinfo=timezone.utc)
         return d >= cutoff
-    except Exception:
+    except ValueError:
         return False
 
 

@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import re
 from collections import Counter
-from typing import Any
 
 
 # Per-layer keyword lists. Order matters only for tie-breaking by list position.

@@ -7,7 +7,6 @@ jobs/cache.db-journal
 data/*.json.tmp
 .DS_Store
 .python-version
-uv.lock
 
 # Local dev / tooling artifacts — not part of the site
 .playwright-mcp/

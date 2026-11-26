@@ -58,6 +58,7 @@ from statistics import median
 from typing import Any
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
+from jobs.io import write_json
 
 LOG = logging.getLogger(__name__)
 
@@ -888,7 +889,7 @@ def _load_tracked_codes(players_path: Path) -> set[str]:
     if not players_path.exists():
         return set()
     try:
-        players = json.loads(players_path.read_text())
+        players = json.loads(players_path.read_text(encoding="utf-8"))
     except Exception:
         return set()
     codes: set[str] = set()
@@ -898,17 +899,6 @@ def _load_tracked_codes(players_path: Path) -> set[str]:
             code = ticker.split(".")[0]
             codes.add(code)
     return codes
-
-
-# ---------------------------------------------------------------------------
-# Atomic write (standalone-run helper; refresh.py uses its own _write_json)
-# ---------------------------------------------------------------------------
-
-def _write_json(path: Path, data: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
-    tmp.replace(path)
 
 
 # ---------------------------------------------------------------------------
@@ -1132,13 +1122,13 @@ if __name__ == "__main__":
     prev = {}
     if out_path.exists():
         try:
-            prev = json.loads(out_path.read_text())
-        except Exception:
-            pass
+            prev = json.loads(out_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError) as e:
+            LOG.warning("Prior %s unreadable, starting fresh: %s", out_path.name, e)
 
     try:
         result = fetch(existing=prev)
-        _write_json(out_path, result)
+        write_json(out_path, result)
         print(f"OK: {result['count']} stocks written to {out_path}")
         print(f"Dates: {result['dates']}")
         print(f"Sectors ({len(result['sectors'])}):")

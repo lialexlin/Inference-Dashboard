@@ -16,6 +16,7 @@ import logging
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+from jobs.io import write_json
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -955,22 +956,11 @@ def resolve_ciq_mapping(verbose: bool = True) -> dict:
         cur.close()
         conn.close()
 
-    _write_json(DATA / "ciq_mapping.json", mapping)
+    write_json(DATA / "ciq_mapping.json", mapping)
     if verbose:
         ok = sum(1 for v in mapping.values() if v["company_id"] is not None)
         print(f"\nResolved {ok}/{len(PLAYERS)}. Unresolved: {unresolved}")
     return mapping
-
-
-# ---------------------------------------------------------------------------
-# Writers
-# ---------------------------------------------------------------------------
-
-def _write_json(path: Path, data) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
-    tmp.replace(path)
 
 
 def main() -> None:
@@ -988,7 +978,7 @@ def main() -> None:
     prior_by_id: dict[str, dict] = {}
     if prior_layers_path.exists():
         try:
-            prior_by_id = {l["id"]: l for l in json.loads(prior_layers_path.read_text())}
+            prior_by_id = {l["id"]: l for l in json.loads(prior_layers_path.read_text(encoding="utf-8"))}
         except (json.JSONDecodeError, KeyError, TypeError):
             prior_by_id = {}
     merged_layers = []
@@ -1000,13 +990,13 @@ def main() -> None:
         if "status" in prior:
             out["status"] = prior["status"]
         merged_layers.append(out)
-    _write_json(prior_layers_path, merged_layers)
-    _write_json(DATA / "players.json", PLAYERS)
-    _write_json(DATA / "signals.json", sorted(SIGNALS, key=lambda s: s["date"], reverse=True))
+    write_json(prior_layers_path, merged_layers)
+    write_json(DATA / "players.json", PLAYERS)
+    write_json(DATA / "signals.json", sorted(SIGNALS, key=lambda s: s["date"], reverse=True))
 
     for layer in LAYERS:
         body = LAYER_CONTENT.get(layer["id"], "_(content pending)_\n")
-        (CONTENT / f"{layer['order']:02d}-{layer['id']}.md").write_text(body)
+        (CONTENT / f"{layer['order']:02d}-{layer['id']}.md").write_text(body, encoding="utf-8")
 
     print(f"Wrote {len(LAYERS)} layers, {len(PLAYERS)} players, {len(SIGNALS)} signals")
     print(f"Layer markdown → {CONTENT}")

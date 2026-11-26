@@ -9,7 +9,6 @@ import hashlib
 import logging
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
-from typing import Any
 
 log = logging.getLogger(__name__)
 
@@ -46,7 +45,7 @@ def _parse_date(entry) -> str:
         if v:
             try:
                 return datetime(*v[:6], tzinfo=timezone.utc).date().isoformat()
-            except Exception:
+            except (TypeError, ValueError):
                 pass
     return datetime.now(timezone.utc).date().isoformat()
 

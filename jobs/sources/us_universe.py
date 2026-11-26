@@ -46,7 +46,7 @@ from pathlib import Path
 from statistics import median
 from typing import Any
 from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
+from jobs.io import write_json
 
 LOG = logging.getLogger(__name__)
 
@@ -373,8 +373,9 @@ def _classify(universe: list[dict], cache_path: Path) -> dict[str, dict]:
     cache: dict[str, dict] = {}
     if cache_path.exists():
         try:
-            cache = json.loads(cache_path.read_text())
-        except Exception:
+            cache = json.loads(cache_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError) as e:
+            LOG.warning("Industry cache %s unreadable, refetching: %s", cache_path.name, e)
             cache = {}
 
     missing = [u["yf_symbol"] for u in universe if u["yf_symbol"] not in cache]
@@ -394,10 +395,10 @@ def _classify(universe: list[dict], cache_path: Path) -> dict[str, dict]:
         except Exception as e:
             LOG.debug("classify %s failed (will retry next run): %s", sym, e)
         if (i + 1) % INFO_CHECKPOINT == 0:
-            _write_json(cache_path, cache)
+            write_json(cache_path, cache)
             LOG.info("  classified %d/%d ...", i + 1, len(missing))
         time.sleep(INFO_SLEEP_S)
-    _write_json(cache_path, cache)
+    write_json(cache_path, cache)
     return cache
 
 
@@ -586,22 +587,11 @@ def _load_tracked_symbols(players_path: Path) -> set[str]:
     if not players_path.exists():
         return set()
     try:
-        players = json.loads(players_path.read_text())
+        players = json.loads(players_path.read_text(encoding="utf-8"))
     except Exception:
         return set()
     return {str(p.get("ticker", "")).upper() for p in players
             if p.get("ticker") and "." not in str(p["ticker"])}
-
-
-# ---------------------------------------------------------------------------
-# Atomic write (standalone helper; refresh.py uses its own _write_json)
-# ---------------------------------------------------------------------------
-
-def _write_json(path: Path, data: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
-    tmp.replace(path)
 
 
 # ---------------------------------------------------------------------------
@@ -709,13 +699,13 @@ if __name__ == "__main__":
     prev = {}
     if out_path.exists():
         try:
-            prev = json.loads(out_path.read_text())
-        except Exception:
-            pass
+            prev = json.loads(out_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError) as e:
+            LOG.warning("Prior %s unreadable, starting fresh: %s", out_path.name, e)
 
     try:
         result = fetch(existing=prev)
-        _write_json(out_path, result)
+        write_json(out_path, result)
         print(f"OK: {result['count']} stocks written to {out_path}")
         print(f"Dates: {result['dates']}")
         print(f"\nTop 14 industries by 3M median:")

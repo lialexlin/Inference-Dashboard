@@ -79,7 +79,8 @@ def _next_earnings(yt) -> dict[str, Any] | None:
     cal = None
     try:
         cal = yt.calendar
-    except Exception:
+    except Exception as e:
+        log.debug("calendar fetch failed for %s: %s", yt.ticker, e)
         cal = None
     cal_dates: list[date] = []
     if isinstance(cal, dict):
@@ -103,7 +104,8 @@ def _next_earnings(yt) -> dict[str, Any] | None:
     # Fallback: earnings_dates DataFrame includes both past and future.
     try:
         df = yt.earnings_dates
-    except Exception:
+    except Exception as e:
+        log.debug("earnings_dates fetch failed for %s: %s", yt.ticker, e)
         df = None
     if df is None or getattr(df, "empty", True):
         return None

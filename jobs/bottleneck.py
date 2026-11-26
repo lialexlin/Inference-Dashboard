@@ -23,7 +23,6 @@ from __future__ import annotations
 
 import re
 from datetime import datetime, timedelta, timezone
-from typing import Any
 
 # Supply-tightness language. These hits mean "demand exceeds supply" — the
 # textual fingerprint of a binding bottleneck.
@@ -86,12 +85,13 @@ def compute(
     # Bucket signals per layer (within window)
     per_layer_sigs: dict[str, list[dict]] = {l["id"]: [] for l in layers}
     for s in signals:
+        raw_date = s.get("date") or ""  # undated signals exist (see transform.merge)
         try:
-            sig_date = datetime.fromisoformat(s["date"]).replace(tzinfo=timezone.utc)
-        except Exception:
+            sig_date = datetime.fromisoformat(raw_date).replace(tzinfo=timezone.utc)
+        except ValueError:
             try:
-                sig_date = datetime.fromisoformat(s["date"] + "T00:00:00+00:00")
-            except Exception:
+                sig_date = datetime.fromisoformat(raw_date + "T00:00:00+00:00")
+            except ValueError:
                 continue
         if sig_date < cutoff:
             continue

@@ -229,7 +229,7 @@ window.renderSignalCard = function (sig, opts) {
 
 // Cross-quarter shifts — a single synthesized "what's changed over the last
 // 2-4 filings" card per stock. Data lives in data/cross_quarter.json,
-// populated by the Claude.ai daily routine (see docs/claude_routine_prompt.md).
+// populated by the Claude.ai daily routine (see docs/claude-routine-prompt.md).
 // Schema: { headline, covers, as_of, based_on_accessions, shifts: [{area,
 // direction, trend, note}], verdict }.
 const CQ_DIR_UP = new Set(["accelerating", "improving", "raised", "easing", "expanding"]);
@@ -429,6 +429,9 @@ window.renderExitTriggers = function () {
     </div>`;
 };
 
+// A decimal fraction as a signed percent: 0.123 -> "+12.3%".
+const fmtPctSigned = (v) => v == null ? "—" : (v >= 0 ? "+" : "") + (v * 100).toFixed(1) + "%";
+
 // Demand telemetry strip — homepage. Shows latest OpenRouter snapshot of
 // frontier inference token throughput, WoW change, and top model movers.
 // This is the variant-perception signal that *leads* hyperscaler capex.
@@ -437,7 +440,6 @@ window.renderDemandStrip = function () {
   if (!demand || !demand.daily || !demand.daily.length) return "";
   const latest = demand.daily[demand.daily.length - 1];
   const summary = demand.summary || {};
-  const fmtPctSigned = (v) => v == null ? "—" : (v >= 0 ? "+" : "") + (v * 100).toFixed(1) + "%";
   const wowCls = summary.wow_pct == null ? "" : (summary.wow_pct >= 0 ? "text-[color:var(--green)]" : "text-[color:var(--rose)]");
   const wowLabel = summary.wow_pct != null
     ? `<span class="${wowCls}">${fmtPctSigned(summary.wow_pct)}</span> WoW`
@@ -500,7 +502,6 @@ window.renderImpliedCAGRCard = function (ticker, fundamentals) {
   const revYoy = ciq.revenue_yoy;
   const peT = ciq.pe_trailing;
   const a = score.rdcf_assumptions || {};
-  const fmtP = (x) => x == null ? "—" : (x >= 0 ? "+" : "") + (x * 100).toFixed(1) + "%";
 
   // Verdict logic. Big-negative delta = variant-perception buy if you trust the demand thesis.
   // Big-positive delta = priced for growth that hasn't shown up yet.
@@ -509,22 +510,22 @@ window.renderImpliedCAGRCard = function (ticker, fundamentals) {
   if (delta != null) {
     if (delta < -0.30) {
       tone = "variant";
-      verdict = `Market is implying steep deceleration. At a trailing P/E of <strong>${peT == null ? "—" : peT.toFixed(1)}</strong>, the multiple only requires <strong>${fmtP(impl)}</strong> EPS CAGR over five years — yet revenue just grew <strong>${fmtP(revYoy)}</strong> in the last fiscal year. If you believe the recent demand pace is durable, this is the variant-perception zone.`;
+      verdict = `Market is implying steep deceleration. At a trailing P/E of <strong>${peT == null ? "—" : peT.toFixed(1)}</strong>, the multiple only requires <strong>${fmtPctSigned(impl)}</strong> EPS CAGR over five years — yet revenue just grew <strong>${fmtPctSigned(revYoy)}</strong> in the last fiscal year. If you believe the recent demand pace is durable, this is the variant-perception zone.`;
     } else if (delta < -0.10) {
       tone = "variant-mild";
-      verdict = `Market is modestly pricing in deceleration. The implied 5y EPS CAGR is <strong>${fmtP(impl)}</strong> vs trailing revenue YoY of <strong>${fmtP(revYoy)}</strong>.`;
+      verdict = `Market is modestly pricing in deceleration. The implied 5y EPS CAGR is <strong>${fmtPctSigned(impl)}</strong> vs trailing revenue YoY of <strong>${fmtPctSigned(revYoy)}</strong>.`;
     } else if (delta < 0.10) {
       tone = "neutral";
-      verdict = `Implied CAGR (<strong>${fmtP(impl)}</strong>) roughly matches the most-recent revenue YoY (<strong>${fmtP(revYoy)}</strong>) — the market is largely extrapolating recent trends forward.`;
+      verdict = `Implied CAGR (<strong>${fmtPctSigned(impl)}</strong>) roughly matches the most-recent revenue YoY (<strong>${fmtPctSigned(revYoy)}</strong>) — the market is largely extrapolating recent trends forward.`;
     } else if (delta < 0.30) {
       tone = "expensive-mild";
-      verdict = `Market is pricing for an <em>acceleration</em>. The multiple requires <strong>${fmtP(impl)}</strong> EPS CAGR, but the company is currently growing revenue at <strong>${fmtP(revYoy)}</strong>. Needs a re-acceleration to justify the price.`;
+      verdict = `Market is pricing for an <em>acceleration</em>. The multiple requires <strong>${fmtPctSigned(impl)}</strong> EPS CAGR, but the company is currently growing revenue at <strong>${fmtPctSigned(revYoy)}</strong>. Needs a re-acceleration to justify the price.`;
     } else {
       tone = "expensive";
-      verdict = `Market is pricing for steep <em>acceleration</em>. The multiple demands <strong>${fmtP(impl)}</strong> EPS CAGR while revenue just grew <strong>${fmtP(revYoy)}</strong>. Either growth re-accelerates dramatically or the multiple compresses.`;
+      verdict = `Market is pricing for steep <em>acceleration</em>. The multiple demands <strong>${fmtPctSigned(impl)}</strong> EPS CAGR while revenue just grew <strong>${fmtPctSigned(revYoy)}</strong>. Either growth re-accelerates dramatically or the multiple compresses.`;
     }
   } else {
-    verdict = `Implied 5y EPS CAGR: <strong>${fmtP(impl)}</strong>. (No recent revenue YoY available to compare.)`;
+    verdict = `Implied 5y EPS CAGR: <strong>${fmtPctSigned(impl)}</strong>. (No recent revenue YoY available to compare.)`;
   }
 
   return `
@@ -533,15 +534,15 @@ window.renderImpliedCAGRCard = function (ticker, fundamentals) {
         <div class="rdcf-card__numbers">
           <div class="rdcf-card__metric">
             <div class="rdcf-card__metric-label">Implied 5y EPS CAGR</div>
-            <div class="rdcf-card__metric-val">${fmtP(impl)}</div>
+            <div class="rdcf-card__metric-val">${fmtPctSigned(impl)}</div>
           </div>
           <div class="rdcf-card__metric">
             <div class="rdcf-card__metric-label">Recent revenue YoY</div>
-            <div class="rdcf-card__metric-val">${fmtP(revYoy)}</div>
+            <div class="rdcf-card__metric-val">${fmtPctSigned(revYoy)}</div>
           </div>
           <div class="rdcf-card__metric">
             <div class="rdcf-card__metric-label">Delta</div>
-            <div class="rdcf-card__metric-val ${delta == null ? "" : (delta < 0 ? "text-[color:var(--rose)]" : "text-[color:var(--green)]")}">${fmtP(delta)}</div>
+            <div class="rdcf-card__metric-val ${delta == null ? "" : (delta < 0 ? "text-[color:var(--rose)]" : "text-[color:var(--green)]")}">${fmtPctSigned(delta)}</div>
           </div>
         </div>
         <div class="rdcf-card__assumptions" title="Assumptions used in the reverse-DCF solve.">

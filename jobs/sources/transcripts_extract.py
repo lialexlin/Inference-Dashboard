@@ -160,7 +160,7 @@ def build_signals(transcripts_dir: Path) -> list[dict]:
         return out
     for path in sorted(transcripts_dir.glob("*.json")):
         try:
-            entry = json.loads(path.read_text())
+            entry = json.loads(path.read_text(encoding="utf-8"))
         except Exception as e:
             log.warning("Skip transcript %s: %s", path.name, e)
             continue

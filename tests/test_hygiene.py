@@ -1,0 +1,84 @@
+"""Guards for the repo-wide rules a refactor must not undo.
+
+Run: uv run python -m unittest discover tests
+"""
+from __future__ import annotations
+
+import ast
+import json
+import os
+import re
+import subprocess
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+JOBS = ROOT / "jobs"
+
+
+def _calls(*names: str, dirs=(JOBS,)):
+    """(path:line, call) for every call to `x.name(...)` or `name(...)` under `dirs`."""
+    for p in sorted(f for d in dirs for f in d.rglob("*.py")):
+        for node in ast.walk(ast.parse(p.read_text(encoding="utf-8"))):
+            if isinstance(node, ast.Call):
+                f = node.func
+                name = f.attr if isinstance(f, ast.Attribute) else getattr(f, "id", None)
+                if name in names:
+                    yield f"{p.relative_to(ROOT).as_posix()}:{node.lineno}", node
+
+
+class OneJsonWriter(unittest.TestCase):
+    def test_only_jobs_io_serialises_json_or_opens_files(self):
+        """A second writer drifts from the first (the four copies did) and
+        loses the UTF-8 and temp-file guarantees. Use jobs.io.write_json."""
+        offenders = [where for where, _ in _calls("dump", "dumps", "open") if not where.startswith("jobs/io.py:")]
+        self.assertEqual(offenders, [])
+
+    def test_written_json_is_utf8_under_an_ascii_locale(self):
+        """refresh.cmd runs on Windows, whose default code page cannot hold a
+        Taiwan company name; an ASCII locale reproduces that on any OS."""
+        with tempfile.TemporaryDirectory() as d:
+            out = Path(d) / "x.json"
+            env = {**os.environ, "LC_ALL": "C", "LANG": "C", "PYTHONUTF8": "0", "PYTHONCOERCECLOCALE": "0"}
+            proc = subprocess.run(
+                [sys.executable, "-c", "import sys; from pathlib import Path; from jobs.io import write_json; "
+                 # ASCII escapes: under the C locale Linux decodes argv as ASCII.
+                 "write_json(Path(sys.argv[1]), {'name': '\\u53f0\\u7a4d\\u96fb'})", str(out)],
+                cwd=ROOT, env=env, capture_output=True, text=True,
+            )
+            self.assertEqual(proc.returncode, 0, proc.stderr)
+            self.assertEqual(json.loads(out.read_bytes().decode("utf-8")), {"name": "台積電"})
+            self.assertEqual([p.name for p in Path(d).iterdir()], ["x.json"])
+
+
+class TextIoIsUtf8(unittest.TestCase):
+    def test_every_read_text_and_write_text_names_utf8(self):
+        offenders = [
+            where for where, call in _calls("read_text", "write_text", dirs=(JOBS, ROOT / "tests"))
+            if not any(k.arg == "encoding" and isinstance(k.value, ast.Constant) and k.value.value == "utf-8"
+                       for k in call.keywords)
+        ]
+        self.assertEqual(offenders, [])
+
+
+class PinnedVersions(unittest.TestCase):
+    def test_every_cdn_script_names_an_exact_version(self):
+        """An unversioned CDN URL silently swaps the library under the pages."""
+        offenders = []
+        for p in sorted(ROOT.glob("*.html")):
+            # [^>] spans newlines, so a src on the line after <script is still seen.
+            for url in re.findall(r"""<script\b[^>]*?\bsrc\s*=\s*["']?(https?://[^"'\s>]+)""", p.read_text(encoding="utf-8"), re.I):
+                if not re.search(r"[@/]\d+\.\d+\.\d+(/|$)", url):
+                    offenders.append(f"{p.name} {url}")
+        self.assertEqual(offenders, [])
+
+    def test_uv_lock_is_committed(self):
+        git = lambda *a: subprocess.run(["git", "-C", str(ROOT), *a], capture_output=True)
+        self.assertEqual(git("check-ignore", "-q", "--no-index", "uv.lock").returncode, 1, "uv.lock is gitignored")
+        self.assertEqual(git("ls-files", "--error-unmatch", "uv.lock").returncode, 0, "uv.lock is not tracked")
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>US Movers · Inference Stack</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <link rel="stylesheet" href="assets/styles.css?v=3">
   <style>
     /* Heat-map cell */
@@ -159,7 +159,8 @@
   </main>
 
   <script src="assets/app.js?v=3"></script>
-  <script src="assets/components.js?v=3"></script>
+  <script src="assets/components.js?v=4"></script>
+  <script src="assets/movers.js?v=1"></script>
   <script>
   (async () => {
     // ---- Load shared data (for nav refresh time + tracked player list) ----
@@ -200,7 +201,6 @@
     const TOP_N = 100;
 
     const PERIOD_LABELS = { ret_1d: "1D", ret_1w: "1W", ret_1m: "1M", ret_3m: "3M", ret_6m: "6M", ret_1y: "1Y" };
-    const PERIOD_ORDER = ["ret_1d", "ret_1w", "ret_1m", "ret_3m", "ret_6m", "ret_1y"];
 
     const stocks = (US.stocks || []).map((s) => ({
       ...s,
@@ -210,13 +210,6 @@
     const sectorSelect = document.getElementById("sector-select");
 
     // ---- Helpers ----
-    function escHtml(s) {
-      return String(s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-    }
-    function fmtRet(v) {
-      if (v == null || isNaN(v)) return "—";
-      return (v > 0 ? "+" : "") + v.toFixed(1) + "%";
-    }
     // Compact USD market cap: T / B.
     function fmtMktcap(v) {
       if (v == null || isNaN(v)) return "—";
@@ -225,45 +218,6 @@
       if (v >= 1e6)  return "$" + (v / 1e6).toFixed(0) + "M";
       return "$" + Math.round(v).toLocaleString();
     }
-    function retColor(v) {
-      if (v == null || isNaN(v)) return "var(--text-faint)";
-      if (v >= 30) return "#34d399";
-      if (v >= 15) return "#6ee7b7";
-      if (v >= 5)  return "#a7f3d0";
-      if (v > -5)  return "var(--text-faint)";
-      if (v > -15) return "#fda4af";
-      return "var(--rose)";
-    }
-    function retClass(v) {
-      if (v == null || isNaN(v)) return "ret-flat";
-      if (v >= 30) return "ret-strong-up";
-      if (v >= 5)  return "ret-up";
-      if (v > -5)  return "ret-flat";
-      if (v > -15) return "ret-dn";
-      return "ret-strong-dn";
-    }
-    function heatBg(v) {
-      if (v == null || isNaN(v)) return "var(--bg-card)";
-      const abs = Math.abs(v);
-      const alpha = Math.min(abs / 40, 1) * 0.55 + 0.06;
-      if (v >= 0) return `rgba(52,211,153,${alpha.toFixed(2)})`;
-      return `rgba(251,113,133,${alpha.toFixed(2)})`;
-    }
-    function numCmp(a, b, dir) {
-      const aNull = a == null || (typeof a === "number" && isNaN(a));
-      const bNull = b == null || (typeof b === "number" && isNaN(b));
-      if (aNull && bNull) return 0;
-      if (aNull) return 1;
-      if (bNull) return -1;
-      return dir === "desc" ? b - a : a - b;
-    }
-    function strCmp(a, b, dir) {
-      a = (a || "").toLowerCase(); b = (b || "").toLowerCase();
-      if (a < b) return dir === "desc" ? 1 : -1;
-      if (a > b) return dir === "desc" ? -1 : 1;
-      return 0;
-    }
-
     const SORT_DEFS = {
       active_period: { type: "num", get: (s) => s[activePeriod] },
       symbol:      { type: "str", get: (s) => s.symbol },
@@ -285,33 +239,9 @@
     }
 
     // ---- Sector medians, client-side over the active floor (mirrors TW page) ----
-    function median(arr) {
-      const a = arr.filter((v) => v != null && !isNaN(v)).sort((x, y) => x - y);
-      if (!a.length) return null;
-      const m = Math.floor(a.length / 2);
-      return a.length % 2 ? a[m] : (a[m - 1] + a[m]) / 2;
-    }
     function heatmapSubset() {
       return stocks.filter((s) => !(mktcapFloor && (s.mktcap == null || s.mktcap < mktcapFloor)));
     }
-    function computeSectors(subset) {
-      const by = new Map();
-      subset.forEach((s) => {
-        const key = s.industry_en || "Other";
-        if (!by.has(key)) by.set(key, { industry_en: key, n: 0, vals: {} });
-        const o = by.get(key);
-        o.n += 1;
-        PERIOD_ORDER.forEach((p) => { (o.vals[p] = o.vals[p] || []).push(s[p]); });
-      });
-      const out = [];
-      by.forEach((o) => {
-        const sec = { industry_en: o.industry_en, n: o.n };
-        PERIOD_ORDER.forEach((p) => { sec["median_" + p.replace("ret_", "")] = median(o.vals[p]); });
-        out.push(sec);
-      });
-      return out;
-    }
-
     // ---- As-of note (floor-aware: count reflects the active Min-cap floor) ----
     function fmtFloorLabel(v) {
       if (!v) return "(all)";
@@ -332,7 +262,7 @@
         .sort((a, b) => (a.industry_en || "").localeCompare(b.industry_en || ""));
       const cur = activeSector;
       sectorSelect.innerHTML = '<option value="">All industries</option>' +
-        secs.map((s) => `<option value="${escHtml(s.industry_en)}">${escHtml(s.industry_en)} (${s.n})</option>`).join("");
+        secs.map((s) => `<option value="${escapeHtml(s.industry_en)}">${escapeHtml(s.industry_en)} (${s.n})</option>`).join("");
       sectorSelect.value = cur;
       if (sectorSelect.value !== cur) {
         activeSector = "";
@@ -353,10 +283,10 @@
         const v = secVal(sec);
         const label = sec.industry_en || "";
         const isSelected = activeSector === label;
-        return `<div class="heatcell${isSelected ? " selected" : ""}" data-sector="${escHtml(label)}"
+        return `<div class="heatcell${isSelected ? " selected" : ""}" data-sector="${escapeHtml(label)}"
             style="background:${heatBg(v)}">
-            <div class="hc-pct" style="color:${retColor(v)}">${fmtRet(v)}</div>
-            <div class="hc-name" title="${escHtml(label)}">${escHtml(label)}</div>
+            <div class="hc-pct" style="color:${retColor(v)}">${fmtPct(v)}</div>
+            <div class="hc-name" title="${escapeHtml(label)}">${escapeHtml(label)}</div>
             <div class="hc-n">n=${sec.n}</div>
           </div>`;
       }).join("");
@@ -422,8 +352,8 @@
         const activeClass = isActiveSort ? "text-[color:var(--text)]" : "";
         const periodHighlight = PERIOD_ORDER.includes(key) && key === activePeriod ? "period-active" : "";
         const arrow = isActiveSort ? (sort.dir === "desc" ? " ↓" : " ↑") : "";
-        const title = opts.title ? ` title="${escHtml(opts.title)}"` : "";
-        return `<th class="${align} ${hidden} ${activeClass} ${periodHighlight} cursor-pointer select-none" data-sort-key="${key}"${title}>${escHtml(label)}<span class="text-[color:var(--text-faint)]">${arrow}</span></th>`;
+        const title = opts.title ? ` title="${escapeHtml(opts.title)}"` : "";
+        return `<th class="${align} ${hidden} ${activeClass} ${periodHighlight} cursor-pointer select-none" data-sort-key="${key}"${title}>${escapeHtml(label)}<span class="text-[color:var(--text-faint)]">${arrow}</span></th>`;
       }
 
       const thead = `<tr>
@@ -443,23 +373,23 @@
 
       const tbody = displayed.map((s, i) => {
         const indChip = s.industry_en
-          ? `<span class="ind-chip">${escHtml(s.industry_en)}</span>`
+          ? `<span class="ind-chip">${escapeHtml(s.industry_en)}</span>`
           : `<span class="text-[color:var(--text-faint)]">—</span>`;
         const trackedBadge = s.tracked
           ? `<a href="stock.html?ticker=${encodeURIComponent(s.symbol)}" class="tracked-badge ml-1" title="Open dashboard stock page">&#10003; tracked</a>`
           : "";
         const symLink = `<a href="https://finance.yahoo.com/quote/${encodeURIComponent(s.symbol)}" target="_blank" rel="noopener noreferrer"
-            class="font-mono font-semibold text-white hover:text-[color:var(--sky)] hover:underline underline-offset-2">${escHtml(s.symbol)}</a>`;
+            class="font-mono font-semibold text-white hover:text-[color:var(--sky)] hover:underline underline-offset-2">${escapeHtml(s.symbol)}</a>`;
 
         function retCell(v, periodKey, hiddenClass) {
           const active = periodKey === activePeriod ? " period-active" : "";
-          return `<td class="num text-right ${hiddenClass || ""} ${retClass(v)}${active}">${fmtRet(v)}</td>`;
+          return `<td class="num text-right ${hiddenClass || ""} ${retClass(v)}${active}">${fmtPct(v)}</td>`;
         }
 
         return `<tr>
           <td class="rank-cell">${i + 1}</td>
           <td>${symLink}${trackedBadge}</td>
-          <td><div class="text-white text-sm">${escHtml(s.name || "—")}</div></td>
+          <td><div class="text-white text-sm">${escapeHtml(s.name || "—")}</div></td>
           <td class="hidden lg:table-cell">${indChip}</td>
           <td class="num text-right text-[color:var(--text-dim)]">${s.close != null ? "$" + s.close.toLocaleString(undefined, { maximumFractionDigits: 2 }) : "—"}</td>
           <td class="num text-right text-[color:var(--text-dim)]">${fmtMktcap(s.mktcap)}</td>

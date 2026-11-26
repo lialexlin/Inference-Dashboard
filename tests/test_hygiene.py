@@ -43,11 +43,13 @@ class OneJsonWriter(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             out = Path(d) / "x.json"
             env = {**os.environ, "LC_ALL": "C", "LANG": "C", "PYTHONUTF8": "0", "PYTHONCOERCECLOCALE": "0"}
-            subprocess.run(
+            proc = subprocess.run(
                 [sys.executable, "-c", "import sys; from pathlib import Path; from jobs.io import write_json; "
-                 "write_json(Path(sys.argv[1]), {'name': '台積電'})", str(out)],
-                cwd=ROOT, env=env, check=True, capture_output=True,
+                 # ASCII escapes: under the C locale Linux decodes argv as ASCII.
+                 "write_json(Path(sys.argv[1]), {'name': '\\u53f0\\u7a4d\\u96fb'})", str(out)],
+                cwd=ROOT, env=env, capture_output=True, text=True,
             )
+            self.assertEqual(proc.returncode, 0, proc.stderr)
             self.assertEqual(json.loads(out.read_bytes().decode("utf-8")), {"name": "台積電"})
             self.assertEqual([p.name for p in Path(d).iterdir()], ["x.json"])
 

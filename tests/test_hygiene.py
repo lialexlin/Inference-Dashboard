@@ -74,7 +74,7 @@ class PinnedVersions(unittest.TestCase):
 
     def test_uv_lock_is_committed(self):
         git = lambda *a: subprocess.run(["git", "-C", str(ROOT), *a], capture_output=True)
-        self.assertEqual(git("check-ignore", "-q", "uv.lock").returncode, 1, "uv.lock is gitignored")
+        self.assertEqual(git("check-ignore", "-q", "--no-index", "uv.lock").returncode, 1, "uv.lock is gitignored")
         self.assertEqual(git("ls-files", "--error-unmatch", "uv.lock").returncode, 0, "uv.lock is not tracked")
 
 

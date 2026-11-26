@@ -518,7 +518,7 @@ def main() -> int:
                 layers_path=DATA / "layers.json",
                 scores_path=DATA / "scores.json",
                 layers_data=layers,
-                            )
+            )
             # Track coverage metrics for about page.
             manual_covered = sum(1 for t in [pp["ticker"] for pp in players]
                                  if t in manual and manual[t].get("fwd_eps_curr") is not None)

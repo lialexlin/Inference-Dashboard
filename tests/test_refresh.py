@@ -12,7 +12,7 @@ import unittest
 from pathlib import Path
 from unittest import mock
 
-from jobs import refresh, scoring
+from jobs import bottleneck, refresh, scoring
 from jobs.sources import capital_iq, prices
 
 REPO_DATA = Path(__file__).resolve().parent.parent / "data"
@@ -125,6 +125,17 @@ class ScoringWithoutCiq(unittest.TestCase):
             signals=load("signals.json"), manual={},
         )
         self.assertTrue(scores)
+
+
+class BottleneckSkipsUndatedSignals(unittest.TestCase):
+    """A signal with no parseable date (an undated transcript) is skipped, not
+    allowed to fail the whole bottleneck stage."""
+
+    def test_undated_signals_are_skipped(self):
+        layers = [{"id": "gpu"}]
+        for date in (None, "", "not-a-date"):
+            bottleneck.compute(layers, [{"date": date, "layer_ids": ["gpu"]}], {}, [])
+        bottleneck.compute(layers, [{"layer_ids": ["gpu"]}], {}, [])
 
 
 if __name__ == "__main__":
